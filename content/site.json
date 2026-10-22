@@ -1,0 +1,18 @@
+{
+  "name": "Calvin's Army & Tech Briefings",
+  "shortName": "Calvin's Briefings",
+  "tagline": "Army, defense, AI, cyber and infrastructure signals, compiled every weekday morning with sources.",
+  "audience": "Written for a Consulting Systems Engineer at World Wide Technology supporting the U.S. Army tactical team at Aberdeen Proving Ground.",
+  "updated": "2026-10-22",
+  "sections": [
+    "army",
+    "dow",
+    "ai",
+    "cyber",
+    "wwt",
+    "budget",
+    "tech",
+    "partners",
+    "datacenter"
+  ]
+}

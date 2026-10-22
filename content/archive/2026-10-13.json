@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-13",
+  "title": "October 13, 2026",
+  "note": "Last compilation of the previous briefings site, which stopped updating on October 13. These six top signals are carried here with their original sources. They are not part of the October 22 edition.",
+  "signals": [
+    {
+      "label": "DOW",
+      "dateLabel": "Oct 8–12",
+      "headline": "Iran calls latest U.S. proposal insufficient; Saudi airports hit again",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/iran-says-it-will-reply-us-response-hormuz-proposal-once-review-over-2026-10-12/"
+        },
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/iran-calls-latest-u-s-proposal-to-end-war-insufficient-as-netanyahus-corruption-trial-resumes"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Oct 12",
+      "headline": "Meta launches Muse Wonder and Muse Wonder Full, its first frontier models",
+      "sources": [
+        {
+          "name": "Meta",
+          "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/amp/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Oct 10–12",
+      "headline": "Pentagon DMDC personnel breach: notices go to about 3 million people",
+      "sources": [
+        {
+          "name": "Nextgov/FCW",
+          "url": "https://www.nextgov.com/cybersecurity/2026/10/pentagon-personnel-breach-undetected-months-renews-cyber-standard-scrutiny/416414/"
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/tech/pentagon-data-breach-exposes-records-over-3m-people"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Oct 12",
+      "headline": "OCP: Nvidia opens Vera Rubin rack designs; Meta and Google adopt Spectrum-X",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/"
+        }
+      ]
+    },
+    {
+      "label": "ARMY",
+      "dateLabel": "Oct 10–12",
+      "headline": "AUSA opens without a confirmed Army secretary or chief",
+      "sources": [
+        {
+          "name": "Washington Times",
+          "url": "https://www.washingtontimes.com/news/2026/oct/10/us-army-heads-annual-convention-amid-leadership-turmoil-major-budget/"
+        },
+        {
+          "name": "Politico",
+          "url": "https://www.politico.com/newsletters/global-security/2026/10/12/hegseth-battles-over-the-pentagons-future-01115850"
+        }
+      ]
+    },
+    {
+      "label": "WWT",
+      "dateLabel": "Oct 2–7",
+      "headline": "FASCOM stood up; NGC2 apps go to nine vendors on Anduril's data layer",
+      "sources": [
+        {
+          "name": "Army.mil (FASCOM)",
+          "url": "https://www.army.mil/article/295913/army_announces_futures_and_autonomous_systems_command"
+        },
+        {
+          "name": "Army.mil (NGC2)",
+          "url": "https://www.army.mil/article/295991/new_contract_awards_support_army_next_generation_command_and_control_software_delivery_to_i_corps"
+        }
+      ]
+    }
+  ]
+}
