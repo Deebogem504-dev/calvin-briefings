@@ -7,8 +7,8 @@
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
   "compiled": "2026-10-22",
-  "covers": "Oct 14–21, 2026",
-  "readFirst": "Covers Oct. 14–21. New: Hegseth's Pentagon meeting with the British defense secretary, the White House decision not to livestream the Hasan execution, and Iran's latest position on the Strait of Hormuz. Golden Dome's fiscal 2027 money is still mostly in an unpassed reconciliation request.",
+  "covers": "Oct 14–22, 2026",
+  "readFirst": "Covers Oct. 20–22, and keeps the Oct. 14–15 items that are still the standing picture. New: a Reuters dispatch that the IRGC says seven vessels were hit or struck mines near Hormuz; Hegseth's Guyana agreement and a Florida Air National Guard special tactics squadron; Project Agincourt's roadmap for Autonomous Warfare Command; and his Oct. 20 Dayton speech naming Project Meridian and a reconciliation bill of at least $350 billion. No new Golden Dome appropriation was found. The fiscal 2027 request is still mostly in reconciliation that has not been enacted.",
   "subsections": [
     {"id": "secwar", "title": "Secretary & Initiatives"},
     {"id": "acquisition", "title": "Acquisition & Innovation"},
@@ -16,6 +16,48 @@
     {"id": "ops", "title": "Operations & Geopolitics"}
   ],
   "items": [
+    {
+      "id": "hegseth-dayton-2026-10-20",
+      "subsection": "secwar",
+      "date": "2026-10-20",
+      "dateLabel": "Oct 20",
+      "headline": "In Dayton, Hegseth names Project Meridian and says a reconciliation bill of at least $350 billion is the priority",
+      "summary": "Speaking Oct. 20 at Sierra Nevada Corporation in Dayton on the Arsenal of Freedom tour, Secretary of War Pete Hegseth said the department had just launched a Future of Warfare initiative called Project Meridian, which he said demands all-domain connectivity and rapid technological advances at the edge. He tied that to the Autonomous Warfare Command announced at Quantico, which he described as a four-star combatant command with service-like authorities. He said the department has no higher priority than passage of a reconciliation bill of at least $350 billion, and that the administration is asking for a $1.5 trillion defense investment. He also said the department will pass a full audit before 2028, and described five- to seven-year orders for companies that invest in new plants.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Speeches/Speech/Article/4630000/secretary-of-war-pete-hegseth-speech-on-the-arsenal-of-freedom-in-dayton-ohio-a/"
+        }
+      ]
+    },
+    {
+      "id": "guyana-partnership-2026-10-21",
+      "subsection": "secwar",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "Hegseth and Guyana's president sign an enhanced defense partnership at the Pentagon",
+      "summary": "Secretary of War Pete Hegseth and Guyanese President Mohamed Irfaan Ali signed what the Pentagon called a landmark agreement at the Pentagon on Oct. 21, creating an enhanced defense partnership. Hegseth said shared challenges include narco-terrorism and military influence from outside the Western Hemisphere, and that the two countries would push back by exercising what he called President Trump's corollary to the Monroe Doctrine. He said the United States will intensify combined training in multidomain operations and in air interdiction. On critical minerals, he said Guyana's pursuit of a memorandum of understanding with the United States will bolster a shared defense industrial base.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4630733/hegseth-guyanese-president-establish-enhanced-military-partnership/"
+        }
+      ]
+    },
+    {
+      "id": "ang-sts-florida-2026-10-21",
+      "subsection": "secwar",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "Hegseth directs a new Air National Guard special tactics squadron in Florida",
+      "summary": "The Department of War said Oct. 21 that Secretary of War Pete Hegseth signed a memo directing a new Air National Guard Special Tactics Squadron in Florida. Chief Pentagon Spokesman Sean Parnell said the squadron would sit with the U.S. Special Operations Command and Air Force Special Operations Command community at Hurlburt Field and MacDill Air Force Base. The release says the move is meant to bolster combat controller, pararescue, and special reconnaissance capabilities by using Air National Guard personnel. It describes the location, next to USSOCOM at MacDill and AFSOC at Hurlburt, as a way to concentrate training and mission execution.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4631015/secretary-of-war-pete-hegseth-directs-establishment-of-new-air-national-guard-s/"
+        }
+      ]
+    },
     {
       "id": "hegseth-streeting-2026-10-15",
       "subsection": "secwar",
@@ -31,6 +73,20 @@
         {
           "name": "Department of War readout",
           "url": "https://www.war.gov/News/Releases/Release/Article/4626961/readout-of-secretary-of-war-pete-hegseths-meeting-with-the-united-kingdoms-secr/"
+        }
+      ]
+    },
+    {
+      "id": "project-agincourt-2026-10-21",
+      "subsection": "acquisition",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "Project Agincourt publishes an operational roadmap for Autonomous Warfare Command",
+      "summary": "The Department of War said Oct. 21 that Project Agincourt leaders Owen West and Senior Chief Max Strasiser sent an open letter to the joint force and industry partners with an operational roadmap for the Autonomous Warfare Command. The release quotes them that urgency does not excuse imprecision. They described a combat-first model that pushes procurement decisions and dollars to frontline warfighters. The department said success is measured by how fast an operational problem receives a fielded, scalable solution, not by paperwork milestones.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4630269/department-of-wars-project-agincourt-accelerates-autonomous-warfare-command-to/"
         }
       ]
     },
@@ -64,6 +120,20 @@
         {
           "name": "Axios",
           "url": "https://www.axios.com/2026/10/07/golden-dome-trump-senate-cbo-king"
+        }
+      ]
+    },
+    {
+      "id": "hormuz-tankers-2026-10-22",
+      "subsection": "ops",
+      "date": "2026-10-22",
+      "dateLabel": "Oct 22",
+      "headline": "IRGC says four vessels were hit and three more struck mines near Hormuz",
+      "summary": "A Reuters dispatch published by Al-Monitor on Oct. 22 said Iran's Islamic Revolutionary Guard Corps Navy reported that four vessels involved in what it called illegal oil transfers in the northern Persian Gulf were hit at the same time and caught fire on Wednesday, after its forces tracked them. The IRGC said three more vessels collided with mines west of the Strait of Hormuz. It warned the U.S. military that continued provocations could lead to a wider response against its regional bases. The dispatch does not include an independent confirmation of the strikes.",
+      "sources": [
+        {
+          "name": "Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/10/irans-irgc-navy-says-seven-vessels-hit-warns-us-wider-response"
         }
       ]
     },

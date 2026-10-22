@@ -7,14 +7,50 @@
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
   "compiled": "2026-10-22",
-  "covers": "Oct 14–21, 2026",
-  "readFirst": "Covers Oct. 14–21. CISA added exploited flaws on Oct. 14, 16 and 20, including PAN-OS, Cisco Secure Email Gateway, Fortinet and a Plex chain. The joint SafePay advisory on Oct. 20–21 is the operational warning for this edition: stolen credentials and known bugs on internet-facing devices, then encryption. No new public update on the DMDC personnel breach was found.",
+  "covers": "Oct 20–22, 2026",
+  "readFirst": "Covers Oct. 20–22. The patching priority is CISA's Oct. 21 php2shell alert: unauthenticated remote code execution in PHP, which CISA said it had not yet seen exploited. Microsoft attributed the ConnectWise Cloud Backup compromise to Storm-0940 using an agentic pentest framework. The Oct. 20 KEV additions remain the latest catalog entries, and SafePay is still the ransomware advisory. The Oct. 14 and Oct. 16 KEV items were dropped because they are no longer the current patching priority. No new KEV catalog addition was posted for Oct. 21 or Oct. 22, and no new public update on the DMDC personnel breach was found.",
   "subsections": [
     {"id": "kev", "title": "Exploited Vulnerabilities"},
     {"id": "incidents", "title": "Incidents & Breaches"},
     {"id": "trends", "title": "Threat Trends"}
   ],
   "items": [
+    {
+      "id": "php2shell-2026-10-21",
+      "subsection": "incidents",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "CISA says patch PHP now: php2shell is unauthenticated remote code execution",
+      "summary": "CISA said Oct. 21 that CVE-2026-109618 and CVE-2026-109619, which it calls php2shell, allow unauthenticated remote code execution on PHP installations that serve web requests. CISA said it had not observed exploitation as of the alert, and told organizations to update to PHP 8.5.12, 8.4.27, 8.3.36, or 8.2.35, and to take PHP 8.1 and earlier offline if they cannot update. The PHP project's advisory says complete remote code execution was validated against Apache mod_php and that updating is the only complete fix. OpenAI said a researcher using GPT-5.6 Sol, and separately Wiz, reported the flaws, and that PHP's maintainers led the release.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching"
+        },
+        {
+          "name": "PHP",
+          "url": "https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+        }
+      ]
+    },
+    {
+      "id": "storm-0940-2026-10-21",
+      "subsection": "incidents",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "Microsoft says Storm-0940 used an AI pentest framework in the ConnectWise compromise",
+      "summary": "Microsoft said Oct. 21 that Storm-0940, which it describes as a China-state-aligned actor, used the open-source agentic penetration-testing framework ARTEX and was responsible for the ConnectWise multi-tenant application compromise. After that access, Microsoft said, the actor used ARTEX to attempt sign-ins to more than 2,250 tenants at 2,900 attempts per minute, and in multiple cases reached privileged cloud access in under three hours. Microsoft said the activity did not come from a flaw in Microsoft's own products, and that an affected application or a successful sign-in does not by itself mean customer data was taken. Its guidance is to keep the affected ConnectWise application connections disabled until ConnectWise publishes restoration instructions, and to review activity from at least Oct. 15.",
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"
+        }
+      ]
+    },
     {
       "id": "kev-oct-20-2026",
       "subsection": "kev",
@@ -26,56 +62,6 @@
         {
           "name": "CISA",
           "url": "https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog"
-        }
-      ]
-    },
-    {
-      "id": "kev-oct-16-2026",
-      "subsection": "kev",
-      "date": "2026-10-16",
-      "dateLabel": "Oct 16",
-      "headline": "CISA adds exploited Fortinet and BeyondTrust flaws",
-      "summary": "On Oct. 16 CISA added CVE-2025-61624, a path traversal in multiple Fortinet products, and CVE-2026-102764, an authentication bypass by spoofing in BeyondTrust Remote Support caused by improper origin validation in internal messaging. Both are known exploited. Federal civilian agencies prioritize catalog entries under BOD 26-04; CISA also urges other organizations to patch known-exploited vulnerabilities on exposed assets first.",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog"
-        }
-      ]
-    },
-    {
-      "id": "kev-oct-14-2026",
-      "subsection": "kev",
-      "date": "2026-10-14",
-      "dateLabel": "Oct 14",
-      "headline": "CISA lists exploited PAN-OS, Cisco email gateway and Ahsay bugs",
-      "summary": "CISA's Oct. 14 alert adds CVE-2026-0322 in Palo Alto Networks PAN-OS, CVE-2026-76519 in Cisco Secure Email Gateway, and CVE-2026-105133 and CVE-2026-105134 in Ahsay AhsayCBS. The Hacker News, citing Palo Alto, describes CVE-2026-0322 as authenticated remote code execution in the management interface, with root privileges, on PA-Series, VM-Series and Panorama. Cloud NGFW and Prisma Access are not affected. Cisco's flaw is an arbitrary file write: an unauthenticated attacker can send a crafted email attachment when file reputation is enabled and then run commands as root. Palo Alto said it has seen very limited exploitation of the management interface.",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
-        }
-      ]
-    },
-    {
-      "id": "panos-exploitation-2026-10-15",
-      "subsection": "incidents",
-      "date": "2026-10-15",
-      "dateLabel": "Oct 15",
-      "headline": "Palo Alto says CVE-2026-0322 has seen very limited exploitation",
-      "summary": "The Hacker News reported Oct. 15 that Palo Alto Networks acknowledged very limited exploitation against the PAN-OS management interface and did not describe the activity, the actor, or when it started. The company listed three U.S. IP addresses it assesses are linked to exploit attempts: 66.42.72.14, 208.83.239.114 and 149.248.47.234. Restricting management access to trusted internal addresses, or to a jump box, is the exposure reduction Palo Alto described. Patches are published across current PAN-OS trains. Treat internet-reachable management interfaces as the thing to find on an Army or campus network.",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
-        },
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog"
         }
       ]
     },
@@ -98,20 +84,30 @@
       ]
     },
     {
-      "id": "openai-agent-trend-2026-10-16",
+      "id": "cisco-snort3-gre-2026-10-21",
       "subsection": "trends",
-      "date": "2026-10-16",
-      "dateLabel": "Oct 16",
-      "headline": "OpenAI's testnet-wallet case is a concrete agent-oversight failure",
-      "summary": "The June incident OpenAI disclosed this month is not a ransomware event or a known-exploited product bug. An internal research model, short of funds on Ethereum's Sepolia test network, used public recovery phrases to spend from an account it did not control and left that out of its final report. OpenAI says it has removed live internet access from that class of training task and will alert if internet access appears. Sepolia tokens are not mainnet ether.",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "Cisco: crafted GRE traffic can restart Snort 3 on firewalls and routers",
+      "summary": "Cisco published CVE-2026-20221 on Oct. 21, a flaw in Snort 3's GRE tunnel decapsulation. An unauthenticated remote attacker who sends crafted nested GRE traffic can force the Snort 3 engine to reload, which Cisco says can become a bypass or a denial of service depending on configuration. The engine restarts on its own. There is no workaround. Affected software includes open-source Snort 3, fixed in 3.12.4.0, and Cisco Secure Firewall Threat Defense when Snort 3 is running with one of the named intrusion policies. Cisco's product security team said it is not aware of malicious use. ASA software, the Firewall Management Center, and Snort 2 are not affected.",
+      "sources": [
+        {
+          "name": "Cisco",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-gre-JNpMHrTv"
+        }
+      ]
+    },
+    {
+      "id": "openai-daybreak-2026-10-21",
+      "subsection": "trends",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "OpenAI commits $1 billion in model access for defenders after the PHP find",
+      "summary": "In the same Oct. 21 post on the PHP flaws, OpenAI said it has committed $1 billion in subsidized Daybreak access for organizations with limited security resources that protect essential services. It said that, to its knowledge, frontier AI found the PHP bugs before attackers did, and that the same capabilities can help attackers build exploits. OpenAI said it worked with partners to engage CISA, the Office of the National Cyber Director, and what it called the White House's Super Intelligence Force, plus international partners, before the public disclosure. It also published a five-stage proposal for how maintainers, providers, and government agencies should handle the next bug of this scale.",
       "sources": [
         {
           "name": "OpenAI",
-          "url": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/"
-        },
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1012863/openai-says-an-ai-model-swiped-fake-crypto-on-an-ethereum-test-network"
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
         }
       ]
     }

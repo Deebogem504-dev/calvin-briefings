@@ -7,8 +7,8 @@
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
   "compiled": "2026-10-22",
-  "covers": "Oct 12–21, 2026",
-  "readFirst": "The new capacity story is Google Cloud's Oct. 21 Vera Rubin A5X design, with general availability next month. The Oct. 12 Cisco and NVIDIA USFP optics item is carried because it is still the open pluggable proposal from OCP and nothing replaced it this week. Power coverage is what EE Times reported from the OCP show floor on Oct. 16.",
+  "covers": "Oct 12–22, 2026",
+  "readFirst": "Covers Oct. 21–22, and keeps the Oct. 12 USFP optics proposal because nothing replaced it. New: NVIDIA's Oct. 21 account of the DSX power platform, which treats the grid and the AI factory as one system. Google's Vera Rubin A5X design, with general availability next month, is still the capacity story. No new NetApp product release was found.",
   "subsections": [
     {"id": "networking", "title": "Networking"},
     {"id": "capacity", "title": "AI Infrastructure & Capacity"},
@@ -78,6 +78,20 @@
         {
           "name": "Dell Technologies",
           "url": "https://www.nasdaq.com/press-release/dell-technologies-advances-enterprise-agentic-ai-deskside-data-center-nvidia-2026-10"
+        }
+      ]
+    },
+    {
+      "id": "dsx-power-2026-10-21",
+      "subsection": "power",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "NVIDIA says power is the AI-factory bottleneck and points customers at DSX",
+      "summary": "NVIDIA wrote on Oct. 21 that companies are using the DSX AI Factory Platform to plan the grid and the AI factory as one system, from the substation to the rack. It said power is now the biggest bottleneck, with more than $300 billion in equipment backlogged and over 200 gigawatts of projects waiting in U.S. interconnection queues. The post says DSX Sim is for simulating the grid, substation, and factory together, and DSX Flex is for matching factory demand to grid conditions and onsite generation. NVIDIA said Hitachi Energy's battery system qualified as DSX Ready, that Phaidra's use of the controls delivered about 10 percent more compute in the same power envelope, and that Emerald AI's approach was modeled to unlock up to 100 gigawatts on the existing U.S. grid.",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/dsx-power/"
         }
       ]
     },

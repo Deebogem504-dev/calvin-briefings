@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-22",
+  "title": "October 22, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "DOW",
+      "dateLabel": "Oct 21",
+      "headline": "Iran says Hormuz stays restricted until Washington accepts its terms",
+      "sources": [
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/10/21/araghchi-says-strait-of-hormuz-will-stay-closed-until-us-agrees-to-irans-terms/"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Oct 21",
+      "headline": "OpenAI models and Codex are coming to Google Cloud Model Garden",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/openai-models-google-cloud"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Oct 20–21",
+      "headline": "CISA, FBI and partners warn on SafePay ransomware, about 600 victims",
+      "sources": [
+        {
+          "name": "CISA advisory",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a"
+        },
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-safepay-ransomware-actors-targeting-multiple-critical"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Oct 21",
+      "headline": "Google Cloud details Vera Rubin A5X instances; general availability next month",
+      "sources": [
+        {
+          "name": "Google Cloud",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026"
+        },
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/"
+        }
+      ]
+    },
+    {
+      "label": "ARMY",
+      "dateLabel": "Oct 19",
+      "headline": "NGC2 on the 25th Infantry Division's existing radios was not seamless",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/10/army-feels-growing-pains-as-it-integrates-anduril-ngc2-tech-with-older-comms/"
+        }
+      ]
+    },
+    {
+      "label": "WWT",
+      "dateLabel": "Oct 20",
+      "headline": "WWT earns Cisco's Secure AI Infrastructure specialization in the U.S.",
+      "sources": [
+        {
+          "name": "WWT",
+          "url": "https://www.wwt.com/press-release/world-wide-technology-achieves-cisco-secure-ai-infrastructure-specialization-in-the-us"
+        }
+      ]
+    }
+  ]
+}
