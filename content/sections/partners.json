@@ -1,0 +1,206 @@
+{
+  "id": "partners",
+  "file": "partners.html",
+  "nav": "PARTNERS",
+  "kicker": "PARTNERS",
+  "cadence": "Weekly · Mondays",
+  "title": "WWT Partners Weekly Briefing",
+  "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
+  "compiled": "2026-10-22",
+  "covers": "Oct 12–22, 2026",
+  "readFirst": "Covers Oct. 14–22, plus the Oct. 12 Cisco and NVIDIA optics announcement because no newer Cisco product release was found. HPE, NetApp, Intel and F5 had no material public product or contract release in this window, so those parts of the page are empty on purpose. Palo Alto and Cisco security items are exploited vulnerabilities, not sales wins.",
+  "subsections": [
+    {"id": "cisco", "title": "Cisco"},
+    {"id": "dell", "title": "Dell Technologies"},
+    {"id": "hpe", "title": "HPE (incl. Juniper)"},
+    {"id": "netapp", "title": "NetApp"},
+    {"id": "nvidia", "title": "NVIDIA"},
+    {"id": "microsoft", "title": "Microsoft"},
+    {"id": "paloalto", "title": "Palo Alto Networks"},
+    {"id": "aws", "title": "AWS"},
+    {"id": "google", "title": "Google Cloud"},
+    {"id": "quiet", "title": "F5 · Intel · VMware"},
+    {"id": "other", "title": "Other Partners"}
+  ],
+  "items": [
+    {
+      "id": "cisco-usfp-2026-10-12",
+      "subsection": "cisco",
+      "date": "2026-10-12",
+      "dateLabel": "Oct 12",
+      "tag": "context",
+      "headline": "Cisco and NVIDIA propose USFP optics, up to 12.8 Tb/s in an OSFP-sized module",
+      "summary": "On Oct. 12 NVIDIA and Cisco announced Ultra-Dense Small Form Factor Pluggable optics, aimed at 400 Gb/s per lane and up to 12.8 Tb/s, which they describe as four times the bandwidth density and about 1.3 times the power efficiency of 200 Gb/s-per-lane modules. The first modules are planned at 16 full-duplex lanes in an OSFP-sized footprint, with a path to 32 lanes. TE Connectivity and Amphenol are named as the multi-source hardware ecosystem. Cisco's own OCP note the same day says it is pushing open silicon, systems and optics for AI scale-out. No newer Cisco optics or campus-switching release was found for Oct. 14–22.",
+      "sources": [
+        {
+          "name": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-cisco-introduce-new-pluggable-optics-form-factor-to-scale-ai-factories"
+        },
+        {
+          "name": "Cisco",
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m10/cisco-advances-scalability-and-openness-at-ocp-2026.html"
+        }
+      ]
+    },
+    {
+      "id": "cisco-email-kev-2026-10-14",
+      "subsection": "cisco",
+      "date": "2026-10-14",
+      "dateLabel": "Oct 14",
+      "headline": "Cisco Secure Email Gateway flaw CVE-2026-76519 is on the exploited list",
+      "summary": "CISA added CVE-2026-76519 on Oct. 14. The Hacker News, citing Cisco, says an unauthenticated remote attacker can write arbitrary files by sending a crafted attachment when the file reputation service is enabled, and can then run commands as root. It is a management and email-gateway issue. CISA added it to the Known Exploited Vulnerabilities catalog on evidence of active exploitation.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
+        }
+      ]
+    },
+    {
+      "id": "dell-agentic-factory-2026-10-21",
+      "subsection": "dell",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "Dell extends the AI Factory with NVIDIA from the desk to modular data centers",
+      "summary": "At GTC Berlin on Oct. 21 Dell announced additions to the Dell AI Factory with NVIDIA. Dell says more than 6,500 enterprises have adopted it, up from 5,000 last quarter. New pieces include validated deskside agentic templates, a 64 GB Dell Pro Precision with GB10 due Oct. 23, and a Windows GB300 configuration later. In the data center, the PowerEdge M9882 puts 256 Vera CPUs in a 48U rack for agent orchestration, the air-cooled R8822 is due this month, and a modular data center reference design with NVIDIA DSX includes compute, storage, networking, rack power and liquid cooling, with availability in early 2027. Dell also said it is pairing the stack with NVIDIA's OpenShell reference architecture and Red Hat AI Factory software for agent controls.",
+      "sources": [
+        {
+          "name": "Dell Technologies",
+          "url": "https://www.nasdaq.com/press-release/dell-technologies-advances-enterprise-agentic-ai-deskside-data-center-nvidia-2026-10"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-open-models-partners-2026-10-21",
+      "subsection": "nvidia",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "GTC Berlin: Nemotron 3.5 models and an OpenShell reference for agents",
+      "summary": "NVIDIA's Oct. 21 open-models post adds Nemotron 3.5 Super VL and Nemotron 3.5 Bolt, retriever models, Kumo models for structured data, Cosmos 3.5, and Ising models for quantum computing. A separate newsroom release the same day introduces the OpenShell reference architecture for running agents with controls on what they can reach. A third post describes Confidential Bare Metal so a model builder can keep control of models and data on third-party accelerated infrastructure. Isaac's robotics expansion is covered on the Tech page.",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/"
+        },
+        {
+          "name": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/openshell-reference-architecture"
+        },
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-sovereign-2026-10-20",
+      "subsection": "microsoft",
+      "date": "2026-10-20",
+      "dateLabel": "Oct 20",
+      "headline": "Microsoft spells out a three-part Sovereign Cloud: public, private, and partners",
+      "summary": "On Oct. 20 Microsoft's Specialized Clouds CTO described the next stage of Microsoft Sovereign Cloud as a continuum rather than one deployment model. Sovereign Public Cloud adds control and transparency on Azure. Sovereign Private Cloud extends cloud operations into customer-run environments, including disconnected operations. A Sovereign Partner Ecosystem covers independently operated environments and local partners. Microsoft's framing is per workload: a public digital service, a system that must keep running if connectivity drops, and an AI workload whose model and data stay in a customer-controlled environment can sit at different points on that line.",
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/"
+        }
+      ]
+    },
+    {
+      "id": "panos-0322-2026-10-15",
+      "subsection": "paloalto",
+      "date": "2026-10-15",
+      "dateLabel": "Oct 15",
+      "headline": "Palo Alto patches PAN-OS management RCE CVE-2026-0322 and confirms limited exploitation",
+      "summary": "Palo Alto Networks issued updates for CVE-2026-0322, an authenticated remote code execution bug in the PAN-OS management interface that yields root on PA-Series, VM-Series and Panorama. Cloud NGFW and Prisma Access are not affected. The company said exploitation has been very limited and named three U.S. addresses tied to attempts. CISA added the CVE on Oct. 14. The exposure reduction Palo Alto described is to allow management only from trusted internal addresses or a jump box.",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
+        },
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+        }
+      ]
+    },
+    {
+      "id": "aws-nfw-r53-2026-10-21",
+      "subsection": "aws",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "AWS Network Firewall can check that a destination IP was resolved in Route 53",
+      "summary": "AWS said Oct. 21 that Network Firewall now validates a connection's destination IP was resolved by the VPC's Route 53 resolver. The check extends domain filtering beyond HTTP and HTTPS to protocols such as SFTP and SSH, and is meant to catch clients that bypass domain rules or spoof a server name. It is available in commercial regions where Network Firewall and Route 53 Resolver DNS Firewall are available, at no extra charge. Route 53 Resolver DNS Firewall can be used alongside it.",
+      "sources": [
+        {
+          "name": "AWS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/network-firewall-route-53-ip-validation/"
+        }
+      ]
+    },
+    {
+      "id": "aws-omni-regions-2026-10-19",
+      "subsection": "aws",
+      "date": "2026-10-19",
+      "dateLabel": "Oct 19",
+      "headline": "CloudWatch Omni, the AI observability console, adds eight regions",
+      "summary": "On Oct. 19 AWS expanded CloudWatch Omni to Canada Central, Mumbai, Singapore, Sydney, Tokyo, Frankfurt, London and São Paulo, on top of Northern Virginia, Oregon and Ireland. Omni is an observability experience organized around teams and applications, including agents, combining OpenTelemetry with CloudWatch. It can be a standalone site with SSO or an IDE extension, and it includes an agent view for frameworks such as LangGraph, CrewAI, the OpenAI Agents SDK and Strands. Pricing is on the CloudWatch Omni page, not in the region announcement.",
+      "sources": [
+        {
+          "name": "AWS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-omni-8-regions/"
+        }
+      ]
+    },
+    {
+      "id": "google-openai-model-garden-2026-10-21",
+      "subsection": "google",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "Google Cloud will sell OpenAI frontier models in Model Garden",
+      "summary": "OpenAI said Oct. 21 that frontier models and Codex workflows are coming to Google Cloud Model Garden, purchased through Marketplace against Google Cloud commit. General availability is planned in the coming weeks. The same week Google open-sourced TorchTPU, so Cloud customers got both a new model source and a native PyTorch path onto TPUs. Microsoft remains OpenAI's primary cloud partner.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/openai-models-google-cloud"
+        },
+        {
+          "name": "Google Cloud",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus"
+        }
+      ]
+    },
+    {
+      "id": "broadcom-docomo-vcf-2026-10-19",
+      "subsection": "quiet",
+      "date": "2026-10-19",
+      "dateLabel": "Oct 19",
+      "headline": "Broadcom signs a 10-year VMware Cloud Foundation agreement with NTT DOCOMO",
+      "summary": "Broadcom said it signed a 10-year agreement with NTT DOCOMO, announced in Tokyo on Oct. 19, covering VMware licenses, technical assistance and support, including VMware Cloud Foundation. Broadcom calls it the company's first 10-year comprehensive VMware agreement in Japan. The scope named in the release includes VCF, Avi Load Balancer, vDefend, Tanzu Platform, support and technical account managers, and VCF Forte Support. DOCOMO will use vSphere Kubernetes Service to run virtual machines and containers on one platform. No matching F5 or Intel product announcement was found for Oct. 14–22.",
+      "sources": [
+        {
+          "name": "Broadcom",
+          "url": "https://www.broadcom.com/company/news/product-releases/64771"
+        }
+      ]
+    },
+    {
+      "id": "fortinet-kev-2026-10-16",
+      "subsection": "other",
+      "date": "2026-10-16",
+      "dateLabel": "Oct 16",
+      "headline": "Fortinet path traversal CVE-2025-61624 is now on CISA's exploited list",
+      "summary": "CISA added CVE-2025-61624 on Oct. 16, a path traversal affecting multiple Fortinet products, based on evidence of active exploitation. The alert does not name the actor. The same alert added a BeyondTrust Remote Support authentication-bypass flaw, CVE-2026-102764.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        }
+      ]
+    }
+  ]
+}

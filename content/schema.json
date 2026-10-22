@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://deebogem504-dev.github.io/calvin-briefings/schema.json",
+  "title": "Calvin briefings content contract",
+  "description": "Contract for the JSON files in content/. scripts/build.py enforces these rules without a JSON Schema library. Validate each file against the definition named in UPDATING.md. Do not rename subsection ids.",
+  "type": "object",
+  "$defs": {
+    "isoDate": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "httpsUrl": {
+      "type": "string",
+      "pattern": "^https://\\S+$"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "url"],
+      "properties": {
+        "name": { "type": "string", "minLength": 2 },
+        "url": { "$ref": "#/$defs/httpsUrl" }
+      }
+    },
+    "tag": {
+      "enum": ["context", "inference"]
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "subsection", "date", "dateLabel", "headline", "summary", "sources"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "subsection": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "date": { "$ref": "#/$defs/isoDate" },
+        "dateLabel": { "type": "string", "minLength": 3 },
+        "headline": { "type": "string", "minLength": 12 },
+        "summary": { "type": "string", "minLength": 40 },
+        "tag": { "$ref": "#/$defs/tag" },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 4,
+          "items": { "$ref": "#/$defs/source" }
+        }
+      }
+    },
+    "subsection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string", "minLength": 2 }
+      }
+    },
+    "site": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "shortName", "tagline", "audience", "updated", "sections"],
+      "properties": {
+        "name": { "const": "Calvin's Army & Tech Briefings" },
+        "shortName": { "type": "string" },
+        "tagline": { "type": "string" },
+        "audience": { "type": "string" },
+        "updated": { "$ref": "#/$defs/isoDate" },
+        "sections": {
+          "type": "array",
+          "minItems": 9,
+          "maxItems": 9,
+          "items": { "type": "string" },
+          "const": ["army", "dow", "ai", "cyber", "wwt", "budget", "tech", "partners", "datacenter"]
+        }
+      }
+    },
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "file", "nav", "kicker", "cadence", "title", "description", "compiled", "covers", "readFirst", "subsections", "items"],
+      "properties": {
+        "id": { "type": "string" },
+        "file": { "type": "string", "pattern": "^[a-z]+\\.html$" },
+        "nav": { "type": "string" },
+        "kicker": { "type": "string" },
+        "cadence": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "compiled": { "$ref": "#/$defs/isoDate" },
+        "covers": { "type": "string" },
+        "readFirst": { "type": "string", "minLength": 40 },
+        "subsections": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/subsection" }
+        },
+        "items": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/item" }
+        }
+      }
+    },
+    "topSignal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["section", "label", "dateLabel", "headline", "item", "href"],
+      "properties": {
+        "section": { "type": "string" },
+        "label": { "type": "string" },
+        "dateLabel": { "type": "string" },
+        "headline": { "type": "string" },
+        "item": { "type": "string" },
+        "href": { "type": "string", "pattern": "^[a-z]+\\.html#[a-z0-9-]+$" }
+      }
+    },
+    "topSignals": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["signals"],
+      "properties": {
+        "signals": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "items": { "$ref": "#/$defs/topSignal" }
+        }
+      }
+    },
+    "archiveEdition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "title", "note", "signals"],
+      "properties": {
+        "date": { "$ref": "#/$defs/isoDate" },
+        "title": { "type": "string" },
+        "note": { "type": "string" },
+        "signals": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "dateLabel", "headline", "sources"],
+            "properties": {
+              "label": { "type": "string" },
+              "dateLabel": { "type": "string" },
+              "headline": { "type": "string" },
+              "sources": {
+                "type": "array",
+                "minItems": 1,
+                "items": { "$ref": "#/$defs/source" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

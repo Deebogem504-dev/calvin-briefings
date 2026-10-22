@@ -1,0 +1,121 @@
+{
+  "id": "dow",
+  "file": "dow.html",
+  "nav": "DOW",
+  "kicker": "DOW",
+  "cadence": "Daily · weekdays",
+  "title": "Department of War Daily Briefing",
+  "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
+  "compiled": "2026-10-22",
+  "covers": "Oct 14–21, 2026",
+  "readFirst": "Covers Oct. 14–21. New: Hegseth's Pentagon meeting with the British defense secretary, the White House decision not to livestream the Hasan execution, and Iran's latest position on the Strait of Hormuz. Golden Dome's fiscal 2027 money is still mostly in an unpassed reconciliation request.",
+  "subsections": [
+    {"id": "secwar", "title": "Secretary & Initiatives"},
+    {"id": "acquisition", "title": "Acquisition & Innovation"},
+    {"id": "goldendome", "title": "Golden Dome"},
+    {"id": "ops", "title": "Operations & Geopolitics"}
+  ],
+  "items": [
+    {
+      "id": "hegseth-streeting-2026-10-15",
+      "subsection": "secwar",
+      "date": "2026-10-15",
+      "dateLabel": "Oct 15",
+      "headline": "Hegseth hosts Britain's defense secretary and presses a NATO 3.0 rebalance",
+      "summary": "Secretary of War Pete Hegseth met United Kingdom Secretary of State for Defence Wes Streeting at the Pentagon on Oct. 15, Streeting's first Washington visit since taking office in July. Hegseth described NATO 3.0 as Europeans taking primary responsibility for their own conventional defense so the United States can shift attention, including toward the Pacific. The Pentagon readout says Hegseth urged more British defense spending, discussed the review of U.S. force posture in Europe, asked London to keep supporting a durable peace in Ukraine, and raised security in the Strait of Hormuz. Hegseth also thanked Streeting for communication about threats to U.S. forces in Britain, including the security incident at RAF Fairford that led the U.S. to withdraw bombers.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4626344/hegseth-welcomes-uk-counterpart-to-pentagon/"
+        },
+        {
+          "name": "Department of War readout",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4626961/readout-of-secretary-of-war-pete-hegseths-meeting-with-the-united-kingdoms-secr/"
+        }
+      ]
+    },
+    {
+      "id": "autowarcom-legislation-2026-10-14",
+      "subsection": "acquisition",
+      "date": "2026-10-14",
+      "dateLabel": "Oct 14",
+      "headline": "Autonomous Warfare Command still needs Congress before its Oct. 1, 2027 target",
+      "summary": "At AUSA on Oct. 14, Pentagon spokesman Sean Parnell told the autonomy panel the effort is not another procurement effort. Hegseth's Sept. 30 direction creates Autonomous Warfare Command as a four-star combatant command with service-like authorities to scale drones and robotics. Stars and Stripes reports that standing the command up by Oct. 1, 2027 requires the Pentagon to work with Congress on the necessary legislation. Service secretaries from the Army, Air Force and Navy were on the stage. Additional detail on the command was not shared in the session.",
+      "sources": [
+        {
+          "name": "Stars and Stripes",
+          "url": "https://www.stripes.com/branches/army/2026-10-14/hegseth-ausa-autonomous-warfare-panel-protest-23153248.html"
+        }
+      ]
+    },
+    {
+      "id": "golden-dome-reconciliation-2026-10-07",
+      "subsection": "goldendome",
+      "date": "2026-10-07",
+      "dateLabel": "Oct 7",
+      "tag": "context",
+      "headline": "Almost all of the fiscal 2027 Golden Dome request still sits in reconciliation",
+      "summary": "No new appropriation for Golden Dome was found this week. CSIS's tracker of the fiscal 2027 request says the department asked for $17.1 billion of a $17.9 billion Golden Dome total inside the reconciliation package rather than discretionary funding, and that the direct reporting program manager has warned a lack of fiscal 2027 funding would stop further development. Axios reported Oct. 7 that senators questioned cost and coverage at a Sept. 29 hearing. The Congressional Budget Office has estimated as much as $1.2 trillion over 20 years. Gen. Michael Guetlein has said the system stays inside a $185 billion figure. Those estimates disagree, and the reconciliation bill that would fund the request has not been enacted.",
+      "sources": [
+        {
+          "name": "CSIS",
+          "url": "https://www.csis.org/analysis/tracking-fy-2027-defense-appropriations-reconciliation-and-supplemental-request"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/10/07/golden-dome-trump-senate-cbo-king"
+        }
+      ]
+    },
+    {
+      "id": "hormuz-terms-2026-10-21",
+      "subsection": "ops",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "Iran says Hormuz stays restricted until Washington accepts its terms",
+      "summary": "Foreign Minister Abbas Araghchi told Iraqi state television that the Strait of Hormuz will not be open to everyone until there is an agreement on the waterway, The National reported Oct. 21. Indirect talks continue through Pakistan and Qatar. In a Financial Times article the same week he wrote that further escalation around Hormuz would put civilian lives and the global economy at risk, and that he sees little reason to expect progress while Washington threatens more violence. The National also reported, citing Fox News and two U.S. officials, that the USS Theodore Roosevelt carrier strike group and the 13th Marine Expeditionary Unit are heading to the region, on the order of 10,000 sailors and Marines by the end of November, which would be a third carrier.",
+      "sources": [
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/10/21/araghchi-says-strait-of-hormuz-will-stay-closed-until-us-agrees-to-irans-terms/"
+        }
+      ]
+    },
+    {
+      "id": "hegseth-prepared-iran-2026-10-21",
+      "subsection": "ops",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "Hegseth says the U.S. is prepared to go further against Iran if Trump directs it",
+      "summary": "Middle East Eye reported Oct. 21 that Hegseth told reporters the United States is prepared to contribute any way necessary so Iran never gets a nuclear weapon, and that if Tehran will not give up the program and the president asks to go further, the department is prepared. The National reported that Hegseth met Prime Minister Benjamin Netanyahu on an unannounced visit to Israel on Monday, Oct. 19, while the two sides discussed whether to resume major combat operations before the U.S. midterms. Iranian officials told Reuters, The National said, that Tehran is preparing for possible renewed attacks and sees little chance of a diplomatic breakthrough before the U.S. election.",
+      "sources": [
+        {
+          "name": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hegseth-says-us-prepared-take-military-action-against-iran-if-directed"
+        },
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/10/21/araghchi-says-strait-of-hormuz-will-stay-closed-until-us-agrees-to-irans-terms/"
+        }
+      ]
+    },
+    {
+      "id": "hasan-livestream-cancelled-2026-10-15",
+      "subsection": "ops",
+      "date": "2026-10-15",
+      "dateLabel": "Oct 15",
+      "headline": "Trump cancels a plan to livestream the Fort Hood shooter's execution",
+      "summary": "NBC News reported Oct. 15 that President Trump overruled a plan by Hegseth to livestream the firing-squad execution of former Army Maj. Nidal Hasan, convicted in the 2009 Fort Hood shootings. The execution itself remained scheduled for December. Al Jazeera reported the same day that Trump wrote the event will not be streamed and that immediate family members of victims would be able to view it. The reversal followed objections from Republicans and the public.",
+      "sources": [
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/politics/national-security/white-house-overrules-pete-hegseth-time-livestreaming-execution-rcna603735"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/15/trump-says-fort-hood-shooter-execution-will-not-be-livestreamed"
+        }
+      ]
+    }
+  ]
+}

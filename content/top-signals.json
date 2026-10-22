@@ -1,0 +1,52 @@
+{
+  "signals": [
+    {
+      "section": "dow",
+      "label": "DOW",
+      "dateLabel": "Oct 21",
+      "headline": "Iran says Hormuz stays restricted until Washington accepts its terms",
+      "item": "hormuz-terms-2026-10-21",
+      "href": "dow.html#ops"
+    },
+    {
+      "section": "ai",
+      "label": "AI",
+      "dateLabel": "Oct 21",
+      "headline": "OpenAI models and Codex are coming to Google Cloud Model Garden",
+      "item": "openai-google-cloud-2026-10-21",
+      "href": "ai.html#openai"
+    },
+    {
+      "section": "cyber",
+      "label": "CYBER",
+      "dateLabel": "Oct 20–21",
+      "headline": "CISA, FBI and partners warn on SafePay ransomware, about 600 victims",
+      "item": "safepay-2026-10-20",
+      "href": "cyber.html#trends"
+    },
+    {
+      "section": "datacenter",
+      "label": "DC/NET",
+      "dateLabel": "Oct 21",
+      "headline": "Google Cloud details Vera Rubin A5X instances; general availability next month",
+      "item": "google-a5x-2026-10-21",
+      "href": "datacenter.html#capacity"
+    },
+    {
+      "section": "army",
+      "label": "ARMY",
+      "dateLabel": "Oct 19",
+      "headline": "NGC2 on the 25th Infantry Division's existing radios was not seamless",
+      "item": "ngc2-legacy-radios-2026-10-19",
+      "href": "army.html#network"
+    },
+    {
+      "section": "wwt",
+      "label": "WWT",
+      "dateLabel": "Oct 20",
+      "headline": "WWT earns Cisco's Secure AI Infrastructure specialization in the U.S.",
+      "item": "wwt-cisco-secure-ai-2026-10-20",
+      "href": "wwt.html#content"
+    }
+  ]
+}

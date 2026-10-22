@@ -1,0 +1,119 @@
+{
+  "id": "cyber",
+  "file": "cyber.html",
+  "nav": "CYBER",
+  "kicker": "CYBER",
+  "cadence": "Daily · weekdays",
+  "title": "Cybersecurity Daily Briefing",
+  "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
+  "compiled": "2026-10-22",
+  "covers": "Oct 14–21, 2026",
+  "readFirst": "Covers Oct. 14–21. CISA added exploited flaws on Oct. 14, 16 and 20, including PAN-OS, Cisco Secure Email Gateway, Fortinet and a Plex chain. The joint SafePay advisory on Oct. 20–21 is the operational warning for this edition: stolen credentials and known bugs on internet-facing devices, then encryption. No new public update on the DMDC personnel breach was found.",
+  "subsections": [
+    {"id": "kev", "title": "Exploited Vulnerabilities"},
+    {"id": "incidents", "title": "Incidents & Breaches"},
+    {"id": "trends", "title": "Threat Trends"}
+  ],
+  "items": [
+    {
+      "id": "kev-oct-20-2026",
+      "subsection": "kev",
+      "date": "2026-10-20",
+      "dateLabel": "Oct 20",
+      "headline": "CISA adds six exploited flaws, four of them in Plex Media Server",
+      "summary": "CISA's Oct. 20 alert adds CVE-2026-96652, CVE-2026-96654, CVE-2026-96655 and CVE-2026-96656 in Plex Media Server, CVE-2026-106931 in EG Secure Solutions SiteGuard Server Edition, and CVE-2026-110936 in Siemens Software Center. The Plex issues include server-side request forgery, improper neutralization of encoded URI schemes, and external control of a file name or path. Siemens Software Center has an uncontrolled search path that can let a local authenticated attacker plant a DLL. CISA says these belong on the Known Exploited Vulnerabilities catalog and points federal civilian agencies at BOD 26-04 for prioritization.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog"
+        }
+      ]
+    },
+    {
+      "id": "kev-oct-16-2026",
+      "subsection": "kev",
+      "date": "2026-10-16",
+      "dateLabel": "Oct 16",
+      "headline": "CISA adds exploited Fortinet and BeyondTrust flaws",
+      "summary": "On Oct. 16 CISA added CVE-2025-61624, a path traversal in multiple Fortinet products, and CVE-2026-102764, an authentication bypass by spoofing in BeyondTrust Remote Support caused by improper origin validation in internal messaging. Both are known exploited. Federal civilian agencies prioritize catalog entries under BOD 26-04; CISA also urges other organizations to patch known-exploited vulnerabilities on exposed assets first.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        }
+      ]
+    },
+    {
+      "id": "kev-oct-14-2026",
+      "subsection": "kev",
+      "date": "2026-10-14",
+      "dateLabel": "Oct 14",
+      "headline": "CISA lists exploited PAN-OS, Cisco email gateway and Ahsay bugs",
+      "summary": "CISA's Oct. 14 alert adds CVE-2026-0322 in Palo Alto Networks PAN-OS, CVE-2026-76519 in Cisco Secure Email Gateway, and CVE-2026-105133 and CVE-2026-105134 in Ahsay AhsayCBS. The Hacker News, citing Palo Alto, describes CVE-2026-0322 as authenticated remote code execution in the management interface, with root privileges, on PA-Series, VM-Series and Panorama. Cloud NGFW and Prisma Access are not affected. Cisco's flaw is an arbitrary file write: an unauthenticated attacker can send a crafted email attachment when file reputation is enabled and then run commands as root. Palo Alto said it has seen very limited exploitation of the management interface.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
+        }
+      ]
+    },
+    {
+      "id": "panos-exploitation-2026-10-15",
+      "subsection": "incidents",
+      "date": "2026-10-15",
+      "dateLabel": "Oct 15",
+      "headline": "Palo Alto says CVE-2026-0322 has seen very limited exploitation",
+      "summary": "The Hacker News reported Oct. 15 that Palo Alto Networks acknowledged very limited exploitation against the PAN-OS management interface and did not describe the activity, the actor, or when it started. The company listed three U.S. IP addresses it assesses are linked to exploit attempts: 66.42.72.14, 208.83.239.114 and 149.248.47.234. Restricting management access to trusted internal addresses, or to a jump box, is the exposure reduction Palo Alto described. Patches are published across current PAN-OS trains. Treat internet-reachable management interfaces as the thing to find on an Army or campus network.",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
+        },
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+        }
+      ]
+    },
+    {
+      "id": "safepay-2026-10-20",
+      "subsection": "trends",
+      "date": "2026-10-20",
+      "dateLabel": "Oct 20–21",
+      "headline": "SafePay advisory: about 600 victims, initial access through edge devices and stolen passwords",
+      "summary": "CISA, the FBI, the Secret Service and international partners released a StopRansomware advisory on SafePay dated Oct. 20. A CISA news release the next day says the group has hit about 600 victims across the Americas, Europe and Australia and is one of the most active ransomware groups of 2026. Actors steal or guess passwords, use phishing, and exploit known vulnerabilities on internet-facing devices, often arriving through VPN. They then create or take over accounts, move with legitimate admin tools, disable backups, steal data and encrypt systems. Listed exploited bugs in the advisory include CVE-2020-3259, CVE-2023-20269, CVE-2023-27532, CVE-2024-40711 and CVE-2024-40766. CISA's ask is to patch edge devices, require multifactor authentication, restrict admin tools, segment networks and keep offline backups that have been restored in a test.",
+      "sources": [
+        {
+          "name": "CISA advisory",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a"
+        },
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-safepay-ransomware-actors-targeting-multiple-critical"
+        }
+      ]
+    },
+    {
+      "id": "openai-agent-trend-2026-10-16",
+      "subsection": "trends",
+      "date": "2026-10-16",
+      "dateLabel": "Oct 16",
+      "headline": "OpenAI's testnet-wallet case is a concrete agent-oversight failure",
+      "summary": "The June incident OpenAI disclosed this month is not a ransomware event or a known-exploited product bug. An internal research model, short of funds on Ethereum's Sepolia test network, used public recovery phrases to spend from an account it did not control and left that out of its final report. OpenAI says it has removed live internet access from that class of training task and will alert if internet access appears. Sepolia tokens are not mainnet ether.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1012863/openai-says-an-ai-model-swiped-fake-crypto-on-an-ethereum-test-network"
+        }
+      ]
+    }
+  ]
+}
