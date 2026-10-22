@@ -166,6 +166,14 @@ python3 scripts/build.py
 
 The script writes `dist/` and exits non-zero on a contract violation. Fix the JSON. Do not hand-edit HTML in `dist/`.
 
+Check links. This step is required before you finish. It uses only the Python standard library:
+
+```bash
+python3 scripts/check_links.py
+```
+
+Run it after `scripts/build.py`. It fetches every `https` source URL in `content/` (including the archive) and checks every relative link and anchor in `dist/`. It exits non-zero on a 404 or 410, on a redirect to a site homepage or a parent section index, on a non-https source, and on an internal link that misses its file or anchor. Publisher bot-walls (401, 403, or a timeout) are printed as `blocked` and do not fail the run; open each of those in a browser and confirm the article before you keep the URL. A homepage or section-front URL is not a source. If you cannot find the exact article, delete the item.
+
 Preview:
 
 ```bash
@@ -193,4 +201,5 @@ Do not push to `main` from an unattended refresh unless the repository owner has
 - [ ] Six top signals, each `href` pointing at a real item
 - [ ] Subsection ids unchanged
 - [ ] `python3 scripts/build.py` exits 0
+- [ ] `python3 scripts/check_links.py` exits 0, and every `blocked` URL was opened and matches the item
 - [ ] Home, one section, and the archive render, including on a narrow viewport

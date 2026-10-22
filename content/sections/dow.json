@@ -105,15 +105,15 @@
       "date": "2026-10-15",
       "dateLabel": "Oct 15",
       "headline": "Trump cancels a plan to livestream the Fort Hood shooter's execution",
-      "summary": "NBC News reported Oct. 15 that President Trump overruled a plan by Hegseth to livestream the firing-squad execution of former Army Maj. Nidal Hasan, convicted in the 2009 Fort Hood shootings. The execution itself remained scheduled for December. Reuters reported the same day that Trump wrote the event will not be streamed, that families may attend in person, and that the Pentagon said the secretary supports the decision. The reversal followed objections from Republicans, religious leaders and the public.",
+      "summary": "NBC News reported Oct. 15 that President Trump overruled a plan by Hegseth to livestream the firing-squad execution of former Army Maj. Nidal Hasan, convicted in the 2009 Fort Hood shootings. The execution itself remained scheduled for December. Al Jazeera reported the same day that Trump wrote the event will not be streamed and that immediate family members of victims would be able to view it. The reversal followed objections from Republicans and the public.",
       "sources": [
         {
           "name": "NBC News",
           "url": "https://www.nbcnews.com/politics/national-security/white-house-overrules-pete-hegseth-time-livestreaming-execution-rcna603735"
         },
         {
-          "name": "Reuters",
-          "url": "https://www.investing.com/news/world-news/trump-says-military-execution-ewill-not-be-livestreamed-4952154"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/15/trump-says-fort-hood-shooter-execution-will-not-be-livestreamed"
         }
       ]
     }

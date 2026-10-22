@@ -80,11 +80,19 @@
       "date": "2026-10-21",
       "dateLabel": "Oct 21",
       "headline": "GTC Berlin: Nemotron 3.5 models and an OpenShell reference for agents",
-      "summary": "NVIDIA's GTC Berlin coverage on Oct. 21 adds Nemotron 3.5 Super VL and Nemotron 3.5 Bolt, retriever models, Kumo models for structured data, Cosmos 3.5, and Ising models for quantum computing. The same write-up introduces the OpenShell reference architecture for running agents with controls on what they can reach, and Confidential Bare Metal so a model builder can keep control of models and data on third-party accelerated infrastructure. Isaac's robotics expansion is covered on the Tech page.",
+      "summary": "NVIDIA's Oct. 21 open-models post adds Nemotron 3.5 Super VL and Nemotron 3.5 Bolt, retriever models, Kumo models for structured data, Cosmos 3.5, and Ising models for quantum computing. A separate newsroom release the same day introduces the OpenShell reference architecture for running agents with controls on what they can reach. A third post describes Confidential Bare Metal so a model builder can keep control of models and data on third-party accelerated infrastructure. Isaac's robotics expansion is covered on the Tech page.",
       "sources": [
         {
           "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/"
+          "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/"
+        },
+        {
+          "name": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/openshell-reference-architecture"
+        },
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/"
         }
       ]
     },

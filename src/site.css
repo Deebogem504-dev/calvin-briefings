@@ -1,17 +1,17 @@
 :root {
-  color-scheme: light;
-  --bg: #f4f0e6;
-  --bg-raise: #fffdf8;
-  --ink: #1c1915;
-  --muted: #5e584e;
-  --faint: #8a8174;
-  --line: #e3d9c8;
-  --accent: #9a4f08;
-  --accent-ink: #7c3d06;
-  --chip: #fff7eb;
-  --chip-line: #efd3a8;
-  --note: #fff8ee;
-  --shadow: 0 1px 0 rgba(28, 25, 21, 0.04);
+  color-scheme: dark;
+  --bg: #1f2a1c;
+  --bg-raise: #2b3a26;
+  --ink: #f4f7f0;
+  --muted: #d7e0d0;
+  --faint: #c5d2bc;
+  --line: #3e5340;
+  --accent: #e7b340;
+  --accent-ink: #f6d48a;
+  --chip: #31422c;
+  --chip-line: #6a5830;
+  --note: #243022;
+  --shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
   --sans: "Segoe UI", ui-sans-serif, system-ui, -apple-system, sans-serif;
   --mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
@@ -19,38 +19,20 @@
   --header: 4.6rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --bg: #12110e;
-    --bg-raise: #1c1a16;
-    --ink: #f3efe6;
-    --muted: #c4baad;
-    --faint: #9a9084;
-    --line: #322e27;
-    --accent: #f0b429;
-    --accent-ink: #f6c453;
-    --chip: #2a2418;
-    --chip-line: #5a4630;
-    --note: #241e16;
-    --shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
-  }
-}
-
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --bg: #12110e;
-  --bg-raise: #1c1a16;
-  --ink: #f3efe6;
-  --muted: #c4baad;
-  --faint: #9a9084;
-  --line: #322e27;
-  --accent: #f0b429;
-  --accent-ink: #f6c453;
-  --chip: #2a2418;
-  --chip-line: #5a4630;
-  --note: #241e16;
-  --shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  --bg: #1f2a1c;
+  --bg-raise: #2b3a26;
+  --ink: #f4f7f0;
+  --muted: #d7e0d0;
+  --faint: #c5d2bc;
+  --line: #3e5340;
+  --accent: #e7b340;
+  --accent-ink: #f6d48a;
+  --chip: #31422c;
+  --chip-line: #6a5830;
+  --note: #243022;
+  --shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
 }
 
 :root[data-theme="light"] {
@@ -59,7 +41,7 @@
   --bg-raise: #fffdf8;
   --ink: #1c1915;
   --muted: #5e584e;
-  --faint: #8a8174;
+  --faint: #5c564c;
   --line: #e3d9c8;
   --accent: #9a4f08;
   --accent-ink: #7c3d06;
@@ -83,7 +65,11 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-a { color: var(--accent-ink); }
+a {
+  color: var(--accent-ink);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
 a:hover { text-decoration-thickness: 2px; }
 
 :focus-visible {

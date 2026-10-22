@@ -111,7 +111,7 @@
         },
         {
           "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/"
+          "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/"
         }
       ]
     },
@@ -135,11 +135,11 @@
       "date": "2026-10-21",
       "dateLabel": "Oct 21",
       "headline": "NVIDIA adds Nemotron 3.5 Super VL and Bolt to its open-model stack",
-      "summary": "NVIDIA's GTC Berlin coverage says the open-model portfolio now includes Nemotron 3.5 Super VL and Nemotron 3.5 Bolt, plus new retriever models, the Kumo family for structured business data, Cosmos 3.5 world models, Alpamayo 2 Edge for vehicles, BioNeMo, and Ising for quantum computing. The stated point is models that organizations can customize with local data and run on infrastructure they control. The same day NVIDIA also described OpenShell as a reference architecture for deploying agents with limits on what they can access, and Confidential Bare Metal as a way to run sensitive workloads on third-party infrastructure while keeping control of models and data.",
+      "summary": "NVIDIA's Oct. 21 open-models post says the portfolio now includes Nemotron 3.5 Super VL and Nemotron 3.5 Bolt, plus new retriever models, the Kumo family for structured business data, Cosmos 3.5 world models, Alpamayo 2 Edge for vehicles, BioNeMo, and Ising for quantum computing. The stated point is models that organizations can customize with local data and run on infrastructure they control.",
       "sources": [
         {
           "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/"
+          "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "sources": [
         {
           "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/"
+          "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/"
         }
       ]
     },

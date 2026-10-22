@@ -132,7 +132,7 @@ def shell(title: str, description: str, body: str, depth: int, current: str | No
 <header class="bar">
 <div class="bar-inner">
 <a class="brand" href="{esc(home)}">{logo_svg()}<span>{esc(SITE['shortName'])}<small>Army &amp; tech briefings</small></span></a>
-<button class="theme" type="button" id="theme-toggle">Dark</button>
+<button class="theme" type="button" id="theme-toggle" aria-pressed="true">Light</button>
 </div>
 <nav class="nav wrap" aria-label="Briefings">{''.join(nav_links)}</nav>
 </header>

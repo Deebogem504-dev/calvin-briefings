@@ -7,17 +7,19 @@
   } catch (err) {
     stored = null;
   }
+  /* Dark olive is the default even when the system theme is light.
+     A stored "light" or "dark" value is an explicit visitor choice. */
   if (stored === "light" || stored === "dark") {
     root.setAttribute("data-theme", stored);
+  } else {
+    root.setAttribute("data-theme", "dark");
   }
 
   var button = document.getElementById("theme-toggle");
   if (!button) return;
 
   function mode() {
-    var set = root.getAttribute("data-theme");
-    if (set === "light" || set === "dark") return set;
-    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    return root.getAttribute("data-theme") === "light" ? "light" : "dark";
   }
 
   function paint() {
