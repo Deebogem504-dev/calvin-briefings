@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-10-22",
-  "covers": "Oct 12–22, 2026",
-  "readFirst": "Covers Oct. 21–22, and keeps the Oct. 12 USFP optics proposal because nothing replaced it. New: NVIDIA's Oct. 21 account of the DSX power platform, which treats the grid and the AI factory as one system. Google's Vera Rubin A5X design, with general availability next month, is still the capacity story. No new NetApp product release was found.",
+  "compiled": "2026-10-23",
+  "covers": "Oct 12–23, 2026",
+  "readFirst": "Covers Oct. 22–23, and keeps the Oct. 12 USFP optics proposal because nothing replaced it. New: NVIDIA's Oct. 22 Minerva platform, which ties GPU, network, storage, and job telemetry together to predict AI-factory failures. The Oct. 21 Vera Rubin and DSX items are still the capacity and power picture. No new NetApp product release was found, and no new campus-switching release was found.",
   "subsections": [
     {"id": "networking", "title": "Networking"},
     {"id": "capacity", "title": "AI Infrastructure & Capacity"},
@@ -46,6 +46,20 @@
         {
           "name": "Google Cloud",
           "url": "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026"
+        }
+      ]
+    },
+    {
+      "id": "minerva-2026-10-22",
+      "subsection": "capacity",
+      "date": "2026-10-22",
+      "dateLabel": "Oct 22",
+      "headline": "NVIDIA launches Minerva, an AIOps platform for finding AI-factory failures earlier",
+      "summary": "NVIDIA said Oct. 22 that Minerva connects telemetry from GPUs, networking, storage, schedulers, and workloads, then uses machine learning to detect anomalies, predict failures, and group related alerts into one incident. NVIDIA says it builds a knowledge graph of GPUs, SuperNICs, switches, cables, and jobs, and includes an assistant that can recommend a fix or call infrastructure APIs. IREN is using it, and Aolani, Bitdeer AI, IBM, Jio, Lambda, Quake AI, and Tesla plan to deploy it. Dell Technologies, Lenovo, and Supermicro will offer Minerva in their AI-factory operations portfolios.",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/"
         }
       ]
     },

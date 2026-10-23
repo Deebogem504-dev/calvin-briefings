@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-10-22",
-  "covers": "Oct 14–22, 2026",
-  "readFirst": "Covers Oct. 20–22, and keeps the Oct. 14–15 items that are still the standing picture. New: a Reuters dispatch that the IRGC says seven vessels were hit or struck mines near Hormuz; Hegseth's Guyana agreement and a Florida Air National Guard special tactics squadron; Project Agincourt's roadmap for Autonomous Warfare Command; and his Oct. 20 Dayton speech naming Project Meridian and a reconciliation bill of at least $350 billion. No new Golden Dome appropriation was found. The fiscal 2027 request is still mostly in reconciliation that has not been enacted.",
+  "compiled": "2026-10-23",
+  "covers": "Oct 14–23, 2026",
+  "readFirst": "Covers Oct. 22–23, and keeps the Oct. 14–21 items that are still the standing picture. New: DefenseScoop and Stars and Stripes on Hegseth's Oct. 20 memo barring bets on military operations that use nonpublic information, and Al Jazeera's account of a White House and CENTCOM pushback on the IRGC's Hormuz claims, plus an Oct. 23 IRGC Navy statement that U.S. ships have moved away from the strait. The Department of War listed no release for Oct. 23. No new Golden Dome appropriation was found. The fiscal 2027 request is still mostly in reconciliation that has not been enacted.",
   "subsections": [
     {"id": "secwar", "title": "Secretary & Initiatives"},
     {"id": "acquisition", "title": "Acquisition & Innovation"},
@@ -16,6 +16,24 @@
     {"id": "ops", "title": "Operations & Geopolitics"}
   ],
   "items": [
+    {
+      "id": "hegseth-betting-memo-2026-10-22",
+      "subsection": "secwar",
+      "date": "2026-10-23",
+      "dateLabel": "Oct 22–23",
+      "headline": "Hegseth bars troops and civilians from using nonpublic information to bet on military operations",
+      "summary": "DefenseScoop reported Oct. 22 that it obtained an Oct. 20 memorandum in which Secretary of War Pete Hegseth barred Pentagon and military personnel from placing financial wagers, including on Polymarket or Kalshi, using nonpublic government information. The memo says the prohibition applies to classified or unclassified information, and that violations may bring administrative, disciplinary, or criminal action under the Uniform Code of Military Justice or federal law. Hegseth wrote that enemies watch these markets and that a transaction on a military outcome creates a signal. Stars and Stripes reported Oct. 23 that the order also covers indirect bets through third parties, and that prosecutors allege Army Master Sgt. Gannon Ken Van Dyke, who pleaded not guilty, won more than $400,000 on Polymarket using classified information about the January operation that captured Nicolas Maduro.",
+      "sources": [
+        {
+          "name": "DefenseScoop",
+          "url": "https://defensescoop.com/2026/10/22/hegseth-memo-gambling-prediction-markets/"
+        },
+        {
+          "name": "Stars and Stripes",
+          "url": "https://www.stripes.com/theaters/us/2026-10-23/hegseth-gambling-directive-23236475.html"
+        }
+      ]
+    },
     {
       "id": "hegseth-dayton-2026-10-20",
       "subsection": "secwar",
@@ -55,24 +73,6 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/Releases/Release/Article/4631015/secretary-of-war-pete-hegseth-directs-establishment-of-new-air-national-guard-s/"
-        }
-      ]
-    },
-    {
-      "id": "hegseth-streeting-2026-10-15",
-      "subsection": "secwar",
-      "date": "2026-10-15",
-      "dateLabel": "Oct 15",
-      "headline": "Hegseth hosts Britain's defense secretary and presses a NATO 3.0 rebalance",
-      "summary": "Secretary of War Pete Hegseth met United Kingdom Secretary of State for Defence Wes Streeting at the Pentagon on Oct. 15, Streeting's first Washington visit since taking office in July. Hegseth described NATO 3.0 as Europeans taking primary responsibility for their own conventional defense so the United States can shift attention, including toward the Pacific. The Pentagon readout says Hegseth urged more British defense spending, discussed the review of U.S. force posture in Europe, asked London to keep supporting a durable peace in Ukraine, and raised security in the Strait of Hormuz. Hegseth also thanked Streeting for communication about threats to U.S. forces in Britain, including the security incident at RAF Fairford that led the U.S. to withdraw bombers.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/News-Stories/Article/Article/4626344/hegseth-welcomes-uk-counterpart-to-pentagon/"
-        },
-        {
-          "name": "Department of War readout",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4626961/readout-of-secretary-of-war-pete-hegseths-meeting-with-the-united-kingdoms-secr/"
         }
       ]
     },
@@ -126,14 +126,22 @@
     {
       "id": "hormuz-tankers-2026-10-22",
       "subsection": "ops",
-      "date": "2026-10-22",
-      "dateLabel": "Oct 22",
-      "headline": "IRGC says four vessels were hit and three more struck mines near Hormuz",
-      "summary": "A Reuters dispatch published by Al-Monitor on Oct. 22 said Iran's Islamic Revolutionary Guard Corps Navy reported that four vessels involved in what it called illegal oil transfers in the northern Persian Gulf were hit at the same time and caught fire on Wednesday, after its forces tracked them. The IRGC said three more vessels collided with mines west of the Strait of Hormuz. It warned the U.S. military that continued provocations could lead to a wider response against its regional bases. The dispatch does not include an independent confirmation of the strikes.",
+      "date": "2026-10-23",
+      "dateLabel": "Oct 22–23",
+      "headline": "Trump and CENTCOM reject Iran's Hormuz mine claims; an IRGC commander says U.S. ships pulled back",
+      "summary": "A Reuters dispatch published by Al-Monitor on Oct. 22 said the IRGC Navy reported that four vessels involved in what it called illegal oil transfers were hit at the same time and caught fire, that three more collided with mines west of the Strait of Hormuz, and that continued U.S. provocations could draw a wider response against regional bases. Al-Monitor and Al Jazeera both said the strike claims were not independently confirmed. Al Jazeera reported that President Trump wrote Iran was making up fake hits and mines because more oil was coming through the strait than before the conflict, and that a CENTCOM spokesperson, speaking anonymously, called the mine claims incorrect, said the lanes had been cleared of mines, said Iran is using missiles and drones, and said 95 percent of vessels were getting through. On Oct. 23, Iran International reported that IRGC Navy commander Ali Ozmaei said U.S. vessels were no longer in the area and had moved 600 to 700 kilometers from the strait.",
       "sources": [
         {
           "name": "Al-Monitor",
           "url": "https://www.al-monitor.com/originals/2026/10/irans-irgc-navy-says-seven-vessels-hit-warns-us-wider-response"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response"
+        },
+        {
+          "name": "Iran International",
+          "url": "https://www.iranintl.com/en/202610232026"
         }
       ]
     },

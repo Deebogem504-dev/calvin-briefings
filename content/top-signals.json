@@ -1,44 +1,44 @@
 {
   "signals": [
     {
+      "section": "cyber",
+      "label": "CYBER",
+      "dateLabel": "Oct 22",
+      "headline": "Arista: an exploited VeloCloud Orchestrator bug turns a read-only user into an operator",
+      "item": "velocloud-cve-2026-10-22",
+      "href": "cyber.html#kev"
+    },
+    {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Oct 22",
-      "headline": "IRGC says four vessels were hit and three more struck mines near Hormuz",
+      "dateLabel": "Oct 22–23",
+      "headline": "Hegseth bars bets on military operations that use nonpublic information",
+      "item": "hegseth-betting-memo-2026-10-22",
+      "href": "dow.html#secwar"
+    },
+    {
+      "section": "dow",
+      "label": "DOW",
+      "dateLabel": "Oct 22–23",
+      "headline": "Trump and CENTCOM reject Iran's Hormuz mine claims",
       "item": "hormuz-tankers-2026-10-22",
       "href": "dow.html#ops"
     },
     {
-      "section": "cyber",
-      "label": "CYBER",
-      "dateLabel": "Oct 21",
-      "headline": "CISA: patch PHP now for unauthenticated remote code execution",
-      "item": "php2shell-2026-10-21",
-      "href": "cyber.html#incidents"
-    },
-    {
-      "section": "dow",
-      "label": "DOW",
-      "dateLabel": "Oct 20",
-      "headline": "Hegseth: a reconciliation bill of at least $350 billion is the priority",
-      "item": "hegseth-dayton-2026-10-20",
-      "href": "dow.html#secwar"
-    },
-    {
-      "section": "cyber",
-      "label": "CYBER",
-      "dateLabel": "Oct 21",
-      "headline": "Microsoft ties the ConnectWise compromise to Storm-0940 and an AI pentest tool",
-      "item": "storm-0940-2026-10-21",
-      "href": "cyber.html#incidents"
+      "section": "ai",
+      "label": "AI",
+      "dateLabel": "Oct 23",
+      "headline": "Anthropic-managed Claude is generally available on Google Cloud",
+      "item": "claude-gcp-ga-2026-10-23",
+      "href": "ai.html#google"
     },
     {
       "section": "datacenter",
       "label": "DC/NET",
-      "dateLabel": "Oct 21",
-      "headline": "NVIDIA: power is the AI-factory bottleneck, and DSX is the response",
-      "item": "dsx-power-2026-10-21",
-      "href": "datacenter.html#power"
+      "dateLabel": "Oct 22",
+      "headline": "NVIDIA launches Minerva to spot AI-factory failures before they stop a job",
+      "item": "minerva-2026-10-22",
+      "href": "datacenter.html#capacity"
     },
     {
       "section": "army",

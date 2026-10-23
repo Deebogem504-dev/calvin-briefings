@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-10-22",
-  "covers": "Oct 20–22, 2026",
-  "readFirst": "Covers Oct. 20–22. New: Anthropic appointed physicist Christopher Stubbs to the Long-Term Benefit Trust; OpenAI published partner safety standards, with Usage Policy changes effective Nov. 20; and Project Agincourt's Oct. 21 roadmap is the defense-AI update. The Oct. 21 GTC Berlin and Google Cloud items are still the product news. No new Anthropic or Meta model release was found, and no new OpenAI model card was found.",
+  "compiled": "2026-10-23",
+  "covers": "Oct 20–23, 2026",
+  "readFirst": "Covers Oct. 20–23. New: OpenAI made the Decisions API generally available on GPT-6 Luna; Google Cloud previewed Agent Compute Engine; and an Anthropic-managed Claude deployment on Google Cloud reached general availability on Oct. 23. NVIDIA's Minerva operations platform is on the data center page. No new Anthropic model card and no new OpenAI model release were found. The Oct. 20 toxin-binder note and the Orchestra Bio acquisition were outside this brief and were removed.",
   "subsections": [
     {"id": "anthropic", "title": "Anthropic"},
     {"id": "openai", "title": "OpenAI"},
@@ -34,16 +34,16 @@
       ]
     },
     {
-      "id": "anthropic-scorpion-2026-10-20",
-      "subsection": "anthropic",
-      "date": "2026-10-20",
-      "dateLabel": "Oct 20",
-      "headline": "Anthropic says Claude designed scorpion-toxin binders; 17 of 211 passed lab binding tests",
-      "summary": "Anthropic reported Oct. 20 that an internal research model inside Claude Science designed minibinders against scorpion neurotoxins, working mostly on its own for 64 hours from one prompt and four follow-ups. It generated 318,484 designs and selected 180; the team added 31 more. Adaptyv Bio and Twist Bioscience tested all 211, and 17 met Anthropic's binding criteria, each against a single toxin. Anthropic says it has not shown neutralization in cells or animals and does not claim an antivenom. All 211 designs and the data are being released.",
+      "id": "decisions-api-2026-10-22",
+      "subsection": "openai",
+      "date": "2026-10-22",
+      "dateLabel": "Oct 22",
+      "headline": "OpenAI makes the Decisions API generally available on GPT-6 Luna",
+      "summary": "OpenAI said Oct. 22 that the Decisions API is generally available. It uses GPT-6 Luna for questions with bounded answers, and OpenAI says it is up to 10 times faster than calling GPT-6 Luna through the Responses API. Since the public beta, OpenAI has added a native GPT-Live integration, prompt caching, inference residency in the United States and the European Union, native JSON inputs, images in the instructions, and a limit of 400 questions per request, twice the previous limit. OpenAI says input costs $0.10 per million tokens, cached input costs $0.01 per million tokens, and there is no charge for output tokens.",
       "sources": [
         {
-          "name": "Anthropic",
-          "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+          "name": "OpenAI",
+          "url": "https://openai.com/index/decisions-api/"
         }
       ]
     },
@@ -62,16 +62,30 @@
       ]
     },
     {
-      "id": "openai-orchestra-2026-10-20",
-      "subsection": "openai",
-      "date": "2026-10-20",
-      "dateLabel": "Oct 20",
-      "headline": "OpenAI acquires Orchestra Bio and folds it into Rosalind",
-      "summary": "OpenAI said Oct. 20 it has acquired Orchestra Bio, a platform that coordinates drug-development programs, and is combining that team with Rosalind, OpenAI's life-sciences models and tools. Orchestra's agents are described as tracking studies and campaigns so scientists can decide what to do when one failure, such as a manufacturing batch, ripples into a trial timeline. OpenAI pointed to existing work with Novo Nordisk and Moderna as the commercial context. No price was disclosed.",
+      "id": "claude-gcp-ga-2026-10-23",
+      "subsection": "google",
+      "date": "2026-10-23",
+      "dateLabel": "Oct 23",
+      "headline": "Google Cloud makes an Anthropic-managed Claude deployment generally available",
+      "summary": "Google Cloud said Oct. 23 that an Anthropic-managed option for Claude models on Google Cloud is generally available, alongside the existing Google-managed option. Google says both deliver the same frontier models on day zero, the same pricing, and Google Cloud billing, including drawdown of eligible commitments. On the Anthropic-managed option, Anthropic is the data processor under its own terms, and Claude platform features such as Managed Agents in beta, skills, and code execution are available on day zero. Google names Claude Fable 5.1, Sonnet 5.5, Haiku 5.5, and Opus 5.5, and says customers authenticate with Google Cloud IAM.",
       "sources": [
         {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/openai-to-acquire-orchestra-bio"
+          "name": "Google Cloud",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud"
+        }
+      ]
+    },
+    {
+      "id": "agent-compute-2026-10-22",
+      "subsection": "google",
+      "date": "2026-10-22",
+      "dateLabel": "Oct 22",
+      "headline": "Google Cloud previews Agent Compute Engine, one hardware-isolated microVM per agent",
+      "summary": "Google Cloud said Oct. 22 at AGNTCon and MCPCon that Agent Compute Engine, which already runs Gemini as an agent for work tasks, will be available in preview in the coming months. Google says each agent gets a hardware-isolated microVM with its own guest kernel, short-lived credentials, and a Hyperdisk, and that an idle microVM can be paused and restored from a snapshot. For Kubernetes, Google introduced open-source Agent Substrate and said a benchmark of 200,000 agents sustained 500 activations per second with suspend and resume under 500 milliseconds. Google also said it is extending Gemini agent governance, including Agent Gateway, to more runtimes.",
+      "sources": [
+        {
+          "name": "Google Cloud",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance"
         }
       ]
     },
@@ -122,20 +136,6 @@
         {
           "name": "NVIDIA Newsroom",
           "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data"
-        }
-      ]
-    },
-    {
-      "id": "nvidia-nemotron-2026-10-21",
-      "subsection": "nvidia",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "NVIDIA adds Nemotron 3.5 Super VL and Bolt to its open-model stack",
-      "summary": "NVIDIA's Oct. 21 open-models post says the portfolio now includes Nemotron 3.5 Super VL and Nemotron 3.5 Bolt, plus new retriever models, the Kumo family for structured business data, Cosmos 3.5 world models, Alpamayo 2 Edge for vehicles, BioNeMo, and Ising for quantum computing. The stated point is models that organizations can customize with local data and run on infrastructure they control.",
-      "sources": [
-        {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/"
         }
       ]
     },

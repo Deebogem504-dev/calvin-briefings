@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-10-22",
+  "compiled": "2026-10-23",
   "covers": "Oct 12–22, 2026",
-  "readFirst": "Covers Oct. 14–22, plus the Oct. 12 Cisco and NVIDIA optics announcement because no newer Cisco product release was found. HPE, NetApp, Intel and F5 had no material public product or contract release in this window, so those parts of the page are empty on purpose. Palo Alto and Cisco security items are exploited vulnerabilities, not sales wins.",
+  "readFirst": "Covers Oct. 14–22, plus the Oct. 12 Cisco and NVIDIA optics announcement because no newer Cisco product release was found. HPE did publish on Oct. 21: Private Cloud AI can mix H200 and RTX PRO 6000 GPUs, and HPE introduced a Vera CPU rack. NetApp had no material public product release. Of F5, Intel, and VMware, Intel and F5 were quiet; the VMware item is the Broadcom Cloud Foundation note. Palo Alto and Cisco security items are exploited vulnerabilities, not sales wins. No partner release dated Oct. 23 was found.",
   "subsections": [
     {"id": "cisco", "title": "Cisco"},
     {"id": "dell", "title": "Dell Technologies"},
@@ -71,6 +71,20 @@
         {
           "name": "Dell Technologies",
           "url": "https://www.nasdaq.com/press-release/dell-technologies-advances-enterprise-agentic-ai-deskside-data-center-nvidia-2026-10"
+        }
+      ]
+    },
+    {
+      "id": "hpe-gtc-agentic-2026-10-21",
+      "subsection": "hpe",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "HPE says Private Cloud AI can mix H200 and RTX PRO 6000 GPUs, and introduces a Vera CPU rack",
+      "summary": "HPE said Oct. 21 at GTC Berlin that HPE Private Cloud AI can now combine NVIDIA H200 GPUs and NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs in the same cluster, and that this support and the KAI Scheduler are generally available. HPE introduced the NVIDIA Vera CPU Rack by HPE, which it describes as 256 NVIDIA Vera CPUs with support for 22.5K sandboxes and 80 percent faster agentic CPU performance. HPE said it will support NVIDIA DSX POD and the OpenShell reference architecture, combining OpenShell on Vera, NVIDIA Sentry with BlueField-4, and Vera Rubin NVL72. API and MCP updates for Private Cloud AI are rolling out in late 2026, and a self-service developer experience is planned for 2027.",
+      "sources": [
+        {
+          "name": "HPE",
+          "url": "https://www.hpe.com/us/en/newsroom/press-release/2026/10/hpe-teams-with-nvidia-to-advance-secure-agentic-ai-across-enterprises-and-industrial-environments.html"
         }
       ]
     },

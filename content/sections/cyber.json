@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-10-22",
-  "covers": "Oct 20–22, 2026",
-  "readFirst": "Covers Oct. 20–22. The patching priority is CISA's Oct. 21 php2shell alert: unauthenticated remote code execution in PHP, which CISA said it had not yet seen exploited. Microsoft attributed the ConnectWise Cloud Backup compromise to Storm-0940 using an agentic pentest framework. The Oct. 20 KEV additions remain the latest catalog entries, and SafePay is still the ransomware advisory. The Oct. 14 and Oct. 16 KEV items were dropped because they are no longer the current patching priority. No new KEV catalog addition was posted for Oct. 21 or Oct. 22, and no new public update on the DMDC personnel breach was found.",
+  "compiled": "2026-10-23",
+  "covers": "Oct 20–23, 2026",
+  "readFirst": "Covers Oct. 20–23. The patching priority is Arista's Oct. 22 advisory: CVE-2026-114625 in on-premises VeloCloud Orchestrator is being exploited. Amazon says a PHP2Shell attempt hit a honeypot on Oct. 17, before the Oct. 21 disclosure; CISA had not reported exploitation when it issued that alert. The Oct. 20 KEV batch and the Cisco Snort advisory were dropped because they are no longer the current patching priority. No new CISA Known Exploited Vulnerabilities catalog addition was posted for Oct. 22 or Oct. 23. CISA did publish an Industrial Edge Device Kit advisory on Oct. 22. No new public update on the DMDC personnel breach was found.",
   "subsections": [
     {"id": "kev", "title": "Exploited Vulnerabilities"},
     {"id": "incidents", "title": "Incidents & Breaches"},
@@ -16,24 +16,34 @@
   ],
   "items": [
     {
+      "id": "velocloud-cve-2026-10-22",
+      "subsection": "kev",
+      "date": "2026-10-22",
+      "dateLabel": "Oct 22",
+      "headline": "Arista says an exploited VeloCloud Orchestrator flaw lets a read-only user become a superuser operator",
+      "summary": "Arista's Security Advisory 0199, dated Oct. 22, covers CVE-2026-114625, a SQL injection in on-premises VeloCloud Orchestrator that Arista scores at 9.9 in CVSS 3.1. Arista says any authenticated user, including the Enterprise Read Only role, can gain operator privileges and masquerade as a local superuser operator, and that the flaw is known to be actively exploited. Hosted and Dedicated orchestrators are already patched. Arista says VeloCloud Gateway and VeloCloud Edge are not affected, names 74.82.197.86 and 38.54.50.151 as addresses seen in the attacks, and gives the on-premises fixes as VCO 5.2.3.18, 6.1.3.10, and 6.4.2.12 and later.",
+      "sources": [
+        {
+          "name": "Arista",
+          "url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199"
+        }
+      ]
+    },
+    {
       "id": "php2shell-2026-10-21",
       "subsection": "incidents",
       "date": "2026-10-21",
       "dateLabel": "Oct 21",
-      "headline": "CISA says patch PHP now: php2shell is unauthenticated remote code execution",
-      "summary": "CISA said Oct. 21 that CVE-2026-109618 and CVE-2026-109619, which it calls php2shell, allow unauthenticated remote code execution on PHP installations that serve web requests. CISA said it had not observed exploitation as of the alert, and told organizations to update to PHP 8.5.12, 8.4.27, 8.3.36, or 8.2.35, and to take PHP 8.1 and earlier offline if they cannot update. The PHP project's advisory says complete remote code execution was validated against Apache mod_php and that updating is the only complete fix. OpenAI said a researcher using GPT-5.6 Sol, and separately Wiz, reported the flaws, and that PHP's maintainers led the release.",
+      "headline": "Amazon saw PHP2Shell attempts four days before the patch; CISA had not reported exploitation",
+      "summary": "CISA said Oct. 21 that CVE-2026-109618 and CVE-2026-109619, which it calls php2shell, allow unauthenticated remote code execution on PHP installations that serve web requests, and that it had not observed exploitation as of the alert. CISA told organizations to update to PHP 8.5.12, 8.4.27, 8.3.36, or 8.2.35, and to take PHP 8.1 and earlier offline if they cannot update. Amazon Threat Intelligence wrote the same day that its MadPot honeypot recorded an exploitation attempt on Oct. 17, four days before public disclosure, from an address on a commercial anonymization network, and that further attempts on the morning of Oct. 21 came from multiple actors. Amazon said it is unclear whether those attempts would have worked on real systems, and that after the patch PHP2Shell was seeing broad exploitation attempts.",
       "sources": [
         {
           "name": "CISA",
           "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching"
         },
         {
-          "name": "PHP",
-          "url": "https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w"
-        },
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+          "name": "AWS Security Blog",
+          "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/"
         }
       ]
     },
@@ -48,20 +58,6 @@
         {
           "name": "Microsoft",
           "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"
-        }
-      ]
-    },
-    {
-      "id": "kev-oct-20-2026",
-      "subsection": "kev",
-      "date": "2026-10-20",
-      "dateLabel": "Oct 20",
-      "headline": "CISA adds six exploited flaws, four of them in Plex Media Server",
-      "summary": "CISA's Oct. 20 alert adds CVE-2026-96652, CVE-2026-96654, CVE-2026-96655 and CVE-2026-96656 in Plex Media Server, CVE-2026-106931 in EG Secure Solutions SiteGuard Server Edition, and CVE-2026-110936 in Siemens Software Center. The Plex issues include server-side request forgery, improper neutralization of encoded URI schemes, and external control of a file name or path. Siemens Software Center has an uncontrolled search path that can let a local authenticated attacker plant a DLL. CISA says these belong on the Known Exploited Vulnerabilities catalog and points federal civilian agencies at BOD 26-04 for prioritization.",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog"
         }
       ]
     },
@@ -84,16 +80,16 @@
       ]
     },
     {
-      "id": "cisco-snort3-gre-2026-10-21",
+      "id": "siemens-edge-2026-10-22",
       "subsection": "trends",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Cisco: crafted GRE traffic can restart Snort 3 on firewalls and routers",
-      "summary": "Cisco published CVE-2026-20221 on Oct. 21, a flaw in Snort 3's GRE tunnel decapsulation. An unauthenticated remote attacker who sends crafted nested GRE traffic can force the Snort 3 engine to reload, which Cisco says can become a bypass or a denial of service depending on configuration. The engine restarts on its own. There is no workaround. Affected software includes open-source Snort 3, fixed in 3.12.4.0, and Cisco Secure Firewall Threat Defense when Snort 3 is running with one of the named intrusion policies. Cisco's product security team said it is not aware of malicious use. ASA software, the Firewall Management Center, and Snort 2 are not affected.",
+      "date": "2026-10-22",
+      "dateLabel": "Oct 22",
+      "headline": "CISA: path traversal in Siemens Industrial Edge Device Kit can expose internal data",
+      "summary": "CISA published ICSA-26-295-09 on Oct. 22 for the Siemens Industrial Edge Device Kit. CISA says multiple path-traversal flaws, CVE-2026-44414 and CVE-2026-44415, could let an authenticated remote attacker reach sensitive internal information. The advisory lists a CVSS v3 score of 9.1 and says Siemens has released new versions for several affected products and recommends countermeasures where a fix is not yet available. The advisory does not say these flaws are being exploited.",
       "sources": [
         {
-          "name": "Cisco",
-          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-gre-JNpMHrTv"
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09"
         }
       ]
     },
