@@ -8,6 +8,7 @@ The audience is a Consulting Systems Engineer at World Wide Technology who suppo
 
 - Run on weekday mornings, U.S. Eastern time. Do not publish a weekend edition unless a person asks.
 - Cover roughly the previous weekday through the morning you run. On Monday, cover Friday through Monday morning.
+- On Monday, or on the first update of a week when Monday was skipped, run the weekly cleanup under "Retiring items" before you add new items. That pass leaves only the past week of articles in every section file.
 - Set `content/site.json` field `updated` to that morning's date (`YYYY-MM-DD`). Set `compiled` in every file under `content/sections/` to the same date. The build fails if they differ.
 - The "Last updated" line on the site is that date. Do not bump it unless the content changed.
 
@@ -40,7 +41,7 @@ Do not rename these section ids, files, or subsection ids. Old links and the hom
 
 `partners.json` subsection `quiet` is the heading "F5 · Intel · VMware". Put a VMware, F5, or Intel item there. If only one of the three had news, write that item and say in `readFirst` which of the three were quiet.
 
-On a weekday that is not the weekly day, still refresh the daily sections (`dow`, `ai`, `cyber`, `datacenter`) and top signals. Leave weekly sections alone unless a fact in them is now wrong. On Monday, refresh every section.
+On a weekday that is not the weekly day, still refresh the daily sections (`dow`, `ai`, `cyber`, `datacenter`) and top signals. Leave weekly sections alone unless a fact in them is now wrong, or the daily research checklist has a new qualifying item for that section. Add that item only. On Monday, refresh every section and run the weekly cleanup.
 
 ## What an item looks like
 
@@ -71,7 +72,7 @@ Rules:
 - `headline` is one sentence a reader can scan. No clickbait, no all caps.
 - `summary` is two to four sentences. Attribute claims ("CISA said", "Dell announced"). Do not add a number, a name, a date, or a cause that you did not read in a source you opened.
 - `sources` is one to four objects. `url` must be `https://`. `name` is the publisher (`Army.mil`, `CISA`, `WWT`), not the headline.
-- `tag` is optional. Omit it for ordinary news. Use `"context"` for a standing fact older than this edition's window that is still true (acting leaders, the CR end date, an award that is still the current vehicle). Use `"inference"` only in `wwt.json`, only in subsection `mapping`. The build rejects `inference` anywhere else.
+- `tag` is optional. Omit it for ordinary news. Use `"context"` for a standing fact that is still true, whose `date` is inside the past 7 days, and that is older than this edition's shorter window (acting leaders, the CR end date, an award that is still the current vehicle). The weekly cleanup removes a `context` item once its `date` is older than 7 days. Use `"inference"` only in `wwt.json`, only in subsection `mapping`. The build rejects `inference` anywhere else.
 - Order items inside a subsection with the most important first, not strictly by date. The build keeps file order.
 - A subsection with no items is valid. The page prints "No items this edition." Do not write a fake item that says nothing happened.
 
@@ -86,15 +87,33 @@ Count items in the file, including context and inference.
 | Each subsection | 0 to 4 |
 | `content/top-signals.json` | exactly 6 |
 
-Do not pad to the maximum. An empty HPE or Space subsection is correct when you found nothing. Prefer one sourced item over two weak ones.
+Do not pad to the maximum. An empty HPE or Space subsection is correct when you found nothing. Prefer one sourced item over two weak ones. The weekly cleanup can leave a section under the low end of its range. Leave it short. Do not add a filler item to climb back to 4 or 6.
 
 Context cap: at most 2 items tagged `context` per section. Inference cap: at most 2, and only on `wwt` mapping.
+
+## Daily research checklist
+
+These three sites are additional sources only. On every weekday run, keep searching the web broadly and keep searching every existing source for every section (Army, DOW, AI, Cyber, WWT, Budget, Tech, Partners, and DC/NET). Never limit research to these three sites. A section with nothing from these three sites still gets the same broad search it had before.
+
+Scrape the three sites in addition to that search. Monday's scrape covers Friday through Monday morning, so the weekend is included then. Do not publish a weekend edition only to scrape them.
+
+- https://www.federalnewsnetwork.com
+- https://www.einnews.com
+- https://www.tomshardware.com
+
+From these three sites, keep a hit only when it ties into the Army or DoW/DoD, or when it is a new AI topic. Place it in the best-fitting section: Army (`army.json`), DOW (`dow.json`), AI (`ai.json`), Cyber (`cyber.json`), WWT (`wwt.json`), Budget (`budget.json`), Tech (`tech.json`), Partners (`partners.json`), or DC/NET (`datacenter.json`). Use one of that file's existing subsection ids. Items found in the broad search follow the same placement rules and are not filtered down to what these three sites cover.
+
+Each item's link must be the original article. `sources[].url` is the `https://` URL of that article. It must pass `python3 scripts/check_links.py`. A homepage, a section front, or a search results page is not a source.
+
+`einnews.com` is an aggregator. When the lead came from there, open the EIN page, follow it to the original publisher's article, and cite that publisher's name and URL. If you cannot open the original article, skip the item. Do not cite the EIN News wrapper, and do not invent a publisher, an item, or a link.
+
+Never invent an item, a quote, a dollar figure, or a URL. A scrape hit you did not open and read is not a source.
 
 ## Sourcing
 
 Never invent an item, a quote, a dollar figure, or a URL.
 
-1. Search primary sources first: `army.mil`, `war.gov`, `cisa.gov`, `congress.gov`, company newsrooms (`wwt.com`, `nvidia.com`, vendor blogs), then `Breaking Defense`, `DefenseScoop`, `Stars and Stripes`, Reuters, and the major tech press.
+1. Search the web broadly for every section. Start with primary sources: `army.mil`, `war.gov`, `cisa.gov`, `congress.gov`, company newsrooms (`wwt.com`, `nvidia.com`, vendor blogs), then `Breaking Defense`, `DefenseScoop`, `Stars and Stripes`, Reuters, and the major tech press, then whatever else the day's story requires. The three sites in the daily research checklist are additional sources only. Scrape them too, on every run. Never limit research to those three sites, and never skip a section because they had nothing on it.
 2. Open the URL and read it before you cite it. A search snippet is not a source.
 3. If the page does not load, do not cite it. A bot wall (HTTP 403) is acceptable only when a normal fetch of the article body succeeded and the URL is the canonical article URL, not a search redirect.
 4. Every factual clause in `summary` must be supported by one of that item's sources. If you are connecting two stories, tag the item `inference` and only do that on the WWT mapping subsection.
@@ -126,17 +145,28 @@ Before adding the new edition:
 
 Copy the six live signals. For each, look up `item` in the section file and copy that item's `sources` onto the archive signal. Archive signals link to publishers, not to `dow.html#ops`, because those anchors will move.
 
-3. Then edit the live files.
+3. Then edit the live files. On Monday, or on the first update of the week, run the weekly cleanup below before you add items.
 
-Drop a live item when any of these is true:
+### Weekly cleanup
 
-- Its `date` is more than 14 days before the new `updated` date, unless it is tagged `context` and you re-checked that the fact is still true.
+On Monday, or on the first update of a week when Monday was skipped, remove every item older than 7 days from all section data files (`content/sections/*.json`). Leave `content/archive/` as it is. Those editions stay frozen. After this pass, the live site shows only the past week of articles.
+
+Age is the item's published date. `content/schema.json` definition `item` requires `date` (`YYYY-MM-DD`), and `scripts/build.py` rejects an item that omits it. Every current item already has `date`, so leave the schema unchanged. Do not age an item from `compiled`, `covers`, `dateLabel`, or the archive edition where the story first appeared.
+
+Compare `date` with the new `content/site.json` `updated` you are about to publish. Remove the item when `date` is earlier than 7 days before `updated`. An item dated exactly 7 days before `updated` stays. Example: an `updated` of `2026-10-26` removes `date` on or before `2026-10-18` and keeps `2026-10-19` through `2026-10-26`. When `dateLabel` is a span, `date` is the latest day, and that is the day you age.
+
+This replaces the old rule that dropped an item only after 14 days, and the exception that kept a re-checked `context` item past that window. `context` and `inference` items older than 7 days come out on this pass, including a standing fact that is still true. Inside the 7-day window, keep a `context` item only while it is still the standing fact. When a secretary is confirmed, delete the "acting" context item instead of leaving both.
+
+The count ranges in "How many items" do not keep an older item on the page. If the cleanup leaves a section under its usual minimum, leave it short. After the deletions, point `content/top-signals.json` only at items that remain, and change `readFirst` so it does not describe a removed story.
+
+On a later weekday in the same week, do not repeat the full-file purge. Still drop an item early when one of the rules below applies.
+
+Also drop a live item when any of these is true:
+
 - A newer item in the same subsection supersedes it (a nomination was confirmed, a bill passed, a patch shipped and the KEV due date passed with no new exploitation news).
 - You would otherwise exceed the counts above. Drop the oldest untagged item first.
 
-Keep a `context` item only while it is still the standing fact. When a secretary is confirmed, delete the "acting" context item instead of leaving both.
-
-Kev and incident items: remove a vulnerability item once it is no longer the current patching priority, usually after the next edition unless exploitation is still the day's news. Do not let the cyber page become a backlog of old CVEs.
+Kev and incident items: remove a vulnerability item once it is no longer the current patching priority, usually after the next edition unless exploitation is still the day's news. Do not let the cyber page become a backlog of old CVEs. The weekly cleanup is the backstop: a KEV item older than 7 days does not stay.
 
 ## Top signals
 
@@ -192,6 +222,8 @@ Do not push to `main` from an unattended refresh unless the repository owner has
 
 ## Checklist before you finish
 
+- [ ] Searched the web broadly and every existing source for every section. Also scraped the three additional sites (`federalnewsnetwork.com`, `einnews.com`, `tomshardware.com`) and did not limit research to them. Army, DoW/DoD, and new AI items from those sites are in the best-fitting section. EIN leads cite the original publisher article. No invented items or links
+- [ ] On Monday, or the first update of the week, every section item whose `date` is more than 7 days before `updated` was removed. Archive files were left in place
 - [ ] `updated` and every `compiled` are the same date
 - [ ] Previous edition copied to `content/archive/YYYY-MM-DD.json` if it was not already there
 - [ ] Counts are inside the ranges above, or an empty subsection is explicit
