@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-23",
+  "title": "October 23, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "CYBER",
+      "dateLabel": "Oct 22",
+      "headline": "Arista: an exploited VeloCloud Orchestrator bug turns a read-only user into an operator",
+      "sources": [
+        {
+          "name": "Arista",
+          "url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Oct 22–23",
+      "headline": "Hegseth bars bets on military operations that use nonpublic information",
+      "sources": [
+        {
+          "name": "DefenseScoop",
+          "url": "https://defensescoop.com/2026/10/22/hegseth-memo-gambling-prediction-markets/"
+        },
+        {
+          "name": "Stars and Stripes",
+          "url": "https://www.stripes.com/theaters/us/2026-10-23/hegseth-gambling-directive-23236475.html"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Oct 22–23",
+      "headline": "Trump and CENTCOM reject Iran's Hormuz mine claims",
+      "sources": [
+        {
+          "name": "Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/10/irans-irgc-navy-says-seven-vessels-hit-warns-us-wider-response"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response"
+        },
+        {
+          "name": "Iran International",
+          "url": "https://www.iranintl.com/en/202610232026"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Oct 23",
+      "headline": "Anthropic-managed Claude is generally available on Google Cloud",
+      "sources": [
+        {
+          "name": "Google Cloud",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Oct 22",
+      "headline": "NVIDIA launches Minerva to spot AI-factory failures before they stop a job",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/"
+        }
+      ]
+    },
+    {
+      "label": "ARMY",
+      "dateLabel": "Oct 19",
+      "headline": "NGC2 on the 25th Infantry Division's existing radios was not seamless",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/10/army-feels-growing-pains-as-it-integrates-anduril-ngc2-tech-with-older-comms/"
+        }
+      ]
+    }
+  ]
+}

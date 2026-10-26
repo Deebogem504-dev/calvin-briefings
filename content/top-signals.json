@@ -1,52 +1,52 @@
 {
   "signals": [
     {
+      "section": "army",
+      "label": "ARMY",
+      "dateLabel": "Oct 23–25",
+      "headline": "Army launched Project Gatekeeper, a sandbox that scores commercial software before an ATO",
+      "item": "project-gatekeeper-2026-10-25",
+      "href": "army.html#network"
+    },
+    {
+      "section": "dow",
+      "label": "DOW",
+      "dateLabel": "Oct 25",
+      "headline": "CENTCOM: U.S. help moved more than 1.5 billion barrels through Hormuz since summer",
+      "item": "centcom-hormuz-milestone-2026-10-25",
+      "href": "dow.html#ops"
+    },
+    {
       "section": "cyber",
       "label": "CYBER",
-      "dateLabel": "Oct 22",
-      "headline": "Arista: an exploited VeloCloud Orchestrator bug turns a read-only user into an operator",
+      "dateLabel": "Oct 22–23",
+      "headline": "CISA put the exploited VeloCloud bug on the KEV list, due Oct. 26",
       "item": "velocloud-cve-2026-10-22",
       "href": "cyber.html#kev"
     },
     {
-      "section": "dow",
-      "label": "DOW",
-      "dateLabel": "Oct 22–23",
-      "headline": "Hegseth bars bets on military operations that use nonpublic information",
-      "item": "hegseth-betting-memo-2026-10-22",
-      "href": "dow.html#secwar"
-    },
-    {
-      "section": "dow",
-      "label": "DOW",
-      "dateLabel": "Oct 22–23",
-      "headline": "Trump and CENTCOM reject Iran's Hormuz mine claims",
-      "item": "hormuz-tankers-2026-10-22",
-      "href": "dow.html#ops"
+      "section": "partners",
+      "label": "PARTNERS",
+      "dateLabel": "Oct 23–24",
+      "headline": "Cisco: eight eMudhra intermediate CA keys can be brute-forced in seconds",
+      "item": "emudhra-cisco-2026-10-24",
+      "href": "partners.html#cisco"
     },
     {
       "section": "ai",
       "label": "AI",
       "dateLabel": "Oct 23",
-      "headline": "Anthropic-managed Claude is generally available on Google Cloud",
-      "item": "claude-gcp-ga-2026-10-23",
-      "href": "ai.html#google"
+      "headline": "OpenAI says frontier-model training now runs with no live internet access",
+      "item": "openai-offline-training-2026-10-23",
+      "href": "ai.html#openai"
     },
     {
-      "section": "datacenter",
-      "label": "DC/NET",
-      "dateLabel": "Oct 22",
-      "headline": "NVIDIA launches Minerva to spot AI-factory failures before they stop a job",
-      "item": "minerva-2026-10-22",
-      "href": "datacenter.html#capacity"
-    },
-    {
-      "section": "army",
-      "label": "ARMY",
-      "dateLabel": "Oct 19",
-      "headline": "NGC2 on the 25th Infantry Division's existing radios was not seamless",
-      "item": "ngc2-legacy-radios-2026-10-19",
-      "href": "army.html#network"
+      "section": "wwt",
+      "label": "WWT",
+      "dateLabel": "Oct 21",
+      "headline": "WWT and DDN publish a Vera Rubin storage design for 50 MW AI factories",
+      "item": "wwt-ddn-storage-2026-10-21",
+      "href": "wwt.html#content"
     }
   ]
 }

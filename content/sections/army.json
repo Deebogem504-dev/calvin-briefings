@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-10-23",
-  "covers": "Oct 13–22, 2026",
-  "readFirst": "Covers the close of AUSA and the week after. New: Hegseth's Oct. 14 autonomy panel, I Corps' description of the NGC2 rollout, and a Breaking Defense account of NGC2 on the 25th Infantry Division's existing radios. Both top Army posts are still acting. No new NETCOM release was found in this window.",
+  "compiled": "2026-10-26",
+  "covers": "Oct 23–26, 2026",
+  "readFirst": "Covers Oct. 23–26, and keeps the AUSA-week items that are still the picture. New: Army Public Affairs said Oct. 25 that Project Gatekeeper, the OCIO software-assurance sandbox, launched Oct. 23. Access is limited to a Department of War CAC, with Login.gov described as coming later. Both top Army posts are still acting; no confirmation announcement was found. No new NETCOM release was found. WWT's GEMSS session at AFCEA TechNet Indo-Pacific is Oct. 26 in Honolulu.",
   "subsections": [
     {"id": "leadership", "title": "Leadership & Policy"},
     {"id": "modernization", "title": "Modernization & Force Design"},
@@ -17,6 +17,20 @@
     {"id": "ahead", "title": "Week Ahead"}
   ],
   "items": [
+    {
+      "id": "project-gatekeeper-2026-10-25",
+      "subsection": "network",
+      "date": "2026-10-25",
+      "dateLabel": "Oct 23–25",
+      "headline": "Army says Project Gatekeeper, its commercial-software security sandbox, launched Oct. 23",
+      "summary": "Army Public Affairs said Oct. 25 that the Office of the Chief Information Officer launched Project Gatekeeper on Oct. 23, a DevSecOps platform and security-evaluation sandbox for commercial software. Acting CIO Gabe Chiulli said the automated intake is meant to cut evaluation cycles from months to minutes while keeping the network perimeter in place. The release says vendors submit code and containerized applications into isolated enclaves that do not expose operational data, and that the pipelines produce evidence dossiers for an authority to operate. Access is currently limited to a Department of War common access card, with public Login.gov access described as coming later, and the release says the platform will later use frontier security models from unnamed super intelligence partners.",
+      "sources": [
+        {
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/296302/us_army_launches_project_gatekeeper_to_accelerate_commercial_software_adoption_streamline_cybersecurity_accreditation"
+        }
+      ]
+    },
     {
       "id": "ausa-autowarcom-panel-2026-10-14",
       "subsection": "leadership",
@@ -38,7 +52,7 @@
       "dateLabel": "Oct 12",
       "tag": "context",
       "headline": "Telle's first public speech as acting secretary; both top Army posts remain unconfirmed",
-      "summary": "Acting Secretary Adam Telle opened AUSA on Oct. 12, six weeks after he was named acting secretary following Dan Driscoll's resignation. He said the Army is moving off what he called compound self-interest and announced a first manufacturing rodeo in early 2027 to stress-test supply chains. Gen. Randy George was removed as chief of staff in April and has not been replaced. LaNeve, the vice chief, is acting chief. This is still the leadership picture after AUSA.",
+      "summary": "Acting Secretary Adam Telle opened AUSA on Oct. 12, six weeks after he was named acting secretary following Dan Driscoll's resignation. He said the Army is moving off what he called compound self-interest and announced a first manufacturing rodeo in early 2027 to stress-test supply chains. Gen. Randy George was removed as chief of staff in April and has not been replaced. LaNeve, the vice chief, is acting chief.",
       "sources": [
         {
           "name": "Army.mil",
@@ -98,7 +112,7 @@
       "date": "2026-10-19",
       "dateLabel": "Oct 19",
       "headline": "NGC2 on the 25th Infantry Division's existing radios was not seamless",
-      "summary": "Breaking Defense reported from AUSA that the 25th Infantry Division's September attempt to run Anduril's Lattice on its existing communications, during Lightning Surge 5 in Hawaii, did not go cleanly. Brig. Gen. Shane Taylor, portfolio management executive for the command-and-control information network, called it growing pains. Lockheed Martin is the integrator for the 25th ID's portion. Anduril's program manager said the TSM radios were not the same waveform or configuration used with the 4th Infantry Division. Taylor said the 25th will keep some legacy equipment because not every unit will get a fresh fielding like the 4th ID. That architecture is what I Corps units will be baselined on this fiscal year.",
+      "summary": "Breaking Defense reported from AUSA that the 25th Infantry Division's September attempt to run Anduril's Lattice on its existing communications, during Lightning Surge 5 in Hawaii, did not go cleanly. Brig. Gen. Shane Taylor, portfolio management executive for the command-and-control information network, called it growing pains. Lockheed Martin is the integrator for the 25th ID's portion, and Anduril's program manager said the TSM radios were not the same waveform or configuration used with the 4th Infantry Division. Taylor said the 25th will keep some legacy equipment because not every unit will get a fresh fielding like the 4th ID, and that architecture is what I Corps units will be baselined on this fiscal year.",
       "sources": [
         {
           "name": "Breaking Defense",

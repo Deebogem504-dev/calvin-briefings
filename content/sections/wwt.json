@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT ↔ U.S. Army Signal Mapping",
   "description": "World Wide Technology public content and Army business, set next to U.S. Army leadership priorities.",
-  "compiled": "2026-10-23",
-  "covers": "Oct 14–22, 2026",
-  "readFirst": "Covers Oct. 14–22. WWT's public news is the Cisco Secure AI Infrastructure specialization (Oct. 20) and LogicMonitor's AI Excellence award (Oct. 15). No new Army award to WWT was found. GEMSS 2.1, from July, is still the Army Cisco footprint on WWT's site. The two Signal Mapping notes are analysis, tagged Inference, and each claim is tied to a source above it.",
+  "compiled": "2026-10-26",
+  "covers": "Oct 21–26, 2026",
+  "readFirst": "Covers Oct. 21–26. No WWT press release dated Oct. 23–26 was found. The newest public releases are still Oct. 21: the Polarise partnership for a sovereign AI data center in Oslo, and a DDN storage reference design for Vera Rubin campuses. Both are added this edition. No new Army award to WWT was found. GEMSS 2.1, from July, is still the Army Cisco footprint. The LogicMonitor award was dropped to stay inside the count. The two Signal Mapping notes are analysis, tagged Inference.",
   "subsections": [
     {"id": "content", "title": "WWT Content & Army Footprint"},
     {"id": "leaders", "title": "Army Leadership Watch"},
@@ -31,20 +31,30 @@
       ]
     },
     {
-      "id": "wwt-logicmonitor-2026-10-15",
+      "id": "wwt-polarise-oslo-2026-10-21",
       "subsection": "content",
-      "date": "2026-10-15",
-      "dateLabel": "Oct 15",
-      "headline": "LogicMonitor names WWT AI Excellence Partner of the Year",
-      "summary": "At its Elevate conference in Chicago, LogicMonitor named WWT AI Excellence Partner of the Year for 2026. WWT's release, datelined Oct. 15, says the award recognizes the Advanced Technology Center, where customers can try Edwin AI, plus WWT's AI certification and adoption work. Zach Otten, WWT's business development manager for observability and AIOps, said customers can evaluate Edwin AI in the ATC against their own environments. LogicMonitor's own winner list confirms the same award.",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "WWT is systems integrator for Polarise's sovereign AI data center in Oslo",
+      "summary": "WWT and Polarise said Oct. 21 they have a partnership to build sovereign AI factories in Europe, with WWT as systems integrator. The first project is Polarise's AI data center in Oslo, which WWT said is already under way. WWT said the site is liquid-cooled, uses NVIDIA accelerated computing, and will house 5 MW of compute, and that Polarise owns the data center, cooling, infrastructure, and software platform. Polarise CEO Michel Boutouil said Oslo follows a large AI cluster in Munich tied to the Industrial AI Cloud project.",
       "sources": [
         {
           "name": "WWT",
-          "url": "https://www.wwt.com/press-release/world-wide-technology-named-ai-excellence-partner-of-the-year-by-logicmonitor"
-        },
+          "url": "https://www.wwt.com/press-release/polarise-partners-with-world-wide-technology-to-accelerate-europes-sovereign-ai-buildout-starting-in-oslo"
+        }
+      ]
+    },
+    {
+      "id": "wwt-ddn-storage-2026-10-21",
+      "subsection": "content",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "WWT and DDN publish a Vera Rubin storage design for 50 MW AI factories",
+      "summary": "WWT and DDN said Oct. 21 at GTC Berlin that they have a storage reference design for AI-factory campuses of 50 megawatts and above, built to NVIDIA's Vera Rubin NVL72 architecture. They said it targets more than 2.5 GB/s of read throughput per GPU, and that one 2U DDN AI400X3M is rated at 190 GB/s, which covers the 180 GB/s a full rack needs. For inference, DDN Infinia on NVIDIA BlueField-4 STX shares KV cache across nodes. WWT said it integrates the design and validates it in the AI Proving Ground.",
+      "sources": [
         {
-          "name": "LogicMonitor",
-          "url": "https://www.logicmonitor.com/press/costco-cleveland-clinic-ntt-data-and-bell-techlogix-show-what-ai-powered-observability-can-actually-deliver"
+          "name": "WWT",
+          "url": "https://www.wwt.com/press-release/wwt-and-ddn-design-storage-to-help-ai-factories-fit-more-gpus-within-their-power-limits"
         }
       ]
     },
@@ -55,7 +65,7 @@
       "dateLabel": "Jul 7",
       "tag": "context",
       "headline": "Army footprint on the record is still GEMSS 2.1 with Cisco",
-      "summary": "No newer Army award to WWT was found for Oct. 14–22. The standing public vehicle is still the July 7 GEMSS 2.1 announcement: a 12-month, $230 million agreement with Cisco that consolidates Army Voice, Video and Security, GEMSS 1.0, and 30 other Cisco enterprise agreements. It covers 24/7 Cisco technical support, software subscriptions and software support on Army-owned Cisco hardware, advanced services, training, and asset management, for the install base where Cisco support is commercially available, in CONUS and OCONUS.",
+      "summary": "The standing public vehicle is still the July 7 GEMSS 2.1 announcement: a 12-month, $230 million agreement with Cisco that consolidates Army Voice, Video and Security, GEMSS 1.0, and 30 other Cisco enterprise agreements. It covers 24/7 Cisco technical support, software subscriptions and software support on Army-owned Cisco hardware, advanced services, training, and asset management, for the install base where Cisco support is commercially available, in CONUS and OCONUS.",
       "sources": [
         {
           "name": "WWT",
@@ -69,7 +79,7 @@
       "date": "2026-10-19",
       "dateLabel": "Oct 19",
       "headline": "Army C2 lead: putting NGC2 on the 25th ID's radios was ordinary growing pain, and legacy gear stays",
-      "summary": "Brig. Gen. Shane Taylor told Breaking Defense at AUSA that the first integration of Anduril NGC2 technology with the 25th Infantry Division's existing communications was not seamless. Lockheed Martin, the integrator, said passing data through Lattice was not where it should be. Anduril said the TSM radios and several mission threads were new relative to the 4th Infantry Division. Taylor said the 25th will keep some legacy capability because later units will not all receive a clean fielding. That is the network the Army is about to baseline across other I Corps units.",
+      "summary": "Brig. Gen. Shane Taylor told Breaking Defense at AUSA that the first integration of Anduril NGC2 technology with the 25th Infantry Division's existing communications was not seamless. Lockheed Martin, the integrator, said passing data through Lattice was not where it should be. Anduril said the TSM radios and several mission threads were new relative to the 4th Infantry Division. Taylor said the 25th will keep some legacy capability because later units will not all receive a clean fielding, and that is the network the Army is about to baseline across other I Corps units.",
       "sources": [
         {
           "name": "Breaking Defense",
@@ -112,7 +122,7 @@
       "dateLabel": "Oct 19",
       "tag": "inference",
       "headline": "NGC2's hard part this week is legacy tactical transport; GEMSS is still an enterprise Cisco vehicle",
-      "summary": "Read side by side, the Oct. 13 and Oct. 19 reporting says I Corps is fielding NGC2 across theater distances, and the 25th Infantry Division's legacy radios did not take Anduril's Lattice cleanly. WWT's only Army agreement still posted as current news is GEMSS 2.1, the July Cisco enterprise software and support consolidation. Nothing in those sources makes WWT an NGC2 prime. The integration problem on the table is tactical transport and legacy waveforms. The WWT Army footprint that is actually public is enterprise Cisco entitlements, support and training.",
+      "summary": "Read side by side, the Oct. 13 and Oct. 19 reporting says I Corps is fielding NGC2 across theater distances, and the 25th Infantry Division's legacy radios did not take Anduril's Lattice cleanly. WWT's only Army agreement still posted as current news is GEMSS 2.1, the July Cisco enterprise software and support consolidation. Nothing in those sources makes WWT an NGC2 prime. The integration problem on the table is tactical transport and legacy waveforms, while the WWT Army footprint that is actually public is enterprise Cisco entitlements, support and training.",
       "sources": [
         {
           "name": "Breaking Defense",
@@ -129,21 +139,17 @@
       ]
     },
     {
-      "id": "mapping-specialization-vs-cr",
+      "id": "mapping-gatekeeper-gemss",
       "subsection": "mapping",
-      "date": "2026-10-20",
-      "dateLabel": "Oct 20",
+      "date": "2026-10-25",
+      "dateLabel": "Oct 25",
       "tag": "inference",
-      "headline": "The new Cisco AI specialization is a credential, not a funded Army start",
-      "summary": "WWT's Oct. 20 release says it is the only Cisco Global Partner with both U.S. Secure Networking and Secure AI Infrastructure specializations, after an audit of people, process and tools. That is a partner credential. Separately, CRS describes P.L. 119-103 as funding federal operations through Dec. 11, and the continuing-resolution text bars Defense funds under that act from new production of items that were not funded for production in fiscal 2026 or earlier. A specialization does not create an appropriation. The Army Cisco work WWT can point to in public remains the GEMSS 2.1 scope it already announced.",
+      "headline": "Gatekeeper is a new software prescreen; it does not replace GEMSS as the Army Cisco vehicle",
+      "summary": "The Army's Oct. 25 release says Project Gatekeeper launched Oct. 23 so a vendor with a Department of War CAC can submit code to an isolated sandbox and get automated security feedback before an authority to operate. WWT's only Army agreement still posted as current news is GEMSS 2.1, the July Cisco enterprise software and support consolidation. Nothing in the Gatekeeper release names WWT or changes that agreement. The new path is a prescreen for commercial software on the Army network; public Login.gov access is not available yet, and the funded Cisco footprint on the record is unchanged.",
       "sources": [
         {
-          "name": "WWT",
-          "url": "https://www.wwt.com/press-release/world-wide-technology-achieves-cisco-secure-ai-infrastructure-specialization-in-the-us"
-        },
-        {
-          "name": "CRS (P.L. 119-103)",
-          "url": "https://www.congress.gov/crs-product/R49353"
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/296302/us_army_launches_project_gatekeeper_to_accelerate_commercial_software_adoption_streamline_cybersecurity_accreditation"
         },
         {
           "name": "WWT GEMSS 2.1",

@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-10-23",
-  "covers": "Oct 12–23, 2026",
-  "readFirst": "Covers Oct. 22–23, and keeps the Oct. 12 USFP optics proposal because nothing replaced it. New: NVIDIA's Oct. 22 Minerva platform, which ties GPU, network, storage, and job telemetry together to predict AI-factory failures. The Oct. 21 Vera Rubin and DSX items are still the capacity and power picture. No new NetApp product release was found, and no new campus-switching release was found.",
+  "compiled": "2026-10-26",
+  "covers": "Oct 21–26, 2026",
+  "readFirst": "Covers Oct. 23–26, and keeps the Oct. 21–22 capacity and power items because nothing newer replaced them. New on this page: the Oct. 21 WWT and DDN storage reference design for Vera Rubin campuses of 50 MW and above. No newer campus-switching release was found. No new NetApp product release was found. USFP remains the standing optics proposal.",
   "subsections": [
     {"id": "networking", "title": "Networking"},
     {"id": "capacity", "title": "AI Infrastructure & Capacity"},
@@ -115,11 +115,25 @@
       "date": "2026-10-16",
       "dateLabel": "Oct 16",
       "headline": "OCP show floor: 800 V boards from Navitas and a 27 kW Infineon supply",
-      "summary": "EE Times reported Oct. 16 from the OCP Global Summit in San Jose that power delivery was a main theme. Navitas showed a 24 kW, 800 V-to-12 V board developed with NVIDIA, using gallium nitride, with a 97 percent full-load efficiency target and density above 2,000 watts per cubic inch. The board converts 800 V DC to 12 V in one stage and drops the 50 V intermediate bus. It was on NVIDIA's AI Factory MGX wall. Infineon showed a 27 kW three-phase supply aimed at Open Rack V3, at 116 watts per cubic inch against a 94 watt minimum, with a 20 millisecond energy buffer, and a hot-swap controller for plus or minus 400 V and 800 V DC.",
+      "summary": "EE Times reported Oct. 16 from the OCP Global Summit in San Jose that power delivery was a main theme. Navitas showed a 24 kW, 800 V-to-12 V board developed with NVIDIA, using gallium nitride, with a 97 percent full-load efficiency target and density above 2,000 watts per cubic inch. The board converts 800 V DC to 12 V in one stage, drops the 50 V intermediate bus, and was on NVIDIA's AI Factory MGX wall. Infineon showed a 27 kW three-phase supply aimed at Open Rack V3, at 116 watts per cubic inch against a 94 watt minimum, with a 20 millisecond energy buffer, and a hot-swap controller for plus or minus 400 V and 800 V DC.",
       "sources": [
         {
           "name": "EE Times",
           "url": "https://www.eetimes.com/data-center-power-a-prominent-highlight-of-ocp-2026/"
+        }
+      ]
+    },
+    {
+      "id": "wwt-ddn-storage-2026-10-21",
+      "subsection": "storage",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21",
+      "headline": "WWT and DDN size Vera Rubin storage to more than 2.5 GB/s of read per GPU",
+      "summary": "WWT and DDN said Oct. 21 at GTC Berlin that they have a storage reference design for AI-factory campuses of 50 megawatts and above, built to NVIDIA's Vera Rubin NVL72 architecture and targeting more than 2.5 GB/s of read throughput per GPU. They said one 2U DDN AI400X3M is rated at 190 GB/s, which covers the 180 GB/s a full rack needs, so storage draws less power and leaves more for GPUs. For inference, DDN Infinia on NVIDIA BlueField-4 STX shares KV cache across nodes. DDN said one 112K-token test loaded that cache in 2.1 seconds versus 57 seconds to recompute, and that results depend on workload and configuration.",
+      "sources": [
+        {
+          "name": "WWT",
+          "url": "https://www.wwt.com/press-release/wwt-and-ddn-design-storage-to-help-ai-factories-fit-more-gpus-within-their-power-limits"
         }
       ]
     },
@@ -129,7 +143,7 @@
       "date": "2026-10-21",
       "dateLabel": "Oct 21",
       "headline": "Google Managed Lustre on A5X will support GPUDirect Storage",
-      "summary": "Google Cloud said Oct. 21 that Managed Lustre will support NVIDIA GPUDirect Storage on the new A5X instances. The path is RDMA from the parallel file system into GPU memory, skipping the CPU and system memory, for training and inference data. No new NetApp product release was found for this window. The storage item that did land is this cloud file-system attachment on the Vera Rubin instances.",
+      "summary": "Google Cloud said Oct. 21 that Managed Lustre will support NVIDIA GPUDirect Storage on the new A5X instances. The path is RDMA from the parallel file system into GPU memory, skipping the CPU and system memory, for training and inference data.",
       "sources": [
         {
           "name": "Google Cloud",

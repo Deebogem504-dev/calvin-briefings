@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-10-23",
-  "covers": "Oct 14–22, 2026",
-  "readFirst": "The fresh items are from GTC Berlin: NVIDIA's Isaac robotics update, Google's open-source TorchTPU, and Dell's Vera CPU servers. No new space-system award was found for Oct. 14–22. The NSA post-quantum note is from Oct. 1 and is carried because it is the standing rule for national security systems, not because it is new this week.",
+  "compiled": "2026-10-26",
+  "covers": "Oct 20–26, 2026",
+  "readFirst": "Covers Oct. 23–26, and keeps the GTC Berlin items because nothing newer replaced them. No new space-system award was found. No newer NSA or NIST post-quantum decision was found. NVIDIA's Oct. 21 local-AI post said 64 GB DGX Spark systems start rolling out on Oct. 23; that note is on the AI page. The NSA post-quantum item is still the standing rule for national security systems.",
   "subsections": [
     {"id": "quantum", "title": "Quantum & Post-Quantum"},
     {"id": "autonomy", "title": "Robotics & Autonomy"},
@@ -23,7 +23,7 @@
       "dateLabel": "Oct 1",
       "tag": "context",
       "headline": "NSA: new commercial national security systems must support post-quantum algorithms starting in 2027",
-      "summary": "On Oct. 1 the NSA announced post-quantum measures for national security systems, tied to Executive Order 14412 and CNSSP 15. Starting in 2027, all new commercial national security systems must be capable of supporting quantum-resistant algorithms. Legacy systems that cannot are to be phased out by 2030. NSA described harvest-now, decrypt-later collection as already underway. No newer NIST or NSA algorithm decision was found for Oct. 14–22.",
+      "summary": "On Oct. 1 the NSA announced post-quantum measures for national security systems, tied to Executive Order 14412 and CNSSP 15. Starting in 2027, all new commercial national security systems must be capable of supporting quantum-resistant algorithms. Legacy systems that cannot are to be phased out by 2030. NSA described harvest-now, decrypt-later collection as already underway.",
       "sources": [
         {
           "name": "NSA",
@@ -37,7 +37,7 @@
       "date": "2026-10-21",
       "dateLabel": "Oct 21",
       "headline": "NVIDIA's Isaac update adds a reference humanoid and Isaac Lab 3.0",
-      "summary": "At GTC Berlin on Oct. 21 NVIDIA expanded the Isaac open robotics platform with a reference humanoid, datasets, a runtime, and a learning-framework update. Agile Robots' Agile ONE SN uses Isaac GR00T and Jetson Thor, with Halos safety integration planned. Isaac OS and Isaac Lab 3.0 are part of the release, along with reference workflows that use ChatGPT Astra, Isaac and Cosmos on DGX Station. NVIDIA described the release as a commercial robotics platform. It did not announce an Army program of record.",
+      "summary": "At GTC Berlin on Oct. 21 NVIDIA expanded the Isaac open robotics platform with a reference humanoid, datasets, a runtime, and a learning-framework update. Agile Robots' Agile ONE SN uses Isaac GR00T and Jetson Thor, with Halos safety integration planned. Isaac OS and Isaac Lab 3.0 are part of the release, along with reference workflows that use ChatGPT Astra, Isaac and Cosmos on DGX Station. NVIDIA described the release as a commercial robotics platform.",
       "sources": [
         {
           "name": "NVIDIA Newsroom",

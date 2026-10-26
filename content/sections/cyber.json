@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-10-23",
-  "covers": "Oct 20–23, 2026",
-  "readFirst": "Covers Oct. 20–23. The patching priority is Arista's Oct. 22 advisory: CVE-2026-114625 in on-premises VeloCloud Orchestrator is being exploited. Amazon says a PHP2Shell attempt hit a honeypot on Oct. 17, before the Oct. 21 disclosure; CISA had not reported exploitation when it issued that alert. The Oct. 20 KEV batch and the Cisco Snort advisory were dropped because they are no longer the current patching priority. No new CISA Known Exploited Vulnerabilities catalog addition was posted for Oct. 22 or Oct. 23. CISA did publish an Industrial Edge Device Kit advisory on Oct. 22. No new public update on the DMDC personnel breach was found.",
+  "compiled": "2026-10-26",
+  "covers": "Oct 23–26, 2026",
+  "readFirst": "Covers Oct. 23–26. The patching priority is two CISA Known Exploited Vulnerabilities additions from Oct. 23, both with a catalog due date of Oct. 26: Arista VeloCloud Orchestrator CVE-2026-114625, and Collabora Online's built-in CODE Server CVE-2026-110447. CISA revised the php2shell alert on Oct. 23 and still said it had not observed successful exploitation as of publication. No CISA alert was posted for Oct. 24, Oct. 25, or Oct. 26. The Oct. 22 Siemens industrial advisory and the Oct. 21 OpenAI Daybreak note were dropped so this page does not keep an old CVE backlog. No new public update on the DMDC personnel breach was found.",
   "subsections": [
     {"id": "kev", "title": "Exploited Vulnerabilities"},
     {"id": "incidents", "title": "Incidents & Breaches"},
@@ -18,11 +18,19 @@
     {
       "id": "velocloud-cve-2026-10-22",
       "subsection": "kev",
-      "date": "2026-10-22",
-      "dateLabel": "Oct 22",
-      "headline": "Arista says an exploited VeloCloud Orchestrator flaw lets a read-only user become a superuser operator",
-      "summary": "Arista's Security Advisory 0199, dated Oct. 22, covers CVE-2026-114625, a SQL injection in on-premises VeloCloud Orchestrator that Arista scores at 9.9 in CVSS 3.1. Arista says any authenticated user, including the Enterprise Read Only role, can gain operator privileges and masquerade as a local superuser operator, and that the flaw is known to be actively exploited. Hosted and Dedicated orchestrators are already patched. Arista says VeloCloud Gateway and VeloCloud Edge are not affected, names 74.82.197.86 and 38.54.50.151 as addresses seen in the attacks, and gives the on-premises fixes as VCO 5.2.3.18, 6.1.3.10, and 6.4.2.12 and later.",
+      "date": "2026-10-23",
+      "dateLabel": "Oct 22–23",
+      "headline": "CISA put the exploited VeloCloud Orchestrator bug on the KEV list, due Oct. 26",
+      "summary": "CISA added CVE-2026-114625 to the Known Exploited Vulnerabilities catalog on Oct. 23, and the catalog sets a due date of Oct. 26. Arista's Oct. 22 advisory scores the on-premises VeloCloud Orchestrator SQL injection at 9.9 and says any authenticated user, including Enterprise Read Only, can become a local superuser operator. Arista says the flaw is being exploited, names 74.82.197.86 and 38.54.50.151 as addresses seen in the attacks, and gives the on-premises fixes as VCO 5.2.3.18, 6.1.3.10, and 6.4.2.12 and later. Hosted and Dedicated orchestrators are already patched, and Gateway and Edge are not affected.",
       "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        },
         {
           "name": "Arista",
           "url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199"
@@ -30,20 +38,42 @@
       ]
     },
     {
+      "id": "collabora-kev-2026-10-23",
+      "subsection": "kev",
+      "date": "2026-10-23",
+      "dateLabel": "Oct 23",
+      "headline": "CISA adds an exploited Collabora CODE Server bug, with a catalog due date of Oct. 26",
+      "summary": "CISA added CVE-2026-110447 to the Known Exploited Vulnerabilities catalog on Oct. 23, based on evidence of active exploitation, and the catalog sets a due date of Oct. 26. Collabora's advisory says it is an unauthenticated command injection in proxy.php in the Nextcloud app Collabora Online Built-in CODE Server before 26.4.303, and that it works only while the built-in server is not running, such as after a restart, upgrade, or crash. Collabora says disabling the app is not enough: upgrade to 26.4.303 or later, or remove it. Standalone Collabora Online servers are not affected, and Collabora says this is not CVE-2025-66208.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        },
+        {
+          "name": "Collabora",
+          "url": "https://github.com/CollaboraOnline/online/security/advisories/GHSA-g3vx-3m76-fghh"
+        }
+      ]
+    },
+    {
       "id": "php2shell-2026-10-21",
       "subsection": "incidents",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Amazon saw PHP2Shell attempts four days before the patch; CISA had not reported exploitation",
-      "summary": "CISA said Oct. 21 that CVE-2026-109618 and CVE-2026-109619, which it calls php2shell, allow unauthenticated remote code execution on PHP installations that serve web requests, and that it had not observed exploitation as of the alert. CISA told organizations to update to PHP 8.5.12, 8.4.27, 8.3.36, or 8.2.35, and to take PHP 8.1 and earlier offline if they cannot update. Amazon Threat Intelligence wrote the same day that its MadPot honeypot recorded an exploitation attempt on Oct. 17, four days before public disclosure, from an address on a commercial anonymization network, and that further attempts on the morning of Oct. 21 came from multiple actors. Amazon said it is unclear whether those attempts would have worked on real systems, and that after the patch PHP2Shell was seeing broad exploitation attempts.",
+      "date": "2026-10-23",
+      "dateLabel": "Oct 21–23",
+      "headline": "CISA revises the php2shell alert and still says it has not seen successful exploitation",
+      "summary": "CISA revised its php2shell alert on Oct. 23, adding a SIGMA detection rule and links to partner advisories, and repeated the fix: PHP 8.5.12, 8.4.27, 8.3.36, or 8.2.35. CISA said the bugs allow unauthenticated remote code execution on PHP that serves web requests, that Apache with mod_php is the configuration PHP considers highest risk, and that it had not observed successful exploitation in the wild as of publication. Cisco's advisory, updated the same day, lists Ultra-Reliable Wireless Backhaul, Expressway, and Duo Access Gateway as affected, says the backhaul bug requires an administrator, and says products not on the list are not affected, including Secure Firewall ASA, Management Center, and Threat Defense. Cisco PSIRT said it is not aware of malicious use of these flaws.",
       "sources": [
         {
           "name": "CISA",
           "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching"
         },
         {
-          "name": "AWS Security Blog",
-          "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/"
+          "name": "Cisco",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq"
         }
       ]
     },
@@ -67,7 +97,7 @@
       "date": "2026-10-20",
       "dateLabel": "Oct 20–21",
       "headline": "SafePay advisory: about 600 victims, initial access through edge devices and stolen passwords",
-      "summary": "CISA, the FBI, the Secret Service and international partners released a StopRansomware advisory on SafePay dated Oct. 20. A CISA news release the next day says the group has hit about 600 victims across the Americas, Europe and Australia and is one of the most active ransomware groups of 2026. Actors steal or guess passwords, use phishing, and exploit known vulnerabilities on internet-facing devices, often arriving through VPN. They then create or take over accounts, move with legitimate admin tools, disable backups, steal data and encrypt systems. Listed exploited bugs in the advisory include CVE-2020-3259, CVE-2023-20269, CVE-2023-27532, CVE-2024-40711 and CVE-2024-40766. CISA's ask is to patch edge devices, require multifactor authentication, restrict admin tools, segment networks and keep offline backups that have been restored in a test.",
+      "summary": "CISA, the FBI, the Secret Service and international partners released a StopRansomware advisory on SafePay dated Oct. 20. A CISA news release the next day says the group has hit about 600 victims across the Americas, Europe and Australia and is one of the most active ransomware groups of 2026. Actors steal or guess passwords, use phishing, and exploit known vulnerabilities on internet-facing devices, often arriving through VPN, then create or take over accounts, move with legitimate admin tools, disable backups, steal data and encrypt systems. Listed bugs include CVE-2020-3259, CVE-2023-20269, CVE-2023-27532, CVE-2024-40711 and CVE-2024-40766, and CISA's ask is to patch edge devices, require multifactor authentication, restrict admin tools, segment networks and keep offline backups that have been restored in a test.",
       "sources": [
         {
           "name": "CISA advisory",
@@ -80,30 +110,16 @@
       ]
     },
     {
-      "id": "siemens-edge-2026-10-22",
+      "id": "emudhra-ca-2026-10-24",
       "subsection": "trends",
-      "date": "2026-10-22",
-      "dateLabel": "Oct 22",
-      "headline": "CISA: path traversal in Siemens Industrial Edge Device Kit can expose internal data",
-      "summary": "CISA published ICSA-26-295-09 on Oct. 22 for the Siemens Industrial Edge Device Kit. CISA says multiple path-traversal flaws, CVE-2026-44414 and CVE-2026-44415, could let an authenticated remote attacker reach sensitive internal information. The advisory lists a CVSS v3 score of 9.1 and says Siemens has released new versions for several affected products and recommends countermeasures where a fix is not yet available. The advisory does not say these flaws are being exploited.",
+      "date": "2026-10-24",
+      "dateLabel": "Oct 23–24",
+      "headline": "Cisco: eight eMudhra intermediate CA keys can be brute-forced, and firewalls are still under review",
+      "summary": "Cisco's informational advisory, first published Oct. 23 and updated Oct. 24, says a researcher showed that private keys for eight eMudhra intermediate certificates can be brute-forced in seconds because of an error in an April 2025 key ceremony, and that anyone with those keys can issue fraudulent TLS certificates for any domain. Cisco says two of the eight are code-signing CAs, and that all eight were cross-signed by Sectigo's AAA Certificate Services root in May 2025. Cisco PSIRT said it is not aware of malicious use. Secure Firewall Management Center has a remediation article, while Secure Firewall ASA, Threat Defense, and Identity Services Engine were still under investigation in the Oct. 24 update.",
       "sources": [
         {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09"
-        }
-      ]
-    },
-    {
-      "id": "openai-daybreak-2026-10-21",
-      "subsection": "trends",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "OpenAI commits $1 billion in model access for defenders after the PHP find",
-      "summary": "In the same Oct. 21 post on the PHP flaws, OpenAI said it has committed $1 billion in subsidized Daybreak access for organizations with limited security resources that protect essential services. It said that, to its knowledge, frontier AI found the PHP bugs before attackers did, and that the same capabilities can help attackers build exploits. OpenAI said it worked with partners to engage CISA, the Office of the National Cyber Director, and what it called the White House's Super Intelligence Force, plus international partners, before the public disclosure. It also published a five-stage proposal for how maintainers, providers, and government agencies should handle the next bug of this scale.",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+          "name": "Cisco",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r"
         }
       ]
     }

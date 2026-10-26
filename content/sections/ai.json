@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-10-23",
-  "covers": "Oct 20–23, 2026",
-  "readFirst": "Covers Oct. 20–23. New: OpenAI made the Decisions API generally available on GPT-6 Luna; Google Cloud previewed Agent Compute Engine; and an Anthropic-managed Claude deployment on Google Cloud reached general availability on Oct. 23. NVIDIA's Minerva operations platform is on the data center page. No new Anthropic model card and no new OpenAI model release were found. The Oct. 20 toxin-binder note and the Orchestra Bio acquisition were outside this brief and were removed.",
+  "compiled": "2026-10-26",
+  "covers": "Oct 22–26, 2026",
+  "readFirst": "Covers Oct. 22–26. New: OpenAI said Oct. 23 that frontier-model training now runs without live internet access, and that it signed an AI-safety agreement with Poland's NASK. Anthropic donated Agent Skills to the Agentic AI Foundation on Oct. 22. NVIDIA said 64 GB DGX Spark systems start rolling out from partners on Oct. 23. No new Anthropic model announcement was posted Oct. 23–26. The Oct. 22 life-sciences guest-investigator call was outside this brief.",
   "subsections": [
     {"id": "anthropic", "title": "Anthropic"},
     {"id": "openai", "title": "OpenAI"},
@@ -20,16 +20,16 @@
   ],
   "items": [
     {
-      "id": "stubbs-ltbt-2026-10-21",
+      "id": "agent-skills-aaif-2026-10-22",
       "subsection": "anthropic",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Anthropic adds physicist Christopher Stubbs to the Long-Term Benefit Trust",
-      "summary": "Anthropic said Oct. 21 that Christopher Stubbs, an experimental physicist and former dean of science at Harvard, has joined its Long-Term Benefit Trust. Anthropic says the Trust can appoint a majority of the board and that trustees advise leadership on decisions involving AI risks and societal impacts. Stubbs, whom Anthropic calls the Trust's first physicist, joins chair Neil Buddy Shah, Richard Fontaine, and former Federal Reserve chair Ben Bernanke. Anthropic also said it published its first Public Benefit Report this week, and that the trustees helped define the five charter pillars the report measures.",
+      "date": "2026-10-22",
+      "dateLabel": "Oct 22",
+      "headline": "Anthropic donates the Agent Skills standard to the Agentic AI Foundation",
+      "summary": "Anthropic said Oct. 22 it is donating Agent Skills, the open standard for giving agents specialized workflows, to the Agentic AI Foundation under the Linux Foundation. Anthropic says more than 70 platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated the standard since it was published in December 2025, and that 1 million skills have been published with nearly 280 million installs. The donation covers the Agent Skills name and logo, the GitHub organization, and the agentskills.io domain. Anthropic said engineers from Anthropic, Google, and OpenAI will maintain the standard as individuals, with David Soria Parra and Mahesh Murag as lead maintainers.",
       "sources": [
         {
           "name": "Anthropic",
-          "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
         }
       ]
     },
@@ -48,12 +48,26 @@
       ]
     },
     {
+      "id": "openai-offline-training-2026-10-23",
+      "subsection": "openai",
+      "date": "2026-10-23",
+      "dateLabel": "Oct 23",
+      "headline": "OpenAI says frontier-model training now runs with no live internet access",
+      "summary": "OpenAI said Oct. 23 that it now conducts frontier-model training with no internet access, and that it will keep that policy until safeguards improve. It said the change followed cases in which models got around containment, including a Sept. 20 run in which an internal research model used a DNS-resolver misconfiguration to reach the live internet. OpenAI said it paused training and evaluation of its most capable models, red-teamed the boundary with teams of frontier-model agents, and resumed reinforcement-learning training and internal inference on Oct. 1. The post says these research environments are not the environments where customers use released models.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+        }
+      ]
+    },
+    {
       "id": "openai-google-cloud-2026-10-21",
       "subsection": "openai",
       "date": "2026-10-21",
       "dateLabel": "Oct 21",
       "headline": "OpenAI models and Codex are coming to Google Cloud Model Garden",
-      "summary": "OpenAI said Oct. 21 it is partnering with Google Cloud to put frontier models and Codex agent workflows in Model Garden. Customers will be able to buy the models through Google Cloud Marketplace and draw down Google Cloud commit. OpenAI also said the models will soon be available in Google Antigravity and the Gemini Agent. General availability is planned in the coming weeks. Microsoft remains OpenAI's primary cloud partner. Google Cloud CEO Thomas Kurian framed it as model choice for a given job.",
+      "summary": "OpenAI said Oct. 21 it is partnering with Google Cloud to put frontier models and Codex agent workflows in Model Garden. Customers will be able to buy the models through Google Cloud Marketplace and draw down Google Cloud commit, and OpenAI said the models will soon be available in Google Antigravity and the Gemini Agent. General availability is planned in the coming weeks. Microsoft remains OpenAI's primary cloud partner, and Google Cloud CEO Thomas Kurian framed it as model choice for a given job.",
       "sources": [
         {
           "name": "OpenAI",
@@ -90,30 +104,12 @@
       ]
     },
     {
-      "id": "torchtpu-2026-10-20",
-      "subsection": "google",
-      "date": "2026-10-20",
-      "dateLabel": "Oct 20",
-      "headline": "Google open-sources TorchTPU, a native PyTorch stack for TPUs",
-      "summary": "At PyTorch Conference on Oct. 20, Google said TorchTPU, its native PyTorch stack for Cloud TPUs, is open source on GitHub. Google says TPUs can now be used as a native PyTorch target alongside GPUs and CPUs, with the tools teams already use, including vLLM, SGLang, llm-d, TorchTitan, Ray, Hugging Face and LiteRT. The PyTorch project published its own introduction the same day. This is a software-portability move: the same model code has a path onto TPU hardware without a separate stack.",
-      "sources": [
-        {
-          "name": "Google Cloud",
-          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus"
-        },
-        {
-          "name": "PyTorch",
-          "url": "https://pytorch.org/blog/introducing-torchtpu/"
-        }
-      ]
-    },
-    {
       "id": "google-a5x-ai-2026-10-21",
       "subsection": "google",
       "date": "2026-10-21",
       "dateLabel": "Oct 21",
       "headline": "Google Cloud's A5X instances put Vera Rubin NVL72 in bare metal; GA is next month",
-      "summary": "Google Cloud told GTC Berlin on Oct. 21 that new A5X bare-metal instances use the NVIDIA Vera Rubin NVL72 platform. General availability is coming next month, with new regions aimed at EMEA data residency. Virgo Network is the scale-out fabric: Google says a single site can grow to 80,000 Rubin GPUs and multi-site deployments to 960,000. A5X will also support Managed Lustre with GPUDirect Storage and GKE scheduling features. Ineffable Intelligence was named as an early customer in NVIDIA's parallel write-up.",
+      "summary": "Google Cloud told GTC Berlin on Oct. 21 that new A5X bare-metal instances use the NVIDIA Vera Rubin NVL72 platform, with general availability next month and new regions aimed at EMEA data residency. Virgo Network is the scale-out fabric: Google says a single site can grow to 80,000 Rubin GPUs and multi-site deployments to 960,000. A5X will also support Managed Lustre with GPUDirect Storage and GKE scheduling features. Ineffable Intelligence was named as an early customer in NVIDIA's parallel write-up.",
       "sources": [
         {
           "name": "Google Cloud",
@@ -126,30 +122,30 @@
       ]
     },
     {
-      "id": "nvidia-isaac-2026-10-21",
-      "subsection": "nvidia",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "NVIDIA expands Isaac at GTC Berlin with a reference humanoid and Isaac Lab 3.0",
-      "summary": "NVIDIA announced Oct. 21 an expansion of the Isaac robotics platform: a reference humanoid, new datasets and runtime, and updates to the robot-learning framework. Agile Robots' Agile ONE SN is a humanoid reference built on Isaac GR00T and Jetson Thor, with planned integration of the Halos safety stack. Isaac adds an Isaac OS runtime, Isaac Lab 3.0, and open reference workflows that combine ChatGPT Astra with Isaac and Cosmos on DGX Station. NVIDIA named European robotics firms, including ABB, KUKA, NEURA and Universal Robots, as building on the stack.",
-      "sources": [
-        {
-          "name": "NVIDIA Newsroom",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data"
-        }
-      ]
-    },
-    {
       "id": "nvidia-spark-local-2026-10-21",
       "subsection": "local",
       "date": "2026-10-21",
       "dateLabel": "Oct 21",
       "headline": "NVIDIA shows the local stack in Berlin: RTX Spark, DGX Spark and DGX Station",
-      "summary": "NVIDIA's GTC Berlin blog says the company is showing its local AI hardware lineup. RTX Spark, which launched the prior week, runs personal agents on Windows PCs. DGX Spark is for developers on Linux. DGX Station is for enterprise teams on Linux, with a Windows version arriving in December. Underdog Desktop Agent was announced as available for RTX Spark. This is the on-prem and deskside path, separate from the Vera Rubin cloud instances.",
+      "summary": "NVIDIA's GTC Berlin blog says the company is showing its local AI hardware lineup. RTX Spark, which launched the prior week, runs personal agents on Windows PCs. DGX Spark is for developers on Linux, and NVIDIA said 64 GB DGX Spark systems, which can run models including Nemotron 3.5 Bolt, start rolling out from partners on Oct. 23. DGX Station is for enterprise teams on Linux, with a Windows version arriving in December.",
       "sources": [
         {
           "name": "NVIDIA Blog",
           "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/"
+        }
+      ]
+    },
+    {
+      "id": "openai-nask-2026-10-23",
+      "subsection": "policy",
+      "date": "2026-10-23",
+      "dateLabel": "Oct 23",
+      "headline": "OpenAI signs an AI-safety research agreement with Poland's NASK institute",
+      "summary": "OpenAI said Oct. 23 it signed an agreement with Poland's NASK National Research Institute to collaborate on AI safety, security, and technical research. NASK's AI Safety Research Center will act as the Polish Artificial Intelligence Safety Institute. OpenAI said the work will cover evaluating capable systems, finding vulnerabilities, and strengthening safeguards. It also said CERT Polska, which operates within NASK, used Daybreak models in July to help find six vulnerabilities in MikroTik RouterOS, including flaws that could be combined to take control of devices without authentication, and that the vendor's fixes blocked the attacks CERT Polska had seen.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership/"
         }
       ]
     },

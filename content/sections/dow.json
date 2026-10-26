@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-10-23",
-  "covers": "Oct 14–23, 2026",
-  "readFirst": "Covers Oct. 22–23, and keeps the Oct. 14–21 items that are still the standing picture. New: DefenseScoop and Stars and Stripes on Hegseth's Oct. 20 memo barring bets on military operations that use nonpublic information, and Al Jazeera's account of a White House and CENTCOM pushback on the IRGC's Hormuz claims, plus an Oct. 23 IRGC Navy statement that U.S. ships have moved away from the strait. The Department of War listed no release for Oct. 23. No new Golden Dome appropriation was found. The fiscal 2027 request is still mostly in reconciliation that has not been enacted.",
+  "compiled": "2026-10-26",
+  "covers": "Oct 23–26, 2026",
+  "readFirst": "Covers Oct. 23–26. New: CENTCOM said Adm. Brad Cooper flew over the Strait of Hormuz on Oct. 25, and that U.S. forces have helped Gulf partners export more than 1.5 billion barrels of crude since summer. Hegseth is traveling to the Philippines for ADMM-Plus; the Oct. 25 advisory gives no dates. The Department of War listed no release for Oct. 26. No new Golden Dome appropriation was found. UKMTO's recent-incidents page is a running list rather than a single warning URL, so the latest strike notices are not carried as an item.",
   "subsections": [
     {"id": "secwar", "title": "Secretary & Initiatives"},
     {"id": "acquisition", "title": "Acquisition & Innovation"},
@@ -16,6 +16,20 @@
     {"id": "ops", "title": "Operations & Geopolitics"}
   ],
   "items": [
+    {
+      "id": "hegseth-philippines-2026-10-25",
+      "subsection": "secwar",
+      "date": "2026-10-25",
+      "dateLabel": "Oct 25",
+      "headline": "Hegseth will travel to the Philippines for the ASEAN Defense Ministers' Meeting-Plus",
+      "summary": "The Department of War said Oct. 25 that Secretary of War Pete Hegseth will travel to the Philippines to reaffirm what the advisory called America's commitment to peace through strength in the Pacific. He will participate in the ASEAN Defense Ministers' Meeting-Plus and hold bilateral and multilateral meetings. The advisory says the trip is meant to strengthen deterrence, advance alliances and partnerships, and expand burden-sharing across the region. It does not list travel dates or the counterparts he will meet.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Advisories/Advisory/Article/4633052/secretary-of-war-pete-hegseth-to-visit-the-philippines-and-participate-in-the-a/"
+        }
+      ]
+    },
     {
       "id": "hegseth-betting-memo-2026-10-22",
       "subsection": "secwar",
@@ -63,30 +77,16 @@
       ]
     },
     {
-      "id": "ang-sts-florida-2026-10-21",
-      "subsection": "secwar",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Hegseth directs a new Air National Guard special tactics squadron in Florida",
-      "summary": "The Department of War said Oct. 21 that Secretary of War Pete Hegseth signed a memo directing a new Air National Guard Special Tactics Squadron in Florida. Chief Pentagon Spokesman Sean Parnell said the squadron would sit with the U.S. Special Operations Command and Air Force Special Operations Command community at Hurlburt Field and MacDill Air Force Base. The release says the move is meant to bolster combat controller, pararescue, and special reconnaissance capabilities by using Air National Guard personnel. It describes the location, next to USSOCOM at MacDill and AFSOC at Hurlburt, as a way to concentrate training and mission execution.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4631015/secretary-of-war-pete-hegseth-directs-establishment-of-new-air-national-guard-s/"
-        }
-      ]
-    },
-    {
       "id": "project-agincourt-2026-10-21",
       "subsection": "acquisition",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Project Agincourt publishes an operational roadmap for Autonomous Warfare Command",
-      "summary": "The Department of War said Oct. 21 that Project Agincourt leaders Owen West and Senior Chief Max Strasiser sent an open letter to the joint force and industry partners with an operational roadmap for the Autonomous Warfare Command. The release quotes them that urgency does not excuse imprecision. They described a combat-first model that pushes procurement decisions and dollars to frontline warfighters. The department said success is measured by how fast an operational problem receives a fielded, scalable solution, not by paperwork milestones.",
+      "date": "2026-10-23",
+      "dateLabel": "Oct 21–23",
+      "headline": "Project Agincourt's West and Strasiser say Autonomous Warfare Command is due Oct. 1, 2027",
+      "summary": "The Department of War reported Oct. 23 that Owen West and Max Strasiser, identified as chief executive and chief operating officer of Project Agincourt and appointed by Secretary Hegseth, sent an open letter on how the Autonomous Warfare Command will develop. The story says Hegseth tasked them with standing up the four-star functional combatant command and with continuing the direct reporting portfolio manager for unmanned systems. They wrote that the Cold War model of a small number of sophisticated, expensive weapons has been disrupted, and that an advantage now depends on adapting at the edge with a lead in super intelligence and the noncommissioned officer corps. The command is expected to be operational by Oct. 1, 2027, and they said success is how fast an operational problem receives a fielded, scalable solution.",
       "sources": [
         {
           "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4630269/department-of-wars-project-agincourt-accelerates-autonomous-warfare-command-to/"
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4632827/project-agincourt-leaders-reach-out-to-industry-with-path-forward/"
         }
       ]
     },
@@ -96,7 +96,7 @@
       "date": "2026-10-14",
       "dateLabel": "Oct 14",
       "headline": "Autonomous Warfare Command still needs Congress before its Oct. 1, 2027 target",
-      "summary": "At AUSA on Oct. 14, Pentagon spokesman Sean Parnell told the autonomy panel the effort is not another procurement effort. Hegseth's Sept. 30 direction creates Autonomous Warfare Command as a four-star combatant command with service-like authorities to scale drones and robotics. Stars and Stripes reports that standing the command up by Oct. 1, 2027 requires the Pentagon to work with Congress on the necessary legislation. Service secretaries from the Army, Air Force and Navy were on the stage. Additional detail on the command was not shared in the session.",
+      "summary": "At AUSA on Oct. 14, Pentagon spokesman Sean Parnell told the autonomy panel the effort is not another procurement effort. Hegseth's Sept. 30 direction creates Autonomous Warfare Command as a four-star combatant command with service-like authorities to scale drones and robotics. Stars and Stripes reports that standing the command up by Oct. 1, 2027 requires the Pentagon to work with Congress on the necessary legislation. Service secretaries from the Army, Air Force and Navy were on the stage, and additional detail on the command was not shared in the session.",
       "sources": [
         {
           "name": "Stars and Stripes",
@@ -111,7 +111,7 @@
       "dateLabel": "Oct 7",
       "tag": "context",
       "headline": "Almost all of the fiscal 2027 Golden Dome request still sits in reconciliation",
-      "summary": "No new appropriation for Golden Dome was found this week. CSIS's tracker of the fiscal 2027 request says the department asked for $17.1 billion of a $17.9 billion Golden Dome total inside the reconciliation package rather than discretionary funding, and that the direct reporting program manager has warned a lack of fiscal 2027 funding would stop further development. Axios reported Oct. 7 that senators questioned cost and coverage at a Sept. 29 hearing. The Congressional Budget Office has estimated as much as $1.2 trillion over 20 years. Gen. Michael Guetlein has said the system stays inside a $185 billion figure. Those estimates disagree, and the reconciliation bill that would fund the request has not been enacted.",
+      "summary": "CSIS's tracker of the fiscal 2027 request says the department asked for $17.1 billion of a $17.9 billion Golden Dome total inside the reconciliation package rather than discretionary funding, and that the direct reporting program manager has warned a lack of fiscal 2027 funding would stop further development. Axios reported Oct. 7 that senators questioned cost and coverage at a Sept. 29 hearing. The Congressional Budget Office has estimated as much as $1.2 trillion over 20 years, while Gen. Michael Guetlein has said the system stays inside a $185 billion figure. Those estimates disagree, and the reconciliation bill that would fund the request has not been enacted.",
       "sources": [
         {
           "name": "CSIS",
@@ -124,24 +124,16 @@
       ]
     },
     {
-      "id": "hormuz-tankers-2026-10-22",
+      "id": "centcom-hormuz-milestone-2026-10-25",
       "subsection": "ops",
-      "date": "2026-10-23",
-      "dateLabel": "Oct 22–23",
-      "headline": "Trump and CENTCOM reject Iran's Hormuz mine claims; an IRGC commander says U.S. ships pulled back",
-      "summary": "A Reuters dispatch published by Al-Monitor on Oct. 22 said the IRGC Navy reported that four vessels involved in what it called illegal oil transfers were hit at the same time and caught fire, that three more collided with mines west of the Strait of Hormuz, and that continued U.S. provocations could draw a wider response against regional bases. Al-Monitor and Al Jazeera both said the strike claims were not independently confirmed. Al Jazeera reported that President Trump wrote Iran was making up fake hits and mines because more oil was coming through the strait than before the conflict, and that a CENTCOM spokesperson, speaking anonymously, called the mine claims incorrect, said the lanes had been cleared of mines, said Iran is using missiles and drones, and said 95 percent of vessels were getting through. On Oct. 23, Iran International reported that IRGC Navy commander Ali Ozmaei said U.S. vessels were no longer in the area and had moved 600 to 700 kilometers from the strait.",
+      "date": "2026-10-25",
+      "dateLabel": "Oct 25",
+      "headline": "CENTCOM: U.S. forces helped Gulf partners export more than 1.5 billion barrels through Hormuz",
+      "summary": "CENTCOM said Oct. 25 that Adm. Brad Cooper visited the Strait of Hormuz as U.S. forces reached a milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil since summer. Cooper observed traffic from a U.S. Army CH-47 Chinook with Maj. Gen. Brandon Tegtmeier, commander of the 82nd Airborne Division. CENTCOM said more than 3,000 commercial vessels have transited the strait with its support over the last six months, and that primary transit routes remain free of Iranian sea mines. It said that in recent months more than 95 percent of ships navigating the strait have sailed through safely.",
       "sources": [
         {
-          "name": "Al-Monitor",
-          "url": "https://www.al-monitor.com/originals/2026/10/irans-irgc-navy-says-seven-vessels-hit-warns-us-wider-response"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response"
-        },
-        {
-          "name": "Iran International",
-          "url": "https://www.iranintl.com/en/202610232026"
+          "name": "CENTCOM",
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/"
         }
       ]
     },
@@ -174,24 +166,6 @@
         {
           "name": "The National",
           "url": "https://www.thenationalnews.com/news/gulf/2026/10/21/araghchi-says-strait-of-hormuz-will-stay-closed-until-us-agrees-to-irans-terms/"
-        }
-      ]
-    },
-    {
-      "id": "hasan-livestream-cancelled-2026-10-15",
-      "subsection": "ops",
-      "date": "2026-10-15",
-      "dateLabel": "Oct 15",
-      "headline": "Trump cancels a plan to livestream the Fort Hood shooter's execution",
-      "summary": "NBC News reported Oct. 15 that President Trump overruled a plan by Hegseth to livestream the firing-squad execution of former Army Maj. Nidal Hasan, convicted in the 2009 Fort Hood shootings. The execution itself remained scheduled for December. Al Jazeera reported the same day that Trump wrote the event will not be streamed and that immediate family members of victims would be able to view it. The reversal followed objections from Republicans and the public.",
-      "sources": [
-        {
-          "name": "NBC News",
-          "url": "https://www.nbcnews.com/politics/national-security/white-house-overrules-pete-hegseth-time-livestreaming-execution-rcna603735"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/15/trump-says-fort-hood-shooter-execution-will-not-be-livestreamed"
         }
       ]
     }
