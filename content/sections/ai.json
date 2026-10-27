@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-10-26",
-  "covers": "Oct 22–26, 2026",
-  "readFirst": "Covers Oct. 22–26. New: OpenAI said Oct. 23 that frontier-model training now runs without live internet access, and that it signed an AI-safety agreement with Poland's NASK. Anthropic donated Agent Skills to the Agentic AI Foundation on Oct. 22. NVIDIA said 64 GB DGX Spark systems start rolling out from partners on Oct. 23. No new Anthropic model announcement was posted Oct. 23–26. The Oct. 22 life-sciences guest-investigator call was outside this brief.",
+  "compiled": "2026-10-27",
+  "covers": "Oct 21–27, 2026",
+  "readFirst": "Covers Oct. 21–27. New: Anthropic filed a Form S-1 on Oct. 26 for a proposed Nasdaq listing under ANT, and OpenAI released GPT-6.1 Terra the same day. NVIDIA and Meta said they will expand work on Muse and that Meta intends to deploy more Vera Rubin infrastructure. No new Google model announcement was found for Oct. 26–27. The Oct. 21 Google A5X note was dropped here because the same posts are still on the data-center page, and the Oct. 21 Project Agincourt note was dropped because that release is still on the Department of War page.",
   "subsections": [
     {"id": "anthropic", "title": "Anthropic"},
     {"id": "openai", "title": "OpenAI"},
@@ -19,6 +19,20 @@
     {"id": "defense-ai", "title": "AI in Defense"}
   ],
   "items": [
+    {
+      "id": "anthropic-s1-2026-10-26",
+      "subsection": "anthropic",
+      "date": "2026-10-26",
+      "dateLabel": "Oct 26",
+      "headline": "Anthropic files a Form S-1 for a proposed Nasdaq listing under ANT",
+      "summary": "Anthropic said Oct. 26 that Anthropic, PBC filed a Form S-1 with the Securities and Exchange Commission for a proposed initial public offering of Class A common stock. Anthropic said it intends to list that stock on the Nasdaq Global Select Market under the symbol ANT. The company said the number of shares and the price range have not been determined. It said the registration statement has been filed but is not yet effective, so the shares may not be sold yet, and it named Goldman Sachs and Morgan Stanley as the firms that will provide the preliminary prospectus when it is available.",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/s1-sec"
+        }
+      ]
+    },
     {
       "id": "agent-skills-aaif-2026-10-22",
       "subsection": "anthropic",
@@ -34,16 +48,20 @@
       ]
     },
     {
-      "id": "decisions-api-2026-10-22",
+      "id": "gpt-61-terra-2026-10-26",
       "subsection": "openai",
-      "date": "2026-10-22",
-      "dateLabel": "Oct 22",
-      "headline": "OpenAI makes the Decisions API generally available on GPT-6 Luna",
-      "summary": "OpenAI said Oct. 22 that the Decisions API is generally available. It uses GPT-6 Luna for questions with bounded answers, and OpenAI says it is up to 10 times faster than calling GPT-6 Luna through the Responses API. Since the public beta, OpenAI has added a native GPT-Live integration, prompt caching, inference residency in the United States and the European Union, native JSON inputs, images in the instructions, and a limit of 400 questions per request, twice the previous limit. OpenAI says input costs $0.10 per million tokens, cached input costs $0.01 per million tokens, and there is no charge for output tokens.",
+      "date": "2026-10-26",
+      "dateLabel": "Oct 26",
+      "headline": "OpenAI releases GPT-6.1 Terra, priced at half of GPT-5.6 Terra",
+      "summary": "OpenAI said it is releasing GPT-6.1 Terra, a faster model for visual reasoning, computer use and writing, and that standard API prices are 50 percent lower than GPT-5.6 Terra and GPT-6.1 Sol. The prices it lists are $1 per million input tokens, $0.05 per million cached input tokens, and $5 per million output tokens. OpenAI says that at medium reasoning effort on Agents' Last Exam, Terra scores 15 percentage points higher than GPT-5.6 Terra at about one-third the cost, matches GPT-6 Astra at one-tenth the price per token, and finishes tasks more than three times faster than GPT-6 Astra and GPT-6.1 Sol. It is available to Plus, Pro, Enterprise and Edu users in ChatGPT Work and Codex, and in the API as gpt-6.1-terra. OpenAI says Terra meets the Critical cybersecurity threshold in its Preparedness Framework and keeps the safeguards built for GPT-6 Astra.",
       "sources": [
         {
           "name": "OpenAI",
-          "url": "https://openai.com/index/decisions-api/"
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra"
+        },
+        {
+          "name": "OpenAI Deployment Safety",
+          "url": "https://deploymentsafety.openai.com/gpt-6-1-terra"
         }
       ]
     },
@@ -58,6 +76,20 @@
         {
           "name": "OpenAI",
           "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+        }
+      ]
+    },
+    {
+      "id": "decisions-api-2026-10-22",
+      "subsection": "openai",
+      "date": "2026-10-22",
+      "dateLabel": "Oct 22",
+      "headline": "OpenAI makes the Decisions API generally available on GPT-6 Luna",
+      "summary": "OpenAI said Oct. 22 that the Decisions API is generally available. It uses GPT-6 Luna for questions with bounded answers, and OpenAI says it is up to 10 times faster than calling GPT-6 Luna through the Responses API. Since the public beta, OpenAI has added a native GPT-Live integration, prompt caching, inference residency in the United States and the European Union, native JSON inputs, images in the instructions, and a limit of 400 questions per request, twice the previous limit. OpenAI says input costs $0.10 per million tokens, cached input costs $0.01 per million tokens, and there is no charge for output tokens.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/decisions-api/"
         }
       ]
     },
@@ -104,20 +136,16 @@
       ]
     },
     {
-      "id": "google-a5x-ai-2026-10-21",
-      "subsection": "google",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Google Cloud's A5X instances put Vera Rubin NVL72 in bare metal; GA is next month",
-      "summary": "Google Cloud told GTC Berlin on Oct. 21 that new A5X bare-metal instances use the NVIDIA Vera Rubin NVL72 platform, with general availability next month and new regions aimed at EMEA data residency. Virgo Network is the scale-out fabric: Google says a single site can grow to 80,000 Rubin GPUs and multi-site deployments to 960,000. A5X will also support Managed Lustre with GPUDirect Storage and GKE scheduling features. Ineffable Intelligence was named as an early customer in NVIDIA's parallel write-up.",
+      "id": "nvidia-meta-muse-2026-10-26",
+      "subsection": "nvidia",
+      "date": "2026-10-26",
+      "dateLabel": "Oct 26",
+      "headline": "NVIDIA and Meta expand work on Muse, and NVIDIA will invest $3 billion in Meta",
+      "summary": "NVIDIA said Oct. 26 that it and Meta will expand their partnership on Muse and the Muse family of models to improve inference and training. NVIDIA said the companies will also consider further work on the OpenShell reference architecture and on Sentry for monitoring agent behavior. Meta intends to expand deployment of Vera Rubin and Vera CPUs, and NVIDIA said Meta will deploy Spectrum-X Ethernet and BlueField-4. NVIDIA said it will invest $3 billion in Meta's equity offering. Jensen Huang said the partnership is meant to optimize infrastructure for agents, and Mark Zuckerberg said Muse is how Meta brings what he called personal superintelligence to everyone.",
       "sources": [
         {
-          "name": "Google Cloud",
-          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026"
-        },
-        {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/"
+          "name": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth"
         }
       ]
     },
@@ -160,20 +188,6 @@
         {
           "name": "OpenAI",
           "url": "https://openai.com/index/broad-access-through-consistent-standards/"
-        }
-      ]
-    },
-    {
-      "id": "project-agincourt-ai-2026-10-21",
-      "subsection": "defense-ai",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Project Agincourt's roadmap measures autonomy by how fast a fielded fix reaches the fight",
-      "summary": "The Department of War said Oct. 21 that Owen West and Senior Chief Max Strasiser sent the joint force and industry an operational roadmap for the Autonomous Warfare Command. The release says the model pushes procurement decisions and dollars to frontline warfighters, and that urgency does not excuse imprecision. Success, they said, is how fast an operational problem gets a fielded solution that can scale, not a paperwork milestone. The release does not name a new contract vehicle or a prime.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4630269/department-of-wars-project-agincourt-accelerates-autonomous-warfare-command-to/"
         }
       ]
     }

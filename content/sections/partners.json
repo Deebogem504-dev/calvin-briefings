@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-10-26",
-  "covers": "Oct 19–26, 2026",
-  "readFirst": "Covers Oct. 23–26, and keeps the Oct. 19–21 product notes that nothing newer replaced. New: Cisco's eMudhra certificate-authority advisory, updated Oct. 24, and its Oct. 23 PHP2Shell product list; Palo Alto's PHP advisory, updated Oct. 26, and its Oct. 23 OpenAI Marketplace listing; IBM and Intel's Oct. 23 confidential-computing note. F5's Oct. 20 Telenor release is included because the prior edition had F5 as quiet. No new NetApp, Microsoft, or AWS release was found for Oct. 23–26, and those prior items were dropped to stay inside the count. No newer VMware announcement than the Oct. 19 DOCOMO agreement was found.",
+  "compiled": "2026-10-27",
+  "covers": "Oct 20–27, 2026",
+  "readFirst": "Covers Oct. 20–27. New: Cisco opened Model Foundry at Partner Summit on Oct. 26 and described a WWT lab test of a fine-tuned Deep Network model, and AWS added ML-KEM to Key Management Service the same day. F5 and Intel items from Oct. 20 and Oct. 23 remain. VMware was quiet; the Oct. 19 NTT DOCOMO agreement was older than seven days and was removed. No new NetApp or Microsoft release was found. The Oct. 12 USFP optics note aged out.",
   "subsections": [
     {"id": "cisco", "title": "Cisco"},
     {"id": "dell", "title": "Dell Technologies"},
@@ -24,21 +24,20 @@
   ],
   "items": [
     {
-      "id": "cisco-usfp-2026-10-12",
+      "id": "cisco-model-foundry-2026-10-26",
       "subsection": "cisco",
-      "date": "2026-10-12",
-      "dateLabel": "Oct 12",
-      "tag": "context",
-      "headline": "Cisco and NVIDIA propose USFP optics, up to 12.8 Tb/s in an OSFP-sized module",
-      "summary": "On Oct. 12 NVIDIA and Cisco announced Ultra-Dense Small Form Factor Pluggable optics, aimed at 400 Gb/s per lane and up to 12.8 Tb/s, which they describe as four times the bandwidth density and about 1.3 times the power efficiency of 200 Gb/s-per-lane modules. The first modules are planned at 16 full-duplex lanes in an OSFP-sized footprint, with a path to 32 lanes. TE Connectivity and Amphenol are named as the multi-source hardware ecosystem. Cisco's own OCP note the same day says it is pushing open silicon, systems and optics for AI scale-out.",
+      "date": "2026-10-26",
+      "dateLabel": "Oct 26",
+      "headline": "Cisco opens Model Foundry to partners and cites a WWT lab test of Deep Network",
+      "summary": "Cisco said Oct. 26 at Partner Summit that Model Foundry, a service in Cisco Cloud Control, is in controlled availability for partners and can serve or fine-tune Cisco's domain models through an OpenAI-compatible API. Cisco said it tested the service with World Wide Technology and fine-tuned a 31-billion-parameter Deep Network model on troubleshooting data. WWT Chief Security Architect Naasief Edross said that fine-tune reached the right fix in 11 of 12 lab scenarios. Cisco's investor release the same day also said Cisco IQ for Partners is generally available, and the Model Foundry post names WWT in an early-access cohort for Cisco's open models.",
       "sources": [
         {
-          "name": "NVIDIA Newsroom",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-cisco-introduce-new-pluggable-optics-form-factor-to-scale-ai-factories"
+          "name": "Cisco",
+          "url": "https://blogs.cisco.com/ai/cisco-model-foundry-partner-summit"
         },
         {
           "name": "Cisco",
-          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m10/cisco-advances-scalability-and-openness-at-ocp-2026.html"
+          "url": "https://investor.cisco.com/news/news-details/2026/Cisco-Expands-Partner-Opportunity-with-New-Cisco-360-Program-Updates-High-Yield-Customer-Experience-Offerings-and-AI-Ready-Innovations/default.aspx"
         }
       ]
     },
@@ -191,16 +190,16 @@
       ]
     },
     {
-      "id": "broadcom-docomo-vcf-2026-10-19",
-      "subsection": "quiet",
-      "date": "2026-10-19",
-      "dateLabel": "Oct 19",
-      "headline": "Broadcom signs a 10-year VMware Cloud Foundation agreement with NTT DOCOMO",
-      "summary": "Broadcom said it signed a 10-year agreement with NTT DOCOMO, announced in Tokyo on Oct. 19, covering VMware licenses, technical assistance and support, including VMware Cloud Foundation. Broadcom calls it the company's first 10-year comprehensive VMware agreement in Japan. The scope named in the release includes VCF, Avi Load Balancer, vDefend, Tanzu Platform, support and technical account managers, and VCF Forte Support. DOCOMO will use vSphere Kubernetes Service to run virtual machines and containers on one platform.",
+      "id": "aws-kms-ml-kem-2026-10-26",
+      "subsection": "aws",
+      "date": "2026-10-26",
+      "dateLabel": "Oct 26",
+      "headline": "AWS Key Management Service adds the NIST ML-KEM post-quantum algorithm",
+      "summary": "AWS said Oct. 26 that Key Management Service now supports ML-KEM, the Module-Lattice-Based Key-Encapsulation Mechanism in NIST FIPS 203, which AWS says is meant to replace classical Diffie-Hellman and RSA key transport against a harvest-now, decrypt-later attack. Customers can use ML-KEM-512, ML-KEM-768 or ML-KEM-1024. AWS says the private key is held in FIPS 140-3 Level 3 hardware security modules and that the public key can be exported for local encapsulation with libraries such as AWS-LC, OpenSSL or Bouncy Castle. The feature is not available in the Middle East (UAE), Middle East (Bahrain) or China regions.",
       "sources": [
         {
-          "name": "Broadcom",
-          "url": "https://www.broadcom.com/company/news/product-releases/64771"
+          "name": "AWS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/"
         }
       ]
     }

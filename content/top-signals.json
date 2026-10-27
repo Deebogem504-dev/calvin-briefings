@@ -3,50 +3,50 @@
     {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Oct 23–25",
-      "headline": "Army launched Project Gatekeeper, a sandbox that scores commercial software before an ATO",
-      "item": "project-gatekeeper-2026-10-25",
-      "href": "army.html#network"
+      "dateLabel": "Oct 26",
+      "headline": "Army picked AWS and WWT for a $2.6 million Project Griffin cyber pilot",
+      "item": "project-griffin-2026-10-26",
+      "href": "army.html#contracts"
+    },
+    {
+      "section": "cyber",
+      "label": "CYBER",
+      "dateLabel": "Oct 26",
+      "headline": "CISA put PHP2Shell on the KEV list, due Oct. 29",
+      "item": "php2shell-2026-10-21",
+      "href": "cyber.html#kev"
+    },
+    {
+      "section": "ai",
+      "label": "AI",
+      "dateLabel": "Oct 26",
+      "headline": "Anthropic filed an S-1 to list Class A shares on Nasdaq as ANT",
+      "item": "anthropic-s1-2026-10-26",
+      "href": "ai.html#anthropic"
     },
     {
       "section": "dow",
       "label": "DOW",
       "dateLabel": "Oct 25",
-      "headline": "CENTCOM: U.S. help moved more than 1.5 billion barrels through Hormuz since summer",
-      "item": "centcom-hormuz-milestone-2026-10-25",
+      "headline": "Fox: FORTRESS would have major U.S. bases last 90 days without outside support",
+      "item": "fortress-90-day-2026-10-25",
       "href": "dow.html#ops"
-    },
-    {
-      "section": "cyber",
-      "label": "CYBER",
-      "dateLabel": "Oct 22–23",
-      "headline": "CISA put the exploited VeloCloud bug on the KEV list, due Oct. 26",
-      "item": "velocloud-cve-2026-10-22",
-      "href": "cyber.html#kev"
     },
     {
       "section": "partners",
       "label": "PARTNERS",
-      "dateLabel": "Oct 23–24",
-      "headline": "Cisco: eight eMudhra intermediate CA keys can be brute-forced in seconds",
-      "item": "emudhra-cisco-2026-10-24",
+      "dateLabel": "Oct 26",
+      "headline": "Cisco Model Foundry: a WWT lab test hit the right fix in 11 of 12 cases",
+      "item": "cisco-model-foundry-2026-10-26",
       "href": "partners.html#cisco"
     },
     {
-      "section": "ai",
-      "label": "AI",
-      "dateLabel": "Oct 23",
-      "headline": "OpenAI says frontier-model training now runs with no live internet access",
-      "item": "openai-offline-training-2026-10-23",
-      "href": "ai.html#openai"
-    },
-    {
-      "section": "wwt",
-      "label": "WWT",
-      "dateLabel": "Oct 21",
-      "headline": "WWT and DDN publish a Vera Rubin storage design for 50 MW AI factories",
-      "item": "wwt-ddn-storage-2026-10-21",
-      "href": "wwt.html#content"
+      "section": "datacenter",
+      "label": "DC/NET",
+      "dateLabel": "Oct 26",
+      "headline": "Meta plans more Vera Rubin, Spectrum-X Ethernet and BlueField-4",
+      "item": "nvidia-meta-fabric-2026-10-26",
+      "href": "datacenter.html#networking"
     }
   ]
 }

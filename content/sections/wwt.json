@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT ↔ U.S. Army Signal Mapping",
   "description": "World Wide Technology public content and Army business, set next to U.S. Army leadership priorities.",
-  "compiled": "2026-10-26",
-  "covers": "Oct 21–26, 2026",
-  "readFirst": "Covers Oct. 21–26. No WWT press release dated Oct. 23–26 was found. The newest public releases are still Oct. 21: the Polarise partnership for a sovereign AI data center in Oslo, and a DDN storage reference design for Vera Rubin campuses. Both are added this edition. No new Army award to WWT was found. GEMSS 2.1, from July, is still the Army Cisco footprint. The LogicMonitor award was dropped to stay inside the count. The two Signal Mapping notes are analysis, tagged Inference.",
+  "compiled": "2026-10-27",
+  "covers": "Oct 20–27, 2026",
+  "readFirst": "Covers Oct. 20–27. No WWT press release dated Oct. 22–27 was found on wwt.com. New: MeriTalk reported Oct. 26 that the Army selected WWT and AWS for a combined $2.6 million Project Griffin pilot. The July GEMSS 2.1 context note aged out; that agreement is still the Cisco vehicle cited in the mapping notes. No new Army award posted by WWT itself was found. Items on I Corps and the 25th Infantry Division dated before Oct. 20 were removed. The two Signal Mapping notes are analysis, tagged Inference.",
   "subsections": [
     {"id": "content", "title": "WWT Content & Army Footprint"},
     {"id": "leaders", "title": "Army Leadership Watch"},
@@ -16,6 +16,20 @@
     {"id": "mapping", "title": "Signal Mapping"}
   ],
   "items": [
+    {
+      "id": "wwt-griffin-2026-10-26",
+      "subsection": "content",
+      "date": "2026-10-26",
+      "dateLabel": "Oct 26",
+      "headline": "MeriTalk: the Army named WWT and AWS for the Project Griffin cyber pilot",
+      "summary": "MeriTalk reported Oct. 26 that the Army selected World Wide Technology and Amazon Web Services for a combined $2.6 million pilot under Project Griffin. MeriTalk says the pilot is meant to advance AI-enabled cyber defense and that Griffin is one of three accelerated efforts under Project ARDS, the Army Rapid Defensive of Cyber Systems initiative. Principal cyber advisor Brandon Pugh said the Army will implement what he called SI-enabled tools to detect, divert and deceive threat actors and to scale network defense.",
+      "sources": [
+        {
+          "name": "MeriTalk",
+          "url": "https://www.meritalk.com/articles/army-launches-project-gatekeeper-to-speed-commercial-software-cyber-reviews/"
+        }
+      ]
+    },
     {
       "id": "wwt-cisco-secure-ai-2026-10-20",
       "subsection": "content",
@@ -59,54 +73,11 @@
       ]
     },
     {
-      "id": "gemss-21-context",
-      "subsection": "content",
-      "date": "2026-07-07",
-      "dateLabel": "Jul 7",
-      "tag": "context",
-      "headline": "Army footprint on the record is still GEMSS 2.1 with Cisco",
-      "summary": "The standing public vehicle is still the July 7 GEMSS 2.1 announcement: a 12-month, $230 million agreement with Cisco that consolidates Army Voice, Video and Security, GEMSS 1.0, and 30 other Cisco enterprise agreements. It covers 24/7 Cisco technical support, software subscriptions and software support on Army-owned Cisco hardware, advanced services, training, and asset management, for the install base where Cisco support is commercially available, in CONUS and OCONUS.",
-      "sources": [
-        {
-          "name": "WWT",
-          "url": "https://www.wwt.com/press-release/world-wide-technology-awarded-us-army-gemss-21-agreement-to-advance-enterprise-it-modernization"
-        }
-      ]
-    },
-    {
-      "id": "wwt-ngc2-radios-2026-10-19",
-      "subsection": "leaders",
-      "date": "2026-10-19",
-      "dateLabel": "Oct 19",
-      "headline": "Army C2 lead: putting NGC2 on the 25th ID's radios was ordinary growing pain, and legacy gear stays",
-      "summary": "Brig. Gen. Shane Taylor told Breaking Defense at AUSA that the first integration of Anduril NGC2 technology with the 25th Infantry Division's existing communications was not seamless. Lockheed Martin, the integrator, said passing data through Lattice was not where it should be. Anduril said the TSM radios and several mission threads were new relative to the 4th Infantry Division. Taylor said the 25th will keep some legacy capability because later units will not all receive a clean fielding, and that is the network the Army is about to baseline across other I Corps units.",
-      "sources": [
-        {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/10/army-feels-growing-pains-as-it-integrates-anduril-ngc2-tech-with-older-comms/"
-        }
-      ]
-    },
-    {
-      "id": "wwt-icorps-2026-10-13",
-      "subsection": "leaders",
-      "date": "2026-10-13",
-      "dateLabel": "Oct 13",
-      "headline": "I Corps is rolling NGC2 out at headquarters, and the distance problem is the point",
-      "summary": "Lt. Gen. Matt McFarlane said at AUSA that I Corps has begun a deliberate NGC2 rollout at corps headquarters and enabling brigades, after using pieces of it for about nine months. He described command posts in Japan and Australia rather than adjacent islands, and transport that has to move among fiber, radio, LEO and military satellite without a person in the loop. He also said how fast this scales depends on resources, and that apps validated at the tactical level may not be the full set the operational level needs.",
-      "sources": [
-        {
-          "name": "DefenseScoop",
-          "url": "https://defensescoop.com/2026/10/13/army-i-corps-next-generation-command-and-control-ngc2/"
-        }
-      ]
-    },
-    {
       "id": "technet-indopac-wwt-2026-10-26",
       "subsection": "conferences",
       "date": "2026-10-26",
       "dateLabel": "Oct 26",
-      "headline": "TechNet Indo-Pacific: WWT GEMSS office hours in Honolulu",
+      "headline": "TechNet Indo-Pacific: WWT listed GEMSS office hours in Honolulu for Oct. 26",
       "summary": "WWT lists an Oct. 26, 1:00 p.m. session at the Hilton Hawaiian Village during AFCEA TechNet Indo-Pacific. The advertised topics are Cisco software entitlements under GEMSS 2.1, Enterprise Agreement+ customer success, Cisco certification training, Cisco Advanced Services for the Army, and a SPINNAKER demonstration. AUSA itself ended Oct. 14.",
       "sources": [
         {
@@ -116,21 +87,17 @@
       ]
     },
     {
-      "id": "mapping-ngc2-vs-gemss",
+      "id": "mapping-griffin-gemss",
       "subsection": "mapping",
-      "date": "2026-10-19",
-      "dateLabel": "Oct 19",
+      "date": "2026-10-26",
+      "dateLabel": "Oct 26",
       "tag": "inference",
-      "headline": "NGC2's hard part this week is legacy tactical transport; GEMSS is still an enterprise Cisco vehicle",
-      "summary": "Read side by side, the Oct. 13 and Oct. 19 reporting says I Corps is fielding NGC2 across theater distances, and the 25th Infantry Division's legacy radios did not take Anduril's Lattice cleanly. WWT's only Army agreement still posted as current news is GEMSS 2.1, the July Cisco enterprise software and support consolidation. Nothing in those sources makes WWT an NGC2 prime. The integration problem on the table is tactical transport and legacy waveforms, while the WWT Army footprint that is actually public is enterprise Cisco entitlements, support and training.",
+      "headline": "Griffin is a new cyber pilot with WWT's name on it; it is not the GEMSS Cisco vehicle",
+      "summary": "MeriTalk's Oct. 26 report says the Army selected WWT and AWS for a $2.6 million Project Griffin pilot aimed at an agentic cyber-defense platform. The Army Cisco agreement WWT posted in July is GEMSS 2.1, the enterprise software and support consolidation. Nothing in the MeriTalk report says Griffin changes GEMSS, names a Cisco bill of materials, or makes WWT an NGC2 prime. Read together, the new public line that names WWT is a small cyber pilot, and the Cisco vehicle WWT has published is a separate enterprise agreement.",
       "sources": [
         {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/10/army-feels-growing-pains-as-it-integrates-anduril-ngc2-tech-with-older-comms/"
-        },
-        {
-          "name": "DefenseScoop",
-          "url": "https://defensescoop.com/2026/10/13/army-i-corps-next-generation-command-and-control-ngc2/"
+          "name": "MeriTalk",
+          "url": "https://www.meritalk.com/articles/army-launches-project-gatekeeper-to-speed-commercial-software-cyber-reviews/"
         },
         {
           "name": "WWT GEMSS 2.1",

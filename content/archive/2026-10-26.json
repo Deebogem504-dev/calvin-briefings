@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-26",
+  "title": "October 26, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "ARMY",
+      "dateLabel": "Oct 23–25",
+      "headline": "Army launched Project Gatekeeper, a sandbox that scores commercial software before an ATO",
+      "sources": [
+        {
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/296302/us_army_launches_project_gatekeeper_to_accelerate_commercial_software_adoption_streamline_cybersecurity_accreditation"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Oct 25",
+      "headline": "CENTCOM: U.S. help moved more than 1.5 billion barrels through Hormuz since summer",
+      "sources": [
+        {
+          "name": "CENTCOM",
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Oct 22–23",
+      "headline": "CISA put the exploited VeloCloud bug on the KEV list, due Oct. 26",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        },
+        {
+          "name": "Arista",
+          "url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199"
+        }
+      ]
+    },
+    {
+      "label": "PARTNERS",
+      "dateLabel": "Oct 23–24",
+      "headline": "Cisco: eight eMudhra intermediate CA keys can be brute-forced in seconds",
+      "sources": [
+        {
+          "name": "Cisco",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Oct 23",
+      "headline": "OpenAI says frontier-model training now runs with no live internet access",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+        }
+      ]
+    },
+    {
+      "label": "WWT",
+      "dateLabel": "Oct 21",
+      "headline": "WWT and DDN publish a Vera Rubin storage design for 50 MW AI factories",
+      "sources": [
+        {
+          "name": "WWT",
+          "url": "https://www.wwt.com/press-release/wwt-and-ddn-design-storage-to-help-ai-factories-fit-more-gpus-within-their-power-limits"
+        }
+      ]
+    }
+  ]
+}

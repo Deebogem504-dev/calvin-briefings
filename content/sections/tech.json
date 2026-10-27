@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-10-26",
-  "covers": "Oct 20–26, 2026",
-  "readFirst": "Covers Oct. 23–26, and keeps the GTC Berlin items because nothing newer replaced them. No new space-system award was found. No newer NSA or NIST post-quantum decision was found. NVIDIA's Oct. 21 local-AI post said 64 GB DGX Spark systems start rolling out on Oct. 23; that note is on the AI page. The NSA post-quantum item is still the standing rule for national security systems.",
+  "compiled": "2026-10-27",
+  "covers": "Oct 20–27, 2026",
+  "readFirst": "Covers Oct. 20–27. New: AWS said Oct. 26 that Key Management Service now supports ML-KEM, the NIST FIPS 203 post-quantum key-encapsulation standard. No new space-system award was found. The Oct. 1 NSA post-quantum announcement was older than seven days and was removed. NVIDIA's Oct. 21 local-AI note remains on the AI page. The GTC Berlin robotics and compute items from Oct. 20–21 are still the newest in those subsections.",
   "subsections": [
     {"id": "quantum", "title": "Quantum & Post-Quantum"},
     {"id": "autonomy", "title": "Robotics & Autonomy"},
@@ -17,17 +17,16 @@
   ],
   "items": [
     {
-      "id": "nsa-pqc-2026-10-01",
+      "id": "aws-ml-kem-2026-10-26",
       "subsection": "quantum",
-      "date": "2026-10-01",
-      "dateLabel": "Oct 1",
-      "tag": "context",
-      "headline": "NSA: new commercial national security systems must support post-quantum algorithms starting in 2027",
-      "summary": "On Oct. 1 the NSA announced post-quantum measures for national security systems, tied to Executive Order 14412 and CNSSP 15. Starting in 2027, all new commercial national security systems must be capable of supporting quantum-resistant algorithms. Legacy systems that cannot are to be phased out by 2030. NSA described harvest-now, decrypt-later collection as already underway.",
+      "date": "2026-10-26",
+      "dateLabel": "Oct 26",
+      "headline": "AWS Key Management Service adds ML-KEM for post-quantum key encapsulation",
+      "summary": "AWS said Oct. 26 that Key Management Service now supports Module-Lattice-Based Key-Encapsulation Mechanism, ML-KEM, which it identifies as the NIST FIPS 203 standard meant to replace Diffie-Hellman, elliptic-curve Diffie-Hellman and RSA key transport. AWS says the point is the harvest-now, decrypt-later risk, in which an adversary records a key exchange today and recovers it once a quantum computer can. KMS supports ML-KEM-512, ML-KEM-768 and ML-KEM-1024. AWS says the private key stays in FIPS 140-3 Level 3 hardware security modules, and that the feature is available in every KMS region except the Middle East (UAE), Middle East (Bahrain) and China regions.",
       "sources": [
         {
-          "name": "NSA",
-          "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/article/4615285/nsa-announces-post-quantum-cryptography-measures-to-safeguard-national-security/"
+          "name": "AWS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/"
         }
       ]
     },

@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-10-26",
-  "covers": "Oct 23–26, 2026",
-  "readFirst": "Covers Oct. 23–26, and keeps the AUSA-week items that are still the picture. New: Army Public Affairs said Oct. 25 that Project Gatekeeper, the OCIO software-assurance sandbox, launched Oct. 23. Access is limited to a Department of War CAC, with Login.gov described as coming later. Both top Army posts are still acting; no confirmation announcement was found. No new NETCOM release was found. WWT's GEMSS session at AFCEA TechNet Indo-Pacific is Oct. 26 in Honolulu.",
+  "compiled": "2026-10-27",
+  "covers": "Oct 23–27, 2026",
+  "readFirst": "Covers Oct. 23–27. New: MeriTalk reported Oct. 26 that the Army selected AWS and WWT for a combined $2.6 million Project Griffin pilot, and an Army.mil article datelined Aberdeen Proving Ground the same day describes USAISEC and NETCOM replacing wide-area network equipment. Items dated before Oct. 20, including the AUSA leadership notes, were removed. No confirmation of the acting secretary or chief of staff was found. No separate NETCOM press release was found. The Oct. 26 WWT GEMSS session is on the WWT page, and nothing later was found for the week ahead. An EIN lead on a tactical wheeled-vehicle industry day was not carried because the original DVIDS article could not be opened.",
   "subsections": [
     {"id": "leadership", "title": "Leadership & Policy"},
     {"id": "modernization", "title": "Modernization & Force Design"},
@@ -17,6 +17,34 @@
     {"id": "ahead", "title": "Week Ahead"}
   ],
   "items": [
+    {
+      "id": "project-griffin-2026-10-26",
+      "subsection": "contracts",
+      "date": "2026-10-26",
+      "dateLabel": "Oct 26",
+      "headline": "MeriTalk: Army selected AWS and WWT for a $2.6 million Project Griffin pilot",
+      "summary": "MeriTalk reported Oct. 26 that the Army selected Amazon Web Services and World Wide Technology for a combined $2.6 million pilot under Project Griffin, aimed at AI-enabled cyber defense. MeriTalk says Griffin is one of three accelerated efforts under Project ARDS, the Army Rapid Defensive of Cyber Systems initiative, and that the aim is an autonomous, agentic platform so defenders can identify and neutralize threats faster and cut vulnerabilities tied to manual analysis. Principal cyber advisor Brandon Pugh said Griffin is one of the first ARDS efforts and that the Army will implement what he called SI-enabled tools to detect, divert and deceive threat actors. MeriTalk also says the administration has directed agencies to call AI super intelligence, or SI, in official documents.",
+      "sources": [
+        {
+          "name": "MeriTalk",
+          "url": "https://www.meritalk.com/articles/army-launches-project-gatekeeper-to-speed-commercial-software-cyber-reviews/"
+        }
+      ]
+    },
+    {
+      "id": "usaisec-wan-2026-10-26",
+      "subsection": "network",
+      "date": "2026-10-26",
+      "dateLabel": "Oct 26",
+      "headline": "USAISEC, with NETCOM, is replacing Army wide-area network gear in the U.S. and Europe",
+      "summary": "An Army.mil article datelined Aberdeen Proving Ground on Oct. 26 says the U.S. Army Information Systems Engineering Command, a Communications-Electronics Command subordinate, is leading lifecycle replacement of wide-area network equipment across the United States and Europe in coordination with Network Enterprise Technology Command. The article says the work is meant to produce one software-defined enterprise network, using software-defined wide-area network technology and next-generation firewalls so the network can shift around outages, congestion and cyber threats without manual intervention. It says the design is a zero-trust model and that USAISEC engineers check power, cooling and shielding before new hardware goes in. Director of the Data Science and Engineering Directorate Dr. Jennifer Mills said the switches, servers and firewalls are the bedrock of the Army's digital future. USAISEC is headquartered at Fort Huachuca and uses hubs at Fort Huachuca and Fort Gordon.",
+      "sources": [
+        {
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/296237/empowering_multidomain_operations_modernizing_the_army_enterprise_network_for_decision_dominance"
+        }
+      ]
+    },
     {
       "id": "project-gatekeeper-2026-10-25",
       "subsection": "network",
@@ -28,109 +56,6 @@
         {
           "name": "Army.mil",
           "url": "https://www.army.mil/article/296302/us_army_launches_project_gatekeeper_to_accelerate_commercial_software_adoption_streamline_cybersecurity_accreditation"
-        }
-      ]
-    },
-    {
-      "id": "ausa-autowarcom-panel-2026-10-14",
-      "subsection": "leadership",
-      "date": "2026-10-14",
-      "dateLabel": "Oct 14",
-      "headline": "Hegseth closes AUSA on Autonomous Warfare Command; LaNeve says FASCOM is a three-star, corps-level effort",
-      "summary": "On the last day of AUSA, Secretary of War Pete Hegseth sat with the service secretaries for a panel on Autonomous Warfare Command, the four-star command he directed on Sept. 30. Stars and Stripes reports the command is meant to scale autonomous and robotic capabilities and, by the memo signed at the time, needs legislation before an Oct. 1, 2027 establishment. Acting Chief of Staff Gen. Christopher LaNeve said FASCOM will be led by a three-star and will begin building autonomous systems at corps level. Protesters interrupted the panel.",
-      "sources": [
-        {
-          "name": "Stars and Stripes",
-          "url": "https://www.stripes.com/branches/army/2026-10-14/hegseth-ausa-autonomous-warfare-panel-protest-23153248.html"
-        }
-      ]
-    },
-    {
-      "id": "telle-acting-speech-2026-10-12",
-      "subsection": "leadership",
-      "date": "2026-10-12",
-      "dateLabel": "Oct 12",
-      "tag": "context",
-      "headline": "Telle's first public speech as acting secretary; both top Army posts remain unconfirmed",
-      "summary": "Acting Secretary Adam Telle opened AUSA on Oct. 12, six weeks after he was named acting secretary following Dan Driscoll's resignation. He said the Army is moving off what he called compound self-interest and announced a first manufacturing rodeo in early 2027 to stress-test supply chains. Gen. Randy George was removed as chief of staff in April and has not been replaced. LaNeve, the vice chief, is acting chief.",
-      "sources": [
-        {
-          "name": "Army.mil",
-          "url": "https://www.army.mil/article/296068/secarmy_army_drives_the_success_of_the_joint_force"
-        },
-        {
-          "name": "Stars and Stripes",
-          "url": "https://www.stripes.com/branches/army/2026-10-12/acting-army-secretary-telle-ausa-conference-23134806.html"
-        }
-      ]
-    },
-    {
-      "id": "fascom-redesignation-2026-10-13",
-      "subsection": "modernization",
-      "date": "2026-10-13",
-      "dateLabel": "Oct 13",
-      "headline": "LaNeve redesignates Futures and Concepts Command as FASCOM",
-      "summary": "Army Public Affairs reported Oct. 13 that LaNeve selected U.S. Army Futures and Concepts Command for redesignation as Futures and Autonomous Systems Command. The command will be led by a three-star and will consolidate the Combat Capabilities Development Command, Medical Research and Development Command, 75th Innovation Command, Joint Modernization Command and the Transformation Decision Analysis Center. The move follows Telle's Oct. 1 autonomy memo. FASCOM is meant to support the new portfolio acquisition executive for autonomy.",
-      "sources": [
-        {
-          "name": "Army.mil",
-          "url": "https://www.army.mil/article/296083/future_focused_vice_chief_of_staff_of_the_army_details_army_autonomy_advancements"
-        }
-      ]
-    },
-    {
-      "id": "icorps-ngc2-distance-2026-10-13",
-      "subsection": "modernization",
-      "date": "2026-10-13",
-      "dateLabel": "Oct 13",
-      "headline": "I Corps commander: NGC2 now has to work from Japan to Australia, not island to island",
-      "summary": "Lt. Gen. Matt McFarlane told DefenseScoop at AUSA that I Corps has started a deliberate rollout of Next Generation Command and Control at corps headquarters and its enabling brigades. He contrasted division prototypes with corps command posts in Honshu and Brisbane, and called the Pacific problem the tyranny of distance and disruption. He said the corps is fielding capabilities validated at Project Convergence Capstone 6, not gear that failed in the desert heat, and that scaling depends on resources. Over the next six months he is focused on joint and allied interoperability across classification levels.",
-      "sources": [
-        {
-          "name": "DefenseScoop",
-          "url": "https://defensescoop.com/2026/10/13/army-i-corps-next-generation-command-and-control-ngc2/"
-        }
-      ]
-    },
-    {
-      "id": "air-ngc2-200m-2026-10-13",
-      "subsection": "contracts",
-      "date": "2026-10-13",
-      "dateLabel": "Oct 13",
-      "headline": "Air says its Army NGC2 software deal can reach $200 million over five years",
-      "summary": "GovCon Wire reported Oct. 13 that Air has a potential five-year, $200 million Department of War contract supporting the Army's NGC2 software delivery, with initial work centered on I Corps. Air said the deal continues its NGC2 work. The company's AI-native readiness platform is aimed at sustainment planning. This is the vendor's ceiling figure, separate from the roughly $93.6 million one-year application awards the Army announced earlier in the month to nine companies including Air.",
-      "sources": [
-        {
-          "name": "GovCon Wire",
-          "url": "https://www.govconwire.com/articles/air-200m-dow-contract-army-ngc2-software"
-        }
-      ]
-    },
-    {
-      "id": "ngc2-legacy-radios-2026-10-19",
-      "subsection": "network",
-      "date": "2026-10-19",
-      "dateLabel": "Oct 19",
-      "headline": "NGC2 on the 25th Infantry Division's existing radios was not seamless",
-      "summary": "Breaking Defense reported from AUSA that the 25th Infantry Division's September attempt to run Anduril's Lattice on its existing communications, during Lightning Surge 5 in Hawaii, did not go cleanly. Brig. Gen. Shane Taylor, portfolio management executive for the command-and-control information network, called it growing pains. Lockheed Martin is the integrator for the 25th ID's portion, and Anduril's program manager said the TSM radios were not the same waveform or configuration used with the 4th Infantry Division. Taylor said the 25th will keep some legacy equipment because not every unit will get a fresh fielding like the 4th ID, and that architecture is what I Corps units will be baselined on this fiscal year.",
-      "sources": [
-        {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/10/army-feels-growing-pains-as-it-integrates-anduril-ngc2-tech-with-older-comms/"
-        }
-      ]
-    },
-    {
-      "id": "technet-indopac-2026-10-26",
-      "subsection": "ahead",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "AFCEA TechNet Indo-Pacific: WWT is hosting an Army GEMSS session in Honolulu",
-      "summary": "WWT's public-sector calendar lists an Oct. 26 session at the Hilton Hawaiian Village during AFCEA TechNet Indo-Pacific. The session covers Cisco software entitlements under the GEMSS 2.1 contract, WWT's Enterprise Agreement+ customer-success work, Cisco certification training, Cisco Advanced Services to the Army, and a demonstration of SPINNAKER, WWT's enterprise enablement platform.",
-      "sources": [
-        {
-          "name": "WWT",
-          "url": "https://www.wwt.com/event/6a74a22255b7d63357cf7d26"
         }
       ]
     }

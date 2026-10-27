@@ -6,84 +6,13 @@
   "cadence": "Weekly · Mondays",
   "title": "Federal Budget & NDAA Weekly Tracker",
   "description": "Fiscal 2027 appropriations, the continuing resolution, NDAA status, reconciliation funds and Golden Dome money.",
-  "compiled": "2026-10-26",
-  "covers": "Oct 19–26, 2026",
-  "readFirst": "Covers Oct. 23–26, and keeps the Oct. 19 lame-duck account because nothing newer replaced it. No appropriations vote, NDAA floor action, or new continuing resolution was found. Congress is still out until after the Nov. 3 election. The continuing resolution still runs through Dec. 11. Golden Dome's fiscal 2027 request is unchanged: almost all of it is in reconciliation that has not passed.",
+  "compiled": "2026-10-27",
+  "covers": "Oct 20–27, 2026",
+  "readFirst": "Covers Oct. 20–27. No appropriations vote, NDAA floor action, or new continuing resolution in that window was found. The Oct. 1 continuing-resolution overview, the Oct. 7 Golden Dome reconciliation note, and the Oct. 19 lame-duck items were older than seven days and were removed. No newer Golden Dome appropriation was found.",
   "subsections": [
     {"id": "approps", "title": "Appropriations & CR"},
     {"id": "ndaa", "title": "NDAA"},
     {"id": "reconciliation", "title": "Reconciliation & Special Programs"}
   ],
-  "items": [
-    {
-      "id": "cr-dec-11",
-      "subsection": "approps",
-      "date": "2026-10-01",
-      "dateLabel": "Through Dec 11",
-      "tag": "context",
-      "headline": "A continuing resolution funds the government through December 11 and holds up new starts",
-      "summary": "The Congressional Research Service overview of Division A of P.L. 119-103 says the Continuing Appropriations Act, 2027 funds agencies covered by all 12 regular bills from Oct. 1 through Dec. 11, 2026. The bill text continues fiscal 2026 rates and, for the Department of Defense, bars those funds from new production of items not funded for production in fiscal 2026 or earlier and from raising production rates above the fiscal 2026 level. The same section restricts starting or resuming a project that did not already have appropriations authority. Breaking Defense reported in October that more than 150 new military programs face delay under that CR, and that another CR or a funding gap is still possible when Dec. 11 arrives.",
-      "sources": [
-        {
-          "name": "CRS",
-          "url": "https://www.congress.gov/crs-product/R49353"
-        },
-        {
-          "name": "GovInfo (P.L. 119-103)",
-          "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ103/html/PLAW-119publ103.htm"
-        },
-        {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/10/cant-start-wont-start-over-150-new-military-programs-face-delay-under-a-cr/"
-        }
-      ]
-    },
-    {
-      "id": "approps-lame-duck-2026-10-19",
-      "subsection": "approps",
-      "date": "2026-10-19",
-      "dateLabel": "Oct 19",
-      "headline": "The Hill: regular defense funding and a June emergency request are the lame-duck holdup",
-      "summary": "The Hill reported Oct. 19 that Senate Democrats are threatening to hold up emergency defense funding the White House requested in June, and the regular Defense funding that expires Dec. 11, unless the Iran war is wrapped up. Sen. Brian Schatz said that if the war is over there is a path to bipartisan work on defense appropriations, and that if it is not, a deal will be extremely difficult. These are positions The Hill attributed to senators before the chamber left for the Nov. 3 election.",
-      "sources": [
-        {
-          "name": "The Hill",
-          "url": "https://thehill.com/homenews/senate/6155361-trump-hegseth-pentagon-leadership-clash"
-        }
-      ]
-    },
-    {
-      "id": "lame-duck-leverage-2026-10-19",
-      "subsection": "ndaa",
-      "date": "2026-10-19",
-      "dateLabel": "Oct 19",
-      "headline": "The Hill: the NDAA is tied up in the same post-election leadership fight",
-      "summary": "The same Oct. 19 report says Democrats have floated Secretary of War Pete Hegseth's departure after the Nov. 3 election as a condition for cooperation on defense measures in the lame duck, and that some Republican sources see a possible leadership change. Sen. Tim Kaine told The Hill a resignation could lower the temperature on the NDAA and the defense appropriations bill. The Hill also reported Democrats are threatening to hold up a waiver for Hung Cao, the Navy secretary nominee, who needs one because of the waiting period for former officers. None of this is described as an enacted condition.",
-      "sources": [
-        {
-          "name": "The Hill",
-          "url": "https://thehill.com/homenews/senate/6155361-trump-hegseth-pentagon-leadership-clash"
-        }
-      ]
-    },
-    {
-      "id": "golden-dome-recon-budget",
-      "subsection": "reconciliation",
-      "date": "2026-10-07",
-      "dateLabel": "Oct 7",
-      "tag": "context",
-      "headline": "Golden Dome's fiscal 2027 money is still a reconciliation problem",
-      "summary": "CSIS's budget tracker says the department requested $17.1 billion of a $17.9 billion Golden Dome total in the reconciliation package, not in discretionary appropriations, and that the program manager has warned a lack of fiscal 2027 funding would prevent further development. Axios reported Oct. 7 that senators questioned feasibility and cost after a Sept. 29 hearing, with the Congressional Budget Office's 20-year estimate as high as $1.2 trillion against Gen. Michael Guetlein's $185 billion figure.",
-      "sources": [
-        {
-          "name": "CSIS",
-          "url": "https://www.csis.org/analysis/tracking-fy-2027-defense-appropriations-reconciliation-and-supplemental-request"
-        },
-        {
-          "name": "Axios",
-          "url": "https://www.axios.com/2026/10/07/golden-dome-trump-senate-cbo-king"
-        }
-      ]
-    }
-  ]
+  "items": []
 }

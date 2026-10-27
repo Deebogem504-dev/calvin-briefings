@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-10-26",
-  "covers": "Oct 23–26, 2026",
-  "readFirst": "Covers Oct. 23–26. New: CENTCOM said Adm. Brad Cooper flew over the Strait of Hormuz on Oct. 25, and that U.S. forces have helped Gulf partners export more than 1.5 billion barrels of crude since summer. Hegseth is traveling to the Philippines for ADMM-Plus; the Oct. 25 advisory gives no dates. The Department of War listed no release for Oct. 26. No new Golden Dome appropriation was found. UKMTO's recent-incidents page is a running list rather than a single warning URL, so the latest strike notices are not carried as an item.",
+  "compiled": "2026-10-27",
+  "covers": "Oct 20–27, 2026",
+  "readFirst": "Covers Oct. 20–27. New: the Department of War said Oct. 26 that USS Colorado will be the first Virginia-class submarine assigned to Submarine Rotational Force-West, beginning in late 2027. Fox News Digital reported Oct. 25, citing documents it reviewed, that FORTRESS would expect every major continental U.S. installation to sustain essential operations for at least 90 days without outside support. Federal News Network reported Oct. 26 that contracting staff received guidance for buying AI under the administration's neutrality rules. No new Golden Dome appropriation was found, and the Oct. 7 context note was removed because it was older than seven days. No Department of War release dated Oct. 27 was found.",
   "subsections": [
     {"id": "secwar", "title": "Secretary & Initiatives"},
     {"id": "acquisition", "title": "Acquisition & Innovation"},
@@ -77,6 +77,20 @@
       ]
     },
     {
+      "id": "dow-unbiased-ai-2026-10-26",
+      "subsection": "acquisition",
+      "date": "2026-10-26",
+      "dateLabel": "Oct 26",
+      "headline": "Pentagon contracting staff get templates for buying AI the department calls unbiased",
+      "summary": "Federal News Network reported Oct. 26 that John Tenaglia, principal director for defense pricing, contracting and acquisition policy, issued guidance so artificial intelligence the department buys follows what the administration calls truth-seeking and ideological neutrality. Tenaglia wrote that compliance with a July executive order and a later Office of Management and Budget memo is mandatory, and that the Pentagon document is guidance only so components can tailor the language. Federal News Network says the templates include a memo for choosing transparency and documentation requirements, standardized solicitation language, and contract language for a statement of work or performance work statement. The story ties the memo to Secretary Hegseth's push to field commercial AI, including compute from data centers to the tactical edge.",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/contracting/2026/10/dod-issues-guidance-for-procuring-unbiased-ai-systems/"
+        }
+      ]
+    },
+    {
       "id": "project-agincourt-2026-10-21",
       "subsection": "acquisition",
       "date": "2026-10-23",
@@ -91,35 +105,30 @@
       ]
     },
     {
-      "id": "autowarcom-legislation-2026-10-14",
-      "subsection": "acquisition",
-      "date": "2026-10-14",
-      "dateLabel": "Oct 14",
-      "headline": "Autonomous Warfare Command still needs Congress before its Oct. 1, 2027 target",
-      "summary": "At AUSA on Oct. 14, Pentagon spokesman Sean Parnell told the autonomy panel the effort is not another procurement effort. Hegseth's Sept. 30 direction creates Autonomous Warfare Command as a four-star combatant command with service-like authorities to scale drones and robotics. Stars and Stripes reports that standing the command up by Oct. 1, 2027 requires the Pentagon to work with Congress on the necessary legislation. Service secretaries from the Army, Air Force and Navy were on the stage, and additional detail on the command was not shared in the session.",
+      "id": "srf-west-colorado-2026-10-26",
+      "subsection": "ops",
+      "date": "2026-10-26",
+      "dateLabel": "Oct 26",
+      "headline": "AUKUS: USS Colorado is the first U.S. submarine named for Submarine Rotational Force-West",
+      "summary": "The Department of War said Oct. 26 that Secretary of War Pete Hegseth, Australian Deputy Prime Minister and Defence Minister Richard Marles, and UK Defence Secretary Wes Streeting designated USS Colorado (SSN 788) as the first U.S. Navy Virginia-class fast-attack submarine assigned to Submarine Rotational Force-West, beginning in late 2027. The release says the force is projected to host up to four U.S. fast-attack submarines and one UK fast-attack submarine on a rotational basis at HMAS Stirling in Western Australia. It says a U.S. submarine maintenance period begins later this week to show Australia's ability to sustain U.S. and UK nuclear-powered attack submarines. The statement says the move is an AUKUS Pillar I milestone and that the partners describe AUKUS as moving full steam ahead.",
       "sources": [
         {
-          "name": "Stars and Stripes",
-          "url": "https://www.stripes.com/branches/army/2026-10-14/hegseth-ausa-autonomous-warfare-panel-protest-23153248.html"
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4633244/joint-statement-uss-colorado-ssn-788-announced-as-first-submarine-for-submarine/"
         }
       ]
     },
     {
-      "id": "golden-dome-reconciliation-2026-10-07",
-      "subsection": "goldendome",
-      "date": "2026-10-07",
-      "dateLabel": "Oct 7",
-      "tag": "context",
-      "headline": "Almost all of the fiscal 2027 Golden Dome request still sits in reconciliation",
-      "summary": "CSIS's tracker of the fiscal 2027 request says the department asked for $17.1 billion of a $17.9 billion Golden Dome total inside the reconciliation package rather than discretionary funding, and that the direct reporting program manager has warned a lack of fiscal 2027 funding would stop further development. Axios reported Oct. 7 that senators questioned cost and coverage at a Sept. 29 hearing. The Congressional Budget Office has estimated as much as $1.2 trillion over 20 years, while Gen. Michael Guetlein has said the system stays inside a $185 billion figure. Those estimates disagree, and the reconciliation bill that would fund the request has not been enacted.",
+      "id": "fortress-90-day-2026-10-25",
+      "subsection": "ops",
+      "date": "2026-10-25",
+      "dateLabel": "Oct 25",
+      "headline": "Fox: FORTRESS documents would have major U.S. bases last 90 days without outside support",
+      "summary": "Fox News Digital reported Oct. 25, citing documents it reviewed, that under an initiative called FORTRESS every major military installation in the continental United States would be expected to sustain essential operations independently for at least 90 days, including electricity, water, fuel and communications. Pentagon chief spokesperson Sean Parnell, who Fox said led the initiative, told Fox that power is combat now and that without electricity the department loses communications, water, logistics, assembly lines and basic command structures. Fox says the documents envision portable nuclear reactors, large-scale battery storage and microgrids that can disconnect bases from the civilian grid, plus reserves of munitions, fuel, critical minerals, electronics, spare parts and medical supplies. Fox also says the most critical dependencies would need at least two qualified supply or production pathways, and that the Civil Reserve Manufacturing Network is folded into FORTRESS so commercial factories can be identified to shift to defense production.",
       "sources": [
         {
-          "name": "CSIS",
-          "url": "https://www.csis.org/analysis/tracking-fy-2027-defense-appropriations-reconciliation-and-supplemental-request"
-        },
-        {
-          "name": "Axios",
-          "url": "https://www.axios.com/2026/10/07/golden-dome-trump-senate-cbo-king"
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/inside-pentagons-doomsday-plan-keep-america-fighting-global-war-erupts"
         }
       ]
     },
@@ -145,24 +154,6 @@
       "headline": "Iran says Hormuz stays restricted until Washington accepts its terms",
       "summary": "Foreign Minister Abbas Araghchi told Iraqi state television that the Strait of Hormuz will not be open to everyone until there is an agreement on the waterway, The National reported Oct. 21. Indirect talks continue through Pakistan and Qatar. In a Financial Times article the same week he wrote that further escalation around Hormuz would put civilian lives and the global economy at risk, and that he sees little reason to expect progress while Washington threatens more violence. The National also reported, citing Fox News and two U.S. officials, that the USS Theodore Roosevelt carrier strike group and the 13th Marine Expeditionary Unit are heading to the region, on the order of 10,000 sailors and Marines by the end of November, which would be a third carrier.",
       "sources": [
-        {
-          "name": "The National",
-          "url": "https://www.thenationalnews.com/news/gulf/2026/10/21/araghchi-says-strait-of-hormuz-will-stay-closed-until-us-agrees-to-irans-terms/"
-        }
-      ]
-    },
-    {
-      "id": "hegseth-prepared-iran-2026-10-21",
-      "subsection": "ops",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Hegseth says the U.S. is prepared to go further against Iran if Trump directs it",
-      "summary": "Middle East Eye reported Oct. 21 that Hegseth told reporters the United States is prepared to contribute any way necessary so Iran never gets a nuclear weapon, and that if Tehran will not give up the program and the president asks to go further, the department is prepared. The National reported that Hegseth met Prime Minister Benjamin Netanyahu on an unannounced visit to Israel on Monday, Oct. 19, while the two sides discussed whether to resume major combat operations before the U.S. midterms. Iranian officials told Reuters, The National said, that Tehran is preparing for possible renewed attacks and sees little chance of a diplomatic breakthrough before the U.S. election.",
-      "sources": [
-        {
-          "name": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hegseth-says-us-prepared-take-military-action-against-iran-if-directed"
-        },
         {
           "name": "The National",
           "url": "https://www.thenationalnews.com/news/gulf/2026/10/21/araghchi-says-strait-of-hormuz-will-stay-closed-until-us-agrees-to-irans-terms/"
