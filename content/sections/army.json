@@ -6,15 +6,30 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-10-27",
-  "covers": "Oct 23–27, 2026",
-  "readFirst": "Covers Oct. 23–27. New: MeriTalk reported Oct. 26 that the Army selected AWS and WWT for a combined $2.6 million Project Griffin pilot, and an Army.mil article datelined Aberdeen Proving Ground the same day describes USAISEC and NETCOM replacing wide-area network equipment. Items dated before Oct. 20, including the AUSA leadership notes, were removed. No confirmation of the acting secretary or chief of staff was found. No separate NETCOM press release was found. The Oct. 26 WWT GEMSS session is on the WWT page, and nothing later was found for the week ahead. An EIN lead on a tactical wheeled-vehicle industry day was not carried because the original DVIDS article could not be opened.",
+  "compiled": "2026-10-28",
+  "covers": "Oct 23–28, 2026",
+  "readFirst": "Covers Oct. 23–28. No Army contract, leadership confirmation, or NETCOM release dated Oct. 27–28 was found. The Oct. 26 Project Griffin pilot and the USAISEC wide-area-network replacement remain the newest items. No separate NETCOM press release was found.",
   "subsections": [
-    {"id": "leadership", "title": "Leadership & Policy"},
-    {"id": "modernization", "title": "Modernization & Force Design"},
-    {"id": "contracts", "title": "Contracts & Acquisition"},
-    {"id": "network", "title": "Signal & Network"},
-    {"id": "ahead", "title": "Week Ahead"}
+    {
+      "id": "leadership",
+      "title": "Leadership & Policy"
+    },
+    {
+      "id": "modernization",
+      "title": "Modernization & Force Design"
+    },
+    {
+      "id": "contracts",
+      "title": "Contracts & Acquisition"
+    },
+    {
+      "id": "network",
+      "title": "Signal & Network"
+    },
+    {
+      "id": "ahead",
+      "title": "Week Ahead"
+    }
   ],
   "items": [
     {

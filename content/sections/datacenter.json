@@ -6,14 +6,26 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-10-27",
-  "covers": "Oct 21–27, 2026",
-  "readFirst": "Covers Oct. 21–27. New: NVIDIA said Oct. 26 that Meta intends to expand Vera Rubin and Vera CPU deployments and to use Spectrum-X Ethernet and BlueField-4. Tom's Hardware reported Oct. 27 that Elon Musk said SpaceX had closed $40 billion of debt for GPUs due in the first half of 2027. No newer campus-switching standard was found. The Oct. 12 USFP optics note and the Oct. 16 OCP power-floor note were older than seven days and were removed. No new NetApp product release was found.",
+  "compiled": "2026-10-28",
+  "covers": "Oct 21–28, 2026",
+  "readFirst": "Covers Oct. 21–28. New: NVIDIA said Oct. 27 that Vera Rubin NVL72 and Vera CPUs are generally available on Oracle Cloud, with plans for multi-gigawatt OCI Superclusters. The Oct. 21 Dell modular data-center note was removed so the capacity subsection could take that Oracle item; the Dell announcement remains on the partners page. No new NetApp product release was found. Tom's Hardware's Oct. 27 SpaceX debt note remains from the prior edition.",
   "subsections": [
-    {"id": "networking", "title": "Networking"},
-    {"id": "capacity", "title": "AI Infrastructure & Capacity"},
-    {"id": "power", "title": "Power & Cooling"},
-    {"id": "storage", "title": "Storage"}
+    {
+      "id": "networking",
+      "title": "Networking"
+    },
+    {
+      "id": "capacity",
+      "title": "AI Infrastructure & Capacity"
+    },
+    {
+      "id": "power",
+      "title": "Power & Cooling"
+    },
+    {
+      "id": "storage",
+      "title": "Storage"
+    }
   ],
   "items": [
     {
@@ -41,6 +53,20 @@
         {
           "name": "Google Cloud",
           "url": "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-oracle-rubin-2026-10-27",
+      "subsection": "capacity",
+      "date": "2026-10-27",
+      "dateLabel": "Oct 27",
+      "headline": "NVIDIA says Vera Rubin NVL72 and Vera CPUs are generally available on Oracle Cloud",
+      "summary": "NVIDIA said Oct. 27 that Vera Rubin NVL72 systems and Vera CPUs are generally available on Oracle Cloud Infrastructure, and that the companies plan to expand OCI Superclusters with Vera Rubin NVL72 to multi-gigawatt scale. NVIDIA said those superclusters combine NVL72 racks, Oracle Acceleron networking with Spectrum-X Ethernet using Spectrum-6 switches and BlueField-4 DPUs, and gigawatt-class power and cooling, and that each rack connects 72 GPUs with NVLink. OCI also plans an HGX Rubin NVL8 with eight Rubin GPUs, two 64-core Intel Xeon 6 CPUs, 4 TB of DDR5 memory, and 6.4 Tbps of RDMA networking. NVIDIA said OpenAI has trained and served GPT-6 Astra on an OCI Supercluster with more than 100,000 Blackwell GPUs in Abilene, and that OpenAI is bringing Vera CPUs on OCI into production for agentic sandbox workloads.",
+      "sources": [
+        {
+          "name": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure"
         }
       ]
     },
@@ -87,20 +113,6 @@
         {
           "name": "NVIDIA Blog",
           "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/"
-        }
-      ]
-    },
-    {
-      "id": "dell-modular-dc-2026-10-21",
-      "subsection": "capacity",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Dell's modular data center reference design bundles compute, liquid cooling and prepared power",
-      "summary": "Dell's Oct. 21 GTC announcement includes the Dell Modular Data Center with NVIDIA DSX as a reference design: a containerized AI factory with compute, storage, networking, rack-level power and liquid cooling, intended to connect to power that is already prepared so less integration happens on site. Dell says it will be available in early 2027. Alongside it, the PowerEdge XE9810 is described as 16 direct-liquid-cooled trays with Groq 3 language processing units for high-throughput inference, due in the first quarter of calendar 2027.",
-      "sources": [
-        {
-          "name": "Dell Technologies",
-          "url": "https://www.nasdaq.com/press-release/dell-technologies-advances-enterprise-agentic-ai-deskside-data-center-nvidia-2026-10"
         }
       ]
     },

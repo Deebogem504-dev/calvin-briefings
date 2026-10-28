@@ -1,52 +1,52 @@
 {
   "signals": [
     {
-      "section": "army",
-      "label": "ARMY",
-      "dateLabel": "Oct 26",
-      "headline": "Army picked AWS and WWT for a $2.6 million Project Griffin cyber pilot",
-      "item": "project-griffin-2026-10-26",
-      "href": "army.html#contracts"
-    },
-    {
       "section": "cyber",
       "label": "CYBER",
-      "dateLabel": "Oct 26",
-      "headline": "CISA put PHP2Shell on the KEV list, due Oct. 29",
-      "item": "php2shell-2026-10-21",
+      "dateLabel": "Oct 27–28",
+      "headline": "CISA added Brotli and an Adobe Commerce bug to the KEV list, due Nov. 10",
+      "item": "brotli-adobe-kev-2026-10-27",
       "href": "cyber.html#kev"
-    },
-    {
-      "section": "ai",
-      "label": "AI",
-      "dateLabel": "Oct 26",
-      "headline": "Anthropic filed an S-1 to list Class A shares on Nasdaq as ANT",
-      "item": "anthropic-s1-2026-10-26",
-      "href": "ai.html#anthropic"
     },
     {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Oct 25",
-      "headline": "Fox: FORTRESS would have major U.S. bases last 90 days without outside support",
-      "item": "fortress-90-day-2026-10-25",
-      "href": "dow.html#ops"
+      "dateLabel": "Oct 28",
+      "headline": "In Cebu, Hegseth and Japan's defense minister agreed on cyber cooperation and a denial defense",
+      "item": "hegseth-admm-2026-10-28",
+      "href": "dow.html#secwar"
     },
     {
-      "section": "partners",
-      "label": "PARTNERS",
-      "dateLabel": "Oct 26",
-      "headline": "Cisco Model Foundry: a WWT lab test hit the right fix in 11 of 12 cases",
-      "item": "cisco-model-foundry-2026-10-26",
-      "href": "partners.html#cisco"
+      "section": "ai",
+      "label": "AI",
+      "dateLabel": "Oct 27",
+      "headline": "Google announced Genie 4, a world model with native audio",
+      "item": "genie-4-2026-10-27",
+      "href": "ai.html#google"
     },
     {
       "section": "datacenter",
       "label": "DC/NET",
-      "dateLabel": "Oct 26",
-      "headline": "Meta plans more Vera Rubin, Spectrum-X Ethernet and BlueField-4",
-      "item": "nvidia-meta-fabric-2026-10-26",
-      "href": "datacenter.html#networking"
+      "dateLabel": "Oct 27",
+      "headline": "Vera Rubin NVL72 and Vera CPUs are generally available on Oracle Cloud",
+      "item": "nvidia-oracle-rubin-2026-10-27",
+      "href": "datacenter.html#capacity"
+    },
+    {
+      "section": "partners",
+      "label": "PARTNERS",
+      "dateLabel": "Oct 27",
+      "headline": "Broadcom: VMware SDDC Manager is exposed to the Brotli bug, and patches are pending",
+      "item": "vmware-brotli-2026-10-27",
+      "href": "partners.html#quiet"
+    },
+    {
+      "section": "budget",
+      "label": "BUDGET",
+      "dateLabel": "Oct 27",
+      "headline": "Roll Call: the NDAA and the $1.5 trillion request wait on the lame duck",
+      "item": "lame-duck-defense-2026-10-27",
+      "href": "budget.html#approps"
     }
   ]
 }

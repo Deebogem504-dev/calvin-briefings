@@ -6,14 +6,26 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT ↔ U.S. Army Signal Mapping",
   "description": "World Wide Technology public content and Army business, set next to U.S. Army leadership priorities.",
-  "compiled": "2026-10-27",
-  "covers": "Oct 20–27, 2026",
-  "readFirst": "Covers Oct. 20–27. No WWT press release dated Oct. 22–27 was found on wwt.com. New: MeriTalk reported Oct. 26 that the Army selected WWT and AWS for a combined $2.6 million Project Griffin pilot. The July GEMSS 2.1 context note aged out; that agreement is still the Cisco vehicle cited in the mapping notes. No new Army award posted by WWT itself was found. Items on I Corps and the 25th Infantry Division dated before Oct. 20 were removed. The two Signal Mapping notes are analysis, tagged Inference.",
+  "compiled": "2026-10-28",
+  "covers": "Oct 21–28, 2026",
+  "readFirst": "Covers Oct. 21–28. No WWT press release dated Oct. 27–28 was found on wwt.com. The Oct. 26 MeriTalk report that the Army selected WWT and AWS for Project Griffin remains the newest item that names WWT. The two Signal Mapping notes are analysis, tagged Inference. No new Army award posted by WWT itself was found.",
   "subsections": [
-    {"id": "content", "title": "WWT Content & Army Footprint"},
-    {"id": "leaders", "title": "Army Leadership Watch"},
-    {"id": "conferences", "title": "Upcoming Conferences"},
-    {"id": "mapping", "title": "Signal Mapping"}
+    {
+      "id": "content",
+      "title": "WWT Content & Army Footprint"
+    },
+    {
+      "id": "leaders",
+      "title": "Army Leadership Watch"
+    },
+    {
+      "id": "conferences",
+      "title": "Upcoming Conferences"
+    },
+    {
+      "id": "mapping",
+      "title": "Signal Mapping"
+    }
   ],
   "items": [
     {

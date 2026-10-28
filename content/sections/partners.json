@@ -6,21 +6,54 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-10-27",
-  "covers": "Oct 20–27, 2026",
-  "readFirst": "Covers Oct. 20–27. New: Cisco opened Model Foundry at Partner Summit on Oct. 26 and described a WWT lab test of a fine-tuned Deep Network model, and AWS added ML-KEM to Key Management Service the same day. F5 and Intel items from Oct. 20 and Oct. 23 remain. VMware was quiet; the Oct. 19 NTT DOCOMO agreement was older than seven days and was removed. No new NetApp or Microsoft release was found. The Oct. 12 USFP optics note aged out.",
+  "compiled": "2026-10-28",
+  "covers": "Oct 21–28, 2026",
+  "readFirst": "Covers Oct. 21–28. New: Broadcom issued VMSA-2026-0008 on Oct. 27 for the Brotli bug in VMware SDDC Manager, and Palo Alto updated its Brotli advisory on Oct. 28. F5 had no new release; the Oct. 20 Telenor item was removed as the oldest. The Oct. 21 NVIDIA open-models note was removed to stay within the count; the Oct. 26 Muse item is on the AI page. Intel's Oct. 23 note remains. No new NetApp, Microsoft, Dell, or HPE release dated Oct. 27–28 was found.",
   "subsections": [
-    {"id": "cisco", "title": "Cisco"},
-    {"id": "dell", "title": "Dell Technologies"},
-    {"id": "hpe", "title": "HPE (incl. Juniper)"},
-    {"id": "netapp", "title": "NetApp"},
-    {"id": "nvidia", "title": "NVIDIA"},
-    {"id": "microsoft", "title": "Microsoft"},
-    {"id": "paloalto", "title": "Palo Alto Networks"},
-    {"id": "aws", "title": "AWS"},
-    {"id": "google", "title": "Google Cloud"},
-    {"id": "quiet", "title": "F5 · Intel · VMware"},
-    {"id": "other", "title": "Other Partners"}
+    {
+      "id": "cisco",
+      "title": "Cisco"
+    },
+    {
+      "id": "dell",
+      "title": "Dell Technologies"
+    },
+    {
+      "id": "hpe",
+      "title": "HPE (incl. Juniper)"
+    },
+    {
+      "id": "netapp",
+      "title": "NetApp"
+    },
+    {
+      "id": "nvidia",
+      "title": "NVIDIA"
+    },
+    {
+      "id": "microsoft",
+      "title": "Microsoft"
+    },
+    {
+      "id": "paloalto",
+      "title": "Palo Alto Networks"
+    },
+    {
+      "id": "aws",
+      "title": "AWS"
+    },
+    {
+      "id": "google",
+      "title": "Google Cloud"
+    },
+    {
+      "id": "quiet",
+      "title": "F5 · Intel · VMware"
+    },
+    {
+      "id": "other",
+      "title": "Other Partners"
+    }
   ],
   "items": [
     {
@@ -98,24 +131,16 @@
       ]
     },
     {
-      "id": "nvidia-open-models-partners-2026-10-21",
-      "subsection": "nvidia",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "GTC Berlin: Nemotron 3.5 models and an OpenShell reference for agents",
-      "summary": "NVIDIA's Oct. 21 open-models post adds Nemotron 3.5 Super VL and Nemotron 3.5 Bolt, retriever models, Kumo models for structured data, Cosmos 3.5, and Ising models for quantum computing. A separate newsroom release the same day introduces the OpenShell reference architecture for running agents with controls on what they can reach. A third post describes Confidential Bare Metal so a model builder can keep control of models and data on third-party accelerated infrastructure. Isaac's robotics expansion is covered on the Tech page.",
+      "id": "palo-brotli-2026-10-28",
+      "subsection": "paloalto",
+      "date": "2026-10-28",
+      "dateLabel": "Oct 26–28",
+      "headline": "Palo Alto's Brotli advisory, updated Oct. 28, says the same hotfixes cover PHP2Shell",
+      "summary": "Palo Alto Networks' advisory on CVE-2026-111497 was published Oct. 26 and updated Oct. 28. Palo Alto says the bug applies to PAN-OS on PA-Series and VM-Series firewalls when Brotli inspection and TLS decryption are enabled on the dataplane, that the management interface is not affected, and that it is not aware of malicious exploitation. It says PAN-OS 11.1, PAN-OS 10.2, and Panorama are not affected, and that Brotli inspection is disabled by default in PAN-OS 11.2.4 and later. The Oct. 28 update says the same hotfix covers both the PHP bugs and Brotli, except that 11.2.10-h16 fixes only PHP and 11.2.10-h17 fixes both, and the changelog lists 11.2.7-h23, 11.2.10-h17, 11.2.13-h4, 11.2.16-h1, 12.1.7-h11, and 12.2.4-h1 as released, with 12.1.4-h13 still estimated for Oct. 29 and 11.2.4-h23 and 12.1.10-h3 for Oct. 30.",
       "sources": [
         {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/"
-        },
-        {
-          "name": "NVIDIA Newsroom",
-          "url": "https://nvidianews.nvidia.com/news/openshell-reference-architecture"
-        },
-        {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/"
+          "name": "Palo Alto Networks",
+          "url": "https://security.paloaltonetworks.com/CVE-2026-111497"
         }
       ]
     },
@@ -162,6 +187,20 @@
       ]
     },
     {
+      "id": "vmware-brotli-2026-10-27",
+      "subsection": "quiet",
+      "date": "2026-10-27",
+      "dateLabel": "Oct 27",
+      "headline": "Broadcom: VMware SDDC Manager can be exploited through the Brotli bug, and patches are pending",
+      "summary": "Broadcom's VMSA-2026-0008, issued Oct. 27, says Node.js in SDDC Manager has a remote-code-execution bug, CVE-2026-111497, because of an out-of-bounds write in the Brotli decoder. Broadcom scores SDDC Manager 9.1.1 as critical, with a CVSS score of 9.8, and scores 9.0.x, 9.1.0, and 5.2.x as important, with a CVSS score of 7.5. The advisory says a malicious actor with network access to SDDC Manager may run arbitrary code, and that fixed versions are still pending. Workarounds are listed as KB460732 for 9.1.1 and KB460734 for the older releases. The affected lines are VMware Cloud Foundation and, on the 9.x rows, VMware vSphere Foundation.",
+      "sources": [
+        {
+          "name": "Broadcom",
+          "url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39445"
+        }
+      ]
+    },
+    {
       "id": "intel-tdx-ibm-2026-10-23",
       "subsection": "quiet",
       "date": "2026-10-23",
@@ -172,20 +211,6 @@
         {
           "name": "IBM",
           "url": "https://www.ibm.com/new/announcements/protecting-ai-at-runtime-with-ibm-and-intel"
-        }
-      ]
-    },
-    {
-      "id": "f5-telenor-2026-10-20",
-      "subsection": "quiet",
-      "date": "2026-10-20",
-      "dateLabel": "Oct 20",
-      "headline": "F5: Telenor AI Factory will use BIG-IP Next for Kubernetes on BlueField-3",
-      "summary": "F5 said Oct. 20 that Telenor AI Factory selected F5 BIG-IP Next for Kubernetes as an AI service plane for NVIDIA-powered sovereign AI infrastructure. F5 says the product is a Kubernetes-native control point for AI traffic, tenant isolation, telemetry, and policy, and that the data plane runs on NVIDIA BlueField-3 so those functions stay off the host CPU. Telenor AI Factory CEO Kaaren Hilsen said the point is to govern how AI services run, not only where the infrastructure sits. F5 said token-aware governance and inference traffic optimization are planned, not shipping in this release.",
-      "sources": [
-        {
-          "name": "F5",
-          "url": "https://www.f5.com/company/news/press-releases/service-plane-sovereign-ai-factory-infrastructure"
         }
       ]
     },

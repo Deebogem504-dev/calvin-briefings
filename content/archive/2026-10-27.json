@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-27",
+  "title": "October 27, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "ARMY",
+      "dateLabel": "Oct 26",
+      "headline": "Army picked AWS and WWT for a $2.6 million Project Griffin cyber pilot",
+      "sources": [
+        {
+          "name": "MeriTalk",
+          "url": "https://www.meritalk.com/articles/army-launches-project-gatekeeper-to-speed-commercial-software-cyber-reviews/"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Oct 26",
+      "headline": "CISA put PHP2Shell on the KEV list, due Oct. 29",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Oct 26",
+      "headline": "Anthropic filed an S-1 to list Class A shares on Nasdaq as ANT",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/s1-sec"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Oct 25",
+      "headline": "Fox: FORTRESS would have major U.S. bases last 90 days without outside support",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/inside-pentagons-doomsday-plan-keep-america-fighting-global-war-erupts"
+        }
+      ]
+    },
+    {
+      "label": "PARTNERS",
+      "dateLabel": "Oct 26",
+      "headline": "Cisco Model Foundry: a WWT lab test hit the right fix in 11 of 12 cases",
+      "sources": [
+        {
+          "name": "Cisco",
+          "url": "https://blogs.cisco.com/ai/cisco-model-foundry-partner-summit"
+        },
+        {
+          "name": "Cisco",
+          "url": "https://investor.cisco.com/news/news-details/2026/Cisco-Expands-Partner-Opportunity-with-New-Cisco-360-Program-Updates-High-Yield-Customer-Experience-Offerings-and-AI-Ready-Innovations/default.aspx"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Oct 26",
+      "headline": "Meta plans more Vera Rubin, Spectrum-X Ethernet and BlueField-4",
+      "sources": [
+        {
+          "name": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth"
+        }
+      ]
+    }
+  ]
+}

@@ -6,13 +6,22 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-10-27",
-  "covers": "Oct 20–27, 2026",
-  "readFirst": "Covers Oct. 20–27. The patching priority is php2shell: CISA added CVE-2026-109618 and CVE-2026-109619 to the Known Exploited Vulnerabilities catalog on Oct. 26, and the catalog due date is Oct. 29. The VeloCloud and Collabora entries, both due Oct. 26, were dropped because they are no longer the current priority. CISA also published the CISA 2030 strategy on Oct. 26. No CISA alert dated Oct. 27 was found. Federal News Network's Oct. 26 account of the CMMC request for information is included. No new public update on the DMDC personnel breach was found.",
+  "compiled": "2026-10-28",
+  "covers": "Oct 21–28, 2026",
+  "readFirst": "Covers Oct. 21–28. The nearest catalog deadline is still php2shell, due Oct. 29. New: CISA added the Brotli bug, also called Node2Shell, and an Adobe Commerce upload bug on Oct. 27, both due Nov. 10. Federal News Network's Oct. 27 CMMC follow-up is the task force's reform options. The Oct. 20 SafePay advisory was removed to stay within the trends count. No new public update on the DMDC personnel breach was found.",
   "subsections": [
-    {"id": "kev", "title": "Exploited Vulnerabilities"},
-    {"id": "incidents", "title": "Incidents & Breaches"},
-    {"id": "trends", "title": "Threat Trends"}
+    {
+      "id": "kev",
+      "title": "Exploited Vulnerabilities"
+    },
+    {
+      "id": "incidents",
+      "title": "Incidents & Breaches"
+    },
+    {
+      "id": "trends",
+      "title": "Threat Trends"
+    }
   ],
   "items": [
     {
@@ -38,6 +47,28 @@
       ]
     },
     {
+      "id": "brotli-adobe-kev-2026-10-27",
+      "subsection": "kev",
+      "date": "2026-10-27",
+      "dateLabel": "Oct 27–28",
+      "headline": "CISA adds Brotli and an Adobe Commerce bug to the KEV catalog, due Nov. 10",
+      "summary": "CISA said Oct. 27 it added CVE-2026-48356, an Adobe Commerce and Magento unrestricted file-upload bug, and CVE-2026-111497, a Google Brotli unchecked-return-value bug, to the Known Exploited Vulnerabilities catalog. The catalog sets a due date of Nov. 10 for both and describes the Brotli flaw as letting a remote unauthenticated attacker corrupt decoder memory, disclose memory, cause a denial of service, or potentially run code with a crafted compressed stream. SecurityWeek reported Oct. 28 that the Brotli bug, also called Node2Shell, affects Brotli 1.0.3 through 1.2.0, that federal civilian agencies were told to address it by Nov. 10, and that Broadcom warned Oct. 27 that SDDC Manager in VMware Cloud Foundation is affected because it uses Node.js, with patches still pending. SecurityWeek also said two honeypot operators logged attempts, and that ELLIO called the exploit it analyzed broken.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/"
+        }
+      ]
+    },
+    {
       "id": "storm-0940-2026-10-21",
       "subsection": "incidents",
       "date": "2026-10-21",
@@ -48,6 +79,20 @@
         {
           "name": "Microsoft",
           "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"
+        }
+      ]
+    },
+    {
+      "id": "cmmc-path-2026-10-27",
+      "subsection": "trends",
+      "date": "2026-10-27",
+      "dateLabel": "Oct 27",
+      "headline": "Federal News Network: the CMMC task force lists a 90-day path to restart Phase 2",
+      "summary": "Federal News Network reported Oct. 27, in the second part of its CMMC investigation, that a Defense Department task-force summary of the July request for information sorts reform options into changes the CIO could make without rulemaking, harder changes that may need rulemaking, and ideas outside the CIO's authority. The outlet says the summary, which it obtained, lists a 90-day option to restart Phase 2 for a narrower population, more guidance for assessors through the Cyber AB and CAICO, and an expansion of plan-of-action eligibility to 270 days that would require rulemaking. It also says the department wrote that clearer controlled-unclassified-information marking has the greatest potential to shrink the population that must implement NIST 800-171, and that the department declined to comment. Katie Arrington, who previously performed the CIO's duties, told Federal News Network the audit process has to start in order to be refined.",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/defense-news/2026/10/rfi-offers-path-forward-for-dod-with-cmmc/"
         }
       ]
     },
@@ -76,24 +121,6 @@
         {
           "name": "Federal News Network",
           "url": "https://federalnewsnetwork.com/defense-news/2026/10/dods-reasons-for-cmmc-pause-falling-apart-in-face-of-rfi-responses/"
-        }
-      ]
-    },
-    {
-      "id": "safepay-2026-10-20",
-      "subsection": "trends",
-      "date": "2026-10-20",
-      "dateLabel": "Oct 20–21",
-      "headline": "SafePay advisory: about 600 victims, initial access through edge devices and stolen passwords",
-      "summary": "CISA, the FBI, the Secret Service and international partners released a StopRansomware advisory on SafePay dated Oct. 20. A CISA news release the next day says the group has hit about 600 victims across the Americas, Europe and Australia and is one of the most active ransomware groups of 2026. Actors steal or guess passwords, use phishing, and exploit known vulnerabilities on internet-facing devices, often arriving through VPN, then create or take over accounts, move with legitimate admin tools, disable backups, steal data and encrypt systems. Listed bugs include CVE-2020-3259, CVE-2023-20269, CVE-2023-27532, CVE-2024-40711 and CVE-2024-40766, and CISA's ask is to patch edge devices, require multifactor authentication, restrict admin tools, segment networks and keep offline backups that have been restored in a test.",
-      "sources": [
-        {
-          "name": "CISA advisory",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a"
-        },
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-safepay-ransomware-actors-targeting-multiple-critical"
         }
       ]
     },

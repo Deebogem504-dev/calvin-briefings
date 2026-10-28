@@ -6,13 +6,37 @@
   "cadence": "Weekly · Mondays",
   "title": "Federal Budget & NDAA Weekly Tracker",
   "description": "Fiscal 2027 appropriations, the continuing resolution, NDAA status, reconciliation funds and Golden Dome money.",
-  "compiled": "2026-10-27",
-  "covers": "Oct 20–27, 2026",
-  "readFirst": "Covers Oct. 20–27. No appropriations vote, NDAA floor action, or new continuing resolution in that window was found. The Oct. 1 continuing-resolution overview, the Oct. 7 Golden Dome reconciliation note, and the Oct. 19 lame-duck items were older than seven days and were removed. No newer Golden Dome appropriation was found.",
+  "compiled": "2026-10-28",
+  "covers": "Oct 27–28, 2026",
+  "readFirst": "Covers Oct. 27–28. New: Roll Call reported Oct. 27 that the fiscal 2027 NDAA and full-year Pentagon funding were unresolved when lawmakers left to campaign, and that the administration's request is a $1.15 trillion base, $350 billion in reconciliation, and about $60 billion in Iran-war supplemental funding. No appropriations vote or new continuing-resolution text was found. No newer Golden Dome appropriation was found.",
   "subsections": [
-    {"id": "approps", "title": "Appropriations & CR"},
-    {"id": "ndaa", "title": "NDAA"},
-    {"id": "reconciliation", "title": "Reconciliation & Special Programs"}
+    {
+      "id": "approps",
+      "title": "Appropriations & CR"
+    },
+    {
+      "id": "ndaa",
+      "title": "NDAA"
+    },
+    {
+      "id": "reconciliation",
+      "title": "Reconciliation & Special Programs"
+    }
   ],
-  "items": []
+  "items": [
+    {
+      "id": "lame-duck-defense-2026-10-27",
+      "subsection": "approps",
+      "date": "2026-10-27",
+      "dateLabel": "Oct 27",
+      "headline": "Roll Call: the fiscal 2027 NDAA and the $1.5 trillion defense request are stuck until the lame duck",
+      "summary": "Roll Call reported Oct. 27 that the fiscal 2027 National Defense Authorization Act and full-year Pentagon funding were unresolved when lawmakers left to campaign. It said Democrats have balked at authorizing a record budget and at moving a defense policy bill without guardrails on the Iran war. Roll Call said the administration has requested a $1.15 trillion base budget, $350 billion in a partisan reconciliation bill, and about $60 billion in supplemental funding for Iran-war costs, and that officials including Pete Hegseth are still pushing Republicans for that package. It also said Sen. Mitch McConnell wrote in a Wall Street Journal op-ed that ending what he called obeisance to Putin may be table stakes for the end-of-year legislation.",
+      "sources": [
+        {
+          "name": "Roll Call",
+          "url": "https://rollcall.com/2026/10/27/defense-priorities-tied-up-in-lame-duck-jumble/"
+        }
+      ]
+    }
+  ]
 }

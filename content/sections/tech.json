@@ -6,14 +6,26 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-10-27",
-  "covers": "Oct 20–27, 2026",
-  "readFirst": "Covers Oct. 20–27. New: AWS said Oct. 26 that Key Management Service now supports ML-KEM, the NIST FIPS 203 post-quantum key-encapsulation standard. No new space-system award was found. The Oct. 1 NSA post-quantum announcement was older than seven days and was removed. NVIDIA's Oct. 21 local-AI note remains on the AI page. The GTC Berlin robotics and compute items from Oct. 20–21 are still the newest in those subsections.",
+  "compiled": "2026-10-28",
+  "covers": "Oct 20–28, 2026",
+  "readFirst": "Covers Oct. 20–28. New: Google Cloud said Oct. 27 that Gemini Robotics Embodied Reasoning 2 is in public preview. No new space-system award was found. No post-quantum announcement newer than the Oct. 26 AWS ML-KEM note was found. NVIDIA's Oct. 27 Vera Rubin availability on Oracle Cloud is on the data-center page.",
   "subsections": [
-    {"id": "quantum", "title": "Quantum & Post-Quantum"},
-    {"id": "autonomy", "title": "Robotics & Autonomy"},
-    {"id": "compute", "title": "Advanced Compute"},
-    {"id": "space", "title": "Space-Enabled Tech"}
+    {
+      "id": "quantum",
+      "title": "Quantum & Post-Quantum"
+    },
+    {
+      "id": "autonomy",
+      "title": "Robotics & Autonomy"
+    },
+    {
+      "id": "compute",
+      "title": "Advanced Compute"
+    },
+    {
+      "id": "space",
+      "title": "Space-Enabled Tech"
+    }
   ],
   "items": [
     {
@@ -27,6 +39,20 @@
         {
           "name": "AWS",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/"
+        }
+      ]
+    },
+    {
+      "id": "gemini-robotics-er2-2026-10-27",
+      "subsection": "autonomy",
+      "date": "2026-10-27",
+      "dateLabel": "Oct 27",
+      "headline": "Google Cloud puts Gemini Robotics Embodied Reasoning 2 in public preview",
+      "summary": "Google Cloud said Oct. 27 that Gemini Robotics Embodied Reasoning 2 is in public preview on the Gemini platform. Google describes it as a model that works across robot bodies, from stationary arms to humanoids, and that combines spatial and temporal video understanding with long-horizon planning and safety guardrails. Google says developers can declare low-level controls, including vision-language-action models and navigation APIs, as tools, and can test behaviors in MuJoCo-Warp and NVIDIA Isaac Sim before using hardware. Boston Dynamics' Marco da Silva said the model changes what an inspection with Spot can be, because applying models to video lets the robot do more than check a single moment.",
+      "sources": [
+        {
+          "name": "Google Cloud",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud"
         }
       ]
     },

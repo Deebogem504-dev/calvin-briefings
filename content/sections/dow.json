@@ -6,27 +6,47 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-10-27",
-  "covers": "Oct 20–27, 2026",
-  "readFirst": "Covers Oct. 20–27. New: the Department of War said Oct. 26 that USS Colorado will be the first Virginia-class submarine assigned to Submarine Rotational Force-West, beginning in late 2027. Fox News Digital reported Oct. 25, citing documents it reviewed, that FORTRESS would expect every major continental U.S. installation to sustain essential operations for at least 90 days without outside support. Federal News Network reported Oct. 26 that contracting staff received guidance for buying AI under the administration's neutrality rules. No new Golden Dome appropriation was found, and the Oct. 7 context note was removed because it was older than seven days. No Department of War release dated Oct. 27 was found.",
+  "compiled": "2026-10-28",
+  "covers": "Oct 21–28, 2026",
+  "readFirst": "Covers Oct. 21–28. New: The Japan Times and Nippon.com reported Oct. 28 that Secretary Hegseth met Japan's defense minister in Cebu during ADMM-Plus, and The Tribune reported a meeting the same day with India's defense minister. The Oct. 25 travel advisory was removed because those meetings are underway. No new Golden Dome appropriation was found. The Department of War site did not return the Oct. 28 readout, so the meeting notes cite the reports that quote the department and Japan's Defense Ministry.",
   "subsections": [
-    {"id": "secwar", "title": "Secretary & Initiatives"},
-    {"id": "acquisition", "title": "Acquisition & Innovation"},
-    {"id": "goldendome", "title": "Golden Dome"},
-    {"id": "ops", "title": "Operations & Geopolitics"}
+    {
+      "id": "secwar",
+      "title": "Secretary & Initiatives"
+    },
+    {
+      "id": "acquisition",
+      "title": "Acquisition & Innovation"
+    },
+    {
+      "id": "goldendome",
+      "title": "Golden Dome"
+    },
+    {
+      "id": "ops",
+      "title": "Operations & Geopolitics"
+    }
   ],
   "items": [
     {
-      "id": "hegseth-philippines-2026-10-25",
+      "id": "hegseth-admm-2026-10-28",
       "subsection": "secwar",
-      "date": "2026-10-25",
-      "dateLabel": "Oct 25",
-      "headline": "Hegseth will travel to the Philippines for the ASEAN Defense Ministers' Meeting-Plus",
-      "summary": "The Department of War said Oct. 25 that Secretary of War Pete Hegseth will travel to the Philippines to reaffirm what the advisory called America's commitment to peace through strength in the Pacific. He will participate in the ASEAN Defense Ministers' Meeting-Plus and hold bilateral and multilateral meetings. The advisory says the trip is meant to strengthen deterrence, advance alliances and partnerships, and expand burden-sharing across the region. It does not list travel dates or the counterparts he will meet.",
+      "date": "2026-10-28",
+      "dateLabel": "Oct 28",
+      "headline": "In Cebu, Hegseth and Japan's defense minister agree on cyber cooperation and a First Island Chain denial defense",
+      "summary": "The Japan Times reported Oct. 28 that Defense Minister Shinjiro Koizumi and Secretary of War Pete Hegseth met in Cebu on the sidelines of the ASEAN defense ministers' meeting and agreed to strengthen cooperation against cyberattacks. Japan's Defense Ministry said the two agreed to keep coordinating so malicious cyber activity, including large-scale leaks of personal information, does not seriously affect daily life, economic activity, or the security of both countries. Nippon.com, citing a U.S. Defense Department announcement, reported that the two underscored more defense investment and strategic alignment for an effective denial defense in the First Island Chain, and that they agreed to work closely on ammunition production. The Tribune reported the same day that Indian Defence Minister Rajnath Singh met Hegseth in Cebu, and that Hegseth said they marked one year of the Framework for the U.S.-India Major Defense Partnership.",
       "sources": [
         {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Advisories/Advisory/Article/4633052/secretary-of-war-pete-hegseth-to-visit-the-philippines-and-participate-in-the-a/"
+          "name": "The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/10/28/japan/us-japan-koizumi-hegseth-asean/"
+        },
+        {
+          "name": "Nippon.com",
+          "url": "https://www.nippon.com/en/articles/-/56485"
+        },
+        {
+          "name": "The Tribune",
+          "url": "https://www.tribuneindia.com/news/world/rajnath-singh-meets-us-secy-of-war-hegseth-on-sidelines-of-asean-defence-ministers-meeting-in-philippines/"
         }
       ]
     },

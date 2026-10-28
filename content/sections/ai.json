@@ -6,19 +6,54 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-10-27",
-  "covers": "Oct 21–27, 2026",
-  "readFirst": "Covers Oct. 21–27. New: Anthropic filed a Form S-1 on Oct. 26 for a proposed Nasdaq listing under ANT, and OpenAI released GPT-6.1 Terra the same day. NVIDIA and Meta said they will expand work on Muse and that Meta intends to deploy more Vera Rubin infrastructure. No new Google model announcement was found for Oct. 26–27. The Oct. 21 Google A5X note was dropped here because the same posts are still on the data-center page, and the Oct. 21 Project Agincourt note was dropped because that release is still on the Department of War page.",
+  "compiled": "2026-10-28",
+  "covers": "Oct 22–28, 2026",
+  "readFirst": "Covers Oct. 22–28. New: Google announced Genie 4 on Oct. 27, Anthropic published early drug-development results the same day, and OpenAI said Oracle applications are coming into ChatGPT. The Oct. 21 OpenAI notes on Google Cloud and partner standards, and the Oct. 21 local-hardware note, were removed to stay within the section count. No Nvidia model announcement dated Oct. 27–28 was found. Vera Rubin on Oracle Cloud is on the data-center page, and Gemini Robotics Embodied Reasoning 2 is on the tech page.",
   "subsections": [
-    {"id": "anthropic", "title": "Anthropic"},
-    {"id": "openai", "title": "OpenAI"},
-    {"id": "google", "title": "Google / DeepMind"},
-    {"id": "nvidia", "title": "Nvidia"},
-    {"id": "local", "title": "Open & Local Models"},
-    {"id": "policy", "title": "Policy & Funding"},
-    {"id": "defense-ai", "title": "AI in Defense"}
+    {
+      "id": "anthropic",
+      "title": "Anthropic"
+    },
+    {
+      "id": "openai",
+      "title": "OpenAI"
+    },
+    {
+      "id": "google",
+      "title": "Google / DeepMind"
+    },
+    {
+      "id": "nvidia",
+      "title": "Nvidia"
+    },
+    {
+      "id": "local",
+      "title": "Open & Local Models"
+    },
+    {
+      "id": "policy",
+      "title": "Policy & Funding"
+    },
+    {
+      "id": "defense-ai",
+      "title": "AI in Defense"
+    }
   ],
   "items": [
+    {
+      "id": "anthropic-drug-2026-10-27",
+      "subsection": "anthropic",
+      "date": "2026-10-27",
+      "dateLabel": "Oct 27",
+      "headline": "Anthropic says Claude is in six drug programs, and it acquired Mithril Medicine",
+      "summary": "Anthropic said Oct. 27 that its life sciences team has research partnerships with BigHat Biosciences, Bristol Myers Squibb, Divergence Labs, Enveda, Generate Biomedicines, and The Column Group, and that it has started drug-discovery work of its own. It said it acquired Mithril Medicine, whose founder, Cody Tranbarger, used Claude to organize contracts, logistics, and experiments with 11 external labs, taking a possible muscular-dystrophy treatment from an idea to promising results in mice in less than 18 months. Anthropic said that if those candidates continue to hold up, it expects a drug could be ready to start human trials as soon as late 2028, and that the work so far is mostly preclinical. It also said it has rolled out Claude Science, a workbench for researchers, and a Life Sciences Verification Program that lets trusted organizations use more permissive safeguards.",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development"
+        }
+      ]
+    },
     {
       "id": "anthropic-s1-2026-10-26",
       "subsection": "anthropic",
@@ -44,6 +79,20 @@
         {
           "name": "Anthropic",
           "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+        }
+      ]
+    },
+    {
+      "id": "openai-oracle-2026-10-27",
+      "subsection": "openai",
+      "date": "2026-10-27",
+      "dateLabel": "Oct 27",
+      "headline": "OpenAI and Oracle will put Oracle applications and data into ChatGPT",
+      "summary": "OpenAI said Oct. 27 it is expanding its partnership with Oracle so Oracle applications and data come into ChatGPT, and so new Oracle products use OpenAI models. Oracle is developing Oracle AI Workspace for that, and OpenAI said Oracle also announced Oracle AI Security Mesh, an SMB bundle that combines ChatGPT Business and Codex with Oracle applications and cloud credits, and Oracle App Composer for building apps with Codex. OpenAI said U.S. Oracle customers can buy the OpenAI API, Codex, and ChatGPT Work through Oracle Marketplace with eligible Universal Credits. OpenAI said Oracle reported 130,000 active ChatGPT users and more than 95,000 active Codex users.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt"
         }
       ]
     },
@@ -94,16 +143,16 @@
       ]
     },
     {
-      "id": "openai-google-cloud-2026-10-21",
-      "subsection": "openai",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "OpenAI models and Codex are coming to Google Cloud Model Garden",
-      "summary": "OpenAI said Oct. 21 it is partnering with Google Cloud to put frontier models and Codex agent workflows in Model Garden. Customers will be able to buy the models through Google Cloud Marketplace and draw down Google Cloud commit, and OpenAI said the models will soon be available in Google Antigravity and the Gemini Agent. General availability is planned in the coming weeks. Microsoft remains OpenAI's primary cloud partner, and Google Cloud CEO Thomas Kurian framed it as model choice for a given job.",
+      "id": "genie-4-2026-10-27",
+      "subsection": "google",
+      "date": "2026-10-27",
+      "dateLabel": "Oct 27",
+      "headline": "Google announces Genie 4, a world model with native audio and real-time scene control",
+      "summary": "Google said Oct. 27 it is announcing research on Genie 4, a world model for real-time interactive simulation with native audio. Google said Gemini Omni anchors the simulations in real-world appearance and behavior, and that other Gemini models help keep a simulation coherent. A person can steer a scene in real time with natural language, including moving the camera, changing the weather, or adding characters, and the model generates ambient sound, music, and dialogue as the scene runs. Google said it has started a rollout to a limited group of trusted testers, and that Genie 4 is coming soon to Google AI Ultra subscribers in Project Genie and to early-access partners in the Gemini API and AI Studio.",
       "sources": [
         {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/openai-models-google-cloud"
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
         }
       ]
     },
@@ -150,20 +199,6 @@
       ]
     },
     {
-      "id": "nvidia-spark-local-2026-10-21",
-      "subsection": "local",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "NVIDIA shows the local stack in Berlin: RTX Spark, DGX Spark and DGX Station",
-      "summary": "NVIDIA's GTC Berlin blog says the company is showing its local AI hardware lineup. RTX Spark, which launched the prior week, runs personal agents on Windows PCs. DGX Spark is for developers on Linux, and NVIDIA said 64 GB DGX Spark systems, which can run models including Nemotron 3.5 Bolt, start rolling out from partners on Oct. 23. DGX Station is for enterprise teams on Linux, with a Windows version arriving in December.",
-      "sources": [
-        {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/"
-        }
-      ]
-    },
-    {
       "id": "openai-nask-2026-10-23",
       "subsection": "policy",
       "date": "2026-10-23",
@@ -174,20 +209,6 @@
         {
           "name": "OpenAI",
           "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership/"
-        }
-      ]
-    },
-    {
-      "id": "openai-standards-2026-10-21",
-      "subsection": "policy",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "OpenAI says partners that host its models must meet its safeguards; new usage rules start Nov. 20",
-      "summary": "OpenAI said Oct. 21 it has written policies so safeguards stay consistent whether people use its models directly, through a hosting partner, or through a reseller. Those policies require partners to investigate possible violations and to coordinate enforcement. Updated Usage Policies take effect Nov. 20, 2026, and require services that provide direct access, such as model routers or AI gateways, to get OpenAI's review and approval first. OpenAI also said it is working with customers on SafetyIDs, which a customer can provide so OpenAI can tell end users apart in an investigation without learning who they are.",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/broad-access-through-consistent-standards/"
         }
       ]
     }
