@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-10-28",
-  "covers": "Oct 21–28, 2026",
-  "readFirst": "Covers Oct. 21–28. New: The Japan Times and Nippon.com reported Oct. 28 that Secretary Hegseth met Japan's defense minister in Cebu during ADMM-Plus, and The Tribune reported a meeting the same day with India's defense minister. The Oct. 25 travel advisory was removed because those meetings are underway. No new Golden Dome appropriation was found. The Department of War site did not return the Oct. 28 readout, so the meeting notes cite the reports that quote the department and Japan's Defense Ministry.",
+  "compiled": "2026-10-29",
+  "covers": "Oct 22–29, 2026",
+  "readFirst": "Covers Oct. 22–29. New: CBS News reported Oct. 29 that Hegseth fired Joint Staff J5 Lt. Gen. Brett Sylvia, and The Diplomat reported his Oct. 28 address to the ASEAN defense ministers in Cebu. The Oct. 20 Dayton speech and the Oct. 21 Guyana and Hormuz items were removed because they are older than seven days. No new Golden Dome appropriation was found. The Department of War site did not return an Oct. 29 readout of the Cebu speech or the Sylvia removal.",
   "subsections": [
     {
       "id": "secwar",
@@ -28,6 +28,34 @@
     }
   ],
   "items": [
+    {
+      "id": "sylvia-j5-2026-10-29",
+      "subsection": "secwar",
+      "date": "2026-10-29",
+      "dateLabel": "Oct 29",
+      "headline": "CBS: Hegseth fired Joint Staff planner Lt. Gen. Brett Sylvia over alleged leaks",
+      "summary": "CBS News reported Oct. 29 that a Pentagon official said Defense Secretary Pete Hegseth fired Army Lt. Gen. Brett Sylvia, the Joint Staff director for strategy, plans and policy. The official said Sylvia was accused of leaking classified information about the Iran war and the Russia-Ukraine war, failed three polygraph tests about sharing classified information with the press, and that the case was referred to the Justice Department. CBS said no replacement has been named, and a Joint Staff spokesperson thanked Sylvia for 32 years of service. CBS said he is the second general removed from that J5 post under Hegseth, after Lt. Gen. Joseph McGee was forced to retire last October.",
+      "sources": [
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/hegseth-fires-pentagons-top-military-planner/"
+        }
+      ]
+    },
+    {
+      "id": "hegseth-admm-speech-2026-10-29",
+      "subsection": "secwar",
+      "date": "2026-10-29",
+      "dateLabel": "Oct 28–29",
+      "headline": "In Cebu, Hegseth tells ASEAN defense ministers the U.S. line is strong, quiet, and clear",
+      "summary": "The Diplomat reported Oct. 29 that Secretary of War Pete Hegseth told the ASEAN Defense Ministers' Meeting in Cebu on Oct. 28 that the U.S. approach is strong, quiet, and clear, and that the United States will defend its interests and those of its allies and partners. Hegseth said Washington would back that with practical cooperation, including maritime domain awareness, interoperability, and cooperation among navies. He proposed a U.S.-ASEAN Framework for Defense Cooperation and did not give further details of the pact. Philippine Defense Secretary Gilbert Teodoro Jr. said a robust U.S. presence is necessary for peace and stability in Southeast Asia and the broader Indo-Pacific.",
+      "sources": [
+        {
+          "name": "The Diplomat",
+          "url": "https://thediplomat.com/2026/10/hegseth-seeks-to-reassure-southeast-asia-of-us-security-commitment-to-the-region/"
+        }
+      ]
+    },
     {
       "id": "hegseth-admm-2026-10-28",
       "subsection": "secwar",
@@ -65,34 +93,6 @@
         {
           "name": "Stars and Stripes",
           "url": "https://www.stripes.com/theaters/us/2026-10-23/hegseth-gambling-directive-23236475.html"
-        }
-      ]
-    },
-    {
-      "id": "hegseth-dayton-2026-10-20",
-      "subsection": "secwar",
-      "date": "2026-10-20",
-      "dateLabel": "Oct 20",
-      "headline": "In Dayton, Hegseth names Project Meridian and says a reconciliation bill of at least $350 billion is the priority",
-      "summary": "Speaking Oct. 20 at Sierra Nevada Corporation in Dayton on the Arsenal of Freedom tour, Secretary of War Pete Hegseth said the department had just launched a Future of Warfare initiative called Project Meridian, which he said demands all-domain connectivity and rapid technological advances at the edge. He tied that to the Autonomous Warfare Command announced at Quantico, which he described as a four-star combatant command with service-like authorities. He said the department has no higher priority than passage of a reconciliation bill of at least $350 billion, and that the administration is asking for a $1.5 trillion defense investment. He also said the department will pass a full audit before 2028, and described five- to seven-year orders for companies that invest in new plants.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Speeches/Speech/Article/4630000/secretary-of-war-pete-hegseth-speech-on-the-arsenal-of-freedom-in-dayton-ohio-a/"
-        }
-      ]
-    },
-    {
-      "id": "guyana-partnership-2026-10-21",
-      "subsection": "secwar",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Hegseth and Guyana's president sign an enhanced defense partnership at the Pentagon",
-      "summary": "Secretary of War Pete Hegseth and Guyanese President Mohamed Irfaan Ali signed what the Pentagon called a landmark agreement at the Pentagon on Oct. 21, creating an enhanced defense partnership. Hegseth said shared challenges include narco-terrorism and military influence from outside the Western Hemisphere, and that the two countries would push back by exercising what he called President Trump's corollary to the Monroe Doctrine. He said the United States will intensify combined training in multidomain operations and in air interdiction. On critical minerals, he said Guyana's pursuit of a memorandum of understanding with the United States will bolster a shared defense industrial base.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/News-Stories/Article/Article/4630733/hegseth-guyanese-president-establish-enhanced-military-partnership/"
         }
       ]
     },
@@ -163,20 +163,6 @@
         {
           "name": "CENTCOM",
           "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/"
-        }
-      ]
-    },
-    {
-      "id": "hormuz-terms-2026-10-21",
-      "subsection": "ops",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Iran says Hormuz stays restricted until Washington accepts its terms",
-      "summary": "Foreign Minister Abbas Araghchi told Iraqi state television that the Strait of Hormuz will not be open to everyone until there is an agreement on the waterway, The National reported Oct. 21. Indirect talks continue through Pakistan and Qatar. In a Financial Times article the same week he wrote that further escalation around Hormuz would put civilian lives and the global economy at risk, and that he sees little reason to expect progress while Washington threatens more violence. The National also reported, citing Fox News and two U.S. officials, that the USS Theodore Roosevelt carrier strike group and the 13th Marine Expeditionary Unit are heading to the region, on the order of 10,000 sailors and Marines by the end of November, which would be a third carrier.",
-      "sources": [
-        {
-          "name": "The National",
-          "url": "https://www.thenationalnews.com/news/gulf/2026/10/21/araghchi-says-strait-of-hormuz-will-stay-closed-until-us-agrees-to-irans-terms/"
         }
       ]
     }

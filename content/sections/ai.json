@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-10-28",
-  "covers": "Oct 22–28, 2026",
-  "readFirst": "Covers Oct. 22–28. New: Google announced Genie 4 on Oct. 27, Anthropic published early drug-development results the same day, and OpenAI said Oracle applications are coming into ChatGPT. The Oct. 21 OpenAI notes on Google Cloud and partner standards, and the Oct. 21 local-hardware note, were removed to stay within the section count. No Nvidia model announcement dated Oct. 27–28 was found. Vera Rubin on Oracle Cloud is on the data-center page, and Gemini Robotics Embodied Reasoning 2 is on the tech page.",
+  "compiled": "2026-10-29",
+  "covers": "Oct 22–29, 2026",
+  "readFirst": "Covers Oct. 22–29. New: Google announced Gemini 4 Carbon on Oct. 28, OpenAI expanded its ServiceNow partnership the same day, and NVIDIA introduced the open-weight Nemotron 3.5 Transcribe model. The Oct. 22 Agent Skills, Decisions API, and Agent Compute items were removed to stay within the section count. No separate Anthropic announcement dated Oct. 28–29 was found. Tom's Hardware's Vera CPU benchmark is on the data-center page, and Gemini Robotics Embodied Reasoning 2 is on the tech page.",
   "subsections": [
     {
       "id": "anthropic",
@@ -69,16 +69,16 @@
       ]
     },
     {
-      "id": "agent-skills-aaif-2026-10-22",
-      "subsection": "anthropic",
-      "date": "2026-10-22",
-      "dateLabel": "Oct 22",
-      "headline": "Anthropic donates the Agent Skills standard to the Agentic AI Foundation",
-      "summary": "Anthropic said Oct. 22 it is donating Agent Skills, the open standard for giving agents specialized workflows, to the Agentic AI Foundation under the Linux Foundation. Anthropic says more than 70 platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated the standard since it was published in December 2025, and that 1 million skills have been published with nearly 280 million installs. The donation covers the Agent Skills name and logo, the GitHub organization, and the agentskills.io domain. Anthropic said engineers from Anthropic, Google, and OpenAI will maintain the standard as individuals, with David Soria Parra and Mahesh Murag as lead maintainers.",
+      "id": "openai-servicenow-2026-10-28",
+      "subsection": "openai",
+      "date": "2026-10-28",
+      "dateLabel": "Oct 28",
+      "headline": "OpenAI and ServiceNow will connect ServiceNow workflows to ChatGPT and Codex",
+      "summary": "OpenAI said Oct. 28 it is expanding its partnership with ServiceNow so ServiceNow products use more OpenAI models and agents, and so ServiceNow workflows connect to ChatGPT and Codex. OpenAI said a ServiceNow integration will let an IT team member find similar incidents, assess the risk of a change, and update a ServiceNow record inside ChatGPT, with ServiceNow's Action Fabric applying the customer's existing rules and permissions. The ServiceNow MCP plugin is available in the OpenAI marketplace now. OpenAI said voice features in the Super Intelligence Control Tower are expected in the first quarter of 2027, security capabilities are expected in early access in January 2027 and generally available in the second quarter of 2027, and Codex in the AI Workflow Factory is expected in 2027.",
       "sources": [
         {
-          "name": "Anthropic",
-          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+          "name": "OpenAI",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion/"
         }
       ]
     },
@@ -129,16 +129,16 @@
       ]
     },
     {
-      "id": "decisions-api-2026-10-22",
-      "subsection": "openai",
-      "date": "2026-10-22",
-      "dateLabel": "Oct 22",
-      "headline": "OpenAI makes the Decisions API generally available on GPT-6 Luna",
-      "summary": "OpenAI said Oct. 22 that the Decisions API is generally available. It uses GPT-6 Luna for questions with bounded answers, and OpenAI says it is up to 10 times faster than calling GPT-6 Luna through the Responses API. Since the public beta, OpenAI has added a native GPT-Live integration, prompt caching, inference residency in the United States and the European Union, native JSON inputs, images in the instructions, and a limit of 400 questions per request, twice the previous limit. OpenAI says input costs $0.10 per million tokens, cached input costs $0.01 per million tokens, and there is no charge for output tokens.",
+      "id": "gemini-4-carbon-2026-10-28",
+      "subsection": "google",
+      "date": "2026-10-28",
+      "dateLabel": "Oct 28",
+      "headline": "Google announces Gemini 4 Carbon, opening it first to cyber defenders",
+      "summary": "Google said Oct. 28 that Gemini 4 Carbon is its strongest model for cybersecurity and long-horizon work, and that it ranks first on the Artificial Analysis Intelligence Index v5.0 at 59. Google said Carbon scores 88.2 percent on SEC-bench Pro, 54.8 percent on ExploitGym, and 71.0 percent on CWE-bench, and that introductory pricing matches Gemini 4 Argon at $2 per million input tokens and $10 per million output tokens. Google said it is in the U.S. government's voluntary pre-release testing process, and that starting this week Carbon goes to a subset of cyber defenders and then to more trusted partners through the Fairwind Program before a wider release. Google said that after the introductory period the price becomes $4 per million input tokens and $20 per million output tokens.",
       "sources": [
         {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/decisions-api/"
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
         }
       ]
     },
@@ -171,20 +171,6 @@
       ]
     },
     {
-      "id": "agent-compute-2026-10-22",
-      "subsection": "google",
-      "date": "2026-10-22",
-      "dateLabel": "Oct 22",
-      "headline": "Google Cloud previews Agent Compute Engine, one hardware-isolated microVM per agent",
-      "summary": "Google Cloud said Oct. 22 at AGNTCon and MCPCon that Agent Compute Engine, which already runs Gemini as an agent for work tasks, will be available in preview in the coming months. Google says each agent gets a hardware-isolated microVM with its own guest kernel, short-lived credentials, and a Hyperdisk, and that an idle microVM can be paused and restored from a snapshot. For Kubernetes, Google introduced open-source Agent Substrate and said a benchmark of 200,000 agents sustained 500 activations per second with suspend and resume under 500 milliseconds. Google also said it is extending Gemini agent governance, including Agent Gateway, to more runtimes.",
-      "sources": [
-        {
-          "name": "Google Cloud",
-          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance"
-        }
-      ]
-    },
-    {
       "id": "nvidia-meta-muse-2026-10-26",
       "subsection": "nvidia",
       "date": "2026-10-26",
@@ -195,6 +181,20 @@
         {
           "name": "NVIDIA Newsroom",
           "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth"
+        }
+      ]
+    },
+    {
+      "id": "nemotron-transcribe-2026-10-28",
+      "subsection": "local",
+      "date": "2026-10-28",
+      "dateLabel": "Oct 28",
+      "headline": "NVIDIA releases Nemotron 3.5 Transcribe, an open-weight speech model for 40 languages",
+      "summary": "NVIDIA said Oct. 28 that Nemotron 3.5 Transcribe is an open-weight speech model for transcription, speaker labels, translation, and questions about a recording, in 40 languages including seven Indic languages. NVIDIA said it ranks first on the Hugging Face Open ASR leaderboard and second among open-weight models on Artificial Analysis, with about 4.3 billion active parameters, which NVIDIA said is 80 percent fewer than the leading open-weight model. NVIDIA said the weights are on Hugging Face today. It said quantized versions are coming so the model can run locally on RTX Spark, DGX Spark, and Jetson AGX Thor, or scale up on Blackwell data-center GPUs.",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
         }
       ]
     },

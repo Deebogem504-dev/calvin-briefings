@@ -3,50 +3,50 @@
     {
       "section": "cyber",
       "label": "CYBER",
-      "dateLabel": "Oct 27–28",
-      "headline": "CISA added Brotli and an Adobe Commerce bug to the KEV list, due Nov. 10",
-      "item": "brotli-adobe-kev-2026-10-27",
+      "dateLabel": "Oct 28",
+      "headline": "CISA added a Linux kernel bug chained with php2shell, due Oct. 31",
+      "item": "linux-esx-kev-2026-10-28",
       "href": "cyber.html#kev"
     },
     {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Oct 28",
-      "headline": "In Cebu, Hegseth and Japan's defense minister agreed on cyber cooperation and a denial defense",
-      "item": "hegseth-admm-2026-10-28",
+      "dateLabel": "Oct 29",
+      "headline": "Hegseth fired Joint Staff planner Lt. Gen. Brett Sylvia",
+      "item": "sylvia-j5-2026-10-29",
       "href": "dow.html#secwar"
     },
     {
       "section": "ai",
       "label": "AI",
-      "dateLabel": "Oct 27",
-      "headline": "Google announced Genie 4, a world model with native audio",
-      "item": "genie-4-2026-10-27",
+      "dateLabel": "Oct 28",
+      "headline": "Google announced Gemini 4 Carbon, first for cyber defenders",
+      "item": "gemini-4-carbon-2026-10-28",
       "href": "ai.html#google"
-    },
-    {
-      "section": "datacenter",
-      "label": "DC/NET",
-      "dateLabel": "Oct 27",
-      "headline": "Vera Rubin NVL72 and Vera CPUs are generally available on Oracle Cloud",
-      "item": "nvidia-oracle-rubin-2026-10-27",
-      "href": "datacenter.html#capacity"
-    },
-    {
-      "section": "partners",
-      "label": "PARTNERS",
-      "dateLabel": "Oct 27",
-      "headline": "Broadcom: VMware SDDC Manager is exposed to the Brotli bug, and patches are pending",
-      "item": "vmware-brotli-2026-10-27",
-      "href": "partners.html#quiet"
     },
     {
       "section": "budget",
       "label": "BUDGET",
-      "dateLabel": "Oct 27",
-      "headline": "Roll Call: the NDAA and the $1.5 trillion request wait on the lame duck",
-      "item": "lame-duck-defense-2026-10-27",
-      "href": "budget.html#approps"
+      "dateLabel": "Oct 28",
+      "headline": "Pentagon puts the Iran war's cost at $47.1 billion as of Oct. 16",
+      "item": "iran-war-cost-2026-10-28",
+      "href": "budget.html#reconciliation"
+    },
+    {
+      "section": "wwt",
+      "label": "WWT",
+      "dateLabel": "Oct 28",
+      "headline": "WWT named Global One Cisco Partner of the Year",
+      "item": "wwt-cisco-partner-2026-10-28",
+      "href": "wwt.html#content"
+    },
+    {
+      "section": "partners",
+      "label": "PARTNERS",
+      "dateLabel": "Oct 29",
+      "headline": "Palo Alto says php2shell is being exploited on exposed management interfaces",
+      "item": "palo-php-2026-10-26",
+      "href": "partners.html#paloalto"
     }
   ]
 }

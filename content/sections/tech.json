@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-10-28",
-  "covers": "Oct 20–28, 2026",
-  "readFirst": "Covers Oct. 20–28. New: Google Cloud said Oct. 27 that Gemini Robotics Embodied Reasoning 2 is in public preview. No new space-system award was found. No post-quantum announcement newer than the Oct. 26 AWS ML-KEM note was found. NVIDIA's Oct. 27 Vera Rubin availability on Oracle Cloud is on the data-center page.",
+  "compiled": "2026-10-29",
+  "covers": "Oct 26–29, 2026",
+  "readFirst": "Covers Oct. 26–29. The Oct. 20 TorchTPU note and the Oct. 21 Isaac and Dell Vera CPU items were removed because they are older than seven days. No new space-system award was found. No post-quantum announcement newer than the Oct. 26 AWS ML-KEM note was found. NVIDIA's Oct. 28 RTX Spark laptop note is on the partners page, and Tom's Hardware's Vera CPU benchmark is on the data-center page.",
   "subsections": [
     {
       "id": "quantum",
@@ -53,52 +53,6 @@
         {
           "name": "Google Cloud",
           "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud"
-        }
-      ]
-    },
-    {
-      "id": "isaac-robotics-2026-10-21",
-      "subsection": "autonomy",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "NVIDIA's Isaac update adds a reference humanoid and Isaac Lab 3.0",
-      "summary": "At GTC Berlin on Oct. 21 NVIDIA expanded the Isaac open robotics platform with a reference humanoid, datasets, a runtime, and a learning-framework update. Agile Robots' Agile ONE SN uses Isaac GR00T and Jetson Thor, with Halos safety integration planned. Isaac OS and Isaac Lab 3.0 are part of the release, along with reference workflows that use ChatGPT Astra, Isaac and Cosmos on DGX Station. NVIDIA described the release as a commercial robotics platform.",
-      "sources": [
-        {
-          "name": "NVIDIA Newsroom",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data"
-        }
-      ]
-    },
-    {
-      "id": "torchtpu-compute-2026-10-20",
-      "subsection": "compute",
-      "date": "2026-10-20",
-      "dateLabel": "Oct 20",
-      "headline": "TorchTPU makes Google TPUs a native PyTorch target",
-      "summary": "Google open-sourced TorchTPU on Oct. 20, co-developed with Meta's PyTorch team. The company says training, serving and deployment on TPUs can use the existing PyTorch tools, including vLLM, Hugging Face and TorchTitan, instead of a separate stack. Google's stated change is portability: PyTorch code can target TPUs without a separate software stack.",
-      "sources": [
-        {
-          "name": "Google Cloud",
-          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus"
-        },
-        {
-          "name": "PyTorch",
-          "url": "https://pytorch.org/blog/introducing-torchtpu/"
-        }
-      ]
-    },
-    {
-      "id": "dell-vera-cpu-2026-10-21",
-      "subsection": "compute",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Dell announces Vera CPU servers aimed at agent orchestration, separate from GPU racks",
-      "summary": "At GTC Berlin, Dell said the PowerEdge M9882 packs 256 NVIDIA Vera CPUs into a 48U rack for agent work such as orchestration, tool use, code execution and evaluation, next to GPU racks used for inference. The air-cooled PowerEdge R8822 is a two-socket Vera server for standard 19-inch racks, with support for up to four double-wide GPUs. Dell says the M9882 is due in the first quarter of calendar 2027 and the R8822 this month. The point of the split is to stop over-provisioning mixed servers when the agent loop is CPU-heavy.",
-      "sources": [
-        {
-          "name": "Dell Technologies",
-          "url": "https://www.nasdaq.com/press-release/dell-technologies-advances-enterprise-agentic-ai-deskside-data-center-nvidia-2026-10"
         }
       ]
     }

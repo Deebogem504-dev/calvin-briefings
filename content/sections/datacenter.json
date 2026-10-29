@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-10-28",
-  "covers": "Oct 21–28, 2026",
-  "readFirst": "Covers Oct. 21–28. New: NVIDIA said Oct. 27 that Vera Rubin NVL72 and Vera CPUs are generally available on Oracle Cloud, with plans for multi-gigawatt OCI Superclusters. The Oct. 21 Dell modular data-center note was removed so the capacity subsection could take that Oracle item; the Dell announcement remains on the partners page. No new NetApp product release was found. Tom's Hardware's Oct. 27 SpaceX debt note remains from the prior edition.",
+  "compiled": "2026-10-29",
+  "covers": "Oct 22–29, 2026",
+  "readFirst": "Covers Oct. 22–29. New: Tom's Hardware reported Oct. 28 on standalone Vera CPUs on Oracle Cloud and published Stream benchmark results from a local Vera server. The Oct. 21 Google Virgo, A5X, DSX, Lustre, and WWT-DDN items were removed because they are older than seven days. No new NetApp product release was found. No separate power or enterprise-switching announcement dated Oct. 28–29 was found.",
   "subsections": [
     {
       "id": "networking",
@@ -43,20 +43,6 @@
       ]
     },
     {
-      "id": "virgo-network-2026-10-21",
-      "subsection": "networking",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Google's Virgo Network is the scale-out fabric for Vera Rubin A5X clusters",
-      "summary": "Google Cloud's Oct. 21 GTC Berlin post describes Virgo Network as a non-blocking scale-out fabric, inside a building and between buildings, using a mesh. Google says that lets an A5X cluster grow to 80,000 Rubin GPUs on one site and 960,000 across sites. Managed Lustre on A5X will support NVIDIA GPUDirect Storage so training and inference data can move by RDMA into GPU memory. GKE Managed DRANET is how Google says it will treat NICs as native Kubernetes resources on these clusters.",
-      "sources": [
-        {
-          "name": "Google Cloud",
-          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026"
-        }
-      ]
-    },
-    {
       "id": "nvidia-oracle-rubin-2026-10-27",
       "subsection": "capacity",
       "date": "2026-10-27",
@@ -85,6 +71,20 @@
       ]
     },
     {
+      "id": "toms-vera-benchmark-2026-10-28",
+      "subsection": "capacity",
+      "date": "2026-10-28",
+      "dateLabel": "Oct 28",
+      "headline": "Tom's Hardware: a local Vera server more than doubled Stream bandwidth versus dual Xeon 6",
+      "summary": "Tom's Hardware reported Oct. 28 that Nvidia and Oracle have made Vera Rubin NVL72 and standalone Vera CPUs generally available on OCI Superclusters. In tests on a local Vera server, not on OCI, Tom's Hardware said Stream triad bandwidth was more than double that of a dual Intel Xeon 6980P system using MRDIMMs at 8,800 MT/s, and it cited Nvidia's figure of 1.2 TB/s of memory bandwidth. Tom's Hardware said Oracle will also offer an HGX NVL8 with eight Rubin GPUs on a dual 64-core Intel Xeon 6 host with 4 TB of DDR5. The outlet said these tests are part of a larger review it has not yet published.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-oracle-bring-vera-cpu-instances-online-in-multi-gigawatt-deployment-oci-superclusters-also-set-to-expand-with-rubin-only-clusters-attached-to-dual-xeon-6-hosts"
+        }
+      ]
+    },
+    {
       "id": "minerva-2026-10-22",
       "subsection": "capacity",
       "date": "2026-10-22",
@@ -95,66 +95,6 @@
         {
           "name": "NVIDIA Blog",
           "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/"
-        }
-      ]
-    },
-    {
-      "id": "google-a5x-2026-10-21",
-      "subsection": "capacity",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Google Cloud details Vera Rubin A5X instances; general availability next month",
-      "summary": "A5X is a bare-metal instance on NVIDIA Vera Rubin NVL72, announced Oct. 21, with general availability next month and additional regions for EMEA residency. Google pairs it with fourth-generation liquid cooling, Virgo networking, Managed Lustre, and a KV-cache tier meant to hold long agent context beyond GPU memory. NVIDIA's GTC notes say Ineffable Intelligence, founded by AlphaGo's David Silver, was the first customer on A5X, using it for large-scale reinforcement learning. The instance is not generally available today.",
-      "sources": [
-        {
-          "name": "Google Cloud",
-          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026"
-        },
-        {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/"
-        }
-      ]
-    },
-    {
-      "id": "dsx-power-2026-10-21",
-      "subsection": "power",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "NVIDIA says power is the AI-factory bottleneck and points customers at DSX",
-      "summary": "NVIDIA wrote on Oct. 21 that companies are using the DSX AI Factory Platform to plan the grid and the AI factory as one system, from the substation to the rack. It said power is now the biggest bottleneck, with more than $300 billion in equipment backlogged and over 200 gigawatts of projects waiting in U.S. interconnection queues. The post says DSX Sim is for simulating the grid, substation, and factory together, and DSX Flex is for matching factory demand to grid conditions and onsite generation. NVIDIA said Hitachi Energy's battery system qualified as DSX Ready, that Phaidra's use of the controls delivered about 10 percent more compute in the same power envelope, and that Emerald AI's approach was modeled to unlock up to 100 gigawatts on the existing U.S. grid.",
-      "sources": [
-        {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/dsx-power/"
-        }
-      ]
-    },
-    {
-      "id": "wwt-ddn-storage-2026-10-21",
-      "subsection": "storage",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "WWT and DDN size Vera Rubin storage to more than 2.5 GB/s of read per GPU",
-      "summary": "WWT and DDN said Oct. 21 at GTC Berlin that they have a storage reference design for AI-factory campuses of 50 megawatts and above, built to NVIDIA's Vera Rubin NVL72 architecture and targeting more than 2.5 GB/s of read throughput per GPU. They said one 2U DDN AI400X3M is rated at 190 GB/s, which covers the 180 GB/s a full rack needs, so storage draws less power and leaves more for GPUs. For inference, DDN Infinia on NVIDIA BlueField-4 STX shares KV cache across nodes. DDN said one 112K-token test loaded that cache in 2.1 seconds versus 57 seconds to recompute, and that results depend on workload and configuration.",
-      "sources": [
-        {
-          "name": "WWT",
-          "url": "https://www.wwt.com/press-release/wwt-and-ddn-design-storage-to-help-ai-factories-fit-more-gpus-within-their-power-limits"
-        }
-      ]
-    },
-    {
-      "id": "gcs-lustre-2026-10-21",
-      "subsection": "storage",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Google Managed Lustre on A5X will support GPUDirect Storage",
-      "summary": "Google Cloud said Oct. 21 that Managed Lustre will support NVIDIA GPUDirect Storage on the new A5X instances. The path is RDMA from the parallel file system into GPU memory, skipping the CPU and system memory, for training and inference data.",
-      "sources": [
-        {
-          "name": "Google Cloud",
-          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026"
         }
       ]
     }

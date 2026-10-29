@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT ↔ U.S. Army Signal Mapping",
   "description": "World Wide Technology public content and Army business, set next to U.S. Army leadership priorities.",
-  "compiled": "2026-10-28",
-  "covers": "Oct 21–28, 2026",
-  "readFirst": "Covers Oct. 21–28. No WWT press release dated Oct. 27–28 was found on wwt.com. The Oct. 26 MeriTalk report that the Army selected WWT and AWS for Project Griffin remains the newest item that names WWT. The two Signal Mapping notes are analysis, tagged Inference. No new Army award posted by WWT itself was found.",
+  "compiled": "2026-10-29",
+  "covers": "Oct 25–29, 2026",
+  "readFirst": "Covers Oct. 25–29. New: WWT said Oct. 28 at Cisco Partner Summit that it was named Global One Cisco Partner of the Year, and the release also lists a U.S. Federal Defense Partner of the Year award. The Oct. 20 Secure AI specialization and the Oct. 21 Polarise and DDN items were removed because they are older than seven days. The two Signal Mapping notes are analysis, tagged Inference. No WWT press release dated Oct. 29 was found.",
   "subsections": [
     {
       "id": "content",
@@ -29,6 +29,20 @@
   ],
   "items": [
     {
+      "id": "wwt-cisco-partner-2026-10-28",
+      "subsection": "content",
+      "date": "2026-10-28",
+      "dateLabel": "Oct 28",
+      "headline": "WWT is named Global One Cisco Partner of the Year, and Federal Defense Partner of the Year",
+      "summary": "WWT said Oct. 28 at Cisco Partner Summit in Vancouver that it was named Global One Cisco Partner of the Year, and also Global Enterprise, Global Americas, and Global Networking Partner of the Year. The release lists a U.S. Federal Defense Partner of the Year award among the Americas honors, and says Softchoice, a WWT company, was named Canada Security Partner of the Year and Central Canada Impact Partner of the Year. Tim Coogan, Cisco's senior vice president of global partner sales, said he was recognizing WWT as the 2026 Global One Cisco Partner of the Year. Bob Olwig, WWT's executive vice president for global partner alliances, tied the awards to Cisco Global Partner status and the Secure Networking and Secure AI Infrastructure specializations.",
+      "sources": [
+        {
+          "name": "WWT",
+          "url": "https://www.wwt.com/press-release/world-wide-technology-and-softchoice-win-one-cisco-partner-of-the-year-and-canada-security-partner-of-the-year-at-cisco-partner-summit-2026"
+        }
+      ]
+    },
+    {
       "id": "wwt-griffin-2026-10-26",
       "subsection": "content",
       "date": "2026-10-26",
@@ -39,48 +53,6 @@
         {
           "name": "MeriTalk",
           "url": "https://www.meritalk.com/articles/army-launches-project-gatekeeper-to-speed-commercial-software-cyber-reviews/"
-        }
-      ]
-    },
-    {
-      "id": "wwt-cisco-secure-ai-2026-10-20",
-      "subsection": "content",
-      "date": "2026-10-20",
-      "dateLabel": "Oct 20",
-      "headline": "WWT earns Cisco's Secure AI Infrastructure specialization in the U.S.",
-      "summary": "WWT said Oct. 20 it has earned the Cisco Secure AI Infrastructure specialization in the United States, its third major Cisco recognition of 2026 after Cisco Global Partner status and the Secure Networking specialization. WWT says it is the only Cisco Global Partner with both the Secure Networking and Secure AI Infrastructure specializations in the U.S. The specialization is limited to Cisco Preferred Partners who pass an audit of people, process and tools for secure AI infrastructure. WWT ties it to work on the Cisco Secure AI Factory with NVIDIA, the Advanced Technology Center AI Proving Ground, and the Cyber Range. It also maps Cisco's AI security portfolio to ARMOR, WWT's seven-domain AI security framework.",
-      "sources": [
-        {
-          "name": "WWT",
-          "url": "https://www.wwt.com/press-release/world-wide-technology-achieves-cisco-secure-ai-infrastructure-specialization-in-the-us"
-        }
-      ]
-    },
-    {
-      "id": "wwt-polarise-oslo-2026-10-21",
-      "subsection": "content",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "WWT is systems integrator for Polarise's sovereign AI data center in Oslo",
-      "summary": "WWT and Polarise said Oct. 21 they have a partnership to build sovereign AI factories in Europe, with WWT as systems integrator. The first project is Polarise's AI data center in Oslo, which WWT said is already under way. WWT said the site is liquid-cooled, uses NVIDIA accelerated computing, and will house 5 MW of compute, and that Polarise owns the data center, cooling, infrastructure, and software platform. Polarise CEO Michel Boutouil said Oslo follows a large AI cluster in Munich tied to the Industrial AI Cloud project.",
-      "sources": [
-        {
-          "name": "WWT",
-          "url": "https://www.wwt.com/press-release/polarise-partners-with-world-wide-technology-to-accelerate-europes-sovereign-ai-buildout-starting-in-oslo"
-        }
-      ]
-    },
-    {
-      "id": "wwt-ddn-storage-2026-10-21",
-      "subsection": "content",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "WWT and DDN publish a Vera Rubin storage design for 50 MW AI factories",
-      "summary": "WWT and DDN said Oct. 21 at GTC Berlin that they have a storage reference design for AI-factory campuses of 50 megawatts and above, built to NVIDIA's Vera Rubin NVL72 architecture. They said it targets more than 2.5 GB/s of read throughput per GPU, and that one 2U DDN AI400X3M is rated at 190 GB/s, which covers the 180 GB/s a full rack needs. For inference, DDN Infinia on NVIDIA BlueField-4 STX shares KV cache across nodes. WWT said it integrates the design and validates it in the AI Proving Ground.",
-      "sources": [
-        {
-          "name": "WWT",
-          "url": "https://www.wwt.com/press-release/wwt-and-ddn-design-storage-to-help-ai-factories-fit-more-gpus-within-their-power-limits"
         }
       ]
     },

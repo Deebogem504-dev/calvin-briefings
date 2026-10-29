@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-10-28",
-  "covers": "Oct 21–28, 2026",
-  "readFirst": "Covers Oct. 21–28. The nearest catalog deadline is still php2shell, due Oct. 29. New: CISA added the Brotli bug, also called Node2Shell, and an Adobe Commerce upload bug on Oct. 27, both due Nov. 10. Federal News Network's Oct. 27 CMMC follow-up is the task force's reform options. The Oct. 20 SafePay advisory was removed to stay within the trends count. No new public update on the DMDC personnel breach was found.",
+  "compiled": "2026-10-29",
+  "covers": "Oct 24–29, 2026",
+  "readFirst": "Covers Oct. 23–29. The php2shell catalog due date is today, Oct. 29. New: CISA added a Linux kernel bug on Oct. 28 that it says can be chained with php2shell, due Oct. 31, and a VMware ESX logging bug due Nov. 11. Palo Alto's Oct. 29 report of exploitation against exposed management interfaces is on the partners page. The Oct. 21 Storm-0940 item was removed because it is older than seven days. No new public update on the DMDC personnel breach was found.",
   "subsections": [
     {
       "id": "kev",
@@ -24,6 +24,24 @@
     }
   ],
   "items": [
+    {
+      "id": "linux-esx-kev-2026-10-28",
+      "subsection": "kev",
+      "date": "2026-10-28",
+      "dateLabel": "Oct 28",
+      "headline": "CISA adds a Linux kernel bug chained with php2shell, due Oct. 31, and a VMware ESX logging bug",
+      "summary": "CISA said Oct. 28 it added CVE-2026-46300, a Linux kernel missing-initialization bug, and CVE-2026-41709, a Broadcom VMware ESX insufficient-logging bug, to the Known Exploited Vulnerabilities catalog. The catalog sets a due date of Oct. 31 for the kernel bug, marks it for forensic triage, and says it can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root. CISA describes the kernel flaw as letting socket-buffer coalescing drop a shared-fragment marker so ESP input processing decrypts shared fragments in place and can modify page-cache-backed data. The ESX entry is due Nov. 11, does not require forensic triage, and says a malicious actor with admin access could perform certain operations without them being logged.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
     {
       "id": "php2shell-2026-10-21",
       "subsection": "kev",
@@ -65,20 +83,6 @@
         {
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/"
-        }
-      ]
-    },
-    {
-      "id": "storm-0940-2026-10-21",
-      "subsection": "incidents",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Microsoft says Storm-0940 used an AI pentest framework in the ConnectWise compromise",
-      "summary": "Microsoft said Oct. 21 that Storm-0940, which it describes as a China-state-aligned actor, used the open-source agentic penetration-testing framework ARTEX and was responsible for the ConnectWise multi-tenant application compromise. After that access, Microsoft said, the actor used ARTEX to attempt sign-ins to more than 2,250 tenants at 2,900 attempts per minute, and in multiple cases reached privileged cloud access in under three hours. Microsoft said the activity did not come from a flaw in Microsoft's own products, and that an affected application or a successful sign-in does not by itself mean customer data was taken. Its guidance is to keep the affected ConnectWise application connections disabled until ConnectWise publishes restoration instructions, and to review activity from at least Oct. 15.",
-      "sources": [
-        {
-          "name": "Microsoft",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"
         }
       ]
     },

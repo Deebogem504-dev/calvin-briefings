@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-28",
+  "title": "October 28, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "CYBER",
+      "dateLabel": "Oct 27–28",
+      "headline": "CISA added Brotli and an Adobe Commerce bug to the KEV list, due Nov. 10",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Oct 28",
+      "headline": "In Cebu, Hegseth and Japan's defense minister agreed on cyber cooperation and a denial defense",
+      "sources": [
+        {
+          "name": "The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/10/28/japan/us-japan-koizumi-hegseth-asean/"
+        },
+        {
+          "name": "Nippon.com",
+          "url": "https://www.nippon.com/en/articles/-/56485"
+        },
+        {
+          "name": "The Tribune",
+          "url": "https://www.tribuneindia.com/news/world/rajnath-singh-meets-us-secy-of-war-hegseth-on-sidelines-of-asean-defence-ministers-meeting-in-philippines/"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Oct 27",
+      "headline": "Google announced Genie 4, a world model with native audio",
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Oct 27",
+      "headline": "Vera Rubin NVL72 and Vera CPUs are generally available on Oracle Cloud",
+      "sources": [
+        {
+          "name": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure"
+        }
+      ]
+    },
+    {
+      "label": "PARTNERS",
+      "dateLabel": "Oct 27",
+      "headline": "Broadcom: VMware SDDC Manager is exposed to the Brotli bug, and patches are pending",
+      "sources": [
+        {
+          "name": "Broadcom",
+          "url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39445"
+        }
+      ]
+    },
+    {
+      "label": "BUDGET",
+      "dateLabel": "Oct 27",
+      "headline": "Roll Call: the NDAA and the $1.5 trillion request wait on the lame duck",
+      "sources": [
+        {
+          "name": "Roll Call",
+          "url": "https://rollcall.com/2026/10/27/defense-priorities-tied-up-in-lame-duck-jumble/"
+        }
+      ]
+    }
+  ]
+}

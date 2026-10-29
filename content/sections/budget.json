@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Federal Budget & NDAA Weekly Tracker",
   "description": "Fiscal 2027 appropriations, the continuing resolution, NDAA status, reconciliation funds and Golden Dome money.",
-  "compiled": "2026-10-28",
-  "covers": "Oct 27–28, 2026",
-  "readFirst": "Covers Oct. 27–28. New: Roll Call reported Oct. 27 that the fiscal 2027 NDAA and full-year Pentagon funding were unresolved when lawmakers left to campaign, and that the administration's request is a $1.15 trillion base, $350 billion in reconciliation, and about $60 billion in Iran-war supplemental funding. No appropriations vote or new continuing-resolution text was found. No newer Golden Dome appropriation was found.",
+  "compiled": "2026-10-29",
+  "covers": "Oct 27–29, 2026",
+  "readFirst": "Covers Oct. 27–29. New: Stars and Stripes and the Associated Press reported Oct. 28 that the Pentagon put the Iran war's cost at $47.1 billion as of Oct. 16, and CSIS described the continuing resolution through Dec. 11 and a House reconciliation figure of $60 billion against the $350 billion request. No appropriations vote was found. No newer Golden Dome appropriation was found.",
   "subsections": [
     {
       "id": "approps",
@@ -35,6 +35,38 @@
         {
           "name": "Roll Call",
           "url": "https://rollcall.com/2026/10/27/defense-priorities-tied-up-in-lame-duck-jumble/"
+        }
+      ]
+    },
+    {
+      "id": "csis-fy27-funding-2026-10-28",
+      "subsection": "approps",
+      "date": "2026-10-28",
+      "dateLabel": "Oct 28",
+      "headline": "CSIS: the continuing resolution runs to Dec. 11, and the House reconciliation number is $60 billion",
+      "summary": "CSIS fellow Seamus P. Daniels wrote Oct. 28 that the Defense Department and the rest of the government are operating under a continuing resolution through Dec. 11. He said the administration requested $1.15 trillion in base discretionary appropriations, $350 billion in reconciliation, and, in June, a supplemental of nearly $70 billion, including $67.1 billion for the department. Daniels wrote that the House defense appropriations bill, H.R. 9495, has not passed the full House, and that neither that bill nor the House military-construction and veterans bill has been passed by the Senate Appropriations Committee. He said the House budget resolution would provide $60 billion in reconciliation funds for defense, not the $350 billion requested, and that 22 Senate days and 20 House days remain on the schedule.",
+      "sources": [
+        {
+          "name": "CSIS",
+          "url": "https://www.csis.org/analysis/fy-2027-defense-funding-potential-post-midterm-outcomes"
+        }
+      ]
+    },
+    {
+      "id": "iran-war-cost-2026-10-28",
+      "subsection": "reconciliation",
+      "date": "2026-10-28",
+      "dateLabel": "Oct 28",
+      "headline": "Pentagon tells Congress the Iran war had cost $47.1 billion as of Oct. 16",
+      "summary": "Stars and Stripes reported Oct. 28 that the Defense Department estimated the Iran war had cost $47.1 billion as of Oct. 16, up about $3.5 billion from the $43.6 billion reported through Sept. 3. The outlet said about $29 billion is for replacing munitions and $6.1 billion is to replace lost equipment, both still unfunded, and that about $11.9 billion has been incurred, including $2 billion in Army costs. It said the estimate does not include damage to U.S. bases, which the Pentagon is still assessing, and that the Pentagon is seeking $67 billion in supplemental funding while Congress is in recess. The Associated Press, writing for PBS, also reported the $47.1 billion figure as of Oct. 16 and said the Pentagon's tally lists 21 service members killed and 865 wounded.",
+      "sources": [
+        {
+          "name": "Stars and Stripes",
+          "url": "https://www.stripes.com/theaters/middle_east/2026-10-28/pentagon-estimate-iran-war-cost-47b-23289282.html"
+        },
+        {
+          "name": "PBS News",
+          "url": "https://www.pbs.org/newshour/world/american-taxpayers-bill-for-iran-war-grows-to-estimated-47-1-billion"
         }
       ]
     }

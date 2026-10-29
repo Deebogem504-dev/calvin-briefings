@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-10-28",
-  "covers": "Oct 21–28, 2026",
-  "readFirst": "Covers Oct. 21–28. New: Broadcom issued VMSA-2026-0008 on Oct. 27 for the Brotli bug in VMware SDDC Manager, and Palo Alto updated its Brotli advisory on Oct. 28. F5 had no new release; the Oct. 20 Telenor item was removed as the oldest. The Oct. 21 NVIDIA open-models note was removed to stay within the count; the Oct. 26 Muse item is on the AI page. Intel's Oct. 23 note remains. No new NetApp, Microsoft, Dell, or HPE release dated Oct. 27–28 was found.",
+  "compiled": "2026-10-29",
+  "covers": "Oct 23–29, 2026",
+  "readFirst": "Covers Oct. 23–29. New: Palo Alto updated its PHP advisory on Oct. 29 and said active exploitation has hit internet-exposed management interfaces, and it marked more Brotli hotfixes as released. CISA added a VMware ESX logging bug to the KEV catalog on Oct. 28. NVIDIA said RTX Spark laptops are available from Dell, HP, Lenovo, Microsoft, and others. F5 had no new release. The Oct. 21 Dell and HPE items were removed because they are older than seven days. No new NetApp release dated Oct. 28–29 was found.",
   "subsections": [
     {
       "id": "cisco",
@@ -103,58 +103,44 @@
       ]
     },
     {
-      "id": "dell-agentic-factory-2026-10-21",
-      "subsection": "dell",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "Dell extends the AI Factory with NVIDIA from the desk to modular data centers",
-      "summary": "At GTC Berlin on Oct. 21 Dell announced additions to the Dell AI Factory with NVIDIA and said more than 6,500 enterprises have adopted it, up from 5,000 last quarter. New pieces include validated deskside agentic templates, a 64 GB Dell Pro Precision with GB10 due Oct. 23, and a Windows GB300 configuration later. In the data center, the PowerEdge M9882 puts 256 Vera CPUs in a 48U rack for agent orchestration, the air-cooled R8822 is due this month, and a modular data center reference design with NVIDIA DSX includes compute, storage, networking, rack power and liquid cooling, with availability in early 2027. Dell also said it is pairing the stack with NVIDIA's OpenShell reference architecture and Red Hat AI Factory software for agent controls.",
-      "sources": [
-        {
-          "name": "Dell Technologies",
-          "url": "https://www.nasdaq.com/press-release/dell-technologies-advances-enterprise-agentic-ai-deskside-data-center-nvidia-2026-10"
-        }
-      ]
-    },
-    {
-      "id": "hpe-gtc-agentic-2026-10-21",
-      "subsection": "hpe",
-      "date": "2026-10-21",
-      "dateLabel": "Oct 21",
-      "headline": "HPE says Private Cloud AI can mix H200 and RTX PRO 6000 GPUs, and introduces a Vera CPU rack",
-      "summary": "HPE said Oct. 21 at GTC Berlin that HPE Private Cloud AI can now combine NVIDIA H200 GPUs and NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs in the same cluster, and that this support and the KAI Scheduler are generally available. HPE introduced the NVIDIA Vera CPU Rack by HPE, which it describes as 256 NVIDIA Vera CPUs with support for 22.5K sandboxes and 80 percent faster agentic CPU performance. HPE said it will support NVIDIA DSX POD and the OpenShell reference architecture, combining OpenShell on Vera, NVIDIA Sentry with BlueField-4, and Vera Rubin NVL72. API and MCP updates for Private Cloud AI are rolling out in late 2026, and a self-service developer experience is planned for 2027.",
-      "sources": [
-        {
-          "name": "HPE",
-          "url": "https://www.hpe.com/us/en/newsroom/press-release/2026/10/hpe-teams-with-nvidia-to-advance-secure-agentic-ai-across-enterprises-and-industrial-environments.html"
-        }
-      ]
-    },
-    {
-      "id": "palo-brotli-2026-10-28",
-      "subsection": "paloalto",
+      "id": "rtx-spark-laptops-2026-10-28",
+      "subsection": "nvidia",
       "date": "2026-10-28",
-      "dateLabel": "Oct 26–28",
-      "headline": "Palo Alto's Brotli advisory, updated Oct. 28, says the same hotfixes cover PHP2Shell",
-      "summary": "Palo Alto Networks' advisory on CVE-2026-111497 was published Oct. 26 and updated Oct. 28. Palo Alto says the bug applies to PAN-OS on PA-Series and VM-Series firewalls when Brotli inspection and TLS decryption are enabled on the dataplane, that the management interface is not affected, and that it is not aware of malicious exploitation. It says PAN-OS 11.1, PAN-OS 10.2, and Panorama are not affected, and that Brotli inspection is disabled by default in PAN-OS 11.2.4 and later. The Oct. 28 update says the same hotfix covers both the PHP bugs and Brotli, except that 11.2.10-h16 fixes only PHP and 11.2.10-h17 fixes both, and the changelog lists 11.2.7-h23, 11.2.10-h17, 11.2.13-h4, 11.2.16-h1, 12.1.7-h11, and 12.2.4-h1 as released, with 12.1.4-h13 still estimated for Oct. 29 and 11.2.4-h23 and 12.1.10-h3 for Oct. 30.",
+      "dateLabel": "Oct 28",
+      "headline": "NVIDIA says RTX Spark laptops are on sale from Dell, HP, Lenovo, Microsoft, and others",
+      "summary": "NVIDIA said Oct. 28 that RTX Spark laptops are available from ASUS, Dell, HP, Lenovo, Microsoft, and MSI. NVIDIA said the systems combine a Blackwell RTX GPU and a Grace CPU in one superchip with up to 128 GB of unified memory and up to 1 petaflop of FP4 AI performance, starting at $2,599, with 128 GB configurations on shelves. The same post said NVIDIA App can now split GPU resources between a foreground application and a background agent on RTX Spark. NVIDIA also said DGX Spark with 64 GB of unified memory, using the GB10 Grace Blackwell Superchip, is available from manufacturer partners.",
       "sources": [
         {
-          "name": "Palo Alto Networks",
-          "url": "https://security.paloaltonetworks.com/CVE-2026-111497"
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
         }
       ]
     },
     {
       "id": "palo-php-2026-10-26",
       "subsection": "paloalto",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "Palo Alto's PHP advisory, updated Oct. 26, still has PAN-OS hotfixes in flight",
-      "summary": "Palo Alto Networks' advisory on CVE-2026-109618 and CVE-2026-109619 shows an update date of Oct. 26. Palo Alto says it is not aware of any malicious exploitation against its products, scores the PAN-OS issue 8.7, and says the risk is highest when the management interface is reachable from external addresses. The issue applies to PAN-OS on PA-Series and VM-Series firewalls and on Panorama. An Oct. 25 revision said 10.2.18-h13, 11.1.16-h4, and 11.2.10-h16 had been released, while other listed hotfixes still carry estimated dates through Oct. 30; Cortex XCORE was patched Oct. 21 and WildFire Cloud on Oct. 22.",
+      "date": "2026-10-29",
+      "dateLabel": "Oct 21–29",
+      "headline": "Palo Alto says php2shell is being exploited on internet-exposed management interfaces",
+      "summary": "Palo Alto Networks updated its advisory on CVE-2026-109618 and CVE-2026-109619 on Oct. 29. Palo Alto now says active exploitation has been observed against management interfaces exposed to the internet, rates that case critical with a CVSS-B score of 9.2, and says the issue applies to PAN-OS on PA-Series and VM-Series firewalls and on Panorama. The Oct. 29 changelog says the estimated dates for 10.2.7-h39, 10.2.10-h42, 11.2.4-h23, 12.1.4-h13, and 12.1.10-h3 were removed because those versions are released. The product table still lists 11.1.7-h12 with an estimated date of Oct. 30.",
       "sources": [
         {
           "name": "Palo Alto Networks",
           "url": "https://security.paloaltonetworks.com/CVE-2026-109618"
+        }
+      ]
+    },
+    {
+      "id": "palo-brotli-2026-10-28",
+      "subsection": "paloalto",
+      "date": "2026-10-29",
+      "dateLabel": "Oct 26–29",
+      "headline": "Palo Alto's Oct. 29 Brotli update says the remaining listed hotfixes are released",
+      "summary": "Palo Alto Networks updated its advisory on CVE-2026-111497 on Oct. 29. Palo Alto says the bug applies to PAN-OS on PA-Series and VM-Series firewalls when Brotli inspection and TLS decryption are enabled on the dataplane, that the management interface is not affected, and that it is not aware of malicious exploitation of this issue. It says PAN-OS 11.1, PAN-OS 10.2, and Panorama are not affected, and that Brotli inspection is disabled by default in PAN-OS 11.2.4 and later. The Oct. 29 changelog says the estimated dates for 11.2.4-h23, 12.1.4-h13, and 12.1.10-h3 were removed because those versions are released, and the advisory says the same hotfix covers both the PHP bugs and Brotli except that 11.2.10-h16 fixes only PHP and 11.2.10-h17 fixes both.",
+      "sources": [
+        {
+          "name": "Palo Alto Networks",
+          "url": "https://security.paloaltonetworks.com/CVE-2026-111497"
         }
       ]
     },
@@ -183,6 +169,28 @@
         {
           "name": "Google Cloud",
           "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud"
+        }
+      ]
+    },
+    {
+      "id": "vmware-esx-kev-2026-10-28",
+      "subsection": "quiet",
+      "date": "2026-10-28",
+      "dateLabel": "Oct 28",
+      "headline": "CISA adds a low-scored VMware ESX logging bug to the KEV catalog, due Nov. 11",
+      "summary": "CISA added CVE-2026-41709, a VMware ESX insufficient-logging bug, to the Known Exploited Vulnerabilities catalog on Oct. 28, with a due date of Nov. 11. Broadcom's VMSA-2026-0006 rates the issue low, with a CVSS score of 2.7, and says a malicious administrator could perform certain operations without them being logged. The advisory lists fixed builds including ESXi-9.1.0.0-25370933, ESXi-9.0.2.0100-25595025, ESXi80U3j-25429389, and Cloud Foundation 5.2.4, and it lists no workaround. Broadcom credited Ian Barton of CrowdStrike.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        },
+        {
+          "name": "Broadcom",
+          "url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017"
         }
       ]
     },
