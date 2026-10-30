@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-10-29",
-  "covers": "Oct 23–29, 2026",
-  "readFirst": "Covers Oct. 23–29. No Army contract, leadership confirmation, or NETCOM release dated Oct. 28–29 was found. The Oct. 26 Project Griffin pilot and the USAISEC wide-area-network replacement remain the newest items. An Oct. 14 Army xTech announcement still lists white papers for a Europe spectrum-warfare challenge as closing Oct. 30; no newer Army release on that challenge was found.",
+  "compiled": "2026-10-30",
+  "covers": "Oct 23–30, 2026",
+  "readFirst": "Covers Oct. 23–30. New: Army Public Affairs said Oct. 29 that Lockheed Martin received an Other Transaction Agreement for the Future Interceptor, with a total estimated value of $1.08 billion. An EIN Presswire note on a NETCOM Noble Skywave result was attributed to DVIDS, and the original DVIDS article was not found, so it was not added. No leadership confirmation dated Oct. 30 was found. An Oct. 14 Army xTech note still lists white papers for a Europe spectrum-warfare challenge as closing Oct. 30; no result was posted this morning.",
   "subsections": [
     {
       "id": "leadership",
@@ -32,6 +32,20 @@
     }
   ],
   "items": [
+    {
+      "id": "future-interceptor-2026-10-29",
+      "subsection": "contracts",
+      "date": "2026-10-29",
+      "dateLabel": "Oct 29",
+      "headline": "Army awards Lockheed an Other Transaction Agreement for a $1.08 billion Future Interceptor",
+      "summary": "Army Public Affairs said Oct. 29 in Huntsville that the Army awarded Lockheed Martin an Other Transaction Agreement to develop the Future Interceptor for the Integrated Air and Missile Defense portfolio. The release says the total estimated project value is $1.08 billion, consisting of $660.4 million in government funding and a $423 million cost-sharing commitment from Lockheed Martin, and that the interceptor is meant to improve engagement range, altitude, velocity, and maneuverability. Acting Chief of Staff Gen. Christopher LaNeve said the effort follows the warfighting guidance How the Army Fights and mixes exquisite and low-cost munitions. Assistant Secretary for Acquisition, Logistics and Technology Brent Ingraham said later development and production decisions will follow prototype performance, operational requirements, available resources, and applicable acquisition processes.",
+      "sources": [
+        {
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/296443/army_announces_selection_for_future_interceptor_program"
+        }
+      ]
+    },
     {
       "id": "project-griffin-2026-10-26",
       "subsection": "contracts",

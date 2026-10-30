@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-10-29",
-  "covers": "Oct 22–29, 2026",
-  "readFirst": "Covers Oct. 22–29. New: Tom's Hardware reported Oct. 28 on standalone Vera CPUs on Oracle Cloud and published Stream benchmark results from a local Vera server. The Oct. 21 Google Virgo, A5X, DSX, Lustre, and WWT-DDN items were removed because they are older than seven days. No new NetApp product release was found. No separate power or enterprise-switching announcement dated Oct. 28–29 was found.",
+  "compiled": "2026-10-30",
+  "covers": "Oct 26–30, 2026",
+  "readFirst": "Covers Oct. 26–30. New: Tom's Hardware reported Oct. 30 that Intel expects the Fab 28 shutdown to cost about $600 million and to reduce 10nm-class server shipments in the fourth quarter of 2026 and the first quarter of 2027, and reported Oct. 29 that Fujifilm will spend 10 billion yen to raise magnetic-tape output for AI data-center storage. The Oct. 22 Minerva item was removed to stay within the capacity subsection limit. No new enterprise Ethernet switching announcement dated Oct. 29–30 was found. No separate power or cooling announcement was found.",
   "subsections": [
     {
       "id": "networking",
@@ -39,6 +39,20 @@
         {
           "name": "NVIDIA Newsroom",
           "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth"
+        }
+      ]
+    },
+    {
+      "id": "intel-fab28-2026-10-30",
+      "subsection": "capacity",
+      "date": "2026-10-30",
+      "dateLabel": "Oct 30",
+      "headline": "Tom's Hardware: Intel expects the Fab 28 shutdown to cost about $600 million",
+      "summary": "Tom's Hardware reported Oct. 30 that an explosion earlier this month at Intel's Fab 28 near Kiryat Gat, Israel, killed two people, seriously injured one, and shut the facility for about two weeks. Intel chief financial officer Dave Zinsner said on the earnings call that the site had been shut down for about two weeks and that Intel expected to start production again by the end of this week. Tom's Hardware says Intel expects about $300 million less revenue in the fourth quarter of 2026 and a similar impact in the first quarter of 2027, about $600 million across the two quarters, plus about a 2 percent cut to fourth-quarter non-GAAP gross margin. It says the disruption affects server processors made on Intel's 10nm-class processes, including Intel 7, and that Intel has not named the Xeon families affected or said when the fab will return to full capacity.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/cpus/deadly-intel-fab-28-explosion-causes-two-week-shutdown-to-cost-usd600-million-and-severely-disrupt-server-chip-manufacturing-for-six-months-10nm-xeon-shipments-stall-during-largest-shortage-in-memory"
         }
       ]
     },
@@ -85,16 +99,16 @@
       ]
     },
     {
-      "id": "minerva-2026-10-22",
-      "subsection": "capacity",
-      "date": "2026-10-22",
-      "dateLabel": "Oct 22",
-      "headline": "NVIDIA launches Minerva, an AIOps platform for finding AI-factory failures earlier",
-      "summary": "NVIDIA said Oct. 22 that Minerva connects telemetry from GPUs, networking, storage, schedulers, and workloads, then uses machine learning to detect anomalies, predict failures, and group related alerts into one incident. NVIDIA says it builds a knowledge graph of GPUs, SuperNICs, switches, cables, and jobs, and includes an assistant that can recommend a fix or call infrastructure APIs. IREN is using it, and Aolani, Bitdeer AI, IBM, Jio, Lambda, Quake AI, and Tesla plan to deploy it. Dell Technologies, Lenovo, and Supermicro will offer Minerva in their AI-factory operations portfolios.",
+      "id": "fujifilm-tape-2026-10-29",
+      "subsection": "storage",
+      "date": "2026-10-29",
+      "dateLabel": "Oct 29",
+      "headline": "Tom's Hardware: Fujifilm will spend 10 billion yen to raise tape output for AI storage",
+      "summary": "Tom's Hardware reported Oct. 29, citing Nikkei Asia, that Fujifilm plans to raise magnetic-tape production by as much as five times because of AI data-center demand. Tom's Hardware says Fujifilm will spend 10 billion yen ($63.3 million) to increase capacity at its Odawara plant through fiscal 2028, and that the expansion is the company's largest tape investment in about 20 years. It says the added capacity is meant to produce tapes of up to 100 TB each. Tom's Hardware says magnetic tape is used for long-term backup of data that is rarely accessed, and that Fujifilm is one of several storage vendors expanding for AI data centers.",
       "sources": [
         {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/"
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/fujifilm-plans-5x-production-boost-of-100tb-magnetic-storage-tapes-driven-by-ai-usd63-million-injection-is-the-largest-investment-in-tape-for-20-years"
         }
       ]
     }

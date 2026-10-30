@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-10-29",
-  "covers": "Oct 26–29, 2026",
-  "readFirst": "Covers Oct. 26–29. The Oct. 20 TorchTPU note and the Oct. 21 Isaac and Dell Vera CPU items were removed because they are older than seven days. No new space-system award was found. No post-quantum announcement newer than the Oct. 26 AWS ML-KEM note was found. NVIDIA's Oct. 28 RTX Spark laptop note is on the partners page, and Tom's Hardware's Vera CPU benchmark is on the data-center page.",
+  "compiled": "2026-10-30",
+  "covers": "Oct 26–30, 2026",
+  "readFirst": "Covers Oct. 26–30. No new space-system award was found. No post-quantum announcement newer than the Oct. 26 AWS ML-KEM note was found. Intel's Oct. 30 comments on the Fab 28 shutdown are on the data-center page. NVIDIA's Oct. 28 RTX Spark laptop note is on the partners page.",
   "subsections": [
     {
       "id": "quantum",

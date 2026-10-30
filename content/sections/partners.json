@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-10-29",
-  "covers": "Oct 23–29, 2026",
-  "readFirst": "Covers Oct. 23–29. New: Palo Alto updated its PHP advisory on Oct. 29 and said active exploitation has hit internet-exposed management interfaces, and it marked more Brotli hotfixes as released. CISA added a VMware ESX logging bug to the KEV catalog on Oct. 28. NVIDIA said RTX Spark laptops are available from Dell, HP, Lenovo, Microsoft, and others. F5 had no new release. The Oct. 21 Dell and HPE items were removed because they are older than seven days. No new NetApp release dated Oct. 28–29 was found.",
+  "compiled": "2026-10-30",
+  "covers": "Oct 23–30, 2026",
+  "readFirst": "Covers Oct. 23–30. Palo Alto's php2shell advisory now says the Oct. 29 timeline removed the estimated date for 11.1.7-h12 because that version is released. CISA's Oct. 29 Cisco Secure Firewall ASA and FTD KEV entry is on the cyber page. Intel's Fab 28 shutdown, reported by Tom's Hardware on Oct. 30, is on the data-center page. F5 had no new release. No new Dell, HPE, NetApp, or Microsoft release dated Oct. 29–30 was found. No new VMware advisory dated Oct. 29–30 was found.",
   "subsections": [
     {
       "id": "cisco",
@@ -122,7 +122,7 @@
       "date": "2026-10-29",
       "dateLabel": "Oct 21–29",
       "headline": "Palo Alto says php2shell is being exploited on internet-exposed management interfaces",
-      "summary": "Palo Alto Networks updated its advisory on CVE-2026-109618 and CVE-2026-109619 on Oct. 29. Palo Alto now says active exploitation has been observed against management interfaces exposed to the internet, rates that case critical with a CVSS-B score of 9.2, and says the issue applies to PAN-OS on PA-Series and VM-Series firewalls and on Panorama. The Oct. 29 changelog says the estimated dates for 10.2.7-h39, 10.2.10-h42, 11.2.4-h23, 12.1.4-h13, and 12.1.10-h3 were removed because those versions are released. The product table still lists 11.1.7-h12 with an estimated date of Oct. 30.",
+      "summary": "Palo Alto Networks updated its advisory on CVE-2026-109618 and CVE-2026-109619 on Oct. 29. Palo Alto now says active exploitation has been observed against management interfaces exposed to the internet, rates that case critical with a CVSS-B score of 9.2, and says the issue applies to PAN-OS on PA-Series and VM-Series firewalls and on Panorama. The Oct. 29 timeline entry says estimated dates for 11.1.7-h12 were removed because that version is released. The solution table says to upgrade PAN-OS 11.1.7 through 11.1.7-h* to 11.1.7-h12 or 11.1.16-h4 or later.",
       "sources": [
         {
           "name": "Palo Alto Networks",

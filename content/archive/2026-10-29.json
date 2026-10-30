@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-29",
+  "title": "October 29, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "CYBER",
+      "dateLabel": "Oct 28",
+      "headline": "CISA added a Linux kernel bug chained with php2shell, due Oct. 31",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Oct 29",
+      "headline": "Hegseth fired Joint Staff planner Lt. Gen. Brett Sylvia",
+      "sources": [
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/hegseth-fires-pentagons-top-military-planner/"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Oct 28",
+      "headline": "Google announced Gemini 4 Carbon, first for cyber defenders",
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        }
+      ]
+    },
+    {
+      "label": "BUDGET",
+      "dateLabel": "Oct 28",
+      "headline": "Pentagon puts the Iran war's cost at $47.1 billion as of Oct. 16",
+      "sources": [
+        {
+          "name": "Stars and Stripes",
+          "url": "https://www.stripes.com/theaters/middle_east/2026-10-28/pentagon-estimate-iran-war-cost-47b-23289282.html"
+        },
+        {
+          "name": "PBS News",
+          "url": "https://www.pbs.org/newshour/world/american-taxpayers-bill-for-iran-war-grows-to-estimated-47-1-billion"
+        }
+      ]
+    },
+    {
+      "label": "WWT",
+      "dateLabel": "Oct 28",
+      "headline": "WWT named Global One Cisco Partner of the Year",
+      "sources": [
+        {
+          "name": "WWT",
+          "url": "https://www.wwt.com/press-release/world-wide-technology-and-softchoice-win-one-cisco-partner-of-the-year-and-canada-security-partner-of-the-year-at-cisco-partner-summit-2026"
+        }
+      ]
+    },
+    {
+      "label": "PARTNERS",
+      "dateLabel": "Oct 29",
+      "headline": "Palo Alto says php2shell is being exploited on exposed management interfaces",
+      "sources": [
+        {
+          "name": "Palo Alto Networks",
+          "url": "https://security.paloaltonetworks.com/CVE-2026-109618"
+        }
+      ]
+    }
+  ]
+}

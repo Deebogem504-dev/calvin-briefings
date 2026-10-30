@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-10-29",
-  "covers": "Oct 24–29, 2026",
-  "readFirst": "Covers Oct. 23–29. The php2shell catalog due date is today, Oct. 29. New: CISA added a Linux kernel bug on Oct. 28 that it says can be chained with php2shell, due Oct. 31, and a VMware ESX logging bug due Nov. 11. Palo Alto's Oct. 29 report of exploitation against exposed management interfaces is on the partners page. The Oct. 21 Storm-0940 item was removed because it is older than seven days. No new public update on the DMDC personnel breach was found.",
+  "compiled": "2026-10-30",
+  "covers": "Oct 24–30, 2026",
+  "readFirst": "Covers Oct. 24–30. New: CISA on Oct. 29 added a GitLab CI/CD bug and a Cisco Secure Firewall ASA and FTD VPN bug to the KEV catalog, both due Nov. 1. The php2shell catalog due date was Oct. 29, and that item was removed because the due date has passed. The Linux kernel bug that CISA says can be chained with php2shell remains due Oct. 31. No new public update on the DMDC personnel breach was found.",
   "subsections": [
     {
       "id": "kev",
@@ -25,6 +25,32 @@
   ],
   "items": [
     {
+      "id": "gitlab-cisco-kev-2026-10-29",
+      "subsection": "kev",
+      "date": "2026-10-29",
+      "dateLabel": "Oct 29",
+      "headline": "CISA adds a GitLab code-execution bug and a Cisco firewall VPN bug, both due Nov. 1",
+      "summary": "CISA said Oct. 29 it added CVE-2026-97229, a GitLab integer-overflow bug, and CVE-2026-76418, a Cisco Secure Firewall ASA and FTD bug, to the Known Exploited Vulnerabilities catalog. The catalog sets a due date of Nov. 1 for both, requires forensic triage for the GitLab bug, and does not require it for the Cisco bug. CISA says the GitLab flaw could let an unauthenticated user run arbitrary code on the server with a crafted regular expression in a CI/CD configuration, and GitLab's Oct. 12 patch release fixes it in 19.4.2, 19.3.5, and 19.2.8. Cisco says CVE-2026-76418 is in the remote-access SSL VPN service when secondary authentication is configured on a tunnel group, that an unauthenticated remote attacker can reload the device, that there is no workaround, and that its PSIRT became aware of active exploitation in October 2026.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        },
+        {
+          "name": "GitLab",
+          "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/"
+        },
+        {
+          "name": "Cisco",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75"
+        }
+      ]
+    },
+    {
       "id": "linux-esx-kev-2026-10-28",
       "subsection": "kev",
       "date": "2026-10-28",
@@ -35,28 +61,6 @@
         {
           "name": "CISA",
           "url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog"
-        },
-        {
-          "name": "CISA KEV catalog",
-          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
-        }
-      ]
-    },
-    {
-      "id": "php2shell-2026-10-21",
-      "subsection": "kev",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 21–26",
-      "headline": "CISA puts php2shell on the KEV list, with a catalog due date of Oct. 29",
-      "summary": "CISA added CVE-2026-109618, a PHP memory-corruption bug, and CVE-2026-109619, a stale internal request-state bug, to the Known Exploited Vulnerabilities catalog on Oct. 26. The catalog sets a due date of Oct. 29 for both. CISA's php2shell alert, revised the same day, says the bugs allow unauthenticated remote code execution on PHP that serves web requests, names Apache with mod_php as the configuration PHP considers highest risk, and says to update to PHP 8.5.12, 8.4.27, 8.3.36, or 8.2.35. CISA says organizations that cannot update immediately, or that still run PHP 8.1 or earlier, should take those systems offline until they are patched.",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog"
-        },
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching"
         },
         {
           "name": "CISA KEV catalog",

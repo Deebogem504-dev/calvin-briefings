@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-10-29",
-  "covers": "Oct 22–29, 2026",
-  "readFirst": "Covers Oct. 22–29. New: CBS News reported Oct. 29 that Hegseth fired Joint Staff J5 Lt. Gen. Brett Sylvia, and The Diplomat reported his Oct. 28 address to the ASEAN defense ministers in Cebu. The Oct. 20 Dayton speech and the Oct. 21 Guyana and Hormuz items were removed because they are older than seven days. No new Golden Dome appropriation was found. The Department of War site did not return an Oct. 29 readout of the Cebu speech or the Sylvia removal.",
+  "compiled": "2026-10-30",
+  "covers": "Oct 22–30, 2026",
+  "readFirst": "Covers Oct. 22–30. New: Military.com reported Oct. 30 that a Defense Department spokesperson said Lt. Gen. Brett Sylvia's firing was for severe misconduct and that he was not the Iran war's central planner, and Federal News Network reported Oct. 29 that movers are pushing back on proposed CMMC Level 2 rules for household-goods moves. No new Golden Dome appropriation was found. The Department of War site did not return an Oct. 30 readout of the Sylvia removal.",
   "subsections": [
     {
       "id": "secwar",
@@ -31,14 +31,22 @@
     {
       "id": "sylvia-j5-2026-10-29",
       "subsection": "secwar",
-      "date": "2026-10-29",
-      "dateLabel": "Oct 29",
-      "headline": "CBS: Hegseth fired Joint Staff planner Lt. Gen. Brett Sylvia over alleged leaks",
-      "summary": "CBS News reported Oct. 29 that a Pentagon official said Defense Secretary Pete Hegseth fired Army Lt. Gen. Brett Sylvia, the Joint Staff director for strategy, plans and policy. The official said Sylvia was accused of leaking classified information about the Iran war and the Russia-Ukraine war, failed three polygraph tests about sharing classified information with the press, and that the case was referred to the Justice Department. CBS said no replacement has been named, and a Joint Staff spokesperson thanked Sylvia for 32 years of service. CBS said he is the second general removed from that J5 post under Hegseth, after Lt. Gen. Joseph McGee was forced to retire last October.",
+      "date": "2026-10-30",
+      "dateLabel": "Oct 29–30",
+      "headline": "Hegseth fired J5 Lt. Gen. Brett Sylvia; a spokesperson says he was not the Iran war planner",
+      "summary": "Military.com reported Oct. 30 that Defense Secretary Pete Hegseth fired Army Lt. Gen. Brett Sylvia, the Joint Staff director for strategy, plans and policy, on Thursday. Chief Pentagon spokesperson Sean Parnell confirmed the firing on X and wrote that the Department of War has zero tolerance for the intentional, unauthorized disclosure of classified information. A department spokesperson told Military.com the termination was for severe misconduct, that Sylvia was not a central planner for the Iran war, that the central planner is CENTCOM commander Adm. Brad Cooper, and that Sylvia is under investigation for leaking classified information about the Iran war, the Russia-Ukraine war, and more, including by meeting journalists outside the Pentagon after an escort rule. CBS News reported Oct. 29 that an official said Sylvia failed three polygraph tests and that the case was referred to the Justice Department, and NBC News reported the Pentagon first thanked Sylvia for his service and rescinded that statement a day later.",
       "sources": [
+        {
+          "name": "Military.com",
+          "url": "https://www.military.com/hegseth-firing-pentagon-war-planner-over-alleged-leaks-follows-his-own-signal-scandal"
+        },
         {
           "name": "CBS News",
           "url": "https://www.cbsnews.com/news/hegseth-fires-pentagons-top-military-planner/"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/politics/national-security/top-general-fired-hegseth-leak-investigation-rcna606456"
         }
       ]
     },
@@ -93,6 +101,20 @@
         {
           "name": "Stars and Stripes",
           "url": "https://www.stripes.com/theaters/us/2026-10-23/hegseth-gambling-directive-23236475.html"
+        }
+      ]
+    },
+    {
+      "id": "dod-movers-cmmc-2026-10-29",
+      "subsection": "acquisition",
+      "date": "2026-10-29",
+      "dateLabel": "Oct 29",
+      "headline": "Federal News Network: movers ask DoD to drop CMMC Level 2 from household-goods rules",
+      "summary": "Federal News Network reported Oct. 29 that Movers for America is urging the Defense Department to revise proposed rules for the Defense Personal Property program, and that public comments closed Oct. 26. Executive director Katie McMichael told Federal News Network that CMMC Level 2 is very costly for an industry of small businesses and independent contractors, and that the group does not think CMMC is necessary for the names, addresses, and phone numbers movers receive. She said a Movers for America survey found nearly half of moving professionals might scale back Defense Department business if Level 2 is required. The outlet says the proposed rules would prohibit service members from sponsoring or escorting movers onto installations, and that the Personal Property Activity is expected to release final rules by the end of November.",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/defense-news/2026/10/industry-pushes-back-on-dods-proposed-rules-for-moving-program/"
         }
       ]
     },

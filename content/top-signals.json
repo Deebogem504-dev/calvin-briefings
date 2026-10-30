@@ -3,26 +3,42 @@
     {
       "section": "cyber",
       "label": "CYBER",
-      "dateLabel": "Oct 28",
-      "headline": "CISA added a Linux kernel bug chained with php2shell, due Oct. 31",
-      "item": "linux-esx-kev-2026-10-28",
+      "dateLabel": "Oct 29",
+      "headline": "CISA added a GitLab bug and a Cisco firewall VPN bug, both due Nov. 1",
+      "item": "gitlab-cisco-kev-2026-10-29",
       "href": "cyber.html#kev"
     },
     {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Oct 29",
-      "headline": "Hegseth fired Joint Staff planner Lt. Gen. Brett Sylvia",
+      "dateLabel": "Oct 29–30",
+      "headline": "Hegseth fired J5 Lt. Gen. Brett Sylvia; the Pentagon says he was not the Iran planner",
       "item": "sylvia-j5-2026-10-29",
       "href": "dow.html#secwar"
     },
     {
       "section": "ai",
       "label": "AI",
-      "dateLabel": "Oct 28",
-      "headline": "Google announced Gemini 4 Carbon, first for cyber defenders",
-      "item": "gemini-4-carbon-2026-10-28",
-      "href": "ai.html#google"
+      "dateLabel": "Oct 26–29",
+      "headline": "Tom's Hardware: most of Anthropic's first-half compute bill went to R&D, not serving Claude",
+      "item": "anthropic-s1-2026-10-26",
+      "href": "ai.html#anthropic"
+    },
+    {
+      "section": "army",
+      "label": "ARMY",
+      "dateLabel": "Oct 29",
+      "headline": "Army awarded Lockheed a $1.08 billion Future Interceptor agreement",
+      "item": "future-interceptor-2026-10-29",
+      "href": "army.html#contracts"
+    },
+    {
+      "section": "datacenter",
+      "label": "DC/NET",
+      "dateLabel": "Oct 30",
+      "headline": "Intel expects the Fab 28 shutdown to cost about $600 million",
+      "item": "intel-fab28-2026-10-30",
+      "href": "datacenter.html#capacity"
     },
     {
       "section": "budget",
@@ -31,22 +47,6 @@
       "headline": "Pentagon puts the Iran war's cost at $47.1 billion as of Oct. 16",
       "item": "iran-war-cost-2026-10-28",
       "href": "budget.html#reconciliation"
-    },
-    {
-      "section": "wwt",
-      "label": "WWT",
-      "dateLabel": "Oct 28",
-      "headline": "WWT named Global One Cisco Partner of the Year",
-      "item": "wwt-cisco-partner-2026-10-28",
-      "href": "wwt.html#content"
-    },
-    {
-      "section": "partners",
-      "label": "PARTNERS",
-      "dateLabel": "Oct 29",
-      "headline": "Palo Alto says php2shell is being exploited on exposed management interfaces",
-      "item": "palo-php-2026-10-26",
-      "href": "partners.html#paloalto"
     }
   ]
 }
