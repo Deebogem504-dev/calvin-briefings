@@ -3,12 +3,12 @@
   "file": "dow.html",
   "nav": "DOW",
   "kicker": "DOW",
-  "cadence": "Daily · weekdays",
+  "cadence": "Daily \u00b7 weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-10-30",
-  "covers": "Oct 22–30, 2026",
-  "readFirst": "Covers Oct. 22–30. New: Military.com reported Oct. 30 that a Defense Department spokesperson said Lt. Gen. Brett Sylvia's firing was for severe misconduct and that he was not the Iran war's central planner, and Federal News Network reported Oct. 29 that movers are pushing back on proposed CMMC Level 2 rules for household-goods moves. No new Golden Dome appropriation was found. The Department of War site did not return an Oct. 30 readout of the Sylvia removal.",
+  "compiled": "2026-11-02",
+  "covers": "Oct 26\u2013Nov 2, 2026",
+  "readFirst": "Covers Oct. 26\u2013Nov. 2. No Department of War release dated Oct. 31\u2013Nov. 2 was found, and no new Golden Dome appropriation was found. The Sylvia removal remains the lead. The betting memo, Project Agincourt, FORTRESS, and the Hormuz milestone were removed because their dates are older than seven days. Federal News Network's Oct. 30 story on Air Force barracks Wi-Fi was not added because it is an Air Force compliance note rather than a new Army network program.",
   "subsections": [
     {
       "id": "secwar",
@@ -32,7 +32,7 @@
       "id": "sylvia-j5-2026-10-29",
       "subsection": "secwar",
       "date": "2026-10-30",
-      "dateLabel": "Oct 29–30",
+      "dateLabel": "Oct 29\u201330",
       "headline": "Hegseth fired J5 Lt. Gen. Brett Sylvia; a spokesperson says he was not the Iran war planner",
       "summary": "Military.com reported Oct. 30 that Defense Secretary Pete Hegseth fired Army Lt. Gen. Brett Sylvia, the Joint Staff director for strategy, plans and policy, on Thursday. Chief Pentagon spokesperson Sean Parnell confirmed the firing on X and wrote that the Department of War has zero tolerance for the intentional, unauthorized disclosure of classified information. A department spokesperson told Military.com the termination was for severe misconduct, that Sylvia was not a central planner for the Iran war, that the central planner is CENTCOM commander Adm. Brad Cooper, and that Sylvia is under investigation for leaking classified information about the Iran war, the Russia-Ukraine war, and more, including by meeting journalists outside the Pentagon after an escort rule. CBS News reported Oct. 29 that an official said Sylvia failed three polygraph tests and that the case was referred to the Justice Department, and NBC News reported the Pentagon first thanked Sylvia for his service and rescinded that statement a day later.",
       "sources": [
@@ -54,7 +54,7 @@
       "id": "hegseth-admm-speech-2026-10-29",
       "subsection": "secwar",
       "date": "2026-10-29",
-      "dateLabel": "Oct 28–29",
+      "dateLabel": "Oct 28\u201329",
       "headline": "In Cebu, Hegseth tells ASEAN defense ministers the U.S. line is strong, quiet, and clear",
       "summary": "The Diplomat reported Oct. 29 that Secretary of War Pete Hegseth told the ASEAN Defense Ministers' Meeting in Cebu on Oct. 28 that the U.S. approach is strong, quiet, and clear, and that the United States will defend its interests and those of its allies and partners. Hegseth said Washington would back that with practical cooperation, including maritime domain awareness, interoperability, and cooperation among navies. He proposed a U.S.-ASEAN Framework for Defense Cooperation and did not give further details of the pact. Philippine Defense Secretary Gilbert Teodoro Jr. said a robust U.S. presence is necessary for peace and stability in Southeast Asia and the broader Indo-Pacific.",
       "sources": [
@@ -87,24 +87,6 @@
       ]
     },
     {
-      "id": "hegseth-betting-memo-2026-10-22",
-      "subsection": "secwar",
-      "date": "2026-10-23",
-      "dateLabel": "Oct 22–23",
-      "headline": "Hegseth bars troops and civilians from using nonpublic information to bet on military operations",
-      "summary": "DefenseScoop reported Oct. 22 that it obtained an Oct. 20 memorandum in which Secretary of War Pete Hegseth barred Pentagon and military personnel from placing financial wagers, including on Polymarket or Kalshi, using nonpublic government information. The memo says the prohibition applies to classified or unclassified information, and that violations may bring administrative, disciplinary, or criminal action under the Uniform Code of Military Justice or federal law. Hegseth wrote that enemies watch these markets and that a transaction on a military outcome creates a signal. Stars and Stripes reported Oct. 23 that the order also covers indirect bets through third parties, and that prosecutors allege Army Master Sgt. Gannon Ken Van Dyke, who pleaded not guilty, won more than $400,000 on Polymarket using classified information about the January operation that captured Nicolas Maduro.",
-      "sources": [
-        {
-          "name": "DefenseScoop",
-          "url": "https://defensescoop.com/2026/10/22/hegseth-memo-gambling-prediction-markets/"
-        },
-        {
-          "name": "Stars and Stripes",
-          "url": "https://www.stripes.com/theaters/us/2026-10-23/hegseth-gambling-directive-23236475.html"
-        }
-      ]
-    },
-    {
       "id": "dod-movers-cmmc-2026-10-29",
       "subsection": "acquisition",
       "date": "2026-10-29",
@@ -133,20 +115,6 @@
       ]
     },
     {
-      "id": "project-agincourt-2026-10-21",
-      "subsection": "acquisition",
-      "date": "2026-10-23",
-      "dateLabel": "Oct 21–23",
-      "headline": "Project Agincourt's West and Strasiser say Autonomous Warfare Command is due Oct. 1, 2027",
-      "summary": "The Department of War reported Oct. 23 that Owen West and Max Strasiser, identified as chief executive and chief operating officer of Project Agincourt and appointed by Secretary Hegseth, sent an open letter on how the Autonomous Warfare Command will develop. The story says Hegseth tasked them with standing up the four-star functional combatant command and with continuing the direct reporting portfolio manager for unmanned systems. They wrote that the Cold War model of a small number of sophisticated, expensive weapons has been disrupted, and that an advantage now depends on adapting at the edge with a lead in super intelligence and the noncommissioned officer corps. The command is expected to be operational by Oct. 1, 2027, and they said success is how fast an operational problem receives a fielded, scalable solution.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/News-Stories/Article/Article/4632827/project-agincourt-leaders-reach-out-to-industry-with-path-forward/"
-        }
-      ]
-    },
-    {
       "id": "srf-west-colorado-2026-10-26",
       "subsection": "ops",
       "date": "2026-10-26",
@@ -157,34 +125,6 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/Releases/Release/Article/4633244/joint-statement-uss-colorado-ssn-788-announced-as-first-submarine-for-submarine/"
-        }
-      ]
-    },
-    {
-      "id": "fortress-90-day-2026-10-25",
-      "subsection": "ops",
-      "date": "2026-10-25",
-      "dateLabel": "Oct 25",
-      "headline": "Fox: FORTRESS documents would have major U.S. bases last 90 days without outside support",
-      "summary": "Fox News Digital reported Oct. 25, citing documents it reviewed, that under an initiative called FORTRESS every major military installation in the continental United States would be expected to sustain essential operations independently for at least 90 days, including electricity, water, fuel and communications. Pentagon chief spokesperson Sean Parnell, who Fox said led the initiative, told Fox that power is combat now and that without electricity the department loses communications, water, logistics, assembly lines and basic command structures. Fox says the documents envision portable nuclear reactors, large-scale battery storage and microgrids that can disconnect bases from the civilian grid, plus reserves of munitions, fuel, critical minerals, electronics, spare parts and medical supplies. Fox also says the most critical dependencies would need at least two qualified supply or production pathways, and that the Civil Reserve Manufacturing Network is folded into FORTRESS so commercial factories can be identified to shift to defense production.",
-      "sources": [
-        {
-          "name": "Fox News",
-          "url": "https://www.foxnews.com/politics/inside-pentagons-doomsday-plan-keep-america-fighting-global-war-erupts"
-        }
-      ]
-    },
-    {
-      "id": "centcom-hormuz-milestone-2026-10-25",
-      "subsection": "ops",
-      "date": "2026-10-25",
-      "dateLabel": "Oct 25",
-      "headline": "CENTCOM: U.S. forces helped Gulf partners export more than 1.5 billion barrels through Hormuz",
-      "summary": "CENTCOM said Oct. 25 that Adm. Brad Cooper visited the Strait of Hormuz as U.S. forces reached a milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil since summer. Cooper observed traffic from a U.S. Army CH-47 Chinook with Maj. Gen. Brandon Tegtmeier, commander of the 82nd Airborne Division. CENTCOM said more than 3,000 commercial vessels have transited the strait with its support over the last six months, and that primary transit routes remain free of Iranian sea mines. It said that in recent months more than 95 percent of ships navigating the strait have sailed through safely.",
-      "sources": [
-        {
-          "name": "CENTCOM",
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/"
         }
       ]
     }

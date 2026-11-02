@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-30",
+  "title": "October 30, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "CYBER",
+      "dateLabel": "Oct 29",
+      "headline": "CISA added a GitLab bug and a Cisco firewall VPN bug, both due Nov. 1",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        },
+        {
+          "name": "GitLab",
+          "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/"
+        },
+        {
+          "name": "Cisco",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Oct 29\u201330",
+      "headline": "Hegseth fired J5 Lt. Gen. Brett Sylvia; the Pentagon says he was not the Iran planner",
+      "sources": [
+        {
+          "name": "Military.com",
+          "url": "https://www.military.com/hegseth-firing-pentagon-war-planner-over-alleged-leaks-follows-his-own-signal-scandal"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/hegseth-fires-pentagons-top-military-planner/"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/politics/national-security/top-general-fired-hegseth-leak-investigation-rcna606456"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Oct 26\u201329",
+      "headline": "Tom's Hardware: most of Anthropic's first-half compute bill went to R&D, not serving Claude",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/s1-sec"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ipo-filing-shows-most-of-its-compute-goes-to-r-and-d-not-serving-customers-company-details-massive-usd800-billion-in-tpu-and-gpu-contracts"
+        }
+      ]
+    },
+    {
+      "label": "ARMY",
+      "dateLabel": "Oct 29",
+      "headline": "Army awarded Lockheed a $1.08 billion Future Interceptor agreement",
+      "sources": [
+        {
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/296443/army_announces_selection_for_future_interceptor_program"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Oct 30",
+      "headline": "Intel expects the Fab 28 shutdown to cost about $600 million",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/cpus/deadly-intel-fab-28-explosion-causes-two-week-shutdown-to-cost-usd600-million-and-severely-disrupt-server-chip-manufacturing-for-six-months-10nm-xeon-shipments-stall-during-largest-shortage-in-memory"
+        }
+      ]
+    },
+    {
+      "label": "BUDGET",
+      "dateLabel": "Oct 28",
+      "headline": "Pentagon puts the Iran war's cost at $47.1 billion as of Oct. 16",
+      "sources": [
+        {
+          "name": "Stars and Stripes",
+          "url": "https://www.stripes.com/theaters/middle_east/2026-10-28/pentagon-estimate-iran-war-cost-47b-23289282.html"
+        },
+        {
+          "name": "PBS News",
+          "url": "https://www.pbs.org/newshour/world/american-taxpayers-bill-for-iran-war-grows-to-estimated-47-1-billion"
+        }
+      ]
+    }
+  ]
+}

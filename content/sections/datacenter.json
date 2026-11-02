@@ -3,12 +3,12 @@
   "file": "datacenter.html",
   "nav": "DC/NET",
   "kicker": "DC/NET",
-  "cadence": "Daily · weekdays",
+  "cadence": "Daily \u00b7 weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-10-30",
-  "covers": "Oct 26–30, 2026",
-  "readFirst": "Covers Oct. 26–30. New: Tom's Hardware reported Oct. 30 that Intel expects the Fab 28 shutdown to cost about $600 million and to reduce 10nm-class server shipments in the fourth quarter of 2026 and the first quarter of 2027, and reported Oct. 29 that Fujifilm will spend 10 billion yen to raise magnetic-tape output for AI data-center storage. The Oct. 22 Minerva item was removed to stay within the capacity subsection limit. No new enterprise Ethernet switching announcement dated Oct. 29–30 was found. No separate power or cooling announcement was found.",
+  "compiled": "2026-11-02",
+  "covers": "Oct 26\u2013Nov 2, 2026",
+  "readFirst": "Covers Oct. 26\u2013Nov. 2. New: Tom's Hardware reported Nov. 1 that Sam Altman met Samsung executives on Oct. 30 about memory for AI data centers and that Samsung did not announce a new supply agreement, and reported Oct. 30 that PsiQuantum demonstrated an eight-port optical switch for GPU networks. Intel's Oct. 31 plan to shift client capacity toward Xeon is on the partners page. No separate power or cooling announcement dated Oct. 30\u2013Nov. 2 was found.",
   "subsections": [
     {
       "id": "networking",
@@ -39,6 +39,34 @@
         {
           "name": "NVIDIA Newsroom",
           "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth"
+        }
+      ]
+    },
+    {
+      "id": "psiquantum-ocs-2026-10-30",
+      "subsection": "networking",
+      "date": "2026-10-30",
+      "dateLabel": "Oct 30",
+      "headline": "Tom's Hardware: PsiQuantum showed an eight-port optical switch for GPU networks",
+      "summary": "Tom's Hardware reported Oct. 30 that PsiQuantum demonstrated an eight-port optical circuit switch for AI data-center GPU networks, built from silicon photonics with no moving parts and no amplifier. Tom's Hardware says lab tests showed a typical insertion loss of 1.2 dB, and that PsiQuantum told Tom's Hardware the figure is fiber to fiber and does not include connector losses. The article says PsiQuantum has a 64-by-64 version taped out and a 72-by-72 underway. Tom's Hardware says the eight-port device is a demonstration, and that PsiQuantum says samples and testing kits have gone to several computing companies, including GPU vendors and hyperscalers.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/photonics/psiquantum-turns-its-photonics-know-how-into-an-optical-switch-for-supercharging-ai-data-center-gpu-networks-8x8-lab-prototype-loses-less-light-than-rivals-with-plans-to-develop-larger-devices"
+        }
+      ]
+    },
+    {
+      "id": "altman-samsung-ram-2026-11-01",
+      "subsection": "storage",
+      "date": "2026-11-01",
+      "dateLabel": "Oct 30\u2013Nov 1",
+      "headline": "Tom's Hardware: Altman met Samsung on Oct. 30 about memory for AI data centers",
+      "summary": "Tom's Hardware reported Nov. 1, citing Bloomberg, that OpenAI chief executive Sam Altman met about 50 senior Samsung executives on Oct. 30 at Samsung's Resources Development Center in Yongin. Samsung Korea said the discussion covered the direction of AI technology and new business opportunities, and Tom's Hardware says Samsung emphasized AI transformation rather than announcing a new memory supply agreement. Tom's Hardware says Samsung described the talks as strengthening an existing letter of intent to cooperate on global AI infrastructure, including memory semiconductors for OpenAI's Stargate project. Citing Counterpoint Research, Tom's Hardware says Samsung and SK Hynix accounted for about 83 percent of high-bandwidth memory revenue.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers"
         }
       ]
     },
@@ -74,7 +102,7 @@
       "id": "spacex-gpu-debt-2026-10-27",
       "subsection": "capacity",
       "date": "2026-10-27",
-      "dateLabel": "Oct 25–27",
+      "dateLabel": "Oct 25\u201327",
       "headline": "Tom's Hardware: Musk says SpaceX closed $40 billion of debt for GPUs due in 2027",
       "summary": "Tom's Hardware reported Oct. 27 that Elon Musk wrote on X on Oct. 25 that SpaceX had closed $40 billion of debt for GPUs, and that he later said the borrowing is primarily callable debt for purchases arriving in the first and second quarters of 2027 and is not a major factor this quarter. Tom's Hardware says Musk tied the financing to SpaceX having investment-grade status and revenue from Starlink and launch, and that he wrote debt markets have largely shut off companies without substantial revenue outside AI data centers. The article quotes CFO Bret Johnsen, from SpaceX's third-quarter 2026 earnings call, expecting $35 billion to $40 billion of capital expenditure in the fourth quarter. Tom's Hardware says it is still unclear whether \"closed\" means investors agreed to final pricing, and that Musk did not confirm which GPU models or quantities the debt covers.",
       "sources": [

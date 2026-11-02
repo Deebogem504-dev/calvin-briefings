@@ -3,12 +3,12 @@
   "file": "tech.html",
   "nav": "TECH",
   "kicker": "TECH",
-  "cadence": "Weekly · Mondays",
+  "cadence": "Weekly \u00b7 Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-10-30",
-  "covers": "Oct 26–30, 2026",
-  "readFirst": "Covers Oct. 26–30. No new space-system award was found. No post-quantum announcement newer than the Oct. 26 AWS ML-KEM note was found. Intel's Oct. 30 comments on the Fab 28 shutdown are on the data-center page. NVIDIA's Oct. 28 RTX Spark laptop note is on the partners page.",
+  "compiled": "2026-11-02",
+  "covers": "Oct 26\u2013Nov 2, 2026",
+  "readFirst": "Covers Oct. 26\u2013Nov. 2. New: Tom's Hardware reported Nov. 1 that the Air Force Research Lab recovered Rocket Cargo pods after a SpaceX Starfall splashdown in the Pacific. No new post-quantum standard and no Army quantum award were found. PsiQuantum's Oct. 30 optical-switch demo is on the data-center page. No separate advanced-compute announcement dated Oct. 30\u2013Nov. 2 was found, so the compute subsection is empty.",
   "subsections": [
     {
       "id": "quantum",
@@ -28,6 +28,20 @@
     }
   ],
   "items": [
+    {
+      "id": "starfall-cargo-2026-11-01",
+      "subsection": "space",
+      "date": "2026-11-01",
+      "dateLabel": "Oct 26\u2013Nov 1",
+      "headline": "Tom's Hardware: Air Force Research Lab recovered SpaceX Starfall cargo pods in the Pacific",
+      "summary": "Tom's Hardware reported Nov. 1 that the Air Force Research Lab recovered agile cargo pods after a SpaceX Starfall capsule splashed down in the Pacific. Tom's Hardware says the pods launched from Cape Canaveral Space Force Station on a Falcon 9 as part of the Bandwagon-5 rideshare, and that an Air Force Research Lab post on Oct. 26 said each pod carried representative mission equipment, including meals ready to eat, bottled water, a SATCOM-enabled tracker, and spare batteries, so the lab could study temperature, shock, and vibration. Technology Transition Office director Adam Remaly called the recovery a demonstration of Rocket Cargo point-to-point delivery. Tom's Hardware says the Starfall capsule is about 10 feet across and has a capacity of up to 2,200 pounds.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/space/usaf-successfully-tests-dropping-spacex-starfall-cargo-drop-pods-from-space-2-200-pound-capsule-drops-military-supplies-in-the-pacific-to-test-starcraft-like-supply-drops"
+        }
+      ]
+    },
     {
       "id": "aws-ml-kem-2026-10-26",
       "subsection": "quantum",

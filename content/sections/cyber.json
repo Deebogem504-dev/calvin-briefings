@@ -3,12 +3,12 @@
   "file": "cyber.html",
   "nav": "CYBER",
   "kicker": "CYBER",
-  "cadence": "Daily · weekdays",
+  "cadence": "Daily \u00b7 weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-10-30",
-  "covers": "Oct 24–30, 2026",
-  "readFirst": "Covers Oct. 24–30. New: CISA on Oct. 29 added a GitLab CI/CD bug and a Cisco Secure Firewall ASA and FTD VPN bug to the KEV catalog, both due Nov. 1. The php2shell catalog due date was Oct. 29, and that item was removed because the due date has passed. The Linux kernel bug that CISA says can be chained with php2shell remains due Oct. 31. No new public update on the DMDC personnel breach was found.",
+  "compiled": "2026-11-02",
+  "covers": "Oct 26\u2013Nov 2, 2026",
+  "readFirst": "Covers Oct. 26\u2013Nov. 2. New: CISA on Oct. 30 added two Ivanti Connect Secure bugs, one due Nov. 2 and one due Nov. 13, and Cisco Talos on Oct. 31 described the VOLTA stealer, which asks Claude to rank stolen data. Federal News Network reported Oct. 30 that a CISA official called Chainguard's early PHP patch release dangerous. The GitLab and Cisco firewall KEV items were removed because their Nov. 1 due dates have passed, and the Oct. 28 Linux kernel bug was removed because its Oct. 31 due date has passed. The VMware ESX logging bug from that alert remains due Nov. 11 and is on the partners page. The Oct. 26 CISA 2030 strategy item was dropped so the trends subsection stayed within four items. No new public update on the DMDC personnel breach was found.",
   "subsections": [
     {
       "id": "kev",
@@ -25,46 +25,56 @@
   ],
   "items": [
     {
-      "id": "gitlab-cisco-kev-2026-10-29",
+      "id": "ivanti-connect-kev-2026-10-30",
       "subsection": "kev",
-      "date": "2026-10-29",
-      "dateLabel": "Oct 29",
-      "headline": "CISA adds a GitLab code-execution bug and a Cisco firewall VPN bug, both due Nov. 1",
-      "summary": "CISA said Oct. 29 it added CVE-2026-97229, a GitLab integer-overflow bug, and CVE-2026-76418, a Cisco Secure Firewall ASA and FTD bug, to the Known Exploited Vulnerabilities catalog. The catalog sets a due date of Nov. 1 for both, requires forensic triage for the GitLab bug, and does not require it for the Cisco bug. CISA says the GitLab flaw could let an unauthenticated user run arbitrary code on the server with a crafted regular expression in a CI/CD configuration, and GitLab's Oct. 12 patch release fixes it in 19.4.2, 19.3.5, and 19.2.8. Cisco says CVE-2026-76418 is in the remote-access SSL VPN service when secondary authentication is configured on a tunnel group, that an unauthenticated remote attacker can reload the device, that there is no workaround, and that its PSIRT became aware of active exploitation in October 2026.",
+      "date": "2026-11-02",
+      "dateLabel": "Oct 30\u2013Nov 2",
+      "headline": "CISA adds two Ivanti Connect Secure bugs, one due Nov. 2 and one due Nov. 13",
+      "summary": "CISA said Oct. 30 it added CVE-2026-111357 and CVE-2026-118527, both in Ivanti Connect Secure, to the Known Exploited Vulnerabilities catalog. The catalog sets a due date of Nov. 2 for CVE-2026-111357, requires forensic triage, and says a local authenticated attacker could escalate privileges. It sets a due date of Nov. 13 for CVE-2026-118527, does not require forensic triage, and says a remote authenticated attacker can upload files to a known location. SecurityWeek reported Nov. 2 that Ivanti rates the bugs 8.8 and 4.3, that fixes are in Connect Secure 25.1.1.3 and 22.8R2.6, and that Ivanti said the latest release addresses the vulnerabilities that were chained and exploited in the wild with CVE-2026-104935.",
       "sources": [
         {
           "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog"
         },
         {
           "name": "CISA KEV catalog",
           "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
         },
         {
-          "name": "GitLab",
-          "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/"
-        },
-        {
-          "name": "Cisco",
-          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75"
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/"
         }
       ]
     },
     {
-      "id": "linux-esx-kev-2026-10-28",
-      "subsection": "kev",
-      "date": "2026-10-28",
-      "dateLabel": "Oct 28",
-      "headline": "CISA adds a Linux kernel bug chained with php2shell, due Oct. 31, and a VMware ESX logging bug",
-      "summary": "CISA said Oct. 28 it added CVE-2026-46300, a Linux kernel missing-initialization bug, and CVE-2026-41709, a Broadcom VMware ESX insufficient-logging bug, to the Known Exploited Vulnerabilities catalog. The catalog sets a due date of Oct. 31 for the kernel bug, marks it for forensic triage, and says it can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root. CISA describes the kernel flaw as letting socket-buffer coalescing drop a shared-fragment marker so ESP input processing decrypts shared fragments in place and can modify page-cache-backed data. The ESX entry is due Nov. 11, does not require forensic triage, and says a malicious actor with admin access could perform certain operations without them being logged.",
+      "id": "volta-talos-2026-10-31",
+      "subsection": "trends",
+      "date": "2026-11-01",
+      "dateLabel": "Oct 31\u2013Nov 1",
+      "headline": "Cisco Talos: the VOLTA stealer asks Claude to rank what a victim is worth",
+      "summary": "Cisco Talos said Oct. 31 that a self-deleting Windows infostealer it calls VOLTA-AUTODOXER sends a structured evidence bundle to a model after it steals credentials, sessions, and cryptocurrency wallets. Talos says the default model is Anthropic's Claude Opus 4.6, at a temperature of 0.2, and that if the model refuses, the malware tries Moonshot's Kimi K2 and then Google's Gemini 2.5 Flash. Talos says the prompt asks the model to act as a forensic intelligence analyst and to rank what the victim is worth. Tom's Hardware reported Nov. 1 that the call goes to OpenRouter and that the malware can skip the model step if no API key is supplied.",
       "sources": [
         {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+          "name": "Cisco Talos",
+          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/"
         },
         {
-          "name": "CISA KEV catalog",
-          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/new-ai-driven-windows-malware-feeds-stolen-data-to-claude-to-rank-victims-assets-by-value-then-deletes-itself-payload-builds-custom-target-assessment-can-switch-models-if-one-refuses-or-skip-the-ai-step-entirely"
+        }
+      ]
+    },
+    {
+      "id": "php-embargo-2026-10-30",
+      "subsection": "trends",
+      "date": "2026-10-30",
+      "dateLabel": "Oct 28\u201330",
+      "headline": "Federal News Network: a CISA official calls Chainguard's early PHP patch release dangerous",
+      "summary": "Federal News Network reported Oct. 30 that Jay Gazlay, CISA's acting associate director for vulnerability management, called Chainguard's decision to release PHP patches more than six hours before a coordinated disclosure dangerous and inappropriate. Gazlay spoke at an Oct. 28 conference hosted by Red Hat in Washington. Chainguard chief executive Dan Lorenc told Federal News Network he stands by the early release and said the company saw evidence the bugs were being exploited before the embargo. The PHP Foundation wrote that an attacker could study the fix while other PHP users were still waiting, and Federal News Network says CISA added the PHP bugs to the KEV catalog on Oct. 26.",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/cybersecurity/2026/10/dangerous-cisa-official-criticizes-companys-decision-to-release-php-bug-early/"
         }
       ]
     },
@@ -72,7 +82,7 @@
       "id": "brotli-adobe-kev-2026-10-27",
       "subsection": "kev",
       "date": "2026-10-27",
-      "dateLabel": "Oct 27–28",
+      "dateLabel": "Oct 27\u201328",
       "headline": "CISA adds Brotli and an Adobe Commerce bug to the KEV catalog, due Nov. 10",
       "summary": "CISA said Oct. 27 it added CVE-2026-48356, an Adobe Commerce and Magento unrestricted file-upload bug, and CVE-2026-111497, a Google Brotli unchecked-return-value bug, to the Known Exploited Vulnerabilities catalog. The catalog sets a due date of Nov. 10 for both and describes the Brotli flaw as letting a remote unauthenticated attacker corrupt decoder memory, disclose memory, cause a denial of service, or potentially run code with a crafted compressed stream. SecurityWeek reported Oct. 28 that the Brotli bug, also called Node2Shell, affects Brotli 1.0.3 through 1.2.0, that federal civilian agencies were told to address it by Nov. 10, and that Broadcom warned Oct. 27 that SDDC Manager in VMware Cloud Foundation is affected because it uses Node.js, with patches still pending. SecurityWeek also said two honeypot operators logged attempts, and that ELLIO called the exploit it analyzed broken.",
       "sources": [
@@ -105,20 +115,6 @@
       ]
     },
     {
-      "id": "cisa-2030-2026-10-26",
-      "subsection": "trends",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "CISA publishes a 2030 strategy with 60-, 180- and 365-day milestones",
-      "summary": "CISA said Oct. 26 it released CISA 2030: Defend, Harden, Prevail. Acting Director Nick Andersen called on critical-infrastructure owners, operators, vendors and technology manufacturers to act, and the release says the strategy is meant to identify, disrupt and eliminate adversarial access. CISA names three pillars: Defend, lead national cyber defense; Harden, prioritize national infrastructure security; and Prevail, mobilize national resilience. The release says CISA will begin reviewing core services within 60 days, provide an implementation plan within 180 days, and report progress within 365 days. It also says CISA will keep its role, delegated by Homeland Security, in starting and restoring National Security and Emergency Preparedness communications.",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/news/cisa-unveils-new-strategy-strengthen-national-cyber-defense-and-critical-infrastructure-security"
-        }
-      ]
-    },
-    {
       "id": "cmmc-rfi-2026-10-26",
       "subsection": "trends",
       "date": "2026-10-26",
@@ -129,20 +125,6 @@
         {
           "name": "Federal News Network",
           "url": "https://federalnewsnetwork.com/defense-news/2026/10/dods-reasons-for-cmmc-pause-falling-apart-in-face-of-rfi-responses/"
-        }
-      ]
-    },
-    {
-      "id": "emudhra-ca-2026-10-24",
-      "subsection": "trends",
-      "date": "2026-10-24",
-      "dateLabel": "Oct 23–24",
-      "headline": "Cisco: eight eMudhra intermediate CA keys can be brute-forced, and firewalls are still under review",
-      "summary": "Cisco's informational advisory, first published Oct. 23 and updated Oct. 24, says a researcher showed that private keys for eight eMudhra intermediate certificates can be brute-forced in seconds because of an error in an April 2025 key ceremony, and that anyone with those keys can issue fraudulent TLS certificates for any domain. Cisco says two of the eight are code-signing CAs, and that all eight were cross-signed by Sectigo's AAA Certificate Services root in May 2025. Cisco PSIRT said it is not aware of malicious use. Secure Firewall Management Center has a remediation article, while Secure Firewall ASA, Threat Defense, and Identity Services Engine were still under investigation in the Oct. 24 update.",
-      "sources": [
-        {
-          "name": "Cisco",
-          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r"
         }
       ]
     }

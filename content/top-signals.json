@@ -3,50 +3,50 @@
     {
       "section": "cyber",
       "label": "CYBER",
-      "dateLabel": "Oct 29",
-      "headline": "CISA added a GitLab bug and a Cisco firewall VPN bug, both due Nov. 1",
-      "item": "gitlab-cisco-kev-2026-10-29",
+      "dateLabel": "Oct 30\u2013Nov 2",
+      "headline": "CISA added two Ivanti Connect Secure bugs, one due today",
+      "item": "ivanti-connect-kev-2026-10-30",
       "href": "cyber.html#kev"
-    },
-    {
-      "section": "dow",
-      "label": "DOW",
-      "dateLabel": "Oct 29–30",
-      "headline": "Hegseth fired J5 Lt. Gen. Brett Sylvia; the Pentagon says he was not the Iran planner",
-      "item": "sylvia-j5-2026-10-29",
-      "href": "dow.html#secwar"
-    },
-    {
-      "section": "ai",
-      "label": "AI",
-      "dateLabel": "Oct 26–29",
-      "headline": "Tom's Hardware: most of Anthropic's first-half compute bill went to R&D, not serving Claude",
-      "item": "anthropic-s1-2026-10-26",
-      "href": "ai.html#anthropic"
     },
     {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Oct 29",
-      "headline": "Army awarded Lockheed a $1.08 billion Future Interceptor agreement",
-      "item": "future-interceptor-2026-10-29",
+      "dateLabel": "Oct 26",
+      "headline": "Army named WWT and AWS for the Project Griffin pilot, contracted at Aberdeen",
+      "item": "project-griffin-2026-10-26",
       "href": "army.html#contracts"
+    },
+    {
+      "section": "ai",
+      "label": "AI",
+      "dateLabel": "Oct 30",
+      "headline": "OpenAI will honor a shared robots.txt signal for AI training",
+      "item": "openai-robots-2026-10-30",
+      "href": "ai.html#policy"
+    },
+    {
+      "section": "partners",
+      "label": "PARTNERS",
+      "dateLabel": "Oct 31",
+      "headline": "Intel is moving some client wafer capacity to Xeon",
+      "item": "intel-xeon-shift-2026-10-31",
+      "href": "partners.html#quiet"
     },
     {
       "section": "datacenter",
       "label": "DC/NET",
-      "dateLabel": "Oct 30",
-      "headline": "Intel expects the Fab 28 shutdown to cost about $600 million",
-      "item": "intel-fab28-2026-10-30",
-      "href": "datacenter.html#capacity"
+      "dateLabel": "Oct 30\u2013Nov 1",
+      "headline": "Altman met Samsung about memory for AI data centers; no new supply deal",
+      "item": "altman-samsung-ram-2026-11-01",
+      "href": "datacenter.html#storage"
     },
     {
-      "section": "budget",
-      "label": "BUDGET",
-      "dateLabel": "Oct 28",
-      "headline": "Pentagon puts the Iran war's cost at $47.1 billion as of Oct. 16",
-      "item": "iran-war-cost-2026-10-28",
-      "href": "budget.html#reconciliation"
+      "section": "dow",
+      "label": "DOW",
+      "dateLabel": "Oct 29\u201330",
+      "headline": "Hegseth fired J5 Lt. Gen. Brett Sylvia; the Pentagon says he was not the Iran planner",
+      "item": "sylvia-j5-2026-10-29",
+      "href": "dow.html#secwar"
     }
   ]
 }

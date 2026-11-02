@@ -3,12 +3,12 @@
   "file": "army.html",
   "nav": "ARMY",
   "kicker": "ARMY",
-  "cadence": "Weekly · Mondays",
+  "cadence": "Weekly \u00b7 Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-10-30",
-  "covers": "Oct 23–30, 2026",
-  "readFirst": "Covers Oct. 23–30. New: Army Public Affairs said Oct. 29 that Lockheed Martin received an Other Transaction Agreement for the Future Interceptor, with a total estimated value of $1.08 billion. An EIN Presswire note on a NETCOM Noble Skywave result was attributed to DVIDS, and the original DVIDS article was not found, so it was not added. No leadership confirmation dated Oct. 30 was found. An Oct. 14 Army xTech note still lists white papers for a Europe spectrum-warfare challenge as closing Oct. 30; no result was posted this morning.",
+  "compiled": "2026-11-02",
+  "covers": "Oct 26\u2013Nov 2, 2026",
+  "readFirst": "Covers Oct. 26\u2013Nov. 2. New: Army Public Affairs said Oct. 26 that AWS and WWT were selected Oct. 23 for a $2.6 million Project Griffin pilot, with contract support from Army Contracting Command-Aberdeen Proving Ground, and Tom's Hardware reported Nov. 2 that NATO tested commercial 5G towers as passive drone sensors during DiBaX in Latvia. An Oct. 30 Army.mil note on ASAE security-assistance deliveries to Americas Counter Cartel Coalition partners does not change a tactical network or contract vehicle, so it was not added. No new NETCOM release was found. EIN Presswire's military list for Oct. 30\u2013Nov. 1 did not produce an original DVIDS or company article on NETCOM or Aberdeen. The Oct. 25 Gatekeeper item was removed because it is older than seven days.",
   "subsections": [
     {
       "id": "leadership",
@@ -33,6 +33,34 @@
   ],
   "items": [
     {
+      "id": "usaisec-wan-2026-10-26",
+      "subsection": "network",
+      "date": "2026-10-26",
+      "dateLabel": "Oct 26",
+      "headline": "USAISEC, with NETCOM, is replacing Army wide-area network gear in the U.S. and Europe",
+      "summary": "An Army.mil article datelined Aberdeen Proving Ground on Oct. 26 says the U.S. Army Information Systems Engineering Command, a Communications-Electronics Command subordinate, is leading lifecycle replacement of wide-area network equipment across the United States and Europe in coordination with Network Enterprise Technology Command. The article says the work is meant to produce one software-defined enterprise network, using software-defined wide-area network technology and next-generation firewalls so the network can shift around outages, congestion and cyber threats without manual intervention. It says the design is a zero-trust model and that USAISEC engineers check power, cooling and shielding before new hardware goes in. Director of the Data Science and Engineering Directorate Dr. Jennifer Mills said the switches, servers and firewalls are the bedrock of the Army's digital future. USAISEC is headquartered at Fort Huachuca and uses hubs at Fort Huachuca and Fort Gordon.",
+      "sources": [
+        {
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/296237/empowering_multidomain_operations_modernizing_the_army_enterprise_network_for_decision_dominance"
+        }
+      ]
+    },
+    {
+      "id": "dibax-5g-2026-11-02",
+      "subsection": "network",
+      "date": "2026-11-02",
+      "dateLabel": "Nov 2",
+      "headline": "Tom's Hardware: NATO tested commercial 5G towers as passive drone sensors in Latvia",
+      "summary": "Tom's Hardware reported Nov. 2 that NATO's Digital Backbone Experimentation exercise, DiBaX 2026, ran in Latvia from Oct. 19 to Oct. 30 and investigated whether commercial 5G towers could passively detect and track drones. Admiral Pierre Vandier, NATO's Supreme Allied Commander Transformation, said the exercise connected systems that were never designed to communicate, including a Maven system speaking to a national system, and that agentic AI fixed that link in hours. Tom's Hardware says the United States was among the allies in the exercise, and that some of the Latvia tests failed. It also says AT&T and Ericsson separately demonstrated 5G drone detection near AT&T Stadium in Arlington, Texas, with drones flying between 300 and 400 feet.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/networking/military-explores-commercial-5g-networks-for-enemy-drone-defense-ai-agents-developed-the-system-recently-used-in-battlefield-trials-in-latvia"
+        }
+      ]
+    },
+    {
       "id": "future-interceptor-2026-10-29",
       "subsection": "contracts",
       "date": "2026-10-29",
@@ -51,40 +79,12 @@
       "subsection": "contracts",
       "date": "2026-10-26",
       "dateLabel": "Oct 26",
-      "headline": "MeriTalk: Army selected AWS and WWT for a $2.6 million Project Griffin pilot",
-      "summary": "MeriTalk reported Oct. 26 that the Army selected Amazon Web Services and World Wide Technology for a combined $2.6 million pilot under Project Griffin, aimed at AI-enabled cyber defense. MeriTalk says Griffin is one of three accelerated efforts under Project ARDS, the Army Rapid Defensive of Cyber Systems initiative, and that the aim is an autonomous, agentic platform so defenders can identify and neutralize threats faster and cut vulnerabilities tied to manual analysis. Principal cyber advisor Brandon Pugh said Griffin is one of the first ARDS efforts and that the Army will implement what he called SI-enabled tools to detect, divert and deceive threat actors. MeriTalk also says the administration has directed agencies to call AI super intelligence, or SI, in official documents.",
-      "sources": [
-        {
-          "name": "MeriTalk",
-          "url": "https://www.meritalk.com/articles/army-launches-project-gatekeeper-to-speed-commercial-software-cyber-reviews/"
-        }
-      ]
-    },
-    {
-      "id": "usaisec-wan-2026-10-26",
-      "subsection": "network",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "USAISEC, with NETCOM, is replacing Army wide-area network gear in the U.S. and Europe",
-      "summary": "An Army.mil article datelined Aberdeen Proving Ground on Oct. 26 says the U.S. Army Information Systems Engineering Command, a Communications-Electronics Command subordinate, is leading lifecycle replacement of wide-area network equipment across the United States and Europe in coordination with Network Enterprise Technology Command. The article says the work is meant to produce one software-defined enterprise network, using software-defined wide-area network technology and next-generation firewalls so the network can shift around outages, congestion and cyber threats without manual intervention. It says the design is a zero-trust model and that USAISEC engineers check power, cooling and shielding before new hardware goes in. Director of the Data Science and Engineering Directorate Dr. Jennifer Mills said the switches, servers and firewalls are the bedrock of the Army's digital future. USAISEC is headquartered at Fort Huachuca and uses hubs at Fort Huachuca and Fort Gordon.",
+      "headline": "Army selects AWS and WWT for a $2.6 million Project Griffin cyber pilot",
+      "summary": "Army Public Affairs said Oct. 26 that the Army selected Amazon Web Services and World Wide Technology on Oct. 23 for a Project Griffin pilot valued at a combined $2.6 million. The release says the aim is an autonomous, agentic platform so cyber defenders can neutralize threats faster, and that Griffin is one of three accelerated efforts under Project ARDS, the Army Rapid Defensive of Cyber Systems initiative. Principal cyber advisor Brandon Pugh said the Army will implement what he called SI-enabled tools to detect, divert and deceive threat actors. Project Manager, Cyber Warfare, under the Portfolio Management Executive for Intelligence and Spectrum Warfare, will manage execution, with contract support from Army Contracting Command-Aberdeen Proving Ground.",
       "sources": [
         {
           "name": "Army.mil",
-          "url": "https://www.army.mil/article/296237/empowering_multidomain_operations_modernizing_the_army_enterprise_network_for_decision_dominance"
-        }
-      ]
-    },
-    {
-      "id": "project-gatekeeper-2026-10-25",
-      "subsection": "network",
-      "date": "2026-10-25",
-      "dateLabel": "Oct 23–25",
-      "headline": "Army says Project Gatekeeper, its commercial-software security sandbox, launched Oct. 23",
-      "summary": "Army Public Affairs said Oct. 25 that the Office of the Chief Information Officer launched Project Gatekeeper on Oct. 23, a DevSecOps platform and security-evaluation sandbox for commercial software. Acting CIO Gabe Chiulli said the automated intake is meant to cut evaluation cycles from months to minutes while keeping the network perimeter in place. The release says vendors submit code and containerized applications into isolated enclaves that do not expose operational data, and that the pipelines produce evidence dossiers for an authority to operate. Access is currently limited to a Department of War common access card, with public Login.gov access described as coming later, and the release says the platform will later use frontier security models from unnamed super intelligence partners.",
-      "sources": [
-        {
-          "name": "Army.mil",
-          "url": "https://www.army.mil/article/296302/us_army_launches_project_gatekeeper_to_accelerate_commercial_software_adoption_streamline_cybersecurity_accreditation"
+          "url": "https://www.army.mil/article/296330/army_selects_project_griffin_partners_to_accelerate_si_enabled_cyber_defense"
         }
       ]
     }

@@ -3,12 +3,12 @@
   "file": "wwt.html",
   "nav": "WWT",
   "kicker": "WWT",
-  "cadence": "Weekly · Mondays",
-  "title": "WWT ↔ U.S. Army Signal Mapping",
+  "cadence": "Weekly \u00b7 Mondays",
+  "title": "WWT \u2194 U.S. Army Signal Mapping",
   "description": "World Wide Technology public content and Army business, set next to U.S. Army leadership priorities.",
-  "compiled": "2026-10-30",
-  "covers": "Oct 25–30, 2026",
-  "readFirst": "Covers Oct. 25–30. No WWT press release dated Oct. 29–30 was found. The Oct. 28 Cisco Partner Summit awards remain the newest WWT release, including Global One Cisco Partner of the Year and a U.S. Federal Defense Partner of the Year award. The two Signal Mapping notes are analysis, tagged Inference.",
+  "compiled": "2026-11-02",
+  "covers": "Oct 26\u2013Nov 2, 2026",
+  "readFirst": "Covers Oct. 26\u2013Nov. 2. No WWT press release dated Oct. 30\u2013Nov. 2 was found. The Oct. 28 Cisco Partner Summit awards remain the newest WWT release. The Griffin note now cites the Army's Oct. 26 release, which names WWT and says Army Contracting Command-Aberdeen Proving Ground will support the contract. The Oct. 26 TechNet Indo-Pacific office hours have passed, and no newer WWT event was posted. The Gatekeeper mapping note was removed because its date is older than seven days. One Signal Mapping note remains, tagged Inference.",
   "subsections": [
     {
       "id": "content",
@@ -47,12 +47,12 @@
       "subsection": "content",
       "date": "2026-10-26",
       "dateLabel": "Oct 26",
-      "headline": "MeriTalk: the Army named WWT and AWS for the Project Griffin cyber pilot",
-      "summary": "MeriTalk reported Oct. 26 that the Army selected World Wide Technology and Amazon Web Services for a combined $2.6 million pilot under Project Griffin. MeriTalk says the pilot is meant to advance AI-enabled cyber defense and that Griffin is one of three accelerated efforts under Project ARDS, the Army Rapid Defensive of Cyber Systems initiative. Principal cyber advisor Brandon Pugh said the Army will implement what he called SI-enabled tools to detect, divert and deceive threat actors and to scale network defense.",
+      "headline": "Army release: WWT and AWS were selected for the Project Griffin cyber pilot",
+      "summary": "Army Public Affairs said Oct. 26 that the Army selected World Wide Technology and Amazon Web Services on Oct. 23 for a combined $2.6 million Project Griffin pilot. The release says Griffin is one of three accelerated efforts under Project ARDS and that the objective is an autonomous, agentic platform for cyber defenders. It says Army Contracting Command-Aberdeen Proving Ground will provide contract support, and that the Portfolio Management Executive for Intelligence and Spectrum Warfare will manage execution through Project Manager, Cyber Warfare.",
       "sources": [
         {
-          "name": "MeriTalk",
-          "url": "https://www.meritalk.com/articles/army-launches-project-gatekeeper-to-speed-commercial-software-cyber-reviews/"
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/296330/army_selects_project_griffin_partners_to_accelerate_si_enabled_cyber_defense"
         }
       ]
     },
@@ -76,31 +76,12 @@
       "date": "2026-10-26",
       "dateLabel": "Oct 26",
       "tag": "inference",
-      "headline": "Griffin is a new cyber pilot with WWT's name on it; it is not the GEMSS Cisco vehicle",
-      "summary": "MeriTalk's Oct. 26 report says the Army selected WWT and AWS for a $2.6 million Project Griffin pilot aimed at an agentic cyber-defense platform. The Army Cisco agreement WWT posted in July is GEMSS 2.1, the enterprise software and support consolidation. Nothing in the MeriTalk report says Griffin changes GEMSS, names a Cisco bill of materials, or makes WWT an NGC2 prime. Read together, the new public line that names WWT is a small cyber pilot, and the Cisco vehicle WWT has published is a separate enterprise agreement.",
-      "sources": [
-        {
-          "name": "MeriTalk",
-          "url": "https://www.meritalk.com/articles/army-launches-project-gatekeeper-to-speed-commercial-software-cyber-reviews/"
-        },
-        {
-          "name": "WWT GEMSS 2.1",
-          "url": "https://www.wwt.com/press-release/world-wide-technology-awarded-us-army-gemss-21-agreement-to-advance-enterprise-it-modernization"
-        }
-      ]
-    },
-    {
-      "id": "mapping-gatekeeper-gemss",
-      "subsection": "mapping",
-      "date": "2026-10-25",
-      "dateLabel": "Oct 25",
-      "tag": "inference",
-      "headline": "Gatekeeper is a new software prescreen; it does not replace GEMSS as the Army Cisco vehicle",
-      "summary": "The Army's Oct. 25 release says Project Gatekeeper launched Oct. 23 so a vendor with a Department of War CAC can submit code to an isolated sandbox and get automated security feedback before an authority to operate. WWT's only Army agreement still posted as current news is GEMSS 2.1, the July Cisco enterprise software and support consolidation. Nothing in the Gatekeeper release names WWT or changes that agreement. The new path is a prescreen for commercial software on the Army network; public Login.gov access is not available yet, and the funded Cisco footprint on the record is unchanged.",
+      "headline": "Griffin names WWT on a small cyber pilot contracted at Aberdeen; it is not the GEMSS Cisco vehicle",
+      "summary": "The Army's Oct. 26 release says the service selected WWT and AWS on Oct. 23 for a combined $2.6 million Project Griffin pilot, and that Army Contracting Command-Aberdeen Proving Ground will provide contract support. The Army Cisco agreement WWT posted in July is GEMSS 2.1, the enterprise software and support consolidation. Nothing in the Griffin release says the pilot changes GEMSS, names a Cisco bill of materials, or makes WWT an NGC2 prime. Read together, the new public line that names WWT is a small cyber pilot contracted at Aberdeen, and the Cisco vehicle WWT has published is a separate enterprise agreement.",
       "sources": [
         {
           "name": "Army.mil",
-          "url": "https://www.army.mil/article/296302/us_army_launches_project_gatekeeper_to_accelerate_commercial_software_adoption_streamline_cybersecurity_accreditation"
+          "url": "https://www.army.mil/article/296330/army_selects_project_griffin_partners_to_accelerate_si_enabled_cyber_defense"
         },
         {
           "name": "WWT GEMSS 2.1",

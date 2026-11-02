@@ -3,12 +3,12 @@
   "file": "partners.html",
   "nav": "PARTNERS",
   "kicker": "PARTNERS",
-  "cadence": "Weekly · Mondays",
+  "cadence": "Weekly \u00b7 Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-10-30",
-  "covers": "Oct 23–30, 2026",
-  "readFirst": "Covers Oct. 23–30. Palo Alto's php2shell advisory now says the Oct. 29 timeline removed the estimated date for 11.1.7-h12 because that version is released. CISA's Oct. 29 Cisco Secure Firewall ASA and FTD KEV entry is on the cyber page. Intel's Fab 28 shutdown, reported by Tom's Hardware on Oct. 30, is on the data-center page. F5 had no new release. No new Dell, HPE, NetApp, or Microsoft release dated Oct. 29–30 was found. No new VMware advisory dated Oct. 29–30 was found.",
+  "compiled": "2026-11-02",
+  "covers": "Oct 26\u2013Nov 2, 2026",
+  "readFirst": "Covers Oct. 26\u2013Nov. 2. New: Tom's Hardware reported Oct. 31 that Intel is shifting some client wafer capacity to Xeon server processors. F5 had no new release. No new Dell, HPE, NetApp, or Microsoft release dated Oct. 30\u2013Nov. 2 was found. No new VMware advisory dated Oct. 30\u2013Nov. 2 was found; the Oct. 28 ESX logging bug remains due Nov. 11. Palo Alto's php2shell and Brotli hotfix notes from Oct. 29 remain the newest Palo Alto items. Cisco's Oct. 29 firewall KEV was dropped from the cyber page because its Nov. 1 due date has passed.",
   "subsections": [
     {
       "id": "cisco",
@@ -48,7 +48,7 @@
     },
     {
       "id": "quiet",
-      "title": "F5 · Intel · VMware"
+      "title": "F5 \u00b7 Intel \u00b7 VMware"
     },
     {
       "id": "other",
@@ -56,6 +56,20 @@
     }
   ],
   "items": [
+    {
+      "id": "intel-xeon-shift-2026-10-31",
+      "subsection": "quiet",
+      "date": "2026-10-31",
+      "dateLabel": "Oct 31",
+      "headline": "Tom's Hardware: Intel is moving some client wafer capacity to Xeon server processors",
+      "summary": "Tom's Hardware reported Oct. 31, citing Intel's earnings call, that Intel is moving some manufacturing capacity from client processors to data-center CPUs. Chief executive Lip-Bu Tan said the industry is navigating what he called one of the most significant supply shortages in history, driven by demand for super intelligence, and that Data Center and AI revenue was $7.3 billion in the third quarter of 2026, up 17 percent from the prior quarter. Chief financial officer Dave Zinsner said wafers being taken offline in Oregon to add Intel 3 capacity had been intended for Panther Lake client products on 18A. Tom's Hardware says that added Oregon capacity is expected to enter production in the second half of 2027, and that a Fab 24 expansion in Ireland for Xeon is not expected online until the end of 2027 unless it is accelerated.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history"
+        }
+      ]
+    },
     {
       "id": "cisco-model-foundry-2026-10-26",
       "subsection": "cisco",
@@ -71,34 +85,6 @@
         {
           "name": "Cisco",
           "url": "https://investor.cisco.com/news/news-details/2026/Cisco-Expands-Partner-Opportunity-with-New-Cisco-360-Program-Updates-High-Yield-Customer-Experience-Offerings-and-AI-Ready-Innovations/default.aspx"
-        }
-      ]
-    },
-    {
-      "id": "emudhra-cisco-2026-10-24",
-      "subsection": "cisco",
-      "date": "2026-10-24",
-      "dateLabel": "Oct 23–24",
-      "headline": "Cisco warns that eight eMudhra intermediate certificates can be brute-forced",
-      "summary": "Cisco's advisory, first published Oct. 23 and updated Oct. 24, says private keys for eight eMudhra intermediate certificates can be brute-forced in seconds because of an April 2025 key-ceremony error, and that the keys can issue fraudulent TLS certificates. Cisco says two of the CAs are for code signing and that Sectigo cross-signed all eight in May 2025. Cisco PSIRT said it is not aware of malicious use. Secure Firewall Management Center has a remediation article, while Secure Firewall ASA, Threat Defense, and Identity Services Engine were still under investigation.",
-      "sources": [
-        {
-          "name": "Cisco",
-          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r"
-        }
-      ]
-    },
-    {
-      "id": "cisco-php2shell-2026-10-23",
-      "subsection": "cisco",
-      "date": "2026-10-23",
-      "dateLabel": "Oct 23",
-      "headline": "Cisco's PHP2Shell list hits Expressway and wireless backhaul, not the firewalls",
-      "summary": "Cisco updated its PHP advisory on Oct. 23 for CVE-2026-109618 and CVE-2026-109619, which it calls PHP2Shell. Affected products are Ultra-Reliable Wireless Backhaul, Expressway, Expressway Select, and Duo Access Gateway. Cisco says the backhaul bug requires an administrator and scores it 6.6, with a fix targeted for February 2027, while Expressway's fix is listed as 15.5.21 with the date still open and Duo Access Gateway is fixed in 3.2.0. Cisco says products not listed are not affected, including Secure Firewall ASA, Management Center, Threat Defense, IOS, IOS XE, IOS XR, and NX-OS, and that PSIRT is not aware of malicious use.",
-      "sources": [
-        {
-          "name": "Cisco",
-          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq"
         }
       ]
     },
@@ -120,7 +106,7 @@
       "id": "palo-php-2026-10-26",
       "subsection": "paloalto",
       "date": "2026-10-29",
-      "dateLabel": "Oct 21–29",
+      "dateLabel": "Oct 21\u201329",
       "headline": "Palo Alto says php2shell is being exploited on internet-exposed management interfaces",
       "summary": "Palo Alto Networks updated its advisory on CVE-2026-109618 and CVE-2026-109619 on Oct. 29. Palo Alto now says active exploitation has been observed against management interfaces exposed to the internet, rates that case critical with a CVSS-B score of 9.2, and says the issue applies to PAN-OS on PA-Series and VM-Series firewalls and on Panorama. The Oct. 29 timeline entry says estimated dates for 11.1.7-h12 were removed because that version is released. The solution table says to upgrade PAN-OS 11.1.7 through 11.1.7-h* to 11.1.7-h12 or 11.1.16-h4 or later.",
       "sources": [
@@ -134,41 +120,13 @@
       "id": "palo-brotli-2026-10-28",
       "subsection": "paloalto",
       "date": "2026-10-29",
-      "dateLabel": "Oct 26–29",
+      "dateLabel": "Oct 26\u201329",
       "headline": "Palo Alto's Oct. 29 Brotli update says the remaining listed hotfixes are released",
       "summary": "Palo Alto Networks updated its advisory on CVE-2026-111497 on Oct. 29. Palo Alto says the bug applies to PAN-OS on PA-Series and VM-Series firewalls when Brotli inspection and TLS decryption are enabled on the dataplane, that the management interface is not affected, and that it is not aware of malicious exploitation of this issue. It says PAN-OS 11.1, PAN-OS 10.2, and Panorama are not affected, and that Brotli inspection is disabled by default in PAN-OS 11.2.4 and later. The Oct. 29 changelog says the estimated dates for 11.2.4-h23, 12.1.4-h13, and 12.1.10-h3 were removed because those versions are released, and the advisory says the same hotfix covers both the PHP bugs and Brotli except that 11.2.10-h16 fixes only PHP and 11.2.10-h17 fixes both.",
       "sources": [
         {
           "name": "Palo Alto Networks",
           "url": "https://security.paloaltonetworks.com/CVE-2026-111497"
-        }
-      ]
-    },
-    {
-      "id": "palo-openai-marketplace-2026-10-23",
-      "subsection": "paloalto",
-      "date": "2026-10-23",
-      "dateLabel": "Oct 23",
-      "headline": "Palo Alto lists Unit 42 Continuous Frontier AI Defense and Prisma AIRS on the OpenAI Marketplace",
-      "summary": "Palo Alto Networks said Oct. 23 that Unit 42 Continuous Frontier AI Defense and Prisma AIRS are on the OpenAI Marketplace for OpenAI's enterprise customers. It describes Unit 42 Continuous Frontier AI Defense as an annual subscription that uses a multi-model harness, including OpenAI's GPT-5.6-Cyber, to find and validate exposures. Palo Alto said six months of in-house testing and more than 75 customer engagements, backed by a $17 million research investment, found exposures in every assessed organization, and that more than two-thirds of exposures in third-party applications had no known CVE. Prisma AIRS is the platform it describes for discovery, runtime protection, and governance of AI applications and agents.",
-      "sources": [
-        {
-          "name": "Palo Alto Networks",
-          "url": "https://www.paloaltonetworks.com/blog/2026/10/palo-alto-networks-brings-continuous-ai-defense-and-prisma-airs-to-the-openai-marketplace/"
-        }
-      ]
-    },
-    {
-      "id": "google-claude-ga-partners-2026-10-23",
-      "subsection": "google",
-      "date": "2026-10-23",
-      "dateLabel": "Oct 23",
-      "headline": "Google Cloud makes an Anthropic-managed Claude deployment generally available",
-      "summary": "Google Cloud said Oct. 23 that an Anthropic-managed option for Claude models on Google Cloud is generally available, alongside the existing Google-managed option. Google says both deliver the same frontier models on day zero, the same pricing, and Google Cloud billing, including drawdown of eligible commitments. On the Anthropic-managed option, Anthropic is the data processor under its own terms, and Claude platform features such as Managed Agents in beta are available on day zero. Google names Claude Fable 5.1, Sonnet 5.5, Haiku 5.5, and Opus 5.5.",
-      "sources": [
-        {
-          "name": "Google Cloud",
-          "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud"
         }
       ]
     },
@@ -205,20 +163,6 @@
         {
           "name": "Broadcom",
           "url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39445"
-        }
-      ]
-    },
-    {
-      "id": "intel-tdx-ibm-2026-10-23",
-      "subsection": "quiet",
-      "date": "2026-10-23",
-      "dateLabel": "Oct 23",
-      "headline": "IBM and Intel pair Sovereign Core with Trust Domain Extensions on Xeon 6",
-      "summary": "IBM said Oct. 23 it is working with Intel to bring Intel Trust Domain Extensions on Xeon 6 processors into environments that use IBM Sovereign Core. IBM says TDX provides hardware-backed isolation for supported workloads during execution and attestation information about that environment. Intel's Anand Pashupathy said the combination is meant to extend protection through processing, not only through governance policy. IBM said the controls are complementary, and that confidential computing does not replace security architecture, access management, or compliance processes.",
-      "sources": [
-        {
-          "name": "IBM",
-          "url": "https://www.ibm.com/new/announcements/protecting-ai-at-runtime-with-ibm-and-intel"
         }
       ]
     },

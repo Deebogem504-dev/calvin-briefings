@@ -3,12 +3,12 @@
   "file": "ai.html",
   "nav": "AI",
   "kicker": "AI",
-  "cadence": "Daily · weekdays",
+  "cadence": "Daily \u00b7 weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-10-30",
-  "covers": "Oct 23–30, 2026",
-  "readFirst": "Covers Oct. 23–30. New: OpenAI published an updated Model Spec on Oct. 29, and Tom's Hardware the same day reported figures from Anthropic's S-1 on where first-half compute spending went. The Oct. 23 offline-training item was removed to stay within the section count. No separate Google or Nvidia product announcement dated Oct. 29–30 was found. OpenAI's Oct. 29 post on frontier-model misalignment monitors was not carried because the OpenAI subsection was already at four items.",
+  "compiled": "2026-11-02",
+  "covers": "Oct 26\u2013Nov 2, 2026",
+  "readFirst": "Covers Oct. 26\u2013Nov. 2. New: OpenAI said Oct. 30 it will honor a shared robots.txt signal for foundational AI training. No new Anthropic, Google, or Nvidia product announcement dated Oct. 30\u2013Nov. 2 was found. Cisco Talos's Oct. 31 report on the VOLTA stealer, which defaults to Claude, is on the cyber page. The Oct. 23 Google Cloud Claude item and the OpenAI-NASK item were removed because they are older than seven days.",
   "subsections": [
     {
       "id": "anthropic",
@@ -41,6 +41,20 @@
   ],
   "items": [
     {
+      "id": "openai-robots-2026-10-30",
+      "subsection": "policy",
+      "date": "2026-10-30",
+      "dateLabel": "Oct 30",
+      "headline": "OpenAI says it will honor a shared robots.txt signal for AI training",
+      "summary": "OpenAI said Oct. 30 it will honor a common signal in robots.txt so a website can state one preference about use of its content for foundational generative AI training, instead of writing a separate rule for every crawler. OpenAI said it aims to implement the signal in the coming months and that the signal will not replace OpenAI's existing crawler controls. OpenAI said it is joining other participants in the IETF AI Preferences working group in announcing the shared signal, and that it encourages other AI providers to honor it.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
+        }
+      ]
+    },
+    {
       "id": "anthropic-drug-2026-10-27",
       "subsection": "anthropic",
       "date": "2026-10-27",
@@ -58,7 +72,7 @@
       "id": "anthropic-s1-2026-10-26",
       "subsection": "anthropic",
       "date": "2026-10-29",
-      "dateLabel": "Oct 26–29",
+      "dateLabel": "Oct 26\u201329",
       "headline": "Anthropic's S-1: Tom's Hardware says most of the first-half compute bill went to R&D, not serving Claude",
       "summary": "Anthropic said Oct. 26 that Anthropic, PBC filed a Form S-1 for a proposed Nasdaq listing of Class A common stock under the symbol ANT, and that the share count and price range are not set. Tom's Hardware reported Oct. 29, citing that filing, that first-half 2026 compute and infrastructure spending was $8.95 billion, of which $2.38 billion was the cost of serving customers, against $16.29 billion in revenue. Tom's Hardware said the filing describes a multi-chip architecture across AWS Trainium, Google TPUs, Nvidia GPUs, and AMD GPUs, including about $161.2 billion in Broadcom TPU equipment-lease rent and at least $114.5 billion with Google. Tom's Hardware's own sum of the named deals is about $782 billion to $807 billion, and it said the S-1 leaves its own total blank.",
       "sources": [
@@ -161,20 +175,6 @@
       ]
     },
     {
-      "id": "claude-gcp-ga-2026-10-23",
-      "subsection": "google",
-      "date": "2026-10-23",
-      "dateLabel": "Oct 23",
-      "headline": "Google Cloud makes an Anthropic-managed Claude deployment generally available",
-      "summary": "Google Cloud said Oct. 23 that an Anthropic-managed option for Claude models on Google Cloud is generally available, alongside the existing Google-managed option. Google says both deliver the same frontier models on day zero, the same pricing, and Google Cloud billing, including drawdown of eligible commitments. On the Anthropic-managed option, Anthropic is the data processor under its own terms, and Claude platform features such as Managed Agents in beta, skills, and code execution are available on day zero. Google names Claude Fable 5.1, Sonnet 5.5, Haiku 5.5, and Opus 5.5, and says customers authenticate with Google Cloud IAM.",
-      "sources": [
-        {
-          "name": "Google Cloud",
-          "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud"
-        }
-      ]
-    },
-    {
       "id": "nvidia-meta-muse-2026-10-26",
       "subsection": "nvidia",
       "date": "2026-10-26",
@@ -199,20 +199,6 @@
         {
           "name": "NVIDIA Blog",
           "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
-        }
-      ]
-    },
-    {
-      "id": "openai-nask-2026-10-23",
-      "subsection": "policy",
-      "date": "2026-10-23",
-      "dateLabel": "Oct 23",
-      "headline": "OpenAI signs an AI-safety research agreement with Poland's NASK institute",
-      "summary": "OpenAI said Oct. 23 it signed an agreement with Poland's NASK National Research Institute to collaborate on AI safety, security, and technical research. NASK's AI Safety Research Center will act as the Polish Artificial Intelligence Safety Institute. OpenAI said the work will cover evaluating capable systems, finding vulnerabilities, and strengthening safeguards. It also said CERT Polska, which operates within NASK, used Daybreak models in July to help find six vulnerabilities in MikroTik RouterOS, including flaws that could be combined to take control of devices without authentication, and that the vendor's fixes blocked the attacks CERT Polska had seen.",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership/"
         }
       ]
     }
