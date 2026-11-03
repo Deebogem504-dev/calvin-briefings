@@ -6,9 +6,9 @@
   "cadence": "Daily \u00b7 weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-02",
-  "covers": "Oct 26\u2013Nov 2, 2026",
-  "readFirst": "Covers Oct. 26\u2013Nov. 2. No Department of War release dated Oct. 31\u2013Nov. 2 was found, and no new Golden Dome appropriation was found. The Sylvia removal remains the lead. The betting memo, Project Agincourt, FORTRESS, and the Hormuz milestone were removed because their dates are older than seven days. Federal News Network's Oct. 30 story on Air Force barracks Wi-Fi was not added because it is an Air Force compliance note rather than a new Army network program.",
+  "compiled": "2026-11-03",
+  "covers": "Oct 26–Nov 3, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 3. New: Federal News Network reported Nov. 2 that the Department of Defense Education Activity director job has been vacant since Oct. 31. The war.gov news page did not load, so no Department of War release dated Nov. 2–3 was opened, and no new Golden Dome appropriation was found. The Sylvia removal remains the lead. A September election-security memo was republished ahead of today's midterms and was not added as a new directive.",
   "subsections": [
     {
       "id": "secwar",
@@ -47,6 +47,20 @@
         {
           "name": "NBC News",
           "url": "https://www.nbcnews.com/politics/national-security/top-general-fired-hegseth-leak-investigation-rcna606456"
+        }
+      ]
+    },
+    {
+      "id": "dodea-vacancy-2026-11-02",
+      "subsection": "secwar",
+      "date": "2026-11-02",
+      "dateLabel": "Nov 2",
+      "headline": "Federal News Network: DoDEA's director job has been vacant since Oct. 31",
+      "summary": "Federal News Network reported Nov. 2 that the Department of Defense Education Activity's director job became vacant Oct. 31 and that the Pentagon has not named a replacement. The outlet says the department announced Paul Craft's resignation Oct. 15 and that he would leave at the end of the month after less than a year, and that Craft had replaced Beth Schiavino-Narvaez in March. It says the director oversees 161 schools serving more than 66,000 military-connected students, with about 14,000 staff. It also says the department is requesting $5.1 billion for DoDEA in fiscal 2027, including a $1.7 billion increase in mandatory spending.",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/defense-main/2026/11/dodea-loses-second-director-in-a-year-leaving-top-job-vacant/"
         }
       ]
     },

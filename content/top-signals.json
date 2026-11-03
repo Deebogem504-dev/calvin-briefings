@@ -1,49 +1,49 @@
 {
   "signals": [
     {
-      "section": "cyber",
-      "label": "CYBER",
-      "dateLabel": "Oct 30\u2013Nov 2",
-      "headline": "CISA added two Ivanti Connect Secure bugs, one due today",
-      "item": "ivanti-connect-kev-2026-10-30",
-      "href": "cyber.html#kev"
+      "section": "ai",
+      "label": "AI",
+      "dateLabel": "Nov 2",
+      "headline": "Former Army Secretary Dan Driscoll is joining OpenAI on national security",
+      "item": "driscoll-openai-2026-11-02",
+      "href": "ai.html#defense-ai"
     },
     {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Oct 26",
-      "headline": "Army named WWT and AWS for the Project Griffin pilot, contracted at Aberdeen",
-      "item": "project-griffin-2026-10-26",
-      "href": "army.html#contracts"
+      "dateLabel": "Nov 2",
+      "headline": "CECOM's Aberdeen review cites AI maintenance and installation IT/OT monitoring",
+      "item": "cecom-year-2026-11-02",
+      "href": "army.html#modernization"
     },
     {
-      "section": "ai",
-      "label": "AI",
-      "dateLabel": "Oct 30",
-      "headline": "OpenAI will honor a shared robots.txt signal for AI training",
-      "item": "openai-robots-2026-10-30",
-      "href": "ai.html#policy"
-    },
-    {
-      "section": "partners",
-      "label": "PARTNERS",
-      "dateLabel": "Oct 31",
-      "headline": "Intel is moving some client wafer capacity to Xeon",
-      "item": "intel-xeon-shift-2026-10-31",
-      "href": "partners.html#quiet"
+      "section": "cyber",
+      "label": "CYBER",
+      "dateLabel": "Nov 3",
+      "headline": "PHP2Shell is being chained to root Palo Alto firewalls; F5 and Cisco are also affected",
+      "item": "php2shell-chain-2026-11-03",
+      "href": "cyber.html#incidents"
     },
     {
       "section": "datacenter",
       "label": "DC/NET",
-      "dateLabel": "Oct 30\u2013Nov 1",
-      "headline": "Altman met Samsung about memory for AI data centers; no new supply deal",
-      "item": "altman-samsung-ram-2026-11-01",
-      "href": "datacenter.html#storage"
+      "dateLabel": "Nov 2",
+      "headline": "OpenAI's Grid Protectors plan includes 1,000 megawatts of flexible demand in Georgia",
+      "item": "grid-protectors-2026-11-02",
+      "href": "datacenter.html#power"
+    },
+    {
+      "section": "partners",
+      "label": "PARTNERS",
+      "dateLabel": "Nov 2",
+      "headline": "Palo Alto releases Cortex Cloud 2.3 with coding-agent integrations",
+      "item": "cortex-cloud-2026-11-02",
+      "href": "partners.html#paloalto"
     },
     {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Oct 29\u201330",
+      "dateLabel": "Oct 29–30",
       "headline": "Hegseth fired J5 Lt. Gen. Brett Sylvia; the Pentagon says he was not the Iran planner",
       "item": "sylvia-j5-2026-10-29",
       "href": "dow.html#secwar"

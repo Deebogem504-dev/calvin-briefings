@@ -6,9 +6,9 @@
   "cadence": "Weekly \u00b7 Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-02",
-  "covers": "Oct 26\u2013Nov 2, 2026",
-  "readFirst": "Covers Oct. 26\u2013Nov. 2. New: Tom's Hardware reported Nov. 1 that the Air Force Research Lab recovered Rocket Cargo pods after a SpaceX Starfall splashdown in the Pacific. No new post-quantum standard and no Army quantum award were found. PsiQuantum's Oct. 30 optical-switch demo is on the data-center page. No separate advanced-compute announcement dated Oct. 30\u2013Nov. 2 was found, so the compute subsection is empty.",
+  "compiled": "2026-11-03",
+  "covers": "Oct 26–Nov 3, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 3. No new post-quantum standard, Army quantum award, autonomy test, or space-delivery result dated Nov. 2–3 was found. The newest item remains Tom's Hardware's Nov. 1 report on the Air Force Research Lab's Starfall cargo recovery. PsiQuantum's Oct. 30 optical-switch demo is on the data-center page. The compute subsection is empty.",
   "subsections": [
     {
       "id": "quantum",

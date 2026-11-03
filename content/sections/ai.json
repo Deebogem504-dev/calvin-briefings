@@ -6,9 +6,9 @@
   "cadence": "Daily \u00b7 weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-02",
-  "covers": "Oct 26\u2013Nov 2, 2026",
-  "readFirst": "Covers Oct. 26\u2013Nov. 2. New: OpenAI said Oct. 30 it will honor a shared robots.txt signal for foundational AI training. No new Anthropic, Google, or Nvidia product announcement dated Oct. 30\u2013Nov. 2 was found. Cisco Talos's Oct. 31 report on the VOLTA stealer, which defaults to Claude, is on the cyber page. The Oct. 23 Google Cloud Claude item and the OpenAI-NASK item were removed because they are older than seven days.",
+  "compiled": "2026-11-03",
+  "covers": "Oct 26–Nov 3, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 3. New: OpenAI said Nov. 2 that former Army Secretary Dan Driscoll will join as Senior Counselor for National Security Modernization, and Tom's Hardware reported Nov. 2 that an Anthropic employee confirmed Claude Code prompt language steering Opus 5.5 away from cloning a specific game. OpenAI's Grid Protectors power program is on the data-center page. No new Google model announcement dated Nov. 2–3 was found. No new Nvidia product announcement dated Nov. 2–3 was found; the Oct. 26 Meta partnership was removed here so the section stayed within 12 items, and that fabric note remains on the data-center page. Cisco Talos's VOLTA report remains on the cyber page.",
   "subsections": [
     {
       "id": "anthropic",
@@ -51,6 +51,20 @@
         {
           "name": "OpenAI",
           "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
+        }
+      ]
+    },
+    {
+      "id": "claude-code-games-2026-11-02",
+      "subsection": "anthropic",
+      "date": "2026-11-02",
+      "dateLabel": "Oct 30–Nov 2",
+      "headline": "Tom's Hardware: Anthropic says Claude Code on Opus 5.5 is steered away from cloning a specific game",
+      "summary": "Tom's Hardware reported Nov. 2 that Anthropic's Addy Osmani said on Oct. 30 that the company added two sentences to Claude Code's prompt on Opus 5.5 to steer it away from recreating someone else's specific game, because using Claude to infringe intellectual property is against Anthropic's usage policy. Osmani said original games, genre games, and games built from a user's own designs and assets are meant to keep working, and that Anthropic will keep iterating. Tom's Hardware said the game-related blocking it could identify appeared limited to Claude Code with Opus 5.5. It also said its own Jarred Walton found that reverse-engineering checks in software he is developing were refused on Oct. 31 and worked again when he switched to Opus 4.8.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks"
         }
       ]
     },
@@ -175,20 +189,6 @@
       ]
     },
     {
-      "id": "nvidia-meta-muse-2026-10-26",
-      "subsection": "nvidia",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "NVIDIA and Meta expand work on Muse, and NVIDIA will invest $3 billion in Meta",
-      "summary": "NVIDIA said Oct. 26 that it and Meta will expand their partnership on Muse and the Muse family of models to improve inference and training. NVIDIA said the companies will also consider further work on the OpenShell reference architecture and on Sentry for monitoring agent behavior. Meta intends to expand deployment of Vera Rubin and Vera CPUs, and NVIDIA said Meta will deploy Spectrum-X Ethernet and BlueField-4. NVIDIA said it will invest $3 billion in Meta's equity offering. Jensen Huang said the partnership is meant to optimize infrastructure for agents, and Mark Zuckerberg said Muse is how Meta brings what he called personal superintelligence to everyone.",
-      "sources": [
-        {
-          "name": "NVIDIA Newsroom",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth"
-        }
-      ]
-    },
-    {
       "id": "nemotron-transcribe-2026-10-28",
       "subsection": "local",
       "date": "2026-10-28",
@@ -199,6 +199,20 @@
         {
           "name": "NVIDIA Blog",
           "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
+        }
+      ]
+    },
+    {
+      "id": "driscoll-openai-2026-11-02",
+      "subsection": "defense-ai",
+      "date": "2026-11-02",
+      "dateLabel": "Nov 2",
+      "headline": "OpenAI names former Army Secretary Dan Driscoll senior counselor for national security",
+      "summary": "OpenAI said Nov. 2 that Dan Driscoll will join as Senior Counselor for National Security Modernization, a new role advising senior leadership and outside partners on how advanced AI can strengthen national and cyber security, with a focus on working with U.S. allies. OpenAI said he will help internal teams understand the operational needs of national security institutions and will work on practical modernization for what it called democratic AI. OpenAI said Driscoll was the 26th Secretary of the Army and oversaw operations, modernization, and resources for nearly one million Active, Guard, and Reserve Soldiers and more than 265,000 Army Civilians. Driscoll said he is joining to help the United States and its allies put the technology to work, including by cutting through paperwork and getting an answer to the right person faster.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/dan-driscoll-joins-openai/"
         }
       ]
     }

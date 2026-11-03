@@ -6,9 +6,9 @@
   "cadence": "Daily \u00b7 weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-02",
-  "covers": "Oct 26\u2013Nov 2, 2026",
-  "readFirst": "Covers Oct. 26\u2013Nov. 2. New: CISA on Oct. 30 added two Ivanti Connect Secure bugs, one due Nov. 2 and one due Nov. 13, and Cisco Talos on Oct. 31 described the VOLTA stealer, which asks Claude to rank stolen data. Federal News Network reported Oct. 30 that a CISA official called Chainguard's early PHP patch release dangerous. The GitLab and Cisco firewall KEV items were removed because their Nov. 1 due dates have passed, and the Oct. 28 Linux kernel bug was removed because its Oct. 31 due date has passed. The VMware ESX logging bug from that alert remains due Nov. 11 and is on the partners page. The Oct. 26 CISA 2030 strategy item was dropped so the trends subsection stayed within four items. No new public update on the DMDC personnel breach was found.",
+  "compiled": "2026-11-03",
+  "covers": "Oct 26–Nov 3, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 3. New: Singapore's Cyber Security Agency said Nov. 3 that PHP2Shell is being exploited on internet-exposed Palo Alto management interfaces and chained with a Linux kernel bug for root, and Tom's Hardware reported Nov. 2 that Nvidia told Brev customers an SSH key may have been exposed. CISA's alert list had no addition dated Nov. 2–3. The Ivanti Connect Secure due date of Nov. 2 has passed; the second bug in that item remains due Nov. 13. The VMware ESX logging bug remains due Nov. 11 and is on the partners page. No new public update on the DMDC personnel breach was found.",
   "subsections": [
     {
       "id": "kev",
@@ -24,6 +24,34 @@
     }
   ],
   "items": [
+    {
+      "id": "php2shell-chain-2026-11-03",
+      "subsection": "incidents",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "Singapore CSA: PHP2Shell is being chained to root Palo Alto firewalls, and F5, Cisco, and Citrix are also affected",
+      "summary": "Singapore's Cyber Security Agency said Nov. 3 that active exploitation of PHP2Shell, CVE-2026-109618 and CVE-2026-109619, has been reported against Palo Alto Networks firewalls running affected PAN-OS versions, targeting internet-exposed management interfaces. The agency said attackers have also been observed chaining those bugs with Linux kernel flaw CVE-2026-46300, which it calls Fragnesia, to gain root after the initial compromise. It said PHP2Shell also affects selected products from Cisco, including Duo Access Gateway and Expressway Series; Citrix NetScaler ADC and NetScaler Gateway; F5 BIG-IP APM and the BIG-IP Configuration utility; and Siemens RUGGEDCOM APE1808 devices running affected PAN-OS. The agency told administrators to apply vendor updates, restrict management interfaces to trusted networks, and look for unauthorized access and persistence.",
+      "sources": [
+        {
+          "name": "Cyber Security Agency of Singapore",
+          "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-157/"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-brev-2026-11-02",
+      "subsection": "incidents",
+      "date": "2026-11-02",
+      "dateLabel": "Oct 4–Nov 2",
+      "headline": "Tom's Hardware: Nvidia says a Brev incident may have exposed customer SSH keys",
+      "summary": "Tom's Hardware reported Nov. 2 that Nvidia told affected customers of its Brev cloud development platform that it had investigated unidentified activity and that information may have been exposed, including the SSH key Brev set up. Tom's Hardware says users reported unauthorized activity between Oct. 4 and Oct. 20. It quotes Nvidia saying the company experienced a security incident that may have affected the security of the customer's data, and that the SSH key has been rotated and the instances updated with the replacement key. Tom's Hardware says Nvidia did not explain how the attackers got in, or whether customer data or workloads were accessed.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/nvidia-brev-security-breach-may-have-exposed-ssh-keys-used-to-access-customer-vms-investigation-finds-unauthorized-activity-spanning-16-days-but-no-evidence-of-misuse"
+        }
+      ]
+    },
     {
       "id": "ivanti-connect-kev-2026-10-30",
       "subsection": "kev",

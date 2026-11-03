@@ -6,9 +6,9 @@
   "cadence": "Daily \u00b7 weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-02",
-  "covers": "Oct 26\u2013Nov 2, 2026",
-  "readFirst": "Covers Oct. 26\u2013Nov. 2. New: Tom's Hardware reported Nov. 1 that Sam Altman met Samsung executives on Oct. 30 about memory for AI data centers and that Samsung did not announce a new supply agreement, and reported Oct. 30 that PsiQuantum demonstrated an eight-port optical switch for GPU networks. Intel's Oct. 31 plan to shift client capacity toward Xeon is on the partners page. No separate power or cooling announcement dated Oct. 30\u2013Nov. 2 was found.",
+  "compiled": "2026-11-03",
+  "covers": "Oct 26–Nov 3, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 3. New: OpenAI said Nov. 2 it is launching Grid Protectors so future compute campuses can cut electricity demand when the grid is strained, including up to 1,000 megawatts of flexible demand response at a planned Georgia campus. No separate networking-fabric or storage announcement dated Nov. 2–3 was found. Intel's Oct. 31 plan to shift client capacity toward Xeon is on the partners page. Tom's Hardware's Nov. 1 note on Altman's Samsung meeting remains the newest storage item.",
   "subsections": [
     {
       "id": "networking",
@@ -123,6 +123,20 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-oracle-bring-vera-cpu-instances-online-in-multi-gigawatt-deployment-oci-superclusters-also-set-to-expand-with-rubin-only-clusters-attached-to-dual-xeon-6-hosts"
+        }
+      ]
+    },
+    {
+      "id": "grid-protectors-2026-11-02",
+      "subsection": "power",
+      "date": "2026-11-02",
+      "dateLabel": "Nov 2",
+      "headline": "OpenAI's Grid Protectors plan includes up to 1,000 megawatts of flexible demand in Georgia",
+      "summary": "OpenAI said Nov. 2 it is launching the Grid Protectors Program so future compute campuses can reduce electricity demand when the grid is under strain, with the amount, speed, and duration set in agreements with utilities. OpenAI said its planned Effingham County, Georgia, campus will pay the full infrastructure and electric-service costs required to serve the project, and that its agreement with Georgia Power includes up to 1,000 megawatts of flexible demand response, which OpenAI said equals the average demand of roughly 700,000 households. OpenAI said Georgia Power projects about $950 million in annual customer savings beginning in 2029 from its portfolio of large-load agreements and expected growth, including Project Camellia, and estimates at least $15 a month for a typical residential customer using 1,000 kilowatt-hours. OpenAI said the campus is still in development and is intended as a pilot for the program.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/grid-protectors-program"
         }
       ]
     },

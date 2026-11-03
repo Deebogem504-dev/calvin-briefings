@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-02",
+  "title": "November 2, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "CYBER",
+      "dateLabel": "Oct 30–Nov 2",
+      "headline": "CISA added two Ivanti Connect Secure bugs, one due today",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/"
+        }
+      ]
+    },
+    {
+      "label": "ARMY",
+      "dateLabel": "Oct 26",
+      "headline": "Army named WWT and AWS for the Project Griffin pilot, contracted at Aberdeen",
+      "sources": [
+        {
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/296330/army_selects_project_griffin_partners_to_accelerate_si_enabled_cyber_defense"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Oct 30",
+      "headline": "OpenAI will honor a shared robots.txt signal for AI training",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
+        }
+      ]
+    },
+    {
+      "label": "PARTNERS",
+      "dateLabel": "Oct 31",
+      "headline": "Intel is moving some client wafer capacity to Xeon",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Oct 30–Nov 1",
+      "headline": "Altman met Samsung about memory for AI data centers; no new supply deal",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Oct 29–30",
+      "headline": "Hegseth fired J5 Lt. Gen. Brett Sylvia; the Pentagon says he was not the Iran planner",
+      "sources": [
+        {
+          "name": "Military.com",
+          "url": "https://www.military.com/hegseth-firing-pentagon-war-planner-over-alleged-leaks-follows-his-own-signal-scandal"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/hegseth-fires-pentagons-top-military-planner/"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/politics/national-security/top-general-fired-hegseth-leak-investigation-rcna606456"
+        }
+      ]
+    }
+  ]
+}
