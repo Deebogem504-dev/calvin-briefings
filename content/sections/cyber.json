@@ -3,12 +3,12 @@
   "file": "cyber.html",
   "nav": "CYBER",
   "kicker": "CYBER",
-  "cadence": "Daily \u00b7 weekdays",
+  "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-03",
-  "covers": "Oct 26–Nov 3, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 3. New: Singapore's Cyber Security Agency said Nov. 3 that PHP2Shell is being exploited on internet-exposed Palo Alto management interfaces and chained with a Linux kernel bug for root, and Tom's Hardware reported Nov. 2 that Nvidia told Brev customers an SSH key may have been exposed. CISA's alert list had no addition dated Nov. 2–3. The Ivanti Connect Secure due date of Nov. 2 has passed; the second bug in that item remains due Nov. 13. The VMware ESX logging bug remains due Nov. 11 and is on the partners page. No new public update on the DMDC personnel breach was found.",
+  "compiled": "2026-11-04",
+  "covers": "Oct 26–Nov 4, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 4. New: CISA added WordPress CVE-2026-119977 to the KEV catalog on Nov. 3, due Nov. 6, and Federal News Network reported Nov. 3 that Brian Mazanec is acting executive assistant director for infrastructure security. The Oct. 26 CMMC cost story was removed so the trends subsection stayed at four items; the Oct. 27 path-forward note remains. PHP2Shell remains the incident lead. A Nov. 3 ICS advisory on Subnet Solutions PowerSYSTEM Center was not added. The Ivanti Connect Secure due date of Nov. 2 has passed; CVE-2026-118527 remains due Nov. 13. Tom's Hardware's Nov. 4 Android TV backdoor story was not added. The VMware ESX logging bug remains due Nov. 11 and is on the partners page.",
   "subsections": [
     {
       "id": "kev",
@@ -53,10 +53,28 @@
       ]
     },
     {
+      "id": "wordpress-kev-2026-11-03",
+      "subsection": "kev",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "CISA adds a WordPress core race condition to the KEV catalog, due Nov. 6",
+      "summary": "CISA said Nov. 3 it added CVE-2026-119977, a WordPress Core time-of-check time-of-use race condition, to the Known Exploited Vulnerabilities catalog. The catalog says the bug could allow unauthenticated attackers to execute code on the server during the upgrade window because of predictable, web-accessible staging paths used during full-package core upgrades. The catalog sets a due date of Nov. 6 and requires forensic triage. CISA said this class of vulnerability is a frequent attack vector and poses significant risk to the federal enterprise.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
+    {
       "id": "ivanti-connect-kev-2026-10-30",
       "subsection": "kev",
       "date": "2026-11-02",
-      "dateLabel": "Oct 30\u2013Nov 2",
+      "dateLabel": "Oct 30–Nov 2",
       "headline": "CISA adds two Ivanti Connect Secure bugs, one due Nov. 2 and one due Nov. 13",
       "summary": "CISA said Oct. 30 it added CVE-2026-111357 and CVE-2026-118527, both in Ivanti Connect Secure, to the Known Exploited Vulnerabilities catalog. The catalog sets a due date of Nov. 2 for CVE-2026-111357, requires forensic triage, and says a local authenticated attacker could escalate privileges. It sets a due date of Nov. 13 for CVE-2026-118527, does not require forensic triage, and says a remote authenticated attacker can upload files to a known location. SecurityWeek reported Nov. 2 that Ivanti rates the bugs 8.8 and 4.3, that fixes are in Connect Secure 25.1.1.3 and 22.8R2.6, and that Ivanti said the latest release addresses the vulnerabilities that were chained and exploited in the wild with CVE-2026-104935.",
       "sources": [
@@ -75,10 +93,24 @@
       ]
     },
     {
+      "id": "cisa-mazanec-2026-11-03",
+      "subsection": "trends",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "Federal News Network: Brian Mazanec is acting head of CISA infrastructure security",
+      "summary": "Federal News Network reported Nov. 3 that Brian Mazanec is serving as acting executive assistant director for infrastructure security at the Cybersecurity and Infrastructure Security Agency, and that CISA said he was sworn in Monday. The outlet said he was previously deputy assistant secretary and director of the Center for Preparedness in the Department of Health and Human Services' Administration for Strategic Preparedness and Response, and that he stepped down last week after serving there since January 2023. Federal News Network said that at HHS he helped lead the response to the Change Healthcare ransomware attack, and that CISA wrote he had partnered with CISA and the FBI on joint cybersecurity advisories. It said the infrastructure security division secures critical infrastructure from all hazards and provides risk assessments, tools, and training.",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/cybersecurity/2026/11/cisa-turns-to-former-hhs-official-to-lead-infrastructure-security-division/"
+        }
+      ]
+    },
+    {
       "id": "volta-talos-2026-10-31",
       "subsection": "trends",
       "date": "2026-11-01",
-      "dateLabel": "Oct 31\u2013Nov 1",
+      "dateLabel": "Oct 31–Nov 1",
       "headline": "Cisco Talos: the VOLTA stealer asks Claude to rank what a victim is worth",
       "summary": "Cisco Talos said Oct. 31 that a self-deleting Windows infostealer it calls VOLTA-AUTODOXER sends a structured evidence bundle to a model after it steals credentials, sessions, and cryptocurrency wallets. Talos says the default model is Anthropic's Claude Opus 4.6, at a temperature of 0.2, and that if the model refuses, the malware tries Moonshot's Kimi K2 and then Google's Gemini 2.5 Flash. Talos says the prompt asks the model to act as a forensic intelligence analyst and to rank what the victim is worth. Tom's Hardware reported Nov. 1 that the call goes to OpenRouter and that the malware can skip the model step if no API key is supplied.",
       "sources": [
@@ -96,7 +128,7 @@
       "id": "php-embargo-2026-10-30",
       "subsection": "trends",
       "date": "2026-10-30",
-      "dateLabel": "Oct 28\u201330",
+      "dateLabel": "Oct 28–30",
       "headline": "Federal News Network: a CISA official calls Chainguard's early PHP patch release dangerous",
       "summary": "Federal News Network reported Oct. 30 that Jay Gazlay, CISA's acting associate director for vulnerability management, called Chainguard's decision to release PHP patches more than six hours before a coordinated disclosure dangerous and inappropriate. Gazlay spoke at an Oct. 28 conference hosted by Red Hat in Washington. Chainguard chief executive Dan Lorenc told Federal News Network he stands by the early release and said the company saw evidence the bugs were being exploited before the embargo. The PHP Foundation wrote that an attacker could study the fix while other PHP users were still waiting, and Federal News Network says CISA added the PHP bugs to the KEV catalog on Oct. 26.",
       "sources": [
@@ -110,7 +142,7 @@
       "id": "brotli-adobe-kev-2026-10-27",
       "subsection": "kev",
       "date": "2026-10-27",
-      "dateLabel": "Oct 27\u201328",
+      "dateLabel": "Oct 27–28",
       "headline": "CISA adds Brotli and an Adobe Commerce bug to the KEV catalog, due Nov. 10",
       "summary": "CISA said Oct. 27 it added CVE-2026-48356, an Adobe Commerce and Magento unrestricted file-upload bug, and CVE-2026-111497, a Google Brotli unchecked-return-value bug, to the Known Exploited Vulnerabilities catalog. The catalog sets a due date of Nov. 10 for both and describes the Brotli flaw as letting a remote unauthenticated attacker corrupt decoder memory, disclose memory, cause a denial of service, or potentially run code with a crafted compressed stream. SecurityWeek reported Oct. 28 that the Brotli bug, also called Node2Shell, affects Brotli 1.0.3 through 1.2.0, that federal civilian agencies were told to address it by Nov. 10, and that Broadcom warned Oct. 27 that SDDC Manager in VMware Cloud Foundation is affected because it uses Node.js, with patches still pending. SecurityWeek also said two honeypot operators logged attempts, and that ELLIO called the exploit it analyzed broken.",
       "sources": [
@@ -139,20 +171,6 @@
         {
           "name": "Federal News Network",
           "url": "https://federalnewsnetwork.com/defense-news/2026/10/rfi-offers-path-forward-for-dod-with-cmmc/"
-        }
-      ]
-    },
-    {
-      "id": "cmmc-rfi-2026-10-26",
-      "subsection": "trends",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "Federal News Network: CMMC cost complaints in the RFI point at NIST 800-171, not the assessments",
-      "summary": "Federal News Network reported Oct. 26 that the Defense Department reviewed 997 responses to its Cybersecurity Maturity Model Certification request for information, 509 of them (51 percent) from the defense industrial base, and that an internal email lists NIST Special Publication 800-171 work, including Microsoft 365 GCC High, enclaves and inconsistent interpretation, as the top cost concern rather than CMMC itself. The outlet says the RFI put the average cost of CMMC, separate from NIST 800-171, at $47,000, and it quotes the department on that same average assessment cost, set against Kelly Loeffler's July statement that complying could cost as much as $600,000. Federal News Network says the review is past the 75 days Chief Information Officer Kirsten Davies set in July, that the department declined to comment, and that as of September 2,433 companies had Level 2 third-party certifications.",
-      "sources": [
-        {
-          "name": "Federal News Network",
-          "url": "https://federalnewsnetwork.com/defense-news/2026/10/dods-reasons-for-cmmc-pause-falling-apart-in-face-of-rfi-responses/"
         }
       ]
     }

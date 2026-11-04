@@ -3,12 +3,12 @@
   "file": "ai.html",
   "nav": "AI",
   "kicker": "AI",
-  "cadence": "Daily \u00b7 weekdays",
+  "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-03",
-  "covers": "Oct 26–Nov 3, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 3. New: OpenAI said Nov. 2 that former Army Secretary Dan Driscoll will join as Senior Counselor for National Security Modernization, and Tom's Hardware reported Nov. 2 that an Anthropic employee confirmed Claude Code prompt language steering Opus 5.5 away from cloning a specific game. OpenAI's Grid Protectors power program is on the data-center page. No new Google model announcement dated Nov. 2–3 was found. No new Nvidia product announcement dated Nov. 2–3 was found; the Oct. 26 Meta partnership was removed here so the section stayed within 12 items, and that fabric note remains on the data-center page. Cisco Talos's VOLTA report remains on the cyber page.",
+  "compiled": "2026-11-04",
+  "covers": "Oct 26–Nov 4, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 4. New: OpenAI said Nov. 3 that two people used GPT-6 Astra to design a Codex device in under a week, and that manufacturing still needed several rounds of human review. The Oct. 26 GPT-6.1 Terra note was removed so the section stayed within 12 items. Anthropic's news page had no item dated Nov. 3–4. No new Google model announcement dated Nov. 3–4 was found. Nvidia's Nov. 3 blog on AI tools in semiconductor fabs was left off this page. Cisco's use of OpenAI models is on the partners page. OpenAI's Grid Protectors program remains on the data-center page.",
   "subsections": [
     {
       "id": "anthropic",
@@ -86,7 +86,7 @@
       "id": "anthropic-s1-2026-10-26",
       "subsection": "anthropic",
       "date": "2026-10-29",
-      "dateLabel": "Oct 26\u201329",
+      "dateLabel": "Oct 26–29",
       "headline": "Anthropic's S-1: Tom's Hardware says most of the first-half compute bill went to R&D, not serving Claude",
       "summary": "Anthropic said Oct. 26 that Anthropic, PBC filed a Form S-1 for a proposed Nasdaq listing of Class A common stock under the symbol ANT, and that the share count and price range are not set. Tom's Hardware reported Oct. 29, citing that filing, that first-half 2026 compute and infrastructure spending was $8.95 billion, of which $2.38 billion was the cost of serving customers, against $16.29 billion in revenue. Tom's Hardware said the filing describes a multi-chip architecture across AWS Trainium, Google TPUs, Nvidia GPUs, and AMD GPUs, including about $161.2 billion in Broadcom TPU equipment-lease rent and at least $114.5 billion with Google. Tom's Hardware's own sum of the named deals is about $782 billion to $807 billion, and it said the S-1 leaves its own total blank.",
       "sources": [
@@ -97,6 +97,20 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ipo-filing-shows-most-of-its-compute-goes-to-r-and-d-not-serving-customers-company-details-massive-usd800-billion-in-tpu-and-gpu-contracts"
+        }
+      ]
+    },
+    {
+      "id": "openai-physical-2026-11-03",
+      "subsection": "openai",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "OpenAI says GPT-6 Astra designed a Codex device, then missed manufacturing limits",
+      "summary": "OpenAI said Nov. 3 that two team members used GPT-6 Astra to design a device for talking to Codex in under a week, with no direct human edits to the design, covering the enclosure, the printed circuit board, and the firmware. OpenAI said a contract manufacturer built a small batch of prototypes in under a month. It said getting the device ready for manufacturing still required several rounds of review because Astra did not consistently account for production limits, tolerances, or assembly details. OpenAI also said it is expanding work with Chip Ganassi Racing on turning 3D scans into CAD models, and starting a research collaboration with Mazda on aerodynamics and crash-safety simulations.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
         }
       ]
     },
@@ -139,24 +153,6 @@
         {
           "name": "OpenAI",
           "url": "https://openai.com/index/oracle-apps-in-chatgpt"
-        }
-      ]
-    },
-    {
-      "id": "gpt-61-terra-2026-10-26",
-      "subsection": "openai",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "OpenAI releases GPT-6.1 Terra, priced at half of GPT-5.6 Terra",
-      "summary": "OpenAI said it is releasing GPT-6.1 Terra, a faster model for visual reasoning, computer use and writing, and that standard API prices are 50 percent lower than GPT-5.6 Terra and GPT-6.1 Sol. The prices it lists are $1 per million input tokens, $0.05 per million cached input tokens, and $5 per million output tokens. OpenAI says that at medium reasoning effort on Agents' Last Exam, Terra scores 15 percentage points higher than GPT-5.6 Terra at about one-third the cost, matches GPT-6 Astra at one-tenth the price per token, and finishes tasks more than three times faster than GPT-6 Astra and GPT-6.1 Sol. It is available to Plus, Pro, Enterprise and Edu users in ChatGPT Work and Codex, and in the API as gpt-6.1-terra. OpenAI says Terra meets the Critical cybersecurity threshold in its Preparedness Framework and keeps the safeguards built for GPT-6 Astra.",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/introducing-gpt-6-1-terra"
-        },
-        {
-          "name": "OpenAI Deployment Safety",
-          "url": "https://deploymentsafety.openai.com/gpt-6-1-terra"
         }
       ]
     },

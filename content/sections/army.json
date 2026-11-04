@@ -3,12 +3,12 @@
   "file": "army.html",
   "nav": "ARMY",
   "kicker": "ARMY",
-  "cadence": "Weekly \u00b7 Mondays",
+  "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-03",
-  "covers": "Oct 26–Nov 3, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 3. New: DVIDS posted Nov. 2 a CECOM year-in-review datelined Aberdeen Proving Ground, and ClearanceJobs on Oct. 30 printed a $419,008,836 Pegasystems enterprise-software award that GovConWire reported Nov. 2. No new NETCOM release was found. EIN Presswire's Nov. 2 CECOM note is the same DVIDS story, so the original is cited. Federal News Network had no new Army network or contract story dated Nov. 2–3. The Project Griffin pilot remains the WWT line.",
+  "compiled": "2026-11-04",
+  "covers": "Oct 26–Nov 4, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 4. New: L3Harris said Nov. 3 it received a $36 million Army order for Hawkeye 4 Lite terminals under C2NOW, Serco said Nov. 3 it received an RS3 task order for Command Post Modernization, and Tom's Hardware reported Nov. 4 that Army Research Laboratory researchers flew the VICTOR hybrid-electric drone. No new NETCOM release was found. Federal News Network had no new Army network or contract story dated Nov. 3–4. EIN Presswire did not yield a separate Army article whose original publisher page was opened. The Project Griffin pilot remains the WWT line.",
   "subsections": [
     {
       "id": "leadership",
@@ -33,6 +33,20 @@
   ],
   "items": [
     {
+      "id": "victor-drone-2026-11-04",
+      "subsection": "modernization",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 4",
+      "headline": "Tom's Hardware: Army lab flew a hybrid-electric drone with a 3D-printed heavy-fuel engine",
+      "summary": "Tom's Hardware reported Nov. 4 that researchers at the U.S. Army Combat Capabilities Development Command Army Research Laboratory flew the VICTOR hybrid-electric drone with a heavy-fuel rotary engine developed using metal 3D printing. Tom's Hardware said the engine drives a 400-volt motor-generator that electrically drives the propellers, and that the drone uses JP-8. It quoted Dr. Kweon, an Army Research Laboratory researcher, telling Army.mil that 3D metal printing let the team redesign components from experimentation, build an air-cooled engine, and drop a bulky liquid-cooling system. Tom's Hardware said that iteration improved fuel atomization and decreased compression leaks.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/drones/us-army-successfully-flies-a-hybrid-electric-drone-with-3d-printed-heavy-fuel-rotary-engine-400v-motor-generator-uses-advanced-engineering-to-ditch-a-bulky-liquid-cooling-system"
+        }
+      ]
+    },
+    {
       "id": "cecom-year-2026-11-02",
       "subsection": "modernization",
       "date": "2026-11-02",
@@ -43,6 +57,20 @@
         {
           "name": "DVIDS",
           "url": "https://www.dvidshub.net/news/578453/cecom-2026-delivering-modernized-support-soldiers-need-most"
+        }
+      ]
+    },
+    {
+      "id": "l3harris-hawkeye-2026-11-03",
+      "subsection": "network",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "L3Harris receives a $36 million Army order for Hawkeye 4 Lite SATCOM terminals",
+      "summary": "L3Harris said Nov. 3 in Melbourne, Florida, that it received a $36 million order in support of the U.S. Army for the Hawkeye 4 Lite satellite communications terminal. The company said the order will field under the Command and Control Network Optimized for Warfighting initiative, which it calls C2NOW, to improve secure SATCOM interoperability between the United States and NATO partners. Faisal Munir, president of Mission Critical Communications, said L3Harris is ready to support the Army with resilient, expeditionary communications that align with its modernization priorities. L3Harris said the Army configuration uses a rapidly deployable Hawkeye 4 Lite terminal with field-swappable components.",
+      "sources": [
+        {
+          "name": "L3Harris",
+          "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-receives-satcom-order-us-army-support-key-command-and"
         }
       ]
     },
@@ -99,6 +127,20 @@
         {
           "name": "Army.mil",
           "url": "https://www.army.mil/article/296330/army_selects_project_griffin_partners_to_accelerate_si_enabled_cyber_defense"
+        }
+      ]
+    },
+    {
+      "id": "serco-cpmod-2026-11-03",
+      "subsection": "contracts",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "Serco says it won an Army task order to field modernized command posts",
+      "summary": "Serco said Nov. 3 that it was awarded a task order under the Army's Responsive Strategic Sourcing for Services contract to support Command Post Modernization. The release does not state a dollar value. Serco said the work expands a role it has held since 2019 and covers program management, engineering, integration, testing, logistics, training, and sustainment, including integrating hardware and software onto tactical vehicles and installing A-kit components. Amanda Miller, vice president for Serco North America's Systems Integration and Installation portfolio, said the work is meant to increase deployment speed, survivability, and technical innovation. Serco said it expects to add more than 200 positions.",
+      "sources": [
+        {
+          "name": "Serco",
+          "url": "https://www.serco.com/na/media-and-news/2026/us-army-selects-serco-command-post-modernization"
         }
       ]
     },

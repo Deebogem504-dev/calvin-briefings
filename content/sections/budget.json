@@ -3,12 +3,12 @@
   "file": "budget.html",
   "nav": "BUDGET",
   "kicker": "BUDGET",
-  "cadence": "Weekly \u00b7 Mondays",
+  "cadence": "Weekly · Mondays",
   "title": "Federal Budget & NDAA Weekly Tracker",
   "description": "Fiscal 2027 appropriations, the continuing resolution, NDAA status, reconciliation funds and Golden Dome money.",
-  "compiled": "2026-11-03",
-  "covers": "Oct 26–Nov 3, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 3. No appropriations vote dated Nov. 2–3 was found. No newer Golden Dome appropriation or Iran-war cost figure was found. Federal News Network's Nov. 2 election coverage did not add a defense-funding figure. The newest figures remain the Oct. 28 Pentagon estimate that the Iran war had cost $47.1 billion as of Oct. 16, and the CSIS note that the continuing resolution runs through Dec. 11. The section is short because nothing newer qualified.",
+  "compiled": "2026-11-04",
+  "covers": "Oct 26–Nov 4, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 4. New: on election day, Federal News Network interviewed Professional Services Council chief executive Jim Carroll, who said lame-duck work on the fiscal 2027 NDAA should start almost immediately and that intellectual-property and repair-rights language is progressing. No appropriations vote dated Nov. 3–4 was found. No newer Golden Dome appropriation or Iran-war cost figure was found. The newest funding figures remain the Oct. 28 Pentagon estimate that the Iran war had cost $47.1 billion as of Oct. 16, and the CSIS note that the continuing resolution runs through Dec. 11.",
   "subsections": [
     {
       "id": "approps",
@@ -67,6 +67,20 @@
         {
           "name": "PBS News",
           "url": "https://www.pbs.org/newshour/world/american-taxpayers-bill-for-iran-war-grows-to-estimated-47-1-billion"
+        }
+      ]
+    },
+    {
+      "id": "ndaa-ip-psc-2026-11-03",
+      "subsection": "ndaa",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "PSC tells Federal News Network the lame-duck NDAA fight is intellectual property and repair rights",
+      "summary": "Federal News Network's Federal Drive on Nov. 3 interviewed Jim Carroll, chief executive of the Professional Services Council, about the fiscal 2027 National Defense Authorization Act. Carroll said work on the NDAA will start almost immediately in the lame-duck session regardless of the election outcome, and that he met with the House Armed Services Committee last week as it tried to move the bill and get the government funded. On intellectual property and defense repair rights, he said he is hearing a great deal of progress, and that the remaining issue is safeguards so a company cannot take that intellectual property into mass production or give it to another company. He said the council's defense conference last week was the most widely attended defense-industry conference it has held, and that intellectual property was a central topic, with speakers that included an undersecretary of defense and assistant secretaries.",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/congress/2026/11/the-terms-that-govern-how-companies-bring-innovation-to-government-could-be-changing/"
         }
       ]
     }

@@ -3,12 +3,12 @@
   "file": "datacenter.html",
   "nav": "DC/NET",
   "kicker": "DC/NET",
-  "cadence": "Daily \u00b7 weekdays",
+  "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-03",
-  "covers": "Oct 26–Nov 3, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 3. New: OpenAI said Nov. 2 it is launching Grid Protectors so future compute campuses can cut electricity demand when the grid is strained, including up to 1,000 megawatts of flexible demand response at a planned Georgia campus. No separate networking-fabric or storage announcement dated Nov. 2–3 was found. Intel's Oct. 31 plan to shift client capacity toward Xeon is on the partners page. Tom's Hardware's Nov. 1 note on Altman's Samsung meeting remains the newest storage item.",
+  "compiled": "2026-11-04",
+  "covers": "Oct 26–Nov 4, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 4. New: Tom's Hardware reported Nov. 3 that xAI is powering a Mississippi data center with eight converted jet-engine turbines, and, citing The Information, that a smuggler described shipping export-controlled high-bandwidth memory to China inside low-performing processors. No separate networking-fabric announcement dated Nov. 3–4 was found. Dell's OneFS 9.16 note is on the partners page. Intel's 14A process-kit note is on the partners page. Tom's Hardware's Nov. 3 Grid Protectors write-up is the same OpenAI program already on this page.",
   "subsections": [
     {
       "id": "networking",
@@ -57,10 +57,24 @@
       ]
     },
     {
+      "id": "hbm-loophole-2026-11-03",
+      "subsection": "storage",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "Tom's Hardware: a smuggler says banned HBM is reaching China inside cheap processors",
+      "summary": "Tom's Hardware reported Nov. 3, citing The Information, that a memory smuggler described moving export-controlled high-bandwidth memory from South Korea into China. Tom's Hardware said the person owns a chip-design firm that builds cheap, low-performing processors covered by U.S. and South Korean export controls, then pairs them with high-bandwidth memory from Samsung and SK hynix that would be banned on its own. It said the export rules, as Tom's Hardware describes them, look at the server processor's performance and not at the other components attached to it.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-chip-smugglers-exploit-trade-control-loophole-to-bring-banned-hbm-from-south-korea-into-china-expensive-memory-chips-packaged-with-cheap-unsanctioned-processors-to-become-legal-exports"
+        }
+      ]
+    },
+    {
       "id": "altman-samsung-ram-2026-11-01",
       "subsection": "storage",
       "date": "2026-11-01",
-      "dateLabel": "Oct 30\u2013Nov 1",
+      "dateLabel": "Oct 30–Nov 1",
       "headline": "Tom's Hardware: Altman met Samsung on Oct. 30 about memory for AI data centers",
       "summary": "Tom's Hardware reported Nov. 1, citing Bloomberg, that OpenAI chief executive Sam Altman met about 50 senior Samsung executives on Oct. 30 at Samsung's Resources Development Center in Yongin. Samsung Korea said the discussion covered the direction of AI technology and new business opportunities, and Tom's Hardware says Samsung emphasized AI transformation rather than announcing a new memory supply agreement. Tom's Hardware says Samsung described the talks as strengthening an existing letter of intent to cooperate on global AI infrastructure, including memory semiconductors for OpenAI's Stargate project. Citing Counterpoint Research, Tom's Hardware says Samsung and SK Hynix accounted for about 83 percent of high-bandwidth memory revenue.",
       "sources": [
@@ -102,7 +116,7 @@
       "id": "spacex-gpu-debt-2026-10-27",
       "subsection": "capacity",
       "date": "2026-10-27",
-      "dateLabel": "Oct 25\u201327",
+      "dateLabel": "Oct 25–27",
       "headline": "Tom's Hardware: Musk says SpaceX closed $40 billion of debt for GPUs due in 2027",
       "summary": "Tom's Hardware reported Oct. 27 that Elon Musk wrote on X on Oct. 25 that SpaceX had closed $40 billion of debt for GPUs, and that he later said the borrowing is primarily callable debt for purchases arriving in the first and second quarters of 2027 and is not a major factor this quarter. Tom's Hardware says Musk tied the financing to SpaceX having investment-grade status and revenue from Starlink and launch, and that he wrote debt markets have largely shut off companies without substantial revenue outside AI data centers. The article quotes CFO Bret Johnsen, from SpaceX's third-quarter 2026 earnings call, expecting $35 billion to $40 billion of capital expenditure in the fourth quarter. Tom's Hardware says it is still unclear whether \"closed\" means investors agreed to final pricing, and that Musk did not confirm which GPU models or quantities the debt covers.",
       "sources": [
@@ -123,6 +137,20 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-oracle-bring-vera-cpu-instances-online-in-multi-gigawatt-deployment-oci-superclusters-also-set-to-expand-with-rubin-only-clusters-attached-to-dual-xeon-6-hosts"
+        }
+      ]
+    },
+    {
+      "id": "xai-turbines-2026-11-03",
+      "subsection": "power",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "Tom's Hardware: xAI is powering a Mississippi data center with eight jet turbines",
+      "summary": "Tom's Hardware reported Nov. 3 that Elon Musk's xAI is using eight converted jet-engine turbines to power a Mississippi data center. Tom's Hardware said the generators have state-level permission, and that the permits allow a 25 percent higher limit for volatile organic compounds. It said those compounds, together with carbon monoxide, have drawn warnings from environmentalists, and that The New York Times reports the Southern Environmental Law Center has challenged Mississippi's decision to approve the turbines.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-xai-installs-eight-converted-jet-engines-to-power-mississippi-data-center-permits-allow-25-percent-higher-limit-for-pollutants-concerns-raised-over-carbon-monoxide"
         }
       ]
     },

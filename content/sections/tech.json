@@ -3,12 +3,12 @@
   "file": "tech.html",
   "nav": "TECH",
   "kicker": "TECH",
-  "cadence": "Weekly \u00b7 Mondays",
+  "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-03",
-  "covers": "Oct 26–Nov 3, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 3. No new post-quantum standard, Army quantum award, autonomy test, or space-delivery result dated Nov. 2–3 was found. The newest item remains Tom's Hardware's Nov. 1 report on the Air Force Research Lab's Starfall cargo recovery. PsiQuantum's Oct. 30 optical-switch demo is on the data-center page. The compute subsection is empty.",
+  "compiled": "2026-11-04",
+  "covers": "Oct 26–Nov 4, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 4. New: Defense News reported Nov. 3 that the Marine Corps and Navy will demonstrate cargo drones for TRUAS Increment II in Huntsville from Jan. 25 to Feb. 5, 2027. No new post-quantum standard or Army quantum award dated Nov. 3–4 was found. The Army Research Laboratory's VICTOR flight is on the Army page. The compute subsection is empty. PsiQuantum's optical-switch demo remains on the data-center page.",
   "subsections": [
     {
       "id": "quantum",
@@ -32,7 +32,7 @@
       "id": "starfall-cargo-2026-11-01",
       "subsection": "space",
       "date": "2026-11-01",
-      "dateLabel": "Oct 26\u2013Nov 1",
+      "dateLabel": "Oct 26–Nov 1",
       "headline": "Tom's Hardware: Air Force Research Lab recovered SpaceX Starfall cargo pods in the Pacific",
       "summary": "Tom's Hardware reported Nov. 1 that the Air Force Research Lab recovered agile cargo pods after a SpaceX Starfall capsule splashed down in the Pacific. Tom's Hardware says the pods launched from Cape Canaveral Space Force Station on a Falcon 9 as part of the Bandwagon-5 rideshare, and that an Air Force Research Lab post on Oct. 26 said each pod carried representative mission equipment, including meals ready to eat, bottled water, a SATCOM-enabled tracker, and spare batteries, so the lab could study temperature, shock, and vibration. Technology Transition Office director Adam Remaly called the recovery a demonstration of Rocket Cargo point-to-point delivery. Tom's Hardware says the Starfall capsule is about 10 feet across and has a capacity of up to 2,200 pounds.",
       "sources": [
@@ -53,6 +53,20 @@
         {
           "name": "AWS",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/"
+        }
+      ]
+    },
+    {
+      "id": "truas-demo-2026-11-03",
+      "subsection": "autonomy",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "Navy and Marine Corps will demo TRUAS cargo drones in Huntsville in early 2027",
+      "summary": "Defense News reported Nov. 3 that the U.S. Marine Corps and Navy will hold a technology demonstration from Jan. 25 to Feb. 5, 2027, in Huntsville, Alabama, for Increment II of the Marine Corps Tactical Resupply Unmanned Aircraft System. The outlet said the Navy's Air Warfare Program Management Office is sponsoring the event, and that contractors will perform up to five flights and show ground setup. Defense News said the first required flight carries a 100-pound payload up to 40 nautical miles and returns without refueling, and the second carries at least 150 pounds out to 10 nautical miles. It said the aircraft must have a speed of at least 50 knots per hour, stay at or below 1,000 feet during those flights, and launch and recover without a catapult or arresting gear.",
+      "sources": [
+        {
+          "name": "Defense News",
+          "url": "https://www.defensenews.com/industry/techwatch/2026/11/03/defense-contractors-to-demo-cargo-drones-for-us-marine-corps/"
         }
       ]
     },

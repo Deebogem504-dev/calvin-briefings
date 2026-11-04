@@ -3,12 +3,12 @@
   "file": "dow.html",
   "nav": "DOW",
   "kicker": "DOW",
-  "cadence": "Daily \u00b7 weekdays",
+  "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-03",
-  "covers": "Oct 26–Nov 3, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 3. New: Federal News Network reported Nov. 2 that the Department of Defense Education Activity director job has been vacant since Oct. 31. The war.gov news page did not load, so no Department of War release dated Nov. 2–3 was opened, and no new Golden Dome appropriation was found. The Sylvia removal remains the lead. A September election-security memo was republished ahead of today's midterms and was not added as a new directive.",
+  "compiled": "2026-11-04",
+  "covers": "Oct 26–Nov 4, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 4. New: Military.com reported Nov. 3 that three watchdog groups sued to stop Project Meridian, and Defense News reported Nov. 3 that the Air Force asked industry for a cruise missile intended for Ukraine. The Nov. 3 Department of War contracts release listed Navy, Air Force, and Defense Logistics Agency awards and no Army award. No new Golden Dome appropriation was found. Federal News Network's defense feed had no new secretary-level story dated Nov. 3–4 beyond the DoDEA vacancy already on this page. The Sylvia removal remains the secretary-level lead.",
   "subsections": [
     {
       "id": "secwar",
@@ -32,7 +32,7 @@
       "id": "sylvia-j5-2026-10-29",
       "subsection": "secwar",
       "date": "2026-10-30",
-      "dateLabel": "Oct 29\u201330",
+      "dateLabel": "Oct 29–30",
       "headline": "Hegseth fired J5 Lt. Gen. Brett Sylvia; a spokesperson says he was not the Iran war planner",
       "summary": "Military.com reported Oct. 30 that Defense Secretary Pete Hegseth fired Army Lt. Gen. Brett Sylvia, the Joint Staff director for strategy, plans and policy, on Thursday. Chief Pentagon spokesperson Sean Parnell confirmed the firing on X and wrote that the Department of War has zero tolerance for the intentional, unauthorized disclosure of classified information. A department spokesperson told Military.com the termination was for severe misconduct, that Sylvia was not a central planner for the Iran war, that the central planner is CENTCOM commander Adm. Brad Cooper, and that Sylvia is under investigation for leaking classified information about the Iran war, the Russia-Ukraine war, and more, including by meeting journalists outside the Pentagon after an escort rule. CBS News reported Oct. 29 that an official said Sylvia failed three polygraph tests and that the case was referred to the Justice Department, and NBC News reported the Pentagon first thanked Sylvia for his service and rescinded that statement a day later.",
       "sources": [
@@ -68,7 +68,7 @@
       "id": "hegseth-admm-speech-2026-10-29",
       "subsection": "secwar",
       "date": "2026-10-29",
-      "dateLabel": "Oct 28\u201329",
+      "dateLabel": "Oct 28–29",
       "headline": "In Cebu, Hegseth tells ASEAN defense ministers the U.S. line is strong, quiet, and clear",
       "summary": "The Diplomat reported Oct. 29 that Secretary of War Pete Hegseth told the ASEAN Defense Ministers' Meeting in Cebu on Oct. 28 that the U.S. approach is strong, quiet, and clear, and that the United States will defend its interests and those of its allies and partners. Hegseth said Washington would back that with practical cooperation, including maritime domain awareness, interoperability, and cooperation among navies. He proposed a U.S.-ASEAN Framework for Defense Cooperation and did not give further details of the pact. Philippine Defense Secretary Gilbert Teodoro Jr. said a robust U.S. presence is necessary for peace and stability in Southeast Asia and the broader Indo-Pacific.",
       "sources": [
@@ -101,6 +101,20 @@
       ]
     },
     {
+      "id": "meridian-lawsuit-2026-11-03",
+      "subsection": "acquisition",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "Watchdogs sued to shut down Hegseth's Project Meridian future-of-warfare panel",
+      "summary": "Military.com reported Nov. 3 that Citizens for Responsibility and Ethics in Washington, Public Citizen, and the Project On Government Oversight sued in federal court in Washington to shut down Project Meridian, naming the department, Secretary Pete Hegseth, and Undersecretary for Research and Engineering Emil Michael. The complaint says the panel violates the Federal Advisory Committee Act, and Military.com said it counts 19 of 21 people involved as private-sector figures. Military.com said Hegseth commissioned the study in a Sept. 30 memo, told Michael to run it through a partner organization, and set findings for Jan. 28, 2027. A MITRE spokesperson told Military.com the Department of War contracted with MITRE's National Security Engineering Center to conduct the study, and a Pentagon spokesperson said the department does not comment on pending legislation.",
+      "sources": [
+        {
+          "name": "Military.com",
+          "url": "https://www.military.com/hegseths-future-of-warfare-panel-is-stacked-with-contractors-who-stand-to-profit-lawsuit-says"
+        }
+      ]
+    },
+    {
       "id": "dod-movers-cmmc-2026-10-29",
       "subsection": "acquisition",
       "date": "2026-10-29",
@@ -125,6 +139,20 @@
         {
           "name": "Federal News Network",
           "url": "https://federalnewsnetwork.com/contracting/2026/10/dod-issues-guidance-for-procuring-unbiased-ai-systems/"
+        }
+      ]
+    },
+    {
+      "id": "eram-rfi-2026-11-03",
+      "subsection": "ops",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "Air Force asks industry for more than 1,000 Extended Range Attack Munitions for Ukraine",
+      "summary": "Defense News reported Nov. 3 that the U.S. Air Force is asking industry whether it can deliver a cruise missile intended for Ukraine, the Extended Range Attack Munition. The outlet said the request for information, due Nov. 19, describes a 500-pound-class air-launched weapon with a range greater than 250 nautical miles, a speed above Mach 0.6, and terminal accuracy within 10 meters even with degraded GPS. Defense News said companies should begin delivering the first of more than 1,000 missiles no later than three months after award, and finish within 15 months. It said the Air Force in 2024 awarded prototype work to Zone 5 Technologies and CoAspire, and conducted a live-warhead test at Eglin Air Force Base in January 2026.",
+      "sources": [
+        {
+          "name": "Defense News",
+          "url": "https://www.defensenews.com/industry/2026/11/03/us-air-force-asks-industry-for-new-cruise-missile-for-ukraine/"
         }
       ]
     },

@@ -3,12 +3,12 @@
   "file": "partners.html",
   "nav": "PARTNERS",
   "kicker": "PARTNERS",
-  "cadence": "Weekly \u00b7 Mondays",
+  "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-03",
-  "covers": "Oct 26–Nov 3, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 3. New: Palo Alto Networks said Nov. 2 that Cortex Cloud 2.3 adds a cloud sensor, SaaS security for 100 applications, and MCP integrations for Claude Code and Cursor. F5 had no product release; Singapore's Nov. 3 PHP2Shell alert, which names F5 BIG-IP, is on the cyber page. No new Dell, HPE, NetApp, or Microsoft release dated Nov. 2–3 was found. No new VMware advisory dated Nov. 2–3 was found; the Oct. 28 ESX logging bug remains due Nov. 11. Nvidia's Brev notice is on the cyber page. Intel had no newer item than the Oct. 31 capacity shift.",
+  "compiled": "2026-11-04",
+  "covers": "Oct 26–Nov 4, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 4. New: OpenAI said Nov. 3 that Cisco is using its models, including Daybreak and GPT-6 Astra, to correlate network signals and shorten investigation. Dell said Nov. 3 that PowerScale OneFS 9.16 supports up to 500 tenants on a cluster. Tom's Hardware reported Nov. 3 that Intel Foundry made the Intel 14A PDK 0.9 available. F5 had no product release, and VMware had no new advisory; Singapore's Nov. 3 PHP2Shell alert, which names F5 BIG-IP, is on the cyber page. Nvidia's Nov. 3 blog on AI tools in semiconductor fabs was not added so this section stayed within 12 items. No Microsoft or NetApp newsroom item dated Nov. 3–4 was opened. HPE's Nov. 3 newsroom item was a CloudPhysics assessment post, not a product award.",
   "subsections": [
     {
       "id": "cisco",
@@ -48,7 +48,7 @@
     },
     {
       "id": "quiet",
-      "title": "F5 \u00b7 Intel \u00b7 VMware"
+      "title": "F5 · Intel · VMware"
     },
     {
       "id": "other",
@@ -56,6 +56,20 @@
     }
   ],
   "items": [
+    {
+      "id": "intel-14a-pdk-2026-11-03",
+      "subsection": "quiet",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "Tom's Hardware: Intel Foundry released the Intel 14A process kit, version 0.9",
+      "summary": "Tom's Hardware reported Nov. 3 that Intel Foundry last week made its Intel 14A process design kit, version 0.9, available. Tom's Hardware said Intel describes the node as reaching the performance and yield maturity expected at this stage, with the results backed by silicon validation. It said Intel plans to release process design kit 1.0 in the first quarter of 2027, which Intel says will validate readiness for high-volume manufacturing.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-14a-moves-closer-to-production-as-pdk-0-9-becomes-available-process-design-kit-gives-developers-important-production-milestone-ahead-of-1-0-in-2027"
+        }
+      ]
+    },
     {
       "id": "intel-xeon-shift-2026-10-31",
       "subsection": "quiet",
@@ -67,6 +81,20 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history"
+        }
+      ]
+    },
+    {
+      "id": "cisco-openai-defense-2026-11-03",
+      "subsection": "cisco",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "OpenAI says Cisco is using GPT-6 Astra and Daybreak to speed network defense",
+      "summary": "OpenAI said Nov. 3 that Cisco is combining network telemetry with OpenAI models, and that OpenAI's zero-data-retention terms let Cisco deploy the models on mission-critical systems. Jeetu Patel, Cisco's president and chief product officer, told OpenAI that controls can sit in front of every microservice, Kubernetes container, and cluster, and that two signals that look benign alone can show a pattern together. Patel said Daybreak and GPT-6 Astra have been what he called step-function improvements for Cisco's security posture and its customers', and that the tools can fit into existing scanning workflows. OpenAI said that through the Daybreak Defense Network the companies are exploring how security teams can triage exposure faster and enforce controls in Cisco Cloud Control.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/cisco-cyber"
         }
       ]
     },
@@ -106,7 +134,7 @@
       "id": "palo-php-2026-10-26",
       "subsection": "paloalto",
       "date": "2026-10-29",
-      "dateLabel": "Oct 21\u201329",
+      "dateLabel": "Oct 21–29",
       "headline": "Palo Alto says php2shell is being exploited on internet-exposed management interfaces",
       "summary": "Palo Alto Networks updated its advisory on CVE-2026-109618 and CVE-2026-109619 on Oct. 29. Palo Alto now says active exploitation has been observed against management interfaces exposed to the internet, rates that case critical with a CVSS-B score of 9.2, and says the issue applies to PAN-OS on PA-Series and VM-Series firewalls and on Panorama. The Oct. 29 timeline entry says estimated dates for 11.1.7-h12 were removed because that version is released. The solution table says to upgrade PAN-OS 11.1.7 through 11.1.7-h* to 11.1.7-h12 or 11.1.16-h4 or later.",
       "sources": [
@@ -134,7 +162,7 @@
       "id": "palo-brotli-2026-10-28",
       "subsection": "paloalto",
       "date": "2026-10-29",
-      "dateLabel": "Oct 26\u201329",
+      "dateLabel": "Oct 26–29",
       "headline": "Palo Alto's Oct. 29 Brotli update says the remaining listed hotfixes are released",
       "summary": "Palo Alto Networks updated its advisory on CVE-2026-111497 on Oct. 29. Palo Alto says the bug applies to PAN-OS on PA-Series and VM-Series firewalls when Brotli inspection and TLS decryption are enabled on the dataplane, that the management interface is not affected, and that it is not aware of malicious exploitation of this issue. It says PAN-OS 11.1, PAN-OS 10.2, and Panorama are not affected, and that Brotli inspection is disabled by default in PAN-OS 11.2.4 and later. The Oct. 29 changelog says the estimated dates for 11.2.4-h23, 12.1.4-h13, and 12.1.10-h3 were removed because those versions are released, and the advisory says the same hotfix covers both the PHP bugs and Brotli except that 11.2.10-h16 fixes only PHP and 11.2.10-h17 fixes both.",
       "sources": [
@@ -191,6 +219,20 @@
         {
           "name": "AWS",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/"
+        }
+      ]
+    },
+    {
+      "id": "dell-onefs-2026-11-03",
+      "subsection": "dell",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "Dell says PowerScale OneFS 9.16 supports 500 tenants on one cluster",
+      "summary": "Dell said Nov. 3 that PowerScale OneFS 9.16, which it calls a storage engine in the Dell AI Data Platform, supports up to 500 tenants on a single cluster, ten times the previous 50-zone ceiling. Dell said Access Zone-aware snapshots and quotas, shared network pools, object-ownership policies, and source-IP routing are meant to keep tenant boundaries in place on shared infrastructure. It said the release adds offline licensing registration, pAPI request rate limiting, and RPC-over-TLS for NFS traffic without a Kerberos deployment. Dell also said OneFS 9.16 adds S3 bucket ownership modes, including ObjectWriter, BucketOwnerEnforced, and BucketOwnerPreferred.",
+      "sources": [
+        {
+          "name": "Dell",
+          "url": "https://www.dell.com/en-us/blog/how-powerscale-onefs-9-16-scales-ai-cloud-infrastructure/"
         }
       ]
     }
