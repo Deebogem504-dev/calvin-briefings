@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-04",
-  "covers": "Oct 26–Nov 4, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 4. New: OpenAI said Nov. 3 that two people used GPT-6 Astra to design a Codex device in under a week, and that manufacturing still needed several rounds of human review. The Oct. 26 GPT-6.1 Terra note was removed so the section stayed within 12 items. Anthropic's news page had no item dated Nov. 3–4. No new Google model announcement dated Nov. 3–4 was found. Nvidia's Nov. 3 blog on AI tools in semiconductor fabs was left off this page. Cisco's use of OpenAI models is on the partners page. OpenAI's Grid Protectors program remains on the data-center page.",
+  "compiled": "2026-11-05",
+  "covers": "Oct 26–Nov 5, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 5. New: OpenAI said Nov. 4 it will acquire Pierre Computer Company to expand Codex, and that Images 2.6 is in ChatGPT, Codex, and the API. The Verge reported Nov. 4 that Claude Code 2.1.317 now lets a user name a game as a genre reference. The Oct. 27 Oracle and Oct. 28 ServiceNow notes were removed so the OpenAI subsection stayed at four. Anthropic's newsroom had no separate post dated Nov. 4–5. No new Google model announcement dated Nov. 4–5 was found. Tom's Hardware's Nov. 5 homepage also listed a Claude Code change; this item cites The Verge. Cisco's use of OpenAI models is on the partners page. OpenAI's Grid Protectors program remains on the data-center page.",
   "subsections": [
     {
       "id": "anthropic",
@@ -55,16 +55,16 @@
       ]
     },
     {
-      "id": "claude-code-games-2026-11-02",
+      "id": "claude-code-games-2026-11-04",
       "subsection": "anthropic",
-      "date": "2026-11-02",
-      "dateLabel": "Oct 30–Nov 2",
-      "headline": "Tom's Hardware: Anthropic says Claude Code on Opus 5.5 is steered away from cloning a specific game",
-      "summary": "Tom's Hardware reported Nov. 2 that Anthropic's Addy Osmani said on Oct. 30 that the company added two sentences to Claude Code's prompt on Opus 5.5 to steer it away from recreating someone else's specific game, because using Claude to infringe intellectual property is against Anthropic's usage policy. Osmani said original games, genre games, and games built from a user's own designs and assets are meant to keep working, and that Anthropic will keep iterating. Tom's Hardware said the game-related blocking it could identify appeared limited to Claude Code with Opus 5.5. It also said its own Jarred Walton found that reverse-engineering checks in software he is developing were refused on Oct. 31 and worked again when he switched to Opus 4.8.",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 4",
+      "headline": "The Verge: Claude Code 2.1.317 can use a named game as a genre reference",
+      "summary": "The Verge reported Nov. 4 that Anthropic updated Claude Code, version 2.1.317, after a short rule in the Opus 5.5 prompt steered the model away from recreating specific existing games and also fired when a user named a game only to describe mechanics. The Verge quoted Anthropic saying a user can now name a game to describe what they want and Claude should build an original game in that genre. If the user asks for a copy of the original, Anthropic said Claude will offer to build something similar instead.",
       "sources": [
         {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks"
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026672/anthropic-tweaks-how-claude-code-handles-requests-about-making-games"
         }
       ]
     },
@@ -101,6 +101,34 @@
       ]
     },
     {
+      "id": "openai-pierre-2026-11-04",
+      "subsection": "openai",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 4",
+      "headline": "OpenAI says it will acquire Pierre to expand Codex's code tools",
+      "summary": "OpenAI said Nov. 4 that it will acquire Pierre Computer Company, the company behind Code Storage and open-source developer tools including the Trees and Diffs libraries already used in the Codex app. OpenAI said Pierre also released Highlights, a syntax highlighter that updates as a developer types or an agent streams code. OpenAI said Pierre's open-source projects will remain open source, that Code Storage customers can keep using the service after closing, and that the companies will bring those features into Codex. OpenAI said closing is subject to customary conditions, including regulatory approvals, and that the companies remain separate until then.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/openai-to-acquire-pierre/"
+        }
+      ]
+    },
+    {
+      "id": "openai-images-2026-11-04",
+      "subsection": "openai",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 4",
+      "headline": "OpenAI releases Images 2.6 with faster generation and GIF output",
+      "summary": "OpenAI said Nov. 4 that Images 2.6 is available in ChatGPT, Codex, and the API, and that it generates images 50 percent faster than before. OpenAI said people create 4 billion images per week across those products. In the API, OpenAI is offering GPT-Image-2.6 Flare and Sunburst, and it said Flare can generate an image in as little as six seconds when quality is set to low. OpenAI said the release adds GIF creation, brings image markup to the API, adds SVG export, and adds a complexity parameter for how much planning the model does.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-images-2-6/"
+        }
+      ]
+    },
+    {
       "id": "openai-physical-2026-11-03",
       "subsection": "openai",
       "date": "2026-11-03",
@@ -125,34 +153,6 @@
         {
           "name": "OpenAI",
           "url": "https://openai.com/index/updated-model-spec"
-        }
-      ]
-    },
-    {
-      "id": "openai-servicenow-2026-10-28",
-      "subsection": "openai",
-      "date": "2026-10-28",
-      "dateLabel": "Oct 28",
-      "headline": "OpenAI and ServiceNow will connect ServiceNow workflows to ChatGPT and Codex",
-      "summary": "OpenAI said Oct. 28 it is expanding its partnership with ServiceNow so ServiceNow products use more OpenAI models and agents, and so ServiceNow workflows connect to ChatGPT and Codex. OpenAI said a ServiceNow integration will let an IT team member find similar incidents, assess the risk of a change, and update a ServiceNow record inside ChatGPT, with ServiceNow's Action Fabric applying the customer's existing rules and permissions. The ServiceNow MCP plugin is available in the OpenAI marketplace now. OpenAI said voice features in the Super Intelligence Control Tower are expected in the first quarter of 2027, security capabilities are expected in early access in January 2027 and generally available in the second quarter of 2027, and Codex in the AI Workflow Factory is expected in 2027.",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/openai-servicenow-partnership-expansion/"
-        }
-      ]
-    },
-    {
-      "id": "openai-oracle-2026-10-27",
-      "subsection": "openai",
-      "date": "2026-10-27",
-      "dateLabel": "Oct 27",
-      "headline": "OpenAI and Oracle will put Oracle applications and data into ChatGPT",
-      "summary": "OpenAI said Oct. 27 it is expanding its partnership with Oracle so Oracle applications and data come into ChatGPT, and so new Oracle products use OpenAI models. Oracle is developing Oracle AI Workspace for that, and OpenAI said Oracle also announced Oracle AI Security Mesh, an SMB bundle that combines ChatGPT Business and Codex with Oracle applications and cloud credits, and Oracle App Composer for building apps with Codex. OpenAI said U.S. Oracle customers can buy the OpenAI API, Codex, and ChatGPT Work through Oracle Marketplace with eligible Universal Credits. OpenAI said Oracle reported 130,000 active ChatGPT users and more than 95,000 active Codex users.",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/oracle-apps-in-chatgpt"
         }
       ]
     },

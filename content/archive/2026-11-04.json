@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-04",
+  "title": "November 4, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "ARMY",
+      "dateLabel": "Nov 3",
+      "headline": "L3Harris received a $36 million Army order for Hawkeye 4 Lite SATCOM terminals",
+      "sources": [
+        {
+          "name": "L3Harris",
+          "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-receives-satcom-order-us-army-support-key-command-and"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Nov 3",
+      "headline": "CISA added a WordPress core bug to the KEV catalog, due Nov. 6",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 3",
+      "headline": "Watchdogs sued to shut down Hegseth's Project Meridian panel",
+      "sources": [
+        {
+          "name": "Military.com",
+          "url": "https://www.military.com/hegseths-future-of-warfare-panel-is-stacked-with-contractors-who-stand-to-profit-lawsuit-says"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Nov 3",
+      "headline": "OpenAI says GPT-6 Astra designed a device, then missed manufacturing limits",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+        }
+      ]
+    },
+    {
+      "label": "PARTNERS",
+      "dateLabel": "Nov 3",
+      "headline": "Cisco is using OpenAI models to correlate network signals and speed response",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/cisco-cyber"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Nov 3",
+      "headline": "Tom's Hardware: xAI is powering a Mississippi data center with eight jet turbines",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-xai-installs-eight-converted-jet-engines-to-power-mississippi-data-center-permits-allow-25-percent-higher-limit-for-pollutants-concerns-raised-over-carbon-monoxide"
+        }
+      ]
+    }
+  ]
+}

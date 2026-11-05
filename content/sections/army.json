@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-04",
-  "covers": "Oct 26–Nov 4, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 4. New: L3Harris said Nov. 3 it received a $36 million Army order for Hawkeye 4 Lite terminals under C2NOW, Serco said Nov. 3 it received an RS3 task order for Command Post Modernization, and Tom's Hardware reported Nov. 4 that Army Research Laboratory researchers flew the VICTOR hybrid-electric drone. No new NETCOM release was found. Federal News Network had no new Army network or contract story dated Nov. 3–4. EIN Presswire did not yield a separate Army article whose original publisher page was opened. The Project Griffin pilot remains the WWT line.",
+  "compiled": "2026-11-05",
+  "covers": "Oct 26–Nov 5, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 5. New: DVIDS posted Nov. 4 that Project Manager Terrestrial Sensors and Project Director Sensors Aerial Intelligence merged Nov. 1 into PM ATSR, and the Nov. 4 Department of War contracts release awarded Avum $61 million to refactor the Virtual Contracting Enterprise. The Oct. 29 Future Interceptor item was removed so the contracts subsection stayed at four. That release also listed an HHI repair at a San Antonio Reserve center and a Clark modification for a Fort Bliss clinic; those facilities actions were not added. No new NETCOM release was found. Federal News Network's homepage listed an Army National Guard childcare expansion and the CISA note already on the cyber page. EIN Presswire carried the sensor-office release; this item cites the DVIDS original. The Project Griffin pilot remains the WWT line.",
   "subsections": [
     {
       "id": "leadership",
@@ -32,6 +32,20 @@
     }
   ],
   "items": [
+    {
+      "id": "pm-atsr-2026-11-04",
+      "subsection": "modernization",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 1–4",
+      "headline": "Army merges aerial and ground sensor offices into PM ATSR",
+      "summary": "DVIDS posted Nov. 4, in a story by M. Scott Bortot, that on Nov. 1 Project Manager Terrestrial Sensors and Project Director Sensors Aerial Intelligence merged into Project Manager Aerial-Terrestrial Surveillance and Reconnaissance, or PM ATSR. The article says the office sits under the Portfolio Acquisition Executive for Command and Control and Counter C2 and will develop, acquire, field, and sustain aerial and terrestrial sensors. Chris Manning, portfolio management executive for Intelligence and Spectrum Warfare, said the merger is meant to deliver integrated capabilities faster. Project Manager Tom Dunaway said the office will support intelligence, surveillance, reconnaissance, target acquisition, and sensor integration for operations at installations and on the battlefield.",
+      "sources": [
+        {
+          "name": "DVIDS",
+          "url": "https://www.dvidshub.net/news/578606/army-merges-aerial-and-terrestrial-sensor-offices-deliver-capabilities-soldiers-faster"
+        }
+      ]
+    },
     {
       "id": "victor-drone-2026-11-04",
       "subsection": "modernization",
@@ -103,20 +117,6 @@
       ]
     },
     {
-      "id": "future-interceptor-2026-10-29",
-      "subsection": "contracts",
-      "date": "2026-10-29",
-      "dateLabel": "Oct 29",
-      "headline": "Army awards Lockheed an Other Transaction Agreement for a $1.08 billion Future Interceptor",
-      "summary": "Army Public Affairs said Oct. 29 in Huntsville that the Army awarded Lockheed Martin an Other Transaction Agreement to develop the Future Interceptor for the Integrated Air and Missile Defense portfolio. The release says the total estimated project value is $1.08 billion, consisting of $660.4 million in government funding and a $423 million cost-sharing commitment from Lockheed Martin, and that the interceptor is meant to improve engagement range, altitude, velocity, and maneuverability. Acting Chief of Staff Gen. Christopher LaNeve said the effort follows the warfighting guidance How the Army Fights and mixes exquisite and low-cost munitions. Assistant Secretary for Acquisition, Logistics and Technology Brent Ingraham said later development and production decisions will follow prototype performance, operational requirements, available resources, and applicable acquisition processes.",
-      "sources": [
-        {
-          "name": "Army.mil",
-          "url": "https://www.army.mil/article/296443/army_announces_selection_for_future_interceptor_program"
-        }
-      ]
-    },
-    {
       "id": "project-griffin-2026-10-26",
       "subsection": "contracts",
       "date": "2026-10-26",
@@ -127,6 +127,20 @@
         {
           "name": "Army.mil",
           "url": "https://www.army.mil/article/296330/army_selects_project_griffin_partners_to_accelerate_si_enabled_cyber_defense"
+        }
+      ]
+    },
+    {
+      "id": "avum-vce-2026-11-04",
+      "subsection": "contracts",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 4",
+      "headline": "Army Contracting Command-Rock Island awards Avum $61 million for contracting software",
+      "summary": "The Department of War's Nov. 4 contracts release says Avum of Agoura Hills, California, was awarded a $61,053,453 firm-fixed-price contract for software sustainment, capability delivery, technical refactoring of the Virtual Contracting Enterprise business intelligence suite into a modern microservices architecture, and deployment of a secure contracting capability. The release says six bids were received, work will be performed in Agoura Hills, and the estimated completion date is Nov. 3, 2031. It says $2,818,452 in fiscal 2027 Army operation and maintenance funds were obligated at award. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity on W519TC-27-C-A019.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Contracts/Contract/Article/4641708/contracts-for-nov-4-2026/"
         }
       ]
     },

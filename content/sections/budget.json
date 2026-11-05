@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Federal Budget & NDAA Weekly Tracker",
   "description": "Fiscal 2027 appropriations, the continuing resolution, NDAA status, reconciliation funds and Golden Dome money.",
-  "compiled": "2026-11-04",
-  "covers": "Oct 26–Nov 4, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 4. New: on election day, Federal News Network interviewed Professional Services Council chief executive Jim Carroll, who said lame-duck work on the fiscal 2027 NDAA should start almost immediately and that intellectual-property and repair-rights language is progressing. No appropriations vote dated Nov. 3–4 was found. No newer Golden Dome appropriation or Iran-war cost figure was found. The newest funding figures remain the Oct. 28 Pentagon estimate that the Iran war had cost $47.1 billion as of Oct. 16, and the CSIS note that the continuing resolution runs through Dec. 11.",
+  "compiled": "2026-11-05",
+  "covers": "Oct 26–Nov 5, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 5. New: CyberScoop reported Nov. 4 that the Cybersecurity Information Sharing Act of 2015 expires Dec. 11, the same day as the continuing resolution, and that the Senate NDAA text includes an AI bill-of-materials requirement and a broad authorization for contractor-operated offensive cyber. No appropriations vote dated Nov. 4–5 was found. No newer Golden Dome appropriation or Iran-war cost figure was found. The newest funding figures remain the Oct. 28 Pentagon estimate that the Iran war had cost $47.1 billion as of Oct. 16, and the CSIS note that the continuing resolution runs through Dec. 11.",
   "subsections": [
     {
       "id": "approps",
@@ -67,6 +67,20 @@
         {
           "name": "PBS News",
           "url": "https://www.pbs.org/newshour/world/american-taxpayers-bill-for-iran-war-grows-to-estimated-47-1-billion"
+        }
+      ]
+    },
+    {
+      "id": "ndaa-lameduck-cyber-2026-11-04",
+      "subsection": "ndaa",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 4",
+      "headline": "CyberScoop: CISA 2015 expires Dec. 11, and the Senate NDAA would require an AI bill of materials",
+      "summary": "CyberScoop reported Nov. 4 that Democrats won control of the House and Senate, and that the Cybersecurity Information Sharing Act of 2015 is set to expire Dec. 11. Michael Garcia, of Monument Advocacy, told CyberScoop that an extension could ride on an omnibus funding bill or the annual defense policy bill, and CyberScoop said the Department of Homeland Security and CISA are on a continuing resolution that also expires Dec. 11. Nicholas Leiserson, of the Institute for Security and Technology, told CyberScoop that Republicans want the fiscal 2027 National Defense Authorization Act done in the lame duck, and that the Senate version includes what he called a very broad authorization for contractor-owned, contractor-operated offensive cyber operations and a requirement that every artificial intelligence product sold to the Defense Department have an AI bill of materials. Rep. Bennie Thompson told CyberScoop that CISA had cut back by nearly one-third and that House Democrats will aim to extend the State and Local Cybersecurity Grant Program.",
+      "sources": [
+        {
+          "name": "CyberScoop",
+          "url": "https://cyberscoop.com/democrats-congress-cybersecurity-cisa-ai-priorities/"
         }
       ]
     },

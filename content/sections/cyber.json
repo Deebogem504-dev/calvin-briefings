@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-04",
-  "covers": "Oct 26–Nov 4, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 4. New: CISA added WordPress CVE-2026-119977 to the KEV catalog on Nov. 3, due Nov. 6, and Federal News Network reported Nov. 3 that Brian Mazanec is acting executive assistant director for infrastructure security. The Oct. 26 CMMC cost story was removed so the trends subsection stayed at four items; the Oct. 27 path-forward note remains. PHP2Shell remains the incident lead. A Nov. 3 ICS advisory on Subnet Solutions PowerSYSTEM Center was not added. The Ivanti Connect Secure due date of Nov. 2 has passed; CVE-2026-118527 remains due Nov. 13. Tom's Hardware's Nov. 4 Android TV backdoor story was not added. The VMware ESX logging bug remains due Nov. 11 and is on the partners page.",
+  "compiled": "2026-11-05",
+  "covers": "Oct 26–Nov 5, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 5. New: CISA added Apple CVE-2024-27834 to the KEV catalog on Nov. 4, due Nov. 18, and Tom's Hardware reported Nov. 4 that a PHP Foundation post-mortem says maintainers knew of the PHP2Shell issue for two years. WordPress CVE-2026-119977 remains due Nov. 6. Ivanti CVE-2026-111357's Nov. 2 due date has passed; CVE-2026-118527 remains due Nov. 13. The VMware ESX logging bug remains due Nov. 11 and is on the partners page. CyberScoop's Nov. 4 note on the Dec. 11 expiration of the 2015 information-sharing law, and on the Senate NDAA, is on the budget page. Federal News Network's homepage repeated the Mazanec item already here. No new CISA alert dated Nov. 5 was found.",
   "subsections": [
     {
       "id": "kev",
@@ -53,6 +53,20 @@
       ]
     },
     {
+      "id": "php-postmortem-2026-11-04",
+      "subsection": "incidents",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 4",
+      "headline": "Tom's Hardware: PHP maintainers say they knew about PHP2Shell for two years",
+      "summary": "Tom's Hardware reported Nov. 4 that a PHP Foundation post-mortem says a small team of maintainers had known about the PHP2Shell issue for two years, did not immediately treat it as a cause for concern, and went back and forth on a fix that would stay compatible with third-party extensions. Tom's Hardware said the foundation described the team as one full-time employee and 14 part-time contractors, and that the currently maintained branches are PHP 8.1 through 8.5. It said the exploit is being chained with Fragnesia, which it also calls Dirty Frag, and that one campaign reached kernel-level access on 25 servers it described as seemingly linked to the U.S. government. It said BitSight, as of Oct. 29, had recorded intrusion attempts from many origins across its monitoring fleet.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/php-vulnerability-post-mortem-reveals-bug-was-known-two-years-ago-small-team-of-maintainers-knew-of-the-issue-before-it-was-made-public-as-new-php2shell-chained-exploit-ravages-servers"
+        }
+      ]
+    },
+    {
       "id": "wordpress-kev-2026-11-03",
       "subsection": "kev",
       "date": "2026-11-03",
@@ -67,6 +81,24 @@
         {
           "name": "CISA KEV catalog",
           "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
+    {
+      "id": "apple-kev-2026-11-04",
+      "subsection": "kev",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 4",
+      "headline": "CISA adds an Apple pointer-authentication bug to the KEV catalog, due Nov. 18",
+      "summary": "CISA said Nov. 4 it added CVE-2024-27834, an Apple improper-authentication bug, to the Known Exploited Vulnerabilities catalog. The catalog says Apple iOS, iPadOS, macOS, Safari, tvOS, and watchOS 10.5 contain a flaw that could allow an attacker with arbitrary read and write capability to bypass pointer authentication. The catalog sets a due date of Nov. 18, does not require forensic triage, and lists ransomware use as unknown. CISA said this class of vulnerability is a frequent attack vector and poses significant risk to the federal enterprise.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
         }
       ]
     },

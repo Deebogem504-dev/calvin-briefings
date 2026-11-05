@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-04",
-  "covers": "Oct 26–Nov 4, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 4. New: OpenAI said Nov. 3 that Cisco is using its models, including Daybreak and GPT-6 Astra, to correlate network signals and shorten investigation. Dell said Nov. 3 that PowerScale OneFS 9.16 supports up to 500 tenants on a cluster. Tom's Hardware reported Nov. 3 that Intel Foundry made the Intel 14A PDK 0.9 available. F5 had no product release, and VMware had no new advisory; Singapore's Nov. 3 PHP2Shell alert, which names F5 BIG-IP, is on the cyber page. Nvidia's Nov. 3 blog on AI tools in semiconductor fabs was not added so this section stayed within 12 items. No Microsoft or NetApp newsroom item dated Nov. 3–4 was opened. HPE's Nov. 3 newsroom item was a CloudPhysics assessment post, not a product award.",
+  "compiled": "2026-11-05",
+  "covers": "Oct 26–Nov 5, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 5. New: Tom's Hardware reported Nov. 4 that AMD expects about $17 billion of fourth-quarter revenue, above the range it attributed to Intel. The Oct. 27 VMware Brotli advisory was removed so the F5, Intel, and VMware subsection stayed at four; the ESX logging bug remains. F5 had no new product release, and VMware had no new advisory. No Cisco, Dell, HPE, NetApp, Microsoft, Palo Alto, AWS, or Google Cloud newsroom item dated Nov. 4–5 was opened. A Tom's Hardware headline on Nvidia GPU supply to China was not added so this section stayed within 12 items. Singapore's PHP2Shell alert, which names F5 BIG-IP, remains on the cyber page.",
   "subsections": [
     {
       "id": "cisco",
@@ -56,6 +56,20 @@
     }
   ],
   "items": [
+    {
+      "id": "amd-q4-intel-2026-11-04",
+      "subsection": "quiet",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 4",
+      "headline": "Tom's Hardware: AMD's fourth-quarter guide would put it ahead of Intel",
+      "summary": "Tom's Hardware reported Nov. 4 that AMD expects about $17 billion of fourth-quarter revenue, plus or minus 3 percent, against an Intel range of $15 billion to $16 billion, which Tom's Hardware said would put AMD ahead of Intel for a quarter for the first time. It said third-quarter revenue was $13.377 billion and Data Center revenue was a record $8.55 billion, 64 percent of sales. Chief executive Lisa Su said server revenue is expected to double year over year in 2027 and that data center should be more than 80 percent of total revenue that year. Tom's Hardware said Embedded revenue rose 29 percent year over year to $1.11 billion, which AMD attributed in part to aerospace and defense, and that Client and Gaming is projected to contract more than 20 percent sequentially in the fourth quarter.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections"
+        }
+      ]
+    },
     {
       "id": "intel-14a-pdk-2026-11-03",
       "subsection": "quiet",
@@ -191,20 +205,6 @@
         {
           "name": "Broadcom",
           "url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017"
-        }
-      ]
-    },
-    {
-      "id": "vmware-brotli-2026-10-27",
-      "subsection": "quiet",
-      "date": "2026-10-27",
-      "dateLabel": "Oct 27",
-      "headline": "Broadcom: VMware SDDC Manager can be exploited through the Brotli bug, and patches are pending",
-      "summary": "Broadcom's VMSA-2026-0008, issued Oct. 27, says Node.js in SDDC Manager has a remote-code-execution bug, CVE-2026-111497, because of an out-of-bounds write in the Brotli decoder. Broadcom scores SDDC Manager 9.1.1 as critical, with a CVSS score of 9.8, and scores 9.0.x, 9.1.0, and 5.2.x as important, with a CVSS score of 7.5. The advisory says a malicious actor with network access to SDDC Manager may run arbitrary code, and that fixed versions are still pending. Workarounds are listed as KB460732 for 9.1.1 and KB460734 for the older releases. The affected lines are VMware Cloud Foundation and, on the 9.x rows, VMware vSphere Foundation.",
-      "sources": [
-        {
-          "name": "Broadcom",
-          "url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39445"
         }
       ]
     },

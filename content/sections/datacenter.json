@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-04",
-  "covers": "Oct 26–Nov 4, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 4. New: Tom's Hardware reported Nov. 3 that xAI is powering a Mississippi data center with eight converted jet-engine turbines, and, citing The Information, that a smuggler described shipping export-controlled high-bandwidth memory to China inside low-performing processors. No separate networking-fabric announcement dated Nov. 3–4 was found. Dell's OneFS 9.16 note is on the partners page. Intel's 14A process-kit note is on the partners page. Tom's Hardware's Nov. 3 Grid Protectors write-up is the same OpenAI program already on this page.",
+  "compiled": "2026-11-05",
+  "covers": "Oct 26–Nov 5, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 5. New: The Verge reported Nov. 4 that, as of Wednesday morning, 33 of 45 local data-center ballot measures will restrict development, and that an NBC News Election Day poll found 76 percent of voters opposed data centers in their communities. The Oct. 27 SpaceX GPU-debt note was removed so the capacity subsection stayed at four. No separate networking-fabric announcement dated Nov. 4–5 was found. Dell's OneFS 9.16 note is on the partners page. Tom's Hardware's Nov. 4 homepage carried the same ballot result; this item cites The Verge. AMD's data-center revenue note is on the partners page.",
   "subsections": [
     {
       "id": "networking",
@@ -85,6 +85,20 @@
       ]
     },
     {
+      "id": "datacenter-ballots-2026-11-04",
+      "subsection": "capacity",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 4",
+      "headline": "The Verge: 33 of 45 local ballot measures will restrict data centers",
+      "summary": "The Verge reported Nov. 4 that data-center developers face a more restrictive building environment after the midterms. It said an NBC News Election Day poll found 76 percent of voters opposed data centers in their communities, and that voters faced 45 local ballot measures. As of Wednesday morning, The Verge said, a Redbud Consulting compilation showed that 33 of those results will restrict data-center development. It said Wells, Maine, favored a 180-day moratorium on large data centers, several Ohio cities voted to ban data centers over 25 megawatts, and El Dorado, Kansas, voted to ban data centers with a peak electrical load over 10 megawatts for 10 years.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
+        }
+      ]
+    },
+    {
       "id": "intel-fab28-2026-10-30",
       "subsection": "capacity",
       "date": "2026-10-30",
@@ -109,20 +123,6 @@
         {
           "name": "NVIDIA Newsroom",
           "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure"
-        }
-      ]
-    },
-    {
-      "id": "spacex-gpu-debt-2026-10-27",
-      "subsection": "capacity",
-      "date": "2026-10-27",
-      "dateLabel": "Oct 25–27",
-      "headline": "Tom's Hardware: Musk says SpaceX closed $40 billion of debt for GPUs due in 2027",
-      "summary": "Tom's Hardware reported Oct. 27 that Elon Musk wrote on X on Oct. 25 that SpaceX had closed $40 billion of debt for GPUs, and that he later said the borrowing is primarily callable debt for purchases arriving in the first and second quarters of 2027 and is not a major factor this quarter. Tom's Hardware says Musk tied the financing to SpaceX having investment-grade status and revenue from Starlink and launch, and that he wrote debt markets have largely shut off companies without substantial revenue outside AI data centers. The article quotes CFO Bret Johnsen, from SpaceX's third-quarter 2026 earnings call, expecting $35 billion to $40 billion of capital expenditure in the fourth quarter. Tom's Hardware says it is still unclear whether \"closed\" means investors agreed to final pricing, and that Musk did not confirm which GPU models or quantities the debt covers.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/spacex-closes-usd40-billion-debt-financing-for-gpus-expected-in-the-first-half-of-2027-musk-says-company-faces-up-to-usd40-billion-in-additional-fourth-quarter-capital-spending-as-ai-infrastructure-costs-soar"
         }
       ]
     },

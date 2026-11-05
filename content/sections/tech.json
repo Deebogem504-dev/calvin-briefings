@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-04",
-  "covers": "Oct 26–Nov 4, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 4. New: Defense News reported Nov. 3 that the Marine Corps and Navy will demonstrate cargo drones for TRUAS Increment II in Huntsville from Jan. 25 to Feb. 5, 2027. No new post-quantum standard or Army quantum award dated Nov. 3–4 was found. The Army Research Laboratory's VICTOR flight is on the Army page. The compute subsection is empty. PsiQuantum's optical-switch demo remains on the data-center page.",
+  "compiled": "2026-11-05",
+  "covers": "Oct 26–Nov 5, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 5. New: the Office of Strategic Capital announced Nov. 4 a $150 million conditional loan commitment to LeoLabs for space-domain-awareness radars. No new post-quantum standard or Army quantum award dated Nov. 4–5 was found. The Army Research Laboratory's VICTOR flight remains on the Army page. DRPM-UxS's CENTCOM delivery is on the Department of War page. The compute subsection is empty. PsiQuantum's optical-switch demo remains on the data-center page.",
   "subsections": [
     {
       "id": "quantum",
@@ -28,6 +28,20 @@
     }
   ],
   "items": [
+    {
+      "id": "leolabs-osc-2026-11-04",
+      "subsection": "space",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 4",
+      "headline": "Office of Strategic Capital commits a $150 million conditional loan to LeoLabs",
+      "summary": "The Department of War said Nov. 4 that the Office of Strategic Capital signed a $150 million conditional loan commitment with LeoLabs for space domain awareness and space traffic management. The release says the loan is matched dollar-for-dollar with co-investment, for a $300 million capital infusion, and that the financing would scale multi-mission phased-array radars, including mobile Scout units. It says the commitment is not a financial close: LeoLabs must still meet financial, legal, technical, investment, and due-diligence requirements. Under Secretary for Research and Engineering Emil Michael said the financing is meant to help the United States and allies control the data used for decision advantage in orbit.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4641087/department-of-wars-office-of-strategic-capital-signs-150-million-conditional-lo/"
+        }
+      ]
+    },
     {
       "id": "starfall-cargo-2026-11-01",
       "subsection": "space",

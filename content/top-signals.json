@@ -3,50 +3,50 @@
     {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Nov 3",
-      "headline": "L3Harris received a $36 million Army order for Hawkeye 4 Lite SATCOM terminals",
-      "item": "l3harris-hawkeye-2026-11-03",
-      "href": "army.html#network"
-    },
-    {
-      "section": "cyber",
-      "label": "CYBER",
-      "dateLabel": "Nov 3",
-      "headline": "CISA added a WordPress core bug to the KEV catalog, due Nov. 6",
-      "item": "wordpress-kev-2026-11-03",
-      "href": "cyber.html#kev"
+      "dateLabel": "Nov 4",
+      "headline": "Army merged aerial and ground sensor offices into PM ATSR",
+      "item": "pm-atsr-2026-11-04",
+      "href": "army.html#modernization"
     },
     {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Nov 3",
-      "headline": "Watchdogs sued to shut down Hegseth's Project Meridian panel",
-      "item": "meridian-lawsuit-2026-11-03",
-      "href": "dow.html#acquisition"
+      "dateLabel": "Nov 4",
+      "headline": "The department says it fielded more than 24,000 counter-drone systems to CENTCOM this year",
+      "item": "drpm-centcom-2026-11-04",
+      "href": "dow.html#ops"
+    },
+    {
+      "section": "cyber",
+      "label": "CYBER",
+      "dateLabel": "Nov 4",
+      "headline": "CISA added an Apple pointer-authentication bug to the KEV catalog, due Nov. 18",
+      "item": "apple-kev-2026-11-04",
+      "href": "cyber.html#kev"
     },
     {
       "section": "ai",
       "label": "AI",
-      "dateLabel": "Nov 3",
-      "headline": "OpenAI says GPT-6 Astra designed a device, then missed manufacturing limits",
-      "item": "openai-physical-2026-11-03",
+      "dateLabel": "Nov 4",
+      "headline": "OpenAI says it will acquire Pierre to expand Codex",
+      "item": "openai-pierre-2026-11-04",
       "href": "ai.html#openai"
     },
     {
-      "section": "partners",
-      "label": "PARTNERS",
-      "dateLabel": "Nov 3",
-      "headline": "Cisco is using OpenAI models to correlate network signals and speed response",
-      "item": "cisco-openai-defense-2026-11-03",
-      "href": "partners.html#cisco"
+      "section": "budget",
+      "label": "BUDGET",
+      "dateLabel": "Nov 4",
+      "headline": "CyberScoop: CISA 2015 expires Dec. 11, and the Senate NDAA would require an AI bill of materials",
+      "item": "ndaa-lameduck-cyber-2026-11-04",
+      "href": "budget.html#ndaa"
     },
     {
       "section": "datacenter",
       "label": "DC/NET",
-      "dateLabel": "Nov 3",
-      "headline": "Tom's Hardware: xAI is powering a Mississippi data center with eight jet turbines",
-      "item": "xai-turbines-2026-11-03",
-      "href": "datacenter.html#power"
+      "dateLabel": "Nov 4",
+      "headline": "The Verge: 33 of 45 local data-center ballot measures will restrict development",
+      "item": "datacenter-ballots-2026-11-04",
+      "href": "datacenter.html#capacity"
     }
   ]
 }

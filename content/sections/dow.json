@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-04",
-  "covers": "Oct 26–Nov 4, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 4. New: Military.com reported Nov. 3 that three watchdog groups sued to stop Project Meridian, and Defense News reported Nov. 3 that the Air Force asked industry for a cruise missile intended for Ukraine. The Nov. 3 Department of War contracts release listed Navy, Air Force, and Defense Logistics Agency awards and no Army award. No new Golden Dome appropriation was found. Federal News Network's defense feed had no new secretary-level story dated Nov. 3–4 beyond the DoDEA vacancy already on this page. The Sylvia removal remains the secretary-level lead.",
+  "compiled": "2026-11-05",
+  "covers": "Oct 26–Nov 5, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 5. New: the Department of War said Nov. 4 that DRPM-UxS fielded more than 24,000 counter-drone systems to CENTCOM this year, JIATF-401 awarded CHAOS 1 more than $6.9 million for Vanquish Prime radars, and ABC News reported Nov. 4 that President Trump said Secretary Hegseth is staying. The Oct. 28 Cebu meeting note was removed so the secretary subsection stayed at four. No new Golden Dome appropriation was found. The Office of Strategic Capital's LeoLabs loan is on the tech page. The Nov. 4 contracts release, including an Army software award, is on the Army page. Federal News Network's homepage had no new secretary-level story dated Nov. 4–5.",
   "subsections": [
     {
       "id": "secwar",
@@ -28,6 +28,20 @@
     }
   ],
   "items": [
+    {
+      "id": "hegseth-stays-2026-11-04",
+      "subsection": "secwar",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 4",
+      "headline": "Trump tells reporters Hegseth is staying after the midterm losses",
+      "summary": "ABC News reported Nov. 4 that President Donald Trump said Wednesday that Defense Secretary Pete Hegseth would remain on the job and told reporters he was doing a great job, while acknowledging that the war with Iran had contributed to Republicans' midterm losses. Pentagon spokesperson Sean Parnell told ABC News that Hegseth is 100 percent committed to leading the department until the end of President Trump's term and will not be deterred by what Parnell called phony investigations. ABC News said Democrats are preparing to use their new congressional majority to scrutinize the Pentagon, with Hegseth expected to be a target for possible impeachment, including the Iran war, strikes on suspected drug-smuggling boats, and firings of senior officers. ABC News said Vice President JD Vance wrote that the reason Republicans lost is the war, and that its voter poll found 34 percent of U.S. House voters called the Iran war crucial to their vote.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Politics/trump-dismisses-prospect-replacing-hegseth-amid-iran-war/story?id=137852219"
+        }
+      ]
+    },
     {
       "id": "sylvia-j5-2026-10-29",
       "subsection": "secwar",
@@ -79,24 +93,16 @@
       ]
     },
     {
-      "id": "hegseth-admm-2026-10-28",
-      "subsection": "secwar",
-      "date": "2026-10-28",
-      "dateLabel": "Oct 28",
-      "headline": "In Cebu, Hegseth and Japan's defense minister agree on cyber cooperation and a First Island Chain denial defense",
-      "summary": "The Japan Times reported Oct. 28 that Defense Minister Shinjiro Koizumi and Secretary of War Pete Hegseth met in Cebu on the sidelines of the ASEAN defense ministers' meeting and agreed to strengthen cooperation against cyberattacks. Japan's Defense Ministry said the two agreed to keep coordinating so malicious cyber activity, including large-scale leaks of personal information, does not seriously affect daily life, economic activity, or the security of both countries. Nippon.com, citing a U.S. Defense Department announcement, reported that the two underscored more defense investment and strategic alignment for an effective denial defense in the First Island Chain, and that they agreed to work closely on ammunition production. The Tribune reported the same day that Indian Defence Minister Rajnath Singh met Hegseth in Cebu, and that Hegseth said they marked one year of the Framework for the U.S.-India Major Defense Partnership.",
+      "id": "chaos-radar-2026-11-04",
+      "subsection": "acquisition",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 4",
+      "headline": "JIATF-401 awards CHAOS 1 more than $6.9 million for CENTCOM counter-drone radar",
+      "summary": "The Department of War said Nov. 4 that Joint Interagency Task Force 401 awarded CHAOS 1, Inc. a contract valued at more than $6.9 million for Vanquish Prime radar systems to strengthen counter-unmanned aircraft defense in the U.S. Central Command area. The release says the radars provide long-range detection and tracking, and that the award includes training and technology for integration. Lt. Col. Matthew Strohman, the task force's capability manager for mobile counter-UAS, said the threat from unmanned systems is evolving and that the systems are meant to give forces in CENTCOM a detection layer. The release says the radars will go to designated locations in that area of responsibility.",
       "sources": [
         {
-          "name": "The Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/10/28/japan/us-japan-koizumi-hegseth-asean/"
-        },
-        {
-          "name": "Nippon.com",
-          "url": "https://www.nippon.com/en/articles/-/56485"
-        },
-        {
-          "name": "The Tribune",
-          "url": "https://www.tribuneindia.com/news/world/rajnath-singh-meets-us-secy-of-war-hegseth-on-sidelines-of-asean-defence-ministers-meeting-in-philippines/"
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4641125/advanced-radar-contract-bolsters-uscentcom-counter-uas-defense/"
         }
       ]
     },
@@ -139,6 +145,20 @@
         {
           "name": "Federal News Network",
           "url": "https://federalnewsnetwork.com/contracting/2026/10/dod-issues-guidance-for-procuring-unbiased-ai-systems/"
+        }
+      ]
+    },
+    {
+      "id": "drpm-centcom-2026-11-04",
+      "subsection": "ops",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 4",
+      "headline": "Department says DRPM-UxS fielded more than 24,000 counter-drone systems to CENTCOM",
+      "summary": "The Department of War said Nov. 4 that the Direct Reporting Portfolio Manager for Unmanned Systems fielded, through about $782 million this year, more than 1,300 one-way-attack unmanned aerial vehicles, more than 100 unmanned surface and undersea vessels, and more than 24,000 counter-unmanned aerial systems to U.S. Central Command. The release says the counter-drone systems went out through Joint Interagency Task Force 401. Owen West, who the release calls CEO of Project Agincourt and DRPM-UxS, said the office was set up to put lethal technology in the hands of frontline troops and that the goal is to scale the capabilities across the joint force. The release says the effort is the operational foundation for Autonomous Warfare Command, a planned four-star command scheduled to stand up by Oct. 1, 2027, and that fielding will expand to Pacific Command, European Command, and the broader joint force.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4641098/drpm-uxs-deliver-over-25000-autonomous-and-counter-unmanned-systems-to-centcom/"
         }
       ]
     },
