@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-05",
-  "covers": "Oct 26–Nov 5, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 5. New: CISA added Apple CVE-2024-27834 to the KEV catalog on Nov. 4, due Nov. 18, and Tom's Hardware reported Nov. 4 that a PHP Foundation post-mortem says maintainers knew of the PHP2Shell issue for two years. WordPress CVE-2026-119977 remains due Nov. 6. Ivanti CVE-2026-111357's Nov. 2 due date has passed; CVE-2026-118527 remains due Nov. 13. The VMware ESX logging bug remains due Nov. 11 and is on the partners page. CyberScoop's Nov. 4 note on the Dec. 11 expiration of the 2015 information-sharing law, and on the Senate NDAA, is on the budget page. Federal News Network's homepage repeated the Mazanec item already here. No new CISA alert dated Nov. 5 was found.",
+  "compiled": "2026-11-06",
+  "covers": "Oct 26–Nov 6, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 6. New: Tom's Hardware reported Nov. 5 that a combined OpenSSH and musl bug can accept a long password string where an account password is empty, including on default Alpine installs, and a Nov. 5 CISA, FBI, HHS, USDA, and Transportation fact sheet says attackers are targeting industrial refrigeration controllers. CISA, the NSA, and Australia's cyber center also published post-quantum questions for vendors. The PHP Foundation post-mortem and the Oct. 27 CMMC task-force note were removed so the incidents and trends subsections stayed at four. WordPress CVE-2026-119977 is due Nov. 6. Apple CVE-2024-27834 remains due Nov. 18. Ivanti CVE-2026-118527 remains due Nov. 13. The VMware ESX logging bug remains due Nov. 11 and is on the partners page. No new CISA KEV alert dated Nov. 5 or Nov. 6 was found.",
   "subsections": [
     {
       "id": "kev",
@@ -24,6 +24,34 @@
     }
   ],
   "items": [
+    {
+      "id": "alpine-ssh-2026-11-05",
+      "subsection": "incidents",
+      "date": "2026-11-05",
+      "dateLabel": "Nov 5",
+      "headline": "Tom's Hardware: an OpenSSH and musl bug can accept a long string as an empty password",
+      "summary": "Tom's Hardware reported Nov. 5 that a combined OpenSSH and musl libc bug can let someone into Alpine, and into other distributions where the conditions are set, by typing more than 256 characters at the SSH password prompt. It said the bug works when a system user has an empty password, which it said is the default on multiple distributions, and that Alpine ships with those conditions and with password authentication enabled. It said the bug is present, though not necessarily enabled, on Buildroot, Yocto, and Void Linux, and that OpenWRT uses Dropbear by default. Tom's Hardware said most of these systems are not reachable from the internet, and that an attacker already inside a network, or holding one valid account, could scan for the condition.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/combined-flaws-let-anyone-into-alpine-linux-and-other-distros-by-typing-anything-over-256-characters-as-a-password-emergency-fixes-for-openssh-and-musl-libc-issued-for-millions-of-systems-patch-immediately"
+        }
+      ]
+    },
+    {
+      "id": "cold-chain-2026-11-05",
+      "subsection": "incidents",
+      "date": "2026-11-05",
+      "dateLabel": "Nov 5",
+      "headline": "CISA and the FBI warn that attackers are changing refrigeration-controller settings",
+      "summary": "A Nov. 5 joint fact sheet from CISA, the FBI, the Department of Health and Human Services, the Department of Agriculture, and the Department of Transportation says the agencies are aware of malicious activity targeting industrial refrigeration and cold-chain monitoring systems globally. The fact sheet says actors are targeting electronic temperature controllers and commercial refrigeration controllers in retail grocery and cold-storage facilities, and that they may use authentication bypass, code injection, or weak configurations on unpatched or internet-accessible devices. It says a successful change of settings can force continuous heating and defrost cycles, with effects that include inventory loss, a fire hazard, and loss of temperature visibility. The agencies told owners to take controllers off the public internet, isolate operational-technology devices, change default passwords, patch firmware, and alert on setpoint deviations.",
+      "sources": [
+        {
+          "name": "FBI",
+          "url": "https://www.ic3.gov/CSA/2026/261105.pdf"
+        }
+      ]
+    },
     {
       "id": "php2shell-chain-2026-11-03",
       "subsection": "incidents",
@@ -49,20 +77,6 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/cyber-security/nvidia-brev-security-breach-may-have-exposed-ssh-keys-used-to-access-customer-vms-investigation-finds-unauthorized-activity-spanning-16-days-but-no-evidence-of-misuse"
-        }
-      ]
-    },
-    {
-      "id": "php-postmortem-2026-11-04",
-      "subsection": "incidents",
-      "date": "2026-11-04",
-      "dateLabel": "Nov 4",
-      "headline": "Tom's Hardware: PHP maintainers say they knew about PHP2Shell for two years",
-      "summary": "Tom's Hardware reported Nov. 4 that a PHP Foundation post-mortem says a small team of maintainers had known about the PHP2Shell issue for two years, did not immediately treat it as a cause for concern, and went back and forth on a fix that would stay compatible with third-party extensions. Tom's Hardware said the foundation described the team as one full-time employee and 14 part-time contractors, and that the currently maintained branches are PHP 8.1 through 8.5. It said the exploit is being chained with Fragnesia, which it also calls Dirty Frag, and that one campaign reached kernel-level access on 25 servers it described as seemingly linked to the U.S. government. It said BitSight, as of Oct. 29, had recorded intrusion attempts from many origins across its monitoring fleet.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/cyber-security/php-vulnerability-post-mortem-reveals-bug-was-known-two-years-ago-small-team-of-maintainers-knew-of-the-issue-before-it-was-made-public-as-new-php2shell-chained-exploit-ravages-servers"
         }
       ]
     },
@@ -121,6 +135,20 @@
         {
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/"
+        }
+      ]
+    },
+    {
+      "id": "pqc-vendor-questions-2026-11-05",
+      "subsection": "trends",
+      "date": "2026-11-05",
+      "dateLabel": "Nov 5",
+      "headline": "CISA, the NSA, and Australia publish questions on vendor post-quantum readiness",
+      "summary": "CISA said Nov. 5 that it, the Australian Signals Directorate's Australian Cyber Security Centre, and the National Security Agency released joint guidance and a quick-reference list for assessing whether vendors are ready to move to post-quantum cryptography. CISA said widely used public-key cryptography will be vulnerable to a cryptographically relevant quantum computer, and that many organizations depend on vendors for managed services, cloud, and devices that are hard to update, including industrial control systems and Internet of Things products. CISA said the questions are vendor-neutral and are meant to show whether a vendor understands the risk, can account for where cryptography is implemented, and can support a transition. The page points readers to CISA's post-quantum cryptography initiative for further material.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors"
         }
       ]
     },
@@ -189,20 +217,6 @@
         {
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/"
-        }
-      ]
-    },
-    {
-      "id": "cmmc-path-2026-10-27",
-      "subsection": "trends",
-      "date": "2026-10-27",
-      "dateLabel": "Oct 27",
-      "headline": "Federal News Network: the CMMC task force lists a 90-day path to restart Phase 2",
-      "summary": "Federal News Network reported Oct. 27, in the second part of its CMMC investigation, that a Defense Department task-force summary of the July request for information sorts reform options into changes the CIO could make without rulemaking, harder changes that may need rulemaking, and ideas outside the CIO's authority. The outlet says the summary, which it obtained, lists a 90-day option to restart Phase 2 for a narrower population, more guidance for assessors through the Cyber AB and CAICO, and an expansion of plan-of-action eligibility to 270 days that would require rulemaking. It also says the department wrote that clearer controlled-unclassified-information marking has the greatest potential to shrink the population that must implement NIST 800-171, and that the department declined to comment. Katie Arrington, who previously performed the CIO's duties, told Federal News Network the audit process has to start in order to be refined.",
-      "sources": [
-        {
-          "name": "Federal News Network",
-          "url": "https://federalnewsnetwork.com/defense-news/2026/10/rfi-offers-path-forward-for-dod-with-cmmc/"
         }
       ]
     }

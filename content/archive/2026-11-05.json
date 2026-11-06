@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-05",
+  "title": "November 5, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "ARMY",
+      "dateLabel": "Nov 4",
+      "headline": "Army merged aerial and ground sensor offices into PM ATSR",
+      "sources": [
+        {
+          "name": "DVIDS",
+          "url": "https://www.dvidshub.net/news/578606/army-merges-aerial-and-terrestrial-sensor-offices-deliver-capabilities-soldiers-faster"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 4",
+      "headline": "The department says it fielded more than 24,000 counter-drone systems to CENTCOM this year",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4641098/drpm-uxs-deliver-over-25000-autonomous-and-counter-unmanned-systems-to-centcom/"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Nov 4",
+      "headline": "CISA added an Apple pointer-authentication bug to the KEV catalog, due Nov. 18",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Nov 4",
+      "headline": "OpenAI says it will acquire Pierre to expand Codex",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/openai-to-acquire-pierre/"
+        }
+      ]
+    },
+    {
+      "label": "BUDGET",
+      "dateLabel": "Nov 4",
+      "headline": "CyberScoop: CISA 2015 expires Dec. 11, and the Senate NDAA would require an AI bill of materials",
+      "sources": [
+        {
+          "name": "CyberScoop",
+          "url": "https://cyberscoop.com/democrats-congress-cybersecurity-cisa-ai-priorities/"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Nov 4",
+      "headline": "The Verge: 33 of 45 local data-center ballot measures will restrict development",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
+        }
+      ]
+    }
+  ]
+}

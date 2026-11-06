@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-05",
-  "covers": "Oct 26–Nov 5, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 5. New: OpenAI said Nov. 4 it will acquire Pierre Computer Company to expand Codex, and that Images 2.6 is in ChatGPT, Codex, and the API. The Verge reported Nov. 4 that Claude Code 2.1.317 now lets a user name a game as a genre reference. The Oct. 27 Oracle and Oct. 28 ServiceNow notes were removed so the OpenAI subsection stayed at four. Anthropic's newsroom had no separate post dated Nov. 4–5. No new Google model announcement dated Nov. 4–5 was found. Tom's Hardware's Nov. 5 homepage also listed a Claude Code change; this item cites The Verge. Cisco's use of OpenAI models is on the partners page. OpenAI's Grid Protectors program remains on the data-center page.",
+  "compiled": "2026-11-06",
+  "covers": "Oct 26–Nov 6, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 6. New: OpenAI introduced GPT-6 Cyber on Nov. 5 for approved Daybreak Red customers, Google made Gemini Omni 1.2 Flash generally available with 15-second video, and Tom's Hardware reported, citing CNBC, that Moonshot is seeking European clusters of Nvidia Blackwell GPUs. The Oct. 27 Genie 4 and drug-development notes and the Oct. 28 Nemotron speech-model note were removed so the file stayed at 12. Anthropic's newsroom had no product post dated Nov. 5–6; a Nov. 5 Anthropic Fellows note on model-to-model welfare regard was not added. NVIDIA's Nov. 5 Vera CPU comparison is on the data-center page. The Open and Local Models subsection is empty.",
   "subsections": [
     {
       "id": "anthropic",
@@ -41,6 +41,20 @@
   ],
   "items": [
     {
+      "id": "moonshot-blackwell-2026-11-05",
+      "subsection": "policy",
+      "date": "2026-11-05",
+      "dateLabel": "Nov 5",
+      "headline": "Tom's Hardware: Moonshot is seeking European clusters of Nvidia Blackwell GPUs",
+      "summary": "Tom's Hardware reported Nov. 5, citing CNBC, that Moonshot AI, the Chinese lab behind Kimi, is in talks with at least one European data center to lease clusters of 8,000 or more Nvidia Blackwell GPUs for inference, and that it is also interested in training capacity. Tom's Hardware said Chinese companies are banned from acquiring Blackwell and other AI GPUs of the same or better performance that contain U.S. technologies, and that renting capacity abroad has been a way to reach those chips. It said the U.S. House has passed the Remote Access Security Act to close that path, and that the bill still must pass the Senate and the White House. It also said Beijing has blocked H200 imports at the border after the administration allowed those chips to be exported to China.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/policy/chinese-ai-lab-moonshot-reportedly-looked-at-european-data-centers-to-access-nvidia-chips-report-claims-kimi-maker-primarily-interested-in-inferencing-capacity-but-also-asked-about-training-clusters"
+        }
+      ]
+    },
+    {
       "id": "openai-robots-2026-10-30",
       "subsection": "policy",
       "date": "2026-10-30",
@@ -65,20 +79,6 @@
         {
           "name": "The Verge",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1026672/anthropic-tweaks-how-claude-code-handles-requests-about-making-games"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-drug-2026-10-27",
-      "subsection": "anthropic",
-      "date": "2026-10-27",
-      "dateLabel": "Oct 27",
-      "headline": "Anthropic says Claude is in six drug programs, and it acquired Mithril Medicine",
-      "summary": "Anthropic said Oct. 27 that its life sciences team has research partnerships with BigHat Biosciences, Bristol Myers Squibb, Divergence Labs, Enveda, Generate Biomedicines, and The Column Group, and that it has started drug-discovery work of its own. It said it acquired Mithril Medicine, whose founder, Cody Tranbarger, used Claude to organize contracts, logistics, and experiments with 11 external labs, taking a possible muscular-dystrophy treatment from an idea to promising results in mice in less than 18 months. Anthropic said that if those candidates continue to hold up, it expects a drug could be ready to start human trials as soon as late 2028, and that the work so far is mostly preclinical. It also said it has rolled out Claude Science, a workbench for researchers, and a Life Sciences Verification Program that lets trusted organizations use more permissive safeguards.",
-      "sources": [
-        {
-          "name": "Anthropic",
-          "url": "https://www.anthropic.com/research/early-progress-drug-development"
         }
       ]
     },
@@ -157,6 +157,20 @@
       ]
     },
     {
+      "id": "gemini-omni-2026-11-05",
+      "subsection": "google",
+      "date": "2026-11-05",
+      "dateLabel": "Nov 5",
+      "headline": "Google makes Gemini Omni 1.2 Flash generally available with 15-second video",
+      "summary": "Google said Nov. 5 that Gemini Omni 1.2 Flash is generally available on the Gemini API and Gemini for business, with native video up to 15 seconds, up from 10 seconds in Omni 1.1, and with duration selectable in one-second steps from 3 to 15 seconds. Google said the price is 30 percent lower than Omni 1.1, at $0.07 per second for 720p video, and that users can draft at 360p or 720p and upscale to 1080p or 4K. Google said multi-turn conversational editing works across a full 15-second clip, and that outputs carry a SynthID watermark. Google said the model is also rolling out in Flow, Google Vids, the Gemini app for Google AI Ultra subscribers, and Google Ads.",
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+        }
+      ]
+    },
+    {
       "id": "gemini-4-carbon-2026-10-28",
       "subsection": "google",
       "date": "2026-10-28",
@@ -171,30 +185,16 @@
       ]
     },
     {
-      "id": "genie-4-2026-10-27",
-      "subsection": "google",
-      "date": "2026-10-27",
-      "dateLabel": "Oct 27",
-      "headline": "Google announces Genie 4, a world model with native audio and real-time scene control",
-      "summary": "Google said Oct. 27 it is announcing research on Genie 4, a world model for real-time interactive simulation with native audio. Google said Gemini Omni anchors the simulations in real-world appearance and behavior, and that other Gemini models help keep a simulation coherent. A person can steer a scene in real time with natural language, including moving the camera, changing the weather, or adding characters, and the model generates ambient sound, music, and dialogue as the scene runs. Google said it has started a rollout to a limited group of trusted testers, and that Genie 4 is coming soon to Google AI Ultra subscribers in Project Genie and to early-access partners in the Gemini API and AI Studio.",
+      "id": "gpt-6-cyber-2026-11-05",
+      "subsection": "defense-ai",
+      "date": "2026-11-05",
+      "dateLabel": "Nov 5",
+      "headline": "OpenAI introduces GPT-6 Cyber for approved Daybreak Red customers",
+      "summary": "OpenAI said Nov. 5 that GPT-6 Cyber finds and validates vulnerabilities inside a researcher-set scope, and that it is available first through the API and Codex to a select group of approved Daybreak Red customers. OpenAI said it scores 48.5 percent on ExploitGym, up from 32.1 percent for GPT-5.6 Cyber, and that without a deployment prompt it avoided exploiting out-of-scope services in 99.93 percent of ExploitGym Honeypot tests. OpenAI said its researchers used the model to develop 948 privilege-escalation exploits in Linux and to identify 81 previously unknown high-severity Firefox vulnerabilities, and that Cisco, Palo Alto Networks, and CrowdStrike described using it. OpenAI said it classifies the model as Critical under its Preparedness Framework, up from High for GPT-5.6 Cyber, and it quoted Dragos chief AI officer Rob Lee, after lab evaluations of Daybreak Red models, saying a frontier model on a mock power-plant range found two zero-days in software that manages protective-relay data.",
       "sources": [
         {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
-        }
-      ]
-    },
-    {
-      "id": "nemotron-transcribe-2026-10-28",
-      "subsection": "local",
-      "date": "2026-10-28",
-      "dateLabel": "Oct 28",
-      "headline": "NVIDIA releases Nemotron 3.5 Transcribe, an open-weight speech model for 40 languages",
-      "summary": "NVIDIA said Oct. 28 that Nemotron 3.5 Transcribe is an open-weight speech model for transcription, speaker labels, translation, and questions about a recording, in 40 languages including seven Indic languages. NVIDIA said it ranks first on the Hugging Face Open ASR leaderboard and second among open-weight models on Artificial Analysis, with about 4.3 billion active parameters, which NVIDIA said is 80 percent fewer than the leading open-weight model. NVIDIA said the weights are on Hugging Face today. It said quantized versions are coming so the model can run locally on RTX Spark, DGX Spark, and Jetson AGX Thor, or scale up on Blackwell data-center GPUs.",
-      "sources": [
-        {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber"
         }
       ]
     },

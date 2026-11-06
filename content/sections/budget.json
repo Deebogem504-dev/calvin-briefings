@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Federal Budget & NDAA Weekly Tracker",
   "description": "Fiscal 2027 appropriations, the continuing resolution, NDAA status, reconciliation funds and Golden Dome money.",
-  "compiled": "2026-11-05",
-  "covers": "Oct 26–Nov 5, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 5. New: CyberScoop reported Nov. 4 that the Cybersecurity Information Sharing Act of 2015 expires Dec. 11, the same day as the continuing resolution, and that the Senate NDAA text includes an AI bill-of-materials requirement and a broad authorization for contractor-operated offensive cyber. No appropriations vote dated Nov. 4–5 was found. No newer Golden Dome appropriation or Iran-war cost figure was found. The newest funding figures remain the Oct. 28 Pentagon estimate that the Iran war had cost $47.1 billion as of Oct. 16, and the CSIS note that the continuing resolution runs through Dec. 11.",
+  "compiled": "2026-11-06",
+  "covers": "Oct 26–Nov 6, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 6. New: Breaking Defense reported Nov. 5 that analysts now see little chance of a lame-duck reconciliation bill, a 50 percent chance of a shutdown after the Dec. 11 continuing resolution, and that most of Golden Dome's fiscal 2027 funding was written as reconciliation. No appropriations vote dated Nov. 5–6 was found. No newer Iran-war cost figure was found. Hegseth's Nov. 5 call for a $1.5 trillion defense budget is on the Department of War page. The CyberScoop note on the Dec. 11 expiration of the 2015 information-sharing law remains.",
   "subsections": [
     {
       "id": "approps",
@@ -24,6 +24,20 @@
     }
   ],
   "items": [
+    {
+      "id": "lame-duck-clock-2026-11-05",
+      "subsection": "approps",
+      "date": "2026-11-05",
+      "dateLabel": "Nov 5",
+      "headline": "Breaking Defense: analysts cut the odds of a lame-duck defense reconciliation bill",
+      "summary": "Breaking Defense reported Nov. 5 that Republicans have five legislative weeks left to move fiscal 2027 defense funding before Democrats take the House and Senate in January. It said the Pentagon has asked for a $1.15 trillion discretionary budget, $350 billion in reconciliation, and a supplemental that includes $67 billion for defense to cover Iran-war costs, and that none of the three has been approved. Todd Harrison of the American Enterprise Institute told Breaking Defense there is zero chance of appropriations passing because that takes 60 Senate votes, and Byron Callan of Capital Alpha Partners cut the chance of further defense reconciliation from 15 percent to 10 percent and put a shutdown after the Dec. 11 continuing resolution at 50 percent. Callan wrote that it is highly unlikely all of the $47 billion missile-defense interceptor replenishment in the mandatory request will be funded in discretionary accounts and that Drone Dominance funding could be shaved to a fraction of its $53.6 billion request, and Harrison said the vast majority of Golden Dome's fiscal 2027 funding was supposed to come from reconciliation.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/republicans-have-a-ticking-clock-what-can-they-get-done-on-defense/"
+        }
+      ]
+    },
     {
       "id": "lame-duck-defense-2026-10-27",
       "subsection": "approps",

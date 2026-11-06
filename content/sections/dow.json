@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-05",
-  "covers": "Oct 26–Nov 5, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 5. New: the Department of War said Nov. 4 that DRPM-UxS fielded more than 24,000 counter-drone systems to CENTCOM this year, JIATF-401 awarded CHAOS 1 more than $6.9 million for Vanquish Prime radars, and ABC News reported Nov. 4 that President Trump said Secretary Hegseth is staying. The Oct. 28 Cebu meeting note was removed so the secretary subsection stayed at four. No new Golden Dome appropriation was found. The Office of Strategic Capital's LeoLabs loan is on the tech page. The Nov. 4 contracts release, including an Army software award, is on the Army page. Federal News Network's homepage had no new secretary-level story dated Nov. 4–5.",
+  "compiled": "2026-11-06",
+  "covers": "Oct 26–Nov 6, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 6. New: Federal News Network reported Nov. 5 that Secretary Hegseth posted a video calling for a $1.5 trillion defense budget and calling a renewed impeachment push a sham, and the Office of Strategic Capital announced conditional loans of $250 million for 6K and $75 million for Halo Industries. The Oct. 28 Cebu speech and the Oct. 26 AI-procurement guidance were removed so those subsections stayed at four. No new Golden Dome appropriation was found; Breaking Defense's Nov. 5 note on Golden Dome funding is on the budget page. No Nov. 5 daily contracts page on war.gov could be opened. Federal News Network also reported Nov. 5 on Air Force civilian cuts at the China Aerospace Studies Institute; that item was not added. The LeoLabs loan remains on the tech page.",
   "subsections": [
     {
       "id": "secwar",
@@ -28,6 +28,20 @@
     }
   ],
   "items": [
+    {
+      "id": "hegseth-video-2026-11-05",
+      "subsection": "secwar",
+      "date": "2026-11-05",
+      "dateLabel": "Nov 5",
+      "headline": "Hegseth's post-election video calls for a $1.5 trillion defense budget",
+      "summary": "Federal News Network reported Nov. 5 that Defense Secretary Pete Hegseth posted a video Thursday, filmed on the steps of the Pentagon's ceremonial entrance, defending the Iran war as a courageous and historic effort that will ensure Iran never gets a nuclear weapon. Hegseth called on every patriotic member of Congress to vote for a $1.5 trillion defense budget and said Rep. Thomas Massie's eight articles of impeachment are a sham. Federal News Network said the video is his first public statement on Tuesday's midterm results, that Democrats will retake both chambers, and that Massie plans to refile the articles when lawmakers return next week. It said Trump has publicly defended Hegseth while reportedly mulling whether to oust him, and that Hegseth's name has been floated for the Senate seat Tennessee Governor-elect Marsha Blackburn will vacate in January.",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/defense-main/2026/11/hegseth-vows-to-defend-pentagon-policies-as-democrats-flip-congress/"
+        }
+      ]
+    },
     {
       "id": "hegseth-stays-2026-11-04",
       "subsection": "secwar",
@@ -79,16 +93,20 @@
       ]
     },
     {
-      "id": "hegseth-admm-speech-2026-10-29",
-      "subsection": "secwar",
-      "date": "2026-10-29",
-      "dateLabel": "Oct 28–29",
-      "headline": "In Cebu, Hegseth tells ASEAN defense ministers the U.S. line is strong, quiet, and clear",
-      "summary": "The Diplomat reported Oct. 29 that Secretary of War Pete Hegseth told the ASEAN Defense Ministers' Meeting in Cebu on Oct. 28 that the U.S. approach is strong, quiet, and clear, and that the United States will defend its interests and those of its allies and partners. Hegseth said Washington would back that with practical cooperation, including maritime domain awareness, interoperability, and cooperation among navies. He proposed a U.S.-ASEAN Framework for Defense Cooperation and did not give further details of the pact. Philippine Defense Secretary Gilbert Teodoro Jr. said a robust U.S. presence is necessary for peace and stability in Southeast Asia and the broader Indo-Pacific.",
+      "id": "osc-loans-2026-11-05",
+      "subsection": "acquisition",
+      "date": "2026-11-05",
+      "dateLabel": "Nov 5",
+      "headline": "Office of Strategic Capital commits conditional loans to 6K and Halo Industries",
+      "summary": "The Department of War said Nov. 5 that the Office of Strategic Capital signed a $250 million conditional loan commitment with 6K, Inc. to scale nickel-manganese-cobalt cathode production at its PlusCAM facility in Jackson, Tennessee, matched by an additional $250 million in private capital. The release says the material is for defense platforms, uncrewed aerial systems, tactical communications, and energy infrastructure, that the United States produces less than 1 percent of its NMC cathode needs domestically, and that financial close still requires further diligence. The same day the office signed a $75 million conditional loan commitment with Halo Industries to scale laser slicing of silicon-carbide wafers in Santa Clara, California, crowding in an additional $75 million for uses including radar, electronic warfare, hypersonics, and directed energy. Both releases say the commitments are not yet a financial close, and Under Secretary for Research and Engineering Emil Michael endorsed each one.",
       "sources": [
         {
-          "name": "The Diplomat",
-          "url": "https://thediplomat.com/2026/10/hegseth-seeks-to-reassure-southeast-asia-of-us-security-commitment-to-the-region/"
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4642212/department-of-wars-office-of-strategic-capital-signs-250-million-conditional-lo/"
+        },
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4642227/department-of-wars-office-of-strategic-capital-signs-75-million-conditional-loa/"
         }
       ]
     },
@@ -131,20 +149,6 @@
         {
           "name": "Federal News Network",
           "url": "https://federalnewsnetwork.com/defense-news/2026/10/industry-pushes-back-on-dods-proposed-rules-for-moving-program/"
-        }
-      ]
-    },
-    {
-      "id": "dow-unbiased-ai-2026-10-26",
-      "subsection": "acquisition",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "Pentagon contracting staff get templates for buying AI the department calls unbiased",
-      "summary": "Federal News Network reported Oct. 26 that John Tenaglia, principal director for defense pricing, contracting and acquisition policy, issued guidance so artificial intelligence the department buys follows what the administration calls truth-seeking and ideological neutrality. Tenaglia wrote that compliance with a July executive order and a later Office of Management and Budget memo is mandatory, and that the Pentagon document is guidance only so components can tailor the language. Federal News Network says the templates include a memo for choosing transparency and documentation requirements, standardized solicitation language, and contract language for a statement of work or performance work statement. The story ties the memo to Secretary Hegseth's push to field commercial AI, including compute from data centers to the tactical edge.",
-      "sources": [
-        {
-          "name": "Federal News Network",
-          "url": "https://federalnewsnetwork.com/contracting/2026/10/dod-issues-guidance-for-procuring-unbiased-ai-systems/"
         }
       ]
     },

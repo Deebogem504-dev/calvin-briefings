@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-05",
-  "covers": "Oct 26–Nov 5, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 5. New: The Verge reported Nov. 4 that, as of Wednesday morning, 33 of 45 local data-center ballot measures will restrict development, and that an NBC News Election Day poll found 76 percent of voters opposed data centers in their communities. The Oct. 27 SpaceX GPU-debt note was removed so the capacity subsection stayed at four. No separate networking-fabric announcement dated Nov. 4–5 was found. Dell's OneFS 9.16 note is on the partners page. Tom's Hardware's Nov. 4 homepage carried the same ballot result; this item cites The Verge. AMD's data-center revenue note is on the partners page.",
+  "compiled": "2026-11-06",
+  "covers": "Oct 26–Nov 6, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 6. New: NVIDIA said Nov. 5 that in a 100-megawatt comparison a Vera CPU supports more agents per watt than both the fastest and the most efficient x86 CPU it measured. No separate networking-fabric announcement dated Nov. 5–6 was found. Dell's OneFS 9.16 note is on the partners page. The Nov. 4 ballot item remains. Tom's Hardware's Nov. 5 Moonshot note, about leasing Blackwell capacity in Europe, is on the AI page. AMD's data-center revenue note is on the partners page.",
   "subsections": [
     {
       "id": "networking",
@@ -137,6 +137,20 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-oracle-bring-vera-cpu-instances-online-in-multi-gigawatt-deployment-oci-superclusters-also-set-to-expand-with-rubin-only-clusters-attached-to-dual-xeon-6-hosts"
+        }
+      ]
+    },
+    {
+      "id": "vera-agents-2026-11-05",
+      "subsection": "power",
+      "date": "2026-11-05",
+      "dateLabel": "Nov 5",
+      "headline": "NVIDIA says one Vera CPU beats the fastest and the most efficient x86 CPU it measured",
+      "summary": "NVIDIA said Nov. 5 that, in a 100-megawatt data-center comparison, a single Vera CPU performs better than both the fastest x86 CPU and the most energy-efficient x86 CPU. NVIDIA said Vera delivers 1.6 times more agents per watt than the fastest x86 CPU at what it called industry-leading agent speed, and twice the agent speed of the most energy-efficient x86 CPU. NVIDIA said Perplexity ran agentic coding tasks 1.5 times faster on Vera than on traditional CPUs and plans to deploy Vera in a production system, and that Daytona brought 1,000 agent sandboxes online in 10.8 seconds on Vera versus 88.4 seconds on x86. NVIDIA said the comparison is about running more agents inside a power limit, because agent steps move between GPU reasoning and CPU execution.",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/"
         }
       ]
     },

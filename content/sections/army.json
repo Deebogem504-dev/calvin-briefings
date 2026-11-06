@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-05",
-  "covers": "Oct 26–Nov 5, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 5. New: DVIDS posted Nov. 4 that Project Manager Terrestrial Sensors and Project Director Sensors Aerial Intelligence merged Nov. 1 into PM ATSR, and the Nov. 4 Department of War contracts release awarded Avum $61 million to refactor the Virtual Contracting Enterprise. The Oct. 29 Future Interceptor item was removed so the contracts subsection stayed at four. That release also listed an HHI repair at a San Antonio Reserve center and a Clark modification for a Fort Bliss clinic; those facilities actions were not added. No new NETCOM release was found. Federal News Network's homepage listed an Army National Guard childcare expansion and the CISA note already on the cyber page. EIN Presswire carried the sensor-office release; this item cites the DVIDS original. The Project Griffin pilot remains the WWT line.",
+  "compiled": "2026-11-06",
+  "covers": "Oct 26–Nov 6, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 6. New: Army.mil reported Nov. 5 that Brig. Gen. Marne Sutten will assume command of CECOM at Aberdeen Proving Ground on Nov. 16, and that Project Gatekeeper is meant to cut software authority-to-operate timelines to a couple of weeks. No Nov. 5 or Nov. 6 contracts article on war.gov could be opened, so no new award was added. No new NETCOM release was found. Federal News Network's Nov. 4 Army National Guard childcare note was already passed over. EIN Presswire's recent Army wires were reprints of the CECOM year-in-review and Project Griffin, already cited from DVIDS and Army.mil. The Project Griffin pilot remains the WWT line.",
   "subsections": [
     {
       "id": "leadership",
@@ -32,6 +32,20 @@
     }
   ],
   "items": [
+    {
+      "id": "cecom-town-hall-2026-11-05",
+      "subsection": "leadership",
+      "date": "2026-11-05",
+      "dateLabel": "Oct 28–Nov 5",
+      "headline": "CECOM says Brig. Gen. Sutten takes command at Aberdeen on Nov. 16",
+      "summary": "Army.mil reported Nov. 5, datelined Aberdeen Proving Ground, that the Communications-Electronics Command held a hybrid worldwide town hall on Oct. 28. Executive Director Nicholaus Saacks said Brig. Gen. Marne Sutten will assume command on Nov. 16 at Aberdeen Proving Ground, and that although Department of the Army guidance formally announced the end of the civilian hiring freeze, hiring remains constrained by full-time equivalent caps. Command Chief Warrant Officer 5 Kevin Banks said Project Gatekeeper aims to compress software authority-to-operate timelines from several months to a couple of weeks, and that a visit to Joint Base Lewis-McChord is scheduled to align the Artificial Intelligence-Assisted Maintenance tool with Project Meridian, which he called an Army G-4 effort. Command Sgt. Maj. Jay High said CECOM's C5ISR and medical mission supports the Army's four warfighting focus areas: convergence, strike, close battle, and endurance.",
+      "sources": [
+        {
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/296554/cecom_town_hall_highlights_leadership_transitions_workforce_initiatives_and_modernization_priorities"
+        }
+      ]
+    },
     {
       "id": "pm-atsr-2026-11-04",
       "subsection": "modernization",

@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-05",
-  "covers": "Oct 26–Nov 5, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 5. New: Tom's Hardware reported Nov. 4 that AMD expects about $17 billion of fourth-quarter revenue, above the range it attributed to Intel. The Oct. 27 VMware Brotli advisory was removed so the F5, Intel, and VMware subsection stayed at four; the ESX logging bug remains. F5 had no new product release, and VMware had no new advisory. No Cisco, Dell, HPE, NetApp, Microsoft, Palo Alto, AWS, or Google Cloud newsroom item dated Nov. 4–5 was opened. A Tom's Hardware headline on Nvidia GPU supply to China was not added so this section stayed within 12 items. Singapore's PHP2Shell alert, which names F5 BIG-IP, remains on the cyber page.",
+  "compiled": "2026-11-06",
+  "covers": "Oct 26–Nov 6, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 6. No Cisco, Dell, HPE, NetApp, Microsoft, Palo Alto, AWS, or Google Cloud newsroom item dated Nov. 5–6 was opened. F5 had no new product release, Intel had no new item dated Nov. 5–6, and VMware had no new advisory. OpenAI's Nov. 5 GPT-6 Cyber post, which quotes Cisco, Palo Alto Networks, and CrowdStrike, is on the AI page. NVIDIA's Nov. 5 Vera CPU note is on the data-center page. Tom's Hardware's Nov. 5 Moonshot note is on the AI page. Singapore's PHP2Shell alert, which names F5 BIG-IP, remains on the cyber page. The VMware ESX logging bug remains due Nov. 11.",
   "subsections": [
     {
       "id": "cisco",

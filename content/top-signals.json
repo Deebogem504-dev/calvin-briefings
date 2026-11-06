@@ -3,50 +3,50 @@
     {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Nov 4",
-      "headline": "Army merged aerial and ground sensor offices into PM ATSR",
-      "item": "pm-atsr-2026-11-04",
-      "href": "army.html#modernization"
+      "dateLabel": "Nov 5",
+      "headline": "CECOM says Brig. Gen. Sutten takes command at Aberdeen on Nov. 16",
+      "item": "cecom-town-hall-2026-11-05",
+      "href": "army.html#leadership"
     },
     {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Nov 4",
-      "headline": "The department says it fielded more than 24,000 counter-drone systems to CENTCOM this year",
-      "item": "drpm-centcom-2026-11-04",
-      "href": "dow.html#ops"
-    },
-    {
-      "section": "cyber",
-      "label": "CYBER",
-      "dateLabel": "Nov 4",
-      "headline": "CISA added an Apple pointer-authentication bug to the KEV catalog, due Nov. 18",
-      "item": "apple-kev-2026-11-04",
-      "href": "cyber.html#kev"
+      "dateLabel": "Nov 5",
+      "headline": "Office of Strategic Capital commits conditional loans to 6K and Halo",
+      "item": "osc-loans-2026-11-05",
+      "href": "dow.html#acquisition"
     },
     {
       "section": "ai",
       "label": "AI",
-      "dateLabel": "Nov 4",
-      "headline": "OpenAI says it will acquire Pierre to expand Codex",
-      "item": "openai-pierre-2026-11-04",
-      "href": "ai.html#openai"
+      "dateLabel": "Nov 5",
+      "headline": "OpenAI introduces GPT-6 Cyber for approved security researchers",
+      "item": "gpt-6-cyber-2026-11-05",
+      "href": "ai.html#defense-ai"
+    },
+    {
+      "section": "cyber",
+      "label": "CYBER",
+      "dateLabel": "Nov 5",
+      "headline": "Tom's Hardware: an OpenSSH and musl bug can bypass empty Alpine passwords",
+      "item": "alpine-ssh-2026-11-05",
+      "href": "cyber.html#incidents"
     },
     {
       "section": "budget",
       "label": "BUDGET",
-      "dateLabel": "Nov 4",
-      "headline": "CyberScoop: CISA 2015 expires Dec. 11, and the Senate NDAA would require an AI bill of materials",
-      "item": "ndaa-lameduck-cyber-2026-11-04",
-      "href": "budget.html#ndaa"
+      "dateLabel": "Nov 5",
+      "headline": "Breaking Defense: analysts cut the odds of a lame-duck defense bill",
+      "item": "lame-duck-clock-2026-11-05",
+      "href": "budget.html#approps"
     },
     {
       "section": "datacenter",
       "label": "DC/NET",
-      "dateLabel": "Nov 4",
-      "headline": "The Verge: 33 of 45 local data-center ballot measures will restrict development",
-      "item": "datacenter-ballots-2026-11-04",
-      "href": "datacenter.html#capacity"
+      "dateLabel": "Nov 5",
+      "headline": "NVIDIA says Vera runs more agents per watt than the x86 CPUs it measured",
+      "item": "vera-agents-2026-11-05",
+      "href": "datacenter.html#power"
     }
   ]
 }

@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-05",
-  "covers": "Oct 26–Nov 5, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 5. New: the Office of Strategic Capital announced Nov. 4 a $150 million conditional loan commitment to LeoLabs for space-domain-awareness radars. No new post-quantum standard or Army quantum award dated Nov. 4–5 was found. The Army Research Laboratory's VICTOR flight remains on the Army page. DRPM-UxS's CENTCOM delivery is on the Department of War page. The compute subsection is empty. PsiQuantum's optical-switch demo remains on the data-center page.",
+  "compiled": "2026-11-06",
+  "covers": "Oct 26–Nov 6, 2026",
+  "readFirst": "Covers Oct. 26–Nov. 6. No new post-quantum standard or Army quantum award dated Nov. 5–6 was found. CISA's Nov. 5 vendor questions on post-quantum cryptography are on the cyber page. The Office of Strategic Capital's Nov. 5 conditional loans to 6K and Halo Industries are on the Department of War page. The Army Research Laboratory's VICTOR flight remains on the Army page. NVIDIA's Nov. 5 Vera CPU comparison is on the data-center page. The compute subsection is empty. PsiQuantum's optical-switch demo remains on the data-center page.",
   "subsections": [
     {
       "id": "quantum",
