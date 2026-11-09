@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-06",
-  "covers": "Oct 26–Nov 6, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 6. New: Army.mil reported Nov. 5 that Brig. Gen. Marne Sutten will assume command of CECOM at Aberdeen Proving Ground on Nov. 16, and that Project Gatekeeper is meant to cut software authority-to-operate timelines to a couple of weeks. No Nov. 5 or Nov. 6 contracts article on war.gov could be opened, so no new award was added. No new NETCOM release was found. Federal News Network's Nov. 4 Army National Guard childcare note was already passed over. EIN Presswire's recent Army wires were reprints of the CECOM year-in-review and Project Griffin, already cited from DVIDS and Army.mil. The Project Griffin pilot remains the WWT line.",
+  "compiled": "2026-11-09",
+  "covers": "Nov 2–9, 2026",
+  "readFirst": "Covers Nov. 2–9. New: Federal News Network reported Nov. 6 that AHS Business Services and Mindboard filed fresh protests against the reopened $50 billion MAPS solicitation, and that a third firm is challenging CMMC terms. No Army.mil article dated Nov. 6–9 was opened. EIN Presswire carried DVIDS reprints on a NETCOM Innovation Day, a Fort Carson visit by the installations assistant secretary, and an Armaments Center Hopper award; the original DVIDS pages were not opened, so those items were not added. No new NETCOM release and no new Army enterprise agreement were found. Brig. Gen. Sutten is still scheduled to assume command of CECOM at Aberdeen on Nov. 16. Weekly cleanup removed the Oct. 26 wide-area-network replacement and the Project Griffin pilot.",
   "subsections": [
     {
       "id": "leadership",
@@ -103,20 +103,6 @@
       ]
     },
     {
-      "id": "usaisec-wan-2026-10-26",
-      "subsection": "network",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "USAISEC, with NETCOM, is replacing Army wide-area network gear in the U.S. and Europe",
-      "summary": "An Army.mil article datelined Aberdeen Proving Ground on Oct. 26 says the U.S. Army Information Systems Engineering Command, a Communications-Electronics Command subordinate, is leading lifecycle replacement of wide-area network equipment across the United States and Europe in coordination with Network Enterprise Technology Command. The article says the work is meant to produce one software-defined enterprise network, using software-defined wide-area network technology and next-generation firewalls so the network can shift around outages, congestion and cyber threats without manual intervention. It says the design is a zero-trust model and that USAISEC engineers check power, cooling and shielding before new hardware goes in. Director of the Data Science and Engineering Directorate Dr. Jennifer Mills said the switches, servers and firewalls are the bedrock of the Army's digital future. USAISEC is headquartered at Fort Huachuca and uses hubs at Fort Huachuca and Fort Gordon.",
-      "sources": [
-        {
-          "name": "Army.mil",
-          "url": "https://www.army.mil/article/296237/empowering_multidomain_operations_modernizing_the_army_enterprise_network_for_decision_dominance"
-        }
-      ]
-    },
-    {
       "id": "dibax-5g-2026-11-02",
       "subsection": "network",
       "date": "2026-11-02",
@@ -131,16 +117,16 @@
       ]
     },
     {
-      "id": "project-griffin-2026-10-26",
+      "id": "maps-protests-2026-11-06",
       "subsection": "contracts",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "Army selects AWS and WWT for a $2.6 million Project Griffin cyber pilot",
-      "summary": "Army Public Affairs said Oct. 26 that the Army selected Amazon Web Services and World Wide Technology on Oct. 23 for a Project Griffin pilot valued at a combined $2.6 million. The release says the aim is an autonomous, agentic platform so cyber defenders can neutralize threats faster, and that Griffin is one of three accelerated efforts under Project ARDS, the Army Rapid Defensive of Cyber Systems initiative. Principal cyber advisor Brandon Pugh said the Army will implement what he called SI-enabled tools to detect, divert and deceive threat actors. Project Manager, Cyber Warfare, under the Portfolio Management Executive for Intelligence and Spectrum Warfare, will manage execution, with contract support from Army Contracting Command-Aberdeen Proving Ground.",
+      "date": "2026-11-06",
+      "dateLabel": "Nov 2–6",
+      "headline": "Federal News Network: two firms protest the Army's reopened $50 billion MAPS solicitation",
+      "summary": "Federal News Network reported Nov. 6 that the Army's Marketplace for the Acquisition of Professional Services contract, a 10-year vehicle with a $50 billion ceiling, is facing another round of bid protests. AHS Business Services filed with the Government Accountability Office on Nov. 2, arguing the reopened request lets small businesses compete as teams only for awards reserved for small businesses, and Mindboard filed a similar complaint on Nov. 3. Intelligence Consulting Enterprise Solutions is challenging Cybersecurity Maturity Model Certification terms tied to the Defense Department's pause of phase two and a top-to-bottom review of the program. Federal News Network said the Army is expected to make as many as 350 awards across five domains, including emerging and foundational IT services.",
       "sources": [
         {
-          "name": "Army.mil",
-          "url": "https://www.army.mil/article/296330/army_selects_project_griffin_partners_to_accelerate_si_enabled_cyber_defense"
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/contracting/2026/11/armys-maps-contract-hit-with-new-obstacles/"
         }
       ]
     },

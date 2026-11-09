@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-06",
-  "covers": "Oct 26–Nov 6, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 6. New: Tom's Hardware reported Nov. 5 that a combined OpenSSH and musl bug can accept a long password string where an account password is empty, including on default Alpine installs, and a Nov. 5 CISA, FBI, HHS, USDA, and Transportation fact sheet says attackers are targeting industrial refrigeration controllers. CISA, the NSA, and Australia's cyber center also published post-quantum questions for vendors. The PHP Foundation post-mortem and the Oct. 27 CMMC task-force note were removed so the incidents and trends subsections stayed at four. WordPress CVE-2026-119977 is due Nov. 6. Apple CVE-2024-27834 remains due Nov. 18. Ivanti CVE-2026-118527 remains due Nov. 13. The VMware ESX logging bug remains due Nov. 11 and is on the partners page. No new CISA KEV alert dated Nov. 5 or Nov. 6 was found.",
+  "compiled": "2026-11-09",
+  "covers": "Nov 2–9, 2026",
+  "readFirst": "Covers Nov. 2–9. New: CISA added SonicWall CVE-2026-19868 to the KEV catalog on Nov. 6, due Nov. 20, and the catalog does not require forensic triage. The WordPress core race condition, CVE-2026-119977, was removed because its Nov. 6 due date passed with no new exploitation report. Apple CVE-2024-27834 remains due Nov. 18. Ivanti CVE-2026-118527 remains due Nov. 13; the paired Connect Secure bug due Nov. 2 has passed. No CISA KEV alert dated Nov. 7, Nov. 8, or Nov. 9 was found. The VMware ESX logging bug aged out of the partners page; its catalog due date is Nov. 11. Weekly cleanup removed the VOLTA stealer, the PHP embargo note, and the Brotli and Adobe Commerce KEV item.",
   "subsections": [
     {
       "id": "kev",
@@ -81,16 +81,16 @@
       ]
     },
     {
-      "id": "wordpress-kev-2026-11-03",
+      "id": "sonicwall-kev-2026-11-06",
       "subsection": "kev",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "CISA adds a WordPress core race condition to the KEV catalog, due Nov. 6",
-      "summary": "CISA said Nov. 3 it added CVE-2026-119977, a WordPress Core time-of-check time-of-use race condition, to the Known Exploited Vulnerabilities catalog. The catalog says the bug could allow unauthenticated attackers to execute code on the server during the upgrade window because of predictable, web-accessible staging paths used during full-package core upgrades. The catalog sets a due date of Nov. 6 and requires forensic triage. CISA said this class of vulnerability is a frequent attack vector and poses significant risk to the federal enterprise.",
+      "date": "2026-11-06",
+      "dateLabel": "Nov 6",
+      "headline": "CISA adds a SonicWall SSL VPN authentication bug to the KEV catalog, due Nov. 20",
+      "summary": "CISA said Nov. 6 it added CVE-2026-19868, a SonicWall SonicOS SSLVPN use-of-single-factor-authentication vulnerability, to the Known Exploited Vulnerabilities catalog. The catalog says the bug may let a user with valid credentials for an alternate authentication method bypass SAML authentication controls, and that successful exploitation may also bypass SAML-enforced multi-factor authentication. The catalog sets a due date of Nov. 20, does not require forensic triage, and lists ransomware use as unknown. CISA said this type of vulnerability is a frequent attack vector and poses significant risk to the federal enterprise.",
       "sources": [
         {
           "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog"
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog"
         },
         {
           "name": "CISA KEV catalog",
@@ -163,60 +163,6 @@
         {
           "name": "Federal News Network",
           "url": "https://federalnewsnetwork.com/cybersecurity/2026/11/cisa-turns-to-former-hhs-official-to-lead-infrastructure-security-division/"
-        }
-      ]
-    },
-    {
-      "id": "volta-talos-2026-10-31",
-      "subsection": "trends",
-      "date": "2026-11-01",
-      "dateLabel": "Oct 31–Nov 1",
-      "headline": "Cisco Talos: the VOLTA stealer asks Claude to rank what a victim is worth",
-      "summary": "Cisco Talos said Oct. 31 that a self-deleting Windows infostealer it calls VOLTA-AUTODOXER sends a structured evidence bundle to a model after it steals credentials, sessions, and cryptocurrency wallets. Talos says the default model is Anthropic's Claude Opus 4.6, at a temperature of 0.2, and that if the model refuses, the malware tries Moonshot's Kimi K2 and then Google's Gemini 2.5 Flash. Talos says the prompt asks the model to act as a forensic intelligence analyst and to rank what the victim is worth. Tom's Hardware reported Nov. 1 that the call goes to OpenRouter and that the malware can skip the model step if no API key is supplied.",
-      "sources": [
-        {
-          "name": "Cisco Talos",
-          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/"
-        },
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/cyber-security/new-ai-driven-windows-malware-feeds-stolen-data-to-claude-to-rank-victims-assets-by-value-then-deletes-itself-payload-builds-custom-target-assessment-can-switch-models-if-one-refuses-or-skip-the-ai-step-entirely"
-        }
-      ]
-    },
-    {
-      "id": "php-embargo-2026-10-30",
-      "subsection": "trends",
-      "date": "2026-10-30",
-      "dateLabel": "Oct 28–30",
-      "headline": "Federal News Network: a CISA official calls Chainguard's early PHP patch release dangerous",
-      "summary": "Federal News Network reported Oct. 30 that Jay Gazlay, CISA's acting associate director for vulnerability management, called Chainguard's decision to release PHP patches more than six hours before a coordinated disclosure dangerous and inappropriate. Gazlay spoke at an Oct. 28 conference hosted by Red Hat in Washington. Chainguard chief executive Dan Lorenc told Federal News Network he stands by the early release and said the company saw evidence the bugs were being exploited before the embargo. The PHP Foundation wrote that an attacker could study the fix while other PHP users were still waiting, and Federal News Network says CISA added the PHP bugs to the KEV catalog on Oct. 26.",
-      "sources": [
-        {
-          "name": "Federal News Network",
-          "url": "https://federalnewsnetwork.com/cybersecurity/2026/10/dangerous-cisa-official-criticizes-companys-decision-to-release-php-bug-early/"
-        }
-      ]
-    },
-    {
-      "id": "brotli-adobe-kev-2026-10-27",
-      "subsection": "kev",
-      "date": "2026-10-27",
-      "dateLabel": "Oct 27–28",
-      "headline": "CISA adds Brotli and an Adobe Commerce bug to the KEV catalog, due Nov. 10",
-      "summary": "CISA said Oct. 27 it added CVE-2026-48356, an Adobe Commerce and Magento unrestricted file-upload bug, and CVE-2026-111497, a Google Brotli unchecked-return-value bug, to the Known Exploited Vulnerabilities catalog. The catalog sets a due date of Nov. 10 for both and describes the Brotli flaw as letting a remote unauthenticated attacker corrupt decoder memory, disclose memory, cause a denial of service, or potentially run code with a crafted compressed stream. SecurityWeek reported Oct. 28 that the Brotli bug, also called Node2Shell, affects Brotli 1.0.3 through 1.2.0, that federal civilian agencies were told to address it by Nov. 10, and that Broadcom warned Oct. 27 that SDDC Manager in VMware Cloud Foundation is affected because it uses Node.js, with patches still pending. SecurityWeek also said two honeypot operators logged attempts, and that ELLIO called the exploit it analyzed broken.",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog"
-        },
-        {
-          "name": "CISA KEV catalog",
-          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/"
         }
       ]
     }

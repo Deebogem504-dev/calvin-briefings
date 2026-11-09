@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-06",
-  "covers": "Oct 26–Nov 6, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 6. No new post-quantum standard or Army quantum award dated Nov. 5–6 was found. CISA's Nov. 5 vendor questions on post-quantum cryptography are on the cyber page. The Office of Strategic Capital's Nov. 5 conditional loans to 6K and Halo Industries are on the Department of War page. The Army Research Laboratory's VICTOR flight remains on the Army page. NVIDIA's Nov. 5 Vera CPU comparison is on the data-center page. The compute subsection is empty. PsiQuantum's optical-switch demo remains on the data-center page.",
+  "compiled": "2026-11-09",
+  "covers": "Nov 2–9, 2026",
+  "readFirst": "Covers Nov. 2–9. New: Breaking Defense reported Nov. 6 that SpaceX optical terminals on the Space Data Network Backbone cannot talk to Space Development Agency and Space Systems Command missile-warning terminals, and that sources put a translator-satellite fix as high as $1 billion. No new post-quantum standard or Army quantum award dated Nov. 6–9 was found. CISA's Nov. 5 vendor questions remain on the cyber page. The compute and quantum subsections are empty. Weekly cleanup removed the Starfall cargo recovery, the AWS ML-KEM note, and Gemini Robotics Embodied Reasoning 2.",
   "subsections": [
     {
       "id": "quantum",
@@ -29,6 +29,20 @@
   ],
   "items": [
     {
+      "id": "sdn-laser-mismatch-2026-11-06",
+      "subsection": "space",
+      "date": "2026-11-06",
+      "dateLabel": "Nov 6",
+      "headline": "Breaking Defense: Space Force laser terminals cannot talk across the Golden Dome data backbone",
+      "summary": "Breaking Defense reported Nov. 6 that SpaceX's optical terminals on the Space Data Network Backbone, which the company calls Plasers, cannot directly exchange data with the optical terminals on Space Development Agency and Space Systems Command missile-warning satellites. An SDA official confirmed to Breaking Defense that the optical waveform on SDA's Transport Layer and Tracking Layer satellites is not directly compatible with the Plaser waveform. Breaking Defense said sources described a proposed set of 12 or 13 translator satellites, called Space Exchange Points, at $12 million to $14 million each, and said the wider fix could reach $1 billion. It said SpaceX won a $2.29 billion contract in May for the backbone, and that a Space Systems Command spokesperson declined to comment on compatibility with the Plaser.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/key-space-force-satellites-cant-talk-to-each-other-likely-requiring-1b-solution-sources/"
+        }
+      ]
+    },
+    {
       "id": "leolabs-osc-2026-11-04",
       "subsection": "space",
       "date": "2026-11-04",
@@ -43,34 +57,6 @@
       ]
     },
     {
-      "id": "starfall-cargo-2026-11-01",
-      "subsection": "space",
-      "date": "2026-11-01",
-      "dateLabel": "Oct 26–Nov 1",
-      "headline": "Tom's Hardware: Air Force Research Lab recovered SpaceX Starfall cargo pods in the Pacific",
-      "summary": "Tom's Hardware reported Nov. 1 that the Air Force Research Lab recovered agile cargo pods after a SpaceX Starfall capsule splashed down in the Pacific. Tom's Hardware says the pods launched from Cape Canaveral Space Force Station on a Falcon 9 as part of the Bandwagon-5 rideshare, and that an Air Force Research Lab post on Oct. 26 said each pod carried representative mission equipment, including meals ready to eat, bottled water, a SATCOM-enabled tracker, and spare batteries, so the lab could study temperature, shock, and vibration. Technology Transition Office director Adam Remaly called the recovery a demonstration of Rocket Cargo point-to-point delivery. Tom's Hardware says the Starfall capsule is about 10 feet across and has a capacity of up to 2,200 pounds.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/space/usaf-successfully-tests-dropping-spacex-starfall-cargo-drop-pods-from-space-2-200-pound-capsule-drops-military-supplies-in-the-pacific-to-test-starcraft-like-supply-drops"
-        }
-      ]
-    },
-    {
-      "id": "aws-ml-kem-2026-10-26",
-      "subsection": "quantum",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "AWS Key Management Service adds ML-KEM for post-quantum key encapsulation",
-      "summary": "AWS said Oct. 26 that Key Management Service now supports Module-Lattice-Based Key-Encapsulation Mechanism, ML-KEM, which it identifies as the NIST FIPS 203 standard meant to replace Diffie-Hellman, elliptic-curve Diffie-Hellman and RSA key transport. AWS says the point is the harvest-now, decrypt-later risk, in which an adversary records a key exchange today and recovers it once a quantum computer can. KMS supports ML-KEM-512, ML-KEM-768 and ML-KEM-1024. AWS says the private key stays in FIPS 140-3 Level 3 hardware security modules, and that the feature is available in every KMS region except the Middle East (UAE), Middle East (Bahrain) and China regions.",
-      "sources": [
-        {
-          "name": "AWS",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/"
-        }
-      ]
-    },
-    {
       "id": "truas-demo-2026-11-03",
       "subsection": "autonomy",
       "date": "2026-11-03",
@@ -81,20 +67,6 @@
         {
           "name": "Defense News",
           "url": "https://www.defensenews.com/industry/techwatch/2026/11/03/defense-contractors-to-demo-cargo-drones-for-us-marine-corps/"
-        }
-      ]
-    },
-    {
-      "id": "gemini-robotics-er2-2026-10-27",
-      "subsection": "autonomy",
-      "date": "2026-10-27",
-      "dateLabel": "Oct 27",
-      "headline": "Google Cloud puts Gemini Robotics Embodied Reasoning 2 in public preview",
-      "summary": "Google Cloud said Oct. 27 that Gemini Robotics Embodied Reasoning 2 is in public preview on the Gemini platform. Google describes it as a model that works across robot bodies, from stationary arms to humanoids, and that combines spatial and temporal video understanding with long-horizon planning and safety guardrails. Google says developers can declare low-level controls, including vision-language-action models and navigation APIs, as tools, and can test behaviors in MuJoCo-Warp and NVIDIA Isaac Sim before using hardware. Boston Dynamics' Marco da Silva said the model changes what an inspection with Spot can be, because applying models to video lets the robot do more than check a single moment.",
-      "sources": [
-        {
-          "name": "Google Cloud",
-          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud"
         }
       ]
     }

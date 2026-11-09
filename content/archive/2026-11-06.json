@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-06",
+  "title": "November 6, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "ARMY",
+      "dateLabel": "Nov 5",
+      "headline": "CECOM says Brig. Gen. Sutten takes command at Aberdeen on Nov. 16",
+      "sources": [
+        {
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/296554/cecom_town_hall_highlights_leadership_transitions_workforce_initiatives_and_modernization_priorities"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 5",
+      "headline": "Office of Strategic Capital commits conditional loans to 6K and Halo",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4642212/department-of-wars-office-of-strategic-capital-signs-250-million-conditional-lo/"
+        },
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4642227/department-of-wars-office-of-strategic-capital-signs-75-million-conditional-loa/"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Nov 5",
+      "headline": "OpenAI introduces GPT-6 Cyber for approved security researchers",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Nov 5",
+      "headline": "Tom's Hardware: an OpenSSH and musl bug can bypass empty Alpine passwords",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/combined-flaws-let-anyone-into-alpine-linux-and-other-distros-by-typing-anything-over-256-characters-as-a-password-emergency-fixes-for-openssh-and-musl-libc-issued-for-millions-of-systems-patch-immediately"
+        }
+      ]
+    },
+    {
+      "label": "BUDGET",
+      "dateLabel": "Nov 5",
+      "headline": "Breaking Defense: analysts cut the odds of a lame-duck defense bill",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/republicans-have-a-ticking-clock-what-can-they-get-done-on-defense/"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Nov 5",
+      "headline": "NVIDIA says Vera runs more agents per watt than the x86 CPUs it measured",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/"
+        }
+      ]
+    }
+  ]
+}

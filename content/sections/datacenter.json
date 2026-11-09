@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-06",
-  "covers": "Oct 26–Nov 6, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 6. New: NVIDIA said Nov. 5 that in a 100-megawatt comparison a Vera CPU supports more agents per watt than both the fastest and the most efficient x86 CPU it measured. No separate networking-fabric announcement dated Nov. 5–6 was found. Dell's OneFS 9.16 note is on the partners page. The Nov. 4 ballot item remains. Tom's Hardware's Nov. 5 Moonshot note, about leasing Blackwell capacity in Europe, is on the AI page. AMD's data-center revenue note is on the partners page.",
+  "compiled": "2026-11-09",
+  "covers": "Nov 2–9, 2026",
+  "readFirst": "Covers Nov. 2–9. New: Tom's Hardware reported that protesters entered a Microsoft data-center construction site in Amsterdam on Nov. 6 and that police arrested 150 to 200 people there on Nov. 8. No separate networking-fabric announcement dated Nov. 6–9 was found. Dell's OneFS 9.16 note remains on the partners page. The networking subsection is empty. Weekly cleanup removed the Meta Spectrum-X note, the PsiQuantum switch, the Altman-Samsung meeting, the Intel Fab 28 note, the Oracle Vera Rubin note, the local Vera benchmark, and the Fujifilm tape note.",
   "subsections": [
     {
       "id": "networking",
@@ -29,34 +29,6 @@
   ],
   "items": [
     {
-      "id": "nvidia-meta-fabric-2026-10-26",
-      "subsection": "networking",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "NVIDIA says Meta will deploy more Vera Rubin racks with Spectrum-X and BlueField-4",
-      "summary": "NVIDIA said Oct. 26 that Meta intends to expand deployment of Vera Rubin systems and Vera CPUs for what NVIDIA called next-generation AI agents, and that Meta will deploy Spectrum-X Ethernet and BlueField-4 for network efficiency and throughput. The same announcement says the companies will consider additional work on OpenShell and on Sentry, which NVIDIA describes as monitoring for agent behavior. NVIDIA also said it will invest $3 billion in Meta's equity offering. The release frames the infrastructure work as support for Muse and the Muse family of models.",
-      "sources": [
-        {
-          "name": "NVIDIA Newsroom",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth"
-        }
-      ]
-    },
-    {
-      "id": "psiquantum-ocs-2026-10-30",
-      "subsection": "networking",
-      "date": "2026-10-30",
-      "dateLabel": "Oct 30",
-      "headline": "Tom's Hardware: PsiQuantum showed an eight-port optical switch for GPU networks",
-      "summary": "Tom's Hardware reported Oct. 30 that PsiQuantum demonstrated an eight-port optical circuit switch for AI data-center GPU networks, built from silicon photonics with no moving parts and no amplifier. Tom's Hardware says lab tests showed a typical insertion loss of 1.2 dB, and that PsiQuantum told Tom's Hardware the figure is fiber to fiber and does not include connector losses. The article says PsiQuantum has a 64-by-64 version taped out and a 72-by-72 underway. Tom's Hardware says the eight-port device is a demonstration, and that PsiQuantum says samples and testing kits have gone to several computing companies, including GPU vendors and hyperscalers.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/photonics/psiquantum-turns-its-photonics-know-how-into-an-optical-switch-for-supercharging-ai-data-center-gpu-networks-8x8-lab-prototype-loses-less-light-than-rivals-with-plans-to-develop-larger-devices"
-        }
-      ]
-    },
-    {
       "id": "hbm-loophole-2026-11-03",
       "subsection": "storage",
       "date": "2026-11-03",
@@ -71,16 +43,20 @@
       ]
     },
     {
-      "id": "altman-samsung-ram-2026-11-01",
-      "subsection": "storage",
-      "date": "2026-11-01",
-      "dateLabel": "Oct 30–Nov 1",
-      "headline": "Tom's Hardware: Altman met Samsung on Oct. 30 about memory for AI data centers",
-      "summary": "Tom's Hardware reported Nov. 1, citing Bloomberg, that OpenAI chief executive Sam Altman met about 50 senior Samsung executives on Oct. 30 at Samsung's Resources Development Center in Yongin. Samsung Korea said the discussion covered the direction of AI technology and new business opportunities, and Tom's Hardware says Samsung emphasized AI transformation rather than announcing a new memory supply agreement. Tom's Hardware says Samsung described the talks as strengthening an existing letter of intent to cooperate on global AI infrastructure, including memory semiconductors for OpenAI's Stargate project. Citing Counterpoint Research, Tom's Hardware says Samsung and SK Hynix accounted for about 83 percent of high-bandwidth memory revenue.",
+      "id": "amsterdam-datacenter-protest-2026-11-08",
+      "subsection": "capacity",
+      "date": "2026-11-08",
+      "dateLabel": "Nov 6–8",
+      "headline": "Tom's Hardware: Dutch police arrested protesters at a Microsoft data-center site in Amsterdam",
+      "summary": "Tom's Hardware reported Nov. 6 that about a hundred protesters entered a Microsoft data center under construction in Amsterdam, which Pure Data Centers owns, and that the Stop Dirty Data Centers coalition said it was planning actions across 16 countries on Nov. 6 and 7, with a map showing 85 locations. Pure Data Centers asked people on site to leave and talk, and Microsoft said it respected peaceful expression and does not condone unlawful action. Tom's Hardware reported Nov. 8 that Amsterdam police arrested 150 to 200 protesters at the site on suspicion of trespassing after some entered the construction site with violence, and that police seized break-in tools. It said the Dutch outlet NOS identified the group at the site that day as Fossielvrij.",
       "sources": [
         {
           "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers"
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/hundreds-arrested-after-microsoft-data-center-protest-turns-violent-stop-dirty-data-centers-coalition-demands-halt-to-ai-data-center-expansion-dutch-police-seize-break-in-tools-suspected-stolen-items-from-construction-site"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe"
         }
       ]
     },
@@ -95,48 +71,6 @@
         {
           "name": "The Verge",
           "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
-        }
-      ]
-    },
-    {
-      "id": "intel-fab28-2026-10-30",
-      "subsection": "capacity",
-      "date": "2026-10-30",
-      "dateLabel": "Oct 30",
-      "headline": "Tom's Hardware: Intel expects the Fab 28 shutdown to cost about $600 million",
-      "summary": "Tom's Hardware reported Oct. 30 that an explosion earlier this month at Intel's Fab 28 near Kiryat Gat, Israel, killed two people, seriously injured one, and shut the facility for about two weeks. Intel chief financial officer Dave Zinsner said on the earnings call that the site had been shut down for about two weeks and that Intel expected to start production again by the end of this week. Tom's Hardware says Intel expects about $300 million less revenue in the fourth quarter of 2026 and a similar impact in the first quarter of 2027, about $600 million across the two quarters, plus about a 2 percent cut to fourth-quarter non-GAAP gross margin. It says the disruption affects server processors made on Intel's 10nm-class processes, including Intel 7, and that Intel has not named the Xeon families affected or said when the fab will return to full capacity.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/pc-components/cpus/deadly-intel-fab-28-explosion-causes-two-week-shutdown-to-cost-usd600-million-and-severely-disrupt-server-chip-manufacturing-for-six-months-10nm-xeon-shipments-stall-during-largest-shortage-in-memory"
-        }
-      ]
-    },
-    {
-      "id": "nvidia-oracle-rubin-2026-10-27",
-      "subsection": "capacity",
-      "date": "2026-10-27",
-      "dateLabel": "Oct 27",
-      "headline": "NVIDIA says Vera Rubin NVL72 and Vera CPUs are generally available on Oracle Cloud",
-      "summary": "NVIDIA said Oct. 27 that Vera Rubin NVL72 systems and Vera CPUs are generally available on Oracle Cloud Infrastructure, and that the companies plan to expand OCI Superclusters with Vera Rubin NVL72 to multi-gigawatt scale. NVIDIA said those superclusters combine NVL72 racks, Oracle Acceleron networking with Spectrum-X Ethernet using Spectrum-6 switches and BlueField-4 DPUs, and gigawatt-class power and cooling, and that each rack connects 72 GPUs with NVLink. OCI also plans an HGX Rubin NVL8 with eight Rubin GPUs, two 64-core Intel Xeon 6 CPUs, 4 TB of DDR5 memory, and 6.4 Tbps of RDMA networking. NVIDIA said OpenAI has trained and served GPT-6 Astra on an OCI Supercluster with more than 100,000 Blackwell GPUs in Abilene, and that OpenAI is bringing Vera CPUs on OCI into production for agentic sandbox workloads.",
-      "sources": [
-        {
-          "name": "NVIDIA Newsroom",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure"
-        }
-      ]
-    },
-    {
-      "id": "toms-vera-benchmark-2026-10-28",
-      "subsection": "capacity",
-      "date": "2026-10-28",
-      "dateLabel": "Oct 28",
-      "headline": "Tom's Hardware: a local Vera server more than doubled Stream bandwidth versus dual Xeon 6",
-      "summary": "Tom's Hardware reported Oct. 28 that Nvidia and Oracle have made Vera Rubin NVL72 and standalone Vera CPUs generally available on OCI Superclusters. In tests on a local Vera server, not on OCI, Tom's Hardware said Stream triad bandwidth was more than double that of a dual Intel Xeon 6980P system using MRDIMMs at 8,800 MT/s, and it cited Nvidia's figure of 1.2 TB/s of memory bandwidth. Tom's Hardware said Oracle will also offer an HGX NVL8 with eight Rubin GPUs on a dual 64-core Intel Xeon 6 host with 4 TB of DDR5. The outlet said these tests are part of a larger review it has not yet published.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-oracle-bring-vera-cpu-instances-online-in-multi-gigawatt-deployment-oci-superclusters-also-set-to-expand-with-rubin-only-clusters-attached-to-dual-xeon-6-hosts"
         }
       ]
     },
@@ -179,20 +113,6 @@
         {
           "name": "OpenAI",
           "url": "https://openai.com/index/grid-protectors-program"
-        }
-      ]
-    },
-    {
-      "id": "fujifilm-tape-2026-10-29",
-      "subsection": "storage",
-      "date": "2026-10-29",
-      "dateLabel": "Oct 29",
-      "headline": "Tom's Hardware: Fujifilm will spend 10 billion yen to raise tape output for AI storage",
-      "summary": "Tom's Hardware reported Oct. 29, citing Nikkei Asia, that Fujifilm plans to raise magnetic-tape production by as much as five times because of AI data-center demand. Tom's Hardware says Fujifilm will spend 10 billion yen ($63.3 million) to increase capacity at its Odawara plant through fiscal 2028, and that the expansion is the company's largest tape investment in about 20 years. It says the added capacity is meant to produce tapes of up to 100 TB each. Tom's Hardware says magnetic tape is used for long-term backup of data that is rarely accessed, and that Fujifilm is one of several storage vendors expanding for AI data centers.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/fujifilm-plans-5x-production-boost-of-100tb-magnetic-storage-tapes-driven-by-ai-usd63-million-injection-is-the-largest-investment-in-tape-for-20-years"
         }
       ]
     }

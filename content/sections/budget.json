@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Federal Budget & NDAA Weekly Tracker",
   "description": "Fiscal 2027 appropriations, the continuing resolution, NDAA status, reconciliation funds and Golden Dome money.",
-  "compiled": "2026-11-06",
-  "covers": "Oct 26–Nov 6, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 6. New: Breaking Defense reported Nov. 5 that analysts now see little chance of a lame-duck reconciliation bill, a 50 percent chance of a shutdown after the Dec. 11 continuing resolution, and that most of Golden Dome's fiscal 2027 funding was written as reconciliation. No appropriations vote dated Nov. 5–6 was found. No newer Iran-war cost figure was found. Hegseth's Nov. 5 call for a $1.5 trillion defense budget is on the Department of War page. The CyberScoop note on the Dec. 11 expiration of the 2015 information-sharing law remains.",
+  "compiled": "2026-11-09",
+  "covers": "Nov 2–9, 2026",
+  "readFirst": "Covers Nov. 2–9. No appropriations vote, continuing-resolution extension, or new Iran-war cost figure dated Nov. 6–9 was found. The Nov. 5 Breaking Defense note on the lame-duck clock remains. The Viasat Space Data Network award is on the Department of War page; it is not a new appropriation. Weekly cleanup removed the Oct. 27 Roll Call NDAA note, the Oct. 28 CSIS funding note, and the Oct. 28 Iran-war cost estimate. The reconciliation subsection is empty.",
   "subsections": [
     {
       "id": "approps",
@@ -35,52 +35,6 @@
         {
           "name": "Breaking Defense",
           "url": "https://breakingdefense.com/2026/11/republicans-have-a-ticking-clock-what-can-they-get-done-on-defense/"
-        }
-      ]
-    },
-    {
-      "id": "lame-duck-defense-2026-10-27",
-      "subsection": "approps",
-      "date": "2026-10-27",
-      "dateLabel": "Oct 27",
-      "headline": "Roll Call: the fiscal 2027 NDAA and the $1.5 trillion defense request are stuck until the lame duck",
-      "summary": "Roll Call reported Oct. 27 that the fiscal 2027 National Defense Authorization Act and full-year Pentagon funding were unresolved when lawmakers left to campaign. It said Democrats have balked at authorizing a record budget and at moving a defense policy bill without guardrails on the Iran war. Roll Call said the administration has requested a $1.15 trillion base budget, $350 billion in a partisan reconciliation bill, and about $60 billion in supplemental funding for Iran-war costs, and that officials including Pete Hegseth are still pushing Republicans for that package. It also said Sen. Mitch McConnell wrote in a Wall Street Journal op-ed that ending what he called obeisance to Putin may be table stakes for the end-of-year legislation.",
-      "sources": [
-        {
-          "name": "Roll Call",
-          "url": "https://rollcall.com/2026/10/27/defense-priorities-tied-up-in-lame-duck-jumble/"
-        }
-      ]
-    },
-    {
-      "id": "csis-fy27-funding-2026-10-28",
-      "subsection": "approps",
-      "date": "2026-10-28",
-      "dateLabel": "Oct 28",
-      "headline": "CSIS: the continuing resolution runs to Dec. 11, and the House reconciliation number is $60 billion",
-      "summary": "CSIS fellow Seamus P. Daniels wrote Oct. 28 that the Defense Department and the rest of the government are operating under a continuing resolution through Dec. 11. He said the administration requested $1.15 trillion in base discretionary appropriations, $350 billion in reconciliation, and, in June, a supplemental of nearly $70 billion, including $67.1 billion for the department. Daniels wrote that the House defense appropriations bill, H.R. 9495, has not passed the full House, and that neither that bill nor the House military-construction and veterans bill has been passed by the Senate Appropriations Committee. He said the House budget resolution would provide $60 billion in reconciliation funds for defense, not the $350 billion requested, and that 22 Senate days and 20 House days remain on the schedule.",
-      "sources": [
-        {
-          "name": "CSIS",
-          "url": "https://www.csis.org/analysis/fy-2027-defense-funding-potential-post-midterm-outcomes"
-        }
-      ]
-    },
-    {
-      "id": "iran-war-cost-2026-10-28",
-      "subsection": "reconciliation",
-      "date": "2026-10-28",
-      "dateLabel": "Oct 28",
-      "headline": "Pentagon tells Congress the Iran war had cost $47.1 billion as of Oct. 16",
-      "summary": "Stars and Stripes reported Oct. 28 that the Defense Department estimated the Iran war had cost $47.1 billion as of Oct. 16, up about $3.5 billion from the $43.6 billion reported through Sept. 3. The outlet said about $29 billion is for replacing munitions and $6.1 billion is to replace lost equipment, both still unfunded, and that about $11.9 billion has been incurred, including $2 billion in Army costs. It said the estimate does not include damage to U.S. bases, which the Pentagon is still assessing, and that the Pentagon is seeking $67 billion in supplemental funding while Congress is in recess. The Associated Press, writing for PBS, also reported the $47.1 billion figure as of Oct. 16 and said the Pentagon's tally lists 21 service members killed and 865 wounded.",
-      "sources": [
-        {
-          "name": "Stars and Stripes",
-          "url": "https://www.stripes.com/theaters/middle_east/2026-10-28/pentagon-estimate-iran-war-cost-47b-23289282.html"
-        },
-        {
-          "name": "PBS News",
-          "url": "https://www.pbs.org/newshour/world/american-taxpayers-bill-for-iran-war-grows-to-estimated-47-1-billion"
         }
       ]
     },

@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-06",
-  "covers": "Oct 26–Nov 6, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 6. No Cisco, Dell, HPE, NetApp, Microsoft, Palo Alto, AWS, or Google Cloud newsroom item dated Nov. 5–6 was opened. F5 had no new product release, Intel had no new item dated Nov. 5–6, and VMware had no new advisory. OpenAI's Nov. 5 GPT-6 Cyber post, which quotes Cisco, Palo Alto Networks, and CrowdStrike, is on the AI page. NVIDIA's Nov. 5 Vera CPU note is on the data-center page. Tom's Hardware's Nov. 5 Moonshot note is on the AI page. Singapore's PHP2Shell alert, which names F5 BIG-IP, remains on the cyber page. The VMware ESX logging bug remains due Nov. 11.",
+  "compiled": "2026-11-09",
+  "covers": "Nov 2–9, 2026",
+  "readFirst": "Covers Nov. 2–9. New: Tom's Hardware reported Nov. 8 that Nvidia's board opened an independent review after Jensen Huang's letter about an affair with a woman who is allegedly a Chinese spy, and reported Nov. 7 that three House chairs asked him for a closed-door meeting. No Red Hat, IBM, Cisco, Dell, HPE, NetApp, Microsoft, Palo Alto, AWS, or Google Cloud newsroom item dated Nov. 6–9 was opened. No new Army or Department of War enterprise agreement was found. F5 and VMware were quiet; Intel's Nov. 3 process-kit note remains. The Amsterdam protest at a Microsoft data-center site is on the data-center page. Weekly cleanup removed the Cisco Model Foundry note, the RTX Spark laptop note, the Palo Alto PHP and Brotli advisories, the VMware ESX KEV item, and the AWS ML-KEM note.",
   "subsections": [
     {
       "id": "cisco",
@@ -85,20 +85,6 @@
       ]
     },
     {
-      "id": "intel-xeon-shift-2026-10-31",
-      "subsection": "quiet",
-      "date": "2026-10-31",
-      "dateLabel": "Oct 31",
-      "headline": "Tom's Hardware: Intel is moving some client wafer capacity to Xeon server processors",
-      "summary": "Tom's Hardware reported Oct. 31, citing Intel's earnings call, that Intel is moving some manufacturing capacity from client processors to data-center CPUs. Chief executive Lip-Bu Tan said the industry is navigating what he called one of the most significant supply shortages in history, driven by demand for super intelligence, and that Data Center and AI revenue was $7.3 billion in the third quarter of 2026, up 17 percent from the prior quarter. Chief financial officer Dave Zinsner said wafers being taken offline in Oregon to add Intel 3 capacity had been intended for Panther Lake client products on 18A. Tom's Hardware says that added Oregon capacity is expected to enter production in the second half of 2027, and that a Fab 24 expansion in Ireland for Xeon is not expected online until the end of 2027 unless it is accelerated.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history"
-        }
-      ]
-    },
-    {
       "id": "cisco-openai-defense-2026-11-03",
       "subsection": "cisco",
       "date": "2026-11-03",
@@ -109,52 +95,6 @@
         {
           "name": "OpenAI",
           "url": "https://openai.com/index/cisco-cyber"
-        }
-      ]
-    },
-    {
-      "id": "cisco-model-foundry-2026-10-26",
-      "subsection": "cisco",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "Cisco opens Model Foundry to partners and cites a WWT lab test of Deep Network",
-      "summary": "Cisco said Oct. 26 at Partner Summit that Model Foundry, a service in Cisco Cloud Control, is in controlled availability for partners and can serve or fine-tune Cisco's domain models through an OpenAI-compatible API. Cisco said it tested the service with World Wide Technology and fine-tuned a 31-billion-parameter Deep Network model on troubleshooting data. WWT Chief Security Architect Naasief Edross said that fine-tune reached the right fix in 11 of 12 lab scenarios. Cisco's investor release the same day also said Cisco IQ for Partners is generally available, and the Model Foundry post names WWT in an early-access cohort for Cisco's open models.",
-      "sources": [
-        {
-          "name": "Cisco",
-          "url": "https://blogs.cisco.com/ai/cisco-model-foundry-partner-summit"
-        },
-        {
-          "name": "Cisco",
-          "url": "https://investor.cisco.com/news/news-details/2026/Cisco-Expands-Partner-Opportunity-with-New-Cisco-360-Program-Updates-High-Yield-Customer-Experience-Offerings-and-AI-Ready-Innovations/default.aspx"
-        }
-      ]
-    },
-    {
-      "id": "rtx-spark-laptops-2026-10-28",
-      "subsection": "nvidia",
-      "date": "2026-10-28",
-      "dateLabel": "Oct 28",
-      "headline": "NVIDIA says RTX Spark laptops are on sale from Dell, HP, Lenovo, Microsoft, and others",
-      "summary": "NVIDIA said Oct. 28 that RTX Spark laptops are available from ASUS, Dell, HP, Lenovo, Microsoft, and MSI. NVIDIA said the systems combine a Blackwell RTX GPU and a Grace CPU in one superchip with up to 128 GB of unified memory and up to 1 petaflop of FP4 AI performance, starting at $2,599, with 128 GB configurations on shelves. The same post said NVIDIA App can now split GPU resources between a foreground application and a background agent on RTX Spark. NVIDIA also said DGX Spark with 64 GB of unified memory, using the GB10 Grace Blackwell Superchip, is available from manufacturer partners.",
-      "sources": [
-        {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
-        }
-      ]
-    },
-    {
-      "id": "palo-php-2026-10-26",
-      "subsection": "paloalto",
-      "date": "2026-10-29",
-      "dateLabel": "Oct 21–29",
-      "headline": "Palo Alto says php2shell is being exploited on internet-exposed management interfaces",
-      "summary": "Palo Alto Networks updated its advisory on CVE-2026-109618 and CVE-2026-109619 on Oct. 29. Palo Alto now says active exploitation has been observed against management interfaces exposed to the internet, rates that case critical with a CVSS-B score of 9.2, and says the issue applies to PAN-OS on PA-Series and VM-Series firewalls and on Panorama. The Oct. 29 timeline entry says estimated dates for 11.1.7-h12 were removed because that version is released. The solution table says to upgrade PAN-OS 11.1.7 through 11.1.7-h* to 11.1.7-h12 or 11.1.16-h4 or later.",
-      "sources": [
-        {
-          "name": "Palo Alto Networks",
-          "url": "https://security.paloaltonetworks.com/CVE-2026-109618"
         }
       ]
     },
@@ -173,56 +113,6 @@
       ]
     },
     {
-      "id": "palo-brotli-2026-10-28",
-      "subsection": "paloalto",
-      "date": "2026-10-29",
-      "dateLabel": "Oct 26–29",
-      "headline": "Palo Alto's Oct. 29 Brotli update says the remaining listed hotfixes are released",
-      "summary": "Palo Alto Networks updated its advisory on CVE-2026-111497 on Oct. 29. Palo Alto says the bug applies to PAN-OS on PA-Series and VM-Series firewalls when Brotli inspection and TLS decryption are enabled on the dataplane, that the management interface is not affected, and that it is not aware of malicious exploitation of this issue. It says PAN-OS 11.1, PAN-OS 10.2, and Panorama are not affected, and that Brotli inspection is disabled by default in PAN-OS 11.2.4 and later. The Oct. 29 changelog says the estimated dates for 11.2.4-h23, 12.1.4-h13, and 12.1.10-h3 were removed because those versions are released, and the advisory says the same hotfix covers both the PHP bugs and Brotli except that 11.2.10-h16 fixes only PHP and 11.2.10-h17 fixes both.",
-      "sources": [
-        {
-          "name": "Palo Alto Networks",
-          "url": "https://security.paloaltonetworks.com/CVE-2026-111497"
-        }
-      ]
-    },
-    {
-      "id": "vmware-esx-kev-2026-10-28",
-      "subsection": "quiet",
-      "date": "2026-10-28",
-      "dateLabel": "Oct 28",
-      "headline": "CISA adds a low-scored VMware ESX logging bug to the KEV catalog, due Nov. 11",
-      "summary": "CISA added CVE-2026-41709, a VMware ESX insufficient-logging bug, to the Known Exploited Vulnerabilities catalog on Oct. 28, with a due date of Nov. 11. Broadcom's VMSA-2026-0006 rates the issue low, with a CVSS score of 2.7, and says a malicious administrator could perform certain operations without them being logged. The advisory lists fixed builds including ESXi-9.1.0.0-25370933, ESXi-9.0.2.0100-25595025, ESXi80U3j-25429389, and Cloud Foundation 5.2.4, and it lists no workaround. Broadcom credited Ian Barton of CrowdStrike.",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog"
-        },
-        {
-          "name": "CISA KEV catalog",
-          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
-        },
-        {
-          "name": "Broadcom",
-          "url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017"
-        }
-      ]
-    },
-    {
-      "id": "aws-kms-ml-kem-2026-10-26",
-      "subsection": "aws",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "AWS Key Management Service adds the NIST ML-KEM post-quantum algorithm",
-      "summary": "AWS said Oct. 26 that Key Management Service now supports ML-KEM, the Module-Lattice-Based Key-Encapsulation Mechanism in NIST FIPS 203, which AWS says is meant to replace classical Diffie-Hellman and RSA key transport against a harvest-now, decrypt-later attack. Customers can use ML-KEM-512, ML-KEM-768 or ML-KEM-1024. AWS says the private key is held in FIPS 140-3 Level 3 hardware security modules and that the public key can be exported for local encapsulation with libraries such as AWS-LC, OpenSSL or Bouncy Castle. The feature is not available in the Middle East (UAE), Middle East (Bahrain) or China regions.",
-      "sources": [
-        {
-          "name": "AWS",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/"
-        }
-      ]
-    },
-    {
       "id": "dell-onefs-2026-11-03",
       "subsection": "dell",
       "date": "2026-11-03",
@@ -233,6 +123,24 @@
         {
           "name": "Dell",
           "url": "https://www.dell.com/en-us/blog/how-powerscale-onefs-9-16-scales-ai-cloud-infrastructure/"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-board-review-2026-11-08",
+      "subsection": "nvidia",
+      "date": "2026-11-08",
+      "dateLabel": "Nov 7–8",
+      "headline": "Tom's Hardware: Nvidia's board opens a review after Huang's letter about an alleged spy",
+      "summary": "Tom's Hardware reported Nov. 8 that Nvidia chief executive Jensen Huang admitted, in a letter to staff, to an affair with a woman who is allegedly a Chinese spy, and that the board said late Sunday it has no reason to believe sensitive corporate information or U.S. national security was compromised. The board said a committee of independent directors, assisted by outside counsel, will examine the available information, and that Huang supports the review. Tom's Hardware reported that Nvidia rejected suggestions of improper dealings, saying Huang regularly meets thousands of customers and that those interactions do not involve sensitive corporate information or national security secrets, and that Chinese officials dismissed the espionage allegations as unfounded. Tom's Hardware reported Nov. 7 that Reps. John Moolenaar, Brian Mast, and Rick Crawford, chairs of the House committees on China, Foreign Affairs, and Intelligence, asked Huang for a closed-door meeting, citing reports that Megaspeed executive Alice Huang is a Chinese asset.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-ceo-jensen-huang-admits-to-having-an-affair-with-suspected-chinese-spy-jensen-apologizes-in-letter-to-staff-company-board-forms-independent-committee-to-investigate"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidias-jensen-huang-officially-called-to-congress-due-to-reports-of-a-chinese-spy-plot-officials-mention-growing-concerns-over-national-security"
         }
       ]
     }

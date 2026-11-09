@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT ↔ U.S. Army Signal Mapping",
   "description": "World Wide Technology public content and Army business, set next to U.S. Army leadership priorities.",
-  "compiled": "2026-11-06",
-  "covers": "Oct 26–Nov 6, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 6. WWT's newsroom labels InfiniteAI as a Nov. 4 release; the text is datelined London on Nov. 5 and announces a UK and Europe program with an initial £35 million investment from WWT and an innovation centre planned for March 2027 at Imperial College London. It was not added because it is not Army or U.S. federal work. The same newsroom lists a Nov. 4 golf sponsorship that was not added. The Oct. 28 Cisco Partner Summit awards remain the newest WWT release tied to federal work. The Griffin note still cites the Army's Oct. 26 release, which names WWT and says Army Contracting Command-Aberdeen Proving Ground will support the contract. The Oct. 26 TechNet Indo-Pacific office hours have passed, and no newer Army-facing WWT event was posted. One Signal Mapping note remains, tagged Inference.",
+  "compiled": "2026-11-09",
+  "covers": "Nov 2–9, 2026",
+  "readFirst": "Covers Nov. 2–9. No WWT newsroom release dated Nov. 6–9 was found. The newsroom's newest items remain the Nov. 4 InfiniteAI program, datelined London on Nov. 5, and a Nov. 4 golf sponsorship; neither was added because neither is Army or U.S. federal work. Weekly cleanup removed the Oct. 28 Cisco Partner Summit awards, the Oct. 26 Project Griffin note, the Oct. 26 TechNet Indo-Pacific office hours, and the Signal Mapping inference. No newer Army-facing WWT event was posted. The mapping subsection is empty.",
   "subsections": [
     {
       "id": "content",
@@ -27,67 +27,5 @@
       "title": "Signal Mapping"
     }
   ],
-  "items": [
-    {
-      "id": "wwt-cisco-partner-2026-10-28",
-      "subsection": "content",
-      "date": "2026-10-28",
-      "dateLabel": "Oct 28",
-      "headline": "WWT is named Global One Cisco Partner of the Year, and Federal Defense Partner of the Year",
-      "summary": "WWT said Oct. 28 at Cisco Partner Summit in Vancouver that it was named Global One Cisco Partner of the Year, and also Global Enterprise, Global Americas, and Global Networking Partner of the Year. The release lists a U.S. Federal Defense Partner of the Year award among the Americas honors, and says Softchoice, a WWT company, was named Canada Security Partner of the Year and Central Canada Impact Partner of the Year. Tim Coogan, Cisco's senior vice president of global partner sales, said he was recognizing WWT as the 2026 Global One Cisco Partner of the Year. Bob Olwig, WWT's executive vice president for global partner alliances, tied the awards to Cisco Global Partner status and the Secure Networking and Secure AI Infrastructure specializations.",
-      "sources": [
-        {
-          "name": "WWT",
-          "url": "https://www.wwt.com/press-release/world-wide-technology-and-softchoice-win-one-cisco-partner-of-the-year-and-canada-security-partner-of-the-year-at-cisco-partner-summit-2026"
-        }
-      ]
-    },
-    {
-      "id": "wwt-griffin-2026-10-26",
-      "subsection": "content",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "Army release: WWT and AWS were selected for the Project Griffin cyber pilot",
-      "summary": "Army Public Affairs said Oct. 26 that the Army selected World Wide Technology and Amazon Web Services on Oct. 23 for a combined $2.6 million Project Griffin pilot. The release says Griffin is one of three accelerated efforts under Project ARDS and that the objective is an autonomous, agentic platform for cyber defenders. It says Army Contracting Command-Aberdeen Proving Ground will provide contract support, and that the Portfolio Management Executive for Intelligence and Spectrum Warfare will manage execution through Project Manager, Cyber Warfare.",
-      "sources": [
-        {
-          "name": "Army.mil",
-          "url": "https://www.army.mil/article/296330/army_selects_project_griffin_partners_to_accelerate_si_enabled_cyber_defense"
-        }
-      ]
-    },
-    {
-      "id": "technet-indopac-wwt-2026-10-26",
-      "subsection": "conferences",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "TechNet Indo-Pacific: WWT listed GEMSS office hours in Honolulu for Oct. 26",
-      "summary": "WWT lists an Oct. 26, 1:00 p.m. session at the Hilton Hawaiian Village during AFCEA TechNet Indo-Pacific. The advertised topics are Cisco software entitlements under GEMSS 2.1, Enterprise Agreement+ customer success, Cisco certification training, Cisco Advanced Services for the Army, and a SPINNAKER demonstration. AUSA itself ended Oct. 14.",
-      "sources": [
-        {
-          "name": "WWT",
-          "url": "https://www.wwt.com/event/6a74a22255b7d63357cf7d26"
-        }
-      ]
-    },
-    {
-      "id": "mapping-griffin-gemss",
-      "subsection": "mapping",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "tag": "inference",
-      "headline": "Griffin names WWT on a small cyber pilot contracted at Aberdeen; it is not the GEMSS Cisco vehicle",
-      "summary": "The Army's Oct. 26 release says the service selected WWT and AWS on Oct. 23 for a combined $2.6 million Project Griffin pilot, and that Army Contracting Command-Aberdeen Proving Ground will provide contract support. The Army Cisco agreement WWT posted in July is GEMSS 2.1, the enterprise software and support consolidation. Nothing in the Griffin release says the pilot changes GEMSS, names a Cisco bill of materials, or makes WWT an NGC2 prime. Read together, the new public line that names WWT is a small cyber pilot contracted at Aberdeen, and the Cisco vehicle WWT has published is a separate enterprise agreement.",
-      "sources": [
-        {
-          "name": "Army.mil",
-          "url": "https://www.army.mil/article/296330/army_selects_project_griffin_partners_to_accelerate_si_enabled_cyber_defense"
-        },
-        {
-          "name": "WWT GEMSS 2.1",
-          "url": "https://www.wwt.com/press-release/world-wide-technology-awarded-us-army-gemss-21-agreement-to-advance-enterprise-it-modernization"
-        }
-      ]
-    }
-  ]
+  "items": []
 }

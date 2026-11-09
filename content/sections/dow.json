@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-06",
-  "covers": "Oct 26–Nov 6, 2026",
-  "readFirst": "Covers Oct. 26–Nov. 6. New: Federal News Network reported Nov. 5 that Secretary Hegseth posted a video calling for a $1.5 trillion defense budget and calling a renewed impeachment push a sham, and the Office of Strategic Capital announced conditional loans of $250 million for 6K and $75 million for Halo Industries. The Oct. 28 Cebu speech and the Oct. 26 AI-procurement guidance were removed so those subsections stayed at four. No new Golden Dome appropriation was found; Breaking Defense's Nov. 5 note on Golden Dome funding is on the budget page. No Nov. 5 daily contracts page on war.gov could be opened. Federal News Network also reported Nov. 5 on Air Force civilian cuts at the China Aerospace Studies Institute; that item was not added. The LeoLabs loan remains on the tech page.",
+  "compiled": "2026-11-09",
+  "covers": "Nov 2–9, 2026",
+  "readFirst": "Covers Nov. 2–9. New: Breaking Defense and DefenseScoop reported Nov. 6 that Viasat won a Space Data Network operations-center contract with a $450 million ceiling and a $115 million initial task order, in partnership with the Golden Dome office. Federal News Network's Nov. 6 newscast said DIA is asking industry about a classified SIA 4 vehicle with a ceiling of about $17 billion. No war.gov contracts page for Nov. 5 or Nov. 6 could be opened. No new Secretary remarks from the weekend were opened. Weekly cleanup removed the J5 firing, the household-goods CMMC note, and the AUKUS submarine designation.",
   "subsections": [
     {
       "id": "secwar",
@@ -57,28 +57,6 @@
       ]
     },
     {
-      "id": "sylvia-j5-2026-10-29",
-      "subsection": "secwar",
-      "date": "2026-10-30",
-      "dateLabel": "Oct 29–30",
-      "headline": "Hegseth fired J5 Lt. Gen. Brett Sylvia; a spokesperson says he was not the Iran war planner",
-      "summary": "Military.com reported Oct. 30 that Defense Secretary Pete Hegseth fired Army Lt. Gen. Brett Sylvia, the Joint Staff director for strategy, plans and policy, on Thursday. Chief Pentagon spokesperson Sean Parnell confirmed the firing on X and wrote that the Department of War has zero tolerance for the intentional, unauthorized disclosure of classified information. A department spokesperson told Military.com the termination was for severe misconduct, that Sylvia was not a central planner for the Iran war, that the central planner is CENTCOM commander Adm. Brad Cooper, and that Sylvia is under investigation for leaking classified information about the Iran war, the Russia-Ukraine war, and more, including by meeting journalists outside the Pentagon after an escort rule. CBS News reported Oct. 29 that an official said Sylvia failed three polygraph tests and that the case was referred to the Justice Department, and NBC News reported the Pentagon first thanked Sylvia for his service and rescinded that statement a day later.",
-      "sources": [
-        {
-          "name": "Military.com",
-          "url": "https://www.military.com/hegseth-firing-pentagon-war-planner-over-alleged-leaks-follows-his-own-signal-scandal"
-        },
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/news/hegseth-fires-pentagons-top-military-planner/"
-        },
-        {
-          "name": "NBC News",
-          "url": "https://www.nbcnews.com/politics/national-security/top-general-fired-hegseth-leak-investigation-rcna606456"
-        }
-      ]
-    },
-    {
       "id": "dodea-vacancy-2026-11-02",
       "subsection": "secwar",
       "date": "2026-11-02",
@@ -89,6 +67,20 @@
         {
           "name": "Federal News Network",
           "url": "https://federalnewsnetwork.com/defense-main/2026/11/dodea-loses-second-director-in-a-year-leaving-top-job-vacant/"
+        }
+      ]
+    },
+    {
+      "id": "dia-sia4-2026-11-06",
+      "subsection": "acquisition",
+      "date": "2026-11-06",
+      "dateLabel": "Nov 6",
+      "headline": "Federal News Network: DIA is asking industry about a classified analysis vehicle near $17 billion",
+      "summary": "Federal News Network's Nov. 6 newscast said the Defense Intelligence Agency is starting the next version of its Solutions for Intelligence Analysis multiple-award vehicle, SIA 4. The outlet said a request for information would make SIA 4 a classified contract, so vendors would need an active Top Secret facility clearance. It said the vehicle would have a five-year base and a five-year option, with a total ceiling of about $17 billion. Responses are due Nov. 24, and the agency expects an industry event in early 2027.",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/federal-newscast/2026/11/dod-and-va-join-forces-to-increase-electronic-health-information-security/"
         }
       ]
     },
@@ -139,20 +131,6 @@
       ]
     },
     {
-      "id": "dod-movers-cmmc-2026-10-29",
-      "subsection": "acquisition",
-      "date": "2026-10-29",
-      "dateLabel": "Oct 29",
-      "headline": "Federal News Network: movers ask DoD to drop CMMC Level 2 from household-goods rules",
-      "summary": "Federal News Network reported Oct. 29 that Movers for America is urging the Defense Department to revise proposed rules for the Defense Personal Property program, and that public comments closed Oct. 26. Executive director Katie McMichael told Federal News Network that CMMC Level 2 is very costly for an industry of small businesses and independent contractors, and that the group does not think CMMC is necessary for the names, addresses, and phone numbers movers receive. She said a Movers for America survey found nearly half of moving professionals might scale back Defense Department business if Level 2 is required. The outlet says the proposed rules would prohibit service members from sponsoring or escorting movers onto installations, and that the Personal Property Activity is expected to release final rules by the end of November.",
-      "sources": [
-        {
-          "name": "Federal News Network",
-          "url": "https://federalnewsnetwork.com/defense-news/2026/10/industry-pushes-back-on-dods-proposed-rules-for-moving-program/"
-        }
-      ]
-    },
-    {
       "id": "drpm-centcom-2026-11-04",
       "subsection": "ops",
       "date": "2026-11-04",
@@ -181,16 +159,20 @@
       ]
     },
     {
-      "id": "srf-west-colorado-2026-10-26",
-      "subsection": "ops",
-      "date": "2026-10-26",
-      "dateLabel": "Oct 26",
-      "headline": "AUKUS: USS Colorado is the first U.S. submarine named for Submarine Rotational Force-West",
-      "summary": "The Department of War said Oct. 26 that Secretary of War Pete Hegseth, Australian Deputy Prime Minister and Defence Minister Richard Marles, and UK Defence Secretary Wes Streeting designated USS Colorado (SSN 788) as the first U.S. Navy Virginia-class fast-attack submarine assigned to Submarine Rotational Force-West, beginning in late 2027. The release says the force is projected to host up to four U.S. fast-attack submarines and one UK fast-attack submarine on a rotational basis at HMAS Stirling in Western Australia. It says a U.S. submarine maintenance period begins later this week to show Australia's ability to sustain U.S. and UK nuclear-powered attack submarines. The statement says the move is an AUKUS Pillar I milestone and that the partners describe AUKUS as moving full steam ahead.",
+      "id": "viasat-moc-2026-11-06",
+      "subsection": "goldendome",
+      "date": "2026-11-06",
+      "dateLabel": "Nov 6",
+      "headline": "Space Force awards Viasat up to $450 million for a Golden Dome data-network operations center",
+      "summary": "Breaking Defense reported Nov. 6 that the Space Force, in partnership with the Pentagon's Golden Dome office, awarded Viasat an indefinite-delivery/indefinite-quantity contract with a $450 million ceiling to design, field, and scale a Mission Operations Center for the Space Data Network Backbone. DefenseScoop reported the same day that the initial task order is valued at $115 million, and that the Pentagon earlier awarded SpaceX a $2.3 billion contract for a fully operational prototype of the low-Earth-orbit backbone by the end of 2027. Breaking Defense said Space Systems Command described the center as the central network orchestration hub for that backbone. DefenseScoop quoted Lt. Col. Alexa Eggert, materiel leader for the program, saying the center is a crucial step in maturing the network into a fully operational, multi-vendor capability.",
       "sources": [
         {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4633244/joint-statement-uss-colorado-ssn-788-announced-as-first-submarine-for-submarine/"
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/dod-taps-viasat-to-field-operations-center-for-golden-dome-satellite-data-relay-network/"
+        },
+        {
+          "name": "DefenseScoop",
+          "url": "https://defensescoop.com/2026/11/06/pentagon-mission-operations-center-space-data-network/"
         }
       ]
     }
