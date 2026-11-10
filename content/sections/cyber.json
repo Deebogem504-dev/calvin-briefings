@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-09",
-  "covers": "Nov 2–9, 2026",
-  "readFirst": "Covers Nov. 2–9. New: CISA added SonicWall CVE-2026-19868 to the KEV catalog on Nov. 6, due Nov. 20, and the catalog does not require forensic triage. The WordPress core race condition, CVE-2026-119977, was removed because its Nov. 6 due date passed with no new exploitation report. Apple CVE-2024-27834 remains due Nov. 18. Ivanti CVE-2026-118527 remains due Nov. 13; the paired Connect Secure bug due Nov. 2 has passed. No CISA KEV alert dated Nov. 7, Nov. 8, or Nov. 9 was found. The VMware ESX logging bug aged out of the partners page; its catalog due date is Nov. 11. Weekly cleanup removed the VOLTA stealer, the PHP embargo note, and the Brotli and Adobe Commerce KEV item.",
+  "compiled": "2026-11-10",
+  "covers": "Nov 3–10, 2026",
+  "readFirst": "Covers Nov. 3–10. New: CISA added four vulnerabilities to the KEV catalog on Nov. 9 — GPUStack, FreeSWITCH, OpenSSH, and IBM Aspera Faspex — each due Nov. 12, and the catalog requires forensic triage. The OpenSSH entry is the Alpine authentication-bypass bug already on this page. SonicWall CVE-2026-19868 remains due Nov. 20. Apple CVE-2024-27834 remains due Nov. 18. The Nov. 2 Ivanti item and the Nvidia Brev note aged out. No CISA KEV alert dated Nov. 10 was found.",
   "subsections": [
     {
       "id": "kev",
@@ -67,16 +67,20 @@
       ]
     },
     {
-      "id": "nvidia-brev-2026-11-02",
-      "subsection": "incidents",
-      "date": "2026-11-02",
-      "dateLabel": "Oct 4–Nov 2",
-      "headline": "Tom's Hardware: Nvidia says a Brev incident may have exposed customer SSH keys",
-      "summary": "Tom's Hardware reported Nov. 2 that Nvidia told affected customers of its Brev cloud development platform that it had investigated unidentified activity and that information may have been exposed, including the SSH key Brev set up. Tom's Hardware says users reported unauthorized activity between Oct. 4 and Oct. 20. It quotes Nvidia saying the company experienced a security incident that may have affected the security of the customer's data, and that the SSH key has been rotated and the instances updated with the replacement key. Tom's Hardware says Nvidia did not explain how the attackers got in, or whether customer data or workloads were accessed.",
+      "id": "kev-four-2026-11-09",
+      "subsection": "kev",
+      "date": "2026-11-09",
+      "dateLabel": "Nov 9",
+      "headline": "CISA adds GPUStack, FreeSWITCH, OpenSSH, and IBM Aspera bugs to KEV, due Nov. 12",
+      "summary": "CISA said Nov. 9 it added four vulnerabilities to the Known Exploited Vulnerabilities catalog: CVE-2026-102895 in GPUStack, CVE-2026-116779 in SignalWire FreeSWITCH, CVE-2026-123158 in OpenSSH, and CVE-2026-123218 in IBM Aspera Faspex. The catalog sets a due date of Nov. 12 for each, requires forensic triage, and lists ransomware use as unknown. It says the GPUStack bug could allow unauthenticated administrative access, the FreeSWITCH bug could allow code injection, the OpenSSH bug on Linux could allow authentication bypass, and the Aspera Faspex bug could let an authenticated user bypass authorization and escalate privileges. CISA said this type of vulnerability is a frequent attack vector and poses significant risk to the federal enterprise.",
       "sources": [
         {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/cyber-security/nvidia-brev-security-breach-may-have-exposed-ssh-keys-used-to-access-customer-vms-investigation-finds-unauthorized-activity-spanning-16-days-but-no-evidence-of-misuse"
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
         }
       ]
     },
@@ -113,28 +117,6 @@
         {
           "name": "CISA KEV catalog",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
-        }
-      ]
-    },
-    {
-      "id": "ivanti-connect-kev-2026-10-30",
-      "subsection": "kev",
-      "date": "2026-11-02",
-      "dateLabel": "Oct 30–Nov 2",
-      "headline": "CISA adds two Ivanti Connect Secure bugs, one due Nov. 2 and one due Nov. 13",
-      "summary": "CISA said Oct. 30 it added CVE-2026-111357 and CVE-2026-118527, both in Ivanti Connect Secure, to the Known Exploited Vulnerabilities catalog. The catalog sets a due date of Nov. 2 for CVE-2026-111357, requires forensic triage, and says a local authenticated attacker could escalate privileges. It sets a due date of Nov. 13 for CVE-2026-118527, does not require forensic triage, and says a remote authenticated attacker can upload files to a known location. SecurityWeek reported Nov. 2 that Ivanti rates the bugs 8.8 and 4.3, that fixes are in Connect Secure 25.1.1.3 and 22.8R2.6, and that Ivanti said the latest release addresses the vulnerabilities that were chained and exploited in the wild with CVE-2026-104935.",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog"
-        },
-        {
-          "name": "CISA KEV catalog",
-          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/"
         }
       ]
     },

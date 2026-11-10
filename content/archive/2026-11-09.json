@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-09",
+  "title": "November 9, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "ARMY",
+      "dateLabel": "Nov 6",
+      "headline": "Federal News Network: fresh protests hit the Army's $50 billion MAPS vehicle",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/contracting/2026/11/armys-maps-contract-hit-with-new-obstacles/"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 6",
+      "headline": "Viasat wins up to $450 million for a Golden Dome data-network operations center",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/dod-taps-viasat-to-field-operations-center-for-golden-dome-satellite-data-relay-network/"
+        },
+        {
+          "name": "DefenseScoop",
+          "url": "https://defensescoop.com/2026/11/06/pentagon-mission-operations-center-space-data-network/"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Nov 6",
+      "headline": "OpenAI gives Hacktron broader Daybreak Red access to test its own systems",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/partnering-with-hacktron/"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Nov 6",
+      "headline": "CISA adds a SonicWall SSL VPN bug to the KEV catalog, due Nov. 20",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
+    {
+      "label": "PARTNERS",
+      "dateLabel": "Nov 8",
+      "headline": "Nvidia's board opens a review after Huang's letter about an alleged spy",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-ceo-jensen-huang-admits-to-having-an-affair-with-suspected-chinese-spy-jensen-apologizes-in-letter-to-staff-company-board-forms-independent-committee-to-investigate"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidias-jensen-huang-officially-called-to-congress-due-to-reports-of-a-chinese-spy-plot-officials-mention-growing-concerns-over-national-security"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Nov 6–8",
+      "headline": "Dutch police arrested protesters at a Microsoft data-center site",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/hundreds-arrested-after-microsoft-data-center-protest-turns-violent-stop-dirty-data-centers-coalition-demands-halt-to-ai-data-center-expansion-dutch-police-seize-break-in-tools-suspected-stolen-items-from-construction-site"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe"
+        }
+      ]
+    }
+  ]
+}

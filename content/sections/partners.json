@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-09",
-  "covers": "Nov 2–9, 2026",
-  "readFirst": "Covers Nov. 2–9. New: Tom's Hardware reported Nov. 8 that Nvidia's board opened an independent review after Jensen Huang's letter about an affair with a woman who is allegedly a Chinese spy, and reported Nov. 7 that three House chairs asked him for a closed-door meeting. No Red Hat, IBM, Cisco, Dell, HPE, NetApp, Microsoft, Palo Alto, AWS, or Google Cloud newsroom item dated Nov. 6–9 was opened. No new Army or Department of War enterprise agreement was found. F5 and VMware were quiet; Intel's Nov. 3 process-kit note remains. The Amsterdam protest at a Microsoft data-center site is on the data-center page. Weekly cleanup removed the Cisco Model Foundry note, the RTX Spark laptop note, the Palo Alto PHP and Brotli advisories, the VMware ESX KEV item, and the AWS ML-KEM note.",
+  "compiled": "2026-11-10",
+  "covers": "Nov 3–10, 2026",
+  "readFirst": "Covers Nov. 3–10. New: Red Hat said Nov. 9 that OpenShift 5 is generally available, including post-quantum cryptography for control-plane communications, and OpenAI said the same day that ChatGPT Enterprise can be bought through AWS Marketplace. Rosen Law Firm said it filed a securities class action over Nvidia and Jensen Huang. No new Army or Department of War enterprise agreement was found. No Cisco, Dell, HPE, NetApp, Microsoft, Palo Alto, or Google Cloud newsroom item dated Nov. 9–10 was opened. F5 and VMware were quiet; Intel's Nov. 3 process-kit note remains. The Nov. 2 Cortex Cloud release aged out.",
   "subsections": [
     {
       "id": "cisco",
@@ -99,20 +99,6 @@
       ]
     },
     {
-      "id": "cortex-cloud-2026-11-02",
-      "subsection": "paloalto",
-      "date": "2026-11-02",
-      "dateLabel": "Nov 2",
-      "headline": "Palo Alto releases Cortex Cloud 2.3 with a cloud sensor and coding-agent integrations",
-      "summary": "Palo Alto Networks said Nov. 2 that Cortex Cloud 2.3 adds Security Initiatives for tracking remediation goals, Cortex Cloud SaaS Security for 100 SaaS applications, and a Cortex Cloud Sensor for Linux cloud workloads and Kubernetes that it says uses up to 75 percent fewer resources. Palo Alto said the release connects security context and code scanning to AI coding agents through an MCP server, with native integrations for Claude Code and Cursor. It also said Unit 42 research showed an AI-assisted attack could reach data exfiltration in 25 minutes in a simulated scenario. The post says the release adds a supply-chain dashboard and artifact attestation, plus visibility for AI agents on AWS Bedrock AgentCore, Amazon SageMaker, and Google Cloud's Gemini Enterprise Agent Platform.",
-      "sources": [
-        {
-          "name": "Palo Alto Networks",
-          "url": "https://www.paloaltonetworks.com/blog/cloud-security/cortex-cloud-2-3-advancing-autonomous-cloud-defense/"
-        }
-      ]
-    },
-    {
       "id": "dell-onefs-2026-11-03",
       "subsection": "dell",
       "date": "2026-11-03",
@@ -123,6 +109,24 @@
         {
           "name": "Dell",
           "url": "https://www.dell.com/en-us/blog/how-powerscale-onefs-9-16-scales-ai-cloud-infrastructure/"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-rosen-2026-11-10",
+      "subsection": "nvidia",
+      "date": "2026-11-10",
+      "dateLabel": "Nov 9–10",
+      "headline": "Rosen Law Firm says it filed a securities class action over Huang and Megaspeed",
+      "summary": "GlobeNewswire carried a Nov. 9 Rosen Law Firm release saying the firm filed a securities class action for purchasers of Nvidia securities from Oct. 9, 2025, through Nov. 8, 2026, and that a lead-plaintiff motion is due Jan. 8, 2027. The release says the complaint alleges Jensen Huang had an affair with a suspected Chinese spy who has a role at Megaspeed, which the suit says is suspected of helping China evade export controls, and that Nvidia's statements about its relationship with Megaspeed were materially false. It says the suit claims those facts raised national-security concerns and a risk to the company's reputation, and that investors suffered damages when the details entered the market. Tom's Hardware reported Nov. 10 that Rosen's filing was the first class action in the matter.",
+      "sources": [
+        {
+          "name": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/11/10/3399129/0/en/rosen-the-first-filing-firm-encourages-nvidia-corporation-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-first-filed-by-the-firm-nvda.html"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/law-firm-files-class-action-lawsuit-against-nvidia-after-ceo-jensen-huang-confirms-affair-with-alleged-chinese-spy-more-to-come-as-multiple-other-law-firms-investigate-securities-fraud-following-stock-drop"
         }
       ]
     },
@@ -141,6 +145,34 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidias-jensen-huang-officially-called-to-congress-due-to-reports-of-a-chinese-spy-plot-officials-mention-growing-concerns-over-national-security"
+        }
+      ]
+    },
+    {
+      "id": "openshift-5-2026-11-09",
+      "subsection": "other",
+      "date": "2026-11-09",
+      "dateLabel": "Nov 9",
+      "headline": "Red Hat makes OpenShift 5 generally available, with post-quantum control-plane cryptography",
+      "summary": "Red Hat said Nov. 9 at KubeCon in Salt Lake City that Red Hat OpenShift 5 is generally available to customers with existing subscriptions, as an in-place update from OpenShift 4. Red Hat said the release runs AI workloads, virtual machines, and containers side by side, and that OpenShift Lightspeed moves from a conversational assistant to an agent that can troubleshoot and assess update risk. Red Hat said the release adds Model Context Protocol server support and post-quantum cryptography for control-plane communications, plus hardened multi-tenancy for sovereign and disconnected deployments. Chief product officer Ashesh Badani said the release includes a five-year predictable lifecycle.",
+      "sources": [
+        {
+          "name": "Red Hat",
+          "url": "https://www.redhat.com/en/about/press-releases/red-hat-openshift-5-transforms-hybrid-cloud-operations-real-time-intelligence-and-zero-trust-security"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-aws-2026-11-09",
+      "subsection": "aws",
+      "date": "2026-11-09",
+      "dateLabel": "Nov 9",
+      "headline": "OpenAI lists ChatGPT Enterprise in AWS Marketplace against existing AWS commitments",
+      "summary": "OpenAI said Nov. 9 that ChatGPT Enterprise is available through AWS Marketplace, so organizations can buy and manage it through an existing AWS purchasing and billing relationship and apply eligible spend toward AWS commitments. OpenAI said AWS customers get the same models, features, and functionality available directly from OpenAI, including ChatGPT, ChatGPT Work, Codex, and dots, with new features released at the same time. OpenAI said the listing complements OpenAI models in Amazon Bedrock, and that eligible customers can also access ChatGPT for Healthcare and ChatGPT for Financial Services through the marketplace. Chris Grusz, OpenAI's managing director for cloud partnerships, said joint customers can bring ChatGPT to their teams through AWS.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/"
         }
       ]
     }

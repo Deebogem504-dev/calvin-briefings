@@ -3,50 +3,50 @@
     {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Nov 6",
-      "headline": "Federal News Network: fresh protests hit the Army's $50 billion MAPS vehicle",
-      "item": "maps-protests-2026-11-06",
-      "href": "army.html#contracts"
+      "dateLabel": "Nov 9",
+      "headline": "Launched effects are fielded to 11 of 12 Army divisions",
+      "item": "launched-effects-2026-11-09",
+      "href": "army.html#modernization"
     },
     {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Nov 6",
-      "headline": "Viasat wins up to $450 million for a Golden Dome data-network operations center",
-      "item": "viasat-moc-2026-11-06",
-      "href": "dow.html#goldendome"
+      "dateLabel": "Nov 9",
+      "headline": "Hegseth orders military colleges to grade warfighting, not seminars",
+      "item": "pme-overhaul-2026-11-09",
+      "href": "dow.html#secwar"
     },
     {
       "section": "ai",
       "label": "AI",
-      "dateLabel": "Nov 6",
-      "headline": "OpenAI gives Hacktron broader Daybreak Red access to test its own systems",
-      "item": "hacktron-daybreak-2026-11-06",
-      "href": "ai.html#defense-ai"
+      "dateLabel": "Nov 9",
+      "headline": "Anthropic releases Claude Fable 5.2 and restricted Mythos 5.2",
+      "item": "claude-fable-2026-11-09",
+      "href": "ai.html#anthropic"
     },
     {
       "section": "cyber",
       "label": "CYBER",
-      "dateLabel": "Nov 6",
-      "headline": "CISA adds a SonicWall SSL VPN bug to the KEV catalog, due Nov. 20",
-      "item": "sonicwall-kev-2026-11-06",
+      "dateLabel": "Nov 9",
+      "headline": "CISA adds four exploited bugs, including OpenSSH, due Nov. 12",
+      "item": "kev-four-2026-11-09",
       "href": "cyber.html#kev"
     },
     {
       "section": "partners",
       "label": "PARTNERS",
-      "dateLabel": "Nov 8",
-      "headline": "Nvidia's board opens a review after Huang's letter about an alleged spy",
-      "item": "nvidia-board-review-2026-11-08",
-      "href": "partners.html#nvidia"
+      "dateLabel": "Nov 9",
+      "headline": "Red Hat makes OpenShift 5 generally available, with post-quantum controls",
+      "item": "openshift-5-2026-11-09",
+      "href": "partners.html#other"
     },
     {
       "section": "datacenter",
       "label": "DC/NET",
-      "dateLabel": "Nov 6–8",
-      "headline": "Dutch police arrested protesters at a Microsoft data-center site",
-      "item": "amsterdam-datacenter-protest-2026-11-08",
-      "href": "datacenter.html#capacity"
+      "dateLabel": "Nov 9",
+      "headline": "Anthropic takes over $3.4 billion in gas-generator orders",
+      "item": "anthropic-generators-2026-11-09",
+      "href": "datacenter.html#power"
     }
   ]
 }

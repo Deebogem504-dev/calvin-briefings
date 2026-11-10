@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Federal Budget & NDAA Weekly Tracker",
   "description": "Fiscal 2027 appropriations, the continuing resolution, NDAA status, reconciliation funds and Golden Dome money.",
-  "compiled": "2026-11-09",
-  "covers": "Nov 2–9, 2026",
-  "readFirst": "Covers Nov. 2–9. No appropriations vote, continuing-resolution extension, or new Iran-war cost figure dated Nov. 6–9 was found. The Nov. 5 Breaking Defense note on the lame-duck clock remains. The Viasat Space Data Network award is on the Department of War page; it is not a new appropriation. Weekly cleanup removed the Oct. 27 Roll Call NDAA note, the Oct. 28 CSIS funding note, and the Oct. 28 Iran-war cost estimate. The reconciliation subsection is empty.",
+  "compiled": "2026-11-10",
+  "covers": "Nov 3–10, 2026",
+  "readFirst": "Covers Nov. 3–10. New: Ars Technica reported Nov. 9 that Golden Dome's roughly $24 billion fiscal 2026 reconciliation tranche was a one-time allocation, and that the current continuing resolution does not carry it. No appropriations vote or continuing-resolution extension dated Nov. 9–10 was found. The Nov. 5 Breaking Defense lame-duck note remains.",
   "subsections": [
     {
       "id": "approps",
@@ -63,6 +63,20 @@
         {
           "name": "Federal News Network",
           "url": "https://federalnewsnetwork.com/congress/2026/11/the-terms-that-govern-how-companies-bring-innovation-to-government-could-be-changing/"
+        }
+      ]
+    },
+    {
+      "id": "golden-dome-funding-2026-11-09",
+      "subsection": "reconciliation",
+      "date": "2026-11-09",
+      "dateLabel": "Nov 9",
+      "headline": "Ars Technica: Golden Dome's $24 billion reconciliation tranche is not in the continuing resolution",
+      "summary": "Ars Technica reported Nov. 9 that Golden Dome's first funding tranche, about $24 billion, was a one-time fiscal 2026 allocation passed through reconciliation, and that the fiscal year ended Oct. 1. Ars said the program's funding dried up last month because the government is operating under a continuing resolution that extends last year's regular military budget and does not include that reconciliation infusion. Ars said the preliminary House and Senate fiscal 2027 bills, if passed as written, would provide only a fraction of the more than $17 billion the administration requested for Golden Dome in this cycle. Ars also said seven House members of the Golden Dome Caucus lost or did not run, including co-chair Rep. Jeff Crank and Rep. Scott DesJarlais, chair of the House subcommittee overseeing Golden Dome, and that Rep. John Garamendi has a path to chair the Strategic Forces subcommittee in January.",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/11/new-democratic-congress-will-likely-strip-the-gilding-from-trumps-golden-dome/"
         }
       ]
     }

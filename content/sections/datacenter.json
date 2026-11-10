@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-09",
-  "covers": "Nov 2–9, 2026",
-  "readFirst": "Covers Nov. 2–9. New: Tom's Hardware reported that protesters entered a Microsoft data-center construction site in Amsterdam on Nov. 6 and that police arrested 150 to 200 people there on Nov. 8. No separate networking-fabric announcement dated Nov. 6–9 was found. Dell's OneFS 9.16 note remains on the partners page. The networking subsection is empty. Weekly cleanup removed the Meta Spectrum-X note, the PsiQuantum switch, the Altman-Samsung meeting, the Intel Fab 28 note, the Oracle Vera Rubin note, the local Vera benchmark, and the Fujifilm tape note.",
+  "compiled": "2026-11-10",
+  "covers": "Nov 3–10, 2026",
+  "readFirst": "Covers Nov. 3–10. New: Tom's Hardware reported Nov. 9, citing Reuters, that Anthropic agreed to spend $3.4 billion taking over OnePWR's Caterpillar generator orders, which Tom's Hardware said covers 1.7 gigawatts. No separate networking-fabric announcement dated Nov. 9–10 was found. Dell's OneFS 9.16 note remains on the partners page. The networking subsection is empty. The Nov. 2 OpenAI Grid Protectors note aged out.",
   "subsections": [
     {
       "id": "networking",
@@ -75,6 +75,20 @@
       ]
     },
     {
+      "id": "anthropic-generators-2026-11-09",
+      "subsection": "power",
+      "date": "2026-11-09",
+      "dateLabel": "Nov 9",
+      "headline": "Tom's Hardware: Anthropic takes over $3.4 billion in Caterpillar generator orders",
+      "summary": "Tom's Hardware reported Nov. 9, citing Reuters, that Anthropic agreed to spend $3.4 billion securing 1.7 gigawatts of gas-fired generators for its AI data centers by taking over equipment orders that Texas supplier OnePWR Solutions had placed with Caterpillar. Tom's Hardware said the agreement was reached in late September, includes engineering and construction to install the equipment, and that Anthropic is not buying OnePWR. It said the orders were placed about two years ago and needed more financing, and that average U.S. delivery times for large gas turbines and generators have reached six years. Tom's Hardware said taking over the existing orders lets Anthropic avoid waiting for a new slot in Caterpillar's schedule.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/anthropic-skips-six-year-waitlist-with-massive-usd3-4-billion-gas-turbine-generator-deal-firm-takes-over-onepwrs-orders-secures-1-7gw-of-capacity-to-power-ai-data-centers"
+        }
+      ]
+    },
+    {
       "id": "vera-agents-2026-11-05",
       "subsection": "power",
       "date": "2026-11-05",
@@ -99,20 +113,6 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-xai-installs-eight-converted-jet-engines-to-power-mississippi-data-center-permits-allow-25-percent-higher-limit-for-pollutants-concerns-raised-over-carbon-monoxide"
-        }
-      ]
-    },
-    {
-      "id": "grid-protectors-2026-11-02",
-      "subsection": "power",
-      "date": "2026-11-02",
-      "dateLabel": "Nov 2",
-      "headline": "OpenAI's Grid Protectors plan includes up to 1,000 megawatts of flexible demand in Georgia",
-      "summary": "OpenAI said Nov. 2 it is launching the Grid Protectors Program so future compute campuses can reduce electricity demand when the grid is under strain, with the amount, speed, and duration set in agreements with utilities. OpenAI said its planned Effingham County, Georgia, campus will pay the full infrastructure and electric-service costs required to serve the project, and that its agreement with Georgia Power includes up to 1,000 megawatts of flexible demand response, which OpenAI said equals the average demand of roughly 700,000 households. OpenAI said Georgia Power projects about $950 million in annual customer savings beginning in 2029 from its portfolio of large-load agreements and expected growth, including Project Camellia, and estimates at least $15 a month for a typical residential customer using 1,000 kilowatt-hours. OpenAI said the campus is still in development and is intended as a pilot for the program.",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/grid-protectors-program"
         }
       ]
     }

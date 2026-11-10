@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-09",
-  "covers": "Nov 2–9, 2026",
-  "readFirst": "Covers Nov. 2–9. New: Federal News Network reported Nov. 6 that AHS Business Services and Mindboard filed fresh protests against the reopened $50 billion MAPS solicitation, and that a third firm is challenging CMMC terms. No Army.mil article dated Nov. 6–9 was opened. EIN Presswire carried DVIDS reprints on a NETCOM Innovation Day, a Fort Carson visit by the installations assistant secretary, and an Armaments Center Hopper award; the original DVIDS pages were not opened, so those items were not added. No new NETCOM release and no new Army enterprise agreement were found. Brig. Gen. Sutten is still scheduled to assume command of CECOM at Aberdeen on Nov. 16. Weekly cleanup removed the Oct. 26 wide-area-network replacement and the Project Griffin pilot.",
+  "compiled": "2026-11-10",
+  "covers": "Nov 3–10, 2026",
+  "readFirst": "Covers Nov. 3–10. New: Breaking Defense reported Nov. 9 that launched effects are fielded to 11 of 12 headquarters divisions and every multi-domain task force, with Griffon supplying most of the systems, and that the last division is due next month. No Army.mil article dated Nov. 9–10 was opened. Federal News Network had no new Army article dated Nov. 9–10 that was opened. EIN Presswire carried DVIDS reprints on a Picatinny explosive-ordnance visit and a 25th Infantry Division air assault; those original DVIDS pages were not opened, so they were not added. No new NETCOM release and no new Army enterprise agreement were found. The Nov. 2 CECOM year-in-review, the DiBaX 5G note, and the Pegasystems IDIQ aged out of the seven-day window. Brig. Gen. Sutten is still scheduled to assume command of CECOM at Aberdeen on Nov. 16.",
   "subsections": [
     {
       "id": "leadership",
@@ -47,6 +47,20 @@
       ]
     },
     {
+      "id": "launched-effects-2026-11-09",
+      "subsection": "modernization",
+      "date": "2026-11-09",
+      "dateLabel": "Nov 9",
+      "headline": "Breaking Defense: launched effects are with 11 of 12 divisions, mostly from Griffon",
+      "summary": "Breaking Defense reported Nov. 9 that the Army has fielded launched effects to 11 of its 12 headquarters divisions and to each multi-domain task force. Lt. Col. Hunter Gray, product manager for launched effects, told reporters Thursday that the fielding follows Defense Secretary Pete Hegseth's 2025 Drone Dominance memo, which directed those systems to every headquarters division and multi-domain task force by the end of 2026, and that the 12th division is due to start receiving them next month. Gray said Griffon Aerospace can provide hundreds of systems a month and that the majority of what has been delivered is long-range capability from Griffon, including its Outlaw drone. He said payloads include intelligence, surveillance and reconnaissance, electronic warfare, and kinetic effects, and he did not disclose which divisions have the systems.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/army-fields-launched-effects-to-11-of-12-divisions-with-griffon-aerospace-delivering-the-majority/"
+        }
+      ]
+    },
+    {
       "id": "pm-atsr-2026-11-04",
       "subsection": "modernization",
       "date": "2026-11-04",
@@ -75,20 +89,6 @@
       ]
     },
     {
-      "id": "cecom-year-2026-11-02",
-      "subsection": "modernization",
-      "date": "2026-11-02",
-      "dateLabel": "Nov 2",
-      "headline": "CECOM's Aberdeen year-in-review cites AI-assisted maintenance and installation IT/OT monitoring",
-      "summary": "DVIDS posted a Nov. 2 story by Ann Gonzalez, datelined Aberdeen Proving Ground, saying the U.S. Army Communications-Electronics Command spent the past year synchronizing lifecycle support, modernization, and point-of-need maintenance. The article says the Integrated Logistics Support Center's AI-Assisted Maintenance effort gives Soldiers information support for equipment from tactical radios to tanks, and that Super Intelligence and telemaintenance let Soldiers troubleshoot without relying only on technical manuals or on-site experts. It says USAISEC's Project IRMA aims to put installation information-technology and operational-technology data, including power and cooling, into a common operating picture. It also says Tobyhanna Army Depot started a brushless-motor line in summer 2026, and that two of those motors powered a small uncrewed aircraft for eight hours, 41 minutes, and 43 seconds in a July demonstration.",
-      "sources": [
-        {
-          "name": "DVIDS",
-          "url": "https://www.dvidshub.net/news/578453/cecom-2026-delivering-modernized-support-soldiers-need-most"
-        }
-      ]
-    },
-    {
       "id": "l3harris-hawkeye-2026-11-03",
       "subsection": "network",
       "date": "2026-11-03",
@@ -99,20 +99,6 @@
         {
           "name": "L3Harris",
           "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-receives-satcom-order-us-army-support-key-command-and"
-        }
-      ]
-    },
-    {
-      "id": "dibax-5g-2026-11-02",
-      "subsection": "network",
-      "date": "2026-11-02",
-      "dateLabel": "Nov 2",
-      "headline": "Tom's Hardware: NATO tested commercial 5G towers as passive drone sensors in Latvia",
-      "summary": "Tom's Hardware reported Nov. 2 that NATO's Digital Backbone Experimentation exercise, DiBaX 2026, ran in Latvia from Oct. 19 to Oct. 30 and investigated whether commercial 5G towers could passively detect and track drones. Admiral Pierre Vandier, NATO's Supreme Allied Commander Transformation, said the exercise connected systems that were never designed to communicate, including a Maven system speaking to a national system, and that agentic AI fixed that link in hours. Tom's Hardware says the United States was among the allies in the exercise, and that some of the Latvia tests failed. It also says AT&T and Ericsson separately demonstrated 5G drone detection near AT&T Stadium in Arlington, Texas, with drones flying between 300 and 400 feet.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/networking/military-explores-commercial-5g-networks-for-enemy-drone-defense-ai-agents-developed-the-system-recently-used-in-battlefield-trials-in-latvia"
         }
       ]
     },
@@ -155,24 +141,6 @@
         {
           "name": "Serco",
           "url": "https://www.serco.com/na/media-and-news/2026/us-army-selects-serco-command-post-modernization"
-        }
-      ]
-    },
-    {
-      "id": "pega-idiq-2026-11-02",
-      "subsection": "contracts",
-      "date": "2026-11-02",
-      "dateLabel": "Oct 30–Nov 2",
-      "headline": "Army Contracting Command-Rock Island awards Pegasystems a $419 million enterprise software IDIQ",
-      "summary": "ClearanceJobs on Oct. 30 printed an Army contract entry: Pegasystems Inc. of Waltham, Massachusetts, was awarded a $419,008,836 firm-fixed-price, indefinite-delivery/indefinite-quantity enterprise contract for commercial software subscriptions, technical support, and outcome-based professional services. The entry says one bid was solicited and one was received, that work locations and funding will be set with each order, that the estimated completion date is Oct. 28, 2036, and that Army Contracting Command, Rock Island, Illinois, is the contracting activity on W519TC-27-D-A019. GovConWire reported Nov. 2 that the Department of War announced the award Thursday, and that orders can cover the Pega Government Platform, direct Tier-3 support, and professional services for Capability Program Executive Enterprise Software and Services at Fort Belvoir, including case management, low-code application building, and acquisition modernization.",
-      "sources": [
-        {
-          "name": "ClearanceJobs",
-          "url": "https://news.clearancejobs.com/2026/10/30/army-awards-pegasystems-419-million-contract-for-software-subscriptions-and-services/"
-        },
-        {
-          "name": "GovConWire",
-          "url": "https://www.govconwire.com/articles/pegasystems-419m-army-enterprise-software-contract"
         }
       ]
     }

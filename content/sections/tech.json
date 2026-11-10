@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-09",
-  "covers": "Nov 2–9, 2026",
-  "readFirst": "Covers Nov. 2–9. New: Breaking Defense reported Nov. 6 that SpaceX optical terminals on the Space Data Network Backbone cannot talk to Space Development Agency and Space Systems Command missile-warning terminals, and that sources put a translator-satellite fix as high as $1 billion. No new post-quantum standard or Army quantum award dated Nov. 6–9 was found. CISA's Nov. 5 vendor questions remain on the cyber page. The compute and quantum subsections are empty. Weekly cleanup removed the Starfall cargo recovery, the AWS ML-KEM note, and Gemini Robotics Embodied Reasoning 2.",
+  "compiled": "2026-11-10",
+  "covers": "Nov 3–10, 2026",
+  "readFirst": "Covers Nov. 3–10. New: the Office of Strategic Capital said Nov. 9 it signed a $150 million conditional loan commitment with Rocket Lab to raise the flight rate of the Neutron rocket. No new post-quantum standard or Army quantum award dated Nov. 9–10 was found. CISA's Nov. 5 vendor questions remain on the cyber page. The compute and quantum subsections are empty.",
   "subsections": [
     {
       "id": "quantum",
@@ -28,6 +28,20 @@
     }
   ],
   "items": [
+    {
+      "id": "rocket-lab-osc-2026-11-09",
+      "subsection": "space",
+      "date": "2026-11-09",
+      "dateLabel": "Nov 9",
+      "headline": "Office of Strategic Capital commits a $150 million conditional loan to Rocket Lab",
+      "summary": "The Department of War said Nov. 9 that the Office of Strategic Capital signed a $150 million conditional loan commitment with Rocket Lab USA to increase the flight rate of its reusable Neutron rocket after first launch. The release says the loan would support faster vehicle delivery and processing, more maritime vessels and equipment for Neutron recovery and transport, manufacturing upgrades for composite structures and engines, and infrastructure to cut turnaround time. It says Neutron is designed to deliver about 13,000 kilograms to low Earth orbit for constellation deployment and national security payloads. The commitment is not a financial close: Rocket Lab must still meet financial, legal, technical, investment, and due-diligence requirements, and Under Secretary for Research and Engineering Emil Michael endorsed the transaction.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4644766/the-department-of-wars-office-of-strategic-capital-signs-150-million-conditiona/"
+        }
+      ]
+    },
     {
       "id": "sdn-laser-mismatch-2026-11-06",
       "subsection": "space",

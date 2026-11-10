@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-09",
-  "covers": "Nov 2–9, 2026",
-  "readFirst": "Covers Nov. 2–9. New: OpenAI said Nov. 6 it will work with Hacktron on vulnerabilities in its own systems and expand that firm's Daybreak Red access. Tom's Hardware reported Nov. 8, citing The New York Times, that two Chinese firms cleared to buy Nvidia H200 chips had empty offices. Federal News Network's Nov. 6 newscast described a Justice Department Super Intelligence Task Force. Anthropic's newsroom had no product post dated Nov. 6–9. No new Google model post dated Nov. 6–9 was opened. The Open and Local Models subsection is empty. Nvidia's board review is on the partners page. Weekly cleanup removed the robots.txt note, the S-1 compute story, the Model Spec update, and Gemini 4 Carbon.",
+  "compiled": "2026-11-10",
+  "covers": "Nov 3–10, 2026",
+  "readFirst": "Covers Nov. 3–10. New: Anthropic said Nov. 9 that Claude Fable 5.2 and Claude Mythos 5.2 are the same model, with Mythos limited to vetted cybersecurity and life-sciences organizations. WIRED reported Nov. 10 that DeepMind used AlphaProof Code to formally verify parts of the Signal protocol and found no new vulnerabilities in the portions it checked. OpenAI's Nov. 9 AWS Marketplace listing is on the partners page. Tom's Hardware's Nov. 9 report on Anthropic's generator deal is on the data-center page. No other new OpenAI product post dated Nov. 9–10 was opened. The Open and Local Models subsection is empty. Nvidia's class action is on the partners page. The Nov. 2 Dan Driscoll appointment aged out.",
   "subsections": [
     {
       "id": "anthropic",
@@ -69,6 +69,20 @@
       ]
     },
     {
+      "id": "claude-fable-2026-11-09",
+      "subsection": "anthropic",
+      "date": "2026-11-09",
+      "dateLabel": "Nov 9",
+      "headline": "Anthropic releases Claude Fable 5.2 and restricts Mythos 5.2 to vetted cyber and biology work",
+      "summary": "Anthropic said Nov. 9 that Claude Fable 5.2 and Claude Mythos 5.2 are the same underlying model, with improvements in coding, reasoning, and vision. Anthropic said Fable has cybersecurity and biology safeguards so it can be offered to all users, while organizations doing cybersecurity or biomedical research can apply for Mythos through the Life Sciences and Cyber Verification Programs. Anthropic said the models generate output up to 30 percent faster than Fable 5.1 and Mythos 5.1, at $8 per million input tokens and $40 per million output tokens, with an optional fast mode up to 2.5 times quicker at $16 and $80. Anthropic said Fable 5.2 is available on Amazon Web Services, Google Cloud, and Microsoft Azure, and that Claude Enterprise customers can use Claude Security with Mythos 5.2.",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        }
+      ]
+    },
+    {
       "id": "claude-code-games-2026-11-04",
       "subsection": "anthropic",
       "date": "2026-11-04",
@@ -125,6 +139,20 @@
       ]
     },
     {
+      "id": "signal-alphaproof-2026-11-10",
+      "subsection": "google",
+      "date": "2026-11-10",
+      "dateLabel": "Nov 10",
+      "headline": "WIRED: DeepMind's AlphaProof Code formally verified parts of the Signal protocol",
+      "summary": "WIRED reported Nov. 10 that Google DeepMind researchers used a framework called AlphaProof Code to formally verify a number of the Signal protocol's cryptographic guarantees in a four-week proof of concept. WIRED said the analysis did not find new vulnerabilities in the portions it examined, and that on older Signal versions with known, long-fixed flaws the tool identified the bugs and showed those versions could not be formally verified. WIRED said the work did not cover the entire Signal mobile app, and that the researchers are releasing the specification and proof. Signal chief technology officer Ehren Kret said the approach expands on earlier formal verification that covered smaller portions of the code.",
+      "sources": [
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
+        }
+      ]
+    },
+    {
       "id": "gemini-omni-2026-11-05",
       "subsection": "google",
       "date": "2026-11-05",
@@ -163,20 +191,6 @@
         {
           "name": "OpenAI",
           "url": "https://openai.com/index/partnering-with-hacktron/"
-        }
-      ]
-    },
-    {
-      "id": "driscoll-openai-2026-11-02",
-      "subsection": "defense-ai",
-      "date": "2026-11-02",
-      "dateLabel": "Nov 2",
-      "headline": "OpenAI names former Army Secretary Dan Driscoll senior counselor for national security",
-      "summary": "OpenAI said Nov. 2 that Dan Driscoll will join as Senior Counselor for National Security Modernization, a new role advising senior leadership and outside partners on how advanced AI can strengthen national and cyber security, with a focus on working with U.S. allies. OpenAI said he will help internal teams understand the operational needs of national security institutions and will work on practical modernization for what it called democratic AI. OpenAI said Driscoll was the 26th Secretary of the Army and oversaw operations, modernization, and resources for nearly one million Active, Guard, and Reserve Soldiers and more than 265,000 Army Civilians. Driscoll said he is joining to help the United States and its allies put the technology to work, including by cutting through paperwork and getting an answer to the right person faster.",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/dan-driscoll-joins-openai/"
         }
       ]
     },

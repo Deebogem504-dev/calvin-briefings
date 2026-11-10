@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-09",
-  "covers": "Nov 2–9, 2026",
-  "readFirst": "Covers Nov. 2–9. New: Breaking Defense and DefenseScoop reported Nov. 6 that Viasat won a Space Data Network operations-center contract with a $450 million ceiling and a $115 million initial task order, in partnership with the Golden Dome office. Federal News Network's Nov. 6 newscast said DIA is asking industry about a classified SIA 4 vehicle with a ceiling of about $17 billion. No war.gov contracts page for Nov. 5 or Nov. 6 could be opened. No new Secretary remarks from the weekend were opened. Weekly cleanup removed the J5 firing, the household-goods CMMC note, and the AUKUS submarine designation.",
+  "compiled": "2026-11-10",
+  "covers": "Nov 3–10, 2026",
+  "readFirst": "Covers Nov. 3–10. New: the Department of War said Nov. 9 that Secretary Hegseth directed an overhaul of professional military education, including warfighter chairs, end-of-course wargames and exams, and an end to lifetime tenure for newly hired civilian faculty. The Office of Strategic Capital's Rocket Lab loan is on the tech page. No war.gov daily contracts release for Nov. 9 or Nov. 10 could be opened. No new Army or Department of War enterprise software agreement was found. The Nov. 2 DoDEA vacancy note aged out.",
   "subsections": [
     {
       "id": "secwar",
@@ -28,6 +28,20 @@
     }
   ],
   "items": [
+    {
+      "id": "pme-overhaul-2026-11-09",
+      "subsection": "secwar",
+      "date": "2026-11-09",
+      "dateLabel": "Nov 9",
+      "headline": "Hegseth directs senior military colleges to drop tenure and grade warfighting exams",
+      "summary": "The Department of War said Nov. 9 that Secretary Pete Hegseth directed an overhaul of professional military education across senior service colleges and intermediate-level education. The release says the department will judge programs by whether they forge leaders who will win America's wars, and that the plan creates Warfighter Chair positions for O-5 and O-6 commanders fresh from operational deployments. It says subjective seminar grading will be replaced with standardized end-of-course wargames and comprehensive exams, and that newly hired civilian faculty will no longer receive lifetime tenure or emeritus status, moving instead to three-year performance-based contracts. The Under Secretary of War for Personnel and Readiness is directed to track the requirements.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4644710/secretary-of-war-pete-hegseth-orders-sweeping-overhaul-of-military-education-to/"
+        }
+      ]
+    },
     {
       "id": "hegseth-video-2026-11-05",
       "subsection": "secwar",
@@ -53,20 +67,6 @@
         {
           "name": "ABC News",
           "url": "https://abcnews.com/Politics/trump-dismisses-prospect-replacing-hegseth-amid-iran-war/story?id=137852219"
-        }
-      ]
-    },
-    {
-      "id": "dodea-vacancy-2026-11-02",
-      "subsection": "secwar",
-      "date": "2026-11-02",
-      "dateLabel": "Nov 2",
-      "headline": "Federal News Network: DoDEA's director job has been vacant since Oct. 31",
-      "summary": "Federal News Network reported Nov. 2 that the Department of Defense Education Activity's director job became vacant Oct. 31 and that the Pentagon has not named a replacement. The outlet says the department announced Paul Craft's resignation Oct. 15 and that he would leave at the end of the month after less than a year, and that Craft had replaced Beth Schiavino-Narvaez in March. It says the director oversees 161 schools serving more than 66,000 military-connected students, with about 14,000 staff. It also says the department is requesting $5.1 billion for DoDEA in fiscal 2027, including a $1.7 billion increase in mandatory spending.",
-      "sources": [
-        {
-          "name": "Federal News Network",
-          "url": "https://federalnewsnetwork.com/defense-main/2026/11/dodea-loses-second-director-in-a-year-leaving-top-job-vacant/"
         }
       ]
     },
