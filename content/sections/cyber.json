@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-10",
-  "covers": "Nov 3–10, 2026",
-  "readFirst": "Covers Nov. 3–10. New: CISA added four vulnerabilities to the KEV catalog on Nov. 9 — GPUStack, FreeSWITCH, OpenSSH, and IBM Aspera Faspex — each due Nov. 12, and the catalog requires forensic triage. The OpenSSH entry is the Alpine authentication-bypass bug already on this page. SonicWall CVE-2026-19868 remains due Nov. 20. Apple CVE-2024-27834 remains due Nov. 18. The Nov. 2 Ivanti item and the Nvidia Brev note aged out. No CISA KEV alert dated Nov. 10 was found.",
+  "compiled": "2026-11-11",
+  "covers": "Nov 3–11, 2026",
+  "readFirst": "Covers Nov. 3–11. New: CISA added six vulnerabilities to the KEV catalog on Nov. 10, including Cisco BroadWorks, two Barracuda bugs due Nov. 13 that require forensic triage, Openwave, Microsoft Outlook, and Chromium. The Nov. 9 entries, including OpenSSH, remain due Nov. 12 and still require forensic triage. SonicWall CVE-2026-19868 remains due Nov. 20. Apple CVE-2024-27834 remains due Nov. 18. No CISA KEV alert dated Nov. 11 was found.",
   "subsections": [
     {
       "id": "kev",
@@ -63,6 +63,24 @@
         {
           "name": "Cyber Security Agency of Singapore",
           "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-157/"
+        }
+      ]
+    },
+    {
+      "id": "kev-six-2026-11-10",
+      "subsection": "kev",
+      "date": "2026-11-10",
+      "dateLabel": "Nov 10",
+      "headline": "CISA adds Cisco, Barracuda, Openwave, Outlook, and Chromium bugs to KEV",
+      "summary": "CISA said Nov. 10 it added six vulnerabilities to the Known Exploited Vulnerabilities catalog: CVE-2026-20320 in Cisco BroadWorks, CVE-2026-111560 and CVE-2026-116606 in Barracuda Networks products, CVE-2026-111793 in Openwave Messaging Webtop Media Transcoder, CVE-2026-124194 in Microsoft Office Outlook, and CVE-2026-125350 in Google Chromium. The catalog sets a due date of Nov. 13 for both Barracuda entries and requires forensic triage; it says the command-injection bug and the email-gateway authentication bypass can be chained. The other four are due Nov. 24, do not require forensic triage, and list ransomware use as unknown. CISA said the BroadWorks bug could let an unauthenticated remote attacker read configuration information, the Outlook bug could allow spoofing over a network, and the Chromium bug could allow code execution inside the sandbox via a crafted webpage, including in Chrome, Edge, and Opera.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
         }
       ]
     },

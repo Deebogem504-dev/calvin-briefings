@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-10",
-  "covers": "Nov 3–10, 2026",
-  "readFirst": "Covers Nov. 3–10. New: Anthropic said Nov. 9 that Claude Fable 5.2 and Claude Mythos 5.2 are the same model, with Mythos limited to vetted cybersecurity and life-sciences organizations. WIRED reported Nov. 10 that DeepMind used AlphaProof Code to formally verify parts of the Signal protocol and found no new vulnerabilities in the portions it checked. OpenAI's Nov. 9 AWS Marketplace listing is on the partners page. Tom's Hardware's Nov. 9 report on Anthropic's generator deal is on the data-center page. No other new OpenAI product post dated Nov. 9–10 was opened. The Open and Local Models subsection is empty. Nvidia's class action is on the partners page. The Nov. 2 Dan Driscoll appointment aged out.",
+  "compiled": "2026-11-11",
+  "covers": "Nov 3–11, 2026",
+  "readFirst": "Covers Nov. 3–11. New: Google said Nov. 10 that Gemini 4 Carbon is generally available, including a Fairwind cybersecurity track, and OpenAI said the same day that Businesses in ChatGPT is in beta. Tom's Hardware's Nov. 11 fiber story and Nov. 10 optical-transceiver story are on the data-center page. DeepMind's Nov. 10 robotics model is on the tech page. No new Anthropic product post dated Nov. 10–11 was opened; the livestream page for The Briefing did not state that Meetings or Sheets had shipped. The Open and Local Models subsection is empty. Nvidia's class action remains on the partners page. The Nov. 3 physical-device note and the Nov. 4 Claude Code games note were dropped to stay inside the count.",
   "subsections": [
     {
       "id": "anthropic",
@@ -83,16 +83,16 @@
       ]
     },
     {
-      "id": "claude-code-games-2026-11-04",
-      "subsection": "anthropic",
-      "date": "2026-11-04",
-      "dateLabel": "Nov 4",
-      "headline": "The Verge: Claude Code 2.1.317 can use a named game as a genre reference",
-      "summary": "The Verge reported Nov. 4 that Anthropic updated Claude Code, version 2.1.317, after a short rule in the Opus 5.5 prompt steered the model away from recreating specific existing games and also fired when a user named a game only to describe mechanics. The Verge quoted Anthropic saying a user can now name a game to describe what they want and Claude should build an original game in that genre. If the user asks for a copy of the original, Anthropic said Claude will offer to build something similar instead.",
+      "id": "openai-businesses-2026-11-10",
+      "subsection": "openai",
+      "date": "2026-11-10",
+      "dateLabel": "Nov 10",
+      "headline": "OpenAI opens Businesses in ChatGPT, with U.S. agents for eligible sellers",
+      "summary": "OpenAI said Nov. 10 that Businesses in ChatGPT is in beta, so a business can claim a profile in Business Hub, update details, add product feeds with pricing and availability, and see aggregated mentions and website clicks. OpenAI said it does not share users' conversations or Business Agent chats with businesses. OpenAI said eligible ecommerce and online service businesses in the United States can launch a Business Agent that customers start from the business profile, in a conversation labeled as separate from their ChatGPT chat. OpenAI said businesses can sponsor that agent as a destination for ChatGPT ads, and that ChatGPT has 1.2 billion weekly users.",
       "sources": [
         {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1026672/anthropic-tweaks-how-claude-code-handles-requests-about-making-games"
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt"
         }
       ]
     },
@@ -125,16 +125,16 @@
       ]
     },
     {
-      "id": "openai-physical-2026-11-03",
-      "subsection": "openai",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "OpenAI says GPT-6 Astra designed a Codex device, then missed manufacturing limits",
-      "summary": "OpenAI said Nov. 3 that two team members used GPT-6 Astra to design a device for talking to Codex in under a week, with no direct human edits to the design, covering the enclosure, the printed circuit board, and the firmware. OpenAI said a contract manufacturer built a small batch of prototypes in under a month. It said getting the device ready for manufacturing still required several rounds of review because Astra did not consistently account for production limits, tolerances, or assembly details. OpenAI also said it is expanding work with Chip Ganassi Racing on turning 3D scans into CAD models, and starting a research collaboration with Mazda on aerodynamics and crash-safety simulations.",
+      "id": "gemini-carbon-2026-11-10",
+      "subsection": "google",
+      "date": "2026-11-10",
+      "dateLabel": "Nov 10",
+      "headline": "Google makes Gemini 4 Carbon generally available and opens a cybersecurity track",
+      "summary": "Google said Nov. 10 that Gemini 4 Carbon is available to developers, enterprises, scientists, and consumers, and that it is the company's strongest model for cybersecurity and long-horizon agentic work. Google said Carbon is priced the same as Gemini 4 Argon during an introductory period, at $2 per million input tokens and $10 per million output tokens, and that the price becomes $4 and $20 after Nov. 30, 2026. Google said Carbon for cyber, available through the Fairwind Program, leads its benchmarks for finding, exploiting, and patching vulnerabilities, and that Google's Cloud Vulnerability Research team used it to show two bugs in a popular open-source project were exploitable at a severity Google compared to PHP2Shell. Google said Wiz, in its Scan for Good program, used Carbon to find zero-days at two major SaaS providers in under two hours.",
       "sources": [
         {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
         }
       ]
     },

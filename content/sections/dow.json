@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-10",
-  "covers": "Nov 3–10, 2026",
-  "readFirst": "Covers Nov. 3–10. New: the Department of War said Nov. 9 that Secretary Hegseth directed an overhaul of professional military education, including warfighter chairs, end-of-course wargames and exams, and an end to lifetime tenure for newly hired civilian faculty. The Office of Strategic Capital's Rocket Lab loan is on the tech page. No war.gov daily contracts release for Nov. 9 or Nov. 10 could be opened. No new Army or Department of War enterprise software agreement was found. The Nov. 2 DoDEA vacancy note aged out.",
+  "compiled": "2026-11-11",
+  "covers": "Nov 3–11, 2026",
+  "readFirst": "Covers Nov. 3–11. New: the Department of War reported Nov. 10 that Secretary Hegseth, at a Pentagon press briefing, called an impeachment resolution a policy disagreement, and that he and Poland's defense minister signed a statement of intent on defense-industry cooperation. The Nov. 5 video item was removed because the briefing is his current public statement. No war.gov daily contracts release for Nov. 10 or Nov. 11 could be opened. No new Army or Department of War enterprise software agreement was found. The Office of Strategic Capital's Rocket Lab loan remains on the tech page.",
   "subsections": [
     {
       "id": "secwar",
@@ -29,6 +29,20 @@
   ],
   "items": [
     {
+      "id": "hegseth-briefing-2026-11-10",
+      "subsection": "secwar",
+      "date": "2026-11-10",
+      "dateLabel": "Nov 10",
+      "headline": "Hegseth tells a Pentagon briefing that impeachment over operations is not a high crime",
+      "summary": "The Department of War reported Nov. 10 that Secretary Pete Hegseth, at a Pentagon press briefing, said the impeachment resolution presented to the House is over policy disagreements, not the offenses in the impeachment clause, and that the threat sends a troubling signal to adversaries. Hegseth said the department destroyed terror regimes' capabilities, sank boats carrying poison, and put a narco-dictator in handcuffs, and that those are not high crimes. He said no secretary of war or defense has been impeached for carrying out lawful military operations, citing Lebanon, Kosovo, and Iraq and Syria under prior presidents. He also cited two years of recruitment and retention after several years of missing goals, and told troops not to blink and to ignore the noise.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4645996/hegseth-impeachment-over-policy-disagreement-sends-wrong-signal-to-adversaries/"
+        }
+      ]
+    },
+    {
       "id": "pme-overhaul-2026-11-09",
       "subsection": "secwar",
       "date": "2026-11-09",
@@ -39,20 +53,6 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/Releases/Release/Article/4644710/secretary-of-war-pete-hegseth-orders-sweeping-overhaul-of-military-education-to/"
-        }
-      ]
-    },
-    {
-      "id": "hegseth-video-2026-11-05",
-      "subsection": "secwar",
-      "date": "2026-11-05",
-      "dateLabel": "Nov 5",
-      "headline": "Hegseth's post-election video calls for a $1.5 trillion defense budget",
-      "summary": "Federal News Network reported Nov. 5 that Defense Secretary Pete Hegseth posted a video Thursday, filmed on the steps of the Pentagon's ceremonial entrance, defending the Iran war as a courageous and historic effort that will ensure Iran never gets a nuclear weapon. Hegseth called on every patriotic member of Congress to vote for a $1.5 trillion defense budget and said Rep. Thomas Massie's eight articles of impeachment are a sham. Federal News Network said the video is his first public statement on Tuesday's midterm results, that Democrats will retake both chambers, and that Massie plans to refile the articles when lawmakers return next week. It said Trump has publicly defended Hegseth while reportedly mulling whether to oust him, and that Hegseth's name has been floated for the Senate seat Tennessee Governor-elect Marsha Blackburn will vacate in January.",
-      "sources": [
-        {
-          "name": "Federal News Network",
-          "url": "https://federalnewsnetwork.com/defense-main/2026/11/hegseth-vows-to-defend-pentagon-policies-as-democrats-flip-congress/"
         }
       ]
     },
@@ -127,6 +127,24 @@
         {
           "name": "Military.com",
           "url": "https://www.military.com/hegseths-future-of-warfare-panel-is-stacked-with-contractors-who-stand-to-profit-lawsuit-says"
+        }
+      ]
+    },
+    {
+      "id": "poland-soi-2026-11-10",
+      "subsection": "ops",
+      "date": "2026-11-10",
+      "dateLabel": "Nov 10",
+      "headline": "Hegseth and Poland's defense minister sign a statement of intent on defense industry",
+      "summary": "The Department of War reported Nov. 10 that Secretary Pete Hegseth met Poland's deputy prime minister and defense minister, Władysław Kosiniak-Kamysz, at the Pentagon, and that the two signed a statement of intent on strengthening defense-industry cooperation. Hegseth said Poland is committing nearly 5 percent of gross domestic product to defense and is investing in tanks, F-35s, AH-64 Apaches, and Patriot. Kosiniak-Kamysz thanked Hegseth for work on President Trump's declaration to deploy an additional 5,000 soldiers to Poland, and said discussions on a stronger permanent U.S. presence are underway and that details would be announced soon. He also said Poland will host a European Patriot Advanced Capability-3 missile maintenance facility, and the official readout says Hegseth encouraged Poland's continued support of Ukraine.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4646088/hegseth-polish-counterpart-announce-intent-to-boost-military-cooperation/"
+        },
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4646284/readout-of-secretary-of-war-pete-hegseths-meeting-with-polands-deputy-prime-min/"
         }
       ]
     },

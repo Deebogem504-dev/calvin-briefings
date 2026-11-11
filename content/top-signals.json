@@ -3,50 +3,50 @@
     {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Nov 9",
-      "headline": "Launched effects are fielded to 11 of 12 Army divisions",
-      "item": "launched-effects-2026-11-09",
-      "href": "army.html#modernization"
+      "dateLabel": "Nov 11",
+      "headline": "British police arrest a U.S. Army soldier on suspicion of spying for Russia",
+      "item": "soldier-arrest-2026-11-11",
+      "href": "army.html#leadership"
     },
     {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Nov 9",
-      "headline": "Hegseth orders military colleges to grade warfighting, not seminars",
-      "item": "pme-overhaul-2026-11-09",
-      "href": "dow.html#secwar"
+      "dateLabel": "Nov 10",
+      "headline": "Hegseth and Poland sign a defense-industry statement of intent",
+      "item": "poland-soi-2026-11-10",
+      "href": "dow.html#ops"
     },
     {
       "section": "ai",
       "label": "AI",
-      "dateLabel": "Nov 9",
-      "headline": "Anthropic releases Claude Fable 5.2 and restricted Mythos 5.2",
-      "item": "claude-fable-2026-11-09",
-      "href": "ai.html#anthropic"
+      "dateLabel": "Nov 10",
+      "headline": "Google makes Gemini 4 Carbon generally available, with a cyber track",
+      "item": "gemini-carbon-2026-11-10",
+      "href": "ai.html#google"
     },
     {
       "section": "cyber",
       "label": "CYBER",
-      "dateLabel": "Nov 9",
-      "headline": "CISA adds four exploited bugs, including OpenSSH, due Nov. 12",
-      "item": "kev-four-2026-11-09",
+      "dateLabel": "Nov 10",
+      "headline": "CISA adds six exploited bugs; Barracuda pair due Nov. 13",
+      "item": "kev-six-2026-11-10",
       "href": "cyber.html#kev"
     },
     {
-      "section": "partners",
-      "label": "PARTNERS",
-      "dateLabel": "Nov 9",
-      "headline": "Red Hat makes OpenShift 5 generally available, with post-quantum controls",
-      "item": "openshift-5-2026-11-09",
-      "href": "partners.html#other"
+      "section": "tech",
+      "label": "TECH",
+      "dateLabel": "Nov 10",
+      "headline": "Gemini Robotics 2.5 posts a 96 percent kitting rate on a Mercedes line",
+      "item": "gemini-robotics-2026-11-10",
+      "href": "tech.html#autonomy"
     },
     {
       "section": "datacenter",
       "label": "DC/NET",
-      "dateLabel": "Nov 9",
-      "headline": "Anthropic takes over $3.4 billion in gas-generator orders",
-      "item": "anthropic-generators-2026-11-09",
-      "href": "datacenter.html#power"
+      "dateLabel": "Nov 11",
+      "headline": "Data-center fiber demand is squeezing Ukraine's jam-proof drones",
+      "item": "fiber-drones-2026-11-11",
+      "href": "datacenter.html#capacity"
     }
   ]
 }

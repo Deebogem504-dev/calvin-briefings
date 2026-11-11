@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Federal Budget & NDAA Weekly Tracker",
   "description": "Fiscal 2027 appropriations, the continuing resolution, NDAA status, reconciliation funds and Golden Dome money.",
-  "compiled": "2026-11-10",
-  "covers": "Nov 3–10, 2026",
-  "readFirst": "Covers Nov. 3–10. New: Ars Technica reported Nov. 9 that Golden Dome's roughly $24 billion fiscal 2026 reconciliation tranche was a one-time allocation, and that the current continuing resolution does not carry it. No appropriations vote or continuing-resolution extension dated Nov. 9–10 was found. The Nov. 5 Breaking Defense lame-duck note remains.",
+  "compiled": "2026-11-11",
+  "covers": "Nov 3–11, 2026",
+  "readFirst": "Covers Nov. 3–11. New: Bloomberg Government reported Nov. 11 that the Senate Appropriations Committee released a fiscal 2027 military construction and Veterans Affairs bill Tuesday evening, which Bloomberg said would provide $173.2 billion in discretionary funding according to a Republican summary. The committee news page returned a 403, so the figure is cited from Bloomberg. No continuing-resolution extension dated Nov. 10–11 was found. The Nov. 5 Breaking Defense lame-duck note remains.",
   "subsections": [
     {
       "id": "approps",
@@ -24,6 +24,20 @@
     }
   ],
   "items": [
+    {
+      "id": "milcon-va-2026-11-11",
+      "subsection": "approps",
+      "date": "2026-11-11",
+      "dateLabel": "Nov 10–11",
+      "headline": "Bloomberg: Senate appropriators release a $173.2 billion military construction and VA bill",
+      "summary": "Bloomberg Government reported Nov. 11 that the Senate Appropriations Committee released, on Tuesday evening, text of a bill to fund military construction and the Department of Veterans Affairs, ahead of next month's spending deadline. Bloomberg said the bill would provide $173.2 billion in discretionary funding, according to a summary released by the panel's Republicans. Bloomberg said the committee also released the Agriculture, Food and Drug Administration, and related-agencies bill, and that releasing the bills without a formal Senate markup is a move to advance full-year spending bills.",
+      "sources": [
+        {
+          "name": "Bloomberg Government",
+          "url": "https://news.bgov.com/bloomberg-government-news/senate-panel-drops-173-2-billion-military-construction-va-bill"
+        }
+      ]
+    },
     {
       "id": "lame-duck-clock-2026-11-05",
       "subsection": "approps",

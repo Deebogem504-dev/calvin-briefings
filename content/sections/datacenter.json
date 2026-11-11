@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-10",
-  "covers": "Nov 3–10, 2026",
-  "readFirst": "Covers Nov. 3–10. New: Tom's Hardware reported Nov. 9, citing Reuters, that Anthropic agreed to spend $3.4 billion taking over OnePWR's Caterpillar generator orders, which Tom's Hardware said covers 1.7 gigawatts. No separate networking-fabric announcement dated Nov. 9–10 was found. Dell's OneFS 9.16 note remains on the partners page. The networking subsection is empty. The Nov. 2 OpenAI Grid Protectors note aged out.",
+  "compiled": "2026-11-11",
+  "covers": "Nov 3–11, 2026",
+  "readFirst": "Covers Nov. 3–11. New: Tom's Hardware reported Nov. 11, citing an Ars Technica interview with BlueBird Tech, that fiber-optic cable prices have risen about six to 10 times as data-center demand competes with fiber-tethered drones, and reported Nov. 10, citing Reuters, that Microsoft and the Information Technology Industry Council are lobbying against a possible FCC import ban on Chinese optical transceivers. Dell's OneFS 9.16 note remains on the partners page.",
   "subsections": [
     {
       "id": "networking",
@@ -28,6 +28,34 @@
     }
   ],
   "items": [
+    {
+      "id": "optical-ban-2026-11-10",
+      "subsection": "networking",
+      "date": "2026-11-10",
+      "dateLabel": "Nov 10",
+      "headline": "Tom's Hardware: Microsoft lobbies against an FCC ban on Chinese optical transceivers",
+      "summary": "Tom's Hardware reported Nov. 10, citing Reuters, that Microsoft, which Tom's Hardware said is building 35 data centers in the United States and planning 134 more, has met with the White House Office of Science and Technology Policy and the National Security Council as the FCC considers an import ban on Chinese optical transceivers. Tom's Hardware said Microsoft and the Information Technology Industry Council are lobbying against the ban. John Miller, the council's executive vice president of policy and general counsel, said the move threatens to grind the data-center rollout to a halt because AI chips sit unused without transceivers to connect them. Tom's Hardware said Chinese companies supply 66 percent of the global market.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/policy/microsoft-lobbies-against-potential-ban-on-chinese-optical-networking-gear-for-ai-data-centers-as-fcc-mulls-restricting-imports-industry-group-says-move-could-grind-data-center-rollout-to-a-halt"
+        }
+      ]
+    },
+    {
+      "id": "fiber-drones-2026-11-11",
+      "subsection": "capacity",
+      "date": "2026-11-11",
+      "dateLabel": "Nov 11",
+      "headline": "Tom's Hardware: data-center fiber demand is pricing out Ukraine's tethered drones",
+      "summary": "Tom's Hardware reported Nov. 11 that a BlueBird Tech research-and-development representative told Ars Technica that fiber-optic cable prices have risen about six to 10 times in the past couple of years as AI data-center demand takes more of the supply. Tom's Hardware said the interview estimated that Ukraine and Russia produce about 50,000 fiber-optic drones a month, with ranges up to 62 miles. It said Ukraine acquired 72 miles of fiber from Chinese suppliers in August 2025, while Russia imported 328,000 miles that month, and that Russia acquired 37 million miles in all of 2025, over 10 percent of global production. Tom's Hardware said the same account estimated a 111-million-mile global shortfall, and that the BlueBird representative claimed some Chinese companies have refused to sell fiber to Ukraine.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/drones/data-center-demand-for-fiber-optics-squeezes-ukrainian-drone-operations-supply-crunch-has-incurred-6x-10x-cost-increase-for-critical-cabling"
+        }
+      ]
+    },
     {
       "id": "hbm-loophole-2026-11-03",
       "subsection": "storage",

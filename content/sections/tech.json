@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-10",
-  "covers": "Nov 3–10, 2026",
-  "readFirst": "Covers Nov. 3–10. New: the Office of Strategic Capital said Nov. 9 it signed a $150 million conditional loan commitment with Rocket Lab to raise the flight rate of the Neutron rocket. No new post-quantum standard or Army quantum award dated Nov. 9–10 was found. CISA's Nov. 5 vendor questions remain on the cyber page. The compute and quantum subsections are empty.",
+  "compiled": "2026-11-11",
+  "covers": "Nov 3–11, 2026",
+  "readFirst": "Covers Nov. 3–11. New: Google DeepMind said Nov. 10 that Gemini Robotics 2.5 is rolling out to robotics partners, and that an Apptronik Apollo 2 pilot on Mercedes-Benz lines reached a 96 percent success rate on automotive kitting. No new post-quantum standard or Army quantum award dated Nov. 10–11 was found. CISA's Nov. 5 vendor questions remain on the cyber page. The compute and quantum subsections are empty.",
   "subsections": [
     {
       "id": "quantum",
@@ -67,6 +67,20 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/Releases/Release/Article/4641087/department-of-wars-office-of-strategic-capital-signs-150-million-conditional-lo/"
+        }
+      ]
+    },
+    {
+      "id": "gemini-robotics-2026-11-10",
+      "subsection": "autonomy",
+      "date": "2026-11-10",
+      "dateLabel": "Nov 10",
+      "headline": "DeepMind says Gemini Robotics 2.5 kitted parts at 96 percent on a Mercedes line",
+      "summary": "Google DeepMind said Nov. 10 that Gemini Robotics 2.5 is its most capable vision-language-action model and is rolling out to robotics partners. DeepMind said a proof of concept with Apptronik and Mercedes-Benz used Apollo 2 humanoids to pick and pack automotive parts on production lines in Kecskemét, Hungary, and Sindelfingen, Germany, at a 96 percent success rate. DeepMind said the model was evaluated across more than 200 tasks and, compared with previous baselines, raised success rates by 30 to 100 percent depending on the task while finishing 20 to 30 percent faster. DeepMind said inference-time guidance raised safe task completion by 33 percent around obstacles and 43 percent around nearby people.",
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
         }
       ]
     },

@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-10",
-  "covers": "Nov 3–10, 2026",
-  "readFirst": "Covers Nov. 3–10. New: Red Hat said Nov. 9 that OpenShift 5 is generally available, including post-quantum cryptography for control-plane communications, and OpenAI said the same day that ChatGPT Enterprise can be bought through AWS Marketplace. Rosen Law Firm said it filed a securities class action over Nvidia and Jensen Huang. No new Army or Department of War enterprise agreement was found. No Cisco, Dell, HPE, NetApp, Microsoft, Palo Alto, or Google Cloud newsroom item dated Nov. 9–10 was opened. F5 and VMware were quiet; Intel's Nov. 3 process-kit note remains. The Nov. 2 Cortex Cloud release aged out.",
+  "compiled": "2026-11-11",
+  "covers": "Nov 3–11, 2026",
+  "readFirst": "Covers Nov. 3–11. Red Hat's Nov. 9 announcement of Enterprise Linux 10.3 and 9.9, with sealed images and a self-managed command-line assistant for disconnected sites, is added because it was not on the page. No Red Hat release or Army or Department of War Red Hat deal dated Nov. 10–11 was found. No new Army or Department of War enterprise agreement was found. No Cisco, Dell, HPE, NetApp, Microsoft, Palo Alto, AWS, or Google Cloud newsroom item dated Nov. 10–11 was opened. F5 and VMware were quiet; Intel's Nov. 3 process-kit note remains.",
   "subsections": [
     {
       "id": "cisco",
@@ -159,6 +159,20 @@
         {
           "name": "Red Hat",
           "url": "https://www.redhat.com/en/about/press-releases/red-hat-openshift-5-transforms-hybrid-cloud-operations-real-time-intelligence-and-zero-trust-security"
+        }
+      ]
+    },
+    {
+      "id": "rhel-103-2026-11-09",
+      "subsection": "other",
+      "date": "2026-11-09",
+      "dateLabel": "Nov 9",
+      "headline": "Red Hat says Enterprise Linux 10.3 and 9.9 will add sealed images and disconnected AI help",
+      "summary": "Red Hat said Nov. 9 at KubeCon in Salt Lake City that Red Hat Enterprise Linux 10.3 and 9.9 are planned to be generally available in the coming weeks. Red Hat said 10.3 introduces sealed images for image mode so customers can sign and verify the operating system with their own keys and block unauthorized components at runtime. Red Hat said a Model Context Protocol server can investigate live systems with governed access, and that a developer-preview command-line assistant can run on customer-hosted inference for disconnected or air-gapped sites. Red Hat said 10.3 also adds post-quantum cryptography in the Go toolchain.",
+      "sources": [
+        {
+          "name": "Red Hat",
+          "url": "https://www.redhat.com/en/about/press-releases/red-hat-strengthens-hybrid-cloud-foundations-against-ai-driven-threats-latest-versions-red-hat-enterprise-linux"
         }
       ]
     },

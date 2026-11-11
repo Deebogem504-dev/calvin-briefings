@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-10",
-  "covers": "Nov 3–10, 2026",
-  "readFirst": "Covers Nov. 3–10. New: Breaking Defense reported Nov. 9 that launched effects are fielded to 11 of 12 headquarters divisions and every multi-domain task force, with Griffon supplying most of the systems, and that the last division is due next month. No Army.mil article dated Nov. 9–10 was opened. Federal News Network had no new Army article dated Nov. 9–10 that was opened. EIN Presswire carried DVIDS reprints on a Picatinny explosive-ordnance visit and a 25th Infantry Division air assault; those original DVIDS pages were not opened, so they were not added. No new NETCOM release and no new Army enterprise agreement were found. The Nov. 2 CECOM year-in-review, the DiBaX 5G note, and the Pegasystems IDIQ aged out of the seven-day window. Brig. Gen. Sutten is still scheduled to assume command of CECOM at Aberdeen on Nov. 16.",
+  "compiled": "2026-11-11",
+  "covers": "Nov 3–11, 2026",
+  "readFirst": "Covers Nov. 3–11. New: CNBC reported Nov. 11 that British police arrested a 41-year-old U.S. Army soldier near Gloucester on Tuesday on suspicion of spying for Russia, and Army.mil reported Nov. 10 that JIATF-401 awarded DroneSec a contract for unmanned-systems threat intelligence. The DroneSec release states no dollar value. No new NETCOM release and no new Army enterprise agreement were found. The Pegasystems IDIQ was not repeated. Federal News Network Army features on the homepage were October stories. EIN Presswire carried DVIDS reprints on Exchange hiring and a Fort Bragg reenlistment flight; those original DVIDS pages were not opened, so they were not added. Brig. Gen. Sutten is still scheduled to assume command of CECOM at Aberdeen on Nov. 16.",
   "subsections": [
     {
       "id": "leadership",
@@ -32,6 +32,20 @@
     }
   ],
   "items": [
+    {
+      "id": "soldier-arrest-2026-11-11",
+      "subsection": "leadership",
+      "date": "2026-11-11",
+      "dateLabel": "Nov 10–11",
+      "headline": "CNBC: British police arrest a U.S. Army soldier on suspicion of spying for Russia",
+      "summary": "CNBC reported Nov. 11 that London's Metropolitan Police said a 41-year-old U.S. Army soldier was arrested near Gloucester, England, on Tuesday on suspicion of spying for Russia, and that he is being held under the U.K. National Security Act. CNBC said a senior NATO official confirmed the soldier was assigned to the Allied Rapid Reaction Corps in Gloucestershire, and that police worked with U.S. military authorities and the FBI. FBI Director Kash Patel said the allegations were of the utmost concern, and Sean Stinchon, commanding general of U.S. Army Counterintelligence Command, said the alleged conduct is a reminder that insider threats are real. Kremlin spokesman Dmitry Peskov said Wednesday that Moscow had absolutely nothing to do with the case.",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/us-army-soldier-russia-espionage-arrest.html"
+        }
+      ]
+    },
     {
       "id": "cecom-town-hall-2026-11-05",
       "subsection": "leadership",
@@ -99,6 +113,20 @@
         {
           "name": "L3Harris",
           "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-receives-satcom-order-us-army-support-key-command-and"
+        }
+      ]
+    },
+    {
+      "id": "dronesec-2026-11-10",
+      "subsection": "contracts",
+      "date": "2026-11-10",
+      "dateLabel": "Nov 10",
+      "headline": "Army.mil: JIATF-401 awards DroneSec a contract for unmanned-systems threat intelligence",
+      "summary": "Army.mil reported Nov. 10 that the Department of War, through Joint Interagency Task Force 401, awarded a contract to DroneSec for intelligence products and threat analysis on adversary unmanned systems. The article says the work covers emerging technologies, procurement networks, and the tactics used to develop and employ weaponized drones, and that the task force will use DroneSec's open-source intelligence to inform capability development and counter-drone planning. Brig. Gen. Matt Ross, director of JIATF-401, said understanding how unmanned systems are developed is required to keep an advantage. The release does not state a dollar value.",
+      "sources": [
+        {
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/296667/jiatf_401_awards_dronesec_contract_to_strengthen_unmanned_systems_intelligence"
         }
       ]
     },
