@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-11",
-  "covers": "Nov 3–11, 2026",
-  "readFirst": "Covers Nov. 3–11. New: Tom's Hardware reported Nov. 11, citing an Ars Technica interview with BlueBird Tech, that fiber-optic cable prices have risen about six to 10 times as data-center demand competes with fiber-tethered drones, and reported Nov. 10, citing Reuters, that Microsoft and the Information Technology Industry Council are lobbying against a possible FCC import ban on Chinese optical transceivers. Dell's OneFS 9.16 note remains on the partners page.",
+  "compiled": "2026-11-12",
+  "covers": "Nov 3–12, 2026",
+  "readFirst": "Covers Nov. 3–12. New: Tom's Hardware reported Nov. 11, citing SemiAnalysis, that SpaceX and xAI are building a custom Nvidia Vera Rubin rack called Kessel for terrestrial and orbital data centers, and, citing The Wall Street Journal, that SoftBank is taking a $3.7 billion hit after canceling more than 13 gigawatts of gas-turbine reservations for AI data centers. Dell's OneFS 9.16 note remains on the partners page. A Nov. 11 Tom's Hardware report on an Effingham County lawsuit over OpenAI's Project Camellia was not added. Tom's Hardware's Nov. 12 homepage led with a story about cannabis farms and data-center sites; that article was not opened, so it was not added.",
   "subsections": [
     {
       "id": "networking",
@@ -39,6 +39,20 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/policy/microsoft-lobbies-against-potential-ban-on-chinese-optical-networking-gear-for-ai-data-centers-as-fcc-mulls-restricting-imports-industry-group-says-move-could-grind-data-center-rollout-to-a-halt"
+        }
+      ]
+    },
+    {
+      "id": "kessel-rack-2026-11-11",
+      "subsection": "capacity",
+      "date": "2026-11-11",
+      "dateLabel": "Nov 11",
+      "headline": "Tom's Hardware: SpaceX is designing a 72-GPU Rubin rack for data centers in space",
+      "summary": "Tom's Hardware reported Nov. 11, citing SemiAnalysis, that SpaceX and xAI are developing a custom version of Nvidia's Vera Rubin NVL72 rack, codenamed Kessel, for terrestrial and orbital data centers. Tom's Hardware said the design keeps 36 Vera CPUs, 72 Rubin GPUs, and nine NVLink switch trays, and replaces internal NVLink cable cartridges with compute and switch trays set back-to-back around a passive printed-circuit midplane. It said that midplane is an 84-layer board using M10 copper-clad laminates, compared with the 156-layer M9 backplane SemiAnalysis described for Nvidia's Kyber design. Tom's Hardware said SpaceX and xAI would still buy Nvidia hardware from Nvidia and source other components independently.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-develops-its-own-kessel-rack-scale-system-featuring-72-nvidia-rubin-gpus-for-data-centers-in-space-report-claims-replaces-conventional-nvlink-cable-assemblies-with-a-massive-84-layer-printed-circuit-board"
         }
       ]
     },
@@ -99,6 +113,20 @@
         {
           "name": "The Verge",
           "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
+        }
+      ]
+    },
+    {
+      "id": "softbank-turbines-2026-11-11",
+      "subsection": "power",
+      "date": "2026-11-11",
+      "dateLabel": "Nov 11",
+      "headline": "Tom's Hardware: SoftBank takes a $3.7 billion hit canceling 13 gigawatts of turbines",
+      "summary": "Tom's Hardware reported Nov. 11, citing The Wall Street Journal, that SoftBank is taking a $3.7 billion earnings hit after canceling reservations for gas turbines it had booked to power AI data centers. Tom's Hardware said the Journal, citing people familiar with the orders, reported SoftBank had reserved more than 13 gigawatts of turbines. It said the news followed a denial by SoftBank's chief financial officer of Elon Musk's claim that the company had defaulted on turbine-blade contracts; the officer said there is no such default. Tom's Hardware also said SoftBank plans a 9.2-gigawatt plant in Ohio, scheduled to start construction in early 2027 at a cost of $33 billion, to serve a neighboring 8-gigawatt data center that would be leased to OpenAI, and that Nvidia has discussed guaranteeing about $250 billion of financing for that project.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/softbank-loses-usd3-7-billion-on-canceled-ai-data-center-gas-turbine-orders-days-after-denying-elon-musks-claim-it-was-defaulting-company-kills-reserved-13-gigawatts-of-power-more-than-six-hoover-dams-worth-of-capacity"
         }
       ]
     },

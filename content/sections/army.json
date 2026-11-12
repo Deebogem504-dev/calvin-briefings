@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-11",
-  "covers": "Nov 3–11, 2026",
-  "readFirst": "Covers Nov. 3–11. New: CNBC reported Nov. 11 that British police arrested a 41-year-old U.S. Army soldier near Gloucester on Tuesday on suspicion of spying for Russia, and Army.mil reported Nov. 10 that JIATF-401 awarded DroneSec a contract for unmanned-systems threat intelligence. The DroneSec release states no dollar value. No new NETCOM release and no new Army enterprise agreement were found. The Pegasystems IDIQ was not repeated. Federal News Network Army features on the homepage were October stories. EIN Presswire carried DVIDS reprints on Exchange hiring and a Fort Bragg reenlistment flight; those original DVIDS pages were not opened, so they were not added. Brig. Gen. Sutten is still scheduled to assume command of CECOM at Aberdeen on Nov. 16.",
+  "compiled": "2026-11-12",
+  "covers": "Nov 3–12, 2026",
+  "readFirst": "Covers Nov. 3–12. New: Breaking Defense reported Nov. 11 an interview on Next Generation Command and Control across Pacific distances, and Safe Pro said Nov. 10 that the Army awarded it a $2.5 million prime contract to run threat-detection software on Anduril Ghost-X drones for Abrams tanks. That company release was not in the prior edition. No new NETCOM release and no new Army enterprise agreement were found in Army CIO reporting, ESI, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. The war.gov contracts index returned a 403, so no Nov. 11 or Nov. 12 contracts release was opened. EIN Presswire's Safe Pro lead was followed to GlobeNewswire. Brig. Gen. Sutten is still scheduled to assume command of CECOM at Aberdeen on Nov. 16.",
   "subsections": [
     {
       "id": "leadership",
@@ -103,6 +103,20 @@
       ]
     },
     {
+      "id": "ngc2-pacific-2026-11-11",
+      "subsection": "network",
+      "date": "2026-11-11",
+      "dateLabel": "Nov 11",
+      "headline": "Breaking Defense: a CNAS fellow says NGC2 has to connect nodes thousands of miles apart",
+      "summary": "Breaking Defense reported Nov. 11 an interview with Josh Wallin, a defense program fellow at the Center for a New American Security, on the Army's Next Generation Command and Control effort. Wallin said an Indo-Pacific fight raises the problem of connecting systems that may be thousands of miles apart, and that bandwidth is strained by the volume of transmissions needed to keep distributed forces synchronized. He said NGC2 is trying to separate data links and radios from compute and from the data layer, so a jammed satellite terminal could be swapped without rebuilding the software above it. He also said the Army wants data that used to sit in separate air-defense, logistics, and fires systems to be usable across functions, with artificial intelligence used to automate parts of analysis that are still manual.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/the-armys-coming-c2-challenge-is-fighting-across-thousands-of-miles/"
+        }
+      ]
+    },
+    {
       "id": "l3harris-hawkeye-2026-11-03",
       "subsection": "network",
       "date": "2026-11-03",
@@ -113,6 +127,20 @@
         {
           "name": "L3Harris",
           "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-receives-satcom-order-us-army-support-key-command-and"
+        }
+      ]
+    },
+    {
+      "id": "safe-pro-ghostx-2026-11-10",
+      "subsection": "contracts",
+      "date": "2026-11-10",
+      "dateLabel": "Nov 10",
+      "headline": "Safe Pro says the Army awarded $2.5 million to put threat detection on Ghost-X",
+      "summary": "Safe Pro Group said Nov. 10 that the U.S. Army awarded it a $2.5 million prime contract under a Commercial Solutions Opening for Ground Threat Detection through Aerial Reconnaissance, and that the work is the company's first prime contract. Safe Pro said the contract puts its Ground Truth Air software on Anduril's Ghost-X drone to identify and geolocate more than 150 types of explosive threats, including landmines, anti-personnel mines, cluster munitions, and ambush first-person-view drones, and to stream that data into ATAK and Anduril's Lattice. The company said the Army selected Ghost-X for intelligence, surveillance, and reconnaissance under the Medium Range Reconnaissance program. Daniel Leighton, Anduril's general manager of tactical effects, said the addition is meant to support tank survivability and reconnaissance. The release does not name a period of performance or the units that will use the software.",
+      "sources": [
+        {
+          "name": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/11/10/3399521/0/en/safe-pro-group-awarded-u-s-army-prime-contract-teams-with-anduril-for-super-intelligence-on-ghost-x-drone-for-tank-protection.html"
         }
       ]
     },
@@ -155,20 +183,6 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/Contracts/Contract/Article/4641708/contracts-for-nov-4-2026/"
-        }
-      ]
-    },
-    {
-      "id": "serco-cpmod-2026-11-03",
-      "subsection": "contracts",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "Serco says it won an Army task order to field modernized command posts",
-      "summary": "Serco said Nov. 3 that it was awarded a task order under the Army's Responsive Strategic Sourcing for Services contract to support Command Post Modernization. The release does not state a dollar value. Serco said the work expands a role it has held since 2019 and covers program management, engineering, integration, testing, logistics, training, and sustainment, including integrating hardware and software onto tactical vehicles and installing A-kit components. Amanda Miller, vice president for Serco North America's Systems Integration and Installation portfolio, said the work is meant to increase deployment speed, survivability, and technical innovation. Serco said it expects to add more than 200 positions.",
-      "sources": [
-        {
-          "name": "Serco",
-          "url": "https://www.serco.com/na/media-and-news/2026/us-army-selects-serco-command-post-modernization"
         }
       ]
     }

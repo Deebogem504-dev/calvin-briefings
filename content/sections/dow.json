@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-11",
-  "covers": "Nov 3–11, 2026",
-  "readFirst": "Covers Nov. 3–11. New: the Department of War reported Nov. 10 that Secretary Hegseth, at a Pentagon press briefing, called an impeachment resolution a policy disagreement, and that he and Poland's defense minister signed a statement of intent on defense-industry cooperation. The Nov. 5 video item was removed because the briefing is his current public statement. No war.gov daily contracts release for Nov. 10 or Nov. 11 could be opened. No new Army or Department of War enterprise software agreement was found. The Office of Strategic Capital's Rocket Lab loan remains on the tech page.",
+  "compiled": "2026-11-12",
+  "covers": "Nov 3–12, 2026",
+  "readFirst": "Covers Nov. 3–12. New: Federal News Network, carrying the Associated Press, reported that the House on Tuesday blocked a resolution to impeach Secretary Hegseth, 211-204. No war.gov daily contracts release for Nov. 11 or Nov. 12 could be opened; the contracts index returned a 403. No new Army or Department of War enterprise software agreement was found. No new Golden Dome award dated Nov. 11–12 was found. The Poland statement of intent remains. The Office of Strategic Capital's Rocket Lab loan remains on the tech page.",
   "subsections": [
     {
       "id": "secwar",
@@ -28,6 +28,20 @@
     }
   ],
   "items": [
+    {
+      "id": "house-impeachment-vote-2026-11-10",
+      "subsection": "secwar",
+      "date": "2026-11-10",
+      "dateLabel": "Nov 10",
+      "headline": "House blocks a resolution to impeach Hegseth, 211-204",
+      "summary": "Federal News Network, carrying an Associated Press report, said Nov. 10 that the House on Tuesday turned aside a resolution to impeach Defense Secretary Pete Hegseth. The report said a procedural motion to send the matter back to committee succeeded 211-204, with a number of Democrats missing the vote. It said Kentucky Republican Rep. Thomas Massie led the effort, with Democratic backing, and that the resolution had eight counts focused largely on the war in Iran and also on military actions in Yemen and Venezuela. Hegseth, at his Pentagon news conference, called the concerns policy disagreements rather than high crimes, and the report said the vote may only delay the push because Democrats are set to take the House and Senate in January.",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/defense-news/2026/11/hegseth-is-set-for-his-first-pentagon-news-briefing-since-may-as-he-faces-possible-impeachment/"
+        }
+      ]
+    },
     {
       "id": "hegseth-briefing-2026-11-10",
       "subsection": "secwar",

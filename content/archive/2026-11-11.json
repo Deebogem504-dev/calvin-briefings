@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-11",
+  "title": "November 11, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "ARMY",
+      "dateLabel": "Nov 11",
+      "headline": "British police arrest a U.S. Army soldier on suspicion of spying for Russia",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/us-army-soldier-russia-espionage-arrest.html"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 10",
+      "headline": "Hegseth and Poland sign a defense-industry statement of intent",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4646088/hegseth-polish-counterpart-announce-intent-to-boost-military-cooperation/"
+        },
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4646284/readout-of-secretary-of-war-pete-hegseths-meeting-with-polands-deputy-prime-min/"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Nov 10",
+      "headline": "Google makes Gemini 4 Carbon generally available, with a cyber track",
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Nov 10",
+      "headline": "CISA adds six exploited bugs; Barracuda pair due Nov. 13",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
+    {
+      "label": "TECH",
+      "dateLabel": "Nov 10",
+      "headline": "Gemini Robotics 2.5 posts a 96 percent kitting rate on a Mercedes line",
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Nov 11",
+      "headline": "Data-center fiber demand is squeezing Ukraine's jam-proof drones",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/drones/data-center-demand-for-fiber-optics-squeezes-ukrainian-drone-operations-supply-crunch-has-incurred-6x-10x-cost-increase-for-critical-cabling"
+        }
+      ]
+    }
+  ]
+}

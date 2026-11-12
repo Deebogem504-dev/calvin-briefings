@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-11",
-  "covers": "Nov 3–11, 2026",
-  "readFirst": "Covers Nov. 3–11. New: Google said Nov. 10 that Gemini 4 Carbon is generally available, including a Fairwind cybersecurity track, and OpenAI said the same day that Businesses in ChatGPT is in beta. Tom's Hardware's Nov. 11 fiber story and Nov. 10 optical-transceiver story are on the data-center page. DeepMind's Nov. 10 robotics model is on the tech page. No new Anthropic product post dated Nov. 10–11 was opened; the livestream page for The Briefing did not state that Meetings or Sheets had shipped. The Open and Local Models subsection is empty. Nvidia's class action remains on the partners page. The Nov. 3 physical-device note and the Nov. 4 Claude Code games note were dropped to stay inside the count.",
+  "compiled": "2026-11-12",
+  "covers": "Nov 5–12, 2026",
+  "readFirst": "Covers Nov. 5–12. New: Google said Nov. 11 that the Gemini Decisions API and Gemini Decision 1 are available, and Helsing said the same day that it unveiled Clarity, a European military intelligence platform that keeps a person in the loop on targeting. The Nov. 4 OpenAI Images 2.6 note and the Nov. 4 Pierre acquisition note were dropped to stay inside the count. No new Anthropic product post dated Nov. 11–12 was opened; the livestream page for The Briefing still does not state that Meetings or Sheets had shipped. The Open and Local Models subsection is empty. Nvidia's board report is on the partners page. Tom's Hardware's Nov. 11 fiber story and Nov. 10 optical-transceiver story remain on the data-center page.",
   "subsections": [
     {
       "id": "anthropic",
@@ -97,30 +97,16 @@
       ]
     },
     {
-      "id": "openai-pierre-2026-11-04",
-      "subsection": "openai",
-      "date": "2026-11-04",
-      "dateLabel": "Nov 4",
-      "headline": "OpenAI says it will acquire Pierre to expand Codex's code tools",
-      "summary": "OpenAI said Nov. 4 that it will acquire Pierre Computer Company, the company behind Code Storage and open-source developer tools including the Trees and Diffs libraries already used in the Codex app. OpenAI said Pierre also released Highlights, a syntax highlighter that updates as a developer types or an agent streams code. OpenAI said Pierre's open-source projects will remain open source, that Code Storage customers can keep using the service after closing, and that the companies will bring those features into Codex. OpenAI said closing is subject to customary conditions, including regulatory approvals, and that the companies remain separate until then.",
+      "id": "gemini-decision-2026-11-11",
+      "subsection": "google",
+      "date": "2026-11-11",
+      "dateLabel": "Nov 11",
+      "headline": "Google opens the Gemini Decisions API, scoring up to 1,000 questions in one pass",
+      "summary": "Google said Nov. 11 that the Gemini Decisions API is available through the Gemini API in Google AI Studio, powered by a new Gemini Decision 1 model. Google said a request can pair one multimodal input of up to 256,000 tokens, including text, images, audio, video, and PDFs, with up to 1,000 yes/no, multiple-choice, or rubric questions, and that the model returns probabilities and confidence scores in 150 to 250 milliseconds. Google said the price is $0.10 per million input tokens with no output tokens billed, and that on a shared benchmark suite it is nearly five times cheaper than Gemini 3.5 Flash-Lite used through the Interactions API. Google said support in Gemini on Google Cloud is coming soon.",
       "sources": [
         {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/openai-to-acquire-pierre/"
-        }
-      ]
-    },
-    {
-      "id": "openai-images-2026-11-04",
-      "subsection": "openai",
-      "date": "2026-11-04",
-      "dateLabel": "Nov 4",
-      "headline": "OpenAI releases Images 2.6 with faster generation and GIF output",
-      "summary": "OpenAI said Nov. 4 that Images 2.6 is available in ChatGPT, Codex, and the API, and that it generates images 50 percent faster than before. OpenAI said people create 4 billion images per week across those products. In the API, OpenAI is offering GPT-Image-2.6 Flare and Sunburst, and it said Flare can generate an image in as little as six seconds when quality is set to low. OpenAI said the release adds GIF creation, brings image markup to the API, adds SVG export, and adds a complexity parameter for how much planning the model does.",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/introducing-images-2-6/"
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
         }
       ]
     },
@@ -163,6 +149,20 @@
         {
           "name": "Google",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+        }
+      ]
+    },
+    {
+      "id": "helsing-clarity-2026-11-11",
+      "subsection": "defense-ai",
+      "date": "2026-11-11",
+      "dateLabel": "Nov 11",
+      "headline": "Helsing unveils Clarity, a European platform that keeps a person on the trigger",
+      "summary": "Helsing said Nov. 11 in Berlin that it unveiled Clarity, an agentic intelligence platform developed and built in Europe that processes sensor feeds, open sources, written reports, and systems a unit already runs. Helsing said the platform uses hundreds of military-specific agents to detect adversary assets and prepare the information a weapon needs, and that it follows MOSA principles and relevant NATO standards and runs on infrastructure the customer owns. Helsing said an operator reviews the evidence, selects each asset, and authorizes every hand-off to a weapon, and that a target is nominated only when independent sources agree. Co-CEO Gundbert Scherf said European armed forces get software that stays under their control.",
+      "sources": [
+        {
+          "name": "Helsing",
+          "url": "https://helsing.ai/newsroom/helsing-unveils-clarity-a-sovereign-software-platform-for-military-intelligence"
         }
       ]
     },

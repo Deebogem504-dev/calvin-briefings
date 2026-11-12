@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-11",
-  "covers": "Nov 3–11, 2026",
-  "readFirst": "Covers Nov. 3–11. Red Hat's Nov. 9 announcement of Enterprise Linux 10.3 and 9.9, with sealed images and a self-managed command-line assistant for disconnected sites, is added because it was not on the page. No Red Hat release or Army or Department of War Red Hat deal dated Nov. 10–11 was found. No new Army or Department of War enterprise agreement was found. No Cisco, Dell, HPE, NetApp, Microsoft, Palo Alto, AWS, or Google Cloud newsroom item dated Nov. 10–11 was opened. F5 and VMware were quiet; Intel's Nov. 3 process-kit note remains.",
+  "compiled": "2026-11-12",
+  "covers": "Nov 3–12, 2026",
+  "readFirst": "Covers Nov. 3–12. New: Tom's Hardware reported Nov. 11, citing The Wall Street Journal, that Nvidia's board is preparing to remove Jensen Huang and that no final decision has been made. No Red Hat press release or Army or Department of War Red Hat deal dated Nov. 11–12 was found. No new Army or Department of War enterprise agreement was found. No Cisco, Dell, HPE, NetApp, Microsoft, Palo Alto, AWS, or Google Cloud newsroom item dated Nov. 11–12 was opened. F5 and VMware were quiet; Intel's Nov. 3 process-kit note remains.",
   "subsections": [
     {
       "id": "cisco",
@@ -109,6 +109,20 @@
         {
           "name": "Dell",
           "url": "https://www.dell.com/en-us/blog/how-powerscale-onefs-9-16-scales-ai-cloud-infrastructure/"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-board-oust-2026-11-11",
+      "subsection": "nvidia",
+      "date": "2026-11-11",
+      "dateLabel": "Nov 11",
+      "headline": "Tom's Hardware: Nvidia's board is reportedly preparing to remove Jensen Huang",
+      "summary": "Tom's Hardware reported Nov. 11, citing The Wall Street Journal, that Nvidia's board is preparing to remove co-founder and chief executive Jensen Huang, and that no final decision has been made. Tom's Hardware said directors could meet as early as Nov. 11, and that the stock dropped 8 percent in after-hours trading after the reports. It said the Journal's report followed a New York Times account that Huang had a relationship with Kimberly Powell, Nvidia's vice president of health care, who reports to him, according to five people who worked at Nvidia. Tom's Hardware said that allegation follows an earlier report that Huang had a relationship with Alice Huang, a Chinese businesswoman whom U.S. intelligence believes to be a Chinese intelligence asset.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-emerges-stock-has-plunged-20-percent-since-scandals-began-huang-has-been-first-and-only-ceo-for-33-years"
         }
       ]
     },

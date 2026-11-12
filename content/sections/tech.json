@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-11",
-  "covers": "Nov 3–11, 2026",
-  "readFirst": "Covers Nov. 3–11. New: Google DeepMind said Nov. 10 that Gemini Robotics 2.5 is rolling out to robotics partners, and that an Apptronik Apollo 2 pilot on Mercedes-Benz lines reached a 96 percent success rate on automotive kitting. No new post-quantum standard or Army quantum award dated Nov. 10–11 was found. CISA's Nov. 5 vendor questions remain on the cyber page. The compute and quantum subsections are empty.",
+  "compiled": "2026-11-12",
+  "covers": "Nov 3–12, 2026",
+  "readFirst": "Covers Nov. 3–12. No new post-quantum standard or Army quantum award dated Nov. 11–12 was found. CISA's Nov. 5 vendor questions remain on the cyber page. SpaceX's Nov. 11 Kessel rack report is on the data-center page. The compute and quantum subsections are empty. DeepMind's Nov. 10 robotics model remains the newest autonomy item.",
   "subsections": [
     {
       "id": "quantum",

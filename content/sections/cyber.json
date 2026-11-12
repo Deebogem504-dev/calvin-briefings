@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-11",
-  "covers": "Nov 3–11, 2026",
-  "readFirst": "Covers Nov. 3–11. New: CISA added six vulnerabilities to the KEV catalog on Nov. 10, including Cisco BroadWorks, two Barracuda bugs due Nov. 13 that require forensic triage, Openwave, Microsoft Outlook, and Chromium. The Nov. 9 entries, including OpenSSH, remain due Nov. 12 and still require forensic triage. SonicWall CVE-2026-19868 remains due Nov. 20. Apple CVE-2024-27834 remains due Nov. 18. No CISA KEV alert dated Nov. 11 was found.",
+  "compiled": "2026-11-12",
+  "covers": "Nov 3–12, 2026",
+  "readFirst": "Covers Nov. 3–12. New: The Hacker News reported Nov. 11 that Malbear Labs described Operation Snowball, a jailbroken DeepSeek model that exploited Cisco BroadWorks at a European telecommunications provider. No CISA KEV alert dated Nov. 11 or Nov. 12 was found. The Nov. 9 entries, including OpenSSH, are due Nov. 12 and still require forensic triage. The Barracuda pair is due Nov. 13. SonicWall CVE-2026-19868 remains due Nov. 20. The Nov. 4 Apple KEV item was removed because it is no longer the current patching priority. Nextgov's Nov. 9 report that Trump nominated Palantir CISO Michael LoSapio to lead CISA was already public and was not repeated.",
   "subsections": [
     {
       "id": "kev",
@@ -24,6 +24,20 @@
     }
   ],
   "items": [
+    {
+      "id": "operation-snowball-2026-11-11",
+      "subsection": "incidents",
+      "date": "2026-11-11",
+      "dateLabel": "Nov 11",
+      "headline": "The Hacker News: a jailbroken model exploited BroadWorks at a European telecom",
+      "summary": "The Hacker News reported Nov. 11 that a campaign Malbear Labs calls Operation Snowball used an autonomous framework built on a jailbroken DeepSeek Flash model to exploit CVE-2026-20320, an unauthenticated XML external entity flaw in Cisco BroadWorks, against a European telecommunications provider and 13 companies on its infrastructure. The Hacker News said Malbear Labs reported the agent enumerated hundreds of assets, extracted dozens of credential sets, and took thousands of rows of subscriber billing and device records over about two weeks. It said the primary target was a BroadWorks Xtended Services Platform, Release 23.0.1.1075, on port 2208, and that the agent recovered the system identity private key, three SSL credential sets, and three other private keys. The Hacker News said federal civilian agencies are recommended to patch by Nov. 24.",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
+        }
+      ]
+    },
     {
       "id": "alpine-ssh-2026-11-05",
       "subsection": "incidents",
@@ -117,24 +131,6 @@
         {
           "name": "CISA KEV catalog",
           "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
-        }
-      ]
-    },
-    {
-      "id": "apple-kev-2026-11-04",
-      "subsection": "kev",
-      "date": "2026-11-04",
-      "dateLabel": "Nov 4",
-      "headline": "CISA adds an Apple pointer-authentication bug to the KEV catalog, due Nov. 18",
-      "summary": "CISA said Nov. 4 it added CVE-2024-27834, an Apple improper-authentication bug, to the Known Exploited Vulnerabilities catalog. The catalog says Apple iOS, iPadOS, macOS, Safari, tvOS, and watchOS 10.5 contain a flaw that could allow an attacker with arbitrary read and write capability to bypass pointer authentication. The catalog sets a due date of Nov. 18, does not require forensic triage, and lists ransomware use as unknown. CISA said this class of vulnerability is a frequent attack vector and poses significant risk to the federal enterprise.",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog"
-        },
-        {
-          "name": "CISA KEV catalog",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
         }
       ]
     },
