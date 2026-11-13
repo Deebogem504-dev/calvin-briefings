@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-12",
-  "covers": "Nov 3–12, 2026",
-  "readFirst": "Covers Nov. 3–12. New: Tom's Hardware reported Nov. 11, citing SemiAnalysis, that SpaceX and xAI are building a custom Nvidia Vera Rubin rack called Kessel for terrestrial and orbital data centers, and, citing The Wall Street Journal, that SoftBank is taking a $3.7 billion hit after canceling more than 13 gigawatts of gas-turbine reservations for AI data centers. Dell's OneFS 9.16 note remains on the partners page. A Nov. 11 Tom's Hardware report on an Effingham County lawsuit over OpenAI's Project Camellia was not added. Tom's Hardware's Nov. 12 homepage led with a story about cannabis farms and data-center sites; that article was not opened, so it was not added.",
+  "compiled": "2026-11-13",
+  "covers": "Nov 3–13, 2026",
+  "readFirst": "Covers Nov. 3–13. New: Tom's Hardware reported Nov. 12 that Yandex Cloud said 2.84 percent of customer data cannot be restored after Ukrainian drone strikes on its data centers. The Nov. 4 local ballot-measure note was dropped so the capacity subsection stayed at four items. Dell's OneFS 9.16 note remains on the partners page. A Nov. 12 Tom's Hardware headline about marijuana farms considering data-center sites was not used.",
   "subsections": [
     {
       "id": "networking",
@@ -43,6 +43,20 @@
       ]
     },
     {
+      "id": "yandex-data-2026-11-12",
+      "subsection": "capacity",
+      "date": "2026-11-12",
+      "dateLabel": "Nov 12",
+      "headline": "Tom's Hardware: Yandex Cloud says 2.84 percent of customer data cannot be restored",
+      "summary": "Tom's Hardware reported Nov. 12 that Yandex Cloud said it had restored access to more than 97 percent of customer data after Ukrainian drone strikes damaged its data centers, and that the remaining 2.84 percent cannot be restored because of critical equipment damage. Tom's Hardware said Yandex attributed part of that loss to customers who had no backups on the platform, and that customers who used Yandex Cloud backup tools did not lose data. Tom's Hardware said it knows of at least three Yandex locations damaged in the strikes.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/russias-google-says-nearly-3-percent-of-its-data-was-lost-after-crippling-ukraine-drone-strikes-opens-secret-availability-zones-yandex-cloud-blames-lack-of-user-backups-for-lost-data-now-forcibly-applies-backup-rules-by-default"
+        }
+      ]
+    },
+    {
       "id": "kessel-rack-2026-11-11",
       "subsection": "capacity",
       "date": "2026-11-11",
@@ -71,20 +85,6 @@
       ]
     },
     {
-      "id": "hbm-loophole-2026-11-03",
-      "subsection": "storage",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "Tom's Hardware: a smuggler says banned HBM is reaching China inside cheap processors",
-      "summary": "Tom's Hardware reported Nov. 3, citing The Information, that a memory smuggler described moving export-controlled high-bandwidth memory from South Korea into China. Tom's Hardware said the person owns a chip-design firm that builds cheap, low-performing processors covered by U.S. and South Korean export controls, then pairs them with high-bandwidth memory from Samsung and SK hynix that would be banned on its own. It said the export rules, as Tom's Hardware describes them, look at the server processor's performance and not at the other components attached to it.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-chip-smugglers-exploit-trade-control-loophole-to-bring-banned-hbm-from-south-korea-into-china-expensive-memory-chips-packaged-with-cheap-unsanctioned-processors-to-become-legal-exports"
-        }
-      ]
-    },
-    {
       "id": "amsterdam-datacenter-protest-2026-11-08",
       "subsection": "capacity",
       "date": "2026-11-08",
@@ -99,20 +99,6 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe"
-        }
-      ]
-    },
-    {
-      "id": "datacenter-ballots-2026-11-04",
-      "subsection": "capacity",
-      "date": "2026-11-04",
-      "dateLabel": "Nov 4",
-      "headline": "The Verge: 33 of 45 local ballot measures will restrict data centers",
-      "summary": "The Verge reported Nov. 4 that data-center developers face a more restrictive building environment after the midterms. It said an NBC News Election Day poll found 76 percent of voters opposed data centers in their communities, and that voters faced 45 local ballot measures. As of Wednesday morning, The Verge said, a Redbud Consulting compilation showed that 33 of those results will restrict data-center development. It said Wells, Maine, favored a 180-day moratorium on large data centers, several Ohio cities voted to ban data centers over 25 megawatts, and El Dorado, Kansas, voted to ban data centers with a peak electrical load over 10 megawatts for 10 years.",
-      "sources": [
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
         }
       ]
     },
@@ -169,6 +155,20 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-xai-installs-eight-converted-jet-engines-to-power-mississippi-data-center-permits-allow-25-percent-higher-limit-for-pollutants-concerns-raised-over-carbon-monoxide"
+        }
+      ]
+    },
+    {
+      "id": "hbm-loophole-2026-11-03",
+      "subsection": "storage",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "Tom's Hardware: a smuggler says banned HBM is reaching China inside cheap processors",
+      "summary": "Tom's Hardware reported Nov. 3, citing The Information, that a memory smuggler described moving export-controlled high-bandwidth memory from South Korea into China. Tom's Hardware said the person owns a chip-design firm that builds cheap, low-performing processors covered by U.S. and South Korean export controls, then pairs them with high-bandwidth memory from Samsung and SK hynix that would be banned on its own. It said the export rules, as Tom's Hardware describes them, look at the server processor's performance and not at the other components attached to it.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-chip-smugglers-exploit-trade-control-loophole-to-bring-banned-hbm-from-south-korea-into-china-expensive-memory-chips-packaged-with-cheap-unsanctioned-processors-to-become-legal-exports"
         }
       ]
     }

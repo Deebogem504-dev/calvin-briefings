@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-12",
-  "covers": "Nov 5–12, 2026",
-  "readFirst": "Covers Nov. 5–12. New: Google said Nov. 11 that the Gemini Decisions API and Gemini Decision 1 are available, and Helsing said the same day that it unveiled Clarity, a European military intelligence platform that keeps a person in the loop on targeting. The Nov. 4 OpenAI Images 2.6 note and the Nov. 4 Pierre acquisition note were dropped to stay inside the count. No new Anthropic product post dated Nov. 11–12 was opened; the livestream page for The Briefing still does not state that Meetings or Sheets had shipped. The Open and Local Models subsection is empty. Nvidia's board report is on the partners page. Tom's Hardware's Nov. 11 fiber story and Nov. 10 optical-transceiver story remain on the data-center page.",
+  "compiled": "2026-11-13",
+  "covers": "Nov 5–13, 2026",
+  "readFirst": "Covers Nov. 5–13. New: Google said Nov. 12 that Gemini 4 Hydrogen is available for agentic work, OpenAI described the same day how automated red teaming improved jailbreak resistance in GPT-6 Astra, and Air & Space Forces Magazine reported the Department of the Air Force is applying an AI strategy across 15 mission areas. The Nov. 5 Moonshot export note, the Nov. 5 Gemini Omni item, and the Nov. 6 Hacktron partnership note were dropped to stay inside the count. No new Anthropic product post dated Nov. 12–13 was opened. Tom's Hardware's Nov. 12 writeup of TPU 8tx and TPU 8i Max tracks a Nov. 9 Google post and was not added as a new announcement. The Open and Local Models subsection is empty. Nvidia's resignation is on the partners page.",
   "subsections": [
     {
       "id": "anthropic",
@@ -41,34 +41,6 @@
   ],
   "items": [
     {
-      "id": "moonshot-blackwell-2026-11-05",
-      "subsection": "policy",
-      "date": "2026-11-05",
-      "dateLabel": "Nov 5",
-      "headline": "Tom's Hardware: Moonshot is seeking European clusters of Nvidia Blackwell GPUs",
-      "summary": "Tom's Hardware reported Nov. 5, citing CNBC, that Moonshot AI, the Chinese lab behind Kimi, is in talks with at least one European data center to lease clusters of 8,000 or more Nvidia Blackwell GPUs for inference, and that it is also interested in training capacity. Tom's Hardware said Chinese companies are banned from acquiring Blackwell and other AI GPUs of the same or better performance that contain U.S. technologies, and that renting capacity abroad has been a way to reach those chips. It said the U.S. House has passed the Remote Access Security Act to close that path, and that the bill still must pass the Senate and the White House. It also said Beijing has blocked H200 imports at the border after the administration allowed those chips to be exported to China.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/policy/chinese-ai-lab-moonshot-reportedly-looked-at-european-data-centers-to-access-nvidia-chips-report-claims-kimi-maker-primarily-interested-in-inferencing-capacity-but-also-asked-about-training-clusters"
-        }
-      ]
-    },
-    {
-      "id": "doj-superintelligence-2026-11-06",
-      "subsection": "policy",
-      "date": "2026-11-06",
-      "dateLabel": "Nov 5–6",
-      "headline": "Federal News Network: Justice Department sets up a Super Intelligence Task Force",
-      "summary": "Federal News Network's Nov. 6 newscast said the Justice Department's new Super Intelligence Task Force will coordinate the use and oversight of artificial intelligence across the agency. The outlet said a memo issued Thursday outlined six focus areas. It said initial duties include organizing the department's criminal and civil law enforcement efforts involving AI, and deconflicting investigations, cases, and other matters among components and U.S. attorneys' offices by applying AI tools. The department will merge its Artificial Intelligence Task Force, created in January, into the new one.",
-      "sources": [
-        {
-          "name": "Federal News Network",
-          "url": "https://federalnewsnetwork.com/federal-newscast/2026/11/dod-and-va-join-forces-to-increase-electronic-health-information-security/"
-        }
-      ]
-    },
-    {
       "id": "claude-fable-2026-11-09",
       "subsection": "anthropic",
       "date": "2026-11-09",
@@ -83,6 +55,20 @@
       ]
     },
     {
+      "id": "openai-fuzzy-2026-11-12",
+      "subsection": "openai",
+      "date": "2026-11-12",
+      "dateLabel": "Nov 12",
+      "headline": "OpenAI says automated red teaming made GPT-6 Astra refuse more cyber jailbreaks",
+      "summary": "OpenAI said Nov. 12 that it used automated red teaming to improve what it calls fuzzy robustness, how reliably a model withholds disallowed help under jailbreak pressure in dual-use areas such as cyber and biology. OpenAI said the method was used to train GPT-6 Astra and Sol, and that on a fixed set of earlier cyber jailbreaks GPT-6 Astra answered 91.5 percent safely, compared with 59 percent for GPT-5.6 Sol. OpenAI said those measurements are of the model without production safeguards, and that deployed high-stakes cyber and biology use still goes through the Daybreak and Rosalind trusted-access programs. OpenAI said the robustness-trained GPT-6 Astra was not more likely to refuse benign tasks.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://alignment.openai.com/fuzzy-robustness/"
+        }
+      ]
+    },
+    {
       "id": "openai-businesses-2026-11-10",
       "subsection": "openai",
       "date": "2026-11-10",
@@ -93,6 +79,20 @@
         {
           "name": "OpenAI",
           "url": "https://openai.com/index/introducing-businesses-chatgpt"
+        }
+      ]
+    },
+    {
+      "id": "gemini-hydrogen-2026-11-12",
+      "subsection": "google",
+      "date": "2026-11-12",
+      "dateLabel": "Nov 12",
+      "headline": "Google releases Gemini 4 Hydrogen for faster agentic work, priced below Carbon",
+      "summary": "Google said Nov. 12 that Gemini 4 Hydrogen is available for coding and agentic work in Google AI Studio, the Gemini API, Gemini for business, the Gemini app, and Google Search. Google said the price is flat across a 1 million-token context window, at $1.50 per million input tokens and $7.50 per million output tokens, and that at the default high thinking level Hydrogen scores 51 on the Artificial Analysis Intelligence Index, compared with 50 for Gemini 4 Argon. Google said Orchestrator in Google Antigravity can switch between Carbon and Hydrogen in one session and, on Terminal-Bench 4.0, reached near-Carbon task success while using 24 percent less quota and finishing 19 percent faster. Google said free users of the Gemini app get Hydrogen through automatic model selection when it fits the prompt.",
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
         }
       ]
     },
@@ -139,16 +139,44 @@
       ]
     },
     {
-      "id": "gemini-omni-2026-11-05",
-      "subsection": "google",
-      "date": "2026-11-05",
-      "dateLabel": "Nov 5",
-      "headline": "Google makes Gemini Omni 1.2 Flash generally available with 15-second video",
-      "summary": "Google said Nov. 5 that Gemini Omni 1.2 Flash is generally available on the Gemini API and Gemini for business, with native video up to 15 seconds, up from 10 seconds in Omni 1.1, and with duration selectable in one-second steps from 3 to 15 seconds. Google said the price is 30 percent lower than Omni 1.1, at $0.07 per second for 720p video, and that users can draft at 360p or 720p and upscale to 1080p or 4K. Google said multi-turn conversational editing works across a full 15-second clip, and that outputs carry a SynthID watermark. Google said the model is also rolling out in Flow, Google Vids, the Gemini app for Google AI Ultra subscribers, and Google Ads.",
+      "id": "h200-shell-companies-2026-11-08",
+      "subsection": "nvidia",
+      "date": "2026-11-08",
+      "dateLabel": "Nov 8",
+      "headline": "Tom's Hardware: two firms cleared to buy Nvidia H200 chips had empty offices",
+      "summary": "Tom's Hardware reported Nov. 8, citing The New York Times, that addresses for two Chinese companies approved to purchase Nvidia H200 chips led to empty offices, and that receptionists at the buildings were unfamiliar with them. Tom's Hardware said the companies' executives are often linked to other firms sanctioned by the United States for providing advanced technology to the Chinese military, and it named the two firms New Matrix and Maginfra. It said better-known approved buyers include Baidu, BYD, Tesla Shanghai, ZTE, Alibaba, Tencent, and ByteDance. Former White House National Security Council China director Liza Tobin told the Times she has concerns that neither the Commerce Department nor Nvidia is doing the due diligence needed to ensure licensing terms are followed.",
       "sources": [
         {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/two-chinese-companies-cleared-to-buy-banned-nvidia-ai-chips-have-empty-offices-and-unknown-addresses-investigation-reveals-businesses-have-ties-to-sanctioned-chinese-military-suppliers"
+        }
+      ]
+    },
+    {
+      "id": "doj-superintelligence-2026-11-06",
+      "subsection": "policy",
+      "date": "2026-11-06",
+      "dateLabel": "Nov 5–6",
+      "headline": "Federal News Network: Justice Department sets up a Super Intelligence Task Force",
+      "summary": "Federal News Network's Nov. 6 newscast said the Justice Department's new Super Intelligence Task Force will coordinate the use and oversight of artificial intelligence across the agency. The outlet said a memo issued Thursday outlined six focus areas. It said initial duties include organizing the department's criminal and civil law enforcement efforts involving AI, and deconflicting investigations, cases, and other matters among components and U.S. attorneys' offices by applying AI tools. The department will merge its Artificial Intelligence Task Force, created in January, into the new one.",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/federal-newscast/2026/11/dod-and-va-join-forces-to-increase-electronic-health-information-security/"
+        }
+      ]
+    },
+    {
+      "id": "daf-ai-strategy-2026-11-12",
+      "subsection": "defense-ai",
+      "date": "2026-11-12",
+      "dateLabel": "Nov 6–12",
+      "headline": "Air Force applies an AI strategy across 15 mission areas, including nuclear operations",
+      "summary": "Air & Space Forces Magazine reported Nov. 12 that the Department of the Air Force is applying an artificial intelligence strategy across 15 mission areas, from intelligence and human resources to nuclear operations. Chief Data and AI Officer Susan Davenport described the plan at the GovCIO AI Summit on Nov. 6 in Tysons, Virginia, and said each area will be overseen by a general officer or senior civilian who tracks governance and data access. She said the data strategy leaves data with the organizations that produce it, instead of copying it through a central team that tags and cleans it. The department told the magazine the blueprint is controlled unclassified information and was not released, and that domain principals will present roadmaps at a showcase in early 2027.",
+      "sources": [
+        {
+          "name": "Air & Space Forces Magazine",
+          "url": "https://www.airandspaceforces.com/air-force-new-ai-strategy-15-mission-areas/"
         }
       ]
     },
@@ -177,34 +205,6 @@
         {
           "name": "OpenAI",
           "url": "https://openai.com/index/introducing-gpt-6-cyber"
-        }
-      ]
-    },
-    {
-      "id": "hacktron-daybreak-2026-11-06",
-      "subsection": "defense-ai",
-      "date": "2026-11-06",
-      "dateLabel": "Nov 6",
-      "headline": "OpenAI says Hacktron will test its systems and gets broader Daybreak Red access",
-      "summary": "OpenAI said Nov. 6 it is partnering with Hacktron to find vulnerabilities in OpenAI's systems, with engineers and Hacktron researchers choosing high-priority areas and a focus on how those systems interact with third-party services. OpenAI said it is expanding Hacktron's access to frontier models through Daybreak Red. OpenAI said it became familiar with Hacktron through its Security Bug Bounty program, and that the team builds AI agents for code review, penetration testing, and red teaming. OpenAI also said that earlier in the week it announced Cathedral's researchers will join its next security sprint, and that it raised bug-bounty rewards.",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/partnering-with-hacktron/"
-        }
-      ]
-    },
-    {
-      "id": "h200-shell-companies-2026-11-08",
-      "subsection": "nvidia",
-      "date": "2026-11-08",
-      "dateLabel": "Nov 8",
-      "headline": "Tom's Hardware: two firms cleared to buy Nvidia H200 chips had empty offices",
-      "summary": "Tom's Hardware reported Nov. 8, citing The New York Times, that addresses for two Chinese companies approved to purchase Nvidia H200 chips led to empty offices, and that receptionists at the buildings were unfamiliar with them. Tom's Hardware said the companies' executives are often linked to other firms sanctioned by the United States for providing advanced technology to the Chinese military, and it named the two firms New Matrix and Maginfra. It said better-known approved buyers include Baidu, BYD, Tesla Shanghai, ZTE, Alibaba, Tencent, and ByteDance. Former White House National Security Council China director Liza Tobin told the Times she has concerns that neither the Commerce Department nor Nvidia is doing the due diligence needed to ensure licensing terms are followed.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/two-chinese-companies-cleared-to-buy-banned-nvidia-ai-chips-have-empty-offices-and-unknown-addresses-investigation-reveals-businesses-have-ties-to-sanctioned-chinese-military-suppliers"
         }
       ]
     }

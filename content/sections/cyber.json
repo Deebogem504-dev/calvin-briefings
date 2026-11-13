@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-12",
-  "covers": "Nov 3–12, 2026",
-  "readFirst": "Covers Nov. 3–12. New: The Hacker News reported Nov. 11 that Malbear Labs described Operation Snowball, a jailbroken DeepSeek model that exploited Cisco BroadWorks at a European telecommunications provider. No CISA KEV alert dated Nov. 11 or Nov. 12 was found. The Nov. 9 entries, including OpenSSH, are due Nov. 12 and still require forensic triage. The Barracuda pair is due Nov. 13. SonicWall CVE-2026-19868 remains due Nov. 20. The Nov. 4 Apple KEV item was removed because it is no longer the current patching priority. Nextgov's Nov. 9 report that Trump nominated Palantir CISO Michael LoSapio to lead CISA was already public and was not repeated.",
+  "compiled": "2026-11-13",
+  "covers": "Nov 3–13, 2026",
+  "readFirst": "Covers Nov. 3–13. New: the Justice Department said Nov. 3, and Federal News Network reported Nov. 12, that ILC Dover and ILC Astrospace agreed to pay $13 million over alleged cybersecurity failures on Army, Missile Defense Agency, and NASA contracts. DefenseScoop reported Nov. 12 that Army CID is seeking commercial software to monitor the darknet and encrypted messaging. The Nov. 9 KEV additions were removed because their Nov. 12 due date has passed. Barracuda CVE-2026-111560 and CVE-2026-116606 are due today, Nov. 13. No new CISA KEV alert dated Nov. 12 or Nov. 13 was found. SonicWall CVE-2026-19868 remains due Nov. 20.",
   "subsections": [
     {
       "id": "kev",
@@ -24,6 +24,42 @@
     }
   ],
   "items": [
+    {
+      "id": "kev-six-2026-11-10",
+      "subsection": "kev",
+      "date": "2026-11-10",
+      "dateLabel": "Nov 10",
+      "headline": "CISA adds Cisco, Barracuda, Openwave, Outlook, and Chromium bugs to KEV",
+      "summary": "CISA said Nov. 10 it added six vulnerabilities to the Known Exploited Vulnerabilities catalog: CVE-2026-20320 in Cisco BroadWorks, CVE-2026-111560 and CVE-2026-116606 in Barracuda Networks products, CVE-2026-111793 in Openwave Messaging Webtop Media Transcoder, CVE-2026-124194 in Microsoft Office Outlook, and CVE-2026-125350 in Google Chromium. The catalog sets a due date of Nov. 13 for both Barracuda entries and requires forensic triage; it says the command-injection bug and the email-gateway authentication bypass can be chained. The other four are due Nov. 24, do not require forensic triage, and list ransomware use as unknown. CISA said the BroadWorks bug could let an unauthenticated remote attacker read configuration information, the Outlook bug could allow spoofing over a network, and the Chromium bug could allow code execution inside the sandbox via a crafted webpage, including in Chrome, Edge, and Opera.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
+    {
+      "id": "sonicwall-kev-2026-11-06",
+      "subsection": "kev",
+      "date": "2026-11-06",
+      "dateLabel": "Nov 6",
+      "headline": "CISA adds a SonicWall SSL VPN authentication bug to the KEV catalog, due Nov. 20",
+      "summary": "CISA said Nov. 6 it added CVE-2026-19868, a SonicWall SonicOS SSLVPN use-of-single-factor-authentication vulnerability, to the Known Exploited Vulnerabilities catalog. The catalog says the bug may let a user with valid credentials for an alternate authentication method bypass SAML authentication controls, and that successful exploitation may also bypass SAML-enforced multi-factor authentication. The catalog sets a due date of Nov. 20, does not require forensic triage, and lists ransomware use as unknown. CISA said this type of vulnerability is a frequent attack vector and poses significant risk to the federal enterprise.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
     {
       "id": "operation-snowball-2026-11-11",
       "subsection": "incidents",
@@ -81,56 +117,34 @@
       ]
     },
     {
-      "id": "kev-six-2026-11-10",
-      "subsection": "kev",
-      "date": "2026-11-10",
-      "dateLabel": "Nov 10",
-      "headline": "CISA adds Cisco, Barracuda, Openwave, Outlook, and Chromium bugs to KEV",
-      "summary": "CISA said Nov. 10 it added six vulnerabilities to the Known Exploited Vulnerabilities catalog: CVE-2026-20320 in Cisco BroadWorks, CVE-2026-111560 and CVE-2026-116606 in Barracuda Networks products, CVE-2026-111793 in Openwave Messaging Webtop Media Transcoder, CVE-2026-124194 in Microsoft Office Outlook, and CVE-2026-125350 in Google Chromium. The catalog sets a due date of Nov. 13 for both Barracuda entries and requires forensic triage; it says the command-injection bug and the email-gateway authentication bypass can be chained. The other four are due Nov. 24, do not require forensic triage, and list ransomware use as unknown. CISA said the BroadWorks bug could let an unauthenticated remote attacker read configuration information, the Outlook bug could allow spoofing over a network, and the Chromium bug could allow code execution inside the sandbox via a crafted webpage, including in Chrome, Edge, and Opera.",
+      "id": "ilc-fca-2026-11-12",
+      "subsection": "trends",
+      "date": "2026-11-12",
+      "dateLabel": "Nov 3–12",
+      "headline": "ILC agrees to pay $13 million over alleged cyber failures on Army, MDA, and NASA contracts",
+      "summary": "The Justice Department said Nov. 3 that ILC Dover LP and ILC Astrospace LLC, of Frederica, Delaware, agreed to pay $13 million to resolve False Claims Act allegations that they billed the Army, the Missile Defense Agency, and NASA from January 2018 to October 2024 without meeting contractual cybersecurity requirements. The department said the claims are allegations only and there has been no determination of liability. It said the allegations include storing controlled unclassified information with a third party that was not shown to meet a FedRAMP Moderate equivalent, failing to keep system security plans current, and not fully implementing NIST Special Publications 800-171 and 800-53. Whistleblower Philip Root, ILC's former director of cybersecurity, will receive $2.35 million, and Federal News Network reported the settlement on Nov. 12.",
       "sources": [
         {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog"
+          "name": "Department of Justice",
+          "url": "https://www.justice.gov/opa/pr/defense-and-aerospace-contractors-ilc-dover-and-ilc-astrospace-agree-pay-13m-resolve"
         },
         {
-          "name": "CISA KEV catalog",
-          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/litigation/2026/11/dod-contractor-to-pay-13-million-over-alleged-cyber-compliance-failures-in-army-mda-nasa-contracts/"
         }
       ]
     },
     {
-      "id": "kev-four-2026-11-09",
-      "subsection": "kev",
-      "date": "2026-11-09",
-      "dateLabel": "Nov 9",
-      "headline": "CISA adds GPUStack, FreeSWITCH, OpenSSH, and IBM Aspera bugs to KEV, due Nov. 12",
-      "summary": "CISA said Nov. 9 it added four vulnerabilities to the Known Exploited Vulnerabilities catalog: CVE-2026-102895 in GPUStack, CVE-2026-116779 in SignalWire FreeSWITCH, CVE-2026-123158 in OpenSSH, and CVE-2026-123218 in IBM Aspera Faspex. The catalog sets a due date of Nov. 12 for each, requires forensic triage, and lists ransomware use as unknown. It says the GPUStack bug could allow unauthenticated administrative access, the FreeSWITCH bug could allow code injection, the OpenSSH bug on Linux could allow authentication bypass, and the Aspera Faspex bug could let an authenticated user bypass authorization and escalate privileges. CISA said this type of vulnerability is a frequent attack vector and poses significant risk to the federal enterprise.",
+      "id": "army-cid-rfi-2026-11-12",
+      "subsection": "trends",
+      "date": "2026-11-12",
+      "dateLabel": "Nov 12",
+      "headline": "Army CID asks industry for AI tools to watch the darknet and encrypted messaging",
+      "summary": "DefenseScoop reported Nov. 12 that Army Criminal Investigation Division released a request for information for a cloud-hosted commercial platform that would use behavioral analytics, machine learning, and artificial intelligence to monitor the darknet and encrypted messaging services, including Signal, Telegram, and Discord. The request says adversaries have left mainstream sites to plan hostile actions against Department of War personnel, high-value assets, and Army infrastructure. DefenseScoop said the capability matrix asks for tools that flag early signs of mobilization to violence, link anonymous accounts across platforms, and archive deleted or short-lived content. Industry responses are due Dec. 9.",
       "sources": [
         {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog"
-        },
-        {
-          "name": "CISA KEV catalog",
-          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
-        }
-      ]
-    },
-    {
-      "id": "sonicwall-kev-2026-11-06",
-      "subsection": "kev",
-      "date": "2026-11-06",
-      "dateLabel": "Nov 6",
-      "headline": "CISA adds a SonicWall SSL VPN authentication bug to the KEV catalog, due Nov. 20",
-      "summary": "CISA said Nov. 6 it added CVE-2026-19868, a SonicWall SonicOS SSLVPN use-of-single-factor-authentication vulnerability, to the Known Exploited Vulnerabilities catalog. The catalog says the bug may let a user with valid credentials for an alternate authentication method bypass SAML authentication controls, and that successful exploitation may also bypass SAML-enforced multi-factor authentication. The catalog sets a due date of Nov. 20, does not require forensic triage, and lists ransomware use as unknown. CISA said this type of vulnerability is a frequent attack vector and poses significant risk to the federal enterprise.",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog"
-        },
-        {
-          "name": "CISA KEV catalog",
-          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+          "name": "DefenseScoop",
+          "url": "https://defensescoop.com/2026/11/12/army-cid-software-darknet-encrypted-messaging/"
         }
       ]
     },

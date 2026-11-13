@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-12",
-  "covers": "Nov 3–12, 2026",
-  "readFirst": "Covers Nov. 3–12. New: Federal News Network, carrying the Associated Press, reported that the House on Tuesday blocked a resolution to impeach Secretary Hegseth, 211-204. No war.gov daily contracts release for Nov. 11 or Nov. 12 could be opened; the contracts index returned a 403. No new Army or Department of War enterprise software agreement was found. No new Golden Dome award dated Nov. 11–12 was found. The Poland statement of intent remains. The Office of Strategic Capital's Rocket Lab loan remains on the tech page.",
+  "compiled": "2026-11-13",
+  "covers": "Nov 3–13, 2026",
+  "readFirst": "Covers Nov. 3–13. New: Breaking Defense reported Nov. 12 that a Hegseth memo dated Nov. 2 would treat the special operations civilian office like a service secretary, with Congress still required for an undersecretary, and DefenseScoop reported the same day that Joint Interagency Task Force 401 has asked the intelligence community for counter-drone threat assessments. The Nov. 3 Project Meridian lawsuit note and the Nov. 4 item on Hegseth remaining in office were dropped to stay inside the count. No new Golden Dome award dated Nov. 12–13 was found. No war.gov daily contracts release for Nov. 12 or Nov. 13 was opened. No new Army or Department of War enterprise software agreement was found. The Poland statement of intent remains.",
   "subsections": [
     {
       "id": "secwar",
@@ -28,6 +28,24 @@
     }
   ],
   "items": [
+    {
+      "id": "oss-elevation-2026-11-12",
+      "subsection": "secwar",
+      "date": "2026-11-12",
+      "dateLabel": "Nov 2–12",
+      "headline": "Hegseth's memo would seat the special operations civilian with the service secretaries",
+      "summary": "Breaking Defense reported Nov. 12 that Secretary Pete Hegseth released a memo, dated Nov. 2, that would treat the assistant secretary for special operations and low-intensity conflict, a role it said Derrick Anderson holds, like a service secretary, and that legislative affairs must draft a proposal for an undersecretary of strategic services. Breaking Defense said the memo adds the title of assistant secretary of war for the Office of Strategic Services without a statutory rename, moves 75 civilians and 25 joint-staff personnel to the office within 60 days, and tells the comptroller to find $45 million a year from operations and maintenance. The Department of War's release the same day said the office is immediately empowered with that funding, 100 billets, and direct budgetary and acquisition authority over special operations-peculiar matters. Kori Schake of the American Enterprise Institute told Breaking Defense that Congress would have to authorize the change and appropriate the money.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/hegseth-seeks-to-elevate-top-sof-civilian-to-service-secretary-equivalent/"
+        },
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4643910/secretary-of-war-pete-hegseth-elevates-special-operations-leadership-to-revital/"
+        }
+      ]
+    },
     {
       "id": "house-impeachment-vote-2026-11-10",
       "subsection": "secwar",
@@ -71,16 +89,16 @@
       ]
     },
     {
-      "id": "hegseth-stays-2026-11-04",
-      "subsection": "secwar",
-      "date": "2026-11-04",
-      "dateLabel": "Nov 4",
-      "headline": "Trump tells reporters Hegseth is staying after the midterm losses",
-      "summary": "ABC News reported Nov. 4 that President Donald Trump said Wednesday that Defense Secretary Pete Hegseth would remain on the job and told reporters he was doing a great job, while acknowledging that the war with Iran had contributed to Republicans' midterm losses. Pentagon spokesperson Sean Parnell told ABC News that Hegseth is 100 percent committed to leading the department until the end of President Trump's term and will not be deterred by what Parnell called phony investigations. ABC News said Democrats are preparing to use their new congressional majority to scrutinize the Pentagon, with Hegseth expected to be a target for possible impeachment, including the Iran war, strikes on suspected drug-smuggling boats, and firings of senior officers. ABC News said Vice President JD Vance wrote that the reason Republicans lost is the war, and that its voter poll found 34 percent of U.S. House voters called the Iran war crucial to their vote.",
+      "id": "jiatf-ic-threat-2026-11-12",
+      "subsection": "acquisition",
+      "date": "2026-11-12",
+      "dateLabel": "Nov 9–12",
+      "headline": "JIATF-401 asks the intelligence community for site-specific counter-drone threat assessments",
+      "summary": "DefenseScoop reported Nov. 12 that Brig. Gen. Matt Ross, director of Joint Interagency Task Force 401, said the task force has asked the intelligence community for authoritative assessments of counter-drone threats at home and abroad. Lt. Col. Adam Scher told DefenseScoop the task force is working with the Office of the Director of National Intelligence to assess adversary tactics, and that what protects an Army barracks can differ from what an airfield needs. Liam McKenna of the Federal Aviation Administration said a memorandum signed by the departments of Defense, Transportation, Homeland Security, Energy, and Justice is not approved for public release. He said that if the FAA has already reviewed a counter-drone system for one department, another department can often reach an agreement on its use within 24 hours.",
       "sources": [
         {
-          "name": "ABC News",
-          "url": "https://abcnews.com/Politics/trump-dismisses-prospect-replacing-hegseth-amid-iran-war/story?id=137852219"
+          "name": "DefenseScoop",
+          "url": "https://defensescoop.com/2026/11/12/counter-drone-task-force-intelligence-community-threat-assessments/"
         }
       ]
     },
@@ -131,16 +149,20 @@
       ]
     },
     {
-      "id": "meridian-lawsuit-2026-11-03",
-      "subsection": "acquisition",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "Watchdogs sued to shut down Hegseth's Project Meridian future-of-warfare panel",
-      "summary": "Military.com reported Nov. 3 that Citizens for Responsibility and Ethics in Washington, Public Citizen, and the Project On Government Oversight sued in federal court in Washington to shut down Project Meridian, naming the department, Secretary Pete Hegseth, and Undersecretary for Research and Engineering Emil Michael. The complaint says the panel violates the Federal Advisory Committee Act, and Military.com said it counts 19 of 21 people involved as private-sector figures. Military.com said Hegseth commissioned the study in a Sept. 30 memo, told Michael to run it through a partner organization, and set findings for Jan. 28, 2027. A MITRE spokesperson told Military.com the Department of War contracted with MITRE's National Security Engineering Center to conduct the study, and a Pentagon spokesperson said the department does not comment on pending legislation.",
+      "id": "viasat-moc-2026-11-06",
+      "subsection": "goldendome",
+      "date": "2026-11-06",
+      "dateLabel": "Nov 6",
+      "headline": "Space Force awards Viasat up to $450 million for a Golden Dome data-network operations center",
+      "summary": "Breaking Defense reported Nov. 6 that the Space Force, in partnership with the Pentagon's Golden Dome office, awarded Viasat an indefinite-delivery/indefinite-quantity contract with a $450 million ceiling to design, field, and scale a Mission Operations Center for the Space Data Network Backbone. DefenseScoop reported the same day that the initial task order is valued at $115 million, and that the Pentagon earlier awarded SpaceX a $2.3 billion contract for a fully operational prototype of the low-Earth-orbit backbone by the end of 2027. Breaking Defense said Space Systems Command described the center as the central network orchestration hub for that backbone. DefenseScoop quoted Lt. Col. Alexa Eggert, materiel leader for the program, saying the center is a crucial step in maturing the network into a fully operational, multi-vendor capability.",
       "sources": [
         {
-          "name": "Military.com",
-          "url": "https://www.military.com/hegseths-future-of-warfare-panel-is-stacked-with-contractors-who-stand-to-profit-lawsuit-says"
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/dod-taps-viasat-to-field-operations-center-for-golden-dome-satellite-data-relay-network/"
+        },
+        {
+          "name": "DefenseScoop",
+          "url": "https://defensescoop.com/2026/11/06/pentagon-mission-operations-center-space-data-network/"
         }
       ]
     },
@@ -187,24 +209,6 @@
         {
           "name": "Defense News",
           "url": "https://www.defensenews.com/industry/2026/11/03/us-air-force-asks-industry-for-new-cruise-missile-for-ukraine/"
-        }
-      ]
-    },
-    {
-      "id": "viasat-moc-2026-11-06",
-      "subsection": "goldendome",
-      "date": "2026-11-06",
-      "dateLabel": "Nov 6",
-      "headline": "Space Force awards Viasat up to $450 million for a Golden Dome data-network operations center",
-      "summary": "Breaking Defense reported Nov. 6 that the Space Force, in partnership with the Pentagon's Golden Dome office, awarded Viasat an indefinite-delivery/indefinite-quantity contract with a $450 million ceiling to design, field, and scale a Mission Operations Center for the Space Data Network Backbone. DefenseScoop reported the same day that the initial task order is valued at $115 million, and that the Pentagon earlier awarded SpaceX a $2.3 billion contract for a fully operational prototype of the low-Earth-orbit backbone by the end of 2027. Breaking Defense said Space Systems Command described the center as the central network orchestration hub for that backbone. DefenseScoop quoted Lt. Col. Alexa Eggert, materiel leader for the program, saying the center is a crucial step in maturing the network into a fully operational, multi-vendor capability.",
-      "sources": [
-        {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/11/dod-taps-viasat-to-field-operations-center-for-golden-dome-satellite-data-relay-network/"
-        },
-        {
-          "name": "DefenseScoop",
-          "url": "https://defensescoop.com/2026/11/06/pentagon-mission-operations-center-space-data-network/"
         }
       ]
     }

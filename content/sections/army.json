@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-12",
-  "covers": "Nov 3–12, 2026",
-  "readFirst": "Covers Nov. 3–12. New: Breaking Defense reported Nov. 11 an interview on Next Generation Command and Control across Pacific distances, and Safe Pro said Nov. 10 that the Army awarded it a $2.5 million prime contract to run threat-detection software on Anduril Ghost-X drones for Abrams tanks. That company release was not in the prior edition. No new NETCOM release and no new Army enterprise agreement were found in Army CIO reporting, ESI, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. The war.gov contracts index returned a 403, so no Nov. 11 or Nov. 12 contracts release was opened. EIN Presswire's Safe Pro lead was followed to GlobeNewswire. Brig. Gen. Sutten is still scheduled to assume command of CECOM at Aberdeen on Nov. 16.",
+  "compiled": "2026-11-13",
+  "covers": "Nov 3–13, 2026",
+  "readFirst": "Covers Nov. 3–13. New: the Department of War reported Nov. 12 that the 25th Infantry Division, one of two next-generation command-and-control divisions, is pushing cloud compute down to company level on mesh radios during a Hawaii exercise, and Breaking Defense reported the same day that Army Materiel Command will replace small attack drones rather than stockpile them. The Nov. 4 VICTOR hybrid-drone lab note was dropped to stay inside the count. No new NETCOM release and no new Army enterprise agreement were found in Army CIO reporting, ESI, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. EIN News returned a 403, so no EIN lead was opened. Brig. Gen. Sutten is still scheduled to assume command of CECOM at Aberdeen on Nov. 16.",
   "subsections": [
     {
       "id": "leadership",
@@ -61,6 +61,20 @@
       ]
     },
     {
+      "id": "small-drones-replace-2026-11-12",
+      "subsection": "modernization",
+      "date": "2026-11-12",
+      "dateLabel": "Nov 12",
+      "headline": "Army Materiel Command says small attack drones will be replaced, not stockpiled",
+      "summary": "Breaking Defense reported Nov. 12 that Jon Strzelec, Army Materiel Command's advanced manufacturing lead for small drones, said the Army told his team that small drones will not be stored on shelves and that the service will manufacture to deliver, not to stock. He said a countermeasure can appear within 72 hours in Ukraine, and that building a new drone is cheaper than pulling a circuit card, flashing software, and returning the aircraft to service. He said the Army was receiving 10,000 of the first 30,000 small drones from Drone Dominance Gauntlet 1, and that those aircraft go to units for training and are not sustained after they break. He said Group 2 drones, which he described as 21 to 55 pounds and used for reconnaissance or delivery, are more likely to be kept in service because the mission and the cost are different.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/instead-of-stockpiling-small-attack-drones-army-looking-to-simply-buy-new-ones/"
+        }
+      ]
+    },
+    {
       "id": "launched-effects-2026-11-09",
       "subsection": "modernization",
       "date": "2026-11-09",
@@ -85,48 +99,6 @@
         {
           "name": "DVIDS",
           "url": "https://www.dvidshub.net/news/578606/army-merges-aerial-and-terrestrial-sensor-offices-deliver-capabilities-soldiers-faster"
-        }
-      ]
-    },
-    {
-      "id": "victor-drone-2026-11-04",
-      "subsection": "modernization",
-      "date": "2026-11-04",
-      "dateLabel": "Nov 4",
-      "headline": "Tom's Hardware: Army lab flew a hybrid-electric drone with a 3D-printed heavy-fuel engine",
-      "summary": "Tom's Hardware reported Nov. 4 that researchers at the U.S. Army Combat Capabilities Development Command Army Research Laboratory flew the VICTOR hybrid-electric drone with a heavy-fuel rotary engine developed using metal 3D printing. Tom's Hardware said the engine drives a 400-volt motor-generator that electrically drives the propellers, and that the drone uses JP-8. It quoted Dr. Kweon, an Army Research Laboratory researcher, telling Army.mil that 3D metal printing let the team redesign components from experimentation, build an air-cooled engine, and drop a bulky liquid-cooling system. Tom's Hardware said that iteration improved fuel atomization and decreased compression leaks.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/drones/us-army-successfully-flies-a-hybrid-electric-drone-with-3d-printed-heavy-fuel-rotary-engine-400v-motor-generator-uses-advanced-engineering-to-ditch-a-bulky-liquid-cooling-system"
-        }
-      ]
-    },
-    {
-      "id": "ngc2-pacific-2026-11-11",
-      "subsection": "network",
-      "date": "2026-11-11",
-      "dateLabel": "Nov 11",
-      "headline": "Breaking Defense: a CNAS fellow says NGC2 has to connect nodes thousands of miles apart",
-      "summary": "Breaking Defense reported Nov. 11 an interview with Josh Wallin, a defense program fellow at the Center for a New American Security, on the Army's Next Generation Command and Control effort. Wallin said an Indo-Pacific fight raises the problem of connecting systems that may be thousands of miles apart, and that bandwidth is strained by the volume of transmissions needed to keep distributed forces synchronized. He said NGC2 is trying to separate data links and radios from compute and from the data layer, so a jammed satellite terminal could be swapped without rebuilding the software above it. He also said the Army wants data that used to sit in separate air-defense, logistics, and fires systems to be usable across functions, with artificial intelligence used to automate parts of analysis that are still manual.",
-      "sources": [
-        {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/11/the-armys-coming-c2-challenge-is-fighting-across-thousands-of-miles/"
-        }
-      ]
-    },
-    {
-      "id": "l3harris-hawkeye-2026-11-03",
-      "subsection": "network",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "L3Harris receives a $36 million Army order for Hawkeye 4 Lite SATCOM terminals",
-      "summary": "L3Harris said Nov. 3 in Melbourne, Florida, that it received a $36 million order in support of the U.S. Army for the Hawkeye 4 Lite satellite communications terminal. The company said the order will field under the Command and Control Network Optimized for Warfighting initiative, which it calls C2NOW, to improve secure SATCOM interoperability between the United States and NATO partners. Faisal Munir, president of Mission Critical Communications, said L3Harris is ready to support the Army with resilient, expeditionary communications that align with its modernization priorities. L3Harris said the Army configuration uses a rapidly deployable Hawkeye 4 Lite terminal with field-swappable components.",
-      "sources": [
-        {
-          "name": "L3Harris",
-          "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-receives-satcom-order-us-army-support-key-command-and"
         }
       ]
     },
@@ -183,6 +155,48 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/Contracts/Contract/Article/4641708/contracts-for-nov-4-2026/"
+        }
+      ]
+    },
+    {
+      "id": "ngc2-hawaii-2026-11-12",
+      "subsection": "network",
+      "date": "2026-11-12",
+      "dateLabel": "Nov 12",
+      "headline": "25th Infantry Division says it is pushing next-gen command-and-control compute to company level",
+      "summary": "The Department of War reported Nov. 12 that the 25th Infantry Division and partners are in Joint Pacific Multinational Readiness Center Rotation 27-01 in Hawaii, after the 11th Airborne Division flew 300 paratroopers 3,000 miles from Alaska. Maj. Gen. Jeff VanAntwerp, the division commander, said the 25th is one of two next-generation command-and-control-enabled divisions and that its cloud-based architecture pushes a good amount of compute from brigades down to the company level. He said the division is adding a secure network on top of mesh radios and commercially available devices so dispersed units have more computing power and tools for commanders. In the Lightning Surge 6 exercise, soldiers are limiting electronic transmissions at night and testing whether they can stay connected on tactical mesh radios and secure, unclassified data layers ahead of a long-range maritime air assault.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4647175/army-allies-prepare-for-long-range-air-assault-in-hawaii/"
+        }
+      ]
+    },
+    {
+      "id": "ngc2-pacific-2026-11-11",
+      "subsection": "network",
+      "date": "2026-11-11",
+      "dateLabel": "Nov 11",
+      "headline": "Breaking Defense: a CNAS fellow says NGC2 has to connect nodes thousands of miles apart",
+      "summary": "Breaking Defense reported Nov. 11 an interview with Josh Wallin, a defense program fellow at the Center for a New American Security, on the Army's Next Generation Command and Control effort. Wallin said an Indo-Pacific fight raises the problem of connecting systems that may be thousands of miles apart, and that bandwidth is strained by the volume of transmissions needed to keep distributed forces synchronized. He said NGC2 is trying to separate data links and radios from compute and from the data layer, so a jammed satellite terminal could be swapped without rebuilding the software above it. He also said the Army wants data that used to sit in separate air-defense, logistics, and fires systems to be usable across functions, with artificial intelligence used to automate parts of analysis that are still manual.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/the-armys-coming-c2-challenge-is-fighting-across-thousands-of-miles/"
+        }
+      ]
+    },
+    {
+      "id": "l3harris-hawkeye-2026-11-03",
+      "subsection": "network",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "L3Harris receives a $36 million Army order for Hawkeye 4 Lite SATCOM terminals",
+      "summary": "L3Harris said Nov. 3 in Melbourne, Florida, that it received a $36 million order in support of the U.S. Army for the Hawkeye 4 Lite satellite communications terminal. The company said the order will field under the Command and Control Network Optimized for Warfighting initiative, which it calls C2NOW, to improve secure SATCOM interoperability between the United States and NATO partners. Faisal Munir, president of Mission Critical Communications, said L3Harris is ready to support the Army with resilient, expeditionary communications that align with its modernization priorities. L3Harris said the Army configuration uses a rapidly deployable Hawkeye 4 Lite terminal with field-swappable components.",
+      "sources": [
+        {
+          "name": "L3Harris",
+          "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-receives-satcom-order-us-army-support-key-command-and"
         }
       ]
     }

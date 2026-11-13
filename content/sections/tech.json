@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-12",
-  "covers": "Nov 3–12, 2026",
-  "readFirst": "Covers Nov. 3–12. No new post-quantum standard or Army quantum award dated Nov. 11–12 was found. CISA's Nov. 5 vendor questions remain on the cyber page. SpaceX's Nov. 11 Kessel rack report is on the data-center page. The compute and quantum subsections are empty. DeepMind's Nov. 10 robotics model remains the newest autonomy item.",
+  "compiled": "2026-11-13",
+  "covers": "Nov 3–13, 2026",
+  "readFirst": "Covers Nov. 3–13. New: Breaking Defense reported Nov. 12 that the Space Development Agency awarded SpaceX $9.9 million to study connecting Plaser laser terminals with missile-tracking satellites. No new post-quantum standard or Army quantum award dated Nov. 12–13 was found. The compute subsection is empty. The Nov. 6 report that those laser waveforms do not match remains.",
   "subsections": [
     {
       "id": "quantum",
@@ -28,6 +28,48 @@
     }
   ],
   "items": [
+    {
+      "id": "gemini-robotics-2026-11-10",
+      "subsection": "autonomy",
+      "date": "2026-11-10",
+      "dateLabel": "Nov 10",
+      "headline": "DeepMind says Gemini Robotics 2.5 kitted parts at 96 percent on a Mercedes line",
+      "summary": "Google DeepMind said Nov. 10 that Gemini Robotics 2.5 is its most capable vision-language-action model and is rolling out to robotics partners. DeepMind said a proof of concept with Apptronik and Mercedes-Benz used Apollo 2 humanoids to pick and pack automotive parts on production lines in Kecskemét, Hungary, and Sindelfingen, Germany, at a 96 percent success rate. DeepMind said the model was evaluated across more than 200 tasks and, compared with previous baselines, raised success rates by 30 to 100 percent depending on the task while finishing 20 to 30 percent faster. DeepMind said inference-time guidance raised safe task completion by 33 percent around obstacles and 43 percent around nearby people.",
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+        }
+      ]
+    },
+    {
+      "id": "truas-demo-2026-11-03",
+      "subsection": "autonomy",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "Navy and Marine Corps will demo TRUAS cargo drones in Huntsville in early 2027",
+      "summary": "Defense News reported Nov. 3 that the U.S. Marine Corps and Navy will hold a technology demonstration from Jan. 25 to Feb. 5, 2027, in Huntsville, Alabama, for Increment II of the Marine Corps Tactical Resupply Unmanned Aircraft System. The outlet said the Navy's Air Warfare Program Management Office is sponsoring the event, and that contractors will perform up to five flights and show ground setup. Defense News said the first required flight carries a 100-pound payload up to 40 nautical miles and returns without refueling, and the second carries at least 150 pounds out to 10 nautical miles. It said the aircraft must have a speed of at least 50 knots per hour, stay at or below 1,000 feet during those flights, and launch and recover without a catapult or arresting gear.",
+      "sources": [
+        {
+          "name": "Defense News",
+          "url": "https://www.defensenews.com/industry/techwatch/2026/11/03/defense-contractors-to-demo-cargo-drones-for-us-marine-corps/"
+        }
+      ]
+    },
+    {
+      "id": "sda-plaser-study-2026-11-12",
+      "subsection": "space",
+      "date": "2026-11-12",
+      "dateLabel": "Nov 11–12",
+      "headline": "Space Development Agency pays SpaceX $9.9 million to study Plaser links to missile trackers",
+      "summary": "Breaking Defense reported Nov. 12 that the Space Development Agency awarded SpaceX a $9.9 million contract, with options worth up to nearly $12.7 million, to study how the company's Plaser laser terminals can connect with the agency's missile-tracking satellites. An SDA spokesperson said the study covers hardware, software, and connectivity for moving data from the Tracking Layer to the Plasers, and that the work runs through Oct. 7, 2027, including a risk-reduction study and representative hardware. Breaking Defense said the optical terminals on the Space Data Network Backbone and on Space Development Agency and Space Systems Command missile-warning satellites use different waveforms. The spokesperson called the study a first step, with several hardware and software paths still open.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/sda-explores-integration-of-spacex-laser-communication-terminals-with-missile-tracking-sats/"
+        }
+      ]
+    },
     {
       "id": "rocket-lab-osc-2026-11-09",
       "subsection": "space",
@@ -67,34 +109,6 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/Releases/Release/Article/4641087/department-of-wars-office-of-strategic-capital-signs-150-million-conditional-lo/"
-        }
-      ]
-    },
-    {
-      "id": "gemini-robotics-2026-11-10",
-      "subsection": "autonomy",
-      "date": "2026-11-10",
-      "dateLabel": "Nov 10",
-      "headline": "DeepMind says Gemini Robotics 2.5 kitted parts at 96 percent on a Mercedes line",
-      "summary": "Google DeepMind said Nov. 10 that Gemini Robotics 2.5 is its most capable vision-language-action model and is rolling out to robotics partners. DeepMind said a proof of concept with Apptronik and Mercedes-Benz used Apollo 2 humanoids to pick and pack automotive parts on production lines in Kecskemét, Hungary, and Sindelfingen, Germany, at a 96 percent success rate. DeepMind said the model was evaluated across more than 200 tasks and, compared with previous baselines, raised success rates by 30 to 100 percent depending on the task while finishing 20 to 30 percent faster. DeepMind said inference-time guidance raised safe task completion by 33 percent around obstacles and 43 percent around nearby people.",
-      "sources": [
-        {
-          "name": "Google DeepMind",
-          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
-        }
-      ]
-    },
-    {
-      "id": "truas-demo-2026-11-03",
-      "subsection": "autonomy",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "Navy and Marine Corps will demo TRUAS cargo drones in Huntsville in early 2027",
-      "summary": "Defense News reported Nov. 3 that the U.S. Marine Corps and Navy will hold a technology demonstration from Jan. 25 to Feb. 5, 2027, in Huntsville, Alabama, for Increment II of the Marine Corps Tactical Resupply Unmanned Aircraft System. The outlet said the Navy's Air Warfare Program Management Office is sponsoring the event, and that contractors will perform up to five flights and show ground setup. Defense News said the first required flight carries a 100-pound payload up to 40 nautical miles and returns without refueling, and the second carries at least 150 pounds out to 10 nautical miles. It said the aircraft must have a speed of at least 50 knots per hour, stay at or below 1,000 feet during those flights, and launch and recover without a catapult or arresting gear.",
-      "sources": [
-        {
-          "name": "Defense News",
-          "url": "https://www.defensenews.com/industry/techwatch/2026/11/03/defense-contractors-to-demo-cargo-drones-for-us-marine-corps/"
         }
       ]
     }

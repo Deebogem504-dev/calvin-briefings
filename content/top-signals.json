@@ -1,52 +1,52 @@
 {
   "signals": [
     {
+      "section": "partners",
+      "label": "PARTNERS",
+      "dateLabel": "Nov 12",
+      "headline": "Huang resigned; Colette Kress is interim Nvidia CEO",
+      "item": "nvidia-kress-interim-2026-11-12",
+      "href": "partners.html#nvidia"
+    },
+    {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Nov 10",
-      "headline": "House blocks the Hegseth impeachment push, 211-204",
-      "item": "house-impeachment-vote-2026-11-10",
+      "dateLabel": "Nov 2–12",
+      "headline": "Hegseth moves to seat special operations with the service secretaries",
+      "item": "oss-elevation-2026-11-12",
       "href": "dow.html#secwar"
     },
     {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Nov 10",
-      "headline": "Safe Pro says the Army awarded $2.5 million for Ghost-X threat detection",
-      "item": "safe-pro-ghostx-2026-11-10",
-      "href": "army.html#contracts"
-    },
-    {
-      "section": "ai",
-      "label": "AI",
-      "dateLabel": "Nov 11",
-      "headline": "Helsing unveils Clarity, a European military intelligence platform",
-      "item": "helsing-clarity-2026-11-11",
-      "href": "ai.html#defense-ai"
+      "dateLabel": "Nov 12",
+      "headline": "25th Infantry Division is pushing NGC2 compute to company level",
+      "item": "ngc2-hawaii-2026-11-12",
+      "href": "army.html#network"
     },
     {
       "section": "cyber",
       "label": "CYBER",
-      "dateLabel": "Nov 11",
-      "headline": "A jailbroken model exploited BroadWorks at a European telecom",
-      "item": "operation-snowball-2026-11-11",
-      "href": "cyber.html#incidents"
+      "dateLabel": "Nov 3–12",
+      "headline": "ILC agrees to pay $13 million over alleged Army, MDA, and NASA cyber failures",
+      "item": "ilc-fca-2026-11-12",
+      "href": "cyber.html#trends"
     },
     {
-      "section": "partners",
-      "label": "PARTNERS",
-      "dateLabel": "Nov 11",
-      "headline": "Nvidia's board is reportedly preparing to remove Jensen Huang",
-      "item": "nvidia-board-oust-2026-11-11",
-      "href": "partners.html#nvidia"
+      "section": "ai",
+      "label": "AI",
+      "dateLabel": "Nov 12",
+      "headline": "Google releases Gemini 4 Hydrogen for faster agentic work",
+      "item": "gemini-hydrogen-2026-11-12",
+      "href": "ai.html#google"
     },
     {
-      "section": "datacenter",
-      "label": "DC/NET",
-      "dateLabel": "Nov 11",
-      "headline": "SoftBank takes a $3.7 billion hit canceling data-center turbines",
-      "item": "softbank-turbines-2026-11-11",
-      "href": "datacenter.html#power"
+      "section": "budget",
+      "label": "BUDGET",
+      "dateLabel": "Nov 12",
+      "headline": "Senate Democrats want Iran-war limits on the Dec. 11 stopgap",
+      "item": "iran-cr-2026-11-12",
+      "href": "budget.html#approps"
     }
   ]
 }

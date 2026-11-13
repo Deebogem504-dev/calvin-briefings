@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-12",
-  "covers": "Nov 3–12, 2026",
-  "readFirst": "Covers Nov. 3–12. New: Tom's Hardware reported Nov. 11, citing The Wall Street Journal, that Nvidia's board is preparing to remove Jensen Huang and that no final decision has been made. No Red Hat press release or Army or Department of War Red Hat deal dated Nov. 11–12 was found. No new Army or Department of War enterprise agreement was found. No Cisco, Dell, HPE, NetApp, Microsoft, Palo Alto, AWS, or Google Cloud newsroom item dated Nov. 11–12 was opened. F5 and VMware were quiet; Intel's Nov. 3 process-kit note remains.",
+  "compiled": "2026-11-13",
+  "covers": "Nov 3–13, 2026",
+  "readFirst": "Covers Nov. 3–13. New: NVIDIA said Nov. 12 that Jensen Huang resigned and that Colette Kress is interim chief executive, which replaces the prior report that the board was only preparing to remove him. Tom's Hardware reported Nov. 13 that SemiAnalysis estimates more than 1.5 gigawatts of restricted Nvidia hardware reached China. No Red Hat press release or Army or Department of War Red Hat deal dated Nov. 12–13 was found. No new Army or Department of War enterprise agreement was found. No new Dell, HPE, NetApp, Microsoft, Palo Alto, AWS, or Google Cloud newsroom item dated Nov. 12–13 was opened. F5 and VMware were quiet; Intel's Nov. 3 process-kit note remains.",
   "subsections": [
     {
       "id": "cisco",
@@ -57,34 +57,6 @@
   ],
   "items": [
     {
-      "id": "amd-q4-intel-2026-11-04",
-      "subsection": "quiet",
-      "date": "2026-11-04",
-      "dateLabel": "Nov 4",
-      "headline": "Tom's Hardware: AMD's fourth-quarter guide would put it ahead of Intel",
-      "summary": "Tom's Hardware reported Nov. 4 that AMD expects about $17 billion of fourth-quarter revenue, plus or minus 3 percent, against an Intel range of $15 billion to $16 billion, which Tom's Hardware said would put AMD ahead of Intel for a quarter for the first time. It said third-quarter revenue was $13.377 billion and Data Center revenue was a record $8.55 billion, 64 percent of sales. Chief executive Lisa Su said server revenue is expected to double year over year in 2027 and that data center should be more than 80 percent of total revenue that year. Tom's Hardware said Embedded revenue rose 29 percent year over year to $1.11 billion, which AMD attributed in part to aerospace and defense, and that Client and Gaming is projected to contract more than 20 percent sequentially in the fourth quarter.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections"
-        }
-      ]
-    },
-    {
-      "id": "intel-14a-pdk-2026-11-03",
-      "subsection": "quiet",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "Tom's Hardware: Intel Foundry released the Intel 14A process kit, version 0.9",
-      "summary": "Tom's Hardware reported Nov. 3 that Intel Foundry last week made its Intel 14A process design kit, version 0.9, available. Tom's Hardware said Intel describes the node as reaching the performance and yield maturity expected at this stage, with the results backed by silicon validation. It said Intel plans to release process design kit 1.0 in the first quarter of 2027, which Intel says will validate readiness for high-volume manufacturing.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-14a-moves-closer-to-production-as-pdk-0-9-becomes-available-process-design-kit-gives-developers-important-production-milestone-ahead-of-1-0-in-2027"
-        }
-      ]
-    },
-    {
       "id": "cisco-openai-defense-2026-11-03",
       "subsection": "cisco",
       "date": "2026-11-03",
@@ -113,16 +85,30 @@
       ]
     },
     {
-      "id": "nvidia-board-oust-2026-11-11",
+      "id": "nvidia-kress-interim-2026-11-12",
       "subsection": "nvidia",
-      "date": "2026-11-11",
-      "dateLabel": "Nov 11",
-      "headline": "Tom's Hardware: Nvidia's board is reportedly preparing to remove Jensen Huang",
-      "summary": "Tom's Hardware reported Nov. 11, citing The Wall Street Journal, that Nvidia's board is preparing to remove co-founder and chief executive Jensen Huang, and that no final decision has been made. Tom's Hardware said directors could meet as early as Nov. 11, and that the stock dropped 8 percent in after-hours trading after the reports. It said the Journal's report followed a New York Times account that Huang had a relationship with Kimberly Powell, Nvidia's vice president of health care, who reports to him, according to five people who worked at Nvidia. Tom's Hardware said that allegation follows an earlier report that Huang had a relationship with Alice Huang, a Chinese businesswoman whom U.S. intelligence believes to be a Chinese intelligence asset.",
+      "date": "2026-11-12",
+      "dateLabel": "Nov 12",
+      "headline": "Nvidia says Jensen Huang resigned and Colette Kress is interim chief executive",
+      "summary": "NVIDIA said Nov. 12 that Jensen Huang resigned as president, chief executive, and a member of the board, effective immediately. The company said Colette Kress, executive vice president and chief financial officer since September 2013, will serve as interim chief executive while remaining chief financial officer, and that the board, now chaired for the first time by Harvey C. Jones, will consider internal and external candidates for a permanent successor. Jones said the board expects operations, customer commitments, and the product roadmap to continue without interruption. NVIDIA said it will still report fiscal 2027 third-quarter results on Nov. 17.",
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-smuggling-gw-2026-11-13",
+      "subsection": "nvidia",
+      "date": "2026-11-13",
+      "dateLabel": "Nov 13",
+      "headline": "Tom's Hardware: SemiAnalysis estimates 1.5 gigawatts of restricted Nvidia hardware reached China",
+      "summary": "Tom's Hardware reported Nov. 13 that SemiAnalysis estimates more than 1.5 gigawatts of Nvidia hardware subject to U.S. export restrictions reached China in recent years, not counting chips Nvidia designed to comply with those rules, such as the H20 and H800. Tom's Hardware said SemiAnalysis claims the Commerce Department has reached a similar conclusion about the scale, and that the firm did not disclose how many accelerators were involved or how they split across product generations. Tom's Hardware said the newsletter speculates that this scale may explain the timing of Jensen Huang's departure, and that the report provides no direct evidence that intelligence agencies influenced Nvidia's board or that Huang took part in unauthorized exports.",
       "sources": [
         {
           "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-emerges-stock-has-plunged-20-percent-since-scandals-began-huang-has-been-first-and-only-ceo-for-33-years"
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls"
         }
       ]
     },
@@ -163,6 +149,48 @@
       ]
     },
     {
+      "id": "chatgpt-aws-2026-11-09",
+      "subsection": "aws",
+      "date": "2026-11-09",
+      "dateLabel": "Nov 9",
+      "headline": "OpenAI lists ChatGPT Enterprise in AWS Marketplace against existing AWS commitments",
+      "summary": "OpenAI said Nov. 9 that ChatGPT Enterprise is available through AWS Marketplace, so organizations can buy and manage it through an existing AWS purchasing and billing relationship and apply eligible spend toward AWS commitments. OpenAI said AWS customers get the same models, features, and functionality available directly from OpenAI, including ChatGPT, ChatGPT Work, Codex, and dots, with new features released at the same time. OpenAI said the listing complements OpenAI models in Amazon Bedrock, and that eligible customers can also access ChatGPT for Healthcare and ChatGPT for Financial Services through the marketplace. Chris Grusz, OpenAI's managing director for cloud partnerships, said joint customers can bring ChatGPT to their teams through AWS.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/"
+        }
+      ]
+    },
+    {
+      "id": "amd-q4-intel-2026-11-04",
+      "subsection": "quiet",
+      "date": "2026-11-04",
+      "dateLabel": "Nov 4",
+      "headline": "Tom's Hardware: AMD's fourth-quarter guide would put it ahead of Intel",
+      "summary": "Tom's Hardware reported Nov. 4 that AMD expects about $17 billion of fourth-quarter revenue, plus or minus 3 percent, against an Intel range of $15 billion to $16 billion, which Tom's Hardware said would put AMD ahead of Intel for a quarter for the first time. It said third-quarter revenue was $13.377 billion and Data Center revenue was a record $8.55 billion, 64 percent of sales. Chief executive Lisa Su said server revenue is expected to double year over year in 2027 and that data center should be more than 80 percent of total revenue that year. Tom's Hardware said Embedded revenue rose 29 percent year over year to $1.11 billion, which AMD attributed in part to aerospace and defense, and that Client and Gaming is projected to contract more than 20 percent sequentially in the fourth quarter.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections"
+        }
+      ]
+    },
+    {
+      "id": "intel-14a-pdk-2026-11-03",
+      "subsection": "quiet",
+      "date": "2026-11-03",
+      "dateLabel": "Nov 3",
+      "headline": "Tom's Hardware: Intel Foundry released the Intel 14A process kit, version 0.9",
+      "summary": "Tom's Hardware reported Nov. 3 that Intel Foundry last week made its Intel 14A process design kit, version 0.9, available. Tom's Hardware said Intel describes the node as reaching the performance and yield maturity expected at this stage, with the results backed by silicon validation. It said Intel plans to release process design kit 1.0 in the first quarter of 2027, which Intel says will validate readiness for high-volume manufacturing.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-14a-moves-closer-to-production-as-pdk-0-9-becomes-available-process-design-kit-gives-developers-important-production-milestone-ahead-of-1-0-in-2027"
+        }
+      ]
+    },
+    {
       "id": "openshift-5-2026-11-09",
       "subsection": "other",
       "date": "2026-11-09",
@@ -187,20 +215,6 @@
         {
           "name": "Red Hat",
           "url": "https://www.redhat.com/en/about/press-releases/red-hat-strengthens-hybrid-cloud-foundations-against-ai-driven-threats-latest-versions-red-hat-enterprise-linux"
-        }
-      ]
-    },
-    {
-      "id": "chatgpt-aws-2026-11-09",
-      "subsection": "aws",
-      "date": "2026-11-09",
-      "dateLabel": "Nov 9",
-      "headline": "OpenAI lists ChatGPT Enterprise in AWS Marketplace against existing AWS commitments",
-      "summary": "OpenAI said Nov. 9 that ChatGPT Enterprise is available through AWS Marketplace, so organizations can buy and manage it through an existing AWS purchasing and billing relationship and apply eligible spend toward AWS commitments. OpenAI said AWS customers get the same models, features, and functionality available directly from OpenAI, including ChatGPT, ChatGPT Work, Codex, and dots, with new features released at the same time. OpenAI said the listing complements OpenAI models in Amazon Bedrock, and that eligible customers can also access ChatGPT for Healthcare and ChatGPT for Financial Services through the marketplace. Chris Grusz, OpenAI's managing director for cloud partnerships, said joint customers can bring ChatGPT to their teams through AWS.",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/"
         }
       ]
     }

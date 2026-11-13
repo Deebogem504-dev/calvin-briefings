@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Federal Budget & NDAA Weekly Tracker",
   "description": "Fiscal 2027 appropriations, the continuing resolution, NDAA status, reconciliation funds and Golden Dome money.",
-  "compiled": "2026-11-12",
-  "covers": "Nov 3–12, 2026",
-  "readFirst": "Covers Nov. 3–12. No new continuing-resolution extension, appropriations text, or NDAA floor action dated Nov. 11–12 was opened. The Nov. 11 Bloomberg note on the Senate military construction and Veterans Affairs bill remains. The Nov. 5 Breaking Defense lame-duck note remains. No new Golden Dome funding bill was found.",
+  "compiled": "2026-11-13",
+  "covers": "Nov 3–13, 2026",
+  "readFirst": "Covers Nov. 3–13. New: Roll Call reported Nov. 12 that Senate Democrats, including Tim Kaine, want Iran-war funding limits on the next continuing resolution, which is needed by Dec. 11. No new appropriations text or NDAA floor vote dated Nov. 12–13 was opened. The Nov. 11 military construction and Veterans Affairs bill note remains. No new Golden Dome funding bill was found.",
   "subsections": [
     {
       "id": "approps",
@@ -24,6 +24,20 @@
     }
   ],
   "items": [
+    {
+      "id": "iran-cr-2026-11-12",
+      "subsection": "approps",
+      "date": "2026-11-12",
+      "dateLabel": "Nov 12",
+      "headline": "Senate Democrats want Iran-war funding limits on the Dec. 11 stopgap",
+      "summary": "Roll Call reported Nov. 12 that Sen. Tim Kaine said he is drafting language to end the Iran war and wants it attached to the next continuing resolution, which is needed by Dec. 11, when current funding runs out. Sens. Michael Bennet, Chris Van Hollen, Tammy Duckworth, and Bernie Sanders said they would oppose a deal that does not restrict the administration from using appropriated funds to continue the war. Senate Appropriations ranking member Patty Murray said Democrats are looking at all options, including whether that fight waits until next year. Roll Call said the Office of Management and Budget has not yet sent Congress the anomalies for the stopgap, and that the administration is considering a bill that would run through March.",
+      "sources": [
+        {
+          "name": "Roll Call",
+          "url": "https://rollcall.com/2026/11/12/democrats-mulling-iran-war-funding-cutoff-strategy/"
+        }
+      ]
+    },
     {
       "id": "milcon-va-2026-11-11",
       "subsection": "approps",

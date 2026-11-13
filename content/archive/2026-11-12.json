@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-12",
+  "title": "November 12, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 10",
+      "headline": "House blocks the Hegseth impeachment push, 211-204",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/defense-news/2026/11/hegseth-is-set-for-his-first-pentagon-news-briefing-since-may-as-he-faces-possible-impeachment/"
+        }
+      ]
+    },
+    {
+      "label": "ARMY",
+      "dateLabel": "Nov 10",
+      "headline": "Safe Pro says the Army awarded $2.5 million for Ghost-X threat detection",
+      "sources": [
+        {
+          "name": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/11/10/3399521/0/en/safe-pro-group-awarded-u-s-army-prime-contract-teams-with-anduril-for-super-intelligence-on-ghost-x-drone-for-tank-protection.html"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Nov 11",
+      "headline": "Helsing unveils Clarity, a European military intelligence platform",
+      "sources": [
+        {
+          "name": "Helsing",
+          "url": "https://helsing.ai/newsroom/helsing-unveils-clarity-a-sovereign-software-platform-for-military-intelligence"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Nov 11",
+      "headline": "A jailbroken model exploited BroadWorks at a European telecom",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
+        }
+      ]
+    },
+    {
+      "label": "PARTNERS",
+      "dateLabel": "Nov 11",
+      "headline": "Nvidia's board is reportedly preparing to remove Jensen Huang",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-emerges-stock-has-plunged-20-percent-since-scandals-began-huang-has-been-first-and-only-ceo-for-33-years"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Nov 11",
+      "headline": "SoftBank takes a $3.7 billion hit canceling data-center turbines",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/softbank-loses-usd3-7-billion-on-canceled-ai-data-center-gas-turbine-orders-days-after-denying-elon-musks-claim-it-was-defaulting-company-kills-reserved-13-gigawatts-of-power-more-than-six-hoover-dams-worth-of-capacity"
+        }
+      ]
+    }
+  ]
+}
