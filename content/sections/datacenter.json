@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-13",
-  "covers": "Nov 3–13, 2026",
-  "readFirst": "Covers Nov. 3–13. New: Tom's Hardware reported Nov. 12 that Yandex Cloud said 2.84 percent of customer data cannot be restored after Ukrainian drone strikes on its data centers. The Nov. 4 local ballot-measure note was dropped so the capacity subsection stayed at four items. Dell's OneFS 9.16 note remains on the partners page. A Nov. 12 Tom's Hardware headline about marijuana farms considering data-center sites was not used.",
+  "compiled": "2026-11-16",
+  "covers": "Nov 9–16, 2026",
+  "readFirst": "Covers Nov. 9–16. New: Tom's Hardware reported Nov. 14, citing Malay Mail, that Malaysia plans a law requiring data center operators to disclose GPU imports and power use, and to pay for unused reserved electricity, to catch diversion of AI accelerators. The storage subsection is empty. Dell's OneFS note aged out of the partners page.",
   "subsections": [
     {
       "id": "networking",
@@ -39,6 +39,20 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/policy/microsoft-lobbies-against-potential-ban-on-chinese-optical-networking-gear-for-ai-data-centers-as-fcc-mulls-restricting-imports-industry-group-says-move-could-grind-data-center-rollout-to-a-halt"
+        }
+      ]
+    },
+    {
+      "id": "malaysia-gpu-power-2026-11-14",
+      "subsection": "capacity",
+      "date": "2026-11-14",
+      "dateLabel": "Nov 14",
+      "headline": "Tom's Hardware: Malaysia would use data-center power data to catch diverted AI GPUs",
+      "summary": "Tom's Hardware reported Nov. 14, citing Malay Mail, that Malaysia plans a law requiring data center operators to disclose AI accelerator imports and power consumption, and that authorities plan to charge operators for unused electricity capacity they reserve. Malaysia's minister of investment, trade and industry, Datuk Seri Johari Abdul Ghani, said Thursday that some companies rented space in Malaysian data centers, imported GPUs legally, and then shipped them abroad. Tom's Hardware said the Digital Ministry is reviewing whether authorities can act against re-export of processors subject to U.S. export bans. The proposal would also require disclosure of facility locations and the identities of operators and hyperscale customers, and the government intends to track operations through their lifetime.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity"
         }
       ]
     },
@@ -85,24 +99,6 @@
       ]
     },
     {
-      "id": "amsterdam-datacenter-protest-2026-11-08",
-      "subsection": "capacity",
-      "date": "2026-11-08",
-      "dateLabel": "Nov 6–8",
-      "headline": "Tom's Hardware: Dutch police arrested protesters at a Microsoft data-center site in Amsterdam",
-      "summary": "Tom's Hardware reported Nov. 6 that about a hundred protesters entered a Microsoft data center under construction in Amsterdam, which Pure Data Centers owns, and that the Stop Dirty Data Centers coalition said it was planning actions across 16 countries on Nov. 6 and 7, with a map showing 85 locations. Pure Data Centers asked people on site to leave and talk, and Microsoft said it respected peaceful expression and does not condone unlawful action. Tom's Hardware reported Nov. 8 that Amsterdam police arrested 150 to 200 protesters at the site on suspicion of trespassing after some entered the construction site with violence, and that police seized break-in tools. It said the Dutch outlet NOS identified the group at the site that day as Fossielvrij.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/hundreds-arrested-after-microsoft-data-center-protest-turns-violent-stop-dirty-data-centers-coalition-demands-halt-to-ai-data-center-expansion-dutch-police-seize-break-in-tools-suspected-stolen-items-from-construction-site"
-        },
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe"
-        }
-      ]
-    },
-    {
       "id": "softbank-turbines-2026-11-11",
       "subsection": "power",
       "date": "2026-11-11",
@@ -127,48 +123,6 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/data-centers/anthropic-skips-six-year-waitlist-with-massive-usd3-4-billion-gas-turbine-generator-deal-firm-takes-over-onepwrs-orders-secures-1-7gw-of-capacity-to-power-ai-data-centers"
-        }
-      ]
-    },
-    {
-      "id": "vera-agents-2026-11-05",
-      "subsection": "power",
-      "date": "2026-11-05",
-      "dateLabel": "Nov 5",
-      "headline": "NVIDIA says one Vera CPU beats the fastest and the most efficient x86 CPU it measured",
-      "summary": "NVIDIA said Nov. 5 that, in a 100-megawatt data-center comparison, a single Vera CPU performs better than both the fastest x86 CPU and the most energy-efficient x86 CPU. NVIDIA said Vera delivers 1.6 times more agents per watt than the fastest x86 CPU at what it called industry-leading agent speed, and twice the agent speed of the most energy-efficient x86 CPU. NVIDIA said Perplexity ran agentic coding tasks 1.5 times faster on Vera than on traditional CPUs and plans to deploy Vera in a production system, and that Daytona brought 1,000 agent sandboxes online in 10.8 seconds on Vera versus 88.4 seconds on x86. NVIDIA said the comparison is about running more agents inside a power limit, because agent steps move between GPU reasoning and CPU execution.",
-      "sources": [
-        {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/"
-        }
-      ]
-    },
-    {
-      "id": "xai-turbines-2026-11-03",
-      "subsection": "power",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "Tom's Hardware: xAI is powering a Mississippi data center with eight jet turbines",
-      "summary": "Tom's Hardware reported Nov. 3 that Elon Musk's xAI is using eight converted jet-engine turbines to power a Mississippi data center. Tom's Hardware said the generators have state-level permission, and that the permits allow a 25 percent higher limit for volatile organic compounds. It said those compounds, together with carbon monoxide, have drawn warnings from environmentalists, and that The New York Times reports the Southern Environmental Law Center has challenged Mississippi's decision to approve the turbines.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-xai-installs-eight-converted-jet-engines-to-power-mississippi-data-center-permits-allow-25-percent-higher-limit-for-pollutants-concerns-raised-over-carbon-monoxide"
-        }
-      ]
-    },
-    {
-      "id": "hbm-loophole-2026-11-03",
-      "subsection": "storage",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "Tom's Hardware: a smuggler says banned HBM is reaching China inside cheap processors",
-      "summary": "Tom's Hardware reported Nov. 3, citing The Information, that a memory smuggler described moving export-controlled high-bandwidth memory from South Korea into China. Tom's Hardware said the person owns a chip-design firm that builds cheap, low-performing processors covered by U.S. and South Korean export controls, then pairs them with high-bandwidth memory from Samsung and SK hynix that would be banned on its own. It said the export rules, as Tom's Hardware describes them, look at the server processor's performance and not at the other components attached to it.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-chip-smugglers-exploit-trade-control-loophole-to-bring-banned-hbm-from-south-korea-into-china-expensive-memory-chips-packaged-with-cheap-unsanctioned-processors-to-become-legal-exports"
         }
       ]
     }

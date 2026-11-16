@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Federal Budget & NDAA Weekly Tracker",
   "description": "Fiscal 2027 appropriations, the continuing resolution, NDAA status, reconciliation funds and Golden Dome money.",
-  "compiled": "2026-11-13",
-  "covers": "Nov 3–13, 2026",
-  "readFirst": "Covers Nov. 3–13. New: Roll Call reported Nov. 12 that Senate Democrats, including Tim Kaine, want Iran-war funding limits on the next continuing resolution, which is needed by Dec. 11. No new appropriations text or NDAA floor vote dated Nov. 12–13 was opened. The Nov. 11 military construction and Veterans Affairs bill note remains. No new Golden Dome funding bill was found.",
+  "compiled": "2026-11-16",
+  "covers": "Nov 9–16, 2026",
+  "readFirst": "Covers Nov. 9–16. No new appropriations text or NDAA floor vote dated Nov. 13–16 was opened. The Nov. 12 note on Iran-war limits for the Dec. 11 stopgap and the Nov. 11 military construction and Veterans Affairs bill note remain. No new Golden Dome funding bill was found. The NDAA subsection is empty after older items aged out.",
   "subsections": [
     {
       "id": "approps",
@@ -49,48 +49,6 @@
         {
           "name": "Bloomberg Government",
           "url": "https://news.bgov.com/bloomberg-government-news/senate-panel-drops-173-2-billion-military-construction-va-bill"
-        }
-      ]
-    },
-    {
-      "id": "lame-duck-clock-2026-11-05",
-      "subsection": "approps",
-      "date": "2026-11-05",
-      "dateLabel": "Nov 5",
-      "headline": "Breaking Defense: analysts cut the odds of a lame-duck defense reconciliation bill",
-      "summary": "Breaking Defense reported Nov. 5 that Republicans have five legislative weeks left to move fiscal 2027 defense funding before Democrats take the House and Senate in January. It said the Pentagon has asked for a $1.15 trillion discretionary budget, $350 billion in reconciliation, and a supplemental that includes $67 billion for defense to cover Iran-war costs, and that none of the three has been approved. Todd Harrison of the American Enterprise Institute told Breaking Defense there is zero chance of appropriations passing because that takes 60 Senate votes, and Byron Callan of Capital Alpha Partners cut the chance of further defense reconciliation from 15 percent to 10 percent and put a shutdown after the Dec. 11 continuing resolution at 50 percent. Callan wrote that it is highly unlikely all of the $47 billion missile-defense interceptor replenishment in the mandatory request will be funded in discretionary accounts and that Drone Dominance funding could be shaved to a fraction of its $53.6 billion request, and Harrison said the vast majority of Golden Dome's fiscal 2027 funding was supposed to come from reconciliation.",
-      "sources": [
-        {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/11/republicans-have-a-ticking-clock-what-can-they-get-done-on-defense/"
-        }
-      ]
-    },
-    {
-      "id": "ndaa-lameduck-cyber-2026-11-04",
-      "subsection": "ndaa",
-      "date": "2026-11-04",
-      "dateLabel": "Nov 4",
-      "headline": "CyberScoop: CISA 2015 expires Dec. 11, and the Senate NDAA would require an AI bill of materials",
-      "summary": "CyberScoop reported Nov. 4 that Democrats won control of the House and Senate, and that the Cybersecurity Information Sharing Act of 2015 is set to expire Dec. 11. Michael Garcia, of Monument Advocacy, told CyberScoop that an extension could ride on an omnibus funding bill or the annual defense policy bill, and CyberScoop said the Department of Homeland Security and CISA are on a continuing resolution that also expires Dec. 11. Nicholas Leiserson, of the Institute for Security and Technology, told CyberScoop that Republicans want the fiscal 2027 National Defense Authorization Act done in the lame duck, and that the Senate version includes what he called a very broad authorization for contractor-owned, contractor-operated offensive cyber operations and a requirement that every artificial intelligence product sold to the Defense Department have an AI bill of materials. Rep. Bennie Thompson told CyberScoop that CISA had cut back by nearly one-third and that House Democrats will aim to extend the State and Local Cybersecurity Grant Program.",
-      "sources": [
-        {
-          "name": "CyberScoop",
-          "url": "https://cyberscoop.com/democrats-congress-cybersecurity-cisa-ai-priorities/"
-        }
-      ]
-    },
-    {
-      "id": "ndaa-ip-psc-2026-11-03",
-      "subsection": "ndaa",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "PSC tells Federal News Network the lame-duck NDAA fight is intellectual property and repair rights",
-      "summary": "Federal News Network's Federal Drive on Nov. 3 interviewed Jim Carroll, chief executive of the Professional Services Council, about the fiscal 2027 National Defense Authorization Act. Carroll said work on the NDAA will start almost immediately in the lame-duck session regardless of the election outcome, and that he met with the House Armed Services Committee last week as it tried to move the bill and get the government funded. On intellectual property and defense repair rights, he said he is hearing a great deal of progress, and that the remaining issue is safeguards so a company cannot take that intellectual property into mass production or give it to another company. He said the council's defense conference last week was the most widely attended defense-industry conference it has held, and that intellectual property was a central topic, with speakers that included an undersecretary of defense and assistant secretaries.",
-      "sources": [
-        {
-          "name": "Federal News Network",
-          "url": "https://federalnewsnetwork.com/congress/2026/11/the-terms-that-govern-how-companies-bring-innovation-to-government-could-be-changing/"
         }
       ]
     },

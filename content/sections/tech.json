@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-13",
-  "covers": "Nov 3–13, 2026",
-  "readFirst": "Covers Nov. 3–13. New: Breaking Defense reported Nov. 12 that the Space Development Agency awarded SpaceX $9.9 million to study connecting Plaser laser terminals with missile-tracking satellites. No new post-quantum standard or Army quantum award dated Nov. 12–13 was found. The compute subsection is empty. The Nov. 6 report that those laser waveforms do not match remains.",
+  "compiled": "2026-11-16",
+  "covers": "Nov 9–16, 2026",
+  "readFirst": "Covers Nov. 9–16. No new post-quantum standard, Army quantum award, or compute announcement dated Nov. 13–16 was found. Tom's Hardware reported Nov. 15 on a DARPA RACER robot exercise at Fort Knox, but that writeup tracks an Oct. 27 Army article and was not added as a new event. The quantum and compute subsections are empty. The Nov. 12 Space Development Agency study of Plaser links remains.",
   "subsections": [
     {
       "id": "quantum",
@@ -43,20 +43,6 @@
       ]
     },
     {
-      "id": "truas-demo-2026-11-03",
-      "subsection": "autonomy",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "Navy and Marine Corps will demo TRUAS cargo drones in Huntsville in early 2027",
-      "summary": "Defense News reported Nov. 3 that the U.S. Marine Corps and Navy will hold a technology demonstration from Jan. 25 to Feb. 5, 2027, in Huntsville, Alabama, for Increment II of the Marine Corps Tactical Resupply Unmanned Aircraft System. The outlet said the Navy's Air Warfare Program Management Office is sponsoring the event, and that contractors will perform up to five flights and show ground setup. Defense News said the first required flight carries a 100-pound payload up to 40 nautical miles and returns without refueling, and the second carries at least 150 pounds out to 10 nautical miles. It said the aircraft must have a speed of at least 50 knots per hour, stay at or below 1,000 feet during those flights, and launch and recover without a catapult or arresting gear.",
-      "sources": [
-        {
-          "name": "Defense News",
-          "url": "https://www.defensenews.com/industry/techwatch/2026/11/03/defense-contractors-to-demo-cargo-drones-for-us-marine-corps/"
-        }
-      ]
-    },
-    {
       "id": "sda-plaser-study-2026-11-12",
       "subsection": "space",
       "date": "2026-11-12",
@@ -81,34 +67,6 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/Releases/Release/Article/4644766/the-department-of-wars-office-of-strategic-capital-signs-150-million-conditiona/"
-        }
-      ]
-    },
-    {
-      "id": "sdn-laser-mismatch-2026-11-06",
-      "subsection": "space",
-      "date": "2026-11-06",
-      "dateLabel": "Nov 6",
-      "headline": "Breaking Defense: Space Force laser terminals cannot talk across the Golden Dome data backbone",
-      "summary": "Breaking Defense reported Nov. 6 that SpaceX's optical terminals on the Space Data Network Backbone, which the company calls Plasers, cannot directly exchange data with the optical terminals on Space Development Agency and Space Systems Command missile-warning satellites. An SDA official confirmed to Breaking Defense that the optical waveform on SDA's Transport Layer and Tracking Layer satellites is not directly compatible with the Plaser waveform. Breaking Defense said sources described a proposed set of 12 or 13 translator satellites, called Space Exchange Points, at $12 million to $14 million each, and said the wider fix could reach $1 billion. It said SpaceX won a $2.29 billion contract in May for the backbone, and that a Space Systems Command spokesperson declined to comment on compatibility with the Plaser.",
-      "sources": [
-        {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/11/key-space-force-satellites-cant-talk-to-each-other-likely-requiring-1b-solution-sources/"
-        }
-      ]
-    },
-    {
-      "id": "leolabs-osc-2026-11-04",
-      "subsection": "space",
-      "date": "2026-11-04",
-      "dateLabel": "Nov 4",
-      "headline": "Office of Strategic Capital commits a $150 million conditional loan to LeoLabs",
-      "summary": "The Department of War said Nov. 4 that the Office of Strategic Capital signed a $150 million conditional loan commitment with LeoLabs for space domain awareness and space traffic management. The release says the loan is matched dollar-for-dollar with co-investment, for a $300 million capital infusion, and that the financing would scale multi-mission phased-array radars, including mobile Scout units. It says the commitment is not a financial close: LeoLabs must still meet financial, legal, technical, investment, and due-diligence requirements. Under Secretary for Research and Engineering Emil Michael said the financing is meant to help the United States and allies control the data used for decision advantage in orbit.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4641087/department-of-wars-office-of-strategic-capital-signs-150-million-conditional-lo/"
         }
       ]
     }

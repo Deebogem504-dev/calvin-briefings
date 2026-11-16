@@ -1,12 +1,28 @@
 {
   "signals": [
     {
-      "section": "partners",
-      "label": "PARTNERS",
-      "dateLabel": "Nov 12",
-      "headline": "Huang resigned; Colette Kress is interim Nvidia CEO",
-      "item": "nvidia-kress-interim-2026-11-12",
-      "href": "partners.html#nvidia"
+      "section": "ai",
+      "label": "AI",
+      "dateLabel": "Nov 13",
+      "headline": "The Department of War renames its AI office the Super Intelligence Office",
+      "item": "sio-rebrand-2026-11-13",
+      "href": "ai.html#defense-ai"
+    },
+    {
+      "section": "army",
+      "label": "ARMY",
+      "dateLabel": "Nov 13",
+      "headline": "Grafenwoehr test fires containerized drone swarms and robotic launchers",
+      "item": "grafenwoehr-rrt-2026-11-13",
+      "href": "army.html#modernization"
+    },
+    {
+      "section": "cyber",
+      "label": "CYBER",
+      "dateLabel": "Nov 13",
+      "headline": "CISA adds Check Point and UnrealIRCd flaws, due today",
+      "item": "kev-checkpoint-unreal-2026-11-13",
+      "href": "cyber.html#kev"
     },
     {
       "section": "dow",
@@ -17,36 +33,20 @@
       "href": "dow.html#secwar"
     },
     {
-      "section": "army",
-      "label": "ARMY",
-      "dateLabel": "Nov 12",
-      "headline": "25th Infantry Division is pushing NGC2 compute to company level",
-      "item": "ngc2-hawaii-2026-11-12",
-      "href": "army.html#network"
+      "section": "partners",
+      "label": "PARTNERS",
+      "dateLabel": "Nov 14",
+      "headline": "Bessent says Nvidia should answer for sales to shell companies",
+      "item": "nvidia-bessent-2026-11-14",
+      "href": "partners.html#nvidia"
     },
     {
-      "section": "cyber",
-      "label": "CYBER",
-      "dateLabel": "Nov 3–12",
-      "headline": "ILC agrees to pay $13 million over alleged Army, MDA, and NASA cyber failures",
-      "item": "ilc-fca-2026-11-12",
-      "href": "cyber.html#trends"
-    },
-    {
-      "section": "ai",
-      "label": "AI",
-      "dateLabel": "Nov 12",
-      "headline": "Google releases Gemini 4 Hydrogen for faster agentic work",
-      "item": "gemini-hydrogen-2026-11-12",
-      "href": "ai.html#google"
-    },
-    {
-      "section": "budget",
-      "label": "BUDGET",
-      "dateLabel": "Nov 12",
-      "headline": "Senate Democrats want Iran-war limits on the Dec. 11 stopgap",
-      "item": "iran-cr-2026-11-12",
-      "href": "budget.html#approps"
+      "section": "datacenter",
+      "label": "DC/NET",
+      "dateLabel": "Nov 14",
+      "headline": "Malaysia would track data-center power to catch diverted AI GPUs",
+      "item": "malaysia-gpu-power-2026-11-14",
+      "href": "datacenter.html#capacity"
     }
   ]
 }

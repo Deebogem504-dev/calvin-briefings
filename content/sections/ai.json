@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-13",
-  "covers": "Nov 5–13, 2026",
-  "readFirst": "Covers Nov. 5–13. New: Google said Nov. 12 that Gemini 4 Hydrogen is available for agentic work, OpenAI described the same day how automated red teaming improved jailbreak resistance in GPT-6 Astra, and Air & Space Forces Magazine reported the Department of the Air Force is applying an AI strategy across 15 mission areas. The Nov. 5 Moonshot export note, the Nov. 5 Gemini Omni item, and the Nov. 6 Hacktron partnership note were dropped to stay inside the count. No new Anthropic product post dated Nov. 12–13 was opened. Tom's Hardware's Nov. 12 writeup of TPU 8tx and TPU 8i Max tracks a Nov. 9 Google post and was not added as a new announcement. The Open and Local Models subsection is empty. Nvidia's resignation is on the partners page.",
+  "compiled": "2026-11-16",
+  "covers": "Nov 9–16, 2026",
+  "readFirst": "Covers Nov. 9–16. New: the Department of War said Nov. 13 that it redesignated the Chief Digital and Artificial Intelligence Office as the Super Intelligence Office, and Breaking Defense reported the office's portfolio still includes Maven and the War Data Platform. No new Anthropic, OpenAI, or Google product post dated Nov. 13–16 was opened. Treasury Secretary Scott Bessent's comments on Nvidia sales to shell companies are on the partners page. The Nvidia, Open and Local Models, and Policy subsections are empty.",
   "subsections": [
     {
       "id": "anthropic",
@@ -139,30 +139,20 @@
       ]
     },
     {
-      "id": "h200-shell-companies-2026-11-08",
-      "subsection": "nvidia",
-      "date": "2026-11-08",
-      "dateLabel": "Nov 8",
-      "headline": "Tom's Hardware: two firms cleared to buy Nvidia H200 chips had empty offices",
-      "summary": "Tom's Hardware reported Nov. 8, citing The New York Times, that addresses for two Chinese companies approved to purchase Nvidia H200 chips led to empty offices, and that receptionists at the buildings were unfamiliar with them. Tom's Hardware said the companies' executives are often linked to other firms sanctioned by the United States for providing advanced technology to the Chinese military, and it named the two firms New Matrix and Maginfra. It said better-known approved buyers include Baidu, BYD, Tesla Shanghai, ZTE, Alibaba, Tencent, and ByteDance. Former White House National Security Council China director Liza Tobin told the Times she has concerns that neither the Commerce Department nor Nvidia is doing the due diligence needed to ensure licensing terms are followed.",
+      "id": "sio-rebrand-2026-11-13",
+      "subsection": "defense-ai",
+      "date": "2026-11-13",
+      "dateLabel": "Nov 13",
+      "headline": "Department of War renames the CDAO the Super Intelligence Office",
+      "summary": "The Department of War said Nov. 13 that it redesignated the Chief Digital and Artificial Intelligence Office as the Super Intelligence Office, following President Trump's direction to move federal terminology from artificial intelligence to super intelligence. Cameron Stanley said the office has moved beyond experimental prototypes and that its mission is to harness sovereign super intelligence for military superiority across every domain. The department said the transition will roll out across digital systems, enterprise applications, and component headquarters over the coming weeks, and that existing programs, solicitations, and partnerships continue. Breaking Defense reported the same day that the portfolio includes the Maven Smart System and the War Data Platform, formerly Advana, and that the department launched SI.mil.",
       "sources": [
         {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/two-chinese-companies-cleared-to-buy-banned-nvidia-ai-chips-have-empty-offices-and-unknown-addresses-investigation-reveals-businesses-have-ties-to-sanctioned-chinese-military-suppliers"
-        }
-      ]
-    },
-    {
-      "id": "doj-superintelligence-2026-11-06",
-      "subsection": "policy",
-      "date": "2026-11-06",
-      "dateLabel": "Nov 5–6",
-      "headline": "Federal News Network: Justice Department sets up a Super Intelligence Task Force",
-      "summary": "Federal News Network's Nov. 6 newscast said the Justice Department's new Super Intelligence Task Force will coordinate the use and oversight of artificial intelligence across the agency. The outlet said a memo issued Thursday outlined six focus areas. It said initial duties include organizing the department's criminal and civil law enforcement efforts involving AI, and deconflicting investigations, cases, and other matters among components and U.S. attorneys' offices by applying AI tools. The department will merge its Artificial Intelligence Task Force, created in January, into the new one.",
-      "sources": [
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4647618/department-of-war-redesignates-cdao-as-super-intelligence-office/"
+        },
         {
-          "name": "Federal News Network",
-          "url": "https://federalnewsnetwork.com/federal-newscast/2026/11/dod-and-va-join-forces-to-increase-electronic-health-information-security/"
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/pentagon-rebrands-principle-ai-shop-as-super-intelligence-office/"
         }
       ]
     },
@@ -191,20 +181,6 @@
         {
           "name": "Helsing",
           "url": "https://helsing.ai/newsroom/helsing-unveils-clarity-a-sovereign-software-platform-for-military-intelligence"
-        }
-      ]
-    },
-    {
-      "id": "gpt-6-cyber-2026-11-05",
-      "subsection": "defense-ai",
-      "date": "2026-11-05",
-      "dateLabel": "Nov 5",
-      "headline": "OpenAI introduces GPT-6 Cyber for approved Daybreak Red customers",
-      "summary": "OpenAI said Nov. 5 that GPT-6 Cyber finds and validates vulnerabilities inside a researcher-set scope, and that it is available first through the API and Codex to a select group of approved Daybreak Red customers. OpenAI said it scores 48.5 percent on ExploitGym, up from 32.1 percent for GPT-5.6 Cyber, and that without a deployment prompt it avoided exploiting out-of-scope services in 99.93 percent of ExploitGym Honeypot tests. OpenAI said its researchers used the model to develop 948 privilege-escalation exploits in Linux and to identify 81 previously unknown high-severity Firefox vulnerabilities, and that Cisco, Palo Alto Networks, and CrowdStrike described using it. OpenAI said it classifies the model as Critical under its Preparedness Framework, up from High for GPT-5.6 Cyber, and it quoted Dragos chief AI officer Rob Lee, after lab evaluations of Daybreak Red models, saying a frontier model on a mock power-plant range found two zero-days in software that manages protective-relay data.",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/introducing-gpt-6-cyber"
         }
       ]
     }

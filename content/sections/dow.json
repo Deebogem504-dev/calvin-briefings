@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-13",
-  "covers": "Nov 3–13, 2026",
-  "readFirst": "Covers Nov. 3–13. New: Breaking Defense reported Nov. 12 that a Hegseth memo dated Nov. 2 would treat the special operations civilian office like a service secretary, with Congress still required for an undersecretary, and DefenseScoop reported the same day that Joint Interagency Task Force 401 has asked the intelligence community for counter-drone threat assessments. The Nov. 3 Project Meridian lawsuit note and the Nov. 4 item on Hegseth remaining in office were dropped to stay inside the count. No new Golden Dome award dated Nov. 12–13 was found. No war.gov daily contracts release for Nov. 12 or Nov. 13 was opened. No new Army or Department of War enterprise software agreement was found. The Poland statement of intent remains.",
+  "compiled": "2026-11-16",
+  "covers": "Nov 9–16, 2026",
+  "readFirst": "Covers Nov. 9–16. New: DefenseScoop reported Nov. 13 that Air Force Special Warfare asked industry for a vehicle-agnostic mobile communications system, with replies due Dec. 11. The Department of War's Nov. 13 redesignation of the Chief Digital and Artificial Intelligence Office is on the AI page. No new Golden Dome award dated Nov. 13–16 was found, so that subsection is empty. No war.gov daily contracts release for Nov. 13, Nov. 14, or Nov. 16 was opened. No new Army or Department of War enterprise software agreement was found. The Poland statement of intent remains.",
   "subsections": [
     {
       "id": "secwar",
@@ -103,66 +103,16 @@
       ]
     },
     {
-      "id": "dia-sia4-2026-11-06",
+      "id": "afsoc-mcsu-2026-11-13",
       "subsection": "acquisition",
-      "date": "2026-11-06",
-      "dateLabel": "Nov 6",
-      "headline": "Federal News Network: DIA is asking industry about a classified analysis vehicle near $17 billion",
-      "summary": "Federal News Network's Nov. 6 newscast said the Defense Intelligence Agency is starting the next version of its Solutions for Intelligence Analysis multiple-award vehicle, SIA 4. The outlet said a request for information would make SIA 4 a classified contract, so vendors would need an active Top Secret facility clearance. It said the vehicle would have a five-year base and a five-year option, with a total ceiling of about $17 billion. Responses are due Nov. 24, and the agency expects an industry event in early 2027.",
+      "date": "2026-11-13",
+      "dateLabel": "Nov 13",
+      "headline": "Air Force Special Warfare asks industry for a vehicle-agnostic mobile communications kit",
+      "summary": "DefenseScoop reported Nov. 13 that Air Force Special Warfare published a request for information on Thursday for a Mobile Communication System-Universal, a mobile command-and-control node meant to pass voice, data, and video between Tactical Air Control Party operators while driving or parked. DefenseScoop said earlier systems were customized for specific vehicles, and that the new system would need to mix and match across vehicles as much as possible, including Joint Light Tactical Vehicles and Infantry Squad Vehicles. Industry replies are due Dec. 11. The notice says the program is pending formal acquisition and funding approval, and that a draft requirements document and a draft request for proposals are tentatively slated for fiscal 2027.",
       "sources": [
-        {
-          "name": "Federal News Network",
-          "url": "https://federalnewsnetwork.com/federal-newscast/2026/11/dod-and-va-join-forces-to-increase-electronic-health-information-security/"
-        }
-      ]
-    },
-    {
-      "id": "osc-loans-2026-11-05",
-      "subsection": "acquisition",
-      "date": "2026-11-05",
-      "dateLabel": "Nov 5",
-      "headline": "Office of Strategic Capital commits conditional loans to 6K and Halo Industries",
-      "summary": "The Department of War said Nov. 5 that the Office of Strategic Capital signed a $250 million conditional loan commitment with 6K, Inc. to scale nickel-manganese-cobalt cathode production at its PlusCAM facility in Jackson, Tennessee, matched by an additional $250 million in private capital. The release says the material is for defense platforms, uncrewed aerial systems, tactical communications, and energy infrastructure, that the United States produces less than 1 percent of its NMC cathode needs domestically, and that financial close still requires further diligence. The same day the office signed a $75 million conditional loan commitment with Halo Industries to scale laser slicing of silicon-carbide wafers in Santa Clara, California, crowding in an additional $75 million for uses including radar, electronic warfare, hypersonics, and directed energy. Both releases say the commitments are not yet a financial close, and Under Secretary for Research and Engineering Emil Michael endorsed each one.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4642212/department-of-wars-office-of-strategic-capital-signs-250-million-conditional-lo/"
-        },
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4642227/department-of-wars-office-of-strategic-capital-signs-75-million-conditional-loa/"
-        }
-      ]
-    },
-    {
-      "id": "chaos-radar-2026-11-04",
-      "subsection": "acquisition",
-      "date": "2026-11-04",
-      "dateLabel": "Nov 4",
-      "headline": "JIATF-401 awards CHAOS 1 more than $6.9 million for CENTCOM counter-drone radar",
-      "summary": "The Department of War said Nov. 4 that Joint Interagency Task Force 401 awarded CHAOS 1, Inc. a contract valued at more than $6.9 million for Vanquish Prime radar systems to strengthen counter-unmanned aircraft defense in the U.S. Central Command area. The release says the radars provide long-range detection and tracking, and that the award includes training and technology for integration. Lt. Col. Matthew Strohman, the task force's capability manager for mobile counter-UAS, said the threat from unmanned systems is evolving and that the systems are meant to give forces in CENTCOM a detection layer. The release says the radars will go to designated locations in that area of responsibility.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4641125/advanced-radar-contract-bolsters-uscentcom-counter-uas-defense/"
-        }
-      ]
-    },
-    {
-      "id": "viasat-moc-2026-11-06",
-      "subsection": "goldendome",
-      "date": "2026-11-06",
-      "dateLabel": "Nov 6",
-      "headline": "Space Force awards Viasat up to $450 million for a Golden Dome data-network operations center",
-      "summary": "Breaking Defense reported Nov. 6 that the Space Force, in partnership with the Pentagon's Golden Dome office, awarded Viasat an indefinite-delivery/indefinite-quantity contract with a $450 million ceiling to design, field, and scale a Mission Operations Center for the Space Data Network Backbone. DefenseScoop reported the same day that the initial task order is valued at $115 million, and that the Pentagon earlier awarded SpaceX a $2.3 billion contract for a fully operational prototype of the low-Earth-orbit backbone by the end of 2027. Breaking Defense said Space Systems Command described the center as the central network orchestration hub for that backbone. DefenseScoop quoted Lt. Col. Alexa Eggert, materiel leader for the program, saying the center is a crucial step in maturing the network into a fully operational, multi-vendor capability.",
-      "sources": [
-        {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/11/dod-taps-viasat-to-field-operations-center-for-golden-dome-satellite-data-relay-network/"
-        },
         {
           "name": "DefenseScoop",
-          "url": "https://defensescoop.com/2026/11/06/pentagon-mission-operations-center-space-data-network/"
+          "url": "https://defensescoop.com/2026/11/13/air-force-special-warfare-mobile-communication-system/"
         }
       ]
     },
@@ -181,34 +131,6 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/Releases/Release/Article/4646284/readout-of-secretary-of-war-pete-hegseths-meeting-with-polands-deputy-prime-min/"
-        }
-      ]
-    },
-    {
-      "id": "drpm-centcom-2026-11-04",
-      "subsection": "ops",
-      "date": "2026-11-04",
-      "dateLabel": "Nov 4",
-      "headline": "Department says DRPM-UxS fielded more than 24,000 counter-drone systems to CENTCOM",
-      "summary": "The Department of War said Nov. 4 that the Direct Reporting Portfolio Manager for Unmanned Systems fielded, through about $782 million this year, more than 1,300 one-way-attack unmanned aerial vehicles, more than 100 unmanned surface and undersea vessels, and more than 24,000 counter-unmanned aerial systems to U.S. Central Command. The release says the counter-drone systems went out through Joint Interagency Task Force 401. Owen West, who the release calls CEO of Project Agincourt and DRPM-UxS, said the office was set up to put lethal technology in the hands of frontline troops and that the goal is to scale the capabilities across the joint force. The release says the effort is the operational foundation for Autonomous Warfare Command, a planned four-star command scheduled to stand up by Oct. 1, 2027, and that fielding will expand to Pacific Command, European Command, and the broader joint force.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4641098/drpm-uxs-deliver-over-25000-autonomous-and-counter-unmanned-systems-to-centcom/"
-        }
-      ]
-    },
-    {
-      "id": "eram-rfi-2026-11-03",
-      "subsection": "ops",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "Air Force asks industry for more than 1,000 Extended Range Attack Munitions for Ukraine",
-      "summary": "Defense News reported Nov. 3 that the U.S. Air Force is asking industry whether it can deliver a cruise missile intended for Ukraine, the Extended Range Attack Munition. The outlet said the request for information, due Nov. 19, describes a 500-pound-class air-launched weapon with a range greater than 250 nautical miles, a speed above Mach 0.6, and terminal accuracy within 10 meters even with degraded GPS. Defense News said companies should begin delivering the first of more than 1,000 missiles no later than three months after award, and finish within 15 months. It said the Air Force in 2024 awarded prototype work to Zone 5 Technologies and CoAspire, and conducted a live-warhead test at Eglin Air Force Base in January 2026.",
-      "sources": [
-        {
-          "name": "Defense News",
-          "url": "https://www.defensenews.com/industry/2026/11/03/us-air-force-asks-industry-for-new-cruise-missile-for-ukraine/"
         }
       ]
     }

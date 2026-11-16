@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-13",
+  "title": "November 13, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "PARTNERS",
+      "dateLabel": "Nov 12",
+      "headline": "Huang resigned; Colette Kress is interim Nvidia CEO",
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 2–12",
+      "headline": "Hegseth moves to seat special operations with the service secretaries",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/hegseth-seeks-to-elevate-top-sof-civilian-to-service-secretary-equivalent/"
+        },
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4643910/secretary-of-war-pete-hegseth-elevates-special-operations-leadership-to-revital/"
+        }
+      ]
+    },
+    {
+      "label": "ARMY",
+      "dateLabel": "Nov 12",
+      "headline": "25th Infantry Division is pushing NGC2 compute to company level",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4647175/army-allies-prepare-for-long-range-air-assault-in-hawaii/"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Nov 3–12",
+      "headline": "ILC agrees to pay $13 million over alleged Army, MDA, and NASA cyber failures",
+      "sources": [
+        {
+          "name": "Department of Justice",
+          "url": "https://www.justice.gov/opa/pr/defense-and-aerospace-contractors-ilc-dover-and-ilc-astrospace-agree-pay-13m-resolve"
+        },
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/litigation/2026/11/dod-contractor-to-pay-13-million-over-alleged-cyber-compliance-failures-in-army-mda-nasa-contracts/"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Nov 12",
+      "headline": "Google releases Gemini 4 Hydrogen for faster agentic work",
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+        }
+      ]
+    },
+    {
+      "label": "BUDGET",
+      "dateLabel": "Nov 12",
+      "headline": "Senate Democrats want Iran-war limits on the Dec. 11 stopgap",
+      "sources": [
+        {
+          "name": "Roll Call",
+          "url": "https://rollcall.com/2026/11/12/democrats-mulling-iran-war-funding-cutoff-strategy/"
+        }
+      ]
+    }
+  ]
+}

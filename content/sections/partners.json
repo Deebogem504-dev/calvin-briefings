@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-13",
-  "covers": "Nov 3–13, 2026",
-  "readFirst": "Covers Nov. 3–13. New: NVIDIA said Nov. 12 that Jensen Huang resigned and that Colette Kress is interim chief executive, which replaces the prior report that the board was only preparing to remove him. Tom's Hardware reported Nov. 13 that SemiAnalysis estimates more than 1.5 gigawatts of restricted Nvidia hardware reached China. No Red Hat press release or Army or Department of War Red Hat deal dated Nov. 12–13 was found. No new Army or Department of War enterprise agreement was found. No new Dell, HPE, NetApp, Microsoft, Palo Alto, AWS, or Google Cloud newsroom item dated Nov. 12–13 was opened. F5 and VMware were quiet; Intel's Nov. 3 process-kit note remains.",
+  "compiled": "2026-11-16",
+  "covers": "Nov 9–16, 2026",
+  "readFirst": "Covers Nov. 9–16. New: Tom's Hardware reported Nov. 14 that Treasury Secretary Scott Bessent questioned whether Nvidia knowingly sold AI GPUs to pass-through shell companies and said people at the company should be held accountable. No Red Hat press release or Army or Department of War Red Hat deal dated Nov. 13–16 was found. No new Army or Department of War enterprise agreement was found. No new Cisco, Dell, HPE, NetApp, Microsoft, AWS, or Google Cloud newsroom item dated Nov. 13–16 was opened. Unit 42's Cairn report is on the cyber page. F5, Intel, and VMware were quiet.",
   "subsections": [
     {
       "id": "cisco",
@@ -57,34 +57,6 @@
   ],
   "items": [
     {
-      "id": "cisco-openai-defense-2026-11-03",
-      "subsection": "cisco",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "OpenAI says Cisco is using GPT-6 Astra and Daybreak to speed network defense",
-      "summary": "OpenAI said Nov. 3 that Cisco is combining network telemetry with OpenAI models, and that OpenAI's zero-data-retention terms let Cisco deploy the models on mission-critical systems. Jeetu Patel, Cisco's president and chief product officer, told OpenAI that controls can sit in front of every microservice, Kubernetes container, and cluster, and that two signals that look benign alone can show a pattern together. Patel said Daybreak and GPT-6 Astra have been what he called step-function improvements for Cisco's security posture and its customers', and that the tools can fit into existing scanning workflows. OpenAI said that through the Daybreak Defense Network the companies are exploring how security teams can triage exposure faster and enforce controls in Cisco Cloud Control.",
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/cisco-cyber"
-        }
-      ]
-    },
-    {
-      "id": "dell-onefs-2026-11-03",
-      "subsection": "dell",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "Dell says PowerScale OneFS 9.16 supports 500 tenants on one cluster",
-      "summary": "Dell said Nov. 3 that PowerScale OneFS 9.16, which it calls a storage engine in the Dell AI Data Platform, supports up to 500 tenants on a single cluster, ten times the previous 50-zone ceiling. Dell said Access Zone-aware snapshots and quotas, shared network pools, object-ownership policies, and source-IP routing are meant to keep tenant boundaries in place on shared infrastructure. It said the release adds offline licensing registration, pAPI request rate limiting, and RPC-over-TLS for NFS traffic without a Kerberos deployment. Dell also said OneFS 9.16 adds S3 bucket ownership modes, including ObjectWriter, BucketOwnerEnforced, and BucketOwnerPreferred.",
-      "sources": [
-        {
-          "name": "Dell",
-          "url": "https://www.dell.com/en-us/blog/how-powerscale-onefs-9-16-scales-ai-cloud-infrastructure/"
-        }
-      ]
-    },
-    {
       "id": "nvidia-kress-interim-2026-11-12",
       "subsection": "nvidia",
       "date": "2026-11-12",
@@ -95,6 +67,20 @@
         {
           "name": "NVIDIA",
           "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-bessent-2026-11-14",
+      "subsection": "nvidia",
+      "date": "2026-11-14",
+      "dateLabel": "Nov 14",
+      "headline": "Bessent questions whether Nvidia sold AI GPUs to pass-through shell companies",
+      "summary": "Tom's Hardware reported Nov. 14 that Treasury Secretary Scott Bessent, in a CNBC interview, said there is a lot of leakage in export controls and that the question is whether Nvidia knew its clients and made a robust effort not to sell to pass-through shell companies. Bessent said anyone at the company should be held accountable for that. Tom's Hardware said Bessent does not believe the United States needs stricter export restrictions or additional agency powers, and that existing rules should be enforced. Tom's Hardware also said Bessent stressed that it was unclear whether Jensen Huang knew about the practices.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that"
         }
       ]
     },
@@ -131,24 +117,6 @@
       ]
     },
     {
-      "id": "nvidia-board-review-2026-11-08",
-      "subsection": "nvidia",
-      "date": "2026-11-08",
-      "dateLabel": "Nov 7–8",
-      "headline": "Tom's Hardware: Nvidia's board opens a review after Huang's letter about an alleged spy",
-      "summary": "Tom's Hardware reported Nov. 8 that Nvidia chief executive Jensen Huang admitted, in a letter to staff, to an affair with a woman who is allegedly a Chinese spy, and that the board said late Sunday it has no reason to believe sensitive corporate information or U.S. national security was compromised. The board said a committee of independent directors, assisted by outside counsel, will examine the available information, and that Huang supports the review. Tom's Hardware reported that Nvidia rejected suggestions of improper dealings, saying Huang regularly meets thousands of customers and that those interactions do not involve sensitive corporate information or national security secrets, and that Chinese officials dismissed the espionage allegations as unfounded. Tom's Hardware reported Nov. 7 that Reps. John Moolenaar, Brian Mast, and Rick Crawford, chairs of the House committees on China, Foreign Affairs, and Intelligence, asked Huang for a closed-door meeting, citing reports that Megaspeed executive Alice Huang is a Chinese asset.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-ceo-jensen-huang-admits-to-having-an-affair-with-suspected-chinese-spy-jensen-apologizes-in-letter-to-staff-company-board-forms-independent-committee-to-investigate"
-        },
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidias-jensen-huang-officially-called-to-congress-due-to-reports-of-a-chinese-spy-plot-officials-mention-growing-concerns-over-national-security"
-        }
-      ]
-    },
-    {
       "id": "chatgpt-aws-2026-11-09",
       "subsection": "aws",
       "date": "2026-11-09",
@@ -159,34 +127,6 @@
         {
           "name": "OpenAI",
           "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/"
-        }
-      ]
-    },
-    {
-      "id": "amd-q4-intel-2026-11-04",
-      "subsection": "quiet",
-      "date": "2026-11-04",
-      "dateLabel": "Nov 4",
-      "headline": "Tom's Hardware: AMD's fourth-quarter guide would put it ahead of Intel",
-      "summary": "Tom's Hardware reported Nov. 4 that AMD expects about $17 billion of fourth-quarter revenue, plus or minus 3 percent, against an Intel range of $15 billion to $16 billion, which Tom's Hardware said would put AMD ahead of Intel for a quarter for the first time. It said third-quarter revenue was $13.377 billion and Data Center revenue was a record $8.55 billion, 64 percent of sales. Chief executive Lisa Su said server revenue is expected to double year over year in 2027 and that data center should be more than 80 percent of total revenue that year. Tom's Hardware said Embedded revenue rose 29 percent year over year to $1.11 billion, which AMD attributed in part to aerospace and defense, and that Client and Gaming is projected to contract more than 20 percent sequentially in the fourth quarter.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections"
-        }
-      ]
-    },
-    {
-      "id": "intel-14a-pdk-2026-11-03",
-      "subsection": "quiet",
-      "date": "2026-11-03",
-      "dateLabel": "Nov 3",
-      "headline": "Tom's Hardware: Intel Foundry released the Intel 14A process kit, version 0.9",
-      "summary": "Tom's Hardware reported Nov. 3 that Intel Foundry last week made its Intel 14A process design kit, version 0.9, available. Tom's Hardware said Intel describes the node as reaching the performance and yield maturity expected at this stage, with the results backed by silicon validation. It said Intel plans to release process design kit 1.0 in the first quarter of 2027, which Intel says will validate readiness for high-volume manufacturing.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-14a-moves-closer-to-production-as-pdk-0-9-becomes-available-process-design-kit-gives-developers-important-production-milestone-ahead-of-1-0-in-2027"
         }
       ]
     },
