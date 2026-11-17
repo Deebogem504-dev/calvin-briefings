@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-16",
-  "covers": "Nov 9–16, 2026",
-  "readFirst": "Covers Nov. 9–16. New: Stars and Stripes reported Nov. 13 that soldiers at Grafenwoehr tested containerized drones and unmanned ground vehicles, including a swarm of 18 drones, and Army.mil reported Nov. 12 that PADDS users have moved onto the Army Contract Writing System. An EIN Presswire copy of a 25th Infantry Division release described a Nov. 13 HIMARS live fire at Kwajalein, but the original DVIDS or Army.mil article was not opened, so it was not added. No new NETCOM release and no new Army enterprise agreement were found in Army CIO reporting, ESI, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. No confirmation that Brig. Gen. Sutten assumed command of CECOM on Nov. 16 was found; the Oct. 28 town hall note aged out. The Week Ahead subsection is empty.",
+  "compiled": "2026-11-17",
+  "covers": "Nov 9–17, 2026",
+  "readFirst": "Covers Nov. 9–17. New: the Department of War said Nov. 16 that the president nominated 36 Army brigadier generals to major general, including Brig. Gen. Robert G. Born, commanding general of Combat Capabilities Development Command at Aberdeen Proving Ground, and Brig. Gen. Marne L. Sutten, who previously directed network command, control, cyber, and communications systems integration on the G-6. The release does not say Sutten commands CECOM. DRONELIFE reported the same day on a Manufacturing Rodeo solicitation for 400 Group 1 one-way-attack drones, and Breaking Defense reported that G-TEAD will award up to six other-transaction agreements after Accelerated Capability Events. No new NETCOM release and no new Army enterprise agreement were found in Army CIO reporting, ESI, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. The Week Ahead subsection is empty.",
   "subsections": [
     {
       "id": "leadership",
@@ -33,6 +33,20 @@
   ],
   "items": [
     {
+      "id": "army-go-noms-2026-11-16",
+      "subsection": "leadership",
+      "date": "2026-11-16",
+      "dateLabel": "Nov 16",
+      "headline": "President nominates DEVCOM's Aberdeen commander and 35 other Army brigadiers",
+      "summary": "The Department of War said Nov. 16 that Secretary Pete Hegseth announced the president has nominated 36 Army brigadier generals for appointment to major general. The list includes Brig. Gen. Robert G. Born, commanding general of Combat Capabilities Development Command at Aberdeen Proving Ground, Maryland, and Brig. Gen. Marne L. Sutten, who previously served as director of network command, control, cyber communications systems integration in the Office of the Deputy Chief of Staff, G-6. The release announces nominations, not Senate confirmations, and it does not say Sutten has assumed command of CECOM.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4649206/secretary-of-war-general-officer-announcements-for-nov-16-2026/"
+        }
+      ]
+    },
+    {
       "id": "soldier-arrest-2026-11-11",
       "subsection": "leadership",
       "date": "2026-11-11",
@@ -43,6 +57,20 @@
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/11/us-army-soldier-russia-espionage-arrest.html"
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-rodeo-2026-11-16",
+      "subsection": "modernization",
+      "date": "2026-11-16",
+      "dateLabel": "Nov 13–16",
+      "headline": "Army Contracting Command opens a Manufacturing Rodeo for 400 one-way-attack drones",
+      "summary": "DRONELIFE reported Nov. 16 that a Nov. 13 Army Contracting Command solicitation outlines a small-uncrewed-aircraft Manufacturing Rodeo pairing commercial manufacturers with the Army's organic industrial base. DRONELIFE said the effort covers Group 1 first-person-view one-way-attack and loitering-strike drones, with an initial batch of 400 flight-ready aircraft and 20 ground control stations at a maximum unit price of $3,000, and that the Army would supply batteries, motors, frames, and other specified equipment. The aircraft would compete at Drone Dominance Gauntlet III in March 2027, and successful participants could qualify for follow-on production of up to 10,000 aircraft at Army depots. DRONELIFE said a virtual industry briefing was scheduled for Nov. 16 and that the solicitation lists Nov. 20 as the overall response date, with an earlier deadline for initial solution briefs.",
+      "sources": [
+        {
+          "name": "DRONELIFE",
+          "url": "https://dronelife.com/2026/11/16/army-drone-manufacturing-rodeo/"
         }
       ]
     },
@@ -85,6 +113,20 @@
         {
           "name": "Breaking Defense",
           "url": "https://breakingdefense.com/2026/11/army-fields-launched-effects-to-11-of-12-divisions-with-griffon-aerospace-delivering-the-majority/"
+        }
+      ]
+    },
+    {
+      "id": "g-tead-ota-2026-11-16",
+      "subsection": "contracts",
+      "date": "2026-11-16",
+      "dateLabel": "Nov 16",
+      "headline": "G-TEAD will award up to six OTAs after each Accelerated Capability Event",
+      "summary": "Breaking Defense reported Nov. 16 that the Army's Global Tactical Edge Acquisition Directorate will award five to six other-transaction agreements after an Accelerated Capability Event, instead of one. Col. Christopher Hill, the director, told reporters Friday that the awards let small and medium-sized businesses that make it through a competition leave with an agreement, and that these agreements fund a 45-day operational assessment rather than a prototype. Breaking Defense said that assessment can then lead to one to three prototype agreements. The change started with an event in Hawaii, run with the Army's Pacific Command, on autonomous ground vehicles and command-and-control systems for sustainment and casualty evacuation, and Hill said the winners have not been named.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/armys-g-tead-expands-ota-awards-to-push-more-vendors-to-prototyping-stage/"
         }
       ]
     },

@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-16",
-  "covers": "Nov 9–16, 2026",
-  "readFirst": "Covers Nov. 9–16. New: DefenseScoop reported Nov. 13 that Air Force Special Warfare asked industry for a vehicle-agnostic mobile communications system, with replies due Dec. 11. The Department of War's Nov. 13 redesignation of the Chief Digital and Artificial Intelligence Office is on the AI page. No new Golden Dome award dated Nov. 13–16 was found, so that subsection is empty. No war.gov daily contracts release for Nov. 13, Nov. 14, or Nov. 16 was opened. No new Army or Department of War enterprise software agreement was found. The Poland statement of intent remains.",
+  "compiled": "2026-11-17",
+  "covers": "Nov 9–17, 2026",
+  "readFirst": "Covers Nov. 9–17. New: the Department of War said Nov. 16 that seven industry teams are invited to a directed-energy counter-drone shoot-off at Dugway Proving Ground in mid-December, and that it launched a Defense Production Act survey of about 500 manufacturers on additive-manufacturing qualification barriers. No new Golden Dome award was found, so that subsection is empty. The Senate appropriators' $9.4 billion Golden Dome figure is on the budget page. Azure Red Hat OpenShift at Impact Level 5 on the Joint Warfighting Cloud Capability contract is on the partners page. No new Army or Department of War enterprise software agreement was found. No war.gov contracts release for Nov. 16 or Nov. 17 was opened.",
   "subsections": [
     {
       "id": "secwar",
@@ -85,6 +85,34 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/Releases/Release/Article/4644710/secretary-of-war-pete-hegseth-orders-sweeping-overhaul-of-military-education-to/"
+        }
+      ]
+    },
+    {
+      "id": "de-shootoff-2026-11-16",
+      "subsection": "acquisition",
+      "date": "2026-11-16",
+      "dateLabel": "Nov 16",
+      "headline": "Seven laser teams are invited to a mid-December counter-drone shoot-off at Dugway",
+      "summary": "The Department of War said Nov. 16 that its Office of Research and Engineering and Joint Interagency Task Force 401 invited seven industry teams, chosen from 13 white papers, to Phase II of a directed-energy counter-drone evaluation, with live fire at Dugway Proving Ground planned for mid-December. The systems are Allen Control Systems' Bullfrog, Aurelius Systems' Archimedes, AeroVironment (BlueHalo) Locust X1, Kord Technologies' Firefly, Lockheed Martin (IPG) Crossbow, Thor Dynamics' Laser Armor, and Yrikka's Talos drone-based laser. Brig. Gen. Matthew Ross, director of the task force, said the shoot-off is structured so a system that performs successfully can immediately result in a purchase order. Under Secretary Emil Michael said scaled directed energy is one of the department's six critical technology areas.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4648762/department-of-war-invites-seven-industry-teams-to-participate-in-phase-ii-direc/"
+        }
+      ]
+    },
+    {
+      "id": "additive-mfg-survey-2026-11-16",
+      "subsection": "acquisition",
+      "date": "2026-11-16",
+      "dateLabel": "Nov 16",
+      "headline": "War and Commerce open a Defense Production Act survey of additive manufacturing",
+      "summary": "The Department of War said Nov. 16 that it and the Commerce Department's Bureau of Industry and Security launched an assessment, under Section 705 of the Defense Production Act, of the qualification cost and timeline barriers to scaling additive manufacturing in the defense industrial base. The department said the survey will go to roughly 500 manufacturers and will cover capital spending, machine use, powder and feedstock, and software across aerospace, maritime, munitions, space, and ground vehicles, and that individual responses are confidential and exempt from the Freedom of Information Act. Under Secretary Michael Duffey said the partnership is meant to reduce regulatory bottlenecks and shorten certification timelines. Notices to eligible manufacturers, printer and material producers, and service providers were to begin Nov. 16.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4649497/launch-of-nationwide-assessment-to-dismantle-barriers-to-additive-manufacturing/"
         }
       ]
     },

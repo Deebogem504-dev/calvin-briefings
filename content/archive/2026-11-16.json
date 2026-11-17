@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-16",
+  "title": "November 16, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "AI",
+      "dateLabel": "Nov 13",
+      "headline": "The Department of War renames its AI office the Super Intelligence Office",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4647618/department-of-war-redesignates-cdao-as-super-intelligence-office/"
+        },
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/pentagon-rebrands-principle-ai-shop-as-super-intelligence-office/"
+        }
+      ]
+    },
+    {
+      "label": "ARMY",
+      "dateLabel": "Nov 13",
+      "headline": "Grafenwoehr test fires containerized drone swarms and robotic launchers",
+      "sources": [
+        {
+          "name": "Stars and Stripes",
+          "url": "https://www.stripes.com/branches/army/2026-11-13/containers-drones-munitions-test-germany-23453535.html"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Nov 13",
+      "headline": "CISA adds Check Point and UnrealIRCd flaws, due today",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 2–12",
+      "headline": "Hegseth moves to seat special operations with the service secretaries",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/hegseth-seeks-to-elevate-top-sof-civilian-to-service-secretary-equivalent/"
+        },
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4643910/secretary-of-war-pete-hegseth-elevates-special-operations-leadership-to-revital/"
+        }
+      ]
+    },
+    {
+      "label": "PARTNERS",
+      "dateLabel": "Nov 14",
+      "headline": "Bessent says Nvidia should answer for sales to shell companies",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Nov 14",
+      "headline": "Malaysia would track data-center power to catch diverted AI GPUs",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity"
+        }
+      ]
+    }
+  ]
+}

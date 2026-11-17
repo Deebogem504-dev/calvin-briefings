@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Federal Budget & NDAA Weekly Tracker",
   "description": "Fiscal 2027 appropriations, the continuing resolution, NDAA status, reconciliation funds and Golden Dome money.",
-  "compiled": "2026-11-16",
-  "covers": "Nov 9–16, 2026",
-  "readFirst": "Covers Nov. 9–16. No new appropriations text or NDAA floor vote dated Nov. 13–16 was opened. The Nov. 12 note on Iran-war limits for the Dec. 11 stopgap and the Nov. 11 military construction and Veterans Affairs bill note remain. No new Golden Dome funding bill was found. The NDAA subsection is empty after older items aged out.",
+  "compiled": "2026-11-17",
+  "covers": "Nov 9–17, 2026",
+  "readFirst": "Covers Nov. 9–17. New: Breaking Defense reported Nov. 16 that Senate appropriators released a fiscal 2027 defense bill of nearly $1.1 trillion, including $9.4 billion for Golden Dome, and that the bill still needs a Senate floor vote before the Dec. 11 continuing-resolution deadline. No NDAA floor vote was opened. The NDAA subsection is empty.",
   "subsections": [
     {
       "id": "approps",
@@ -24,6 +24,20 @@
     }
   ],
   "items": [
+    {
+      "id": "senate-dod-approps-2026-11-16",
+      "subsection": "approps",
+      "date": "2026-11-16",
+      "dateLabel": "Nov 16",
+      "headline": "Senate appropriators release a nearly $1.1 trillion fiscal 2027 defense bill",
+      "summary": "Breaking Defense reported Nov. 16 that Senate appropriators released a fiscal 2027 defense spending proposal of nearly $1.1 trillion, short of the administration's $1.5 trillion request, which Breaking Defense said was split into a $1.15 trillion base and $350 billion in reconciliation. Breaking Defense said nearly $69 billion that the administration had requested as one-time mandatory spending is instead provided as discretionary funds, including $9.4 billion for Golden Dome and $3 billion for the Defense Autonomous Warfare Group. The proposal includes $47.2 billion for munitions, raises the Army Chinook request from $210.6 million to $570.6 million, and adds $185 million for the Improved Turbine Engine Program and $150 million for Coyote counter-drone missiles. The bill still needs a Senate floor vote, and Breaking Defense said leaders have until Dec. 11, when the continuing resolution expires.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/senate-appropriators-unveil-1-1t-pentagon-spending-bill-folding-in-reconciliation-priorities/"
+        }
+      ]
+    },
     {
       "id": "iran-cr-2026-11-12",
       "subsection": "approps",

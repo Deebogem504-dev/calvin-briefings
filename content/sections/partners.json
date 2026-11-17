@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-16",
-  "covers": "Nov 9–16, 2026",
-  "readFirst": "Covers Nov. 9–16. New: Tom's Hardware reported Nov. 14 that Treasury Secretary Scott Bessent questioned whether Nvidia knowingly sold AI GPUs to pass-through shell companies and said people at the company should be held accountable. No Red Hat press release or Army or Department of War Red Hat deal dated Nov. 13–16 was found. No new Army or Department of War enterprise agreement was found. No new Cisco, Dell, HPE, NetApp, Microsoft, AWS, or Google Cloud newsroom item dated Nov. 13–16 was opened. Unit 42's Cairn report is on the cyber page. F5, Intel, and VMware were quiet.",
+  "compiled": "2026-11-17",
+  "covers": "Nov 9–17, 2026",
+  "readFirst": "Covers Nov. 9–17. New: CNBC reported Nov. 17 that Commerce and Justice said the Megaspeed export-control investigation began in 2024 and that Nvidia placed the company on a no-sell list in June 2025, and that a person familiar with the matter said Monday the board is not considering bringing Jensen Huang back. Earnings had not been released as of this morning. Red Hat said Nov. 16 that Azure Red Hat OpenShift at Impact Level 5 is now available on the Joint Warfighting Cloud Capability contract. No new Army or Department of War enterprise agreement was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. No new Cisco, Dell, HPE, NetApp, Microsoft, or AWS newsroom item dated Nov. 16–17 was opened. F5, Intel, and VMware were quiet. A Tom's Hardware note on Intel's Classiq deal tracks an Oct. 26 announcement and was not added.",
   "subsections": [
     {
       "id": "cisco",
@@ -57,16 +57,30 @@
   ],
   "items": [
     {
-      "id": "nvidia-kress-interim-2026-11-12",
+      "id": "megaspeed-probe-2026-11-16",
       "subsection": "nvidia",
-      "date": "2026-11-12",
-      "dateLabel": "Nov 12",
-      "headline": "Nvidia says Jensen Huang resigned and Colette Kress is interim chief executive",
-      "summary": "NVIDIA said Nov. 12 that Jensen Huang resigned as president, chief executive, and a member of the board, effective immediately. The company said Colette Kress, executive vice president and chief financial officer since September 2013, will serve as interim chief executive while remaining chief financial officer, and that the board, now chaired for the first time by Harvey C. Jones, will consider internal and external candidates for a permanent successor. Jones said the board expects operations, customer commitments, and the product roadmap to continue without interruption. NVIDIA said it will still report fiscal 2027 third-quarter results on Nov. 17.",
+      "date": "2026-11-16",
+      "dateLabel": "Nov 16–17",
+      "headline": "Commerce and Justice say the Megaspeed export-control probe began in 2024",
+      "summary": "CNBC reported Nov. 17 that the Commerce and Justice Departments said Monday they initiated an investigation of Singapore-based Megaspeed in 2024 over potential export-control violations, to address inaccurate information in public reporting. CNBC said the joint release states that Nvidia placed Megaspeed on its no-sell list in June 2025 after Commerce investigators requested records of direct or indirect sales, and that U.S. officials and Singapore police that month inspected Megaspeed and interviewed Alice Huang. The statement said that after that enforcement action, Justice took the lead in the criminal investigation of Megaspeed. CNBC described Megaspeed as a cloud firm with data centers across Southeast Asia and said Alice Huang was allegedly involved in a relationship with Jensen Huang.",
       "sources": [
         {
-          "name": "NVIDIA",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/megaspeed-investigation-nvidia-jensen-huang.html"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-board-return-2026-11-17",
+      "subsection": "nvidia",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 16–17",
+      "headline": "CNBC: Nvidia's board is not considering bringing Jensen Huang back",
+      "summary": "CNBC reported Nov. 17 that a person familiar with the matter told CNBC on Monday that Nvidia's board is not considering bringing Jensen Huang back as chief executive. CNBC said an online petition calling for his reinstatement had drawn more than 190,000 signatures, including Elon Musk, and that the stock fell 4 percent on Monday to its lowest close since July 1, 2025. CNBC said the shares were down slightly Tuesday morning ahead of earnings, which had not yet been reported. Huang resigned Nov. 12, and Colette Kress is interim chief executive.",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html"
         }
       ]
     },
@@ -85,34 +99,16 @@
       ]
     },
     {
-      "id": "nvidia-smuggling-gw-2026-11-13",
+      "id": "nvidia-kress-interim-2026-11-12",
       "subsection": "nvidia",
-      "date": "2026-11-13",
-      "dateLabel": "Nov 13",
-      "headline": "Tom's Hardware: SemiAnalysis estimates 1.5 gigawatts of restricted Nvidia hardware reached China",
-      "summary": "Tom's Hardware reported Nov. 13 that SemiAnalysis estimates more than 1.5 gigawatts of Nvidia hardware subject to U.S. export restrictions reached China in recent years, not counting chips Nvidia designed to comply with those rules, such as the H20 and H800. Tom's Hardware said SemiAnalysis claims the Commerce Department has reached a similar conclusion about the scale, and that the firm did not disclose how many accelerators were involved or how they split across product generations. Tom's Hardware said the newsletter speculates that this scale may explain the timing of Jensen Huang's departure, and that the report provides no direct evidence that intelligence agencies influenced Nvidia's board or that Huang took part in unauthorized exports.",
+      "date": "2026-11-12",
+      "dateLabel": "Nov 12",
+      "headline": "Nvidia says Jensen Huang resigned and Colette Kress is interim chief executive",
+      "summary": "NVIDIA said Nov. 12 that Jensen Huang resigned as president, chief executive, and a member of the board, effective immediately. The company said Colette Kress, executive vice president and chief financial officer since September 2013, will serve as interim chief executive while remaining chief financial officer, and that the board, now chaired for the first time by Harvey C. Jones, will consider internal and external candidates for a permanent successor. Jones said the board expects operations, customer commitments, and the product roadmap to continue without interruption. NVIDIA said it will still report fiscal 2027 third-quarter results on Nov. 17.",
       "sources": [
         {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls"
-        }
-      ]
-    },
-    {
-      "id": "nvidia-rosen-2026-11-10",
-      "subsection": "nvidia",
-      "date": "2026-11-10",
-      "dateLabel": "Nov 9–10",
-      "headline": "Rosen Law Firm says it filed a securities class action over Huang and Megaspeed",
-      "summary": "GlobeNewswire carried a Nov. 9 Rosen Law Firm release saying the firm filed a securities class action for purchasers of Nvidia securities from Oct. 9, 2025, through Nov. 8, 2026, and that a lead-plaintiff motion is due Jan. 8, 2027. The release says the complaint alleges Jensen Huang had an affair with a suspected Chinese spy who has a role at Megaspeed, which the suit says is suspected of helping China evade export controls, and that Nvidia's statements about its relationship with Megaspeed were materially false. It says the suit claims those facts raised national-security concerns and a risk to the company's reputation, and that investors suffered damages when the details entered the market. Tom's Hardware reported Nov. 10 that Rosen's filing was the first class action in the matter.",
-      "sources": [
-        {
-          "name": "GlobeNewswire",
-          "url": "https://www.globenewswire.com/news-release/2026/11/10/3399129/0/en/rosen-the-first-filing-firm-encourages-nvidia-corporation-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-first-filed-by-the-firm-nvda.html"
-        },
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/big-tech/law-firm-files-class-action-lawsuit-against-nvidia-after-ceo-jensen-huang-confirms-affair-with-alleged-chinese-spy-more-to-come-as-multiple-other-law-firms-investigate-securities-fraud-following-stock-drop"
+          "name": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
         }
       ]
     },
@@ -127,6 +123,20 @@
         {
           "name": "OpenAI",
           "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/"
+        }
+      ]
+    },
+    {
+      "id": "aro-il5-jwcc-2026-11-16",
+      "subsection": "other",
+      "date": "2026-11-16",
+      "dateLabel": "Nov 16",
+      "headline": "Red Hat says Azure Red Hat OpenShift IL5 is available on the JWCC contract",
+      "summary": "Red Hat said Nov. 16 that Microsoft Azure Red Hat OpenShift on Microsoft Azure Government, which it said has achieved Impact Level 5 certification, is now available on the Joint Warfighting Cloud Capability contract for Department of War procurement. Red Hat said the certification follows Impact Level 4 in July 2024, and that the service is jointly operated, engineered, and supported by Red Hat and Microsoft, including continuous patching and vulnerability remediation. Red Hat said OpenShift aligns with the DoD Enterprise DevSecOps Reference Design and uses FIPS 140-2 and FIPS 140-3 validated cryptography. The post describes availability on an existing contract vehicle, not a new Army enterprise agreement.",
+      "sources": [
+        {
+          "name": "Red Hat",
+          "url": "https://www.redhat.com/en/blog/unlocking-mission-critical-innovation-microsoft-azure-red-hat-openshift-il5-now-available-jwcc"
         }
       ]
     },

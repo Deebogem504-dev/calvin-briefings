@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-16",
-  "covers": "Nov 9–16, 2026",
-  "readFirst": "Covers Nov. 9–16. New: CISA said Nov. 13 it added UnrealIRCd CVE-2026-114713 and Check Point CVE-2026-123039 to the KEV catalog, both due today, Nov. 16, with forensic triage required. Unit 42 reported that a China-nexus group used the Cairn framework against semiconductor, defense, and civil-society organizations, and Cybersecurity Dive reported Nov. 13 that Arctic Wolf described AntiFox attacks that stole AWS credentials. The Nov. 6 SonicWall item was removed because its publication date is older than seven days; the catalog still lists CVE-2026-19868 as due Nov. 20. Barracuda CVE-2026-111560 and CVE-2026-116606 were due Nov. 13. Cisco, Outlook, Openwave, and Chromium entries from the Nov. 10 alert remain due Nov. 24.",
+  "compiled": "2026-11-17",
+  "covers": "Nov 9–17, 2026",
+  "readFirst": "Covers Nov. 9–17. New: the FBI released a Nov. 16 FLASH on Gootloader, saying that as of October 2026 it had identified over 1,000 infected WordPress sites and 216 administrator-controlled domains tied to over $28 million in ransomware payments. The Check Point and UnrealIRCd KEV entries added Nov. 13 were due Nov. 16 and were removed as the lead patching item. No new CISA KEV alert was posted Nov. 16 or Nov. 17. Barracuda CVE-2026-111560 and CVE-2026-116606 were due Nov. 13. Cisco, Outlook, Openwave, and Chromium entries from the Nov. 10 alert remain due Nov. 24.",
   "subsections": [
     {
       "id": "kev",
@@ -24,24 +24,6 @@
     }
   ],
   "items": [
-    {
-      "id": "kev-checkpoint-unreal-2026-11-13",
-      "subsection": "kev",
-      "date": "2026-11-13",
-      "dateLabel": "Nov 13",
-      "headline": "CISA adds Check Point and UnrealIRCd bugs to KEV, both due Nov. 16",
-      "summary": "CISA said Nov. 13 it added two vulnerabilities to the Known Exploited Vulnerabilities catalog, based on evidence of active exploitation: CVE-2026-114713 in UnrealIRCd and CVE-2026-123039 in Check Point products. The catalog says the UnrealIRCd bug can let any user on a network with two or more linked servers inject server-to-server commands that run with server authority. It says the Check Point bug affects Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server, and can let an authenticated local user send a command that executes as root when the Gaia OS DynamicCLI daemon listens on a world-writable local socket. Both entries were added Nov. 13, are due Nov. 16, require forensic triage, and list ransomware use as unknown.",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
-        },
-        {
-          "name": "CISA KEV catalog",
-          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
-        }
-      ]
-    },
     {
       "id": "kev-six-2026-11-10",
       "subsection": "kev",
@@ -85,6 +67,20 @@
         {
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
+        }
+      ]
+    },
+    {
+      "id": "gootloader-2026-11-16",
+      "subsection": "trends",
+      "date": "2026-11-16",
+      "dateLabel": "Nov 16",
+      "headline": "FBI FLASH: Gootloader on more than 1,000 WordPress sites preceded $28 million in ransom",
+      "summary": "The FBI released a Nov. 16 FLASH, coordinated with CISA and marked TLP:CLEAR, on Gootloader, a JavaScript loader that uses compromised websites and search-engine optimization for initial access. The FBI said cyber actors used it as a ransomware precursor across a wide variety of sectors, and that as of October 2026 it had identified over 1,000 infected WordPress sites and 216 domains controlled by the Gootloader administrator, which led to over $28 million in ransomware payments. The FLASH says activity from 2025 to 2026 has focused on U.S. legal professionals and legal-technology decision makers, and that the administrator scanned WordPress sites for xmlrpc.php and later used compromised credentials.",
+      "sources": [
+        {
+          "name": "FBI",
+          "url": "https://www.ic3.gov/CSA/2026/261116.pdf"
         }
       ]
     },

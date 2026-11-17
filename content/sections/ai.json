@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-16",
-  "covers": "Nov 9–16, 2026",
-  "readFirst": "Covers Nov. 9–16. New: the Department of War said Nov. 13 that it redesignated the Chief Digital and Artificial Intelligence Office as the Super Intelligence Office, and Breaking Defense reported the office's portfolio still includes Maven and the War Data Platform. No new Anthropic, OpenAI, or Google product post dated Nov. 13–16 was opened. Treasury Secretary Scott Bessent's comments on Nvidia sales to shell companies are on the partners page. The Nvidia, Open and Local Models, and Policy subsections are empty.",
+  "compiled": "2026-11-17",
+  "covers": "Nov 9–17, 2026",
+  "readFirst": "Covers Nov. 9–17. New: the Bureau of Industry and Security said Nov. 16 that it released an interim final rule on remote access to advanced super-intelligence chips through data centers in third countries. No new Anthropic, OpenAI, or Google product post dated Nov. 16–17 was opened. Commerce and Justice's Megaspeed update, and CNBC's report that the Nvidia board is not considering Jensen Huang's return, are on the partners page. The Nvidia and Open and Local Models subsections are empty.",
   "subsections": [
     {
       "id": "anthropic",
@@ -135,6 +135,24 @@
         {
           "name": "WIRED",
           "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
+        }
+      ]
+    },
+    {
+      "id": "bis-remote-access-2026-11-16",
+      "subsection": "policy",
+      "date": "2026-11-16",
+      "dateLabel": "Nov 16",
+      "headline": "BIS issues a rule on remote access to advanced chips through overseas data centers",
+      "summary": "The Bureau of Industry and Security said Nov. 16 that it released an interim final rule, written at the direction of the Treasury Department and the National Security Council, so limits on advanced super-intelligence chips cannot be bypassed through remote computing at data centers in third countries. The rule text requires a license to export, reexport, or transfer covered items for a data center, anywhere, that will provide access to more than 12 million aggregate total processing performance to a company headquartered in, or whose ultimate parent is headquartered in, Macau or Country Group D:5. It also requires a license for advanced semiconductors to Indonesia, Malaysia, Singapore, Thailand, or Brazil, with an exception for a U.S.-headquartered consignee that meets a reporting requirement, and it formally rescinds the AI Diffusion Rule, which the preamble says has never been enforced. The displayed text says the rule takes effect on the date it is published in the Federal Register.",
+      "sources": [
+        {
+          "name": "Bureau of Industry and Security",
+          "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+        },
+        {
+          "name": "Bureau of Industry and Security",
+          "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf"
         }
       ]
     },

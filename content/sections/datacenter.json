@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-16",
-  "covers": "Nov 9–16, 2026",
-  "readFirst": "Covers Nov. 9–16. New: Tom's Hardware reported Nov. 14, citing Malay Mail, that Malaysia plans a law requiring data center operators to disclose GPU imports and power use, and to pay for unused reserved electricity, to catch diversion of AI accelerators. The storage subsection is empty. Dell's OneFS note aged out of the partners page.",
+  "compiled": "2026-11-17",
+  "covers": "Nov 9–17, 2026",
+  "readFirst": "Covers Nov. 9–17. New: Tom's Hardware reported Nov. 17, citing Wired, that a Harvard-led study estimates 403 U.S. hyperscale data-center sites used about 82 terawatt-hours in a year. The Bureau of Industry and Security remote-access rule is on the AI page. No new enterprise-networking product announcement was opened. The storage subsection is empty.",
   "subsections": [
     {
       "id": "networking",
@@ -95,6 +95,20 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/drones/data-center-demand-for-fiber-optics-squeezes-ukrainian-drone-operations-supply-crunch-has-incurred-6x-10x-cost-increase-for-critical-cabling"
+        }
+      ]
+    },
+    {
+      "id": "hyperscale-twh-2026-11-17",
+      "subsection": "power",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17",
+      "headline": "Tom's Hardware: a Harvard-led study puts 403 U.S. hyperscale sites at about 82 TWh",
+      "summary": "Tom's Hardware reported Nov. 17, citing Wired, that a Harvard-led study estimates 403 hyperscale U.S. data-center sites consumed about 82 terawatt-hours in a year, 1.8 percent of U.S. electricity, compared with 99 terawatt-hours sold in Michigan in 2024. Tom's Hardware said the estimate multiplies each site's maximum capacity by the hours in a year and an assumed utilization, and that the study confirmed 403 of 675 candidate sites with satellite imagery. It said 142 of the sites are in Virginia and account for 21.4 terawatt-hours, and that an estimated 53.9 percent of the electricity came from fossil fuels, producing about 25.7 million metric tons of carbon dioxide. Lead author Gianluca Guidi said the study window ended in April 2025 and the footprint could already be substantially larger.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/403-hyperscale-us-data-centers-used-staggering-82-terawatts-of-electricity-in-a-year-more-than-80-percent-of-michigans-entire-consumption-generated-26-million-tons-of-co2-in-a-single-year-gas-and-coal-supplied-54-percent-of-the-power-harvard-led-study-estimates"
         }
       ]
     },

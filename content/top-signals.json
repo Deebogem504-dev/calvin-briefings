@@ -1,52 +1,52 @@
 {
   "signals": [
     {
-      "section": "ai",
-      "label": "AI",
-      "dateLabel": "Nov 13",
-      "headline": "The Department of War renames its AI office the Super Intelligence Office",
-      "item": "sio-rebrand-2026-11-13",
-      "href": "ai.html#defense-ai"
-    },
-    {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Nov 13",
-      "headline": "Grafenwoehr test fires containerized drone swarms and robotic launchers",
-      "item": "grafenwoehr-rrt-2026-11-13",
-      "href": "army.html#modernization"
-    },
-    {
-      "section": "cyber",
-      "label": "CYBER",
-      "dateLabel": "Nov 13",
-      "headline": "CISA adds Check Point and UnrealIRCd flaws, due today",
-      "item": "kev-checkpoint-unreal-2026-11-13",
-      "href": "cyber.html#kev"
+      "dateLabel": "Nov 16",
+      "headline": "President nominates DEVCOM's Aberdeen commander to major general",
+      "item": "army-go-noms-2026-11-16",
+      "href": "army.html#leadership"
     },
     {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Nov 2–12",
-      "headline": "Hegseth moves to seat special operations with the service secretaries",
-      "item": "oss-elevation-2026-11-12",
-      "href": "dow.html#secwar"
+      "dateLabel": "Nov 16",
+      "headline": "Seven laser teams are invited to a Dugway counter-drone shoot-off",
+      "item": "de-shootoff-2026-11-16",
+      "href": "dow.html#acquisition"
+    },
+    {
+      "section": "budget",
+      "label": "BUDGET",
+      "dateLabel": "Nov 16",
+      "headline": "Senate appropriators propose a $1.1 trillion Pentagon bill",
+      "item": "senate-dod-approps-2026-11-16",
+      "href": "budget.html#approps"
+    },
+    {
+      "section": "ai",
+      "label": "AI",
+      "dateLabel": "Nov 16",
+      "headline": "BIS would license remote access to advanced AI chips",
+      "item": "bis-remote-access-2026-11-16",
+      "href": "ai.html#policy"
+    },
+    {
+      "section": "cyber",
+      "label": "CYBER",
+      "dateLabel": "Nov 16",
+      "headline": "FBI: Gootloader infections preceded over $28 million in ransom",
+      "item": "gootloader-2026-11-16",
+      "href": "cyber.html#trends"
     },
     {
       "section": "partners",
       "label": "PARTNERS",
-      "dateLabel": "Nov 14",
-      "headline": "Bessent says Nvidia should answer for sales to shell companies",
-      "item": "nvidia-bessent-2026-11-14",
+      "dateLabel": "Nov 16–17",
+      "headline": "Commerce and Justice say the Megaspeed probe began in 2024",
+      "item": "megaspeed-probe-2026-11-16",
       "href": "partners.html#nvidia"
-    },
-    {
-      "section": "datacenter",
-      "label": "DC/NET",
-      "dateLabel": "Nov 14",
-      "headline": "Malaysia would track data-center power to catch diverted AI GPUs",
-      "item": "malaysia-gpu-power-2026-11-14",
-      "href": "datacenter.html#capacity"
     }
   ]
 }
