@@ -3,50 +3,50 @@
     {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Nov 16",
-      "headline": "President nominates DEVCOM's Aberdeen commander to major general",
-      "item": "army-go-noms-2026-11-16",
+      "dateLabel": "Nov 16–17",
+      "headline": "White House nominates Gen. LaNeve to be Army chief of staff",
+      "item": "laneve-nominated-2026-11-17",
       "href": "army.html#leadership"
     },
     {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Nov 16",
-      "headline": "Seven laser teams are invited to a Dugway counter-drone shoot-off",
-      "item": "de-shootoff-2026-11-16",
-      "href": "dow.html#acquisition"
-    },
-    {
-      "section": "budget",
-      "label": "BUDGET",
-      "dateLabel": "Nov 16",
-      "headline": "Senate appropriators propose a $1.1 trillion Pentagon bill",
-      "item": "senate-dod-approps-2026-11-16",
-      "href": "budget.html#approps"
+      "dateLabel": "Nov 17",
+      "headline": "Colby says Europe should fund Ukraine's front line",
+      "item": "colby-udcg-2026-11-17",
+      "href": "dow.html#ops"
     },
     {
       "section": "ai",
       "label": "AI",
-      "dateLabel": "Nov 16",
-      "headline": "BIS would license remote access to advanced AI chips",
-      "item": "bis-remote-access-2026-11-16",
-      "href": "ai.html#policy"
+      "dateLabel": "Nov 17",
+      "headline": "OpenAI says NATO is using Daybreak cyber models",
+      "item": "openai-nato-daybreak-2026-11-17",
+      "href": "ai.html#defense-ai"
     },
     {
       "section": "cyber",
       "label": "CYBER",
-      "dateLabel": "Nov 16",
-      "headline": "FBI: Gootloader infections preceded over $28 million in ransom",
-      "item": "gootloader-2026-11-16",
-      "href": "cyber.html#trends"
+      "dateLabel": "Nov 17",
+      "headline": "CISA lists an exploited Puppet Enterprise flaw, due Dec. 1",
+      "item": "kev-puppet-2026-11-17",
+      "href": "cyber.html#kev"
     },
     {
       "section": "partners",
       "label": "PARTNERS",
-      "dateLabel": "Nov 16–17",
-      "headline": "Commerce and Justice say the Megaspeed probe began in 2024",
-      "item": "megaspeed-probe-2026-11-16",
+      "dateLabel": "Nov 17",
+      "headline": "Nvidia posts $115.8 billion in quarterly revenue",
+      "item": "nvidia-earnings-2026-11-17",
       "href": "partners.html#nvidia"
+    },
+    {
+      "section": "datacenter",
+      "label": "DC/NET",
+      "dateLabel": "Nov 17",
+      "headline": "OpenAI names TensorWave for 457 megawatts of AMD capacity",
+      "item": "tensorwave-amd-2026-11-17",
+      "href": "datacenter.html#capacity"
     }
   ]
 }

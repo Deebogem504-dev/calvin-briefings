@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-17",
-  "covers": "Nov 9–17, 2026",
-  "readFirst": "Covers Nov. 9–17. New: the FBI released a Nov. 16 FLASH on Gootloader, saying that as of October 2026 it had identified over 1,000 infected WordPress sites and 216 administrator-controlled domains tied to over $28 million in ransomware payments. The Check Point and UnrealIRCd KEV entries added Nov. 13 were due Nov. 16 and were removed as the lead patching item. No new CISA KEV alert was posted Nov. 16 or Nov. 17. Barracuda CVE-2026-111560 and CVE-2026-116606 were due Nov. 13. Cisco, Outlook, Openwave, and Chromium entries from the Nov. 10 alert remain due Nov. 24.",
+  "compiled": "2026-11-18",
+  "covers": "Nov 9–18, 2026",
+  "readFirst": "Covers Nov. 9–18. New: CISA on Nov. 17 added Perforce Puppet Enterprise CVE-2026-115731 to the Known Exploited Vulnerabilities catalog, due Dec. 1, and urged an immediate patch for Oracle Java CVE-2026-114938, which it calls Java4Shell. The Java alert does not list that bug in the catalog. Cisco, Outlook, Openwave, and Chromium entries from the Nov. 10 alert remain due Nov. 24. Barracuda CVE-2026-111560 and CVE-2026-116606 were due Nov. 13.",
   "subsections": [
     {
       "id": "kev",
@@ -24,6 +24,24 @@
     }
   ],
   "items": [
+    {
+      "id": "kev-puppet-2026-11-17",
+      "subsection": "kev",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17",
+      "headline": "CISA adds an exploited Puppet Enterprise flaw, due Dec. 1",
+      "summary": "CISA said Nov. 17 that it added CVE-2026-115731, a Perforce Puppet Enterprise deserialization flaw, to the Known Exploited Vulnerabilities catalog based on evidence of active exploitation. The catalog says a client with any certificate-authority-signed agent certificate can execute code on the Puppet Server as the service user by submitting a crafted report, and that if the authority autosigns certificates, an unauthenticated attacker can obtain one. CISA lists a due date of Dec. 1, 2026, says ransomware use is unknown, and does not require forensic triage. The catalog entry links Perforce's advisory.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        }
+      ]
+    },
     {
       "id": "kev-six-2026-11-10",
       "subsection": "kev",
@@ -71,6 +89,20 @@
       ]
     },
     {
+      "id": "java4shell-2026-11-17",
+      "subsection": "trends",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17",
+      "headline": "CISA urges an immediate patch for Java4Shell in the HotSpot JVM",
+      "summary": "CISA said Nov. 17 that organizations should immediately patch Oracle Java CVE-2026-114938, which it calls Java4Shell, a memory-corruption bug in the Base64 decoder of the x86-64 HotSpot Java virtual machine. CISA said specially crafted Base64 input could crash the JVM and allow unauthenticated remote code execution. CISA told defenders to find JDKs and Java runtimes, including copies bundled in applications, containers, and appliances, and to patch internet-facing systems first. The alert does not say the flaw is in the Known Exploited Vulnerabilities catalog, and the Canadian Centre for Cyber Security contributed to it.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching"
+        }
+      ]
+    },
+    {
       "id": "gootloader-2026-11-16",
       "subsection": "trends",
       "date": "2026-11-16",
@@ -99,24 +131,6 @@
         {
           "name": "Cybersecurity Dive",
           "url": "https://www.cybersecuritydive.com/news/china-hacker-ai-tool-campaign-us-defense-semiconductor/874619/"
-        }
-      ]
-    },
-    {
-      "id": "ilc-fca-2026-11-12",
-      "subsection": "trends",
-      "date": "2026-11-12",
-      "dateLabel": "Nov 3–12",
-      "headline": "ILC agrees to pay $13 million over alleged cyber failures on Army, MDA, and NASA contracts",
-      "summary": "The Justice Department said Nov. 3 that ILC Dover LP and ILC Astrospace LLC, of Frederica, Delaware, agreed to pay $13 million to resolve False Claims Act allegations that they billed the Army, the Missile Defense Agency, and NASA from January 2018 to October 2024 without meeting contractual cybersecurity requirements. The department said the claims are allegations only and there has been no determination of liability. It said the allegations include storing controlled unclassified information with a third party that was not shown to meet a FedRAMP Moderate equivalent, failing to keep system security plans current, and not fully implementing NIST Special Publications 800-171 and 800-53. Whistleblower Philip Root, ILC's former director of cybersecurity, will receive $2.35 million, and Federal News Network reported the settlement on Nov. 12.",
-      "sources": [
-        {
-          "name": "Department of Justice",
-          "url": "https://www.justice.gov/opa/pr/defense-and-aerospace-contractors-ilc-dover-and-ilc-astrospace-agree-pay-13m-resolve"
-        },
-        {
-          "name": "Federal News Network",
-          "url": "https://federalnewsnetwork.com/litigation/2026/11/dod-contractor-to-pay-13-million-over-alleged-cyber-compliance-failures-in-army-mda-nasa-contracts/"
         }
       ]
     },

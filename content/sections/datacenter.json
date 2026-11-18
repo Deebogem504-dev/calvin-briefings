@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-17",
-  "covers": "Nov 9–17, 2026",
-  "readFirst": "Covers Nov. 9–17. New: Tom's Hardware reported Nov. 17, citing Wired, that a Harvard-led study estimates 403 U.S. hyperscale data-center sites used about 82 terawatt-hours in a year. The Bureau of Industry and Security remote-access rule is on the AI page. No new enterprise-networking product announcement was opened. The storage subsection is empty.",
+  "compiled": "2026-11-18",
+  "covers": "Nov 9–18, 2026",
+  "readFirst": "Covers Nov. 9–18. New: Fortune reported Nov. 17 that OpenAI named TensorWave to supply 457 megawatts of AMD capacity, and NVIDIA said it plans a Cisco optical-module form factor called USFP for AI factory networks. AWS Transit Gateway context sharing, including in GovCloud, is on the partners page. No new storage-array announcement was opened, so the storage subsection is empty.",
   "subsections": [
     {
       "id": "networking",
@@ -29,6 +29,20 @@
   ],
   "items": [
     {
+      "id": "nvidia-usfp-2026-11-17",
+      "subsection": "networking",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17",
+      "headline": "Nvidia and Cisco plan a USFP optical module for AI factory networks",
+      "summary": "NVIDIA said Nov. 17 that it plans, with Cisco, a new optical-module form factor called USFP, designed to increase bandwidth density and power efficiency for next-generation AI factory networks. The announcement was part of NVIDIA's fiscal 2027 third-quarter release. That release also said Cisco, Google, Meta, Microsoft, and Visionbay are joining other technology leaders advancing infrastructure for Vera Rubin. NVIDIA did not publish a ship date for USFP in the release.",
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+        }
+      ]
+    },
+    {
       "id": "optical-ban-2026-11-10",
       "subsection": "networking",
       "date": "2026-11-10",
@@ -39,6 +53,20 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/policy/microsoft-lobbies-against-potential-ban-on-chinese-optical-networking-gear-for-ai-data-centers-as-fcc-mulls-restricting-imports-industry-group-says-move-could-grind-data-center-rollout-to-a-halt"
+        }
+      ]
+    },
+    {
+      "id": "tensorwave-amd-2026-11-17",
+      "subsection": "capacity",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17",
+      "headline": "Fortune: OpenAI names TensorWave for 457 megawatts of AMD capacity",
+      "summary": "Fortune reported Nov. 17 that OpenAI named TensorWave as the first neocloud provider tied to a compute deal OpenAI signed with AMD in October for 6 gigawatts of capacity. Fortune said TensorWave will provide 457 megawatts across multiple U.S. data center sites, and that a TensorWave spokesperson called it the company's largest deployment and said the company will need to roughly triple its staff. Fortune said that capacity is expected in the first half of 2027, with the full deployment expected by early 2028, and that the first gigawatt of the AMD deal is set to come online in the second half of this year.",
+      "sources": [
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/11/17/openai-reveals-first-amd-neocloud-provider-amid-nvidia-collapsejensen-huang-launching-his-comeback-campaign/"
         }
       ]
     },
@@ -81,20 +109,6 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-develops-its-own-kessel-rack-scale-system-featuring-72-nvidia-rubin-gpus-for-data-centers-in-space-report-claims-replaces-conventional-nvlink-cable-assemblies-with-a-massive-84-layer-printed-circuit-board"
-        }
-      ]
-    },
-    {
-      "id": "fiber-drones-2026-11-11",
-      "subsection": "capacity",
-      "date": "2026-11-11",
-      "dateLabel": "Nov 11",
-      "headline": "Tom's Hardware: data-center fiber demand is pricing out Ukraine's tethered drones",
-      "summary": "Tom's Hardware reported Nov. 11 that a BlueBird Tech research-and-development representative told Ars Technica that fiber-optic cable prices have risen about six to 10 times in the past couple of years as AI data-center demand takes more of the supply. Tom's Hardware said the interview estimated that Ukraine and Russia produce about 50,000 fiber-optic drones a month, with ranges up to 62 miles. It said Ukraine acquired 72 miles of fiber from Chinese suppliers in August 2025, while Russia imported 328,000 miles that month, and that Russia acquired 37 million miles in all of 2025, over 10 percent of global production. Tom's Hardware said the same account estimated a 111-million-mile global shortfall, and that the BlueBird representative claimed some Chinese companies have refused to sell fiber to Ukraine.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/drones/data-center-demand-for-fiber-optics-squeezes-ukrainian-drone-operations-supply-crunch-has-incurred-6x-10x-cost-increase-for-critical-cabling"
         }
       ]
     },

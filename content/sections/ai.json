@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-17",
-  "covers": "Nov 9–17, 2026",
-  "readFirst": "Covers Nov. 9–17. New: the Bureau of Industry and Security said Nov. 16 that it released an interim final rule on remote access to advanced super-intelligence chips through data centers in third countries. No new Anthropic, OpenAI, or Google product post dated Nov. 16–17 was opened. Commerce and Justice's Megaspeed update, and CNBC's report that the Nvidia board is not considering Jensen Huang's return, are on the partners page. The Nvidia and Open and Local Models subsections are empty.",
+  "compiled": "2026-11-18",
+  "covers": "Nov 9–18, 2026",
+  "readFirst": "Covers Nov. 9–18. New: OpenAI said Nov. 17 that NATO's Communications and Information Agency is using its Daybreak cyber models, and NVIDIA said in its earnings release that it has agreed to acquire Hugging Face and that Vera Rubin NVL72 has begun shipping. No new Anthropic or Google model post dated Nov. 17–18 was opened, so the Anthropic subsection is empty. NVIDIA's revenue figures are on the partners page. The Open and Local Models subsection is empty.",
   "subsections": [
     {
       "id": "anthropic",
@@ -40,20 +40,6 @@
     }
   ],
   "items": [
-    {
-      "id": "claude-fable-2026-11-09",
-      "subsection": "anthropic",
-      "date": "2026-11-09",
-      "dateLabel": "Nov 9",
-      "headline": "Anthropic releases Claude Fable 5.2 and restricts Mythos 5.2 to vetted cyber and biology work",
-      "summary": "Anthropic said Nov. 9 that Claude Fable 5.2 and Claude Mythos 5.2 are the same underlying model, with improvements in coding, reasoning, and vision. Anthropic said Fable has cybersecurity and biology safeguards so it can be offered to all users, while organizations doing cybersecurity or biomedical research can apply for Mythos through the Life Sciences and Cyber Verification Programs. Anthropic said the models generate output up to 30 percent faster than Fable 5.1 and Mythos 5.1, at $8 per million input tokens and $40 per million output tokens, with an optional fast mode up to 2.5 times quicker at $16 and $80. Anthropic said Fable 5.2 is available on Amazon Web Services, Google Cloud, and Microsoft Azure, and that Claude Enterprise customers can use Claude Security with Mythos 5.2.",
-      "sources": [
-        {
-          "name": "Anthropic",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
-        }
-      ]
-    },
     {
       "id": "openai-fuzzy-2026-11-12",
       "subsection": "openai",
@@ -139,6 +125,20 @@
       ]
     },
     {
+      "id": "nvidia-hugging-face-2026-11-17",
+      "subsection": "nvidia",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17",
+      "headline": "Nvidia says it has agreed to acquire Hugging Face as Vera Rubin ships",
+      "summary": "NVIDIA said Nov. 17, in its fiscal 2027 third-quarter release, that it has agreed to acquire Hugging Face to scale that platform. The same release said Vera Rubin NVL72 has begun shipping, which NVIDIA called the fastest product ramp in its history, with racks running at CoreWeave, Google Cloud, Microsoft Azure, Oracle Cloud Infrastructure, and Nebius, and coming online soon at SpaceXSI. NVIDIA said it expanded Anthropic's access to Grace Blackwell and Vera Rubin capacity through cloud providers.",
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+        }
+      ]
+    },
+    {
       "id": "bis-remote-access-2026-11-16",
       "subsection": "policy",
       "date": "2026-11-16",
@@ -153,6 +153,20 @@
         {
           "name": "Bureau of Industry and Security",
           "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf"
+        }
+      ]
+    },
+    {
+      "id": "openai-nato-daybreak-2026-11-17",
+      "subsection": "defense-ai",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17",
+      "headline": "OpenAI says NATO is using Daybreak models to defend allied networks",
+      "summary": "OpenAI said Nov. 17 that it works with NATO's Communications and Information Agency to give NATO's core institutions access to advanced cybersecurity models, and that NATO has used up to 300 billion raw input and output tokens per month in that work. OpenAI said it supported the 2026 Crossed Swords exercise, run by the NATO Cooperative Cyber Defence Centre of Excellence, where participants built and evaluated AI agents for cyber operations using Daybreak, with an emphasis on human oversight. OpenAI said it has also provided the models to ENISA and to national cyber agencies in France, Germany, and Poland, and that Ukraine's Ministry of Digital Transformation is using Daybreak on civilian infrastructure. NCIA General Manager Dylan Browne said the tools accelerate vulnerability discovery and that NATO will study token consumption and cost as adoption scales.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai/"
         }
       ]
     },

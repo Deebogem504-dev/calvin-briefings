@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-17",
-  "covers": "Nov 9–17, 2026",
-  "readFirst": "Covers Nov. 9–17. New: CNBC reported Nov. 17 that Commerce and Justice said the Megaspeed export-control investigation began in 2024 and that Nvidia placed the company on a no-sell list in June 2025, and that a person familiar with the matter said Monday the board is not considering bringing Jensen Huang back. Earnings had not been released as of this morning. Red Hat said Nov. 16 that Azure Red Hat OpenShift at Impact Level 5 is now available on the Joint Warfighting Cloud Capability contract. No new Army or Department of War enterprise agreement was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. No new Cisco, Dell, HPE, NetApp, Microsoft, or AWS newsroom item dated Nov. 16–17 was opened. F5, Intel, and VMware were quiet. A Tom's Hardware note on Intel's Classiq deal tracks an Oct. 26 announcement and was not added.",
+  "compiled": "2026-11-18",
+  "covers": "Nov 9–18, 2026",
+  "readFirst": "Covers Nov. 9–18. New: NVIDIA said Nov. 17 that fiscal 2027 third-quarter revenue was $115.8 billion and that Vera Rubin NVL72 has shipped. Fortune reported the same day that Jensen Huang posted he would be honored to return as chief executive and has agreed to a closed-door House hearing on Dec. 1. Cisco's Nov. 16 DevNet post with Red Hat described Ansible automation for validated designs, Palo Alto Networks said Commerce approved its Secure SI by Design Consortium, and AWS said Transit Gateway can share resource context with firewalls, including in GovCloud. No new Army or Department of War enterprise agreement was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. No new Dell, HPE, or Microsoft newsroom item dated Nov. 17–18 was opened. F5, Intel, and VMware were quiet. WWT's NetApp Insight recap is on the WWT page.",
   "subsections": [
     {
       "id": "cisco",
@@ -57,6 +57,20 @@
   ],
   "items": [
     {
+      "id": "nvidia-earnings-2026-11-17",
+      "subsection": "nvidia",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17",
+      "headline": "Nvidia reports $115.8 billion in fiscal third-quarter revenue",
+      "summary": "NVIDIA said Nov. 17 that revenue for the fiscal 2027 third quarter, ended Oct. 25, was $115.8 billion, up 20 percent from the prior quarter and 103 percent from a year earlier, and that Data Center revenue was $107.6 billion, up 110 percent from a year earlier. Interim chief executive Colette Kress said Vera Rubin is off to an explosive start, and the release said Vera Rubin NVL72 has begun shipping. NVIDIA said fourth-quarter revenue is expected to be $130.0 billion, plus or minus 3 percent, with no Data Center compute revenue from China assumed in the outlook. GAAP diluted earnings were $2.70 a share.",
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+        }
+      ]
+    },
+    {
       "id": "megaspeed-probe-2026-11-16",
       "subsection": "nvidia",
       "date": "2026-11-16",
@@ -76,11 +90,15 @@
       "date": "2026-11-17",
       "dateLabel": "Nov 16–17",
       "headline": "CNBC: Nvidia's board is not considering bringing Jensen Huang back",
-      "summary": "CNBC reported Nov. 17 that a person familiar with the matter told CNBC on Monday that Nvidia's board is not considering bringing Jensen Huang back as chief executive. CNBC said an online petition calling for his reinstatement had drawn more than 190,000 signatures, including Elon Musk, and that the stock fell 4 percent on Monday to its lowest close since July 1, 2025. CNBC said the shares were down slightly Tuesday morning ahead of earnings, which had not yet been reported. Huang resigned Nov. 12, and Colette Kress is interim chief executive.",
+      "summary": "CNBC reported Nov. 17 that a person familiar with the matter told CNBC on Monday that Nvidia's board is not considering bringing Jensen Huang back as chief executive. CNBC said an online petition calling for his reinstatement had drawn more than 190,000 signatures, including Elon Musk, and that the stock fell 4 percent on Monday to its lowest close since July 1, 2025. Fortune reported the same day that Huang posted on X that he would be honored to return as chief executive, and that he has agreed to appear before the House in a closed-door hearing on Dec. 1. Huang resigned Nov. 12, and Colette Kress is interim chief executive.",
       "sources": [
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html"
+        },
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/11/17/openai-reveals-first-amd-neocloud-provider-amid-nvidia-collapsejensen-huang-launching-his-comeback-campaign/"
         }
       ]
     },
@@ -99,16 +117,44 @@
       ]
     },
     {
-      "id": "nvidia-kress-interim-2026-11-12",
-      "subsection": "nvidia",
-      "date": "2026-11-12",
-      "dateLabel": "Nov 12",
-      "headline": "Nvidia says Jensen Huang resigned and Colette Kress is interim chief executive",
-      "summary": "NVIDIA said Nov. 12 that Jensen Huang resigned as president, chief executive, and a member of the board, effective immediately. The company said Colette Kress, executive vice president and chief financial officer since September 2013, will serve as interim chief executive while remaining chief financial officer, and that the board, now chaired for the first time by Harvey C. Jones, will consider internal and external candidates for a permanent successor. Jones said the board expects operations, customer commitments, and the product roadmap to continue without interruption. NVIDIA said it will still report fiscal 2027 third-quarter results on Nov. 17.",
+      "id": "cisco-ansible-cvd-2026-11-16",
+      "subsection": "cisco",
+      "date": "2026-11-16",
+      "dateLabel": "Nov 16",
+      "headline": "Cisco and Red Hat describe Ansible automation for validated data-center designs",
+      "summary": "Cisco said Nov. 16 that a DevNet discussion with Stephen Fulmer of Red Hat and Archana Sharma of Cisco covered validated designs that ship with Red Hat Ansible automation. Fulmer said the Cisco Intersight Ansible collection has grown to 137 modules and that customers run millions of jobs with it each month. Cisco said that for the Intersight content, Red Hat takes the first support call and triages with Cisco. The post said an AI Pod validated design, using Cisco UCS X-Series and Nexus with Everpure, formerly Pure Storage, and focused on inference, is expected in about a month.",
       "sources": [
         {
-          "name": "NVIDIA",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+          "name": "Cisco",
+          "url": "https://blogs.cisco.com/cisco-devnet/cisco-cvds-red-hat-ansible-data-center-automation"
+        }
+      ]
+    },
+    {
+      "id": "aws-tgw-context-2026-11-17",
+      "subsection": "aws",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17",
+      "headline": "AWS Transit Gateway can pass resource context to attached firewalls",
+      "summary": "AWS said Nov. 17 that Transit Gateway can share resource context with attached firewalls, so policies can use VPCs, subnets, security groups, and transit gateway attachments alongside IP addresses. AWS said the gateway embeds that context in the traffic it sends, which lets a firewall apply policy from the first packet without waiting for a tag-to-IP sync. AWS said AWS Network Firewall and Palo Alto Networks software firewalls support the policies. AWS said the feature is available in the commercial regions where Transit Gateway is available, except Bahrain and the UAE, and in AWS GovCloud US-East and US-West.",
+      "sources": [
+        {
+          "name": "AWS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/transit-gateway-firewall-context-sharing/"
+        }
+      ]
+    },
+    {
+      "id": "palo-si-consortium-2026-11-17",
+      "subsection": "paloalto",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17",
+      "headline": "Palo Alto Networks says Commerce approved its Secure SI export consortium",
+      "summary": "Palo Alto Networks said Nov. 17 that the U.S. government approved the Secure SI by Design Consortium, which it leads with NVIDIA, IBM, OpenAI, Snowflake, Cognizant, Reflection, Factory, and ServiceNow. The company said the consortium sits under the Commerce Department's American SI Exports Program, part of an SI Action Plan formed in July 2025. Palo Alto Networks said the designation includes government-to-government advocacy, priority export-control licensing reviews, and financing through the Export-Import Bank and the U.S. International Development Finance Corporation.",
+      "sources": [
+        {
+          "name": "Palo Alto Networks",
+          "url": "https://www.paloaltonetworks.com/blog/2026/11/secure-si-by-design-consortium-officially-approved-by-u-s-government/"
         }
       ]
     },

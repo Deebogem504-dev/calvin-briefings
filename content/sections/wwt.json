@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT ↔ U.S. Army Signal Mapping",
   "description": "World Wide Technology public content and Army business, set next to U.S. Army leadership priorities.",
-  "compiled": "2026-11-17",
-  "covers": "Nov 9–17, 2026",
-  "readFirst": "Covers Nov. 9–17. A St. Louis Business Journal headline dated Nov. 16 said World Wide Technology reaffirmed its Nvidia partnership after Jensen Huang's resignation, but the article body was behind a paywall and was not used. No WWT newsroom release dated Nov. 16–17 was found. The mapping subsection is empty.",
+  "compiled": "2026-11-18",
+  "covers": "Nov 9–18, 2026",
+  "readFirst": "Covers Nov. 9–18. New: WWT published a Nov. 17 recap of NetApp Insight 2026, including NetApp's claim that Novus can feed 50,000 GPUs and its Oct. 1 naming of WWT as fiscal 2026 North America Partner of the Year and AI Partner of the Year. No WWT newsroom release on an Army program dated Nov. 17–18 was found. The Signal Mapping subsection is empty.",
   "subsections": [
     {
       "id": "content",
@@ -27,5 +27,20 @@
       "title": "Signal Mapping"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "id": "wwt-netapp-insight-2026-11-17",
+      "subsection": "content",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17",
+      "headline": "WWT recaps NetApp Insight, including two partner-of-the-year awards",
+      "summary": "WWT published a Nov. 17 recap of NetApp Insight 2026. WWT said NetApp announced a renewed AI Data Engine that works across a customer's data estate, not only data stored on NetApp, after acquiring DataPelago, and that NetApp claims its Novus system delivers 100 terabytes per second and can feed 50,000 GPUs at 2 gigabytes per second each. WWT said that on Oct. 1, at Insight, NetApp named WWT its fiscal 2026 North America Partner of the Year and AI Partner of the Year. WWT also said NetApp added Oracle Cloud Infrastructure as a first-party ONTAP service, alongside AWS, Azure, and Google Cloud.",
+      "sources": [
+        {
+          "name": "WWT",
+          "url": "https://www.wwt.com/blog/netapp-insight-2026-recap"
+        }
+      ]
+    }
+  ]
 }

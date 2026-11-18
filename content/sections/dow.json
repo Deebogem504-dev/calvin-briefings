@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-17",
-  "covers": "Nov 9–17, 2026",
-  "readFirst": "Covers Nov. 9–17. New: the Department of War said Nov. 16 that seven industry teams are invited to a directed-energy counter-drone shoot-off at Dugway Proving Ground in mid-December, and that it launched a Defense Production Act survey of about 500 manufacturers on additive-manufacturing qualification barriers. No new Golden Dome award was found, so that subsection is empty. The Senate appropriators' $9.4 billion Golden Dome figure is on the budget page. Azure Red Hat OpenShift at Impact Level 5 on the Joint Warfighting Cloud Capability contract is on the partners page. No new Army or Department of War enterprise software agreement was found. No war.gov contracts release for Nov. 16 or Nov. 17 was opened.",
+  "compiled": "2026-11-18",
+  "covers": "Nov 9–18, 2026",
+  "readFirst": "Covers Nov. 9–18. New: the Department of War on Nov. 17 asked states to propose sites for a Next Great American Base before a December deadline, and published Under Secretary Elbridge Colby's remarks to the Ukraine Defense Contact Group. No new Golden Dome award was found, so that subsection is empty. The Senate appropriators' $9.4 billion Golden Dome figure is on the budget page. No new Army or Department of War enterprise software agreement was found. Nvidia's quarterly results are on the partners page.",
   "subsections": [
     {
       "id": "secwar",
@@ -28,6 +28,20 @@
     }
   ],
   "items": [
+    {
+      "id": "ngab-2026-11-17",
+      "subsection": "secwar",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17",
+      "headline": "War Department asks states to propose a Next Great American Base",
+      "summary": "The Department of War reported Nov. 17 that it released a video asking state and local officials to propose locations, before a December deadline, for a prototype all-domain installation it calls the Next Great American Base. Assistant Secretary Dale Marks, for energy, infrastructure and environment, said the department is not building an installation for today's doctrine and wants a platform for 2050 and beyond, including layered defenses against hypersonic strikes, directed energy, cyber intrusions, orbital surveillance, and electromagnetic warfare. Marks said the base should sustain power, water, data, and defense off the civilian grid for up to 90 consecutive days, and that strategic facilities may need to sit hundreds of feet underground.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4649602/dow-looks-for-next-great-american-base-challenges-states-to-think-futuristically/"
+        }
+      ]
+    },
     {
       "id": "oss-elevation-2026-11-12",
       "subsection": "secwar",
@@ -71,20 +85,6 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/News-Stories/Article/Article/4645996/hegseth-impeachment-over-policy-disagreement-sends-wrong-signal-to-adversaries/"
-        }
-      ]
-    },
-    {
-      "id": "pme-overhaul-2026-11-09",
-      "subsection": "secwar",
-      "date": "2026-11-09",
-      "dateLabel": "Nov 9",
-      "headline": "Hegseth directs senior military colleges to drop tenure and grade warfighting exams",
-      "summary": "The Department of War said Nov. 9 that Secretary Pete Hegseth directed an overhaul of professional military education across senior service colleges and intermediate-level education. The release says the department will judge programs by whether they forge leaders who will win America's wars, and that the plan creates Warfighter Chair positions for O-5 and O-6 commanders fresh from operational deployments. It says subjective seminar grading will be replaced with standardized end-of-course wargames and comprehensive exams, and that newly hired civilian faculty will no longer receive lifetime tenure or emeritus status, moving instead to three-year performance-based contracts. The Under Secretary of War for Personnel and Readiness is directed to track the requirements.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4644710/secretary-of-war-pete-hegseth-orders-sweeping-overhaul-of-military-education-to/"
         }
       ]
     },
@@ -141,6 +141,20 @@
         {
           "name": "DefenseScoop",
           "url": "https://defensescoop.com/2026/11/13/air-force-special-warfare-mobile-communication-system/"
+        }
+      ]
+    },
+    {
+      "id": "colby-udcg-2026-11-17",
+      "subsection": "ops",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17",
+      "headline": "Colby tells allies to fund Ukraine's front line, not deep strikes on cities",
+      "summary": "The Department of War published Nov. 17 remarks by Under Secretary for Policy Elbridge Colby to the Ukraine Defense Contact Group. Colby said that in October, for the second consecutive month, Ukraine gained more territory than Russia, and that Russian forces suffered their highest monthly casualty toll of the war. He said support should focus on the front line and mid-range strikes, and that deep strikes on civilian infrastructure such as Wildberries have probably hardened Russian resolve. He said Ukraine will need continued funding for the PURL initiative, that this responsibility will rest primarily on Europe, and that the United States will keep facilitating high-end procurement through JUMPSTART, including what he called the first partner-funded procurement of Patriot interceptors for Ukraine.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Speeches/Speech/Article/4650433/remarks-by-under-secretary-of-war-for-policy-elbridge-colby-at-the-ukraine-defe/"
         }
       ]
     },

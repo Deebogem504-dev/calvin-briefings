@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-17",
-  "covers": "Nov 9–17, 2026",
-  "readFirst": "Covers Nov. 9–17. No new post-quantum standard, Army quantum award, or compute announcement dated Nov. 16–17 was added. Tom's Hardware on Nov. 16 wrote about Intel's agreement to acquire Classiq, which Intel announced on Oct. 26, so it was not added as a new event. The quantum and compute subsections are empty. The Nov. 12 Space Development Agency study of Plaser links remains.",
+  "compiled": "2026-11-18",
+  "covers": "Nov 9–18, 2026",
+  "readFirst": "Covers Nov. 9–18. No new post-quantum standard, Army quantum award, autonomy demonstration, or space contract dated Nov. 17–18 was added. Tom's Hardware on Nov. 16 wrote about Intel's agreement to acquire Classiq, which Intel announced on Oct. 26, so it was not added as a new event. The quantum and compute subsections are empty. The Nov. 12 Space Development Agency study of Plaser links remains.",
   "subsections": [
     {
       "id": "quantum",

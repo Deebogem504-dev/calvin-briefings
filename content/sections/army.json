@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-17",
-  "covers": "Nov 9–17, 2026",
-  "readFirst": "Covers Nov. 9–17. New: the Department of War said Nov. 16 that the president nominated 36 Army brigadier generals to major general, including Brig. Gen. Robert G. Born, commanding general of Combat Capabilities Development Command at Aberdeen Proving Ground, and Brig. Gen. Marne L. Sutten, who previously directed network command, control, cyber, and communications systems integration on the G-6. The release does not say Sutten commands CECOM. DRONELIFE reported the same day on a Manufacturing Rodeo solicitation for 400 Group 1 one-way-attack drones, and Breaking Defense reported that G-TEAD will award up to six other-transaction agreements after Accelerated Capability Events. No new NETCOM release and no new Army enterprise agreement were found in Army CIO reporting, ESI, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. The Week Ahead subsection is empty.",
+  "compiled": "2026-11-18",
+  "covers": "Nov 9–18, 2026",
+  "readFirst": "Covers Nov. 9–18. New: Stars and Stripes reported Nov. 17 that the White House nominated Gen. Christopher LaNeve, the acting chief, to be Army chief of staff, and Lt. Gen. Marcus Evans to be vice chief. Army.mil reported the same day that Brig. Gen. Marne L. Sutten assumed command of CECOM and Aberdeen Proving Ground on Nov. 16. Federal News Network reported that Army Test and Education Command is booking commercial firms onto six ranges, and that service test officials met at Aberdeen in September. No new NETCOM release and no new Army enterprise agreement were found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. The Week Ahead subsection is empty.",
   "subsections": [
     {
       "id": "leadership",
@@ -32,6 +32,38 @@
     }
   ],
   "items": [
+    {
+      "id": "laneve-nominated-2026-11-17",
+      "subsection": "leadership",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 16–17",
+      "headline": "White House nominates Gen. LaNeve to be Army chief of staff",
+      "summary": "Stars and Stripes reported Nov. 17 that the White House formally nominated Gen. Christopher LaNeve to be the Army's chief of staff, the job he has held in an acting capacity since Defense Secretary Pete Hegseth fired Gen. Randy George in April. Stars and Stripes said the Senate received the nomination Monday and referred it to the Senate Armed Services Committee, and that the White House the same day nominated Lt. Gen. Marcus Evans, director of the Army staff, to be vice chief. Breaking Defense reported that LaNeve said he has served 36 years, currently as vice chief, and that he is honored by the president's nomination. Stars and Stripes said it was not clear whether the Senate would act before a new Democratic majority is sworn in on Jan. 3, and that the White House has not nominated a permanent replacement for former Army Secretary Dan Driscoll.",
+      "sources": [
+        {
+          "name": "Stars and Stripes",
+          "url": "https://www.stripes.com/branches/army/2026-11-17/laneve-nominated-army-chief-of-staff-23497046.html"
+        },
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/white-house-officially-nominates-laneve-for-army-chief/"
+        }
+      ]
+    },
+    {
+      "id": "sutten-cecom-2026-11-17",
+      "subsection": "leadership",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 16–17",
+      "headline": "Sutten assumes command of CECOM and Aberdeen Proving Ground",
+      "summary": "Army.mil reported Nov. 17 that Brig. Gen. Marne L. Sutten assumed command of the Communications-Electronics Command and the duties of Aberdeen Proving Ground senior commander at a ceremony on Nov. 16. The article said she leads a 9,000-person global command and is senior commander of a 28,000-person installation, and that she is the Army's command, control, communications, computers, cyber, intelligence, surveillance, reconnaissance, and medical materiel integrator. Lt. Gen. Gavin A. Lawrence, deputy commanding general and acting commander of Army Materiel Command, presided and said Sutten most recently directed network command, control, cyber communications systems integration on the G-6. Sutten said she is the 19th commander of CECOM.",
+      "sources": [
+        {
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/296832/soldiers_first_sutten_assumes_command_of_cecom_and_apg"
+        }
+      ]
+    },
     {
       "id": "army-go-noms-2026-11-16",
       "subsection": "leadership",
@@ -57,6 +89,20 @@
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/11/us-army-soldier-russia-espionage-arrest.html"
+        }
+      ]
+    },
+    {
+      "id": "army-ranges-2026-11-17",
+      "subsection": "modernization",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17",
+      "headline": "Army Test and Education Command is booking commercial firms onto six ranges",
+      "summary": "Federal News Network reported Nov. 17 that Maj. Gen. Pat Gaydon, commanding general of Army Test and Education Command, said more than 120 companies have tested prototypes or are in the pipeline across six Army ranges since an initiative launched in August. The Army said 15 companies have completed tests on drones, counter-drone systems, missile interceptors, and long-range strike technologies, 14 are ready to proceed, and 93 are in the works, at Dugway Proving Ground, Yuma Proving Ground, Camp Grayling, Camp Atterbury and Muscatatuck, and a U.S.-run range in Morocco. Gaydon said the service is trying to bring firms in within 30 days of a request and now averages 33 days. Federal News Network said test officials from the other services met at Aberdeen Proving Ground in September, and that Brig. Gen. Mark Massaro said last month the Air Force is working with the Army on whether it could open its own ranges to commercial companies.",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/defense-main/2026/11/armys-push-to-bring-private-tech-onto-military-ranges-gains-momentum/"
         }
       ]
     },
@@ -103,20 +149,6 @@
       ]
     },
     {
-      "id": "launched-effects-2026-11-09",
-      "subsection": "modernization",
-      "date": "2026-11-09",
-      "dateLabel": "Nov 9",
-      "headline": "Breaking Defense: launched effects are with 11 of 12 divisions, mostly from Griffon",
-      "summary": "Breaking Defense reported Nov. 9 that the Army has fielded launched effects to 11 of its 12 headquarters divisions and to each multi-domain task force. Lt. Col. Hunter Gray, product manager for launched effects, told reporters Thursday that the fielding follows Defense Secretary Pete Hegseth's 2025 Drone Dominance memo, which directed those systems to every headquarters division and multi-domain task force by the end of 2026, and that the 12th division is due to start receiving them next month. Gray said Griffon Aerospace can provide hundreds of systems a month and that the majority of what has been delivered is long-range capability from Griffon, including its Outlaw drone. He said payloads include intelligence, surveillance and reconnaissance, electronic warfare, and kinetic effects, and he did not disclose which divisions have the systems.",
-      "sources": [
-        {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/11/army-fields-launched-effects-to-11-of-12-divisions-with-griffon-aerospace-delivering-the-majority/"
-        }
-      ]
-    },
-    {
       "id": "g-tead-ota-2026-11-16",
       "subsection": "contracts",
       "date": "2026-11-16",
@@ -141,34 +173,6 @@
         {
           "name": "Army.mil",
           "url": "https://www.army.mil/article/296691/army_completes_key_fy2026_contract_writing_modernization_milestones"
-        }
-      ]
-    },
-    {
-      "id": "safe-pro-ghostx-2026-11-10",
-      "subsection": "contracts",
-      "date": "2026-11-10",
-      "dateLabel": "Nov 10",
-      "headline": "Safe Pro says the Army awarded $2.5 million to put threat detection on Ghost-X",
-      "summary": "Safe Pro Group said Nov. 10 that the U.S. Army awarded it a $2.5 million prime contract under a Commercial Solutions Opening for Ground Threat Detection through Aerial Reconnaissance, and that the work is the company's first prime contract. Safe Pro said the contract puts its Ground Truth Air software on Anduril's Ghost-X drone to identify and geolocate more than 150 types of explosive threats, including landmines, anti-personnel mines, cluster munitions, and ambush first-person-view drones, and to stream that data into ATAK and Anduril's Lattice. The company said the Army selected Ghost-X for intelligence, surveillance, and reconnaissance under the Medium Range Reconnaissance program. Daniel Leighton, Anduril's general manager of tactical effects, said the addition is meant to support tank survivability and reconnaissance. The release does not name a period of performance or the units that will use the software.",
-      "sources": [
-        {
-          "name": "GlobeNewswire",
-          "url": "https://www.globenewswire.com/news-release/2026/11/10/3399521/0/en/safe-pro-group-awarded-u-s-army-prime-contract-teams-with-anduril-for-super-intelligence-on-ghost-x-drone-for-tank-protection.html"
-        }
-      ]
-    },
-    {
-      "id": "dronesec-2026-11-10",
-      "subsection": "contracts",
-      "date": "2026-11-10",
-      "dateLabel": "Nov 10",
-      "headline": "Army.mil: JIATF-401 awards DroneSec a contract for unmanned-systems threat intelligence",
-      "summary": "Army.mil reported Nov. 10 that the Department of War, through Joint Interagency Task Force 401, awarded a contract to DroneSec for intelligence products and threat analysis on adversary unmanned systems. The article says the work covers emerging technologies, procurement networks, and the tactics used to develop and employ weaponized drones, and that the task force will use DroneSec's open-source intelligence to inform capability development and counter-drone planning. Brig. Gen. Matt Ross, director of JIATF-401, said understanding how unmanned systems are developed is required to keep an advantage. The release does not state a dollar value.",
-      "sources": [
-        {
-          "name": "Army.mil",
-          "url": "https://www.army.mil/article/296667/jiatf_401_awards_dronesec_contract_to_strengthen_unmanned_systems_intelligence"
         }
       ]
     },

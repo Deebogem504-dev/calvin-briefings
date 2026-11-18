@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-17",
+  "title": "November 17, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "ARMY",
+      "dateLabel": "Nov 16",
+      "headline": "President nominates DEVCOM's Aberdeen commander to major general",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4649206/secretary-of-war-general-officer-announcements-for-nov-16-2026/"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 16",
+      "headline": "Seven laser teams are invited to a Dugway counter-drone shoot-off",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4648762/department-of-war-invites-seven-industry-teams-to-participate-in-phase-ii-direc/"
+        }
+      ]
+    },
+    {
+      "label": "BUDGET",
+      "dateLabel": "Nov 16",
+      "headline": "Senate appropriators propose a $1.1 trillion Pentagon bill",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/senate-appropriators-unveil-1-1t-pentagon-spending-bill-folding-in-reconciliation-priorities/"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Nov 16",
+      "headline": "BIS would license remote access to advanced AI chips",
+      "sources": [
+        {
+          "name": "Bureau of Industry and Security",
+          "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+        },
+        {
+          "name": "Bureau of Industry and Security",
+          "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Nov 16",
+      "headline": "FBI: Gootloader infections preceded over $28 million in ransom",
+      "sources": [
+        {
+          "name": "FBI",
+          "url": "https://www.ic3.gov/CSA/2026/261116.pdf"
+        }
+      ]
+    },
+    {
+      "label": "PARTNERS",
+      "dateLabel": "Nov 16–17",
+      "headline": "Commerce and Justice say the Megaspeed probe began in 2024",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/megaspeed-investigation-nvidia-jensen-huang.html"
+        }
+      ]
+    }
+  ]
+}
