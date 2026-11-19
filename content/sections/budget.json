@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Federal Budget & NDAA Weekly Tracker",
   "description": "Fiscal 2027 appropriations, the continuing resolution, NDAA status, reconciliation funds and Golden Dome money.",
-  "compiled": "2026-11-18",
-  "covers": "Nov 9–18, 2026",
-  "readFirst": "Covers Nov. 9–18. No new appropriations text, NDAA conference agreement, or continuing-resolution deal dated Nov. 17–18 was opened. Breaking Defense's Nov. 16 report on the Senate appropriators' nearly $1.1 trillion fiscal 2027 defense bill remains the latest text, and that bill still needs a Senate floor vote before the Dec. 11 continuing-resolution deadline. The NDAA subsection is empty.",
+  "compiled": "2026-11-19",
+  "covers": "Nov 9–19, 2026",
+  "readFirst": "Covers Nov. 9–19. New: Breaking Defense reported Nov. 18 that House Armed Services Chairman Mike Rogers said a $350 billion reconciliation bill is not going to happen, and that a bill nearer $100 billion might still be possible. He does not expect this year's NDAA to authorize an Autonomous Warfare Command. No new appropriations text or continuing-resolution deal was opened. The Senate appropriators' nearly $1.1 trillion fiscal 2027 defense bill still needs a floor vote before the Dec. 11 continuing-resolution deadline.",
   "subsections": [
     {
       "id": "approps",
@@ -63,6 +63,20 @@
         {
           "name": "Bloomberg Government",
           "url": "https://news.bgov.com/bloomberg-government-news/senate-panel-drops-173-2-billion-military-construction-va-bill"
+        }
+      ]
+    },
+    {
+      "id": "rogers-reconciliation-2026-11-18",
+      "subsection": "reconciliation",
+      "date": "2026-11-18",
+      "dateLabel": "Nov 18",
+      "headline": "HASC chair says a $350 billion reconciliation bill is not going to happen",
+      "summary": "Breaking Defense reported Nov. 18 that Rep. Mike Rogers, the House Armed Services Committee chairman, said at a Hudson Institute event that a $350 billion reconciliation bill is not going to happen, and that a smaller bill, which he put at about $100 billion, might still be possible. Rogers said appropriators are working on alternatives to move Golden Dome and multi-year munition buys into the base budget, and that the Senate's $1.1 trillion plan and the House Appropriations Committee's $1 trillion fiscal 2027 defense bill have not been approved by either full chamber. He said a smaller reconciliation bill would have to cover the budget hole from Venezuela and Iran, munitions stockpiles, an FAA issue, and an agriculture issue, and that he does not expect this year's National Defense Authorization Act to authorize an Autonomous Warfare Command. Breaking Defense said the continuing resolution runs out Dec. 11 and that Democrats are poised to take both chambers on Jan. 3.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/350-billion-reconciliation-bill-not-going-to-happen-hasc-chair/"
         }
       ]
     },

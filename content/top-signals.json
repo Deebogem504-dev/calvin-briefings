@@ -3,50 +3,50 @@
     {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Nov 16–17",
-      "headline": "White House nominates Gen. LaNeve to be Army chief of staff",
-      "item": "laneve-nominated-2026-11-17",
-      "href": "army.html#leadership"
+      "dateLabel": "Nov 18–19",
+      "headline": "Army introduces a reduced-range .50-caliber round and is testing it on drones",
+      "item": "rra-50cal-2026-11-19",
+      "href": "army.html#modernization"
     },
     {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Nov 17",
-      "headline": "Colby says Europe should fund Ukraine's front line",
-      "item": "colby-udcg-2026-11-17",
+      "dateLabel": "Nov 18–19",
+      "headline": "Hegseth says the U.S. and Venezuela signed a military cooperation deal",
+      "item": "hegseth-venezuela-2026-11-19",
       "href": "dow.html#ops"
     },
     {
       "section": "ai",
       "label": "AI",
-      "dateLabel": "Nov 17",
-      "headline": "OpenAI says NATO is using Daybreak cyber models",
-      "item": "openai-nato-daybreak-2026-11-17",
-      "href": "ai.html#defense-ai"
+      "dateLabel": "Nov 18",
+      "headline": "Anthropic prices its IPO at $83 a share",
+      "item": "anthropic-ipo-2026-11-18",
+      "href": "ai.html#anthropic"
     },
     {
       "section": "cyber",
       "label": "CYBER",
-      "dateLabel": "Nov 17",
-      "headline": "CISA lists an exploited Puppet Enterprise flaw, due Dec. 1",
-      "item": "kev-puppet-2026-11-17",
+      "dateLabel": "Nov 18",
+      "headline": "CISA adds four exploited flaws, three due Nov. 21",
+      "item": "kev-four-2026-11-18",
       "href": "cyber.html#kev"
+    },
+    {
+      "section": "budget",
+      "label": "BUDGET",
+      "dateLabel": "Nov 18",
+      "headline": "HASC chair says a $350 billion reconciliation bill will not happen",
+      "item": "rogers-reconciliation-2026-11-18",
+      "href": "budget.html#reconciliation"
     },
     {
       "section": "partners",
       "label": "PARTNERS",
-      "dateLabel": "Nov 17",
-      "headline": "Nvidia posts $115.8 billion in quarterly revenue",
-      "item": "nvidia-earnings-2026-11-17",
-      "href": "partners.html#nvidia"
-    },
-    {
-      "section": "datacenter",
-      "label": "DC/NET",
-      "dateLabel": "Nov 17",
-      "headline": "OpenAI names TensorWave for 457 megawatts of AMD capacity",
-      "item": "tensorwave-amd-2026-11-17",
-      "href": "datacenter.html#capacity"
+      "dateLabel": "Nov 18",
+      "headline": "Red Hat and Microsoft extend virtualization engineering on Azure",
+      "item": "redhat-azure-virt-2026-11-18",
+      "href": "partners.html#other"
     }
   ]
 }

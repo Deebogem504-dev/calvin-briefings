@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-18",
+  "title": "November 18, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "ARMY",
+      "dateLabel": "Nov 16–17",
+      "headline": "White House nominates Gen. LaNeve to be Army chief of staff",
+      "sources": [
+        {
+          "name": "Stars and Stripes",
+          "url": "https://www.stripes.com/branches/army/2026-11-17/laneve-nominated-army-chief-of-staff-23497046.html"
+        },
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/white-house-officially-nominates-laneve-for-army-chief/"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 17",
+      "headline": "Colby says Europe should fund Ukraine's front line",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Speeches/Speech/Article/4650433/remarks-by-under-secretary-of-war-for-policy-elbridge-colby-at-the-ukraine-defe/"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Nov 17",
+      "headline": "OpenAI says NATO is using Daybreak cyber models",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai/"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Nov 17",
+      "headline": "CISA lists an exploited Puppet Enterprise flaw, due Dec. 1",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        }
+      ]
+    },
+    {
+      "label": "PARTNERS",
+      "dateLabel": "Nov 17",
+      "headline": "Nvidia posts $115.8 billion in quarterly revenue",
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Nov 17",
+      "headline": "OpenAI names TensorWave for 457 megawatts of AMD capacity",
+      "sources": [
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/11/17/openai-reveals-first-amd-neocloud-provider-amid-nvidia-collapsejensen-huang-launching-his-comeback-campaign/"
+        }
+      ]
+    }
+  ]
+}

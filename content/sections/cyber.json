@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-18",
-  "covers": "Nov 9–18, 2026",
-  "readFirst": "Covers Nov. 9–18. New: CISA on Nov. 17 added Perforce Puppet Enterprise CVE-2026-115731 to the Known Exploited Vulnerabilities catalog, due Dec. 1, and urged an immediate patch for Oracle Java CVE-2026-114938, which it calls Java4Shell. The Java alert does not list that bug in the catalog. Cisco, Outlook, Openwave, and Chromium entries from the Nov. 10 alert remain due Nov. 24. Barracuda CVE-2026-111560 and CVE-2026-116606 were due Nov. 13.",
+  "compiled": "2026-11-19",
+  "covers": "Nov 9–19, 2026",
+  "readFirst": "Covers Nov. 9–19. New: CISA on Nov. 18 added Synology DSM, Apache Axis, Vanderbilt REDCap, and BerriAI LiteLLM flaws to the Known Exploited Vulnerabilities catalog. Synology, Axis, and REDCap are due Nov. 21 and require forensic triage. LiteLLM is due Dec. 2. Tom's Hardware on Nov. 19 added detail on Java4Shell, which CISA urged patching on Nov. 17 and which is still not listed as a catalog entry. Puppet Enterprise CVE-2026-115731 remains due Dec. 1. The Nov. 10 Cisco, Outlook, Openwave, and Chromium entries, due Nov. 24, and the Barracuda entries, due Nov. 13, were not repeated.",
   "subsections": [
     {
       "id": "kev",
@@ -25,6 +25,24 @@
   ],
   "items": [
     {
+      "id": "kev-four-2026-11-18",
+      "subsection": "kev",
+      "date": "2026-11-18",
+      "dateLabel": "Nov 18",
+      "headline": "CISA adds Synology, Axis, REDCap, and LiteLLM flaws, three due Nov. 21",
+      "summary": "CISA said Nov. 18 that it added four vulnerabilities to the Known Exploited Vulnerabilities catalog based on evidence of active exploitation: CVE-2024-10441 in Synology DiskStation Manager, CVE-2026-40217 in BerriAI LiteLLM, CVE-2026-90436 in Apache Axis, and CVE-2026-90817 in Vanderbilt REDCap. The catalog says Axis can let an unauthenticated attacker run code through a crafted SOAP fault, that REDCap code injection needs a valid public survey hash, and that LiteLLM can allow code execution through bytecode rewriting at the /guardrails/test_custom_code URI. The catalog sets a due date of Nov. 21, 2026, for Synology, Axis, and REDCap and says forensic triage is required. LiteLLM is due Dec. 2, 2026, forensic triage is not required, and CISA lists ransomware use as unknown for all four.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
+    {
       "id": "kev-puppet-2026-11-17",
       "subsection": "kev",
       "date": "2026-11-17",
@@ -39,24 +57,6 @@
         {
           "name": "CISA KEV catalog",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
-        }
-      ]
-    },
-    {
-      "id": "kev-six-2026-11-10",
-      "subsection": "kev",
-      "date": "2026-11-10",
-      "dateLabel": "Nov 10",
-      "headline": "CISA adds Cisco, Barracuda, Openwave, Outlook, and Chromium bugs to KEV",
-      "summary": "CISA said Nov. 10 it added six vulnerabilities to the Known Exploited Vulnerabilities catalog: CVE-2026-20320 in Cisco BroadWorks, CVE-2026-111560 and CVE-2026-116606 in Barracuda Networks products, CVE-2026-111793 in Openwave Messaging Webtop Media Transcoder, CVE-2026-124194 in Microsoft Office Outlook, and CVE-2026-125350 in Google Chromium. The catalog sets a due date of Nov. 13 for both Barracuda entries and requires forensic triage; it says the command-injection bug and the email-gateway authentication bypass can be chained. The other four are due Nov. 24, do not require forensic triage, and list ransomware use as unknown. CISA said the BroadWorks bug could let an unauthenticated remote attacker read configuration information, the Outlook bug could allow spoofing over a network, and the Chromium bug could allow code execution inside the sandbox via a crafted webpage, including in Chrome, Edge, and Opera.",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog"
-        },
-        {
-          "name": "CISA KEV catalog",
-          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
         }
       ]
     },
@@ -91,14 +91,18 @@
     {
       "id": "java4shell-2026-11-17",
       "subsection": "trends",
-      "date": "2026-11-17",
-      "dateLabel": "Nov 17",
-      "headline": "CISA urges an immediate patch for Java4Shell in the HotSpot JVM",
-      "summary": "CISA said Nov. 17 that organizations should immediately patch Oracle Java CVE-2026-114938, which it calls Java4Shell, a memory-corruption bug in the Base64 decoder of the x86-64 HotSpot Java virtual machine. CISA said specially crafted Base64 input could crash the JVM and allow unauthenticated remote code execution. CISA told defenders to find JDKs and Java runtimes, including copies bundled in applications, containers, and appliances, and to patch internet-facing systems first. The alert does not say the flaw is in the Known Exploited Vulnerabilities catalog, and the Canadian Centre for Cyber Security contributed to it.",
+      "date": "2026-11-19",
+      "dateLabel": "Nov 17–19",
+      "headline": "CISA and Tom's Hardware: Java4Shell is an OpenJDK Base64 bug on newer server CPUs",
+      "summary": "CISA said Nov. 17 that organizations should immediately patch Oracle Java CVE-2026-114938, which it calls Java4Shell, a memory-corruption bug in the Base64 decoder of the x86-64 HotSpot Java virtual machine. CISA said specially crafted Base64 input could crash the JVM and allow unauthenticated remote code execution, and told defenders to find JDKs and Java runtimes, including copies bundled in applications, containers, and appliances, and to patch internet-facing systems first. The alert does not say the flaw is in the Known Exploited Vulnerabilities catalog. Tom's Hardware reported Nov. 19 that Calif Research, which found the bug, rates it 9.2 on CVSS 4.0, and that the flaw is in an OpenJDK Base64-decoding optimization that requires an x86-64 CPU with AVX-512 and VBMI, which Tom's Hardware said means Intel Ice Lake and AMD Zen 4 server chips.",
       "sources": [
         {
           "name": "CISA",
           "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/critical-java-vulnerability-puts-millions-of-sites-services-and-devices-at-risk-of-remote-code-execution-triggers-with-64-as-and-an-sign-openjdk-optimization-bug-lets-an-attacker-trigger-it-just-by-inputting-repeated-text"
         }
       ]
     },

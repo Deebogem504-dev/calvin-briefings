@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-18",
-  "covers": "Nov 9–18, 2026",
-  "readFirst": "Covers Nov. 9–18. New: Stars and Stripes reported Nov. 17 that the White House nominated Gen. Christopher LaNeve, the acting chief, to be Army chief of staff, and Lt. Gen. Marcus Evans to be vice chief. Army.mil reported the same day that Brig. Gen. Marne L. Sutten assumed command of CECOM and Aberdeen Proving Ground on Nov. 16. Federal News Network reported that Army Test and Education Command is booking commercial firms onto six ranges, and that service test officials met at Aberdeen in September. No new NETCOM release and no new Army enterprise agreement were found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. The Week Ahead subsection is empty.",
+  "compiled": "2026-11-19",
+  "covers": "Nov 9–19, 2026",
+  "readFirst": "Covers Nov. 9–19. New: DEVCOM Armaments Center on Nov. 18 introduced reduced-range .50-caliber M1181 and M1199 rounds that fall short of a standard round, and said close-range drone use is still being tested. GovConWire reported Nov. 19 that the Department of War awarded General Dynamics Land Systems a $332.5 million Stryker sustainment contract. The Department of War reported Nov. 18 that the 11th Airborne Division kept a digital mission-command link during a no-stop flight from Alaska to Hawaii. The White House nomination of Gen. LaNeve remains the leadership item. No new NETCOM release and no new Army enterprise agreement dated Nov. 18–19 were found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. The Week Ahead subsection is empty.",
   "subsections": [
     {
       "id": "leadership",
@@ -79,16 +79,20 @@
       ]
     },
     {
-      "id": "soldier-arrest-2026-11-11",
-      "subsection": "leadership",
-      "date": "2026-11-11",
-      "dateLabel": "Nov 10–11",
-      "headline": "CNBC: British police arrest a U.S. Army soldier on suspicion of spying for Russia",
-      "summary": "CNBC reported Nov. 11 that London's Metropolitan Police said a 41-year-old U.S. Army soldier was arrested near Gloucester, England, on Tuesday on suspicion of spying for Russia, and that he is being held under the U.K. National Security Act. CNBC said a senior NATO official confirmed the soldier was assigned to the Allied Rapid Reaction Corps in Gloucestershire, and that police worked with U.S. military authorities and the FBI. FBI Director Kash Patel said the allegations were of the utmost concern, and Sean Stinchon, commanding general of U.S. Army Counterintelligence Command, said the alleged conduct is a reminder that insider threats are real. Kremlin spokesman Dmitry Peskov said Wednesday that Moscow had absolutely nothing to do with the case.",
+      "id": "rra-50cal-2026-11-19",
+      "subsection": "modernization",
+      "date": "2026-11-19",
+      "dateLabel": "Nov 18–19",
+      "headline": "Army introduces a reduced-range .50-caliber round and is testing it against drones",
+      "summary": "The Army Combat Capabilities Development Command Armaments Center said Nov. 18 that it and the Portfolio Acquisition Executive for Agile Sustainment and Ammunition introduced a reduced-range .50-caliber round, the M1181 ball and the M1199 tracer, built so the bullet becomes unstable near Mach 1 and falls at less than half the distance of a standard round. The center said General Dynamics Ordnance and Tactical Systems designed the round the Army selected, and that soldiers can train on ranges sized for 7.62 mm ammunition. Small Caliber Munitions Competency Manager Kip Hess said use against small drones at close range is still being tested. Stars and Stripes reported Nov. 19 that the fiscal 2027 budget request includes nearly $5.4 million for about 520,000 reduced-range .50-caliber cartridges, and the center said reduced-range ball and tracer variants also exist for 6.8 mm and 7.62 mm.",
       "sources": [
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/11/us-army-soldier-russia-espionage-arrest.html"
+          "name": "DEVCOM Armaments Center",
+          "url": "https://ac.devcom.army.mil/news/increased-opportunities-decreased-distance-this-50-caliber-bullet-knows-when-to-quit/"
+        },
+        {
+          "name": "Stars and Stripes",
+          "url": "https://www.stripes.com/branches/army/2026-11-19/army-new-50-caliber-bullet-23513597.html"
         }
       ]
     },
@@ -135,16 +139,16 @@
       ]
     },
     {
-      "id": "small-drones-replace-2026-11-12",
-      "subsection": "modernization",
-      "date": "2026-11-12",
-      "dateLabel": "Nov 12",
-      "headline": "Army Materiel Command says small attack drones will be replaced, not stockpiled",
-      "summary": "Breaking Defense reported Nov. 12 that Jon Strzelec, Army Materiel Command's advanced manufacturing lead for small drones, said the Army told his team that small drones will not be stored on shelves and that the service will manufacture to deliver, not to stock. He said a countermeasure can appear within 72 hours in Ukraine, and that building a new drone is cheaper than pulling a circuit card, flashing software, and returning the aircraft to service. He said the Army was receiving 10,000 of the first 30,000 small drones from Drone Dominance Gauntlet 1, and that those aircraft go to units for training and are not sustained after they break. He said Group 2 drones, which he described as 21 to 55 pounds and used for reconnaissance or delivery, are more likely to be kept in service because the mission and the cost are different.",
+      "id": "stryker-sustainment-2026-11-19",
+      "subsection": "contracts",
+      "date": "2026-11-19",
+      "dateLabel": "Nov 18–19",
+      "headline": "Army awards General Dynamics a $332.5 million Stryker sustainment contract",
+      "summary": "GovConWire reported Nov. 19 that the Department of War said Wednesday the Army awarded General Dynamics Land Systems, of Sterling Heights, Michigan, a $332.5 million contract for Stryker sustainment. GovConWire said the indefinite-delivery/indefinite-quantity award mixes cost-plus-fixed-fee, firm-fixed-price, and cost-no-fee pricing, and covers total package fielding, vehicle deprocessing, new-equipment training, and field-level maintenance. Army Contracting Command at Detroit Arsenal received three offers. GovConWire said work locations and funding will be set on each task order, and that work is scheduled to end Nov. 17, 2031.",
       "sources": [
         {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/11/instead-of-stockpiling-small-attack-drones-army-looking-to-simply-buy-new-ones/"
+          "name": "GovConWire",
+          "url": "https://www.govconwire.com/articles/gdls-army-stryker-sustainment-contract"
         }
       ]
     },
@@ -177,6 +181,20 @@
       ]
     },
     {
+      "id": "airborne-link-2026-11-18",
+      "subsection": "network",
+      "date": "2026-11-18",
+      "dateLabel": "Nov 18",
+      "headline": "11th Airborne keeps a digital mission-command link on a no-stop flight to Hawaii",
+      "summary": "The Department of War reported Nov. 18 that paratroopers from the 11th Airborne Division flew from Joint Base Elmendorf-Richardson, Alaska, rigged in flight, and jumped into Hawaii during Joint Pacific Multinational Readiness Center Rotation 27-01. Col. Matthew Adamczyk, the division's deputy commanding officer for operations, said the division monitored the battlefield from the aircraft and kept a digital link with I Corps and the joint force. The department said the flight applied the Army's operational guidance \"How the Army Fights,\" and that I Corps coordinated space, cyber, and electronic assets while the 25th Infantry Division struck simulated air defenses before the jump. It said the rotation includes about 10,000 personnel, and that the paratroopers will return to Alaska for another airborne assault before a February rotation.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4652602/3000-miles-no-stops-army-airborne-division-tests-new-operational-guidance/"
+        }
+      ]
+    },
+    {
       "id": "ngc2-hawaii-2026-11-12",
       "subsection": "network",
       "date": "2026-11-12",
@@ -187,20 +205,6 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/News-Stories/Article/Article/4647175/army-allies-prepare-for-long-range-air-assault-in-hawaii/"
-        }
-      ]
-    },
-    {
-      "id": "ngc2-pacific-2026-11-11",
-      "subsection": "network",
-      "date": "2026-11-11",
-      "dateLabel": "Nov 11",
-      "headline": "Breaking Defense: a CNAS fellow says NGC2 has to connect nodes thousands of miles apart",
-      "summary": "Breaking Defense reported Nov. 11 an interview with Josh Wallin, a defense program fellow at the Center for a New American Security, on the Army's Next Generation Command and Control effort. Wallin said an Indo-Pacific fight raises the problem of connecting systems that may be thousands of miles apart, and that bandwidth is strained by the volume of transmissions needed to keep distributed forces synchronized. He said NGC2 is trying to separate data links and radios from compute and from the data layer, so a jammed satellite terminal could be swapped without rebuilding the software above it. He also said the Army wants data that used to sit in separate air-defense, logistics, and fires systems to be usable across functions, with artificial intelligence used to automate parts of analysis that are still manual.",
-      "sources": [
-        {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/11/the-armys-coming-c2-challenge-is-fighting-across-thousands-of-miles/"
         }
       ]
     }

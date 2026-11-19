@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-18",
-  "covers": "Nov 9–18, 2026",
-  "readFirst": "Covers Nov. 9–18. New: NVIDIA said Nov. 17 that fiscal 2027 third-quarter revenue was $115.8 billion and that Vera Rubin NVL72 has shipped. Fortune reported the same day that Jensen Huang posted he would be honored to return as chief executive and has agreed to a closed-door House hearing on Dec. 1. Cisco's Nov. 16 DevNet post with Red Hat described Ansible automation for validated designs, Palo Alto Networks said Commerce approved its Secure SI by Design Consortium, and AWS said Transit Gateway can share resource context with firewalls, including in GovCloud. No new Army or Department of War enterprise agreement was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. No new Dell, HPE, or Microsoft newsroom item dated Nov. 17–18 was opened. F5, Intel, and VMware were quiet. WWT's NetApp Insight recap is on the WWT page.",
+  "compiled": "2026-11-19",
+  "covers": "Nov 9–19, 2026",
+  "readFirst": "Covers Nov. 9–19. New: Red Hat said Nov. 18 that it is extending joint engineering with Microsoft so OpenShift Virtualization on Azure can use Microsoft direct virtualization. No new Army or Department of War enterprise agreement dated Nov. 18–19 was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. No separate Dell, HPE, NetApp, or Microsoft newsroom item dated Nov. 18–19 was opened. F5, Intel, and VMware were quiet. NVIDIA's Nov. 17 results remain. WWT's NetApp Insight recap is on the WWT page.",
   "subsections": [
     {
       "id": "cisco",
@@ -169,6 +169,20 @@
         {
           "name": "OpenAI",
           "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/"
+        }
+      ]
+    },
+    {
+      "id": "redhat-azure-virt-2026-11-18",
+      "subsection": "other",
+      "date": "2026-11-18",
+      "dateLabel": "Nov 18",
+      "headline": "Red Hat and Microsoft extend OpenShift virtualization onto Azure's hypervisor",
+      "summary": "Red Hat said Nov. 18 that it is expanding joint engineering with Microsoft so Linux-based and cloud-native platforms on Azure virtual machines can use Microsoft direct virtualization, the same virtualization and hardware access available to Azure-native services. Red Hat said Microsoft Azure Red Hat OpenShift will be one of the first commercial platforms to offer that capability, including Red Hat OpenShift Virtualization as a path off legacy hypervisors. Red Hat said the companies are co-developing support in KubeVirt, Libvirt, QEMU, and the Linux kernel, and that Microsoft is one of the first vendors to extend KubeVirt beyond a KVM hypervisor. Chris Wright, Red Hat's chief technology officer, said the work is meant to let customers modernize virtual machines and run AI workloads on one platform.",
+      "sources": [
+        {
+          "name": "Red Hat",
+          "url": "https://www.redhat.com/en/about/press-releases/red-hat-deepens-collaboration-microsoft-power-future-enterprise-virtualization"
         }
       ]
     },

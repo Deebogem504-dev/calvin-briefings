@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-18",
-  "covers": "Nov 9–18, 2026",
-  "readFirst": "Covers Nov. 9–18. New: the Department of War on Nov. 17 asked states to propose sites for a Next Great American Base before a December deadline, and published Under Secretary Elbridge Colby's remarks to the Ukraine Defense Contact Group. No new Golden Dome award was found, so that subsection is empty. The Senate appropriators' $9.4 billion Golden Dome figure is on the budget page. No new Army or Department of War enterprise software agreement was found. Nvidia's quarterly results are on the partners page.",
+  "compiled": "2026-11-19",
+  "covers": "Nov 9–19, 2026",
+  "readFirst": "Covers Nov. 9–19. New: Reuters reported Nov. 18 that Secretary Pete Hegseth announced a U.S.-Venezuela military cooperation agreement in Caracas covering joint training and intelligence sharing, and Al Jazeera reported Nov. 19 that the full terms are not public. No new Golden Dome award was found, so that subsection is empty. No new Army or Department of War enterprise software agreement dated Nov. 18–19 was found. DefenseScoop reported Nov. 18 that the Navy is testing a Project Roundtable industry software platform; it was not added ahead of the directed-energy shoot-off, the additive-manufacturing survey, and the counter-drone intelligence request. Nvidia's quarterly results are on the partners page.",
   "subsections": [
     {
       "id": "secwar",
@@ -141,6 +141,24 @@
         {
           "name": "DefenseScoop",
           "url": "https://defensescoop.com/2026/11/13/air-force-special-warfare-mobile-communication-system/"
+        }
+      ]
+    },
+    {
+      "id": "hegseth-venezuela-2026-11-19",
+      "subsection": "ops",
+      "date": "2026-11-19",
+      "dateLabel": "Nov 18–19",
+      "headline": "Hegseth announces a U.S.-Venezuela military cooperation agreement in Caracas",
+      "summary": "The Spokesman-Review, carrying a Reuters report, said Nov. 18 that Secretary Pete Hegseth announced a military cooperation agreement with Venezuela in Caracas, his first visit since U.S. forces deposed President Nicolas Maduro in a January raid. Hegseth, speaking with acting President Delcy Rodriguez, said the agreement covered joint training, intelligence sharing, and other cooperation. Rodriguez said it would help confront common threats and strengthen training for Venezuela's armed forces, and Reuters said neither side offered further details. Al Jazeera reported Nov. 19 that the agreement also covers military equipment and border security, that Hegseth met Defence Minister Gustavo Gonzalez Lopez, and that the full terms have not been made public.",
+      "sources": [
+        {
+          "name": "The Spokesman-Review",
+          "url": "https://www.spokesman.com/stories/2026/nov/18/hegseth-in-caracas-announces-new-us-venezuela-mili/"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/why-is-pete-hegseth-strengthening-us-military-ties-with-venezuela"
         }
       ]
     },

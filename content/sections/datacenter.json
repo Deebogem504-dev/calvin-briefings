@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-18",
-  "covers": "Nov 9–18, 2026",
-  "readFirst": "Covers Nov. 9–18. New: Fortune reported Nov. 17 that OpenAI named TensorWave to supply 457 megawatts of AMD capacity, and NVIDIA said it plans a Cisco optical-module form factor called USFP for AI factory networks. AWS Transit Gateway context sharing, including in GovCloud, is on the partners page. No new storage-array announcement was opened, so the storage subsection is empty.",
+  "compiled": "2026-11-19",
+  "covers": "Nov 9–19, 2026",
+  "readFirst": "Covers Nov. 9–19. New: Tom's Hardware reported Nov. 18 that 5,000 to 6,000 gallons of propylene glycol spilled at a SpaceXAI data center in Southaven, Mississippi. NVIDIA's planned Cisco USFP optical module and OpenAI's TensorWave AMD capacity remain. No new storage-array announcement was opened, so the storage subsection is empty. A Tom's Hardware data-center headline about a leaked Ohio eminent-domain bill was not opened as a standalone article and was not added.",
   "subsections": [
     {
       "id": "networking",
@@ -109,6 +109,20 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-develops-its-own-kessel-rack-scale-system-featuring-72-nvidia-rubin-gpus-for-data-centers-in-space-report-claims-replaces-conventional-nvlink-cable-assemblies-with-a-massive-84-layer-printed-circuit-board"
+        }
+      ]
+    },
+    {
+      "id": "spacexai-spill-2026-11-18",
+      "subsection": "power",
+      "date": "2026-11-18",
+      "dateLabel": "Nov 18",
+      "headline": "Tom's Hardware: a SpaceXAI site spilled 5,000 to 6,000 gallons of cooling fluid",
+      "summary": "Tom's Hardware reported Nov. 18 that the Mississippi Department of Environmental Quality was involved after 5,000 to 6,000 gallons of propylene glycol, a heat-transfer fluid, spilled at a SpaceXAI facility in Southaven. Tom's Hardware said the fluid reached a drainage ditch, that the department told residents there is no immediate threat to health or safety, and that the spill did not reach Horn Lake Creek. Tom's Hardware said water samples will be collected while workers clean the area. It also said a judge earlier this month rejected SpaceXAI's attempt to classify 27 gas turbines at the site as mobile units in an April 2026 pollution lawsuit.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-spacexai-suffers-chemical-spill-at-mississippi-ai-data-center-up-to-6-000-gallons-of-propylene-glycol-heat-transfer-fluid-lost-environment-agency-says-no-threat-to-residents"
         }
       ]
     },

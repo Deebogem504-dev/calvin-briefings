@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-18",
-  "covers": "Nov 9–18, 2026",
-  "readFirst": "Covers Nov. 9–18. New: OpenAI said Nov. 17 that NATO's Communications and Information Agency is using its Daybreak cyber models, and NVIDIA said in its earnings release that it has agreed to acquire Hugging Face and that Vera Rubin NVL72 has begun shipping. No new Anthropic or Google model post dated Nov. 17–18 was opened, so the Anthropic subsection is empty. NVIDIA's revenue figures are on the partners page. The Open and Local Models subsection is empty.",
+  "compiled": "2026-11-19",
+  "covers": "Nov 9–19, 2026",
+  "readFirst": "Covers Nov. 9–19. New: Anthropic said Nov. 18 that it priced its IPO at $83 a share, with Nasdaq trading expected Nov. 19 under the symbol ANT. Google released Gemini 4 Neon the same day, including a cyber track for the Fairwind Program. Tom's Hardware reported that China's Ministry of Commerce threatened countermeasures after the new AI-chip rental rule. AFRICOM on Nov. 17 described Maven workshops with an Army-led edge super-intelligence team. No new OpenAI model post dated Nov. 18–19 was opened. The Open and Local Models subsection is empty. NVIDIA's revenue figures are on the partners page.",
   "subsections": [
     {
       "id": "anthropic",
@@ -55,16 +55,16 @@
       ]
     },
     {
-      "id": "openai-businesses-2026-11-10",
-      "subsection": "openai",
-      "date": "2026-11-10",
-      "dateLabel": "Nov 10",
-      "headline": "OpenAI opens Businesses in ChatGPT, with U.S. agents for eligible sellers",
-      "summary": "OpenAI said Nov. 10 that Businesses in ChatGPT is in beta, so a business can claim a profile in Business Hub, update details, add product feeds with pricing and availability, and see aggregated mentions and website clicks. OpenAI said it does not share users' conversations or Business Agent chats with businesses. OpenAI said eligible ecommerce and online service businesses in the United States can launch a Business Agent that customers start from the business profile, in a conversation labeled as separate from their ChatGPT chat. OpenAI said businesses can sponsor that agent as a destination for ChatGPT ads, and that ChatGPT has 1.2 billion weekly users.",
+      "id": "gemini-neon-2026-11-18",
+      "subsection": "google",
+      "date": "2026-11-18",
+      "dateLabel": "Nov 18",
+      "headline": "Google releases Gemini 4 Neon, with a cyber track for the Fairwind Program",
+      "summary": "Google said Nov. 18 that Gemini 4 Neon is rolling out in the Gemini API, Google AI Studio, Gemini for business, Google Antigravity for paid Google AI Pro and Ultra subscribers, and the Gemini app for Pro and Ultra subscribers. Google said the price is $3 per million input tokens, $0.15 per million cached input tokens, and $15 per million output tokens, with a 1 million-token context window. Google said Neon scores 61 on the Artificial Analysis Intelligence Index at its xhigh thinking level, and that at the default high thinking level it costs 32 percent less per task than Gemini 4 Carbon on that index. Google said Neon for cyber is state of the art on SEC-bench Pro at 90.5 percent and on WebExploitBench v1.2 at 51.26 percent, and that eligible Fairwind Program members will begin receiving access over the next few days.",
       "sources": [
         {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/introducing-businesses-chatgpt"
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
         }
       ]
     },
@@ -83,20 +83,6 @@
       ]
     },
     {
-      "id": "gemini-decision-2026-11-11",
-      "subsection": "google",
-      "date": "2026-11-11",
-      "dateLabel": "Nov 11",
-      "headline": "Google opens the Gemini Decisions API, scoring up to 1,000 questions in one pass",
-      "summary": "Google said Nov. 11 that the Gemini Decisions API is available through the Gemini API in Google AI Studio, powered by a new Gemini Decision 1 model. Google said a request can pair one multimodal input of up to 256,000 tokens, including text, images, audio, video, and PDFs, with up to 1,000 yes/no, multiple-choice, or rubric questions, and that the model returns probabilities and confidence scores in 150 to 250 milliseconds. Google said the price is $0.10 per million input tokens with no output tokens billed, and that on a shared benchmark suite it is nearly five times cheaper than Gemini 3.5 Flash-Lite used through the Interactions API. Google said support in Gemini on Google Cloud is coming soon.",
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
-        }
-      ]
-    },
-    {
       "id": "gemini-carbon-2026-11-10",
       "subsection": "google",
       "date": "2026-11-10",
@@ -111,20 +97,6 @@
       ]
     },
     {
-      "id": "signal-alphaproof-2026-11-10",
-      "subsection": "google",
-      "date": "2026-11-10",
-      "dateLabel": "Nov 10",
-      "headline": "WIRED: DeepMind's AlphaProof Code formally verified parts of the Signal protocol",
-      "summary": "WIRED reported Nov. 10 that Google DeepMind researchers used a framework called AlphaProof Code to formally verify a number of the Signal protocol's cryptographic guarantees in a four-week proof of concept. WIRED said the analysis did not find new vulnerabilities in the portions it examined, and that on older Signal versions with known, long-fixed flaws the tool identified the bugs and showed those versions could not be formally verified. WIRED said the work did not cover the entire Signal mobile app, and that the researchers are releasing the specification and proof. Signal chief technology officer Ehren Kret said the approach expands on earlier formal verification that covered smaller portions of the code.",
-      "sources": [
-        {
-          "name": "WIRED",
-          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
-        }
-      ]
-    },
-    {
       "id": "nvidia-hugging-face-2026-11-17",
       "subsection": "nvidia",
       "date": "2026-11-17",
@@ -135,6 +107,20 @@
         {
           "name": "NVIDIA",
           "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+        }
+      ]
+    },
+    {
+      "id": "china-gpu-countermeasures-2026-11-18",
+      "subsection": "policy",
+      "date": "2026-11-18",
+      "dateLabel": "Nov 18",
+      "headline": "Tom's Hardware: China says it will answer the new AI-chip rental controls",
+      "summary": "Tom's Hardware reported Nov. 18 that China's Ministry of Commerce said China will take countermeasures to safeguard national sovereignty, security, and development interests after the United States extended export controls on high-end AI accelerator chips. Tom's Hardware said the updated regulation requires licenses to rent those chips in large quantities to Country Group D:5, the list of nations embargoed from arms sales. Tom's Hardware said President Trump is in China for the APEC summit in Shenzhen and is scheduled to meet President Xi Jinping on Nov. 19.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/gpus/china-threatens-countermeasures-on-the-face-of-new-ai-gpu-rental-and-export-restrictions-beijing-threatens-retaliation-ahead-of-thursdays-xi-jinping-meeting-sino-american-trade-war-may-be-renewed-for-a-new-season"
         }
       ]
     },
@@ -171,6 +157,20 @@
       ]
     },
     {
+      "id": "africom-maven-2026-11-17",
+      "subsection": "defense-ai",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 12–17",
+      "headline": "AFRICOM hosts Maven workshops with an Army-led edge super-intelligence team",
+      "summary": "U.S. Africa Command said Nov. 17 that it hosted the Office of the Secretary of War's Chief Data and Analytics Office for workshops in Stuttgart with Maven users from Special Operations Command Africa and AFRICOM's Directorate of Operations. AFRICOM said Maven scans imagery and video, flags information for human analysts, and shows the battlefield on one dashboard, and that the sessions looked for near-term fixes and longer-term needs. A workshop photo is dated Nov. 12 at Kelley Barracks. Army Capt. Ryan T. Hetrick, lead of the Edge Super Intelligence Task Force at the Chief Digital and Artificial Intelligence Office, said developers have to go where the warfighter works and build alongside the end user.",
+      "sources": [
+        {
+          "name": "U.S. Africa Command",
+          "url": "https://www.africom.mil/article/37172/super-intelligence-task-force-engages-with-africom-in-hands-on-workshops"
+        }
+      ]
+    },
+    {
       "id": "sio-rebrand-2026-11-13",
       "subsection": "defense-ai",
       "date": "2026-11-13",
@@ -203,16 +203,16 @@
       ]
     },
     {
-      "id": "helsing-clarity-2026-11-11",
-      "subsection": "defense-ai",
-      "date": "2026-11-11",
-      "dateLabel": "Nov 11",
-      "headline": "Helsing unveils Clarity, a European platform that keeps a person on the trigger",
-      "summary": "Helsing said Nov. 11 in Berlin that it unveiled Clarity, an agentic intelligence platform developed and built in Europe that processes sensor feeds, open sources, written reports, and systems a unit already runs. Helsing said the platform uses hundreds of military-specific agents to detect adversary assets and prepare the information a weapon needs, and that it follows MOSA principles and relevant NATO standards and runs on infrastructure the customer owns. Helsing said an operator reviews the evidence, selects each asset, and authorizes every hand-off to a weapon, and that a target is nominated only when independent sources agree. Co-CEO Gundbert Scherf said European armed forces get software that stays under their control.",
+      "id": "anthropic-ipo-2026-11-18",
+      "subsection": "anthropic",
+      "date": "2026-11-18",
+      "dateLabel": "Nov 18",
+      "headline": "Anthropic prices its IPO at $83 a share, with trading expected Nov. 19",
+      "summary": "Anthropic said Nov. 18 that it priced its initial public offering of Class A common stock at $83.00 per share. Anthropic said the offering is 980,000,000 shares, of which 956,351,354 are being sold by the company and 23,648,646 by selling stockholders, and that Anthropic will not receive proceeds from the stockholders' shares. Anthropic said the shares are expected to begin trading on the Nasdaq Global Select Market on Nov. 19, 2026, under the symbol ANT, and that the offering is expected to close Nov. 20, subject to customary conditions. The Securities and Exchange Commission declared the registration statement effective Nov. 18, and the underwriters have a 30-day option for up to 147,000,000 additional shares.",
       "sources": [
         {
-          "name": "Helsing",
-          "url": "https://helsing.ai/newsroom/helsing-unveils-clarity-a-sovereign-software-platform-for-military-intelligence"
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
         }
       ]
     }
