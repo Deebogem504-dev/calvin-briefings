@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-19",
-  "covers": "Nov 9–19, 2026",
-  "readFirst": "Covers Nov. 9–19. New: Tom's Hardware reported Nov. 18 that 5,000 to 6,000 gallons of propylene glycol spilled at a SpaceXAI data center in Southaven, Mississippi. NVIDIA's planned Cisco USFP optical module and OpenAI's TensorWave AMD capacity remain. No new storage-array announcement was opened, so the storage subsection is empty. A Tom's Hardware data-center headline about a leaked Ohio eminent-domain bill was not opened as a standalone article and was not added.",
+  "compiled": "2026-11-20",
+  "covers": "Nov 9–20, 2026",
+  "readFirst": "Covers Nov. 9–20. New: Tom's Hardware reported Nov. 19 that the International Energy Agency's World Energy Outlook 2026 expects another 120 gigawatts of data-center capacity by the end of the decade, about three-quarters of it for artificial intelligence, and is tracking 93 large AI factories. NVIDIA's planned Cisco USFP optical module and OpenAI's TensorWave AMD capacity remain. No new storage-array announcement was opened, so the storage subsection is empty.",
   "subsections": [
     {
       "id": "networking",
@@ -113,6 +113,20 @@
       ]
     },
     {
+      "id": "iea-ai-factories-2026-11-19",
+      "subsection": "power",
+      "date": "2026-11-19",
+      "dateLabel": "Nov 19",
+      "headline": "Tom's Hardware: the IEA is tracking 93 AI factories headed toward 50 gigawatts",
+      "summary": "Tom's Hardware reported Nov. 19 that the International Energy Agency's World Energy Outlook 2026 counts 120 gigawatts of data-center capacity worldwide today and expects another 120 gigawatts to be completed by the end of the decade, with 75 percent of that addition dedicated to artificial intelligence. Tom's Hardware said the agency is tracking 93 large AI factories under construction or expansion and estimates those sites grew from under 2 gigawatts to 17 gigawatts in two years, with 50 gigawatts expected when they are finished, which Tom's Hardware compared to adding a second Great Britain of power demand. The agency said its analysis does not yet show a clear relationship between data-center growth and higher electricity prices. Tom's Hardware said the outlook expects coal- and natural-gas emissions from data centers to rise 70 percent by 2030.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/ai-data-center-power-demand-will-double-by-2030-thanks-to-usd4-trillion-in-spending-adding-an-entire-great-britain-to-energy-strain-93-large-ai-factories-with-projected-capacity-of-around-50-gigawatts"
+        }
+      ]
+    },
+    {
       "id": "spacexai-spill-2026-11-18",
       "subsection": "power",
       "date": "2026-11-18",
@@ -151,20 +165,6 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/data-centers/softbank-loses-usd3-7-billion-on-canceled-ai-data-center-gas-turbine-orders-days-after-denying-elon-musks-claim-it-was-defaulting-company-kills-reserved-13-gigawatts-of-power-more-than-six-hoover-dams-worth-of-capacity"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-generators-2026-11-09",
-      "subsection": "power",
-      "date": "2026-11-09",
-      "dateLabel": "Nov 9",
-      "headline": "Tom's Hardware: Anthropic takes over $3.4 billion in Caterpillar generator orders",
-      "summary": "Tom's Hardware reported Nov. 9, citing Reuters, that Anthropic agreed to spend $3.4 billion securing 1.7 gigawatts of gas-fired generators for its AI data centers by taking over equipment orders that Texas supplier OnePWR Solutions had placed with Caterpillar. Tom's Hardware said the agreement was reached in late September, includes engineering and construction to install the equipment, and that Anthropic is not buying OnePWR. It said the orders were placed about two years ago and needed more financing, and that average U.S. delivery times for large gas turbines and generators have reached six years. Tom's Hardware said taking over the existing orders lets Anthropic avoid waiting for a new slot in Caterpillar's schedule.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/anthropic-skips-six-year-waitlist-with-massive-usd3-4-billion-gas-turbine-generator-deal-firm-takes-over-onepwrs-orders-secures-1-7gw-of-capacity-to-power-ai-data-centers"
         }
       ]
     }

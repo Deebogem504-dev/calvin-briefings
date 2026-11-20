@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-19",
-  "covers": "Nov 9–19, 2026",
-  "readFirst": "Covers Nov. 9–19. New: Anthropic said Nov. 18 that it priced its IPO at $83 a share, with Nasdaq trading expected Nov. 19 under the symbol ANT. Google released Gemini 4 Neon the same day, including a cyber track for the Fairwind Program. Tom's Hardware reported that China's Ministry of Commerce threatened countermeasures after the new AI-chip rental rule. AFRICOM on Nov. 17 described Maven workshops with an Army-led edge super-intelligence team. No new OpenAI model post dated Nov. 18–19 was opened. The Open and Local Models subsection is empty. NVIDIA's revenue figures are on the partners page.",
+  "compiled": "2026-11-20",
+  "covers": "Nov 9–20, 2026",
+  "readFirst": "Covers Nov. 9–20. New: CNBC reported that Anthropic shares closed their first Nasdaq session on Nov. 19 at $97.17 after opening at $111.50. OpenAI said Nov. 18, and Tom's Hardware reported Nov. 20, that its models improved power, performance, and area by up to 14 percent on AMD's flagship GPU intellectual property, with some changes already sent for manufacturing. No new Google model post dated Nov. 19–20 was opened. The Open and Local Models subsection is empty. NVIDIA's revenue figures are on the partners page.",
   "subsections": [
     {
       "id": "anthropic",
@@ -40,6 +40,24 @@
     }
   ],
   "items": [
+    {
+      "id": "openai-amd-chip-2026-11-20",
+      "subsection": "openai",
+      "date": "2026-11-20",
+      "dateLabel": "Nov 18–20",
+      "headline": "OpenAI says its models improved AMD's flagship GPU design by up to 14 percent",
+      "summary": "OpenAI said Nov. 18 that its models produced up to a 14 percent improvement in power, performance, and area against heavily optimized baselines on AMD's flagship GPU intellectual property by rewriting SystemVerilog. OpenAI said that was about a year of progress in less than five months, that AMD included some changes in a design sent for manufacturing, and that AMD verified single-digit percentage gains on key blocks of its next flagship CPU. OpenAI said it is partnering with Synopsys to train a model, GPT-Synopsys, on Synopsys design tools. Tom's Hardware reported those findings on Nov. 20.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-helped-amd-improve-its-upcoming-flagship-gpu-design-by-14-percent-ppa-gpt-models-also-helping-lisa-sus-outfit-boost-its-new-cpus"
+        }
+      ]
+    },
     {
       "id": "openai-fuzzy-2026-11-12",
       "subsection": "openai",
@@ -79,20 +97,6 @@
         {
           "name": "Google",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
-        }
-      ]
-    },
-    {
-      "id": "gemini-carbon-2026-11-10",
-      "subsection": "google",
-      "date": "2026-11-10",
-      "dateLabel": "Nov 10",
-      "headline": "Google makes Gemini 4 Carbon generally available and opens a cybersecurity track",
-      "summary": "Google said Nov. 10 that Gemini 4 Carbon is available to developers, enterprises, scientists, and consumers, and that it is the company's strongest model for cybersecurity and long-horizon agentic work. Google said Carbon is priced the same as Gemini 4 Argon during an introductory period, at $2 per million input tokens and $10 per million output tokens, and that the price becomes $4 and $20 after Nov. 30, 2026. Google said Carbon for cyber, available through the Fairwind Program, leads its benchmarks for finding, exploiting, and patching vulnerabilities, and that Google's Cloud Vulnerability Research team used it to show two bugs in a popular open-source project were exploitable at a severity Google compared to PHP2Shell. Google said Wiz, in its Scan for Good program, used Carbon to find zero-days at two major SaaS providers in under two hours.",
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
         }
       ]
     },
@@ -205,14 +209,18 @@
     {
       "id": "anthropic-ipo-2026-11-18",
       "subsection": "anthropic",
-      "date": "2026-11-18",
-      "dateLabel": "Nov 18",
-      "headline": "Anthropic prices its IPO at $83 a share, with trading expected Nov. 19",
-      "summary": "Anthropic said Nov. 18 that it priced its initial public offering of Class A common stock at $83.00 per share. Anthropic said the offering is 980,000,000 shares, of which 956,351,354 are being sold by the company and 23,648,646 by selling stockholders, and that Anthropic will not receive proceeds from the stockholders' shares. Anthropic said the shares are expected to begin trading on the Nasdaq Global Select Market on Nov. 19, 2026, under the symbol ANT, and that the offering is expected to close Nov. 20, subject to customary conditions. The Securities and Exchange Commission declared the registration statement effective Nov. 18, and the underwriters have a 30-day option for up to 147,000,000 additional shares.",
+      "date": "2026-11-19",
+      "dateLabel": "Nov 18–19",
+      "headline": "Anthropic shares closed their first day at $97.17, up from an $83 IPO price",
+      "summary": "Anthropic said Nov. 18 that it priced its initial public offering at $83.00 per share and that the shares were expected to begin trading on Nasdaq on Nov. 19 under the symbol ANT. CNBC reported that the shares opened at $111.50 and closed the first session at $97.17, and that more than 846 million shares changed hands. CNBC said Anthropic raised $81.3 billion in the offering and that the fully diluted market capitalization at the close was roughly $1.8 trillion. Anthropic said the offering is expected to close Nov. 20, subject to customary conditions, and that the company is selling 956,351,354 of the 980,000,000 shares.",
       "sources": [
         {
           "name": "Anthropic",
           "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"
         }
       ]
     }

@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-19",
-  "covers": "Nov 9–19, 2026",
-  "readFirst": "Covers Nov. 9–19. New: Reuters reported Nov. 18 that Secretary Pete Hegseth announced a U.S.-Venezuela military cooperation agreement in Caracas covering joint training and intelligence sharing, and Al Jazeera reported Nov. 19 that the full terms are not public. No new Golden Dome award was found, so that subsection is empty. No new Army or Department of War enterprise software agreement dated Nov. 18–19 was found. DefenseScoop reported Nov. 18 that the Navy is testing a Project Roundtable industry software platform; it was not added ahead of the directed-energy shoot-off, the additive-manufacturing survey, and the counter-drone intelligence request. Nvidia's quarterly results are on the partners page.",
+  "compiled": "2026-11-20",
+  "covers": "Nov 9–20, 2026",
+  "readFirst": "Covers Nov. 9–20. New: DefenseScoop reported Nov. 19 that Golden Dome's deputy director said the continuing resolution is not slowing the program because fiscal 2026 reconciliation money is obligated. The Department of War said Nov. 19 that its Autonomous Vehicle Orchestrator effort is evaluating software so one operator can command mixed unmanned fleets, and that results are not public yet. Federal News Network reported Nov. 19 that DISA is using an other-transaction agreement for a cloud identity service at Impact Levels 5 and 6, with white papers due Nov. 30. The Department of War published its account of Secretary Hegseth's Nov. 18 remarks in Caracas. No new Army or Department of War enterprise software agreement dated Nov. 19–20 was found.",
   "subsections": [
     {
       "id": "secwar",
@@ -89,6 +89,34 @@
       ]
     },
     {
+      "id": "disa-icam-ota-2026-11-19",
+      "subsection": "acquisition",
+      "date": "2026-11-19",
+      "dateLabel": "Nov 9–19",
+      "headline": "DISA asks industry for a cloud identity service at IL5 and IL6",
+      "summary": "Federal News Network reported Nov. 19 that the Defense Information Systems Agency posted an other-transaction agreement on SAM.gov on Nov. 9 for a modular, cloud-hosted commercial identity service operating at Impact Levels 5 and 6. The notice says the prototype must cover a federated identity provider, automated account provisioning, a master entitlement record, and a federation hub, and Federal News Network said white papers are due Nov. 30. Brian Hermann, director of the portfolio acquisition executive for cyber at DISA, told Federal News Network he wants a demonstration in about six months and then a fast cutover off the legacy system, which he said relies on more than 300 on-premise authentication servers. Hermann said a later agreement would cover regional and tactical disconnected identity, which he described as a different problem from the enterprise service.",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/defense-news/2026/11/disas-ota-calls-on-industry-to-offer-new-approach-to-icam/"
+        }
+      ]
+    },
+    {
+      "id": "avo-orchestrator-2026-11-19",
+      "subsection": "acquisition",
+      "date": "2026-11-19",
+      "dateLabel": "Nov 19",
+      "headline": "War Department advances software to command mixed unmanned fleets",
+      "summary": "The Department of War said Nov. 19 that it advanced the Autonomous Vehicle Orchestrator, software meant to let one operator command a mixed fleet of unmanned vehicles across domains. The department said the AVO Challenge, launched Jan. 13, 2026, evaluated scalable, vehicle-agnostic tools and included live testing, and that results will be made public when the challenge is finished. Senior Chief Petty Officer Max Strasiser, a Navy SEAL serving as chief operating officer for Project Agincourt and the direct reporting program manager for unmanned systems, said Maj. Zach Laser and his team are leading the move from standalone platforms to a coordinated force. The department said the effort supports fielding low-cost, consumable drones and that vehicles alone do not provide that advantage.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4655108/department-of-war-advances-orchestration-for-unmanned-vehicle-fleets/"
+        }
+      ]
+    },
+    {
       "id": "de-shootoff-2026-11-16",
       "subsection": "acquisition",
       "date": "2026-11-16",
@@ -117,30 +145,16 @@
       ]
     },
     {
-      "id": "jiatf-ic-threat-2026-11-12",
-      "subsection": "acquisition",
-      "date": "2026-11-12",
-      "dateLabel": "Nov 9–12",
-      "headline": "JIATF-401 asks the intelligence community for site-specific counter-drone threat assessments",
-      "summary": "DefenseScoop reported Nov. 12 that Brig. Gen. Matt Ross, director of Joint Interagency Task Force 401, said the task force has asked the intelligence community for authoritative assessments of counter-drone threats at home and abroad. Lt. Col. Adam Scher told DefenseScoop the task force is working with the Office of the Director of National Intelligence to assess adversary tactics, and that what protects an Army barracks can differ from what an airfield needs. Liam McKenna of the Federal Aviation Administration said a memorandum signed by the departments of Defense, Transportation, Homeland Security, Energy, and Justice is not approved for public release. He said that if the FAA has already reviewed a counter-drone system for one department, another department can often reach an agreement on its use within 24 hours.",
+      "id": "golden-dome-cr-2026-11-19",
+      "subsection": "goldendome",
+      "date": "2026-11-19",
+      "dateLabel": "Nov 16–19",
+      "headline": "Golden Dome deputy says the continuing resolution is not slowing execution",
+      "summary": "DefenseScoop reported Nov. 19 that Marcia Holmes, deputy director for Golden Dome for America, said at the Evercore National Defense Forum that the program is not concerned about the continuing resolution because Congress provided a lot of fiscal 2026 money and the program is on contract and executing. DefenseScoop said that funding is nearly $25 billion from last year's reconciliation law, which Holmes called colorless money the department can spend over multiple years, and that Holmes said 100 percent of the program's funding is obligated. A Pentagon official told DefenseScoop the goal is initial operational capability by the summer of 2028, with the layered system finished in 2035. DefenseScoop said the department requested $398 million in discretionary funds and $17.1 billion in one-time mandatory spending this year, and that Senate appropriators would add another $9.4 billion in fiscal 2027 on top of the near-$400 million base appropriation.",
       "sources": [
         {
           "name": "DefenseScoop",
-          "url": "https://defensescoop.com/2026/11/12/counter-drone-task-force-intelligence-community-threat-assessments/"
-        }
-      ]
-    },
-    {
-      "id": "afsoc-mcsu-2026-11-13",
-      "subsection": "acquisition",
-      "date": "2026-11-13",
-      "dateLabel": "Nov 13",
-      "headline": "Air Force Special Warfare asks industry for a vehicle-agnostic mobile communications kit",
-      "summary": "DefenseScoop reported Nov. 13 that Air Force Special Warfare published a request for information on Thursday for a Mobile Communication System-Universal, a mobile command-and-control node meant to pass voice, data, and video between Tactical Air Control Party operators while driving or parked. DefenseScoop said earlier systems were customized for specific vehicles, and that the new system would need to mix and match across vehicles as much as possible, including Joint Light Tactical Vehicles and Infantry Squad Vehicles. Industry replies are due Dec. 11. The notice says the program is pending formal acquisition and funding approval, and that a draft requirements document and a draft request for proposals are tentatively slated for fiscal 2027.",
-      "sources": [
-        {
-          "name": "DefenseScoop",
-          "url": "https://defensescoop.com/2026/11/13/air-force-special-warfare-mobile-communication-system/"
+          "url": "https://defensescoop.com/2026/11/19/cr-not-slowing-golden-dome-progress-deputy-director-argues/"
         }
       ]
     },
@@ -150,11 +164,15 @@
       "date": "2026-11-19",
       "dateLabel": "Nov 18–19",
       "headline": "Hegseth announces a U.S.-Venezuela military cooperation agreement in Caracas",
-      "summary": "The Spokesman-Review, carrying a Reuters report, said Nov. 18 that Secretary Pete Hegseth announced a military cooperation agreement with Venezuela in Caracas, his first visit since U.S. forces deposed President Nicolas Maduro in a January raid. Hegseth, speaking with acting President Delcy Rodriguez, said the agreement covered joint training, intelligence sharing, and other cooperation. Rodriguez said it would help confront common threats and strengthen training for Venezuela's armed forces, and Reuters said neither side offered further details. Al Jazeera reported Nov. 19 that the agreement also covers military equipment and border security, that Hegseth met Defence Minister Gustavo Gonzalez Lopez, and that the full terms have not been made public.",
+      "summary": "The Spokesman-Review, carrying a Reuters report, said Nov. 18 that Secretary Pete Hegseth announced a military cooperation agreement with Venezuela in Caracas covering joint training, intelligence sharing, and other cooperation, his first visit since U.S. forces deposed President Nicolas Maduro in a January raid. The Department of War reported Nov. 19 that Hegseth, speaking outside the U.S. Embassy on Nov. 18, said he was the first secretary of war to visit in more than a century and that the department will work with Venezuela through the Americas Counter Cartel Coalition. Al Jazeera reported Nov. 19 that the agreement also covers military equipment and border security, that Hegseth met Defence Minister Gustavo Gonzalez Lopez, and that the full terms have not been made public.",
       "sources": [
         {
           "name": "The Spokesman-Review",
           "url": "https://www.spokesman.com/stories/2026/nov/18/hegseth-in-caracas-announces-new-us-venezuela-mili/"
+        },
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4654839/during-milestone-visit-hegseth-champions-us-venezuelan-partnership/"
         },
         {
           "name": "Al Jazeera",

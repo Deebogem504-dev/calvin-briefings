@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-19",
-  "covers": "Nov 9–19, 2026",
-  "readFirst": "Covers Nov. 9–19. New: DEVCOM Armaments Center on Nov. 18 introduced reduced-range .50-caliber M1181 and M1199 rounds that fall short of a standard round, and said close-range drone use is still being tested. GovConWire reported Nov. 19 that the Department of War awarded General Dynamics Land Systems a $332.5 million Stryker sustainment contract. The Department of War reported Nov. 18 that the 11th Airborne Division kept a digital mission-command link during a no-stop flight from Alaska to Hawaii. The White House nomination of Gen. LaNeve remains the leadership item. No new NETCOM release and no new Army enterprise agreement dated Nov. 18–19 were found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. The Week Ahead subsection is empty.",
+  "compiled": "2026-11-20",
+  "covers": "Nov 9–20, 2026",
+  "readFirst": "Covers Nov. 9–20. New: Breaking Defense reported Nov. 19 that the Army Data Operations Center pilot now runs through Oct. 1, 2027, and that the center is still borrowing people from Aberdeen Proving Ground. ABC News reported Nov. 19 that Army Secretary Adam Telle postponed a controlled detonation of degraded lead azide at the Iowa Army Ammunition Plant until Monday, Nov. 23. DefenseScoop reported Nov. 19 that the president nominated Lt. Gen. Patrick Frank for U.S. Northern Command and NORAD. No new NETCOM release and no new Army enterprise agreement dated Nov. 19–20 were found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. The Pegasystems award, W519TC-27-D-A019, is already known.",
   "subsections": [
     {
       "id": "leadership",
@@ -32,6 +32,20 @@
     }
   ],
   "items": [
+    {
+      "id": "frank-northcom-2026-11-19",
+      "subsection": "leadership",
+      "date": "2026-11-19",
+      "dateLabel": "Nov 19",
+      "headline": "Trump nominates Army Lt. Gen. Patrick Frank to lead NORTHCOM and NORAD",
+      "summary": "DefenseScoop reported Nov. 19 that President Donald Trump nominated Army Lt. Gen. Patrick Frank to lead U.S. Northern Command and North American Aerospace Defense Command, and that Defense Secretary Pete Hegseth announced the nomination Wednesday. DefenseScoop said Frank would be promoted to general if the Senate confirms him, and that he has been U.S. Central Command's deputy commander since June. He would replace Air Force Gen. Gregory Guillot, who took the dual-hatted command in February 2024. DefenseScoop said the commands are modernizing against cruise missiles, drone incursions, and hypersonic threats and are moving toward software-defined, artificial-intelligence-enabled defense networks.",
+      "sources": [
+        {
+          "name": "DefenseScoop",
+          "url": "https://defensescoop.com/2026/11/19/trump-nominates-centcom-deputy-lt-gen-patrick-frank-to-lead-northcom-norad/"
+        }
+      ]
+    },
     {
       "id": "laneve-nominated-2026-11-17",
       "subsection": "leadership",
@@ -125,20 +139,6 @@
       ]
     },
     {
-      "id": "grafenwoehr-rrt-2026-11-13",
-      "subsection": "modernization",
-      "date": "2026-11-13",
-      "dateLabel": "Nov 12–13",
-      "headline": "Grafenwoehr test fires containerized drone swarms and robotic Javelin launchers",
-      "summary": "Stars and Stripes reported Nov. 13 that soldiers at Grafenwoehr Training Area on Thursday attacked targets with weapons stored in shipping containers, drones, and unmanned vehicles. The demonstration began with an unmanned ground vehicle carrying two Javelin launchers, and another unmanned ground vehicle then fired a swarm of 18 drones from a pre-positioned container. Col. Michael Weisman, a senior spokesman for the Army in Europe, said in a statement Friday that the systems are part of the Eastern Flank Deterrence Initiative. Alex Tomosieski of the Combat Capabilities Development Command said the Army wants to store drones and unmanned ground vehicles in containers under a program called the Remote Rapid Response Contingency Team.",
-      "sources": [
-        {
-          "name": "Stars and Stripes",
-          "url": "https://www.stripes.com/branches/army/2026-11-13/containers-drones-munitions-test-germany-23453535.html"
-        }
-      ]
-    },
-    {
       "id": "stryker-sustainment-2026-11-19",
       "subsection": "contracts",
       "date": "2026-11-19",
@@ -167,16 +167,16 @@
       ]
     },
     {
-      "id": "acws-padds-2026-11-12",
-      "subsection": "contracts",
-      "date": "2026-11-12",
-      "dateLabel": "Nov 12",
-      "headline": "Army moves PADDS users onto the Army Contract Writing System",
-      "summary": "Army.mil reported Nov. 12, datelined Fort Belvoir, that the Army retired the Standard Procurement System earlier in fiscal 2026 and migrated users and contract actions from the Procurement Automated Data and Document System to the Army Contract Writing System. During the fiscal year-end surge the system migrated over 20,000 contract files in 90 days and trained over 1,100 users in the fourth quarter, and as of Oct. 1 more than 9,600 contracting professionals worldwide had access. Doug Haskin, project manager at Capability Program Executive Enterprise Software and Services, said the platform lets the Army respond more rapidly to emerging requirements. Lt. Col. Camille Morgan, product manager for the system, said migrating thousands of legacy files protected warfighter procurement needs while building an audit-ready enterprise, and final PADDS decommissioning continues through late 2026.",
+      "id": "adoc-pilot-2026-11-19",
+      "subsection": "network",
+      "date": "2026-11-19",
+      "dateLabel": "Nov 19",
+      "headline": "Army extends the Data Operations Center pilot to Oct. 1, 2027",
+      "summary": "Breaking Defense reported Nov. 19 that Chad Nash, deputy of the Army Data Operations Center, said at the AFCEA Data Forum that the pilot is extended from Oct. 1, 2026, to Oct. 1, 2027 so the Army can keep measuring the volume of data problems it is clearing. Breaking Defense said the center was established in April as a 180-day pilot and help desk for formations, especially at the tactical edge, that could not get to their data. Col. Reginald Evans, director of the Command and Control Future Capability Directorate and the center, said the Army still would not have enough people to fill permanent billets and is relying on personnel borrowed from other organizations at Aberdeen Proving Ground. Nash said problems that took about two months at the start are now being solved in days, and that senior leaders will decide after the extension whether the center becomes permanent.",
       "sources": [
         {
-          "name": "Army.mil",
-          "url": "https://www.army.mil/article/296691/army_completes_key_fy2026_contract_writing_modernization_milestones"
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/army-extends-data-operations-center-pilot-to-oct-2027/"
         }
       ]
     },
@@ -195,16 +195,16 @@
       ]
     },
     {
-      "id": "ngc2-hawaii-2026-11-12",
-      "subsection": "network",
-      "date": "2026-11-12",
-      "dateLabel": "Nov 12",
-      "headline": "25th Infantry Division says it is pushing next-gen command-and-control compute to company level",
-      "summary": "The Department of War reported Nov. 12 that the 25th Infantry Division and partners are in Joint Pacific Multinational Readiness Center Rotation 27-01 in Hawaii, after the 11th Airborne Division flew 300 paratroopers 3,000 miles from Alaska. Maj. Gen. Jeff VanAntwerp, the division commander, said the 25th is one of two next-generation command-and-control-enabled divisions and that its cloud-based architecture pushes a good amount of compute from brigades down to the company level. He said the division is adding a secure network on top of mesh radios and commercially available devices so dispersed units have more computing power and tools for commanders. In the Lightning Surge 6 exercise, soldiers are limiting electronic transmissions at night and testing whether they can stay connected on tactical mesh radios and secure, unclassified data layers ahead of a long-range maritime air assault.",
+      "id": "lead-azide-2026-11-19",
+      "subsection": "ahead",
+      "date": "2026-11-19",
+      "dateLabel": "Nov 19",
+      "headline": "Army postpones an Iowa lead-azide detonation until Monday",
+      "summary": "ABC News reported Nov. 19 that Army Secretary Adam Telle said he directed Army Materiel Command to postpone a controlled detonation at the Iowa Army Ammunition Plant in Middletown from Friday until Monday, Nov. 23, and that he called public safety the Army's top priority. ABC News said Army Sustainment Command spokesperson Justine Barati put the material at 68 barrels, approximately 9,700 pounds of degraded lead azide, and that Telle said Monday is the latest moment before a forecasted temperature drop that could further destabilize it. The Army told ABC News that destroying the material in place is the only responsible option because packing and transporting it risks an accidental detonation. ABC News said the Iowa Environmental Council and the Sierra Club asked a federal court to halt the Environmental Protection Agency permit, and that Sen. Chuck Grassley said the delay is meant to further educate the public.",
       "sources": [
         {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/News-Stories/Article/Article/4647175/army-allies-prepare-for-long-range-air-assault-in-hawaii/"
+          "name": "ABC News",
+          "url": "https://abcnews.com/US/iowa-army-plant-lead-azide-detonation/story?id=138261613"
         }
       ]
     }

@@ -3,24 +3,24 @@
     {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Nov 18–19",
-      "headline": "Army introduces a reduced-range .50-caliber round and is testing it on drones",
-      "item": "rra-50cal-2026-11-19",
-      "href": "army.html#modernization"
+      "dateLabel": "Nov 19",
+      "headline": "Army extends its data-operations pilot and is still borrowing Aberdeen staff",
+      "item": "adoc-pilot-2026-11-19",
+      "href": "army.html#network"
     },
     {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Nov 18–19",
-      "headline": "Hegseth says the U.S. and Venezuela signed a military cooperation deal",
-      "item": "hegseth-venezuela-2026-11-19",
-      "href": "dow.html#ops"
+      "dateLabel": "Nov 16–19",
+      "headline": "Golden Dome deputy says the continuing resolution is not slowing execution",
+      "item": "golden-dome-cr-2026-11-19",
+      "href": "dow.html#goldendome"
     },
     {
       "section": "ai",
       "label": "AI",
-      "dateLabel": "Nov 18",
-      "headline": "Anthropic prices its IPO at $83 a share",
+      "dateLabel": "Nov 18–19",
+      "headline": "Anthropic shares closed their first day at $97.17",
       "item": "anthropic-ipo-2026-11-18",
       "href": "ai.html#anthropic"
     },
@@ -28,25 +28,25 @@
       "section": "cyber",
       "label": "CYBER",
       "dateLabel": "Nov 18",
-      "headline": "CISA adds four exploited flaws, three due Nov. 21",
+      "headline": "Three exploited flaws are due Nov. 21",
       "item": "kev-four-2026-11-18",
       "href": "cyber.html#kev"
     },
     {
-      "section": "budget",
-      "label": "BUDGET",
-      "dateLabel": "Nov 18",
-      "headline": "HASC chair says a $350 billion reconciliation bill will not happen",
-      "item": "rogers-reconciliation-2026-11-18",
-      "href": "budget.html#reconciliation"
+      "section": "dow",
+      "label": "DOW",
+      "dateLabel": "Nov 19",
+      "headline": "DISA asks for a cloud identity service at IL5 and IL6",
+      "item": "disa-icam-ota-2026-11-19",
+      "href": "dow.html#acquisition"
     },
     {
-      "section": "partners",
-      "label": "PARTNERS",
-      "dateLabel": "Nov 18",
-      "headline": "Red Hat and Microsoft extend virtualization engineering on Azure",
-      "item": "redhat-azure-virt-2026-11-18",
-      "href": "partners.html#other"
+      "section": "datacenter",
+      "label": "DC/NET",
+      "dateLabel": "Nov 19",
+      "headline": "IEA is tracking 93 AI factories headed toward 50 gigawatts",
+      "item": "iea-ai-factories-2026-11-19",
+      "href": "datacenter.html#power"
     }
   ]
 }

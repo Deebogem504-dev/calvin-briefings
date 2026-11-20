@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-19",
+  "title": "November 19, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "ARMY",
+      "dateLabel": "Nov 18–19",
+      "headline": "Army introduces a reduced-range .50-caliber round and is testing it on drones",
+      "sources": [
+        {
+          "name": "DEVCOM Armaments Center",
+          "url": "https://ac.devcom.army.mil/news/increased-opportunities-decreased-distance-this-50-caliber-bullet-knows-when-to-quit/"
+        },
+        {
+          "name": "Stars and Stripes",
+          "url": "https://www.stripes.com/branches/army/2026-11-19/army-new-50-caliber-bullet-23513597.html"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 18–19",
+      "headline": "Hegseth says the U.S. and Venezuela signed a military cooperation deal",
+      "sources": [
+        {
+          "name": "The Spokesman-Review",
+          "url": "https://www.spokesman.com/stories/2026/nov/18/hegseth-in-caracas-announces-new-us-venezuela-mili/"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/why-is-pete-hegseth-strengthening-us-military-ties-with-venezuela"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Nov 18",
+      "headline": "Anthropic prices its IPO at $83 a share",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Nov 18",
+      "headline": "CISA adds four exploited flaws, three due Nov. 21",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
+    {
+      "label": "BUDGET",
+      "dateLabel": "Nov 18",
+      "headline": "HASC chair says a $350 billion reconciliation bill will not happen",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/350-billion-reconciliation-bill-not-going-to-happen-hasc-chair/"
+        }
+      ]
+    },
+    {
+      "label": "PARTNERS",
+      "dateLabel": "Nov 18",
+      "headline": "Red Hat and Microsoft extend virtualization engineering on Azure",
+      "sources": [
+        {
+          "name": "Red Hat",
+          "url": "https://www.redhat.com/en/about/press-releases/red-hat-deepens-collaboration-microsoft-power-future-enterprise-virtualization"
+        }
+      ]
+    }
+  ]
+}

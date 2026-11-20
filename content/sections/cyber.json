@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-19",
-  "covers": "Nov 9–19, 2026",
-  "readFirst": "Covers Nov. 9–19. New: CISA on Nov. 18 added Synology DSM, Apache Axis, Vanderbilt REDCap, and BerriAI LiteLLM flaws to the Known Exploited Vulnerabilities catalog. Synology, Axis, and REDCap are due Nov. 21 and require forensic triage. LiteLLM is due Dec. 2. Tom's Hardware on Nov. 19 added detail on Java4Shell, which CISA urged patching on Nov. 17 and which is still not listed as a catalog entry. Puppet Enterprise CVE-2026-115731 remains due Dec. 1. The Nov. 10 Cisco, Outlook, Openwave, and Chromium entries, due Nov. 24, and the Barracuda entries, due Nov. 13, were not repeated.",
+  "compiled": "2026-11-20",
+  "covers": "Nov 9–20, 2026",
+  "readFirst": "Covers Nov. 9–20. No new Known Exploited Vulnerabilities entry dated Nov. 19–20 was found. Synology, Apache Axis, and Vanderbilt REDCap remain due Nov. 21, and LiteLLM remains due Dec. 2. CISA published three industrial-control advisories on Nov. 19, for OpenPLC, Elecbrakes, and libumqtt, and said it had no report of exploitation; they were not added as catalog items. ThreatLocker said Nov. 19 that it reproduced a Windows 11 lock-screen bypass called FastUnlock that needs physical access and reaches a non-administrator account. Puppet Enterprise CVE-2026-115731 remains due Dec. 1.",
   "subsections": [
     {
       "id": "kev",
@@ -121,20 +121,16 @@
       ]
     },
     {
-      "id": "cairn-defense-2026-11-12",
+      "id": "fastunlock-2026-11-19",
       "subsection": "trends",
-      "date": "2026-11-12",
-      "dateLabel": "Nov 12–13",
-      "headline": "Unit 42: Cairn and Chinese models hit semiconductor and defense targets",
-      "summary": "Palo Alto Networks Unit 42 said Chinese-speaking attackers used the open-source Cairn framework, paired with Zhipu GLM and DeepSeek models, to run 25 operations against at least 19 organizations in August and September 2026. Unit 42 said the attackers achieved unauthorized access or data retrieval at 10 organizations, including dozens of valid credentials, more than one million personal records at one organization, and military and government identities. Unit 42 assesses with moderate confidence that the activity, tracked as CL-STA-1238, is China-nexus intelligence collection, and said defense targets included a space technology company, a defense-analytics vendor, and a policy think tank. Cybersecurity Dive reported Nov. 13 that Unit 42 released the report on Thursday.",
+      "date": "2026-11-19",
+      "dateLabel": "Nov 19",
+      "headline": "ThreatLocker reproduces a Windows 11 lock-screen bypass that needs physical access",
+      "summary": "ThreatLocker said Nov. 19 that its threat-intelligence team reproduced a Windows lock-screen bypass called FastUnlock, disclosed by a researcher known as Nightmare Eclipse. ThreatLocker said someone with physical access can open Microsoft Narrator during the Microsoft-account recovery flow and reach Windows settings without signing in, landing in the WSIAccount, which is not an administrator. ThreatLocker said the test required a Microsoft account available through account recovery and Narrator navigation, and that a BitLocker pre-boot PIN protects a machine that is powered off or hibernating because the PIN is required before Windows starts. ThreatLocker said it used an external drive in the proof of concept.",
       "sources": [
         {
-          "name": "Palo Alto Networks Unit 42",
-          "url": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/"
-        },
-        {
-          "name": "Cybersecurity Dive",
-          "url": "https://www.cybersecuritydive.com/news/china-hacker-ai-tool-campaign-us-defense-semiconductor/874619/"
+          "name": "ThreatLocker",
+          "url": "https://www.threatlocker.com/blog/proof-of-concept-for-fastunlock-windows-lock-screen-bypass-from-nightmare-eclipse"
         }
       ]
     },

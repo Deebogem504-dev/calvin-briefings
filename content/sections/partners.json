@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-19",
-  "covers": "Nov 9–19, 2026",
-  "readFirst": "Covers Nov. 9–19. New: Red Hat said Nov. 18 that it is extending joint engineering with Microsoft so OpenShift Virtualization on Azure can use Microsoft direct virtualization. No new Army or Department of War enterprise agreement dated Nov. 18–19 was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. No separate Dell, HPE, NetApp, or Microsoft newsroom item dated Nov. 18–19 was opened. F5, Intel, and VMware were quiet. NVIDIA's Nov. 17 results remain. WWT's NetApp Insight recap is on the WWT page.",
+  "compiled": "2026-11-20",
+  "covers": "Nov 9–20, 2026",
+  "readFirst": "Covers Nov. 9–20. New: Tom's Hardware reported Nov. 19, citing Business Insider, that Intel began another round of IT layoffs on Nov. 16 and that Intel has not confirmed a number. F5 and VMware were quiet. Red Hat's Nov. 20 Friday Five pointed back to the Nov. 18 Azure virtualization announcement already on this page. No new Red Hat deal with the Army or the Department of War dated Nov. 19–20 was found, and no new Army or Department of War enterprise agreement was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
   "subsections": [
     {
       "id": "cisco",
@@ -159,16 +159,16 @@
       ]
     },
     {
-      "id": "chatgpt-aws-2026-11-09",
-      "subsection": "aws",
-      "date": "2026-11-09",
-      "dateLabel": "Nov 9",
-      "headline": "OpenAI lists ChatGPT Enterprise in AWS Marketplace against existing AWS commitments",
-      "summary": "OpenAI said Nov. 9 that ChatGPT Enterprise is available through AWS Marketplace, so organizations can buy and manage it through an existing AWS purchasing and billing relationship and apply eligible spend toward AWS commitments. OpenAI said AWS customers get the same models, features, and functionality available directly from OpenAI, including ChatGPT, ChatGPT Work, Codex, and dots, with new features released at the same time. OpenAI said the listing complements OpenAI models in Amazon Bedrock, and that eligible customers can also access ChatGPT for Healthcare and ChatGPT for Financial Services through the marketplace. Chris Grusz, OpenAI's managing director for cloud partnerships, said joint customers can bring ChatGPT to their teams through AWS.",
+      "id": "intel-it-layoffs-2026-11-19",
+      "subsection": "quiet",
+      "date": "2026-11-19",
+      "dateLabel": "Nov 16–19",
+      "headline": "Tom's Hardware: Intel has started another round of layoffs in its IT organization",
+      "summary": "Tom's Hardware reported Nov. 19, citing Business Insider, that Intel began another round of layoffs in its global IT organization on Nov. 16. Tom's Hardware said Intel has not disclosed how many employees will lose their jobs and has not identified the teams, and that some employees claim the cuts could affect a double-digit share of an IT staff of about 2,607. Tom's Hardware said Intel told Business Insider that it regularly reviews its workforce so people and spending match its priorities. Tom's Hardware said Intel reported 81,100 employees as of Sept. 27, 2026, including subsidiaries, compared with 108,900 a year earlier.",
       "sources": [
         {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/"
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/cpus/intel-continues-layoffs-with-cuts-to-its-it-department-hundreds-of-employees-reportedly-affected-companys-workforce-reduced-by-27-800-under-lip-bu-tan"
         }
       ]
     },

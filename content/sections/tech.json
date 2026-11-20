@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-19",
-  "covers": "Nov 9–19, 2026",
-  "readFirst": "Covers Nov. 9–19. No new post-quantum standard, Army quantum award, autonomy demonstration, or space contract dated Nov. 18–19 was added. A Tom's Hardware homepage headline on Nov. 19 about DDR6 was not an Army or Department of War item and was not added. The quantum and compute subsections are empty. The Nov. 12 Space Development Agency study of Plaser links remains.",
+  "compiled": "2026-11-20",
+  "covers": "Nov 9–20, 2026",
+  "readFirst": "Covers Nov. 9–20. No new post-quantum standard, Army quantum award, autonomy demonstration, or space contract dated Nov. 19–20 was added. A Tom's Hardware homepage note on Nov. 20 about an autonomous John Deere skid-steer was not an Army or Department of War program and was not opened as a briefing item. The quantum and compute subsections are empty. The Nov. 12 Space Development Agency study of Plaser links remains.",
   "subsections": [
     {
       "id": "quantum",
