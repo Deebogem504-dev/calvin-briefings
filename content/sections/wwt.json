@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT ↔ U.S. Army Signal Mapping",
   "description": "World Wide Technology public content and Army business, set next to U.S. Army leadership priorities.",
-  "compiled": "2026-11-20",
-  "covers": "Nov 9–20, 2026",
-  "readFirst": "Covers Nov. 9–20. No new WWT newsroom or blog post dated Nov. 19–20 was opened. The Nov. 17 NetApp Insight recap remains, including NetApp's claim that Novus can feed 50,000 GPUs and its Oct. 1 naming of WWT as fiscal 2026 North America Partner of the Year and AI Partner of the Year. No WWT release on an Army program in that window was found. The Signal Mapping subsection is empty.",
+  "compiled": "2026-11-23",
+  "covers": "Nov 16–23, 2026",
+  "readFirst": "Covers Nov. 16–23. New: WWT published a Nov. 20 article with Confluent, an IBM company, on moving enterprise AI out of pilot. The Nov. 17 NetApp Insight recap remains, including the Oct. 1 partner-of-the-year awards. No WWT release on an Army program dated Nov. 20–23 was found. The Microsoft Ignite guide is dated Nov. 10 and the AWS re:Invent preview is dated Nov. 12, so both fell outside this week's seven-day window. The Signal Mapping subsection is empty.",
   "subsections": [
     {
       "id": "content",
@@ -28,6 +28,20 @@
     }
   ],
   "items": [
+    {
+      "id": "wwt-confluent-myths-2026-11-20",
+      "subsection": "content",
+      "date": "2026-11-20",
+      "dateLabel": "Nov 20",
+      "headline": "WWT and Confluent argue production AI fails on data, not on the model",
+      "summary": "WWT published a Nov. 20 article, written with Confluent, arguing that models are already good enough for most enterprise uses and that the harder problem is trusted, real-time data. WWT said IBM completed its acquisition of Confluent in March 2026, that WWT is a Confluent Premier Partner, and that Confluent's 2026 Data Streaming Report surveyed 4,625 IT leaders, of whom 32 percent said they have agentic AI in production and 66 percent cited data infrastructure and data quality as barriers. WWT said Confluent has dozens of customers running AI agents in production, and that its Real-Time Context Engine serves agents the latest business state over the Model Context Protocol with role-based access control and audit logging. WWT said its role is to assess data readiness, modernize the data foundation, and carry an organization through implementation.",
+      "sources": [
+        {
+          "name": "WWT",
+          "url": "https://www.wwt.com/article/six-myths-keeping-enterprise-ai-stuck-in-the-pilot"
+        }
+      ]
+    },
     {
       "id": "wwt-netapp-insight-2026-11-17",
       "subsection": "content",

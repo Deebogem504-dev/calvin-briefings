@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-20",
-  "covers": "Nov 9–20, 2026",
-  "readFirst": "Covers Nov. 9–20. New: Tom's Hardware reported Nov. 19, citing Business Insider, that Intel began another round of IT layoffs on Nov. 16 and that Intel has not confirmed a number. F5 and VMware were quiet. Red Hat's Nov. 20 Friday Five pointed back to the Nov. 18 Azure virtualization announcement already on this page. No new Red Hat deal with the Army or the Department of War dated Nov. 19–20 was found, and no new Army or Department of War enterprise agreement was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
+  "compiled": "2026-11-23",
+  "covers": "Nov 16–23, 2026",
+  "readFirst": "Covers Nov. 16–23. No new Cisco, Dell, HPE, NetApp, NVIDIA, Microsoft, Palo Alto Networks, AWS, or Google Cloud announcement dated Nov. 20–23 was opened beyond items already inside this week. F5 and VMware product news were quiet; an exploited VMware vCenter flaw is on the cyber page. Red Hat's newest U.S. item in the window remains the Nov. 18 Azure virtualization announcement. A Nov. 19 Singapore awards release was not an Army or Department of War deal and was not added. No new Red Hat deal with the Army or the Department of War dated Nov. 20–23 was found, and no new Army or Department of War enterprise agreement was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
   "subsections": [
     {
       "id": "cisco",
@@ -103,20 +103,6 @@
       ]
     },
     {
-      "id": "nvidia-bessent-2026-11-14",
-      "subsection": "nvidia",
-      "date": "2026-11-14",
-      "dateLabel": "Nov 14",
-      "headline": "Bessent questions whether Nvidia sold AI GPUs to pass-through shell companies",
-      "summary": "Tom's Hardware reported Nov. 14 that Treasury Secretary Scott Bessent, in a CNBC interview, said there is a lot of leakage in export controls and that the question is whether Nvidia knew its clients and made a robust effort not to sell to pass-through shell companies. Bessent said anyone at the company should be held accountable for that. Tom's Hardware said Bessent does not believe the United States needs stricter export restrictions or additional agency powers, and that existing rules should be enforced. Tom's Hardware also said Bessent stressed that it was unclear whether Jensen Huang knew about the practices.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that"
-        }
-      ]
-    },
-    {
       "id": "cisco-ansible-cvd-2026-11-16",
       "subsection": "cisco",
       "date": "2026-11-16",
@@ -197,34 +183,6 @@
         {
           "name": "Red Hat",
           "url": "https://www.redhat.com/en/blog/unlocking-mission-critical-innovation-microsoft-azure-red-hat-openshift-il5-now-available-jwcc"
-        }
-      ]
-    },
-    {
-      "id": "openshift-5-2026-11-09",
-      "subsection": "other",
-      "date": "2026-11-09",
-      "dateLabel": "Nov 9",
-      "headline": "Red Hat makes OpenShift 5 generally available, with post-quantum control-plane cryptography",
-      "summary": "Red Hat said Nov. 9 at KubeCon in Salt Lake City that Red Hat OpenShift 5 is generally available to customers with existing subscriptions, as an in-place update from OpenShift 4. Red Hat said the release runs AI workloads, virtual machines, and containers side by side, and that OpenShift Lightspeed moves from a conversational assistant to an agent that can troubleshoot and assess update risk. Red Hat said the release adds Model Context Protocol server support and post-quantum cryptography for control-plane communications, plus hardened multi-tenancy for sovereign and disconnected deployments. Chief product officer Ashesh Badani said the release includes a five-year predictable lifecycle.",
-      "sources": [
-        {
-          "name": "Red Hat",
-          "url": "https://www.redhat.com/en/about/press-releases/red-hat-openshift-5-transforms-hybrid-cloud-operations-real-time-intelligence-and-zero-trust-security"
-        }
-      ]
-    },
-    {
-      "id": "rhel-103-2026-11-09",
-      "subsection": "other",
-      "date": "2026-11-09",
-      "dateLabel": "Nov 9",
-      "headline": "Red Hat says Enterprise Linux 10.3 and 9.9 will add sealed images and disconnected AI help",
-      "summary": "Red Hat said Nov. 9 at KubeCon in Salt Lake City that Red Hat Enterprise Linux 10.3 and 9.9 are planned to be generally available in the coming weeks. Red Hat said 10.3 introduces sealed images for image mode so customers can sign and verify the operating system with their own keys and block unauthorized components at runtime. Red Hat said a Model Context Protocol server can investigate live systems with governed access, and that a developer-preview command-line assistant can run on customer-hosted inference for disconnected or air-gapped sites. Red Hat said 10.3 also adds post-quantum cryptography in the Go toolchain.",
-      "sources": [
-        {
-          "name": "Red Hat",
-          "url": "https://www.redhat.com/en/about/press-releases/red-hat-strengthens-hybrid-cloud-foundations-against-ai-driven-threats-latest-versions-red-hat-enterprise-linux"
         }
       ]
     }

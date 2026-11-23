@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-20",
-  "covers": "Nov 9–20, 2026",
-  "readFirst": "Covers Nov. 9–20. New: Tom's Hardware reported Nov. 19 that the International Energy Agency's World Energy Outlook 2026 expects another 120 gigawatts of data-center capacity by the end of the decade, about three-quarters of it for artificial intelligence, and is tracking 93 large AI factories. NVIDIA's planned Cisco USFP optical module and OpenAI's TensorWave AMD capacity remain. No new storage-array announcement was opened, so the storage subsection is empty.",
+  "compiled": "2026-11-23",
+  "covers": "Nov 16–23, 2026",
+  "readFirst": "Covers Nov. 16–23. New: Tom's Hardware reported Nov. 22 that lenders are backing a $43 billion SpaceX financing, structured like an aircraft lease, for Nvidia AI chips, and that SpaceX said the collateralized chips will stay on Earth. Tom's Hardware reported Nov. 21 that President Trump said he wants to stop U.S. companies from building data centers abroad or to impose a tax, and that he had not discussed the idea with his cabinet. The International Energy Agency note from Nov. 19 remains. No new storage-array announcement was opened, so the storage subsection is empty.",
   "subsections": [
     {
       "id": "networking",
@@ -43,16 +43,30 @@
       ]
     },
     {
-      "id": "optical-ban-2026-11-10",
-      "subsection": "networking",
-      "date": "2026-11-10",
-      "dateLabel": "Nov 10",
-      "headline": "Tom's Hardware: Microsoft lobbies against an FCC ban on Chinese optical transceivers",
-      "summary": "Tom's Hardware reported Nov. 10, citing Reuters, that Microsoft, which Tom's Hardware said is building 35 data centers in the United States and planning 134 more, has met with the White House Office of Science and Technology Policy and the National Security Council as the FCC considers an import ban on Chinese optical transceivers. Tom's Hardware said Microsoft and the Information Technology Industry Council are lobbying against the ban. John Miller, the council's executive vice president of policy and general counsel, said the move threatens to grind the data-center rollout to a halt because AI chips sit unused without transceivers to connect them. Tom's Hardware said Chinese companies supply 66 percent of the global market.",
+      "id": "spacex-gpu-lease-2026-11-22",
+      "subsection": "capacity",
+      "date": "2026-11-22",
+      "dateLabel": "Nov 22",
+      "headline": "Tom's Hardware: lenders back a $43 billion SpaceX loan for Nvidia chips",
+      "summary": "Tom's Hardware reported Nov. 22 that Elon Musk is borrowing $43 billion to finance SpaceX's acquisition of Nvidia AI chips and is using the semiconductors as collateral. Tom's Hardware said Ars Technica reported that lenders worry the chips could be placed in a planned orbital data center and would then be difficult to reclaim in a default. Tom's Hardware said SpaceX said the collateralized chips will be deployed only on Earth, and that it is unclear whether that limit is written into the signed debt instrument. Tom's Hardware said the Project Saturn loan is structured like an aircraft lease, with a leasing company buying the chips, rather than as a typical loan, and that Musk has also described a planned $24 billion gas-powered AI supercomputer in Starbase, Texas.",
       "sources": [
         {
           "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/policy/microsoft-lobbies-against-potential-ban-on-chinese-optical-networking-gear-for-ai-data-centers-as-fcc-mulls-restricting-imports-industry-group-says-move-could-grind-data-center-rollout-to-a-halt"
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/lenders-back-spacexs-usd43-billion-nvidia-gpu-deal-but-worry-the-collateral-could-end-up-in-orbit-making-it-impossible-to-reclaim-if-musk-defaults-five-year-hell-or-high-water-lease-may-lack-a-written-earth-only-guarantee"
+        }
+      ]
+    },
+    {
+      "id": "trump-overseas-dc-2026-11-21",
+      "subsection": "capacity",
+      "date": "2026-11-21",
+      "dateLabel": "Nov 21",
+      "headline": "Tom's Hardware: Trump says he wants to stop U.S. firms building data centers abroad",
+      "summary": "Tom's Hardware reported Nov. 21, citing Axios, that President Donald Trump said he wants to prevent U.S. companies from building data centers in other countries or to charge a \"tremendous tax\" if they do, and that he said he has not discussed the idea with his cabinet or advisers. Tom's Hardware quoted Trump saying the companies are making so much money they do not know what to do with it, and that \"we're not allowing data centers to go into other countries because China will take all of them.\" Tom's Hardware said one reason under discussion is Chinese labs sending work to overseas data centers that use chips barred from export to China, including Nvidia Blackwell and the upcoming Vera Rubin. Tom's Hardware said data-center moratoriums in the United States have passed 500, and that only Congress can impose a tax.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/trump-wants-to-ban-us-companies-from-building-overseas-data-centers-as-bans-slow-development-also-considers-putting-a-tremendous-tax-in-lieu-of-prohibition"
         }
       ]
     },
@@ -67,48 +81,6 @@
         {
           "name": "Fortune",
           "url": "https://fortune.com/2026/11/17/openai-reveals-first-amd-neocloud-provider-amid-nvidia-collapsejensen-huang-launching-his-comeback-campaign/"
-        }
-      ]
-    },
-    {
-      "id": "malaysia-gpu-power-2026-11-14",
-      "subsection": "capacity",
-      "date": "2026-11-14",
-      "dateLabel": "Nov 14",
-      "headline": "Tom's Hardware: Malaysia would use data-center power data to catch diverted AI GPUs",
-      "summary": "Tom's Hardware reported Nov. 14, citing Malay Mail, that Malaysia plans a law requiring data center operators to disclose AI accelerator imports and power consumption, and that authorities plan to charge operators for unused electricity capacity they reserve. Malaysia's minister of investment, trade and industry, Datuk Seri Johari Abdul Ghani, said Thursday that some companies rented space in Malaysian data centers, imported GPUs legally, and then shipped them abroad. Tom's Hardware said the Digital Ministry is reviewing whether authorities can act against re-export of processors subject to U.S. export bans. The proposal would also require disclosure of facility locations and the identities of operators and hyperscale customers, and the government intends to track operations through their lifetime.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity"
-        }
-      ]
-    },
-    {
-      "id": "yandex-data-2026-11-12",
-      "subsection": "capacity",
-      "date": "2026-11-12",
-      "dateLabel": "Nov 12",
-      "headline": "Tom's Hardware: Yandex Cloud says 2.84 percent of customer data cannot be restored",
-      "summary": "Tom's Hardware reported Nov. 12 that Yandex Cloud said it had restored access to more than 97 percent of customer data after Ukrainian drone strikes damaged its data centers, and that the remaining 2.84 percent cannot be restored because of critical equipment damage. Tom's Hardware said Yandex attributed part of that loss to customers who had no backups on the platform, and that customers who used Yandex Cloud backup tools did not lose data. Tom's Hardware said it knows of at least three Yandex locations damaged in the strikes.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/russias-google-says-nearly-3-percent-of-its-data-was-lost-after-crippling-ukraine-drone-strikes-opens-secret-availability-zones-yandex-cloud-blames-lack-of-user-backups-for-lost-data-now-forcibly-applies-backup-rules-by-default"
-        }
-      ]
-    },
-    {
-      "id": "kessel-rack-2026-11-11",
-      "subsection": "capacity",
-      "date": "2026-11-11",
-      "dateLabel": "Nov 11",
-      "headline": "Tom's Hardware: SpaceX is designing a 72-GPU Rubin rack for data centers in space",
-      "summary": "Tom's Hardware reported Nov. 11, citing SemiAnalysis, that SpaceX and xAI are developing a custom version of Nvidia's Vera Rubin NVL72 rack, codenamed Kessel, for terrestrial and orbital data centers. Tom's Hardware said the design keeps 36 Vera CPUs, 72 Rubin GPUs, and nine NVLink switch trays, and replaces internal NVLink cable cartridges with compute and switch trays set back-to-back around a passive printed-circuit midplane. It said that midplane is an 84-layer board using M10 copper-clad laminates, compared with the 156-layer M9 backplane SemiAnalysis described for Nvidia's Kyber design. Tom's Hardware said SpaceX and xAI would still buy Nvidia hardware from Nvidia and source other components independently.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-develops-its-own-kessel-rack-scale-system-featuring-72-nvidia-rubin-gpus-for-data-centers-in-space-report-claims-replaces-conventional-nvlink-cable-assemblies-with-a-massive-84-layer-printed-circuit-board"
         }
       ]
     },
@@ -151,20 +123,6 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/data-centers/403-hyperscale-us-data-centers-used-staggering-82-terawatts-of-electricity-in-a-year-more-than-80-percent-of-michigans-entire-consumption-generated-26-million-tons-of-co2-in-a-single-year-gas-and-coal-supplied-54-percent-of-the-power-harvard-led-study-estimates"
-        }
-      ]
-    },
-    {
-      "id": "softbank-turbines-2026-11-11",
-      "subsection": "power",
-      "date": "2026-11-11",
-      "dateLabel": "Nov 11",
-      "headline": "Tom's Hardware: SoftBank takes a $3.7 billion hit canceling 13 gigawatts of turbines",
-      "summary": "Tom's Hardware reported Nov. 11, citing The Wall Street Journal, that SoftBank is taking a $3.7 billion earnings hit after canceling reservations for gas turbines it had booked to power AI data centers. Tom's Hardware said the Journal, citing people familiar with the orders, reported SoftBank had reserved more than 13 gigawatts of turbines. It said the news followed a denial by SoftBank's chief financial officer of Elon Musk's claim that the company had defaulted on turbine-blade contracts; the officer said there is no such default. Tom's Hardware also said SoftBank plans a 9.2-gigawatt plant in Ohio, scheduled to start construction in early 2027 at a cost of $33 billion, to serve a neighboring 8-gigawatt data center that would be leased to OpenAI, and that Nvidia has discussed guaranteeing about $250 billion of financing for that project.",
-      "sources": [
-        {
-          "name": "Tom's Hardware",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/softbank-loses-usd3-7-billion-on-canceled-ai-data-center-gas-turbine-orders-days-after-denying-elon-musks-claim-it-was-defaulting-company-kills-reserved-13-gigawatts-of-power-more-than-six-hoover-dams-worth-of-capacity"
         }
       ]
     }

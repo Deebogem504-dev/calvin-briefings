@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-20",
-  "covers": "Nov 9–20, 2026",
-  "readFirst": "Covers Nov. 9–20. New: Breaking Defense reported Nov. 19 that the Army Data Operations Center pilot now runs through Oct. 1, 2027, and that the center is still borrowing people from Aberdeen Proving Ground. ABC News reported Nov. 19 that Army Secretary Adam Telle postponed a controlled detonation of degraded lead azide at the Iowa Army Ammunition Plant until Monday, Nov. 23. DefenseScoop reported Nov. 19 that the president nominated Lt. Gen. Patrick Frank for U.S. Northern Command and NORAD. No new NETCOM release and no new Army enterprise agreement dated Nov. 19–20 were found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. The Pegasystems award, W519TC-27-D-A019, is already known.",
+  "compiled": "2026-11-23",
+  "covers": "Nov 16–23, 2026",
+  "readFirst": "Covers Nov. 16–23. New: Military Aerospace reported Nov. 20 that Army Contracting Command at Aberdeen Proving Ground awarded Sherpa 6 a $99.9 million contract to demonstrate tactical-edge endpoint management. Army.mil reported Nov. 20 that the CECOM Integrated Logistics Support Center trained soldiers on next-generation satellite systems and cut $161 million in legacy WIN-T forecasts. Army.mil said Nov. 22 that the Iowa lead-azide detonation moved from Monday to Wednesday, Nov. 25. No new NETCOM release was found. No new Army enterprise agreement dated Nov. 20–23 was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
   "subsections": [
     {
       "id": "leadership",
@@ -125,16 +125,16 @@
       ]
     },
     {
-      "id": "manufacturing-rodeo-2026-11-16",
-      "subsection": "modernization",
-      "date": "2026-11-16",
-      "dateLabel": "Nov 13–16",
-      "headline": "Army Contracting Command opens a Manufacturing Rodeo for 400 one-way-attack drones",
-      "summary": "DRONELIFE reported Nov. 16 that a Nov. 13 Army Contracting Command solicitation outlines a small-uncrewed-aircraft Manufacturing Rodeo pairing commercial manufacturers with the Army's organic industrial base. DRONELIFE said the effort covers Group 1 first-person-view one-way-attack and loitering-strike drones, with an initial batch of 400 flight-ready aircraft and 20 ground control stations at a maximum unit price of $3,000, and that the Army would supply batteries, motors, frames, and other specified equipment. The aircraft would compete at Drone Dominance Gauntlet III in March 2027, and successful participants could qualify for follow-on production of up to 10,000 aircraft at Army depots. DRONELIFE said a virtual industry briefing was scheduled for Nov. 16 and that the solicitation lists Nov. 20 as the overall response date, with an earlier deadline for initial solution briefs.",
+      "id": "sherpa-uem-2026-11-20",
+      "subsection": "contracts",
+      "date": "2026-11-20",
+      "dateLabel": "Nov 20",
+      "headline": "Army awards Sherpa 6 a $99.9 million tactical-edge endpoint contract",
+      "summary": "Military Aerospace reported Nov. 20 that the Army awarded Sherpa 6 Inc. of Littleton, Colorado, a Small Business Innovation Research Phase III indefinite-delivery/indefinite-quantity contract valued at $99,878,455 to demonstrate a unified endpoint management platform at the tactical edge. Military Aerospace said Army Contracting Command at Aberdeen Proving Ground is the contracting activity and that the estimated completion date is Nov. 17, 2031. The company develops Watchtower, a platform for device provisioning, configuration, application distribution, and security enforcement in classified and unclassified enclaves. Military Aerospace said the Army announcement does not name Watchtower or say whether the effort buys that platform, adds development, or demonstrates a wider set of capabilities.",
       "sources": [
         {
-          "name": "DRONELIFE",
-          "url": "https://dronelife.com/2026/11/16/army-drone-manufacturing-rodeo/"
+          "name": "Military Aerospace",
+          "url": "https://www.militaryaerospace.com/communications/article/55420399/army-awards-sherpa-6-contract-for-tactical-edge-endpoint-management"
         }
       ]
     },
@@ -153,16 +153,16 @@
       ]
     },
     {
-      "id": "g-tead-ota-2026-11-16",
-      "subsection": "contracts",
-      "date": "2026-11-16",
-      "dateLabel": "Nov 16",
-      "headline": "G-TEAD will award up to six OTAs after each Accelerated Capability Event",
-      "summary": "Breaking Defense reported Nov. 16 that the Army's Global Tactical Edge Acquisition Directorate will award five to six other-transaction agreements after an Accelerated Capability Event, instead of one. Col. Christopher Hill, the director, told reporters Friday that the awards let small and medium-sized businesses that make it through a competition leave with an agreement, and that these agreements fund a 45-day operational assessment rather than a prototype. Breaking Defense said that assessment can then lead to one to three prototype agreements. The change started with an event in Hawaii, run with the Army's Pacific Command, on autonomous ground vehicles and command-and-control systems for sustainment and casualty evacuation, and Hill said the winners have not been named.",
+      "id": "cecom-ilsc-2026-11-20",
+      "subsection": "network",
+      "date": "2026-11-20",
+      "dateLabel": "Nov 20",
+      "headline": "CECOM's Aberdeen logistics center reports satellite training and a WIN-T cut",
+      "summary": "Army.mil reported Nov. 20 that the Communications-Electronics Command Integrated Logistics Support Center, at Aberdeen Proving Ground, trained 4th Infantry Division soldiers and warrant officers on next-generation geostationary and low-Earth-orbit satellite systems. The center said its supply directorate eliminated $161 million in legacy Warfighter Information Network-Tactical forecasts across 50 major end items under the C2NOW program, and that it disposed of more than $1.4 billion in outdated parts. It said the Army Field Integrated Collaboration System, used with Army Vantage, gives warfighters real-time weapon-system data through automated pipelines and what the article called SI-powered searches. The center said its Artificial Intelligence-Assisted Maintenance tool was validated at the National Training Center and in a live use case at Project Convergence-Capstone 6.",
       "sources": [
         {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/11/armys-g-tead-expands-ota-awards-to-push-more-vendors-to-prototyping-stage/"
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/296779/innovation_and_agility_lead_the_way_for_the_cecom_integrated_logistics_support_center_in_2026"
         }
       ]
     },
@@ -195,16 +195,20 @@
       ]
     },
     {
-      "id": "lead-azide-2026-11-19",
+      "id": "lead-azide-2026-11-22",
       "subsection": "ahead",
-      "date": "2026-11-19",
-      "dateLabel": "Nov 19",
-      "headline": "Army postpones an Iowa lead-azide detonation until Monday",
-      "summary": "ABC News reported Nov. 19 that Army Secretary Adam Telle said he directed Army Materiel Command to postpone a controlled detonation at the Iowa Army Ammunition Plant in Middletown from Friday until Monday, Nov. 23, and that he called public safety the Army's top priority. ABC News said Army Sustainment Command spokesperson Justine Barati put the material at 68 barrels, approximately 9,700 pounds of degraded lead azide, and that Telle said Monday is the latest moment before a forecasted temperature drop that could further destabilize it. The Army told ABC News that destroying the material in place is the only responsible option because packing and transporting it risks an accidental detonation. ABC News said the Iowa Environmental Council and the Sierra Club asked a federal court to halt the Environmental Protection Agency permit, and that Sen. Chuck Grassley said the delay is meant to further educate the public.",
+      "date": "2026-11-22",
+      "dateLabel": "Nov 22",
+      "headline": "Army moves the Iowa lead-azide detonation to Wednesday, Nov. 25",
+      "summary": "Army.mil said Nov. 22 that the controlled detonation at the Iowa Army Ammunition Plant in Middletown is now scheduled for Wednesday, Nov. 25, so the weather is more favorable and mitigation measures are in place. ABC News reported the same day that this is the second delay, after a move from Friday to Monday, and that the Army still plans two controlled detonations of nearly 10,000 pounds of degraded lead azide. ABC News said the Eighth Circuit granted an administrative stay of the Environmental Protection Agency permit, and that the Justice Department told the court on Sunday the Army intends to proceed under an emergency exception because the risk of an uncontrolled explosion rises as temperatures drop. ABC News said the filing states the Army still intends to follow the permit's mitigation terms, including for lead dust.",
       "sources": [
         {
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/296990/army_update_on_iowa_army_ammunition_plant"
+        },
+        {
           "name": "ABC News",
-          "url": "https://abcnews.com/US/iowa-army-plant-lead-azide-detonation/story?id=138261613"
+          "url": "https://abcnews.com/US/army-moves-detonation-10000-pounds-lead-azide-wedneday/story?id=138330909"
         }
       ]
     }

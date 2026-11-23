@@ -1,52 +1,52 @@
 {
   "signals": [
     {
+      "section": "cyber",
+      "label": "CYBER",
+      "dateLabel": "Nov 20",
+      "headline": "SAP, Cisco Expressway, vCenter, and Roller flaws are due today",
+      "item": "kev-four-2026-11-20",
+      "href": "cyber.html#kev"
+    },
+    {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Nov 19",
-      "headline": "Army extends its data-operations pilot and is still borrowing Aberdeen staff",
-      "item": "adoc-pilot-2026-11-19",
-      "href": "army.html#network"
+      "dateLabel": "Nov 20",
+      "headline": "Aberdeen awards Sherpa 6 a $99.9 million tactical endpoint contract",
+      "item": "sherpa-uem-2026-11-20",
+      "href": "army.html#contracts"
     },
     {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Nov 16–19",
-      "headline": "Golden Dome deputy says the continuing resolution is not slowing execution",
-      "item": "golden-dome-cr-2026-11-19",
-      "href": "dow.html#goldendome"
+      "dateLabel": "Nov 20–23",
+      "headline": "Clayton will act as cyber director while Davies awaits confirmation",
+      "item": "davies-oncd-2026-11-23",
+      "href": "dow.html#secwar"
     },
     {
       "section": "ai",
       "label": "AI",
-      "dateLabel": "Nov 18–19",
-      "headline": "Anthropic shares closed their first day at $97.17",
-      "item": "anthropic-ipo-2026-11-18",
+      "dateLabel": "Nov 20",
+      "headline": "Claude computer use is in beta for Team and Enterprise, off by default",
+      "item": "claude-computer-use-2026-11-20",
       "href": "ai.html#anthropic"
-    },
-    {
-      "section": "cyber",
-      "label": "CYBER",
-      "dateLabel": "Nov 18",
-      "headline": "Three exploited flaws are due Nov. 21",
-      "item": "kev-four-2026-11-18",
-      "href": "cyber.html#kev"
-    },
-    {
-      "section": "dow",
-      "label": "DOW",
-      "dateLabel": "Nov 19",
-      "headline": "DISA asks for a cloud identity service at IL5 and IL6",
-      "item": "disa-icam-ota-2026-11-19",
-      "href": "dow.html#acquisition"
     },
     {
       "section": "datacenter",
       "label": "DC/NET",
-      "dateLabel": "Nov 19",
-      "headline": "IEA is tracking 93 AI factories headed toward 50 gigawatts",
-      "item": "iea-ai-factories-2026-11-19",
-      "href": "datacenter.html#power"
+      "dateLabel": "Nov 22",
+      "headline": "Lenders back a $43 billion SpaceX loan for Nvidia chips",
+      "item": "spacex-gpu-lease-2026-11-22",
+      "href": "datacenter.html#capacity"
+    },
+    {
+      "section": "tech",
+      "label": "TECH",
+      "dateLabel": "Nov 22",
+      "headline": "Ukraine fields an anti-jam radio on more than 500 U.S. Puma drones",
+      "item": "puma-palych-2026-11-22",
+      "href": "tech.html#autonomy"
     }
   ]
 }

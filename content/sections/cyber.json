@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-20",
-  "covers": "Nov 9–20, 2026",
-  "readFirst": "Covers Nov. 9–20. No new Known Exploited Vulnerabilities entry dated Nov. 19–20 was found. Synology, Apache Axis, and Vanderbilt REDCap remain due Nov. 21, and LiteLLM remains due Dec. 2. CISA published three industrial-control advisories on Nov. 19, for OpenPLC, Elecbrakes, and libumqtt, and said it had no report of exploitation; they were not added as catalog items. ThreatLocker said Nov. 19 that it reproduced a Windows 11 lock-screen bypass called FastUnlock that needs physical access and reaches a non-administrator account. Puppet Enterprise CVE-2026-115731 remains due Dec. 1.",
+  "compiled": "2026-11-23",
+  "covers": "Nov 16–23, 2026",
+  "readFirst": "Covers Nov. 16–23. New: CISA on Nov. 20 added SAP NetWeaver, Cisco Expressway, VMware vCenter, and Apache Roller to the Known Exploited Vulnerabilities catalog, all due Nov. 23, with forensic triage required for Expressway, vCenter, and Roller. The Nov. 18 Synology, Apache Axis, and Vanderbilt REDCap deadlines passed on Nov. 21, so that item was retired; LiteLLM remains due Dec. 2 and was not re-listed on its own. Puppet Enterprise CVE-2026-115731 remains due Dec. 1. Federal News Network and Axios reported that recent technology outages are not being described as a coordinated cyberattack.",
   "subsections": [
     {
       "id": "kev",
@@ -25,16 +25,16 @@
   ],
   "items": [
     {
-      "id": "kev-four-2026-11-18",
+      "id": "kev-four-2026-11-20",
       "subsection": "kev",
-      "date": "2026-11-18",
-      "dateLabel": "Nov 18",
-      "headline": "CISA adds Synology, Axis, REDCap, and LiteLLM flaws, three due Nov. 21",
-      "summary": "CISA said Nov. 18 that it added four vulnerabilities to the Known Exploited Vulnerabilities catalog based on evidence of active exploitation: CVE-2024-10441 in Synology DiskStation Manager, CVE-2026-40217 in BerriAI LiteLLM, CVE-2026-90436 in Apache Axis, and CVE-2026-90817 in Vanderbilt REDCap. The catalog says Axis can let an unauthenticated attacker run code through a crafted SOAP fault, that REDCap code injection needs a valid public survey hash, and that LiteLLM can allow code execution through bytecode rewriting at the /guardrails/test_custom_code URI. The catalog sets a due date of Nov. 21, 2026, for Synology, Axis, and REDCap and says forensic triage is required. LiteLLM is due Dec. 2, 2026, forensic triage is not required, and CISA lists ransomware use as unknown for all four.",
+      "date": "2026-11-20",
+      "dateLabel": "Nov 20",
+      "headline": "CISA adds SAP, Cisco Expressway, vCenter, and Roller flaws, all due today",
+      "summary": "CISA said Nov. 20 that it added four vulnerabilities to the Known Exploited Vulnerabilities catalog based on evidence of active exploitation: CVE-2025-42884 in SAP NetWeaver, CVE-2026-76466 in Cisco Expressway Series, CVE-2026-123890 in VMware vCenter, and CVE-2026-129448 in Apache Roller. The catalog says Expressway can let an unauthenticated remote attacker with persistent cookies run commands as root on a clustered device, that vCenter's directory service can let an unauthenticated attacker with network access bypass authentication, and that Roller can let an unauthenticated attacker run code through the XML-RPC endpoint before authentication. It says SAP NetWeaver Enterprise Portal can let an unauthenticated attacker disclose or modify server information through injected JNDI properties or a lookup URL. The catalog sets a due date of Nov. 23, 2026, for all four, requires forensic triage for Expressway, vCenter, and Roller, and lists ransomware use as unknown for each.",
       "sources": [
         {
           "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog"
         },
         {
           "name": "CISA KEV catalog",
@@ -61,30 +61,20 @@
       ]
     },
     {
-      "id": "antifox-aws-2026-11-13",
+      "id": "outages-2026-11-23",
       "subsection": "incidents",
-      "date": "2026-11-13",
-      "dateLabel": "Nov 10–13",
-      "headline": "Cybersecurity Dive: Arctic Wolf says AntiFox attacks stole AWS credentials",
-      "summary": "Cybersecurity Dive reported Nov. 13 that Arctic Wolf said Tuesday it uncovered attacks using the Alibaba-hosted AntiFox pen-testing framework to steal Amazon Web Services credentials. Cybersecurity Dive said at least two organizations were confirmed compromised and that researchers suspect six others were affected. Justin Moore of Arctic Wolf told Cybersecurity Dive the activity appears opportunistic and that the actors used AI-enabled tooling to increase the speed and scale of attacks against exposed web infrastructure and previously compromised credentials. An Amazon spokesperson told Cybersecurity Dive that AWS services were not specifically compromised and that the attackers used credentials taken from compromised applications to reach AWS accounts.",
+      "date": "2026-11-23",
+      "dateLabel": "Nov 20–23",
+      "headline": "Cairncross and Clayton say recent outages are not a coordinated cyberattack",
+      "summary": "Federal News Network reported Nov. 20 that recent technology outages have not been linked to a cyberattack, and that work to patch AI-enabled software vulnerabilities has been connected to outages at the National Security Agency and several U.S. banks. Sean Cairncross told Semafor, in remarks Federal News Network quoted, that this is not a coordinated cyberattack and that he expects more disruptions from updating legacy systems. Axios reported Nov. 23 that administration officials say there is no evidence the outages were coordinated cyberattacks, and that Director of National Intelligence Jay Clayton told lawmakers the outages appeared to stem from unrelated technical problems and system upgrades. Axios said Clayton, on ABC, declined to discuss reported cyberattacks on the FBI and the Department of Agriculture.",
       "sources": [
         {
-          "name": "Cybersecurity Dive",
-          "url": "https://www.cybersecuritydive.com/news/china-hacker-ai-tool-campaign-us-defense-semiconductor/874619/"
-        }
-      ]
-    },
-    {
-      "id": "operation-snowball-2026-11-11",
-      "subsection": "incidents",
-      "date": "2026-11-11",
-      "dateLabel": "Nov 11",
-      "headline": "The Hacker News: a jailbroken model exploited BroadWorks at a European telecom",
-      "summary": "The Hacker News reported Nov. 11 that a campaign Malbear Labs calls Operation Snowball used an autonomous framework built on a jailbroken DeepSeek Flash model to exploit CVE-2026-20320, an unauthenticated XML external entity flaw in Cisco BroadWorks, against a European telecommunications provider and 13 companies on its infrastructure. The Hacker News said Malbear Labs reported the agent enumerated hundreds of assets, extracted dozens of credential sets, and took thousands of rows of subscriber billing and device records over about two weeks. It said the primary target was a BroadWorks Xtended Services Platform, Release 23.0.1.1075, on port 2208, and that the agent recovered the system identity private key, three SSL credential sets, and three other private keys. The Hacker News said federal civilian agencies are recommended to patch by Nov. 24.",
-      "sources": [
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/cybersecurity/2026/11/pentagon-cio-to-replace-cairncross-as-top-wh-cyber-official/"
+        },
         {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/11/23/jay-clayton-acting-national-cyber-director"
         }
       ]
     },
@@ -131,20 +121,6 @@
         {
           "name": "ThreatLocker",
           "url": "https://www.threatlocker.com/blog/proof-of-concept-for-fastunlock-windows-lock-screen-bypass-from-nightmare-eclipse"
-        }
-      ]
-    },
-    {
-      "id": "army-cid-rfi-2026-11-12",
-      "subsection": "trends",
-      "date": "2026-11-12",
-      "dateLabel": "Nov 12",
-      "headline": "Army CID asks industry for AI tools to watch the darknet and encrypted messaging",
-      "summary": "DefenseScoop reported Nov. 12 that Army Criminal Investigation Division released a request for information for a cloud-hosted commercial platform that would use behavioral analytics, machine learning, and artificial intelligence to monitor the darknet and encrypted messaging services, including Signal, Telegram, and Discord. The request says adversaries have left mainstream sites to plan hostile actions against Department of War personnel, high-value assets, and Army infrastructure. DefenseScoop said the capability matrix asks for tools that flag early signs of mobilization to violence, link anonymous accounts across platforms, and archive deleted or short-lived content. Industry responses are due Dec. 9.",
-      "sources": [
-        {
-          "name": "DefenseScoop",
-          "url": "https://defensescoop.com/2026/11/12/army-cid-software-darknet-encrypted-messaging/"
         }
       ]
     }

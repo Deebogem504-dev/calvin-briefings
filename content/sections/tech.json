@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-20",
-  "covers": "Nov 9–20, 2026",
-  "readFirst": "Covers Nov. 9–20. No new post-quantum standard, Army quantum award, autonomy demonstration, or space contract dated Nov. 19–20 was added. A Tom's Hardware homepage note on Nov. 20 about an autonomous John Deere skid-steer was not an Army or Department of War program and was not opened as a briefing item. The quantum and compute subsections are empty. The Nov. 12 Space Development Agency study of Plaser links remains.",
+  "compiled": "2026-11-23",
+  "covers": "Nov 16–23, 2026",
+  "readFirst": "Covers Nov. 16–23. New: Tom's Hardware reported Nov. 22 that Ukraine fielded an anti-jam radio on more than 500 U.S.-made RQ-20A Puma drones, and that TSMC has paused some shipments while it checks a Bureau of Industry and Security rule that treats 16-nanometer and 14-nanometer chips as advanced computing chips unless a designer certifies otherwise. No new post-quantum standard or Army quantum award was opened, so the quantum subsection is empty. No new space contract dated Nov. 20–23 was opened, so the space subsection is empty.",
   "subsections": [
     {
       "id": "quantum",
@@ -29,44 +29,30 @@
   ],
   "items": [
     {
-      "id": "gemini-robotics-2026-11-10",
+      "id": "puma-palych-2026-11-22",
       "subsection": "autonomy",
-      "date": "2026-11-10",
-      "dateLabel": "Nov 10",
-      "headline": "DeepMind says Gemini Robotics 2.5 kitted parts at 96 percent on a Mercedes line",
-      "summary": "Google DeepMind said Nov. 10 that Gemini Robotics 2.5 is its most capable vision-language-action model and is rolling out to robotics partners. DeepMind said a proof of concept with Apptronik and Mercedes-Benz used Apollo 2 humanoids to pick and pack automotive parts on production lines in Kecskemét, Hungary, and Sindelfingen, Germany, at a 96 percent success rate. DeepMind said the model was evaluated across more than 200 tasks and, compared with previous baselines, raised success rates by 30 to 100 percent depending on the task while finishing 20 to 30 percent faster. DeepMind said inference-time guidance raised safe task completion by 33 percent around obstacles and 43 percent around nearby people.",
+      "date": "2026-11-22",
+      "dateLabel": "Nov 22",
+      "headline": "Tom's Hardware: Ukraine restores grounded U.S. Puma drones with an anti-jam radio",
+      "summary": "Tom's Hardware reported Nov. 22 that the United States delivered more than 500 RQ-20A Puma AE drones to Ukraine in 2023 and that the fleet had been grounded by electromagnetic warfare. Tom's Hardware said Ukrainian firm Rise Technologies upgraded the aircraft with its Palych communications system. Citing United24 Media, Tom's Hardware said operators can select a frequency band to avoid jammed channels and that range rises to 31 miles, or 50 kilometers, from a basic range of 10 miles, or 16 kilometers. Tom's Hardware said the same communications system was also installed on DJI and Autel drones and on some attack drones.",
       "sources": [
         {
-          "name": "Google DeepMind",
-          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/drones/ukraine-revives-its-grounded-fleet-of-500-us-made-puma-drones-with-homegrown-anti-jamming-tech-anti-jamming-upgrade-triples-range-to-31-miles"
         }
       ]
     },
     {
-      "id": "sda-plaser-study-2026-11-12",
-      "subsection": "space",
-      "date": "2026-11-12",
-      "dateLabel": "Nov 11–12",
-      "headline": "Space Development Agency pays SpaceX $9.9 million to study Plaser links to missile trackers",
-      "summary": "Breaking Defense reported Nov. 12 that the Space Development Agency awarded SpaceX a $9.9 million contract, with options worth up to nearly $12.7 million, to study how the company's Plaser laser terminals can connect with the agency's missile-tracking satellites. An SDA spokesperson said the study covers hardware, software, and connectivity for moving data from the Tracking Layer to the Plasers, and that the work runs through Oct. 7, 2027, including a risk-reduction study and representative hardware. Breaking Defense said the optical terminals on the Space Data Network Backbone and on Space Development Agency and Space Systems Command missile-warning satellites use different waveforms. The spokesperson called the study a first step, with several hardware and software paths still open.",
+      "id": "tsmc-pause-2026-11-22",
+      "subsection": "compute",
+      "date": "2026-11-22",
+      "dateLabel": "Nov 22",
+      "headline": "Tom's Hardware: TSMC pauses some shipments under the new advanced-chip rule",
+      "summary": "Tom's Hardware reported Nov. 22, citing Nikkei Asia, that TSMC has paused several shipments to Chinese and non-Chinese chip designers while it reviews compliance with a Bureau of Industry and Security interim final rule. Tom's Hardware said the rule requires foundries and outsourced assembly and test companies to treat a 16-nanometer or 14-nanometer chip as an export-controlled advanced computing chip, and that a design with fewer than 30 billion transistors and no high-bandwidth memory still cannot be assumed to fall outside high-performance computing. Tom's Hardware said designers using a 16-nanometer or newer node must obtain documentation from an approved designer certifying total processing performance or performance density if they want to avoid extra review at the fab.",
       "sources": [
         {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/11/sda-explores-integration-of-spacex-laser-communication-terminals-with-missile-tracking-sats/"
-        }
-      ]
-    },
-    {
-      "id": "rocket-lab-osc-2026-11-09",
-      "subsection": "space",
-      "date": "2026-11-09",
-      "dateLabel": "Nov 9",
-      "headline": "Office of Strategic Capital commits a $150 million conditional loan to Rocket Lab",
-      "summary": "The Department of War said Nov. 9 that the Office of Strategic Capital signed a $150 million conditional loan commitment with Rocket Lab USA to increase the flight rate of its reusable Neutron rocket after first launch. The release says the loan would support faster vehicle delivery and processing, more maritime vessels and equipment for Neutron recovery and transport, manufacturing upgrades for composite structures and engines, and infrastructure to cut turnaround time. It says Neutron is designed to deliver about 13,000 kilograms to low Earth orbit for constellation deployment and national security payloads. The commitment is not a financial close: Rocket Lab must still meet financial, legal, technical, investment, and due-diligence requirements, and Under Secretary for Research and Engineering Emil Michael endorsed the transaction.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4644766/the-department-of-wars-office-of-strategic-capital-signs-150-million-conditiona/"
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/policy/tsmc-reportedly-pauses-shipments-to-chinese-designers-after-u-s-export-rules-flag-decade-old-16nm-and-14nm-nodes-new-bis-controls-threaten-smartphone-tv-and-automotive-chips"
         }
       ]
     }

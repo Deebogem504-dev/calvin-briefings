@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Federal Budget & NDAA Weekly Tracker",
   "description": "Fiscal 2027 appropriations, the continuing resolution, NDAA status, reconciliation funds and Golden Dome money.",
-  "compiled": "2026-11-20",
-  "covers": "Nov 9–20, 2026",
-  "readFirst": "Covers Nov. 9–20. No new appropriations text or continuing-resolution deal dated Nov. 19–20 was opened. DefenseScoop reported Nov. 19 that Golden Dome's deputy director said the continuing resolution is not slowing execution because fiscal 2026 reconciliation funds are obligated; that account is on the Department of War page. Breaking Defense's Nov. 18 report remains: House Armed Services Chairman Mike Rogers said a $350 billion reconciliation bill is not going to happen. The Senate appropriators' nearly $1.1 trillion fiscal 2027 defense bill still needs a floor vote before the Dec. 11 continuing-resolution deadline.",
+  "compiled": "2026-11-23",
+  "covers": "Nov 16–23, 2026",
+  "readFirst": "Covers Nov. 16–23. No new appropriations text or continuing-resolution vote dated Nov. 20–23 was opened. The Senate appropriators' nearly $1.1 trillion fiscal 2027 defense bill, released Nov. 16, still needs a floor vote before the Dec. 11 continuing-resolution deadline. Breaking Defense's Nov. 18 report remains: House Armed Services Chairman Mike Rogers said a $350 billion reconciliation bill is not going to happen. Later Hill and Politico pages on Iran-funding talks did not load, so they were not added. The National Defense Authorization Act subsection is empty.",
   "subsections": [
     {
       "id": "approps",
@@ -39,34 +39,6 @@
       ]
     },
     {
-      "id": "iran-cr-2026-11-12",
-      "subsection": "approps",
-      "date": "2026-11-12",
-      "dateLabel": "Nov 12",
-      "headline": "Senate Democrats want Iran-war funding limits on the Dec. 11 stopgap",
-      "summary": "Roll Call reported Nov. 12 that Sen. Tim Kaine said he is drafting language to end the Iran war and wants it attached to the next continuing resolution, which is needed by Dec. 11, when current funding runs out. Sens. Michael Bennet, Chris Van Hollen, Tammy Duckworth, and Bernie Sanders said they would oppose a deal that does not restrict the administration from using appropriated funds to continue the war. Senate Appropriations ranking member Patty Murray said Democrats are looking at all options, including whether that fight waits until next year. Roll Call said the Office of Management and Budget has not yet sent Congress the anomalies for the stopgap, and that the administration is considering a bill that would run through March.",
-      "sources": [
-        {
-          "name": "Roll Call",
-          "url": "https://rollcall.com/2026/11/12/democrats-mulling-iran-war-funding-cutoff-strategy/"
-        }
-      ]
-    },
-    {
-      "id": "milcon-va-2026-11-11",
-      "subsection": "approps",
-      "date": "2026-11-11",
-      "dateLabel": "Nov 10–11",
-      "headline": "Bloomberg: Senate appropriators release a $173.2 billion military construction and VA bill",
-      "summary": "Bloomberg Government reported Nov. 11 that the Senate Appropriations Committee released, on Tuesday evening, text of a bill to fund military construction and the Department of Veterans Affairs, ahead of next month's spending deadline. Bloomberg said the bill would provide $173.2 billion in discretionary funding, according to a summary released by the panel's Republicans. Bloomberg said the committee also released the Agriculture, Food and Drug Administration, and related-agencies bill, and that releasing the bills without a formal Senate markup is a move to advance full-year spending bills.",
-      "sources": [
-        {
-          "name": "Bloomberg Government",
-          "url": "https://news.bgov.com/bloomberg-government-news/senate-panel-drops-173-2-billion-military-construction-va-bill"
-        }
-      ]
-    },
-    {
       "id": "rogers-reconciliation-2026-11-18",
       "subsection": "reconciliation",
       "date": "2026-11-18",
@@ -77,20 +49,6 @@
         {
           "name": "Breaking Defense",
           "url": "https://breakingdefense.com/2026/11/350-billion-reconciliation-bill-not-going-to-happen-hasc-chair/"
-        }
-      ]
-    },
-    {
-      "id": "golden-dome-funding-2026-11-09",
-      "subsection": "reconciliation",
-      "date": "2026-11-09",
-      "dateLabel": "Nov 9",
-      "headline": "Ars Technica: Golden Dome's $24 billion reconciliation tranche is not in the continuing resolution",
-      "summary": "Ars Technica reported Nov. 9 that Golden Dome's first funding tranche, about $24 billion, was a one-time fiscal 2026 allocation passed through reconciliation, and that the fiscal year ended Oct. 1. Ars said the program's funding dried up last month because the government is operating under a continuing resolution that extends last year's regular military budget and does not include that reconciliation infusion. Ars said the preliminary House and Senate fiscal 2027 bills, if passed as written, would provide only a fraction of the more than $17 billion the administration requested for Golden Dome in this cycle. Ars also said seven House members of the Golden Dome Caucus lost or did not run, including co-chair Rep. Jeff Crank and Rep. Scott DesJarlais, chair of the House subcommittee overseeing Golden Dome, and that Rep. John Garamendi has a path to chair the Strategic Forces subcommittee in January.",
-      "sources": [
-        {
-          "name": "Ars Technica",
-          "url": "https://arstechnica.com/space/2026/11/new-democratic-congress-will-likely-strip-the-gilding-from-trumps-golden-dome/"
         }
       ]
     }

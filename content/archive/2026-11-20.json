@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-20",
+  "title": "November 20, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "ARMY",
+      "dateLabel": "Nov 19",
+      "headline": "Army extends its data-operations pilot and is still borrowing Aberdeen staff",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/army-extends-data-operations-center-pilot-to-oct-2027/"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 16–19",
+      "headline": "Golden Dome deputy says the continuing resolution is not slowing execution",
+      "sources": [
+        {
+          "name": "DefenseScoop",
+          "url": "https://defensescoop.com/2026/11/19/cr-not-slowing-golden-dome-progress-deputy-director-argues/"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Nov 18–19",
+      "headline": "Anthropic shares closed their first day at $97.17",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"
+        }
+      ]
+    },
+    {
+      "label": "CYBER",
+      "dateLabel": "Nov 18",
+      "headline": "Three exploited flaws are due Nov. 21",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 19",
+      "headline": "DISA asks for a cloud identity service at IL5 and IL6",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/defense-news/2026/11/disas-ota-calls-on-industry-to-offer-new-approach-to-icam/"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Nov 19",
+      "headline": "IEA is tracking 93 AI factories headed toward 50 gigawatts",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/ai-data-center-power-demand-will-double-by-2030-thanks-to-usd4-trillion-in-spending-adding-an-entire-great-britain-to-energy-strain-93-large-ai-factories-with-projected-capacity-of-around-50-gigawatts"
+        }
+      ]
+    }
+  ]
+}

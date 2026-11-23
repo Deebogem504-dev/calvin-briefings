@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-20",
-  "covers": "Nov 9–20, 2026",
-  "readFirst": "Covers Nov. 9–20. New: DefenseScoop reported Nov. 19 that Golden Dome's deputy director said the continuing resolution is not slowing the program because fiscal 2026 reconciliation money is obligated. The Department of War said Nov. 19 that its Autonomous Vehicle Orchestrator effort is evaluating software so one operator can command mixed unmanned fleets, and that results are not public yet. Federal News Network reported Nov. 19 that DISA is using an other-transaction agreement for a cloud identity service at Impact Levels 5 and 6, with white papers due Nov. 30. The Department of War published its account of Secretary Hegseth's Nov. 18 remarks in Caracas. No new Army or Department of War enterprise software agreement dated Nov. 19–20 was found.",
+  "compiled": "2026-11-23",
+  "covers": "Nov 16–23, 2026",
+  "readFirst": "Covers Nov. 16–23. New: Axios reported Nov. 23 that Jay Clayton will serve as acting national cyber director while Pentagon CIO Kirsten Davies awaits Senate confirmation. The Department of War reported Nov. 20 that Secretary Hegseth delivered a C-130 to Colombia and $13.5 million in equipment to Honduras after the Caracas visit. CBC News reported Nov. 21 that a classified Hegseth memo would limit some Canada defense contacts, and that the Pentagon said NORAD, NATO, and defense intelligence cooperation are not affected. No new Army or Department of War enterprise software agreement dated Nov. 20–23 was found. No new Golden Dome release in that window was opened; the Nov. 19 continuing-resolution comment remains.",
   "subsections": [
     {
       "id": "secwar",
@@ -29,6 +29,28 @@
   ],
   "items": [
     {
+      "id": "davies-oncd-2026-11-23",
+      "subsection": "secwar",
+      "date": "2026-11-23",
+      "dateLabel": "Nov 20–23",
+      "headline": "Clayton will act as national cyber director while Davies awaits confirmation",
+      "summary": "Axios reported Nov. 23 that Director of National Intelligence Jay Clayton will serve as acting national cyber director while Kirsten Davies, the Pentagon's chief information officer, awaits Senate confirmation, and that a White House official said President Trump nominated her to lead the office permanently rather than leave her in an acting role. Axios said Davies will assist Clayton as a senior adviser until she is confirmed, and that Trump announced Thursday he was tapping her to replace Sean Cairncross. The White House said Nov. 20 that Trump had named Davies the day before. Federal News Network reported Nov. 20 that Davies became department CIO last December and that the department had not yet said who will replace her.",
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/11/23/jay-clayton-acting-national-cyber-director"
+        },
+        {
+          "name": "The White House",
+          "url": "https://www.whitehouse.gov/releases/2026/11/president-trump-taps-pentagon-cyber-chief-kirsten-davies-as-national-cyber-director/"
+        },
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/cybersecurity/2026/11/pentagon-cio-to-replace-cairncross-as-top-wh-cyber-official/"
+        }
+      ]
+    },
+    {
       "id": "ngab-2026-11-17",
       "subsection": "secwar",
       "date": "2026-11-17",
@@ -39,52 +61,6 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/News-Stories/Article/Article/4649602/dow-looks-for-next-great-american-base-challenges-states-to-think-futuristically/"
-        }
-      ]
-    },
-    {
-      "id": "oss-elevation-2026-11-12",
-      "subsection": "secwar",
-      "date": "2026-11-12",
-      "dateLabel": "Nov 2–12",
-      "headline": "Hegseth's memo would seat the special operations civilian with the service secretaries",
-      "summary": "Breaking Defense reported Nov. 12 that Secretary Pete Hegseth released a memo, dated Nov. 2, that would treat the assistant secretary for special operations and low-intensity conflict, a role it said Derrick Anderson holds, like a service secretary, and that legislative affairs must draft a proposal for an undersecretary of strategic services. Breaking Defense said the memo adds the title of assistant secretary of war for the Office of Strategic Services without a statutory rename, moves 75 civilians and 25 joint-staff personnel to the office within 60 days, and tells the comptroller to find $45 million a year from operations and maintenance. The Department of War's release the same day said the office is immediately empowered with that funding, 100 billets, and direct budgetary and acquisition authority over special operations-peculiar matters. Kori Schake of the American Enterprise Institute told Breaking Defense that Congress would have to authorize the change and appropriate the money.",
-      "sources": [
-        {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/11/hegseth-seeks-to-elevate-top-sof-civilian-to-service-secretary-equivalent/"
-        },
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4643910/secretary-of-war-pete-hegseth-elevates-special-operations-leadership-to-revital/"
-        }
-      ]
-    },
-    {
-      "id": "house-impeachment-vote-2026-11-10",
-      "subsection": "secwar",
-      "date": "2026-11-10",
-      "dateLabel": "Nov 10",
-      "headline": "House blocks a resolution to impeach Hegseth, 211-204",
-      "summary": "Federal News Network, carrying an Associated Press report, said Nov. 10 that the House on Tuesday turned aside a resolution to impeach Defense Secretary Pete Hegseth. The report said a procedural motion to send the matter back to committee succeeded 211-204, with a number of Democrats missing the vote. It said Kentucky Republican Rep. Thomas Massie led the effort, with Democratic backing, and that the resolution had eight counts focused largely on the war in Iran and also on military actions in Yemen and Venezuela. Hegseth, at his Pentagon news conference, called the concerns policy disagreements rather than high crimes, and the report said the vote may only delay the push because Democrats are set to take the House and Senate in January.",
-      "sources": [
-        {
-          "name": "Federal News Network",
-          "url": "https://federalnewsnetwork.com/defense-news/2026/11/hegseth-is-set-for-his-first-pentagon-news-briefing-since-may-as-he-faces-possible-impeachment/"
-        }
-      ]
-    },
-    {
-      "id": "hegseth-briefing-2026-11-10",
-      "subsection": "secwar",
-      "date": "2026-11-10",
-      "dateLabel": "Nov 10",
-      "headline": "Hegseth tells a Pentagon briefing that impeachment over operations is not a high crime",
-      "summary": "The Department of War reported Nov. 10 that Secretary Pete Hegseth, at a Pentagon press briefing, said the impeachment resolution presented to the House is over policy disagreements, not the offenses in the impeachment clause, and that the threat sends a troubling signal to adversaries. Hegseth said the department destroyed terror regimes' capabilities, sank boats carrying poison, and put a narco-dictator in handcuffs, and that those are not high crimes. He said no secretary of war or defense has been impeached for carrying out lawful military operations, citing Lebanon, Kosovo, and Iraq and Syria under prior presidents. He also cited two years of recruitment and retention after several years of missing goals, and told troops not to blink and to ignore the noise.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/News-Stories/Article/Article/4645996/hegseth-impeachment-over-policy-disagreement-sends-wrong-signal-to-adversaries/"
         }
       ]
     },
@@ -159,6 +135,34 @@
       ]
     },
     {
+      "id": "hegseth-canada-2026-11-21",
+      "subsection": "ops",
+      "date": "2026-11-21",
+      "dateLabel": "Nov 21–22",
+      "headline": "Hegseth memo would limit some Canada defense contacts; Ottawa sees no operational change",
+      "summary": "CBC News reported Nov. 21 that the Washington Post said Secretary Pete Hegseth circulated a classified memo last week restricting U.S.-Canada military cooperation, and that Canadian defence officials said Saturday they had seen no change at the operational level. Sen. Mike Rounds told CBC the memo limits general and flag officer meetings to those that advance Department of War objectives and requires permission before officials attend social events or think-tank conferences, and that the measures were drafted months ago and signed recently. Pentagon spokesman Sean Parnell told CBC the guidance does not affect defense intelligence cooperation, NORAD, or NATO. Defence Minister David McGuinty told CBC he first heard of the directive the day before and that the countries continue to work together on Caribbean drug interdiction and integrated air and missile defence.",
+      "sources": [
+        {
+          "name": "CBC News",
+          "url": "https://www.cbc.ca/news/politics/canada-us-pentagon-restrictions-hegseth-9.7431302"
+        }
+      ]
+    },
+    {
+      "id": "hegseth-latam-2026-11-20",
+      "subsection": "ops",
+      "date": "2026-11-20",
+      "dateLabel": "Nov 20",
+      "headline": "Hegseth delivers a C-130 to Colombia and $13.5 million in equipment to Honduras",
+      "summary": "The Department of War reported Nov. 20 that after his Nov. 18 visit to Venezuela, Secretary Pete Hegseth traveled to Colombia, Ecuador, and Honduras. In Bogota he delivered a C-130 Hercules to Colombia's air force. In Quito he met President Daniel Noboa and told personnel at the U.S. embassy that Ecuador is a founding member of the Americas Counter Cartel Coalition, which the department said was established in March and has 19 countries. In Comayagua he visited Joint Task Force Bravo and delivered a $13.5 million down payment in military combat equipment. The department said this was his third trip to Central and South America since he was sworn in.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4656132/hegseth-wraps-central-south-american-trip-by-delivering-anti-cartel-message/"
+        }
+      ]
+    },
+    {
       "id": "hegseth-venezuela-2026-11-19",
       "subsection": "ops",
       "date": "2026-11-19",
@@ -191,24 +195,6 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/Speeches/Speech/Article/4650433/remarks-by-under-secretary-of-war-for-policy-elbridge-colby-at-the-ukraine-defe/"
-        }
-      ]
-    },
-    {
-      "id": "poland-soi-2026-11-10",
-      "subsection": "ops",
-      "date": "2026-11-10",
-      "dateLabel": "Nov 10",
-      "headline": "Hegseth and Poland's defense minister sign a statement of intent on defense industry",
-      "summary": "The Department of War reported Nov. 10 that Secretary Pete Hegseth met Poland's deputy prime minister and defense minister, Władysław Kosiniak-Kamysz, at the Pentagon, and that the two signed a statement of intent on strengthening defense-industry cooperation. Hegseth said Poland is committing nearly 5 percent of gross domestic product to defense and is investing in tanks, F-35s, AH-64 Apaches, and Patriot. Kosiniak-Kamysz thanked Hegseth for work on President Trump's declaration to deploy an additional 5,000 soldiers to Poland, and said discussions on a stronger permanent U.S. presence are underway and that details would be announced soon. He also said Poland will host a European Patriot Advanced Capability-3 missile maintenance facility, and the official readout says Hegseth encouraged Poland's continued support of Ukraine.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/News-Stories/Article/Article/4646088/hegseth-polish-counterpart-announce-intent-to-boost-military-cooperation/"
-        },
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4646284/readout-of-secretary-of-war-pete-hegseths-meeting-with-polands-deputy-prime-min/"
         }
       ]
     }
