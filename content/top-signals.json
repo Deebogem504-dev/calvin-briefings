@@ -3,50 +3,50 @@
     {
       "section": "cyber",
       "label": "CYBER",
-      "dateLabel": "Nov 20",
-      "headline": "SAP, Cisco Expressway, vCenter, and Roller flaws are due today",
-      "item": "kev-four-2026-11-20",
+      "dateLabel": "Nov 23",
+      "headline": "CISA adds MONAI Label and MailAssure flaws, due Nov. 26",
+      "item": "kev-monai-mail-2026-11-23",
       "href": "cyber.html#kev"
     },
     {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Nov 20",
-      "headline": "Aberdeen awards Sherpa 6 a $99.9 million tactical endpoint contract",
-      "item": "sherpa-uem-2026-11-20",
+      "dateLabel": "Nov 20–24",
+      "headline": "Army seeks power and data-center leases at nine installations",
+      "item": "army-eul-datacenters-2026-11-24",
       "href": "army.html#contracts"
     },
     {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Nov 20–23",
-      "headline": "Clayton will act as cyber director while Davies awaits confirmation",
-      "item": "davies-oncd-2026-11-23",
+      "dateLabel": "Nov 23",
+      "headline": "War Department adopts ACME to classify records with super intelligence",
+      "item": "acme-classification-2026-11-23",
       "href": "dow.html#secwar"
     },
     {
       "section": "ai",
       "label": "AI",
-      "dateLabel": "Nov 20",
-      "headline": "Claude computer use is in beta for Team and Enterprise, off by default",
-      "item": "claude-computer-use-2026-11-20",
+      "dateLabel": "Nov 23",
+      "headline": "Claude Ship can review, fix, and approve GitHub changes",
+      "item": "claude-ship-2026-11-23",
       "href": "ai.html#anthropic"
     },
     {
-      "section": "datacenter",
-      "label": "DC/NET",
-      "dateLabel": "Nov 22",
-      "headline": "Lenders back a $43 billion SpaceX loan for Nvidia chips",
-      "item": "spacex-gpu-lease-2026-11-22",
-      "href": "datacenter.html#capacity"
+      "section": "partners",
+      "label": "PARTNERS",
+      "dateLabel": "Nov 23",
+      "headline": "Nvidia's board reinstates Jensen Huang as chief executive",
+      "item": "nvidia-huang-return-2026-11-23",
+      "href": "partners.html#nvidia"
     },
     {
-      "section": "tech",
-      "label": "TECH",
-      "dateLabel": "Nov 22",
-      "headline": "Ukraine fields an anti-jam radio on more than 500 U.S. Puma drones",
-      "item": "puma-palych-2026-11-22",
-      "href": "tech.html#autonomy"
+      "section": "cyber",
+      "label": "CYBER",
+      "dateLabel": "Nov 23",
+      "headline": "OpenAI and Cisco open-source a Linux shield for unpatched flaws",
+      "item": "shirudo-2026-11-23",
+      "href": "cyber.html#trends"
     }
   ]
 }

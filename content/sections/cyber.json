@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-23",
-  "covers": "Nov 16–23, 2026",
-  "readFirst": "Covers Nov. 16–23. New: CISA on Nov. 20 added SAP NetWeaver, Cisco Expressway, VMware vCenter, and Apache Roller to the Known Exploited Vulnerabilities catalog, all due Nov. 23, with forensic triage required for Expressway, vCenter, and Roller. The Nov. 18 Synology, Apache Axis, and Vanderbilt REDCap deadlines passed on Nov. 21, so that item was retired; LiteLLM remains due Dec. 2 and was not re-listed on its own. Puppet Enterprise CVE-2026-115731 remains due Dec. 1. Federal News Network and Axios reported that recent technology outages are not being described as a coordinated cyberattack.",
+  "compiled": "2026-11-24",
+  "covers": "Nov 16–24, 2026",
+  "readFirst": "Covers Nov. 16–24. New: CISA on Nov. 23 added Project MONAI Label and N-able MailAssure to the Known Exploited Vulnerabilities catalog, both due Nov. 26, and both require forensic triage. The Nov. 20 SAP, Cisco Expressway, vCenter, and Roller items were due Nov. 23 and were retired. OpenAI and Cisco said Nov. 23 that Shirudo, an open-source eBPF runtime, blocked a Java4Shell attempt against a running Elasticsearch service in a controlled test. Puppet Enterprise CVE-2026-115731 remains due Dec. 1.",
   "subsections": [
     {
       "id": "kev",
@@ -25,16 +25,16 @@
   ],
   "items": [
     {
-      "id": "kev-four-2026-11-20",
+      "id": "kev-monai-mail-2026-11-23",
       "subsection": "kev",
-      "date": "2026-11-20",
-      "dateLabel": "Nov 20",
-      "headline": "CISA adds SAP, Cisco Expressway, vCenter, and Roller flaws, all due today",
-      "summary": "CISA said Nov. 20 that it added four vulnerabilities to the Known Exploited Vulnerabilities catalog based on evidence of active exploitation: CVE-2025-42884 in SAP NetWeaver, CVE-2026-76466 in Cisco Expressway Series, CVE-2026-123890 in VMware vCenter, and CVE-2026-129448 in Apache Roller. The catalog says Expressway can let an unauthenticated remote attacker with persistent cookies run commands as root on a clustered device, that vCenter's directory service can let an unauthenticated attacker with network access bypass authentication, and that Roller can let an unauthenticated attacker run code through the XML-RPC endpoint before authentication. It says SAP NetWeaver Enterprise Portal can let an unauthenticated attacker disclose or modify server information through injected JNDI properties or a lookup URL. The catalog sets a due date of Nov. 23, 2026, for all four, requires forensic triage for Expressway, vCenter, and Roller, and lists ransomware use as unknown for each.",
+      "date": "2026-11-23",
+      "dateLabel": "Nov 23",
+      "headline": "CISA adds exploited MONAI Label and MailAssure flaws, due Nov. 26",
+      "summary": "CISA said Nov. 23 that it added two vulnerabilities to the Known Exploited Vulnerabilities catalog based on evidence of active exploitation: CVE-2026-133968 in Project MONAI Label and CVE-2026-134624 in N-able MailAssure, also called SpamExperts. The catalog says MONAI Label lets an unauthenticated remote attacker write arbitrary files outside the datastore directory, potentially resulting in remote code execution. It says MailAssure's LDAP synchronization connection check lets an authenticated API user connect to arbitrary internal hosts and ports, see which are reachable, and send crafted data to internal services. The catalog sets a due date of Nov. 26, 2026, for both, requires forensic triage for each, and lists ransomware use as unknown.",
       "sources": [
         {
           "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog"
         },
         {
           "name": "CISA KEV catalog",
@@ -75,6 +75,20 @@
         {
           "name": "Axios",
           "url": "https://www.axios.com/2026/11/23/jay-clayton-acting-national-cyber-director"
+        }
+      ]
+    },
+    {
+      "id": "shirudo-2026-11-23",
+      "subsection": "trends",
+      "date": "2026-11-23",
+      "dateLabel": "Nov 23",
+      "headline": "OpenAI and Cisco open-source Shirudo to shield Linux systems before a patch",
+      "summary": "OpenAI said Nov. 23 that it and Cisco are launching Shirudo, an open-source runtime that uses eBPF programs, called shields, to block vulnerable code paths on a running Linux system without a restart. OpenAI said operators can watch how a proposed shield would affect applications before enforcing it, that shields are cryptographically signed and checked by the Linux eBPF verifier, and that a Trusted Platform Module records when protections are loaded or removed. In a controlled test, OpenAI said a Codex-generated shield blocked a Java4Shell exploit attempt against a running Elasticsearch service. OpenAI said Shirudo is licensed under BSD 2-Clause, with its BPF programs dual-licensed under BSD and GPL.",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-shirudo/"
         }
       ]
     },

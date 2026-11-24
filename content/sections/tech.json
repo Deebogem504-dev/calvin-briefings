@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-23",
-  "covers": "Nov 16–23, 2026",
-  "readFirst": "Covers Nov. 16–23. New: Tom's Hardware reported Nov. 22 that Ukraine fielded an anti-jam radio on more than 500 U.S.-made RQ-20A Puma drones, and that TSMC has paused some shipments while it checks a Bureau of Industry and Security rule that treats 16-nanometer and 14-nanometer chips as advanced computing chips unless a designer certifies otherwise. No new post-quantum standard or Army quantum award was opened, so the quantum subsection is empty. No new space contract dated Nov. 20–23 was opened, so the space subsection is empty.",
+  "compiled": "2026-11-24",
+  "covers": "Nov 16–24, 2026",
+  "readFirst": "Covers Nov. 16–24. No new post-quantum standard, Army quantum award, autonomy contract, or space award dated Nov. 23–24 was opened. The Nov. 22 Tom's Hardware reports on Ukraine's Puma anti-jam radio and TSMC's shipment pause remain. The quantum and space subsections are empty.",
   "subsections": [
     {
       "id": "quantum",

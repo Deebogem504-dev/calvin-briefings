@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-23",
-  "covers": "Nov 16–23, 2026",
-  "readFirst": "Covers Nov. 16–23. No new Cisco, Dell, HPE, NetApp, NVIDIA, Microsoft, Palo Alto Networks, AWS, or Google Cloud announcement dated Nov. 20–23 was opened beyond items already inside this week. F5 and VMware product news were quiet; an exploited VMware vCenter flaw is on the cyber page. Red Hat's newest U.S. item in the window remains the Nov. 18 Azure virtualization announcement. A Nov. 19 Singapore awards release was not an Army or Department of War deal and was not added. No new Red Hat deal with the Army or the Department of War dated Nov. 20–23 was found, and no new Army or Department of War enterprise agreement was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
+  "compiled": "2026-11-24",
+  "covers": "Nov 16–24, 2026",
+  "readFirst": "Covers Nov. 16–24. New: NVIDIA said Nov. 23 that its board unanimously reinstated Jensen Huang as president and chief executive. The Nov. 17 item saying the board was not considering his return was removed. No new Cisco, Dell, HPE, NetApp, Microsoft, Palo Alto Networks, AWS, or Google Cloud announcement dated Nov. 23–24 was opened. F5 and VMware product news were quiet; an exploited VMware vCenter flaw was retired from the cyber page after its Nov. 23 due date. Red Hat's Nov. 23 blog on physical AI was commentary, not a press release or an Army or Department of War deal, and was not added. No new Red Hat deal with the Army or the Department of War dated Nov. 23–24 was found, and no new Army or Department of War enterprise agreement was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
   "subsections": [
     {
       "id": "cisco",
@@ -57,6 +57,20 @@
   ],
   "items": [
     {
+      "id": "nvidia-huang-return-2026-11-23",
+      "subsection": "nvidia",
+      "date": "2026-11-23",
+      "dateLabel": "Nov 23",
+      "headline": "Nvidia's board reinstates Jensen Huang as president and chief executive",
+      "summary": "NVIDIA said Nov. 23 that its board unanimously reinstated Jensen Huang as president, chief executive, and a board member, effective immediately, after discussions with him and input from senior levels of the U.S. government. The board said that input left it confident the reinstatement poses no national security risk, and that Harvey C. Jones remains chair. NVIDIA said Colette Kress continues as chief financial officer after serving as interim chief executive. The board said an independent-director investigation into reporting that Huang was the target of a foreign intelligence effort will continue, and that NVIDIA is searching for a chief compliance officer.",
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+        }
+      ]
+    },
+    {
       "id": "nvidia-earnings-2026-11-17",
       "subsection": "nvidia",
       "date": "2026-11-17",
@@ -81,24 +95,6 @@
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/17/megaspeed-investigation-nvidia-jensen-huang.html"
-        }
-      ]
-    },
-    {
-      "id": "nvidia-board-return-2026-11-17",
-      "subsection": "nvidia",
-      "date": "2026-11-17",
-      "dateLabel": "Nov 16–17",
-      "headline": "CNBC: Nvidia's board is not considering bringing Jensen Huang back",
-      "summary": "CNBC reported Nov. 17 that a person familiar with the matter told CNBC on Monday that Nvidia's board is not considering bringing Jensen Huang back as chief executive. CNBC said an online petition calling for his reinstatement had drawn more than 190,000 signatures, including Elon Musk, and that the stock fell 4 percent on Monday to its lowest close since July 1, 2025. Fortune reported the same day that Huang posted on X that he would be honored to return as chief executive, and that he has agreed to appear before the House in a closed-door hearing on Dec. 1. Huang resigned Nov. 12, and Colette Kress is interim chief executive.",
-      "sources": [
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html"
-        },
-        {
-          "name": "Fortune",
-          "url": "https://fortune.com/2026/11/17/openai-reveals-first-amd-neocloud-provider-amid-nvidia-collapsejensen-huang-launching-his-comeback-campaign/"
         }
       ]
     },

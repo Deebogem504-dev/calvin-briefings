@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-23",
+  "title": "November 23, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "CYBER",
+      "dateLabel": "Nov 20",
+      "headline": "SAP, Cisco Expressway, vCenter, and Roller flaws are due today",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
+    {
+      "label": "ARMY",
+      "dateLabel": "Nov 20",
+      "headline": "Aberdeen awards Sherpa 6 a $99.9 million tactical endpoint contract",
+      "sources": [
+        {
+          "name": "Military Aerospace",
+          "url": "https://www.militaryaerospace.com/communications/article/55420399/army-awards-sherpa-6-contract-for-tactical-edge-endpoint-management"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 20–23",
+      "headline": "Clayton will act as cyber director while Davies awaits confirmation",
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/11/23/jay-clayton-acting-national-cyber-director"
+        },
+        {
+          "name": "The White House",
+          "url": "https://www.whitehouse.gov/releases/2026/11/president-trump-taps-pentagon-cyber-chief-kirsten-davies-as-national-cyber-director/"
+        },
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/cybersecurity/2026/11/pentagon-cio-to-replace-cairncross-as-top-wh-cyber-official/"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Nov 20",
+      "headline": "Claude computer use is in beta for Team and Enterprise, off by default",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "name": "Anthropic Help Center",
+          "url": "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans"
+        }
+      ]
+    },
+    {
+      "label": "DC/NET",
+      "dateLabel": "Nov 22",
+      "headline": "Lenders back a $43 billion SpaceX loan for Nvidia chips",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/lenders-back-spacexs-usd43-billion-nvidia-gpu-deal-but-worry-the-collateral-could-end-up-in-orbit-making-it-impossible-to-reclaim-if-musk-defaults-five-year-hell-or-high-water-lease-may-lack-a-written-earth-only-guarantee"
+        }
+      ]
+    },
+    {
+      "label": "TECH",
+      "dateLabel": "Nov 22",
+      "headline": "Ukraine fields an anti-jam radio on more than 500 U.S. Puma drones",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/drones/ukraine-revives-its-grounded-fleet-of-500-us-made-puma-drones-with-homegrown-anti-jamming-tech-anti-jamming-upgrade-triples-range-to-31-miles"
+        }
+      ]
+    }
+  ]
+}

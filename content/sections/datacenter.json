@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-23",
-  "covers": "Nov 16–23, 2026",
-  "readFirst": "Covers Nov. 16–23. New: Tom's Hardware reported Nov. 22 that lenders are backing a $43 billion SpaceX financing, structured like an aircraft lease, for Nvidia AI chips, and that SpaceX said the collateralized chips will stay on Earth. Tom's Hardware reported Nov. 21 that President Trump said he wants to stop U.S. companies from building data centers abroad or to impose a tax, and that he had not discussed the idea with his cabinet. The International Energy Agency note from Nov. 19 remains. No new storage-array announcement was opened, so the storage subsection is empty.",
+  "compiled": "2026-11-24",
+  "covers": "Nov 16–24, 2026",
+  "readFirst": "Covers Nov. 16–24. New: Tom's Hardware reported Nov. 23, citing the Financial Times, that financial firms are seeing post-contract price increases of up to 45 percent on data-center servers. The Army's request for power and data-center leases at nine installations is on the Army page. No new storage-array announcement dated Nov. 23–24 was opened, so the storage subsection is empty.",
   "subsections": [
     {
       "id": "networking",
@@ -67,6 +67,20 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/data-centers/trump-wants-to-ban-us-companies-from-building-overseas-data-centers-as-bans-slow-development-also-considers-putting-a-tremendous-tax-in-lieu-of-prohibition"
+        }
+      ]
+    },
+    {
+      "id": "ai-server-prices-2026-11-23",
+      "subsection": "capacity",
+      "date": "2026-11-23",
+      "dateLabel": "Nov 23",
+      "headline": "Tom's Hardware: AI server prices are rising up to 45 percent after contracts are signed",
+      "summary": "Tom's Hardware reported Nov. 23, citing the Financial Times, that trading and financial-services firms are seeing price increases of up to 45 percent on data-center servers after contracts were signed, often months earlier. Tom's Hardware said one unnamed person described increases of 25, 30, and 45 percent, and that another said the firm had not turned the higher price down because the compute is valuable. Tom's Hardware said the Financial Times asked whether the contracts barred price changes and that none of the companies confirmed or denied such a clause. Tom's Hardware said the Financial Times attributed the increases to memory prices, with GPU servers up 20 to 30 percent and memory-heavy CPU nodes doubled or tripled.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/ai-server-makers-hike-prices-up-to-45-percent-months-after-contracts-are-signed-as-ram-shortage-triples-memory-heavy-cpu-node-costs-financial-firms-still-pay-up-as-the-compute-is-valuable"
         }
       ]
     },

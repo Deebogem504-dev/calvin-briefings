@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-23",
-  "covers": "Nov 16–23, 2026",
-  "readFirst": "Covers Nov. 16–23. New: Axios reported Nov. 23 that Jay Clayton will serve as acting national cyber director while Pentagon CIO Kirsten Davies awaits Senate confirmation. The Department of War reported Nov. 20 that Secretary Hegseth delivered a C-130 to Colombia and $13.5 million in equipment to Honduras after the Caracas visit. CBC News reported Nov. 21 that a classified Hegseth memo would limit some Canada defense contacts, and that the Pentagon said NORAD, NATO, and defense intelligence cooperation are not affected. No new Army or Department of War enterprise software agreement dated Nov. 20–23 was found. No new Golden Dome release in that window was opened; the Nov. 19 continuing-resolution comment remains.",
+  "compiled": "2026-11-24",
+  "covers": "Nov 16–24, 2026",
+  "readFirst": "Covers Nov. 16–24. New: The Department of War reported Nov. 23 that Deputy Secretary Steve Feinberg adopted the Automated Classification Management Environment as an enterprise system for classification and declassification. No new Golden Dome release dated Nov. 23–24 was opened. No new Army or Department of War enterprise software agreement in that window was found. No new war.gov contract release for Nov. 23 or Nov. 24 was opened.",
   "subsections": [
     {
       "id": "secwar",
@@ -47,6 +47,20 @@
         {
           "name": "Federal News Network",
           "url": "https://federalnewsnetwork.com/cybersecurity/2026/11/pentagon-cio-to-replace-cairncross-as-top-wh-cyber-official/"
+        }
+      ]
+    },
+    {
+      "id": "acme-classification-2026-11-23",
+      "subsection": "secwar",
+      "date": "2026-11-23",
+      "dateLabel": "Nov 23",
+      "headline": "War Department adopts ACME to classify and declassify records with super intelligence",
+      "summary": "The Department of War reported Nov. 23 that the Automated Classification Management Environment is meant to use super intelligence and automated workflows to classify and declassify records. Paola Apodaca, chief of declassification for the undersecretary of war for intelligence and security, said the system will speed classification for documents from the department's more than 5 million service members, civilians, and contractors. The department said records management costs taxpayers more than $15 billion a year, and that users now manually search more than 4,000 security classification guides. It said Deputy Secretary Steve Feinberg adopted ACME as an enterprise solution in October, appointed Air Force Secretary Troy Meink to oversee it, and that the tools grew out of a $2.35 million investment by Under Secretary Bradley Hansell and Cameron Stanley, the department's chief super intelligence officer.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4658620/dow-launches-automated-si-solution-for-classification-management/"
         }
       ]
     },

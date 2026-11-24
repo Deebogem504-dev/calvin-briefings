@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT ↔ U.S. Army Signal Mapping",
   "description": "World Wide Technology public content and Army business, set next to U.S. Army leadership priorities.",
-  "compiled": "2026-11-23",
-  "covers": "Nov 16–23, 2026",
-  "readFirst": "Covers Nov. 16–23. New: WWT published a Nov. 20 article with Confluent, an IBM company, on moving enterprise AI out of pilot. The Nov. 17 NetApp Insight recap remains, including the Oct. 1 partner-of-the-year awards. No WWT release on an Army program dated Nov. 20–23 was found. The Microsoft Ignite guide is dated Nov. 10 and the AWS re:Invent preview is dated Nov. 12, so both fell outside this week's seven-day window. The Signal Mapping subsection is empty.",
+  "compiled": "2026-11-24",
+  "covers": "Nov 16–24, 2026",
+  "readFirst": "Covers Nov. 16–24. No new WWT article dated Nov. 24 was found. A Nov. 23 video, \"The GPUs Were Ready. The Data Center Wasn't,\" and a Nov. 22 observability blog were not Army-program releases and were not added. The Nov. 20 Confluent article and the Nov. 17 NetApp Insight recap remain. The Signal Mapping subsection is empty.",
   "subsections": [
     {
       "id": "content",

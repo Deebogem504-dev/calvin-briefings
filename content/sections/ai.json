@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-23",
-  "covers": "Nov 16–23, 2026",
-  "readFirst": "Covers Nov. 16–23. New: Anthropic's Nov. 20 release notes open computer use in beta for Team and Enterprise plans, off by default and without a sandbox. OpenAI published MedChemBench the same day. No new Google model post dated Nov. 20–23 was opened. The Open and Local Models subsection is empty. NVIDIA's revenue figures remain on the partners page. An unverified claim that an Anthropic mathematician proved the Riemann hypothesis with Claude was not added.",
+  "compiled": "2026-11-24",
+  "covers": "Nov 16–24, 2026",
+  "readFirst": "Covers Nov. 16–24. New: Anthropic said Nov. 23 that Claude Ship is in beta for Team and Enterprise GitHub repositories, and Google said the same day that Search AI Mode can connect Google Wallet, with Drive and the Gemini app to follow. OpenAI and Cisco's Shirudo runtime is on the cyber page. No new Nvidia model post dated Nov. 23–24 was opened beyond the board's reinstatement of Jensen Huang, which is on the partners page. The Open and Local Models subsection is empty.",
   "subsections": [
     {
       "id": "anthropic",
@@ -40,6 +40,20 @@
     }
   ],
   "items": [
+    {
+      "id": "claude-ship-2026-11-23",
+      "subsection": "anthropic",
+      "date": "2026-11-23",
+      "dateLabel": "Nov 23",
+      "headline": "Anthropic opens Claude Ship in beta to review, fix, and approve pull requests",
+      "summary": "Anthropic said Nov. 23 that Claude Ship is available in beta on Team and Enterprise plans for GitHub repositories. Anthropic said Code Review is generally available, while PR Steward and Claude Approvals are in beta, and that Claude Approvals applies a policy the team writes as a file in the repository. Anthropic recommends running approvals in observe-only mode first, and said administrators can set spend limits for Code Review and PR Steward. Anthropic said Claude Ship is not available to organizations with zero data retention, a HIPAA configuration, or customer-managed encryption keys.",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/introducing-claude-ship"
+        }
+      ]
+    },
     {
       "id": "claude-computer-use-2026-11-20",
       "subsection": "anthropic",
@@ -119,6 +133,20 @@
         {
           "name": "Google",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+        }
+      ]
+    },
+    {
+      "id": "google-search-pi-2026-11-23",
+      "subsection": "google",
+      "date": "2026-11-23",
+      "dateLabel": "Nov 23",
+      "headline": "Google lets Search AI Mode connect Wallet, with Drive and Gemini next",
+      "summary": "Google said Nov. 23 that people can opt in to connect Google Wallet to Personal Intelligence in AI Mode, and that Drive and the Gemini app will follow in the coming weeks. Google said those connections join Gmail, Calendar, and Photos. Google said AI Mode can only read Wallet information and cannot move, manage, or invest money. Google said users turn connections on or off in Search Personalization, and that AI Overviews and AI Mode will also use recent search context unless personalization is turned off.",
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
         }
       ]
     },

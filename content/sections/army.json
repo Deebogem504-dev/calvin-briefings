@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-23",
-  "covers": "Nov 16–23, 2026",
-  "readFirst": "Covers Nov. 16–23. New: Military Aerospace reported Nov. 20 that Army Contracting Command at Aberdeen Proving Ground awarded Sherpa 6 a $99.9 million contract to demonstrate tactical-edge endpoint management. Army.mil reported Nov. 20 that the CECOM Integrated Logistics Support Center trained soldiers on next-generation satellite systems and cut $161 million in legacy WIN-T forecasts. Army.mil said Nov. 22 that the Iowa lead-azide detonation moved from Monday to Wednesday, Nov. 25. No new NETCOM release was found. No new Army enterprise agreement dated Nov. 20–23 was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
+  "compiled": "2026-11-24",
+  "covers": "Nov 16–24, 2026",
+  "readFirst": "Covers Nov. 16–24. New: Holland & Knight and Military.com reported that the Army is seeking enhanced-use leases at nine installations for commercial power, with a preference for projects that also include a data center; proposals are due Jan. 18, 2027. Al Jazeera reported Nov. 24 that Acting Army Secretary Adam Telle said the Iowa lead-azide detonations will proceed after the 8th Circuit lifted its stay. No new NETCOM release was found. No new Army enterprise agreement dated Nov. 23–24 was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
   "subsections": [
     {
       "id": "leadership",
@@ -79,20 +79,6 @@
       ]
     },
     {
-      "id": "army-go-noms-2026-11-16",
-      "subsection": "leadership",
-      "date": "2026-11-16",
-      "dateLabel": "Nov 16",
-      "headline": "President nominates DEVCOM's Aberdeen commander and 35 other Army brigadiers",
-      "summary": "The Department of War said Nov. 16 that Secretary Pete Hegseth announced the president has nominated 36 Army brigadier generals for appointment to major general. The list includes Brig. Gen. Robert G. Born, commanding general of Combat Capabilities Development Command at Aberdeen Proving Ground, Maryland, and Brig. Gen. Marne L. Sutten, who previously served as director of network command, control, cyber communications systems integration in the Office of the Deputy Chief of Staff, G-6. The release announces nominations, not Senate confirmations, and it does not say Sutten has assumed command of CECOM.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4649206/secretary-of-war-general-officer-announcements-for-nov-16-2026/"
-        }
-      ]
-    },
-    {
       "id": "rra-50cal-2026-11-19",
       "subsection": "modernization",
       "date": "2026-11-19",
@@ -121,6 +107,24 @@
         {
           "name": "Federal News Network",
           "url": "https://federalnewsnetwork.com/defense-main/2026/11/armys-push-to-bring-private-tech-onto-military-ranges-gains-momentum/"
+        }
+      ]
+    },
+    {
+      "id": "army-eul-datacenters-2026-11-24",
+      "subsection": "contracts",
+      "date": "2026-11-24",
+      "dateLabel": "Nov 20–24",
+      "headline": "Army seeks power and data-center leases at nine installations",
+      "summary": "Holland & Knight said Nov. 23 that the Army issued a request for proposals, dated Nov. 19 and announced Nov. 20, for enhanced-use leases at nine installations to develop commercial power generation, with an option to add a data center. The firm said the Army prefers integrated projects, will not consider data-center-only proposals, and will not commit to buy power or data-center capacity from a project. Military.com reported Nov. 24 that the notice requires power within one hour of a grid outage for at least 14 continuous days, describes an initial 25-year lease, requires water use to be net-neutral or better, and sets proposals due Jan. 18, 2027. The nine sites are Joint Base Lewis-McChord, Fort Bragg, Fort Hood, Fort McCoy, Fort Rucker, Blue Grass Army Depot, Pine Bluff Arsenal, Tooele Army Depot, and Sierra Army Depot.",
+      "sources": [
+        {
+          "name": "Holland & Knight",
+          "url": "https://www.hklaw.com/en/insights/publications/2026/11/armys-new-sci-rfp-invites-power-data-center-lease-proposals"
+        },
+        {
+          "name": "Military.com",
+          "url": "https://www.military.com/army-offers-land-at-9-bases-for-data-centers-as-veterans-public-land-pause"
         }
       ]
     },
@@ -197,18 +201,18 @@
     {
       "id": "lead-azide-2026-11-22",
       "subsection": "ahead",
-      "date": "2026-11-22",
-      "dateLabel": "Nov 22",
-      "headline": "Army moves the Iowa lead-azide detonation to Wednesday, Nov. 25",
-      "summary": "Army.mil said Nov. 22 that the controlled detonation at the Iowa Army Ammunition Plant in Middletown is now scheduled for Wednesday, Nov. 25, so the weather is more favorable and mitigation measures are in place. ABC News reported the same day that this is the second delay, after a move from Friday to Monday, and that the Army still plans two controlled detonations of nearly 10,000 pounds of degraded lead azide. ABC News said the Eighth Circuit granted an administrative stay of the Environmental Protection Agency permit, and that the Justice Department told the court on Sunday the Army intends to proceed under an emergency exception because the risk of an uncontrolled explosion rises as temperatures drop. ABC News said the filing states the Army still intends to follow the permit's mitigation terms, including for lead dust.",
+      "date": "2026-11-24",
+      "dateLabel": "Nov 22–24",
+      "headline": "Army says the Iowa lead-azide detonations will proceed after the stay was lifted",
+      "summary": "Al Jazeera, carrying a Reuters report, said Nov. 24 that Acting Army Secretary Adam Telle announced late Monday that the Army will proceed with controlled removal of degraded lead azide at the Iowa Army Ammunition Plant, calling it a consensus decision among federal agencies, the courts, and state officials. Al Jazeera said President Trump on Monday ordered the Army to wait until the 8th Circuit ruled, and that hours later the court lifted a temporary stay of the Environmental Protection Agency permit that a three-judge panel had issued the previous Thursday. Army.mil said Nov. 22 that the controlled detonation is scheduled for Wednesday, Nov. 25. Al Jazeera said the plan is two controlled detonations of 68 drums containing almost 4,500 kilograms, about 10,000 pounds, of degraded lead azide.",
       "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/us-army-says-detonation-of-lead-explosives-in-iowa-will-proceed"
+        },
         {
           "name": "Army.mil",
           "url": "https://www.army.mil/article/296990/army_update_on_iowa_army_ammunition_plant"
-        },
-        {
-          "name": "ABC News",
-          "url": "https://abcnews.com/US/army-moves-detonation-10000-pounds-lead-azide-wedneday/story?id=138330909"
         }
       ]
     }
