@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-24",
-  "covers": "Nov 16–24, 2026",
-  "readFirst": "Covers Nov. 16–24. New: Tom's Hardware reported Nov. 23, citing the Financial Times, that financial firms are seeing post-contract price increases of up to 45 percent on data-center servers. The Army's request for power and data-center leases at nine installations is on the Army page. No new storage-array announcement dated Nov. 23–24 was opened, so the storage subsection is empty.",
+  "compiled": "2026-11-25",
+  "covers": "Nov 16–25, 2026",
+  "readFirst": "Covers Nov. 16–25. No new networking-product, storage-array, or capacity announcement dated Nov. 24–25 was opened. The Army's request for power and data-center leases at nine installations remains on the Army page. The storage subsection is empty.",
   "subsections": [
     {
       "id": "networking",

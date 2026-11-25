@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-24",
-  "covers": "Nov 16–24, 2026",
-  "readFirst": "Covers Nov. 16–24. New: Holland & Knight and Military.com reported that the Army is seeking enhanced-use leases at nine installations for commercial power, with a preference for projects that also include a data center; proposals are due Jan. 18, 2027. Al Jazeera reported Nov. 24 that Acting Army Secretary Adam Telle said the Iowa lead-azide detonations will proceed after the 8th Circuit lifted its stay. No new NETCOM release was found. No new Army enterprise agreement dated Nov. 23–24 was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
+  "compiled": "2026-11-25",
+  "covers": "Nov 16–25, 2026",
+  "readFirst": "Covers Nov. 16–25. New: Breaking Defense reported Nov. 24 that Gen. Christopher LaNeve's \"How the Army Fights\" guidance is scheduled to become the campaign plan by Feb. 1 and would end Transformation in Contact, and that a Fort Belvoir team is integrating the Odin planning app into Next Generation Command and Control. Breaking Defense reported Nov. 23 that the Army published a Defense Critical Infrastructure community coordination guide. Army.mil on Nov. 24 set the Iowa lead-azide detonation for about 9 a.m. Central on Nov. 25. No new NETCOM release was found. No new Army enterprise software agreement dated Nov. 24–25 was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. The Nov. 24 war.gov contract list's Army entry was a $49.5 million Corps of Engineers geotechnical IDIQ, not an enterprise software vehicle.",
   "subsections": [
     {
       "id": "leadership",
@@ -32,6 +32,20 @@
     }
   ],
   "items": [
+    {
+      "id": "dci-guide-2026-11-23",
+      "subsection": "leadership",
+      "date": "2026-11-23",
+      "dateLabel": "Nov 23",
+      "headline": "Army publishes a guide for defending installation infrastructure with local partners",
+      "summary": "Breaking Defense reported Nov. 23 that the Army published a Defense Critical Infrastructure Community Coordination Guide with CISA, the FBI, the EPA, the departments of Transportation and Energy, and FEMA. The guide is meant to help installations plan with the private companies and local governments that own the power, water, and communications systems Army units use to reach ports, rail, and airports. Lt. Gen. Matthew McFarlane, commander of I Corps, told reporters after a Joint Base Lewis-McChord summit that a disruption to a municipal power grid, a water system, or a fiber trunk is felt immediately by the mission. Brandon Pugh, principal cyber advisor to the Secretary of the Army, told reporters he hopes the guide will be scaled across the Army and the Department of War.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/army-publishes-guidebook-for-defending-critical-infrastructure-at-local-installations/"
+        }
+      ]
+    },
     {
       "id": "frank-northcom-2026-11-19",
       "subsection": "leadership",
@@ -79,34 +93,16 @@
       ]
     },
     {
-      "id": "rra-50cal-2026-11-19",
+      "id": "how-army-fights-2026-11-24",
       "subsection": "modernization",
-      "date": "2026-11-19",
-      "dateLabel": "Nov 18–19",
-      "headline": "Army introduces a reduced-range .50-caliber round and is testing it against drones",
-      "summary": "The Army Combat Capabilities Development Command Armaments Center said Nov. 18 that it and the Portfolio Acquisition Executive for Agile Sustainment and Ammunition introduced a reduced-range .50-caliber round, the M1181 ball and the M1199 tracer, built so the bullet becomes unstable near Mach 1 and falls at less than half the distance of a standard round. The center said General Dynamics Ordnance and Tactical Systems designed the round the Army selected, and that soldiers can train on ranges sized for 7.62 mm ammunition. Small Caliber Munitions Competency Manager Kip Hess said use against small drones at close range is still being tested. Stars and Stripes reported Nov. 19 that the fiscal 2027 budget request includes nearly $5.4 million for about 520,000 reduced-range .50-caliber cartridges, and the center said reduced-range ball and tracer variants also exist for 6.8 mm and 7.62 mm.",
+      "date": "2026-11-24",
+      "dateLabel": "Nov 24",
+      "headline": "LaNeve's plan would replace Continuous Transformation by Feb. 1",
+      "summary": "Breaking Defense reported Nov. 24 that Col. Pete Walther, a special assistant to Gen. Christopher LaNeve, said \"How the Army Fights\" is in the execute-order stage and is scheduled to become the Army's official campaign plan by Feb. 1, replacing \"Continuous Transformation.\" Walther said Transformation in Contact and the Army Transformation Initiative are ending, not being rebranded, and that experimental technology for combat-training-center rotations will be directed from division level or above rather than by commanders at brigade and below. He said units must receive that equipment at least 180 days before a rotation, and that LaNeve wants battalions and below focused on close battle, strike at brigade and above, and convergence at division and above. A LaNeve spokesperson told Breaking Defense the change is meant to survive even if the Senate does not confirm him.",
       "sources": [
         {
-          "name": "DEVCOM Armaments Center",
-          "url": "https://ac.devcom.army.mil/news/increased-opportunities-decreased-distance-this-50-caliber-bullet-knows-when-to-quit/"
-        },
-        {
-          "name": "Stars and Stripes",
-          "url": "https://www.stripes.com/branches/army/2026-11-19/army-new-50-caliber-bullet-23513597.html"
-        }
-      ]
-    },
-    {
-      "id": "army-ranges-2026-11-17",
-      "subsection": "modernization",
-      "date": "2026-11-17",
-      "dateLabel": "Nov 17",
-      "headline": "Army Test and Education Command is booking commercial firms onto six ranges",
-      "summary": "Federal News Network reported Nov. 17 that Maj. Gen. Pat Gaydon, commanding general of Army Test and Education Command, said more than 120 companies have tested prototypes or are in the pipeline across six Army ranges since an initiative launched in August. The Army said 15 companies have completed tests on drones, counter-drone systems, missile interceptors, and long-range strike technologies, 14 are ready to proceed, and 93 are in the works, at Dugway Proving Ground, Yuma Proving Ground, Camp Grayling, Camp Atterbury and Muscatatuck, and a U.S.-run range in Morocco. Gaydon said the service is trying to bring firms in within 30 days of a request and now averages 33 days. Federal News Network said test officials from the other services met at Aberdeen Proving Ground in September, and that Brig. Gen. Mark Massaro said last month the Air Force is working with the Army on whether it could open its own ranges to commercial companies.",
-      "sources": [
-        {
-          "name": "Federal News Network",
-          "url": "https://federalnewsnetwork.com/defense-main/2026/11/armys-push-to-bring-private-tech-onto-military-ranges-gains-momentum/"
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/laneves-campaign-plan-aims-for-top-down-guidance-flipping-transformation-in-contact-era/"
         }
       ]
     },
@@ -157,6 +153,20 @@
       ]
     },
     {
+      "id": "odin-planning-2026-11-24",
+      "subsection": "network",
+      "date": "2026-11-24",
+      "dateLabel": "Nov 24",
+      "headline": "Fort Belvoir team is folding the Odin planning app into NGC2",
+      "summary": "Breaking Defense reported Nov. 24 that a team at the Army C5ISR Center at Fort Belvoir is building Odin, an artificial-intelligence-enhanced mission-planning app for battalion, company, and platoon. Maj. Andrew Durfee, who leads the team, said higher headquarters already have planning tools, while the tactical edge has less compute and bandwidth, and that Odin is being integrated into Next Generation Command and Control. He said the team has worked with Palantir and Anduril on data sharing, that earlier versions were tested by the 4th Infantry Division and at Project Convergence Capstone 6, and that the app can show where friendly sensors cannot see. Durfee said the team wants an AI course-of-action generator but is building a light version because that capability needs more processing than a junior officer can carry.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/how-a-small-army-team-built-a-lightweight-battle-planning-app-odin/"
+        }
+      ]
+    },
+    {
       "id": "cecom-ilsc-2026-11-20",
       "subsection": "network",
       "date": "2026-11-20",
@@ -185,34 +195,20 @@
       ]
     },
     {
-      "id": "airborne-link-2026-11-18",
-      "subsection": "network",
-      "date": "2026-11-18",
-      "dateLabel": "Nov 18",
-      "headline": "11th Airborne keeps a digital mission-command link on a no-stop flight to Hawaii",
-      "summary": "The Department of War reported Nov. 18 that paratroopers from the 11th Airborne Division flew from Joint Base Elmendorf-Richardson, Alaska, rigged in flight, and jumped into Hawaii during Joint Pacific Multinational Readiness Center Rotation 27-01. Col. Matthew Adamczyk, the division's deputy commanding officer for operations, said the division monitored the battlefield from the aircraft and kept a digital link with I Corps and the joint force. The department said the flight applied the Army's operational guidance \"How the Army Fights,\" and that I Corps coordinated space, cyber, and electronic assets while the 25th Infantry Division struck simulated air defenses before the jump. It said the rotation includes about 10,000 personnel, and that the paratroopers will return to Alaska for another airborne assault before a February rotation.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/News-Stories/Article/Article/4652602/3000-miles-no-stops-army-airborne-division-tests-new-operational-guidance/"
-        }
-      ]
-    },
-    {
       "id": "lead-azide-2026-11-22",
       "subsection": "ahead",
       "date": "2026-11-24",
-      "dateLabel": "Nov 22–24",
-      "headline": "Army says the Iowa lead-azide detonations will proceed after the stay was lifted",
-      "summary": "Al Jazeera, carrying a Reuters report, said Nov. 24 that Acting Army Secretary Adam Telle announced late Monday that the Army will proceed with controlled removal of degraded lead azide at the Iowa Army Ammunition Plant, calling it a consensus decision among federal agencies, the courts, and state officials. Al Jazeera said President Trump on Monday ordered the Army to wait until the 8th Circuit ruled, and that hours later the court lifted a temporary stay of the Environmental Protection Agency permit that a three-judge panel had issued the previous Thursday. Army.mil said Nov. 22 that the controlled detonation is scheduled for Wednesday, Nov. 25. Al Jazeera said the plan is two controlled detonations of 68 drums containing almost 4,500 kilograms, about 10,000 pounds, of degraded lead azide.",
+      "dateLabel": "Nov 24–25",
+      "headline": "Army sets the Iowa lead-azide detonation for 9 a.m. Central on Nov. 25",
+      "summary": "Army.mil reported Nov. 24 that the Army, with the EPA, FEMA, HHS, the ATF, and state and local authorities, plans a controlled in-place detonation of degraded, crystallized lead azide at the Iowa Army Ammunition Plant on Wednesday, Nov. 25, at about 9:00 a.m. Central. The Army said a safety inspection found severe degradation in about 68 drums, totaling more than 9,700 pounds net explosive weight, and that Acting Army Secretary Adam Telle said a controlled detonation is preferable to an uncontrolled spontaneous detonation. Army.mil said FEMA is supporting a recommended relocation for Middletown and areas in a five-mile cone southwest of the plant, with short-term hotel lodging through Friday, Nov. 27. Al Jazeera, carrying a Reuters report, said Nov. 24 that the 8th Circuit lifted a temporary stay of the EPA permit on Monday after President Trump ordered the Army to wait for the court's ruling.",
       "sources": [
+        {
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/297069/army_announces_controlled_detonation_of_degraded_explosive_material_at_iowa_army_ammunition_plant"
+        },
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/11/24/us-army-says-detonation-of-lead-explosives-in-iowa-will-proceed"
-        },
-        {
-          "name": "Army.mil",
-          "url": "https://www.army.mil/article/296990/army_update_on_iowa_army_ammunition_plant"
         }
       ]
     }

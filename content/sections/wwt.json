@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT ↔ U.S. Army Signal Mapping",
   "description": "World Wide Technology public content and Army business, set next to U.S. Army leadership priorities.",
-  "compiled": "2026-11-24",
-  "covers": "Nov 16–24, 2026",
-  "readFirst": "Covers Nov. 16–24. No new WWT article dated Nov. 24 was found. A Nov. 23 video, \"The GPUs Were Ready. The Data Center Wasn't,\" and a Nov. 22 observability blog were not Army-program releases and were not added. The Nov. 20 Confluent article and the Nov. 17 NetApp Insight recap remain. The Signal Mapping subsection is empty.",
+  "compiled": "2026-11-25",
+  "covers": "Nov 16–25, 2026",
+  "readFirst": "Covers Nov. 16–25. No new WWT article or press release dated Nov. 24 or Nov. 25 was found. The Nov. 20 Confluent article and the Nov. 17 NetApp Insight recap remain. The Signal Mapping subsection is empty.",
   "subsections": [
     {
       "id": "content",

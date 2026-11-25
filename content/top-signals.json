@@ -3,50 +3,50 @@
     {
       "section": "cyber",
       "label": "CYBER",
-      "dateLabel": "Nov 23",
-      "headline": "CISA adds MONAI Label and MailAssure flaws, due Nov. 26",
-      "item": "kev-monai-mail-2026-11-23",
+      "dateLabel": "Nov 24",
+      "headline": "CISA adds Drupal, AntiCsrf, and Optimizely flaws, due Nov. 27",
+      "item": "kev-drupal-optimizely-2026-11-24",
       "href": "cyber.html#kev"
     },
     {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Nov 20–24",
-      "headline": "Army seeks power and data-center leases at nine installations",
-      "item": "army-eul-datacenters-2026-11-24",
-      "href": "army.html#contracts"
+      "dateLabel": "Nov 24",
+      "headline": "LaNeve would replace Continuous Transformation by Feb. 1",
+      "item": "how-army-fights-2026-11-24",
+      "href": "army.html#modernization"
+    },
+    {
+      "section": "budget",
+      "label": "BUDGET",
+      "dateLabel": "Nov 24",
+      "headline": "White House seeks $5 billion so Golden Dome can keep producing",
+      "item": "cr-anomalies-2026-11-24",
+      "href": "budget.html#approps"
     },
     {
       "section": "dow",
       "label": "DOW",
-      "dateLabel": "Nov 23",
-      "headline": "War Department adopts ACME to classify records with super intelligence",
-      "item": "acme-classification-2026-11-23",
+      "dateLabel": "Nov 24",
+      "headline": "Hegseth rejects Senate language on human responsibility for AI weapons",
+      "item": "hegseth-ai-weapons-2026-11-24",
       "href": "dow.html#secwar"
-    },
-    {
-      "section": "ai",
-      "label": "AI",
-      "dateLabel": "Nov 23",
-      "headline": "Claude Ship can review, fix, and approve GitHub changes",
-      "item": "claude-ship-2026-11-23",
-      "href": "ai.html#anthropic"
     },
     {
       "section": "partners",
       "label": "PARTNERS",
-      "dateLabel": "Nov 23",
-      "headline": "Nvidia's board reinstates Jensen Huang as chief executive",
-      "item": "nvidia-huang-return-2026-11-23",
+      "dateLabel": "Nov 24",
+      "headline": "Huang is still set to testify on chip controls Dec. 1–3",
+      "item": "nvidia-huang-testimony-2026-11-24",
       "href": "partners.html#nvidia"
     },
     {
-      "section": "cyber",
-      "label": "CYBER",
-      "dateLabel": "Nov 23",
-      "headline": "OpenAI and Cisco open-source a Linux shield for unpatched flaws",
-      "item": "shirudo-2026-11-23",
-      "href": "cyber.html#trends"
+      "section": "ai",
+      "label": "AI",
+      "dateLabel": "Nov 24",
+      "headline": "Pentagon AI chief says open-source data can reach commanders faster",
+      "item": "osint-unclassified-2026-11-24",
+      "href": "ai.html#defense-ai"
     }
   ]
 }

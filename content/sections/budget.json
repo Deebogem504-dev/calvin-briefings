@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Federal Budget & NDAA Weekly Tracker",
   "description": "Fiscal 2027 appropriations, the continuing resolution, NDAA status, reconciliation funds and Golden Dome money.",
-  "compiled": "2026-11-24",
-  "covers": "Nov 16–24, 2026",
-  "readFirst": "Covers Nov. 16–24. No new appropriations vote, markup, or continuing-resolution action dated Nov. 23–24 was opened. The Senate appropriators' nearly $1.1 trillion fiscal 2027 defense bill, released Nov. 16, still needs a floor vote before the Dec. 11 continuing-resolution deadline. No new National Defense Authorization Act text dated Nov. 23–24 was opened, so that subsection stays empty.",
+  "compiled": "2026-11-25",
+  "covers": "Nov 16–25, 2026",
+  "readFirst": "Covers Nov. 16–25. New: Breaking Defense reported Nov. 24 that the White House sent Congress a list of anomalies for a possible December continuing resolution, including $5 billion for Golden Dome because the program has no new funding under the current stopgap. The Senate appropriators' nearly $1.1 trillion fiscal 2027 defense bill, released Nov. 16, still needs a floor vote before the Dec. 11 continuing-resolution deadline. No new National Defense Authorization Act text dated Nov. 24–25 was opened, so that subsection stays empty.",
   "subsections": [
     {
       "id": "approps",
@@ -24,6 +24,20 @@
     }
   ],
   "items": [
+    {
+      "id": "cr-anomalies-2026-11-24",
+      "subsection": "approps",
+      "date": "2026-11-24",
+      "dateLabel": "Nov 24",
+      "headline": "White House seeks a $5 billion Golden Dome exemption in the next stopgap",
+      "summary": "Breaking Defense reported Nov. 24 that a White House list sent to Capitol Hill on Monday seeks anomalies, or funding exemptions, for almost two dozen defense programs if Congress passes another continuing resolution in December, and that more Defense Department requests are still coming. The White House requested $5 billion for Golden Dome and said that without the anomaly the program will be unable to continue production because it has no new funding under the current stopgap. It also asked for advanced-procurement authority for the Trump-class battleship and for authority to obligate money faster for PAC-3, Tomahawk, JASSM, LRASM, Precision Strike Missile, and the Standard Missile family. Breaking Defense said lawmakers have until Dec. 11, when the current continuing resolution expires.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/white-house-seeks-funding-exemptions-for-golden-dome-trump-battleship-in-next-funding-stopgap/"
+        }
+      ]
+    },
     {
       "id": "senate-dod-approps-2026-11-16",
       "subsection": "approps",

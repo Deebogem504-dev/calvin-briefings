@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-24",
-  "covers": "Nov 16–24, 2026",
-  "readFirst": "Covers Nov. 16–24. New: Anthropic said Nov. 23 that Claude Ship is in beta for Team and Enterprise GitHub repositories, and Google said the same day that Search AI Mode can connect Google Wallet, with Drive and the Gemini app to follow. OpenAI and Cisco's Shirudo runtime is on the cyber page. No new Nvidia model post dated Nov. 23–24 was opened beyond the board's reinstatement of Jensen Huang, which is on the partners page. The Open and Local Models subsection is empty.",
+  "compiled": "2026-11-25",
+  "covers": "Nov 16–25, 2026",
+  "readFirst": "Covers Nov. 16–25. New: Federal News Network reported Nov. 24 that the Defense Department's chief digital and artificial intelligence officer said open-source data can get commanders answers without relying only on constrained government networks. Google's Nov. 24 Agent Retrieval post was a developer guide and was not added. No new Anthropic, OpenAI, or Nvidia model announcement dated Nov. 24–25 was opened. The Open and Local Models subsection is empty. Shirudo remains on the cyber page, and Jensen Huang's scheduled testimony is on the partners page.",
   "subsections": [
     {
       "id": "anthropic",
@@ -179,20 +179,16 @@
       ]
     },
     {
-      "id": "bis-remote-access-2026-11-16",
-      "subsection": "policy",
-      "date": "2026-11-16",
-      "dateLabel": "Nov 16",
-      "headline": "BIS issues a rule on remote access to advanced chips through overseas data centers",
-      "summary": "The Bureau of Industry and Security said Nov. 16 that it released an interim final rule, written at the direction of the Treasury Department and the National Security Council, so limits on advanced super-intelligence chips cannot be bypassed through remote computing at data centers in third countries. The rule text requires a license to export, reexport, or transfer covered items for a data center, anywhere, that will provide access to more than 12 million aggregate total processing performance to a company headquartered in, or whose ultimate parent is headquartered in, Macau or Country Group D:5. It also requires a license for advanced semiconductors to Indonesia, Malaysia, Singapore, Thailand, or Brazil, with an exception for a U.S.-headquartered consignee that meets a reporting requirement, and it formally rescinds the AI Diffusion Rule, which the preamble says has never been enforced. The displayed text says the rule takes effect on the date it is published in the Federal Register.",
+      "id": "osint-unclassified-2026-11-24",
+      "subsection": "defense-ai",
+      "date": "2026-11-24",
+      "dateLabel": "Nov 19–24",
+      "headline": "Pentagon AI chief says open-source data can get answers off constrained networks",
+      "summary": "Federal News Network reported Nov. 24 on a Nov. 19 AFCEA DC luncheon where Cameron Stanley, the Defense Department's chief digital and artificial intelligence officer, said open-source data can help commanders get answers while reducing reliance on constrained government networks. Jason Barrett, the intelligence community's open-source executive at the Office of the Director of National Intelligence, said the IC Data Consortium launched in May and other contract vehicles have largely handled access to commercial data, and that the community is working on a significant expansion of unclassified capability. Diane Staheli of MIT Lincoln Laboratory told the event that research from Anthropic, the UK AI Security Institute, and the Alan Turing Institute shows as few as 250 malicious documents can create a backdoor in a large language model. Melisa Stivaletti of the Defense Intelligence Agency said there are not enough people to turn raw public data into decisions without AI models.",
       "sources": [
         {
-          "name": "Bureau of Industry and Security",
-          "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
-        },
-        {
-          "name": "Bureau of Industry and Security",
-          "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf"
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/intelligence-community/2026/11/intel-community-to-expand-unclassified-capabilities-to-boost-osint/"
         }
       ]
     },

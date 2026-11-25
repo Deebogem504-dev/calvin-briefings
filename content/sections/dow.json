@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-24",
-  "covers": "Nov 16–24, 2026",
-  "readFirst": "Covers Nov. 16–24. New: The Department of War reported Nov. 23 that Deputy Secretary Steve Feinberg adopted the Automated Classification Management Environment as an enterprise system for classification and declassification. No new Golden Dome release dated Nov. 23–24 was opened. No new Army or Department of War enterprise software agreement in that window was found. No new war.gov contract release for Nov. 23 or Nov. 24 was opened.",
+  "compiled": "2026-11-25",
+  "covers": "Nov 16–25, 2026",
+  "readFirst": "Covers Nov. 16–25. New: Bloomberg Government reported Nov. 24 that Secretary Pete Hegseth is rejecting Senate language that would require commanders to keep ultimate human responsibility over lethal force by autonomous weapons and artificial intelligence. The White House request for a $5 billion Golden Dome anomaly in the next continuing resolution is on the budget page. No new Golden Dome program release dated Nov. 24–25 was opened on war.gov. No new Department of War enterprise software agreement in that window was found. war.gov posted contracts for Nov. 24 and no news releases; no Nov. 25 contract list was posted at the time of this edition.",
   "subsections": [
     {
       "id": "secwar",
@@ -28,6 +28,20 @@
     }
   ],
   "items": [
+    {
+      "id": "hegseth-ai-weapons-2026-11-24",
+      "subsection": "secwar",
+      "date": "2026-11-24",
+      "dateLabel": "Nov 24",
+      "headline": "Hegseth rejects Senate language on human responsibility for AI weapons",
+      "summary": "Bloomberg Government reported Nov. 24 that Defense Secretary Pete Hegseth is rejecting a Senate defense-policy proposal that would require the military's autonomous weapons and artificial intelligence to be designed and deployed so commanders exercise \"ultimate human responsibility\" over the use of lethal force. Bloomberg Government said the Senate Armed Services Committee put the language in its version of the annual defense authorization bill as lawmakers sought, for the first time, to regulate the military's use of artificial intelligence and autonomous technology. The report said those proposals come as the Pentagon seeks to accelerate artificial-intelligence adoption on the battlefield and as technology executives sell advanced AI tools to the department.",
+      "sources": [
+        {
+          "name": "Bloomberg Government",
+          "url": "https://news.bgov.com/bloomberg-government-news/hegseth-rejects-senates-proposed-safeguards-for-ai-weapons-use"
+        }
+      ]
+    },
     {
       "id": "davies-oncd-2026-11-23",
       "subsection": "secwar",
@@ -117,20 +131,6 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/Releases/Release/Article/4648762/department-of-war-invites-seven-industry-teams-to-participate-in-phase-ii-direc/"
-        }
-      ]
-    },
-    {
-      "id": "additive-mfg-survey-2026-11-16",
-      "subsection": "acquisition",
-      "date": "2026-11-16",
-      "dateLabel": "Nov 16",
-      "headline": "War and Commerce open a Defense Production Act survey of additive manufacturing",
-      "summary": "The Department of War said Nov. 16 that it and the Commerce Department's Bureau of Industry and Security launched an assessment, under Section 705 of the Defense Production Act, of the qualification cost and timeline barriers to scaling additive manufacturing in the defense industrial base. The department said the survey will go to roughly 500 manufacturers and will cover capital spending, machine use, powder and feedstock, and software across aerospace, maritime, munitions, space, and ground vehicles, and that individual responses are confidential and exempt from the Freedom of Information Act. Under Secretary Michael Duffey said the partnership is meant to reduce regulatory bottlenecks and shorten certification timelines. Notices to eligible manufacturers, printer and material producers, and service providers were to begin Nov. 16.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4649497/launch-of-nationwide-assessment-to-dismantle-barriers-to-additive-manufacturing/"
         }
       ]
     },

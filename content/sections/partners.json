@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-24",
-  "covers": "Nov 16–24, 2026",
-  "readFirst": "Covers Nov. 16–24. New: NVIDIA said Nov. 23 that its board unanimously reinstated Jensen Huang as president and chief executive. The Nov. 17 item saying the board was not considering his return was removed. No new Cisco, Dell, HPE, NetApp, Microsoft, Palo Alto Networks, AWS, or Google Cloud announcement dated Nov. 23–24 was opened. F5 and VMware product news were quiet; an exploited VMware vCenter flaw was retired from the cyber page after its Nov. 23 due date. Red Hat's Nov. 23 blog on physical AI was commentary, not a press release or an Army or Department of War deal, and was not added. No new Red Hat deal with the Army or the Department of War dated Nov. 23–24 was found, and no new Army or Department of War enterprise agreement was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
+  "compiled": "2026-11-25",
+  "covers": "Nov 16–25, 2026",
+  "readFirst": "Covers Nov. 16–25. New: Tom's Hardware reported Nov. 24 that House committee chairmen said Jensen Huang and Nvidia general counsel Tim Teter will still sit for transcribed interviews on Dec. 1 and Dec. 2, and that Bloomberg reported Huang will testify before the Senate Banking Committee on Dec. 3. Tom's Hardware also reported Nov. 25 that Huang told employees he was not given special treatment by the government; that all-hands account was not added because the Nvidia subsection is full. No new Cisco, Dell, HPE, NetApp, Microsoft, AWS, or Google Cloud announcement dated Nov. 24–25 was opened. F5 and VMware product news were quiet; an exploited PAN-OS flaw is on the cyber page. No new Red Hat press release or Army or Department of War deal dated Nov. 24–25 was found. No new Army or Department of War enterprise agreement was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
   "subsections": [
     {
       "id": "cisco",
@@ -56,6 +56,20 @@
     }
   ],
   "items": [
+    {
+      "id": "nvidia-huang-testimony-2026-11-24",
+      "subsection": "nvidia",
+      "date": "2026-11-24",
+      "dateLabel": "Nov 24",
+      "headline": "House chairs say Huang will still testify on Nvidia chip smuggling",
+      "summary": "Tom's Hardware reported Nov. 24 that the chairmen of the House Select Committee on China, the House Intelligence Committee, and the House Foreign Affairs Committee said Jensen Huang and Nvidia general counsel Tim Teter confirmed transcribed interviews on Dec. 1 and Dec. 2. Their statement, quoted by Tom's Hardware, said the board's investigation and Huang's reinstatement do not erase questions about smuggling of Nvidia products, diversion for Chinese military purposes, and China's AI capabilities. Tom's Hardware said Bloomberg reported that Huang will testify publicly before the Senate Banking Committee on Dec. 3, and that Chairman Tim Scott said Huang will testify at a hearing on export controls for advanced AI hardware.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/policy/reinstated-nvidia-ceo-jensen-huang-must-still-face-china-congressional-and-senate-banking-committees-senators-and-representatives-demand-answers-from-nvidia-ceo-on-national-security-threats-and-export-controls"
+        }
+      ]
+    },
     {
       "id": "nvidia-huang-return-2026-11-23",
       "subsection": "nvidia",

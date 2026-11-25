@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-24",
-  "covers": "Nov 16–24, 2026",
-  "readFirst": "Covers Nov. 16–24. No new post-quantum standard, Army quantum award, autonomy contract, or space award dated Nov. 23–24 was opened. The Nov. 22 Tom's Hardware reports on Ukraine's Puma anti-jam radio and TSMC's shipment pause remain. The quantum and space subsections are empty.",
+  "compiled": "2026-11-25",
+  "covers": "Nov 16–25, 2026",
+  "readFirst": "Covers Nov. 16–25. No new post-quantum standard, Army autonomy award, or space award dated Nov. 24–25 was opened. The Nov. 22 Tom's Hardware reports on Ukraine's Puma anti-jam radio and TSMC's shipment pause remain. The quantum and space subsections are empty.",
   "subsections": [
     {
       "id": "quantum",

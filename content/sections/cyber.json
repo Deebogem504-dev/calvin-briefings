@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-24",
-  "covers": "Nov 16–24, 2026",
-  "readFirst": "Covers Nov. 16–24. New: CISA on Nov. 23 added Project MONAI Label and N-able MailAssure to the Known Exploited Vulnerabilities catalog, both due Nov. 26, and both require forensic triage. The Nov. 20 SAP, Cisco Expressway, vCenter, and Roller items were due Nov. 23 and were retired. OpenAI and Cisco said Nov. 23 that Shirudo, an open-source eBPF runtime, blocked a Java4Shell attempt against a running Elasticsearch service in a controlled test. Puppet Enterprise CVE-2026-115731 remains due Dec. 1.",
+  "compiled": "2026-11-25",
+  "covers": "Nov 16–25, 2026",
+  "readFirst": "Covers Nov. 16–25. New: CISA on Nov. 24 added Drupal Core, Idunno AntiCsrf, and Optimizely Web Experimentation to the Known Exploited Vulnerabilities catalog, all due Nov. 27, and all require forensic triage. Palo Alto Networks said exploitation of a PAN-OS Linux-kernel flaw, CVE-2026-46300, has been seen against internet-exposed management interfaces. The Nov. 23 MONAI Label and MailAssure items remain due Nov. 26. No CISA KEV alert dated Nov. 25 was posted. The Nov. 16 Gootloader FLASH was retired. Puppet Enterprise CVE-2026-115731 remains due Dec. 1.",
   "subsections": [
     {
       "id": "kev",
@@ -24,6 +24,24 @@
     }
   ],
   "items": [
+    {
+      "id": "kev-drupal-optimizely-2026-11-24",
+      "subsection": "kev",
+      "date": "2026-11-24",
+      "dateLabel": "Nov 24",
+      "headline": "CISA adds exploited Drupal, AntiCsrf, and Optimizely flaws, due Nov. 27",
+      "summary": "CISA said Nov. 24 that it added three vulnerabilities to the Known Exploited Vulnerabilities catalog based on evidence of active exploitation: CVE-2026-132165 in Drupal Core, CVE-2026-131914 in Idunno AntiCsrf, and CVE-2026-132224 in Optimizely Web Experimentation. The catalog says an unauthenticated attacker can, under specific conditions, use Drupal's install.php to take over a site or execute code; that AntiCsrf lets an unauthenticated remote attacker execute code through object injection and may be end of life; and that Optimizely's signup flow can let an attacker impersonate a customer user and change Project JavaScript that then runs in browsers visiting that customer's sites. The catalog sets a due date of Nov. 27, 2026, for all three, requires forensic triage for each, and lists ransomware use as unknown.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
     {
       "id": "kev-monai-mail-2026-11-23",
       "subsection": "kev",
@@ -79,6 +97,20 @@
       ]
     },
     {
+      "id": "panos-fragnesia-2026-11-25",
+      "subsection": "trends",
+      "date": "2026-11-25",
+      "dateLabel": "Nov 25",
+      "headline": "Palo Alto says a PAN-OS kernel flaw is being used on exposed management interfaces",
+      "summary": "Palo Alto Networks published security bulletin PAN-SA-2026-0015, dated Nov. 25, for CVE-2026-46300, a Linux-kernel local privilege-escalation flaw it calls Fragnesia, in PAN-OS. The company said exploitation has been observed against management interfaces exposed to the internet. It said every observed case first used the PHP2Shell flaw, CVE-2026-109618, through that exposed interface, and that it is not aware of another method. Palo Alto Networks said customers whose management interface is reachable from the internet should upgrade immediately and restrict access to trusted internal addresses, and that others should upgrade at the next maintenance window.",
+      "sources": [
+        {
+          "name": "Palo Alto Networks",
+          "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0015"
+        }
+      ]
+    },
+    {
       "id": "shirudo-2026-11-23",
       "subsection": "trends",
       "date": "2026-11-23",
@@ -107,20 +139,6 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/cyber-security/critical-java-vulnerability-puts-millions-of-sites-services-and-devices-at-risk-of-remote-code-execution-triggers-with-64-as-and-an-sign-openjdk-optimization-bug-lets-an-attacker-trigger-it-just-by-inputting-repeated-text"
-        }
-      ]
-    },
-    {
-      "id": "gootloader-2026-11-16",
-      "subsection": "trends",
-      "date": "2026-11-16",
-      "dateLabel": "Nov 16",
-      "headline": "FBI FLASH: Gootloader on more than 1,000 WordPress sites preceded $28 million in ransom",
-      "summary": "The FBI released a Nov. 16 FLASH, coordinated with CISA and marked TLP:CLEAR, on Gootloader, a JavaScript loader that uses compromised websites and search-engine optimization for initial access. The FBI said cyber actors used it as a ransomware precursor across a wide variety of sectors, and that as of October 2026 it had identified over 1,000 infected WordPress sites and 216 domains controlled by the Gootloader administrator, which led to over $28 million in ransomware payments. The FLASH says activity from 2025 to 2026 has focused on U.S. legal professionals and legal-technology decision makers, and that the administrator scanned WordPress sites for xmlrpc.php and later used compromised credentials.",
-      "sources": [
-        {
-          "name": "FBI",
-          "url": "https://www.ic3.gov/CSA/2026/261116.pdf"
         }
       ]
     },
