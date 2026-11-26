@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT ↔ U.S. Army Signal Mapping",
   "description": "World Wide Technology public content and Army business, set next to U.S. Army leadership priorities.",
-  "compiled": "2026-11-25",
-  "covers": "Nov 16–25, 2026",
-  "readFirst": "Covers Nov. 16–25. No new WWT article or press release dated Nov. 24 or Nov. 25 was found. The Nov. 20 Confluent article and the Nov. 17 NetApp Insight recap remain. The Signal Mapping subsection is empty.",
+  "compiled": "2026-11-26",
+  "covers": "Nov 17–26, 2026",
+  "readFirst": "Covers Nov. 17–26. New: WWT published a Nov. 24 blog on Dell PowerStoreOS 5.1, including non-disruptive NAS migration, replication to three clusters, and hardware encryption of Fibre Channel traffic. No new WWT article or press release dated Nov. 25 or Nov. 26 was found. The Nov. 20 Confluent article and the Nov. 17 NetApp Insight recap remain. The Signal Mapping subsection is empty.",
   "subsections": [
     {
       "id": "content",
@@ -28,6 +28,20 @@
     }
   ],
   "items": [
+    {
+      "id": "wwt-powerstore-2026-11-24",
+      "subsection": "content",
+      "date": "2026-11-24",
+      "dateLabel": "Nov 24",
+      "headline": "WWT walks through PowerStoreOS 5.1 migration, replication, and Fibre Channel encryption",
+      "summary": "WWT published a Nov. 24 blog on Dell PowerStoreOS 5.1. WWT said the release adds non-disruptive NAS server migration between appliances in a cluster, asynchronous replication of a volume or volume group to up to three destination clusters, and hardware encryption of Fibre Channel traffic. WWT said host encryption requires PowerStore Gen 3 with 32 Gb or 64 Gb Broadcom SecureHBA cards and matching cards in the hosts, and that Dell describes the session-key negotiation as using NIST-standardized post-quantum algorithms on first use. WWT said replication encryption covers block and file data on asynchronous, synchronous, and metro sessions when both ends use Fibre Channel on Gen 3, and that it does not cover IP replication.",
+      "sources": [
+        {
+          "name": "WWT",
+          "url": "https://www.wwt.com/blog/powerstoreos-51-nas-server-migration-three-site-replication-and-encrypted-fibre-channel"
+        }
+      ]
+    },
     {
       "id": "wwt-confluent-myths-2026-11-20",
       "subsection": "content",

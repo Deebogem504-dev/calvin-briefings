@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-25",
-  "covers": "Nov 16–25, 2026",
-  "readFirst": "Covers Nov. 16–25. New: CISA on Nov. 24 added Drupal Core, Idunno AntiCsrf, and Optimizely Web Experimentation to the Known Exploited Vulnerabilities catalog, all due Nov. 27, and all require forensic triage. Palo Alto Networks said exploitation of a PAN-OS Linux-kernel flaw, CVE-2026-46300, has been seen against internet-exposed management interfaces. The Nov. 23 MONAI Label and MailAssure items remain due Nov. 26. No CISA KEV alert dated Nov. 25 was posted. The Nov. 16 Gootloader FLASH was retired. Puppet Enterprise CVE-2026-115731 remains due Dec. 1.",
+  "compiled": "2026-11-26",
+  "covers": "Nov 17–26, 2026",
+  "readFirst": "Covers Nov. 17–26. New: CISA on Nov. 25 added 10 vulnerabilities to the Known Exploited Vulnerabilities catalog, eight due Nov. 28 and two due Dec. 9, including an HPE Juniper Session Smart command-injection flaw and five Mitel MiCollab flaws. The Nov. 23 MONAI Label and MailAssure items are due Nov. 26. The Nov. 24 Drupal, AntiCsrf, and Optimizely items are due Nov. 27. No CISA KEV alert dated Nov. 26 was posted. Puppet Enterprise CVE-2026-115731 remains due Dec. 1. Palo Alto Networks' PAN-OS bulletin remains in Threat Trends.",
   "subsections": [
     {
       "id": "kev",
@@ -24,6 +24,24 @@
     }
   ],
   "items": [
+    {
+      "id": "kev-juniper-micollab-2026-11-25",
+      "subsection": "kev",
+      "date": "2026-11-25",
+      "dateLabel": "Nov 25",
+      "headline": "CISA adds 10 exploited Juniper, MiCollab, Danfoss, and Xen Orchestra flaws",
+      "summary": "CISA said Nov. 25 that it added 10 vulnerabilities to the Known Exploited Vulnerabilities catalog based on evidence of active exploitation. The catalog includes an HPE Juniper Session Smart Conductor and Router flaw, CVE-2026-103406, that could let a remote attacker run commands as root through a crafted salt minion ID, and five Mitel MiCollab flaws, including CVE-2026-133323, which could let an unauthenticated attacker execute system commands. It also lists three Danfoss AK-SM 800A flaws and a Vates Xen Orchestra flaw, CVE-2026-133469, that could let an unauthenticated attacker bypass authentication with a token containing an empty JSON object. The catalog sets a due date of Nov. 28, 2026, for eight entries and Dec. 9, 2026, for CVE-2025-41450 and CVE-2026-133311, points agencies to BOD 26-04 and CISA's forensics triage requirements, and lists ransomware use as unknown for each.",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+        }
+      ]
+    },
     {
       "id": "kev-drupal-optimizely-2026-11-24",
       "subsection": "kev",

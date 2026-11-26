@@ -3,18 +3,42 @@
     {
       "section": "cyber",
       "label": "CYBER",
-      "dateLabel": "Nov 24",
-      "headline": "CISA adds Drupal, AntiCsrf, and Optimizely flaws, due Nov. 27",
-      "item": "kev-drupal-optimizely-2026-11-24",
+      "dateLabel": "Nov 25",
+      "headline": "CISA adds 10 exploited flaws, eight of them due Nov. 28",
+      "item": "kev-juniper-micollab-2026-11-25",
       "href": "cyber.html#kev"
     },
     {
       "section": "army",
       "label": "ARMY",
-      "dateLabel": "Nov 24",
-      "headline": "LaNeve would replace Continuous Transformation by Feb. 1",
-      "item": "how-army-fights-2026-11-24",
+      "dateLabel": "Nov 25",
+      "headline": "Lozano says the first Dark Eagle battery is fully fielded",
+      "item": "dark-eagle-2026-11-25",
       "href": "army.html#modernization"
+    },
+    {
+      "section": "dow",
+      "label": "DOW",
+      "dateLabel": "Nov 25",
+      "headline": "Hegseth orders a cloud, phone-based military pay system",
+      "item": "hegseth-pay-2026-11-25",
+      "href": "dow.html#secwar"
+    },
+    {
+      "section": "partners",
+      "label": "PARTNERS",
+      "dateLabel": "Nov 25",
+      "headline": "Commerce puts Megaspeed firms on the Entity List",
+      "item": "megaspeed-entity-2026-11-25",
+      "href": "partners.html#nvidia"
+    },
+    {
+      "section": "ai",
+      "label": "AI",
+      "dateLabel": "Nov 25",
+      "headline": "DeepMind says Mass Spec Skills identified about 97 percent of a test set",
+      "item": "mass-spec-2026-11-25",
+      "href": "ai.html#google"
     },
     {
       "section": "budget",
@@ -23,30 +47,6 @@
       "headline": "White House seeks $5 billion so Golden Dome can keep producing",
       "item": "cr-anomalies-2026-11-24",
       "href": "budget.html#approps"
-    },
-    {
-      "section": "dow",
-      "label": "DOW",
-      "dateLabel": "Nov 24",
-      "headline": "Hegseth rejects Senate language on human responsibility for AI weapons",
-      "item": "hegseth-ai-weapons-2026-11-24",
-      "href": "dow.html#secwar"
-    },
-    {
-      "section": "partners",
-      "label": "PARTNERS",
-      "dateLabel": "Nov 24",
-      "headline": "Huang is still set to testify on chip controls Dec. 1–3",
-      "item": "nvidia-huang-testimony-2026-11-24",
-      "href": "partners.html#nvidia"
-    },
-    {
-      "section": "ai",
-      "label": "AI",
-      "dateLabel": "Nov 24",
-      "headline": "Pentagon AI chief says open-source data can reach commanders faster",
-      "item": "osint-unclassified-2026-11-24",
-      "href": "ai.html#defense-ai"
     }
   ]
 }

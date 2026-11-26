@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-25",
-  "covers": "Nov 16–25, 2026",
-  "readFirst": "Covers Nov. 16–25. New: Federal News Network reported Nov. 24 that the Defense Department's chief digital and artificial intelligence officer said open-source data can get commanders answers without relying only on constrained government networks. Google's Nov. 24 Agent Retrieval post was a developer guide and was not added. No new Anthropic, OpenAI, or Nvidia model announcement dated Nov. 24–25 was opened. The Open and Local Models subsection is empty. Shirudo remains on the cyber page, and Jensen Huang's scheduled testimony is on the partners page.",
+  "compiled": "2026-11-26",
+  "covers": "Nov 17–26, 2026",
+  "readFirst": "Covers Nov. 17–26. New: Google DeepMind said Nov. 25 that Mass Spec Skills for Antigravity let Gemini 3.8 Flash, Gemini 4 Argon, and Gemini 4 Carbon identify catalogued molecules in around 97 percent of a 100-spectrum test. No new Anthropic or OpenAI announcement dated Nov. 25–26 was opened; Anthropic's newsroom still leads with the Nov. 9 Claude Fable 5.2 and Mythos 5.2 release. The Open and Local Models subsection is empty. Commerce's Nov. 25 Entity List rule is on the partners page, and Shirudo remains on the cyber page.",
   "subsections": [
     {
       "id": "anthropic",
@@ -123,6 +123,20 @@
       ]
     },
     {
+      "id": "mass-spec-2026-11-25",
+      "subsection": "google",
+      "date": "2026-11-25",
+      "dateLabel": "Nov 25",
+      "headline": "DeepMind's Mass Spec Skills identified about 97 percent of a library test",
+      "summary": "Google DeepMind said Nov. 25 that Mass Spec Skills for Google Antigravity pairs Gemini's chemical reasoning with established mass spectrometry tools and public chemical databases. On 100 compounds sampled from the Enamine REAL MS/MS collection in MoNA, DeepMind said accuracy stayed below 4 percent with no internet access or skills. With the skills added, DeepMind said Gemini 3.8 Flash, Gemini 4 Argon, and Gemini 4 Carbon each identified and verified the exact molecule in around 97 percent of attempts. DeepMind said the skills also cut generated tokens per attempt, by nearly four times on Flash, by half on Argon, and by nearly a fifth on Carbon, and that Enterprise users can sign in with a Google Cloud account.",
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/"
+        }
+      ]
+    },
+    {
       "id": "gemini-neon-2026-11-18",
       "subsection": "google",
       "date": "2026-11-18",
@@ -203,20 +217,6 @@
         {
           "name": "OpenAI",
           "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai/"
-        }
-      ]
-    },
-    {
-      "id": "africom-maven-2026-11-17",
-      "subsection": "defense-ai",
-      "date": "2026-11-17",
-      "dateLabel": "Nov 12–17",
-      "headline": "AFRICOM hosts Maven workshops with an Army-led edge super-intelligence team",
-      "summary": "U.S. Africa Command said Nov. 17 that it hosted the Office of the Secretary of War's Chief Data and Analytics Office for workshops in Stuttgart with Maven users from Special Operations Command Africa and AFRICOM's Directorate of Operations. AFRICOM said Maven scans imagery and video, flags information for human analysts, and shows the battlefield on one dashboard, and that the sessions looked for near-term fixes and longer-term needs. A workshop photo is dated Nov. 12 at Kelley Barracks. Army Capt. Ryan T. Hetrick, lead of the Edge Super Intelligence Task Force at the Chief Digital and Artificial Intelligence Office, said developers have to go where the warfighter works and build alongside the end user.",
-      "sources": [
-        {
-          "name": "U.S. Africa Command",
-          "url": "https://www.africom.mil/article/37172/super-intelligence-task-force-engages-with-africom-in-hands-on-workshops"
         }
       ]
     }

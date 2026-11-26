@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-25",
-  "covers": "Nov 16–25, 2026",
-  "readFirst": "Covers Nov. 16–25. New: Breaking Defense reported Nov. 24 that Gen. Christopher LaNeve's \"How the Army Fights\" guidance is scheduled to become the campaign plan by Feb. 1 and would end Transformation in Contact, and that a Fort Belvoir team is integrating the Odin planning app into Next Generation Command and Control. Breaking Defense reported Nov. 23 that the Army published a Defense Critical Infrastructure community coordination guide. Army.mil on Nov. 24 set the Iowa lead-azide detonation for about 9 a.m. Central on Nov. 25. No new NETCOM release was found. No new Army enterprise software agreement dated Nov. 24–25 was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms. The Nov. 24 war.gov contract list's Army entry was a $49.5 million Corps of Engineers geotechnical IDIQ, not an enterprise software vehicle.",
+  "compiled": "2026-11-26",
+  "covers": "Nov 17–26, 2026",
+  "readFirst": "Covers Nov. 17–26. New: Breaking Defense reported Nov. 25 that Lt. Gen. Frank Lozano said the first Dark Eagle battery is fully fielded, and Army.mil reported Nov. 26 that a terrain walk on Guam looked at sites for the Guam Defense System. The White House and EPA said Nov. 25 that the Iowa lead-azide detonation destroyed nearly five tons of degraded explosives and that real-time air monitors detected no airborne lead. No new NETCOM release was found. No new Army enterprise software agreement dated Nov. 25–26 was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
   "subsections": [
     {
       "id": "leadership",
@@ -32,6 +32,24 @@
     }
   ],
   "items": [
+    {
+      "id": "lead-azide-2026-11-22",
+      "subsection": "leadership",
+      "date": "2026-11-25",
+      "dateLabel": "Nov 25",
+      "headline": "Army destroys the Iowa lead-azide stockpile; EPA reports no airborne lead",
+      "summary": "The White House said Nov. 25 that the Army that morning destroyed nearly five tons of degraded explosives at the Iowa Army Ammunition Plant, and that initial indications showed no secondary explosions or infrastructure damage. EPA said one hour after the controlled detonation of crystallized lead azide in Middletown, every real-time air monitor reported zero detection of airborne lead, and that the monitors collected data throughout the event. EPA Administrator Lee Zeldin said the agency had collected 1,200 samples of air, land, dust, and water before the detonation and had 300 employees and contractors pre-positioned to sample air, land, and water afterward. In the White House release, Acting Army Secretary Adam Telle said the threat of an uncontrolled spontaneous detonation has been eliminated, and Maj. Gen. Eric Shirley said overhead coverage showed the lead azide barrels were removed, with no kickout and no infrastructure damage in or around the installation.",
+      "sources": [
+        {
+          "name": "The White House",
+          "url": "https://www.whitehouse.gov/releases/2026/11/trump-administrations-whole-of-government-effort-safely-neutralizes-obama-era-explosives-threat-in-iowa/"
+        },
+        {
+          "name": "EPA",
+          "url": "https://www.epa.gov/newsreleases/initial-air-monitoring-shows-zero-detection-airborne-lead-following-controlled"
+        }
+      ]
+    },
     {
       "id": "dci-guide-2026-11-23",
       "subsection": "leadership",
@@ -61,24 +79,6 @@
       ]
     },
     {
-      "id": "laneve-nominated-2026-11-17",
-      "subsection": "leadership",
-      "date": "2026-11-17",
-      "dateLabel": "Nov 16–17",
-      "headline": "White House nominates Gen. LaNeve to be Army chief of staff",
-      "summary": "Stars and Stripes reported Nov. 17 that the White House formally nominated Gen. Christopher LaNeve to be the Army's chief of staff, the job he has held in an acting capacity since Defense Secretary Pete Hegseth fired Gen. Randy George in April. Stars and Stripes said the Senate received the nomination Monday and referred it to the Senate Armed Services Committee, and that the White House the same day nominated Lt. Gen. Marcus Evans, director of the Army staff, to be vice chief. Breaking Defense reported that LaNeve said he has served 36 years, currently as vice chief, and that he is honored by the president's nomination. Stars and Stripes said it was not clear whether the Senate would act before a new Democratic majority is sworn in on Jan. 3, and that the White House has not nominated a permanent replacement for former Army Secretary Dan Driscoll.",
-      "sources": [
-        {
-          "name": "Stars and Stripes",
-          "url": "https://www.stripes.com/branches/army/2026-11-17/laneve-nominated-army-chief-of-staff-23497046.html"
-        },
-        {
-          "name": "Breaking Defense",
-          "url": "https://breakingdefense.com/2026/11/white-house-officially-nominates-laneve-for-army-chief/"
-        }
-      ]
-    },
-    {
       "id": "sutten-cecom-2026-11-17",
       "subsection": "leadership",
       "date": "2026-11-17",
@@ -93,6 +93,20 @@
       ]
     },
     {
+      "id": "dark-eagle-2026-11-25",
+      "subsection": "modernization",
+      "date": "2026-11-25",
+      "dateLabel": "Nov 25",
+      "headline": "Lozano says the first Dark Eagle battery is fully fielded",
+      "summary": "Breaking Defense reported Nov. 25 that Lt. Gen. Frank Lozano, Program Acquisition Executive for Fires, said in a Nov. 19 interview that the Army's first Long Range Hypersonic Weapon battery, also called Dark Eagle, is fully fielded and ready to go. Lozano declined to say when or where it was fielded. Breaking Defense said the Army first planned to field the battery in 2023 and later missed a September 2025 target, and that Lozano said the service is already over halfway through production of the third battery. He said he would like two or three vendors in production against one requirement, and that a scaled hypersonics program is meant to fill the range gap between Dark Eagle and Castelion's Blackbeard.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/first-dark-eagle-hypersonic-battery-fully-fielded-lozano-says/"
+        }
+      ]
+    },
+    {
       "id": "how-army-fights-2026-11-24",
       "subsection": "modernization",
       "date": "2026-11-24",
@@ -103,6 +117,20 @@
         {
           "name": "Breaking Defense",
           "url": "https://breakingdefense.com/2026/11/laneves-campaign-plan-aims-for-top-down-guidance-flipping-transformation-in-contact-era/"
+        }
+      ]
+    },
+    {
+      "id": "guam-gds-2026-11-26",
+      "subsection": "modernization",
+      "date": "2026-11-26",
+      "dateLabel": "Nov 26",
+      "headline": "Army air defenders walk Guam sites for a 360-degree missile defense",
+      "summary": "Army.mil reported Nov. 26 that service members conducted a terrain walk on Guam from Nov. 17 to 19 to assess how the island could support the Guam Defense System. The article said the system is meant to provide 360-degree integrated air and missile defense against ballistic, hypersonic, and cruise missile threats, and that discussions covered sensor coverage, command and control, communications, and coordination across locations. Lt. Col. Joshua Urness, commander of 3rd Battalion, 43rd Air Defense Artillery Regiment, said walking the sites with Navy, Air Force, and Missile Defense Agency teammates showed how sensors and launchers become one defense. Brig. Gen. William Parker, commanding general of the 94th Army Air and Missile Defense Command, said the capability would defend the homeland and bring combat power forward.",
+      "sources": [
+        {
+          "name": "Army.mil",
+          "url": "https://www.army.mil/article/297113/establishment_of_a_guam_defense_system_on_the_forefront_of_recent_u_s_military_terrain_walk"
         }
       ]
     },
@@ -135,20 +163,6 @@
         {
           "name": "Military Aerospace",
           "url": "https://www.militaryaerospace.com/communications/article/55420399/army-awards-sherpa-6-contract-for-tactical-edge-endpoint-management"
-        }
-      ]
-    },
-    {
-      "id": "stryker-sustainment-2026-11-19",
-      "subsection": "contracts",
-      "date": "2026-11-19",
-      "dateLabel": "Nov 18–19",
-      "headline": "Army awards General Dynamics a $332.5 million Stryker sustainment contract",
-      "summary": "GovConWire reported Nov. 19 that the Department of War said Wednesday the Army awarded General Dynamics Land Systems, of Sterling Heights, Michigan, a $332.5 million contract for Stryker sustainment. GovConWire said the indefinite-delivery/indefinite-quantity award mixes cost-plus-fixed-fee, firm-fixed-price, and cost-no-fee pricing, and covers total package fielding, vehicle deprocessing, new-equipment training, and field-level maintenance. Army Contracting Command at Detroit Arsenal received three offers. GovConWire said work locations and funding will be set on each task order, and that work is scheduled to end Nov. 17, 2031.",
-      "sources": [
-        {
-          "name": "GovConWire",
-          "url": "https://www.govconwire.com/articles/gdls-army-stryker-sustainment-contract"
         }
       ]
     },
@@ -191,24 +205,6 @@
         {
           "name": "Breaking Defense",
           "url": "https://breakingdefense.com/2026/11/army-extends-data-operations-center-pilot-to-oct-2027/"
-        }
-      ]
-    },
-    {
-      "id": "lead-azide-2026-11-22",
-      "subsection": "ahead",
-      "date": "2026-11-24",
-      "dateLabel": "Nov 24–25",
-      "headline": "Army sets the Iowa lead-azide detonation for 9 a.m. Central on Nov. 25",
-      "summary": "Army.mil reported Nov. 24 that the Army, with the EPA, FEMA, HHS, the ATF, and state and local authorities, plans a controlled in-place detonation of degraded, crystallized lead azide at the Iowa Army Ammunition Plant on Wednesday, Nov. 25, at about 9:00 a.m. Central. The Army said a safety inspection found severe degradation in about 68 drums, totaling more than 9,700 pounds net explosive weight, and that Acting Army Secretary Adam Telle said a controlled detonation is preferable to an uncontrolled spontaneous detonation. Army.mil said FEMA is supporting a recommended relocation for Middletown and areas in a five-mile cone southwest of the plant, with short-term hotel lodging through Friday, Nov. 27. Al Jazeera, carrying a Reuters report, said Nov. 24 that the 8th Circuit lifted a temporary stay of the EPA permit on Monday after President Trump ordered the Army to wait for the court's ruling.",
-      "sources": [
-        {
-          "name": "Army.mil",
-          "url": "https://www.army.mil/article/297069/army_announces_controlled_detonation_of_degraded_explosive_material_at_iowa_army_ammunition_plant"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/24/us-army-says-detonation-of-lead-explosives-in-iowa-will-proceed"
         }
       ]
     }

@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-25",
+  "title": "November 25, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "CYBER",
+      "dateLabel": "Nov 24",
+      "headline": "CISA adds Drupal, AntiCsrf, and Optimizely flaws, due Nov. 27",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
+        }
+      ]
+    },
+    {
+      "label": "ARMY",
+      "dateLabel": "Nov 24",
+      "headline": "LaNeve would replace Continuous Transformation by Feb. 1",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/laneves-campaign-plan-aims-for-top-down-guidance-flipping-transformation-in-contact-era/"
+        }
+      ]
+    },
+    {
+      "label": "BUDGET",
+      "dateLabel": "Nov 24",
+      "headline": "White House seeks $5 billion so Golden Dome can keep producing",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/white-house-seeks-funding-exemptions-for-golden-dome-trump-battleship-in-next-funding-stopgap/"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 24",
+      "headline": "Hegseth rejects Senate language on human responsibility for AI weapons",
+      "sources": [
+        {
+          "name": "Bloomberg Government",
+          "url": "https://news.bgov.com/bloomberg-government-news/hegseth-rejects-senates-proposed-safeguards-for-ai-weapons-use"
+        }
+      ]
+    },
+    {
+      "label": "PARTNERS",
+      "dateLabel": "Nov 24",
+      "headline": "Huang is still set to testify on chip controls Dec. 1–3",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/policy/reinstated-nvidia-ceo-jensen-huang-must-still-face-china-congressional-and-senate-banking-committees-senators-and-representatives-demand-answers-from-nvidia-ceo-on-national-security-threats-and-export-controls"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Nov 24",
+      "headline": "Pentagon AI chief says open-source data can reach commanders faster",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/intelligence-community/2026/11/intel-community-to-expand-unclassified-capabilities-to-boost-osint/"
+        }
+      ]
+    }
+  ]
+}

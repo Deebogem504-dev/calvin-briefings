@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-25",
-  "covers": "Nov 16–25, 2026",
-  "readFirst": "Covers Nov. 16–25. New: Bloomberg Government reported Nov. 24 that Secretary Pete Hegseth is rejecting Senate language that would require commanders to keep ultimate human responsibility over lethal force by autonomous weapons and artificial intelligence. The White House request for a $5 billion Golden Dome anomaly in the next continuing resolution is on the budget page. No new Golden Dome program release dated Nov. 24–25 was opened on war.gov. No new Department of War enterprise software agreement in that window was found. war.gov posted contracts for Nov. 24 and no news releases; no Nov. 25 contract list was posted at the time of this edition.",
+  "compiled": "2026-11-26",
+  "covers": "Nov 19–26, 2026",
+  "readFirst": "Covers Nov. 19–26. New: the Department of War reported Nov. 25 that Secretary Pete Hegseth directed a cloud-based, phone-accessible replacement for the Defense Joint Military Pay System, and Breaking Defense reported Nov. 25 that the Air Force awarded Boeing $2.8 billion for 15 KC-46 tankers. The White House request for a $5 billion Golden Dome anomaly remains on the budget page. No new Golden Dome program release dated Nov. 25–26 was opened on war.gov. No new Department of War enterprise software agreement in that window was found. No Nov. 25 or Nov. 26 contract list was posted on war.gov at the time of this edition.",
   "subsections": [
     {
       "id": "secwar",
@@ -28,6 +28,20 @@
     }
   ],
   "items": [
+    {
+      "id": "hegseth-pay-2026-11-25",
+      "subsection": "secwar",
+      "date": "2026-11-25",
+      "dateLabel": "Nov 25",
+      "headline": "Hegseth orders a cloud, phone-based military pay system",
+      "summary": "The Department of War reported Nov. 25 that Secretary Pete Hegseth, in a video posted Nov. 13, directed Comptroller Jules W. Hurst III to lead the Warrior Pay Modernization initiative under a memo titled \"Modernizing Total Force Pay.\" Hegseth said the current process, which dates to 2009, has produced a backlog of pay challenges, more manual tasks, delayed benefits, and payment errors, and that pay will no longer be withheld while a problem is resolved. The department said the memo orders the Defense Finance and Accounting Service to deliver a globally accessible phone application for pay information and support requests, and to turn the Defense Joint Military Pay System into a cloud-based, self-service joint warrior pay system.",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4660118/hegseth-directs-military-pay-system-modernization-prioritizing-warfighters/"
+        }
+      ]
+    },
     {
       "id": "hegseth-ai-weapons-2026-11-24",
       "subsection": "secwar",
@@ -79,16 +93,16 @@
       ]
     },
     {
-      "id": "ngab-2026-11-17",
-      "subsection": "secwar",
-      "date": "2026-11-17",
-      "dateLabel": "Nov 17",
-      "headline": "War Department asks states to propose a Next Great American Base",
-      "summary": "The Department of War reported Nov. 17 that it released a video asking state and local officials to propose locations, before a December deadline, for a prototype all-domain installation it calls the Next Great American Base. Assistant Secretary Dale Marks, for energy, infrastructure and environment, said the department is not building an installation for today's doctrine and wants a platform for 2050 and beyond, including layered defenses against hypersonic strikes, directed energy, cyber intrusions, orbital surveillance, and electromagnetic warfare. Marks said the base should sustain power, water, data, and defense off the civilian grid for up to 90 consecutive days, and that strategic facilities may need to sit hundreds of feet underground.",
+      "id": "kc46-lot13-2026-11-25",
+      "subsection": "acquisition",
+      "date": "2026-11-25",
+      "dateLabel": "Nov 25",
+      "headline": "Air Force awards Boeing $2.8 billion for 15 more KC-46 tankers",
+      "summary": "Breaking Defense reported Nov. 25 that the Air Force awarded Boeing $2.8 billion for Lot 13 of the KC-46 Pegasus, covering 15 aircraft, with work expected to finish by the end of June 2030. Breaking Defense said the Defense Department contract notice was published Tuesday and that Boeing said the award brings the total number of refuelers under contract to 203, including foreign sales. Boeing said it has delivered 116 aircraft to the Air Force, six to Japan, and two to Israel. Breaking Defense said Lot 13 is the last batch under the 2011 fixed-price contract, that the Air Force wants up to 75 more aircraft under an extension starting with Lot 14, and that officials have said they will not proceed until category 1 deficiencies are resolved, including a remote vision system the service expects to field beginning in early 2028.",
       "sources": [
         {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/News-Stories/Article/Article/4649602/dow-looks-for-next-great-american-base-challenges-states-to-think-futuristically/"
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/air-force-issues-boeing-2-8-billion-for-more-kc-46s/"
         }
       ]
     },
@@ -117,20 +131,6 @@
         {
           "name": "Department of War",
           "url": "https://www.war.gov/News/Releases/Release/Article/4655108/department-of-war-advances-orchestration-for-unmanned-vehicle-fleets/"
-        }
-      ]
-    },
-    {
-      "id": "de-shootoff-2026-11-16",
-      "subsection": "acquisition",
-      "date": "2026-11-16",
-      "dateLabel": "Nov 16",
-      "headline": "Seven laser teams are invited to a mid-December counter-drone shoot-off at Dugway",
-      "summary": "The Department of War said Nov. 16 that its Office of Research and Engineering and Joint Interagency Task Force 401 invited seven industry teams, chosen from 13 white papers, to Phase II of a directed-energy counter-drone evaluation, with live fire at Dugway Proving Ground planned for mid-December. The systems are Allen Control Systems' Bullfrog, Aurelius Systems' Archimedes, AeroVironment (BlueHalo) Locust X1, Kord Technologies' Firefly, Lockheed Martin (IPG) Crossbow, Thor Dynamics' Laser Armor, and Yrikka's Talos drone-based laser. Brig. Gen. Matthew Ross, director of the task force, said the shoot-off is structured so a system that performs successfully can immediately result in a purchase order. Under Secretary Emil Michael said scaled directed energy is one of the department's six critical technology areas.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4648762/department-of-war-invites-seven-industry-teams-to-participate-in-phase-ii-direc/"
         }
       ]
     },
