@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Cybersecurity Daily Briefing",
   "description": "Actively exploited vulnerabilities, major incidents, and threat trends relevant to enterprise and federal networks.",
-  "compiled": "2026-11-26",
-  "covers": "Nov 17–26, 2026",
-  "readFirst": "Covers Nov. 17–26. New: CISA on Nov. 25 added 10 vulnerabilities to the Known Exploited Vulnerabilities catalog, eight due Nov. 28 and two due Dec. 9, including an HPE Juniper Session Smart command-injection flaw and five Mitel MiCollab flaws. The Nov. 23 MONAI Label and MailAssure items are due Nov. 26. The Nov. 24 Drupal, AntiCsrf, and Optimizely items are due Nov. 27. No CISA KEV alert dated Nov. 26 was posted. Puppet Enterprise CVE-2026-115731 remains due Dec. 1. Palo Alto Networks' PAN-OS bulletin remains in Threat Trends.",
+  "compiled": "2026-11-27",
+  "covers": "Nov 17–27, 2026",
+  "readFirst": "Covers Nov. 17–27. New: Federal News Network reported Nov. 26 that FinCEN is investigating unauthorized access to a limited subset of its systems and that Treasury has taken some systems offline. The Nov. 23 MONAI Label and MailAssure items were removed after their Nov. 26 due date passed. The Nov. 24 Drupal, AntiCsrf, and Optimizely items are due Nov. 27. The Nov. 25 Juniper, MiCollab, Danfoss, and Xen Orchestra items are due Nov. 28, except two due Dec. 9. No CISA KEV alert dated Nov. 26 or Nov. 27 was posted. Puppet Enterprise CVE-2026-115731 remains due Dec. 1.",
   "subsections": [
     {
       "id": "kev",
@@ -61,24 +61,6 @@
       ]
     },
     {
-      "id": "kev-monai-mail-2026-11-23",
-      "subsection": "kev",
-      "date": "2026-11-23",
-      "dateLabel": "Nov 23",
-      "headline": "CISA adds exploited MONAI Label and MailAssure flaws, due Nov. 26",
-      "summary": "CISA said Nov. 23 that it added two vulnerabilities to the Known Exploited Vulnerabilities catalog based on evidence of active exploitation: CVE-2026-133968 in Project MONAI Label and CVE-2026-134624 in N-able MailAssure, also called SpamExperts. The catalog says MONAI Label lets an unauthenticated remote attacker write arbitrary files outside the datastore directory, potentially resulting in remote code execution. It says MailAssure's LDAP synchronization connection check lets an authenticated API user connect to arbitrary internal hosts and ports, see which are reachable, and send crafted data to internal services. The catalog sets a due date of Nov. 26, 2026, for both, requires forensic triage for each, and lists ransomware use as unknown.",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog"
-        },
-        {
-          "name": "CISA KEV catalog",
-          "url": "https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv"
-        }
-      ]
-    },
-    {
       "id": "kev-puppet-2026-11-17",
       "subsection": "kev",
       "date": "2026-11-17",
@@ -93,6 +75,20 @@
         {
           "name": "CISA KEV catalog",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        }
+      ]
+    },
+    {
+      "id": "fincen-2026-11-26",
+      "subsection": "incidents",
+      "date": "2026-11-26",
+      "dateLabel": "Nov 26",
+      "headline": "FinCEN investigates unauthorized access and takes some systems offline",
+      "summary": "Federal News Network reported Nov. 26 that the Treasury Department's Financial Crimes Enforcement Network is investigating a cyber incident that resulted in unauthorized access to a limited subset of its systems. FinCEN's advisory, as described by Federal News Network, says Treasury has taken some systems offline as a proactive measure and that some Bank Secrecy Act e-filing services are temporarily unavailable. Federal News Network said the Financial Institutions Hotline has not been affected, and that institutions can still use it to get suspicious-activity information to law enforcement. The report placed the intrusion among a series of recent federal cyber incidents, including a breach of an unclassified system used for open-source intelligence.",
+      "sources": [
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/cybersecurity/2026/11/treasury-fincen-systems-latest-to-be-hit-by-cyber-incident/"
         }
       ]
     },

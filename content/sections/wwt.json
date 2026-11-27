@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT ↔ U.S. Army Signal Mapping",
   "description": "World Wide Technology public content and Army business, set next to U.S. Army leadership priorities.",
-  "compiled": "2026-11-26",
-  "covers": "Nov 17–26, 2026",
-  "readFirst": "Covers Nov. 17–26. New: WWT published a Nov. 24 blog on Dell PowerStoreOS 5.1, including non-disruptive NAS migration, replication to three clusters, and hardware encryption of Fibre Channel traffic. No new WWT article or press release dated Nov. 25 or Nov. 26 was found. The Nov. 20 Confluent article and the Nov. 17 NetApp Insight recap remain. The Signal Mapping subsection is empty.",
+  "compiled": "2026-11-27",
+  "covers": "Nov 17–27, 2026",
+  "readFirst": "Covers Nov. 17–27. No new WWT article or press release dated Nov. 26 or Nov. 27 was found. The Nov. 24 blog on Dell PowerStoreOS 5.1 remains the latest, covering non-disruptive NAS migration, replication to three clusters, and hardware encryption of Fibre Channel traffic. The Nov. 20 Confluent article and the Nov. 17 NetApp Insight recap remain. The Signal Mapping subsection is empty.",
   "subsections": [
     {
       "id": "content",

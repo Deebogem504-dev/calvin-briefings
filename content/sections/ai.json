@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "AI Daily Briefing",
   "description": "Anthropic, OpenAI, Google, Nvidia, open and local models, and AI in defense.",
-  "compiled": "2026-11-26",
-  "covers": "Nov 17–26, 2026",
-  "readFirst": "Covers Nov. 17–26. New: Google DeepMind said Nov. 25 that Mass Spec Skills for Antigravity let Gemini 3.8 Flash, Gemini 4 Argon, and Gemini 4 Carbon identify catalogued molecules in around 97 percent of a 100-spectrum test. No new Anthropic or OpenAI announcement dated Nov. 25–26 was opened; Anthropic's newsroom still leads with the Nov. 9 Claude Fable 5.2 and Mythos 5.2 release. The Open and Local Models subsection is empty. Commerce's Nov. 25 Entity List rule is on the partners page, and Shirudo remains on the cyber page.",
+  "compiled": "2026-11-27",
+  "covers": "Nov 17–27, 2026",
+  "readFirst": "Covers Nov. 17–27. No new Anthropic, OpenAI, or Google DeepMind product announcement dated Nov. 26–27 was opened. Tom's Hardware on those days led with export controls, a DRAM shortage, and a Ukrainian laser, which are on the partners, data-center, and tech pages. An EIN military-desk item dated Nov. 26 restated OpenAI's July limits on military use and was not added. The Open and Local Models subsection is empty. Commerce's Nov. 25 Entity List rule remains on the partners page.",
   "subsections": [
     {
       "id": "anthropic",

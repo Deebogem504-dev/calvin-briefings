@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Army Weekly Briefing",
   "description": "Army leadership, force design, modernization, contracts and the signal and network enterprise.",
-  "compiled": "2026-11-26",
-  "covers": "Nov 17–26, 2026",
-  "readFirst": "Covers Nov. 17–26. New: Breaking Defense reported Nov. 25 that Lt. Gen. Frank Lozano said the first Dark Eagle battery is fully fielded, and Army.mil reported Nov. 26 that a terrain walk on Guam looked at sites for the Guam Defense System. The White House and EPA said Nov. 25 that the Iowa lead-azide detonation destroyed nearly five tons of degraded explosives and that real-time air monitors detected no airborne lead. No new NETCOM release was found. No new Army enterprise software agreement dated Nov. 25–26 was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
+  "compiled": "2026-11-27",
+  "covers": "Nov 17–27, 2026",
+  "readFirst": "Covers Nov. 17–27. New: the Associated Press reported Nov. 27 that the EPA expects laboratory results from the Iowa lead-azide detonation to start arriving as early as Friday, and that airborne-lead monitors have continued to read zero since Wednesday. Dark Eagle fielding and the Guam terrain walk remain. No new NETCOM release was found. No new Army enterprise software agreement dated Nov. 26–27 was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
   "subsections": [
     {
       "id": "leadership",
@@ -35,18 +35,18 @@
     {
       "id": "lead-azide-2026-11-22",
       "subsection": "leadership",
-      "date": "2026-11-25",
-      "dateLabel": "Nov 25",
-      "headline": "Army destroys the Iowa lead-azide stockpile; EPA reports no airborne lead",
-      "summary": "The White House said Nov. 25 that the Army that morning destroyed nearly five tons of degraded explosives at the Iowa Army Ammunition Plant, and that initial indications showed no secondary explosions or infrastructure damage. EPA said one hour after the controlled detonation of crystallized lead azide in Middletown, every real-time air monitor reported zero detection of airborne lead, and that the monitors collected data throughout the event. EPA Administrator Lee Zeldin said the agency had collected 1,200 samples of air, land, dust, and water before the detonation and had 300 employees and contractors pre-positioned to sample air, land, and water afterward. In the White House release, Acting Army Secretary Adam Telle said the threat of an uncontrolled spontaneous detonation has been eliminated, and Maj. Gen. Eric Shirley said overhead coverage showed the lead azide barrels were removed, with no kickout and no infrastructure damage in or around the installation.",
+      "date": "2026-11-27",
+      "dateLabel": "Nov 25–27",
+      "headline": "EPA says Iowa lab results could start Friday; airborne lead still reads zero",
+      "summary": "The Associated Press reported Nov. 27 that the EPA expects laboratory results from sampling after the Army's controlled detonation of the nation's lead-azide stockpile to start coming in as early as Friday. The EPA said in a Thursday statement, as reported by the Associated Press, that personnel and contractors took more than 1,500 samples of air, water, soil, and dust before the detonation and hundreds afterward, including from homes, parks, and drinking water, and that airborne-lead monitors have continued to read zero since Wednesday. The White House said Nov. 25 that the Army that morning destroyed nearly five tons of degraded explosives at the Iowa Army Ammunition Plant and that initial indications showed no secondary explosions or infrastructure damage. In that release, Acting Army Secretary Adam Telle said the threat of an uncontrolled spontaneous detonation has been eliminated.",
       "sources": [
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/news/us-news/test-results-samples-taken-iowa-detonation-are-expected-soon-epa-says-rcna611525"
+        },
         {
           "name": "The White House",
           "url": "https://www.whitehouse.gov/releases/2026/11/trump-administrations-whole-of-government-effort-safely-neutralizes-obama-era-explosives-threat-in-iowa/"
-        },
-        {
-          "name": "EPA",
-          "url": "https://www.epa.gov/newsreleases/initial-air-monitoring-shows-zero-detection-airborne-lead-following-controlled"
         }
       ]
     },

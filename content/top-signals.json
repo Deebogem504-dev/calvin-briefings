@@ -3,50 +3,50 @@
     {
       "section": "cyber",
       "label": "CYBER",
-      "dateLabel": "Nov 25",
-      "headline": "CISA adds 10 exploited flaws, eight of them due Nov. 28",
-      "item": "kev-juniper-micollab-2026-11-25",
-      "href": "cyber.html#kev"
-    },
-    {
-      "section": "army",
-      "label": "ARMY",
-      "dateLabel": "Nov 25",
-      "headline": "Lozano says the first Dark Eagle battery is fully fielded",
-      "item": "dark-eagle-2026-11-25",
-      "href": "army.html#modernization"
+      "dateLabel": "Nov 26",
+      "headline": "FinCEN takes systems offline after unauthorized access",
+      "item": "fincen-2026-11-26",
+      "href": "cyber.html#incidents"
     },
     {
       "section": "dow",
       "label": "DOW",
       "dateLabel": "Nov 25",
-      "headline": "Hegseth orders a cloud, phone-based military pay system",
-      "item": "hegseth-pay-2026-11-25",
+      "headline": "White House puts cyber policy under the NSC and names Rudd to Cyber Command",
+      "item": "wh-cyber-structure-2026-11-25",
       "href": "dow.html#secwar"
     },
     {
       "section": "partners",
       "label": "PARTNERS",
-      "dateLabel": "Nov 25",
-      "headline": "Commerce puts Megaspeed firms on the Entity List",
-      "item": "megaspeed-entity-2026-11-25",
+      "dateLabel": "Nov 26",
+      "headline": "Nvidia halts AI-server shipments to four Southeast Asian countries",
+      "item": "nvidia-sea-halt-2026-11-26",
       "href": "partners.html#nvidia"
     },
     {
-      "section": "ai",
-      "label": "AI",
-      "dateLabel": "Nov 25",
-      "headline": "DeepMind says Mass Spec Skills identified about 97 percent of a test set",
-      "item": "mass-spec-2026-11-25",
-      "href": "ai.html#google"
+      "section": "datacenter",
+      "label": "DC/NET",
+      "dateLabel": "Nov 26",
+      "headline": "Manufacturers open DRAM war rooms as HBM crowds out supply",
+      "item": "dram-war-rooms-2026-11-26",
+      "href": "datacenter.html#storage"
     },
     {
-      "section": "budget",
-      "label": "BUDGET",
-      "dateLabel": "Nov 24",
-      "headline": "White House seeks $5 billion so Golden Dome can keep producing",
-      "item": "cr-anomalies-2026-11-24",
-      "href": "budget.html#approps"
+      "section": "army",
+      "label": "ARMY",
+      "dateLabel": "Nov 27",
+      "headline": "EPA says Iowa lab results could start Friday; airborne lead still zero",
+      "item": "lead-azide-2026-11-22",
+      "href": "army.html#leadership"
+    },
+    {
+      "section": "tech",
+      "label": "TECH",
+      "dateLabel": "Nov 26",
+      "headline": "Ukraine's Blysk laser downs a jet-powered Shahed in testing",
+      "item": "blysk-laser-2026-11-26",
+      "href": "tech.html#autonomy"
     }
   ]
 }

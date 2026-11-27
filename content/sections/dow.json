@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Department of War Daily Briefing",
   "description": "Secretary-level initiatives, acquisition, Golden Dome, operations and policy across the Department of War.",
-  "compiled": "2026-11-26",
-  "covers": "Nov 19–26, 2026",
-  "readFirst": "Covers Nov. 19–26. New: the Department of War reported Nov. 25 that Secretary Pete Hegseth directed a cloud-based, phone-accessible replacement for the Defense Joint Military Pay System, and Breaking Defense reported Nov. 25 that the Air Force awarded Boeing $2.8 billion for 15 KC-46 tankers. The White House request for a $5 billion Golden Dome anomaly remains on the budget page. No new Golden Dome program release dated Nov. 25–26 was opened on war.gov. No new Department of War enterprise software agreement in that window was found. No Nov. 25 or Nov. 26 contract list was posted on war.gov at the time of this edition.",
+  "compiled": "2026-11-27",
+  "covers": "Nov 19–27, 2026",
+  "readFirst": "Covers Nov. 19–27. New: the White House said Nov. 25 that the Office of the National Cyber Director will sit inside a reorganized White House structure, that cyber policy and operations teams will move under the National Security Council and the Homeland Security Council, and that Gen. Joshua M. Rudd will lead the NSA and U.S. Cyber Command. The FinCEN intrusion Federal News Network reported Nov. 26 is on the cyber page. No new Golden Dome program release dated Nov. 26–27 was opened on war.gov. No new Department of War enterprise software agreement in that window was found. No Nov. 26 or Nov. 27 contract list was found on war.gov.",
   "subsections": [
     {
       "id": "secwar",
@@ -28,6 +28,20 @@
     }
   ],
   "items": [
+    {
+      "id": "wh-cyber-structure-2026-11-25",
+      "subsection": "secwar",
+      "date": "2026-11-25",
+      "dateLabel": "Nov 25",
+      "headline": "White House folds cyber policy into the NSC and names Rudd to lead NSA and Cyber Command",
+      "summary": "The White House said Nov. 25 that the Office of the National Cyber Director, which President Trump has nominated Pentagon Chief Information Officer Kirsten Davies to lead, will be integrated into a reorganized White House operational and policy structure. The release said White House cyber policy and operations teams will be reorganized under the National Security Council and the Homeland Security Council. It said Trump appointed Gen. Joshua M. Rudd to lead the National Security Agency and U.S. Cyber Command, and that he established a Super Intelligence Force chaired by Director of National Intelligence Jay Clayton. The release said CISA has waived otherwise applicable hiring limits, has added more than 200 mission-critical personnel, and expects more than 400 additional personnel, and that the Justice Department and the FBI will unveil a cyber-defense initiative next week as a follow-on to Operation Winter SHIELD.",
+      "sources": [
+        {
+          "name": "The White House",
+          "url": "https://www.whitehouse.gov/releases/2026/11/president-trump-unleashes-whole-of-government-effort-to-protect-americas-critical-infrastructure/"
+        }
+      ]
+    },
     {
       "id": "hegseth-pay-2026-11-25",
       "subsection": "secwar",
@@ -75,20 +89,6 @@
         {
           "name": "Federal News Network",
           "url": "https://federalnewsnetwork.com/cybersecurity/2026/11/pentagon-cio-to-replace-cairncross-as-top-wh-cyber-official/"
-        }
-      ]
-    },
-    {
-      "id": "acme-classification-2026-11-23",
-      "subsection": "secwar",
-      "date": "2026-11-23",
-      "dateLabel": "Nov 23",
-      "headline": "War Department adopts ACME to classify and declassify records with super intelligence",
-      "summary": "The Department of War reported Nov. 23 that the Automated Classification Management Environment is meant to use super intelligence and automated workflows to classify and declassify records. Paola Apodaca, chief of declassification for the undersecretary of war for intelligence and security, said the system will speed classification for documents from the department's more than 5 million service members, civilians, and contractors. The department said records management costs taxpayers more than $15 billion a year, and that users now manually search more than 4,000 security classification guides. It said Deputy Secretary Steve Feinberg adopted ACME as an enterprise solution in October, appointed Air Force Secretary Troy Meink to oversee it, and that the tools grew out of a $2.35 million investment by Under Secretary Bradley Hansell and Cameron Stanley, the department's chief super intelligence officer.",
-      "sources": [
-        {
-          "name": "Department of War",
-          "url": "https://www.war.gov/News/News-Stories/Article/Article/4658620/dow-launches-automated-si-solution-for-classification-management/"
         }
       ]
     },

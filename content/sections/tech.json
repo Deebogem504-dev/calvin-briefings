@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "Emerging Technology Weekly Briefing",
   "description": "Quantum and post-quantum cryptography, robotics and autonomy, advanced compute, and space-enabled tech.",
-  "compiled": "2026-11-26",
-  "covers": "Nov 22–26, 2026",
-  "readFirst": "Covers Nov. 22–26. No new post-quantum standard, Army autonomy award, or space award dated Nov. 25–26 was opened. Tom's Hardware on Nov. 25 and Nov. 26 led with consumer deals and did not add a quantum, autonomy, compute, or space item. The Nov. 22 reports on Ukraine's Puma anti-jam radio and TSMC's shipment pause remain. The quantum and space subsections are empty.",
+  "compiled": "2026-11-27",
+  "covers": "Nov 22–27, 2026",
+  "readFirst": "Covers Nov. 22–27. New: Tom's Hardware reported Nov. 26 that Ukraine's Blysk laser, made by Carmine Sky and deployed Nov. 19, shot down a jet-powered Shahed while protecting critical infrastructure. No new post-quantum standard, Army autonomy award, or space award dated Nov. 26–27 was opened. The quantum and space subsections are empty.",
   "subsections": [
     {
       "id": "quantum",
@@ -28,6 +28,20 @@
     }
   ],
   "items": [
+    {
+      "id": "blysk-laser-2026-11-26",
+      "subsection": "autonomy",
+      "date": "2026-11-26",
+      "dateLabel": "Nov 26",
+      "headline": "Tom's Hardware: Ukraine's Blysk laser downs a jet-powered Shahed in testing",
+      "summary": "Tom's Hardware reported Nov. 26, citing the Kyiv Independent, that Ukrainian forces shot down a Russian jet-powered Shahed drone with the Blysk laser, a system developed by Carmine Sky and deployed on Nov. 19. Tom's Hardware said Serhii Beskrestnov, a defense-tech adviser to President Zelensky, posted video and described Blysk as being tested in active duty to protect an unnamed critical-infrastructure facility. Tom's Hardware said the source report described persistent cloud cover and fog, which can weaken a laser before it reaches a target, and that lasers are expected to augment kinetic air defense rather than replace it.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/drones/ukraine-downs-russian-jet-drone-with-cheap-high-powered-laser-for-the-first-time-super-fast-shahed-knocked-out-by-a-4-kilowatt-test-system"
+        }
+      ]
+    },
     {
       "id": "puma-palych-2026-11-22",
       "subsection": "autonomy",

@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-26",
+  "title": "November 26, 2026",
+  "note": "Top signals from the edition replaced on the next weekday.",
+  "signals": [
+    {
+      "label": "CYBER",
+      "dateLabel": "Nov 25",
+      "headline": "CISA adds 10 exploited flaws, eight of them due Nov. 28",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "CISA KEV catalog",
+          "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+        }
+      ]
+    },
+    {
+      "label": "ARMY",
+      "dateLabel": "Nov 25",
+      "headline": "Lozano says the first Dark Eagle battery is fully fielded",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/first-dark-eagle-hypersonic-battery-fully-fielded-lozano-says/"
+        }
+      ]
+    },
+    {
+      "label": "DOW",
+      "dateLabel": "Nov 25",
+      "headline": "Hegseth orders a cloud, phone-based military pay system",
+      "sources": [
+        {
+          "name": "Department of War",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4660118/hegseth-directs-military-pay-system-modernization-prioritizing-warfighters/"
+        }
+      ]
+    },
+    {
+      "label": "PARTNERS",
+      "dateLabel": "Nov 25",
+      "headline": "Commerce puts Megaspeed firms on the Entity List",
+      "sources": [
+        {
+          "name": "Federal Register",
+          "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23999/additions-to-the-entity-list"
+        }
+      ]
+    },
+    {
+      "label": "AI",
+      "dateLabel": "Nov 25",
+      "headline": "DeepMind says Mass Spec Skills identified about 97 percent of a test set",
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/"
+        }
+      ]
+    },
+    {
+      "label": "BUDGET",
+      "dateLabel": "Nov 24",
+      "headline": "White House seeks $5 billion so Golden Dome can keep producing",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/white-house-seeks-funding-exemptions-for-golden-dome-trump-battleship-in-next-funding-stopgap/"
+        }
+      ]
+    }
+  ]
+}

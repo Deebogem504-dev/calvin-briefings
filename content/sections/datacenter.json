@@ -6,9 +6,9 @@
   "cadence": "Daily · weekdays",
   "title": "Data Center & Networking Daily Briefing",
   "description": "AI fabrics and enterprise networking, data center capacity, power and cooling, and AI storage.",
-  "compiled": "2026-11-26",
-  "covers": "Nov 17–26, 2026",
-  "readFirst": "Covers Nov. 17–26. No new networking-product, capacity, or power announcement dated Nov. 25–26 was opened. WWT's Nov. 24 note on PowerStoreOS 5.1 is on the WWT page. The Army's request for power and data-center leases at nine installations remains on the Army page. The storage subsection is empty.",
+  "compiled": "2026-11-27",
+  "covers": "Nov 17–27, 2026",
+  "readFirst": "Covers Nov. 17–27. New: Tom's Hardware reported Nov. 26 that electronics makers have set up procurement war rooms for DRAM, and that SK hynix has called 2027 the worst year of the shortage. No new networking-product or power announcement dated Nov. 26–27 was opened. WWT's Nov. 24 note on PowerStoreOS 5.1 remains on the WWT page. The Army's request for power and data-center leases at nine installations remains on the Army page.",
   "subsections": [
     {
       "id": "networking",
@@ -137,6 +137,20 @@
         {
           "name": "Tom's Hardware",
           "url": "https://www.tomshardware.com/tech-industry/data-centers/403-hyperscale-us-data-centers-used-staggering-82-terawatts-of-electricity-in-a-year-more-than-80-percent-of-michigans-entire-consumption-generated-26-million-tons-of-co2-in-a-single-year-gas-and-coal-supplied-54-percent-of-the-power-harvard-led-study-estimates"
+        }
+      ]
+    },
+    {
+      "id": "dram-war-rooms-2026-11-26",
+      "subsection": "storage",
+      "date": "2026-11-26",
+      "dateLabel": "Nov 26",
+      "headline": "Tom's Hardware: manufacturers open war rooms to buy DRAM in tiny lots",
+      "summary": "Tom's Hardware reported Nov. 26, citing The Wall Street Journal, that electronics makers, especially smaller ones, have set up procurement war rooms to find DRAM, including on eBay, and that some are buying batches of five or 12 units. Tom's Hardware said Apacer president Gibson Chen told The Wall Street Journal the company took out loans so it could pay immediately if chips appeared, and quoted him saying, \"If chips show up, we take it.\" Tom's Hardware said Micron, Samsung, and SK hynix have shifted production toward high-bandwidth memory, that SK hynix has called 2027 the worst year for the shortage, and that new factories from the three manufacturers are not expected to start producing memory chips until 2028.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/dram/electronics-manufacturers-set-up-memory-war-rooms-to-find-lock-in-dram-supplies-amid-worst-shortage-in-history-employees-scour-ebay-contact-hundreds-of-brokers-and-snap-up-even-small-batches-of-just-5-to-12-units"
         }
       ]
     }

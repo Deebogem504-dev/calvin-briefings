@@ -6,9 +6,9 @@
   "cadence": "Weekly · Mondays",
   "title": "WWT Partners Weekly Briefing",
   "description": "Cisco, Dell, HPE, NetApp, F5, Intel, NVIDIA, Microsoft, Palo Alto Networks, AWS, Google Cloud and VMware.",
-  "compiled": "2026-11-26",
-  "covers": "Nov 16–26, 2026",
-  "readFirst": "Covers Nov. 16–26. New: a Commerce Department final rule published Nov. 25 adds Megaspeed International and six other firms in Malaysia, Singapore, and Thailand to the Entity List, effective Nov. 23, because of the risk of diverting advanced computing commodities. Tom's Hardware reported Nov. 25 that Huang denied special government treatment at an all-hands; that account was not added because the Nvidia subsection is full. No new Cisco, Dell, HPE, NetApp, Microsoft, AWS, or Google Cloud announcement dated Nov. 25–26 was opened. F5 and VMware product news were quiet. No new Red Hat press release or Army or Department of War deal dated Nov. 25–26 was found. No new Army or Department of War enterprise agreement was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
+  "compiled": "2026-11-27",
+  "covers": "Nov 16–27, 2026",
+  "readFirst": "Covers Nov. 16–27. New: Tom's Hardware reported Nov. 26 that Nvidia has told Dell, Supermicro, and other server makers to stop shipping AI servers to Singapore, Thailand, Malaysia, and Indonesia. The Nov. 17 earnings item was dropped so the Nvidia subsection stayed at four. No new Cisco, Dell, HPE, NetApp, Microsoft, AWS, or Google Cloud announcement dated Nov. 26–27 was opened. F5 and VMware product news were quiet. No new Red Hat press release or Army or Department of War deal dated Nov. 26–27 was found. No new Army or Department of War enterprise agreement was found in Army CIO reporting, ESI, war.gov, Federal News Network, Breaking Defense, DefenseScoop, Nextgov, GovConWire, or vendor newsrooms.",
   "subsections": [
     {
       "id": "cisco",
@@ -57,6 +57,20 @@
   ],
   "items": [
     {
+      "id": "nvidia-sea-halt-2026-11-26",
+      "subsection": "nvidia",
+      "date": "2026-11-26",
+      "dateLabel": "Nov 26",
+      "headline": "Nvidia tells server makers to stop AI shipments to four Southeast Asian countries",
+      "summary": "Tom's Hardware reported Nov. 26, citing the Financial Times, that Nvidia has ordered manufacturing partners to stop shipping AI servers to Singapore, Thailand, Malaysia, and Indonesia. Tom's Hardware said Dell, Supermicro, and other firms that build servers with Nvidia AI GPUs have told customers in those countries that Nvidia has forbidden the shipments. Tom's Hardware said the move follows U.S. rules that closed a loophole letting Chinese AI companies rent compute abroad, and that the rules give cloud providers 90 days to apply for an export license and show their customers are not restricted entities. Tom's Hardware said it is unclear whether Nvidia's order is permanent, and quoted a cloud-provider executive telling the Financial Times that there is a new rule but no guidance on how to apply for the license.",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-stops-ai-gpu-shipments-to-southeast-asia-report-claims-data-centers-in-singapore-other-countries-in-trouble-as-commerce-department-requires-cloud-providers-to-obtain-export-license"
+        }
+      ]
+    },
+    {
       "id": "megaspeed-entity-2026-11-25",
       "subsection": "nvidia",
       "date": "2026-11-25",
@@ -95,20 +109,6 @@
         {
           "name": "NVIDIA",
           "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
-        }
-      ]
-    },
-    {
-      "id": "nvidia-earnings-2026-11-17",
-      "subsection": "nvidia",
-      "date": "2026-11-17",
-      "dateLabel": "Nov 17",
-      "headline": "Nvidia reports $115.8 billion in fiscal third-quarter revenue",
-      "summary": "NVIDIA said Nov. 17 that revenue for the fiscal 2027 third quarter, ended Oct. 25, was $115.8 billion, up 20 percent from the prior quarter and 103 percent from a year earlier, and that Data Center revenue was $107.6 billion, up 110 percent from a year earlier. Interim chief executive Colette Kress said Vera Rubin is off to an explosive start, and the release said Vera Rubin NVL72 has begun shipping. NVIDIA said fourth-quarter revenue is expected to be $130.0 billion, plus or minus 3 percent, with no Data Center compute revenue from China assumed in the outlook. GAAP diluted earnings were $2.70 a share.",
-      "sources": [
-        {
-          "name": "NVIDIA",
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
         }
       ]
     },
